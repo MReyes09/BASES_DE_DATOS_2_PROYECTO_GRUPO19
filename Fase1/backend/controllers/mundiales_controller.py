@@ -33,13 +33,12 @@ class MundialesController:
                 'sede': sede,
                 'url_mundial': m['url_mundial']
             })
-            time.sleep(1)
         
         print(f"✅ PROCESADOS {len(mundiales_completos)} mundiales completos")
         return mundiales_completos
     
     def _extraer_anio_mundiales(self) -> List[Dict[str, Any]]:
-        """🔍 Extrae lista de 23 mundiales"""
+        """🔍 Extrae lista de mundiales"""
         url = f"{self.base_url}/mundiales.php"
         response = self.session.get(url, timeout=10)
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -82,7 +81,7 @@ class MundialesController:
             return "N/A"
         except:
             return "ERROR"
-    
+
     def generar_csv_completo(self, mundiales: List[Dict]) -> Dict:
         """💾 CSV para Postgres"""
         os.makedirs('data', exist_ok=True)

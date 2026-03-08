@@ -15,6 +15,6 @@ def todos_mundiales_completos():
     return jsonify({
         'success': True,
         'total': len(mundiales),
-        'data': mundiales[:len(mundiales) - 1],  # Solo muestra 5 en respuesta
+        'data': mundiales,  # Solo muestra 5 en respuesta
         **csv_result
     })
