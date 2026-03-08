@@ -1,0 +1,16 @@
+# 1. Crear carpeta proyecto
+mkdir mundiales-scraper
+cd mundiales-scraper
+
+# 2. Virtual env
+python -m venv venv
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+# 3. Instalar dependencias
+pip install -r requirements.txt
+
+# 4. Crear estructura
+mkdir models controllers routes data
