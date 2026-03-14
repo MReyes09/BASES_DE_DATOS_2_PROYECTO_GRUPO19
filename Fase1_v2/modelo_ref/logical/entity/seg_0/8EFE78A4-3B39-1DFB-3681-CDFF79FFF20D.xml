@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8EFE78A4-3B39-1DFB-3681-CDFF79FFF20D" name="Tipo_Premio">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>70784AC7-ADA6-9AB8-BFDE-0DDDB282871F</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ti_pre</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ti_pre" id="866D92B3-2140-0E8A-9C94-7DDB55BEAF8A">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>405A6E14-C75B-8A77-6415-43D7AE791DEF</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_ti_pre" id="39D6FD03-96D8-5C78-25A1-97F209DF7882">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>716160DF-8C26-952A-DF49-873FECCD60E8</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pre" id="6984B670-F6B4-7546-8FBC-0EC36FFDF628">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:55:48 UTC</createdTime>
+<generatorID>8F440005-BDDD-C4E2-C154-B06C60DA64F0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>4DE9E727-08D8-802A-595F-9864A5ACD6C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0FFF2EB1-4B22-C84A-E85F-C86951BD2ED8" name="Tipo premio pkey">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>3260127E-8F3D-F1D8-6F55-B04064E14685</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>866D92B3-2140-0E8A-9C94-7DDB55BEAF8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

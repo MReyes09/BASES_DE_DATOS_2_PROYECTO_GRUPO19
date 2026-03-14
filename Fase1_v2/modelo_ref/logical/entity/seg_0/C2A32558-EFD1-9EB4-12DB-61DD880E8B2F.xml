@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2A32558-EFD1-9EB4-12DB-61DD880E8B2F" name="Red social">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>64C5B714-0232-B8E7-5195-57470C87714E</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_red_so" id="B9E4AFD3-1F08-5149-514C-DFD879693417">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>B2293DA8-3B60-7A74-9176-AB4A24BA331D</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_red_so" id="E7BFD4C9-DC9E-51CF-E0A7-06C985E71233">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>7415C127-18AC-2896-AFBB-AD0E1A10EF72</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_red_sp" id="7F64A896-181C-544E-D863-A27D32164044">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:32:56 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ju" id="1108582A-EF62-E745-CB8C-6600285B64EE">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:30:17 UTC</createdTime>
+<generatorID>DD59F63A-8EF2-E56C-24EE-640F20CF373F</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>D5202266-DF87-0AA7-1594-4C2598B0B595</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BACA3868-73F7-8B82-AEAB-CFEEB3E35376" name="Red social pkey">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>5A4C5980-6893-5F17-003C-FE9ED3CDAF97</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9E4AFD3-1F08-5149-514C-DFD879693417</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

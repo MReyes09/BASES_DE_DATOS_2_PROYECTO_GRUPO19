@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3A719E0-8EC5-C19D-C5D8-918A0626A5F2" name="Red_social">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:59:28 UTC</createdTime>
+<generatorID>C2A32558-EFD1-9EB4-12DB-61DD880E8B2F</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_red_so" id="84F246AE-945B-6980-7FB9-0434A849627D">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:59:28 UTC</createdTime>
+<generatorID>B9E4AFD3-1F08-5149-514C-DFD879693417</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_red_so" id="6DE45198-6BEB-BADC-A0E4-273A5FD60F96">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:59:28 UTC</createdTime>
+<generatorID>E7BFD4C9-DC9E-51CF-E0A7-06C985E71233</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_red_sp" id="E8BAE4B3-5079-035A-75E9-C3B20C5D102E">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:59:28 UTC</createdTime>
+<generatorID>7F64A896-181C-544E-D863-A27D32164044</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jugador_id_ju" id="C71EE9E0-0D78-F143-84AF-8CB8B8FD59E1">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:59:28 UTC</createdTime>
+<generatorID>1108582A-EF62-E745-CB8C-6600285B64EE</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C0F3D73-71F1-3DB0-C3CA-7B8EBA35B15D" referredColumn="C2F41CFD-33F1-9AE5-77C8-A3922B4B22D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D18F183-F260-7271-C991-7F03A9BF328C" name="Red_social_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:59:28 UTC</createdTime>
+<generatorID>BACA3868-73F7-8B82-AEAB-CFEEB3E35376</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84F246AE-945B-6980-7FB9-0434A849627D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76EEC1CE-8027-0CFC-5072-C88553CC862E" name="Red_social_Jugador_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:59:28 UTC</createdTime>
+<generatorID>DD59F63A-8EF2-E56C-24EE-640F20CF373F</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C71EE9E0-0D78-F143-84AF-8CB8B8FD59E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

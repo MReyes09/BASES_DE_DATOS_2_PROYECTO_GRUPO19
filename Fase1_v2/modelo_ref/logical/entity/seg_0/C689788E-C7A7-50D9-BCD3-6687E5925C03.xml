@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C689788E-C7A7-50D9-BCD3-6687E5925C03" name="Pais">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>FAC55A4A-E438-04F4-D415-9C43C0A35AD5</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>pa</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pa" id="2C3B8FF5-32C2-F068-9C94-F1F86D59CF0C">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>01C6680A-4854-D8ED-81B5-2575791D737D</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name_pa" id="B38E32C5-5510-53EC-99B3-2D3169C0B3D2">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>8DE3120A-EC06-0862-D1C9-32851A8AF1A5</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3375B3FE-DEAB-EF8C-2479-D3F14249290F" name="Pais pkey">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>35251AC5-82EE-6865-D024-8DC49ED6C627</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C3B8FF5-32C2-F068-9C94-F1F86D59CF0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
