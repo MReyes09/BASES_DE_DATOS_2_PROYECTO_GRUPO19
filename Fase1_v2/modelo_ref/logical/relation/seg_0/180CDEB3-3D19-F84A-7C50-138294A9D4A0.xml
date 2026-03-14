@@ -43,7 +43,7 @@
 <logicalDatatype>LOGDT006</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
-<attribute name="No_camiseta" id="127C6923-0CF5-CB18-27E2-F8CED5790C09">
+<attribute name="no_camiseta" id="127C6923-0CF5-CB18-27E2-F8CED5790C09">
 <createdBy>matth</createdBy>
 <createdTime>2026-03-14 03:16:36 UTC</createdTime>
 <ownerDesignName>modelo_ref</ownerDesignName>
@@ -54,6 +54,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="titular" id="3535E5A3-2FD1-1F2E-F24B-B8E6F07EBA3A">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:52:15 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
 </attributes>

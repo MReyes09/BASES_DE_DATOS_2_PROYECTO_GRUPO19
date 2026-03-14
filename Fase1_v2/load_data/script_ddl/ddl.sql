@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
---   en:        2026-03-13 22:24:26 CST
+--   en:        2026-03-13 23:00:05 CST
 --   sitio:      Oracle Database 21c
 --   tipo:      Oracle Database 21c
 
@@ -8,6 +8,17 @@
 -- predefined type, no DDL - MDSYS.SDO_GEOMETRY
 
 -- predefined type, no DDL - XMLTYPE
+
+CREATE TABLE Cambio_Jugador 
+    ( 
+     Evento_Cambio_Jugador_id_ev_ca_ju NUMBER  NOT NULL , 
+     Jugador_id_ju                     NUMBER  NOT NULL 
+    ) 
+    LOGGING 
+;
+
+ALTER TABLE Cambio_Jugador 
+    ADD CONSTRAINT Cambio_Jugador_PK PRIMARY KEY ( Evento_Cambio_Jugador_id_ev_ca_ju, Jugador_id_ju ) ;
 
 CREATE TABLE Equipo 
     ( 
@@ -20,6 +31,17 @@ CREATE TABLE Equipo
 
 ALTER TABLE Equipo 
     ADD CONSTRAINT Equipo_PK PRIMARY KEY ( id_eq, Pais_id_pa ) ;
+
+CREATE TABLE Evento_Cambio_Jugador 
+    ( 
+     id_ev_ca_ju             NUMBER  NOT NULL , 
+     Evento_Partido_id_ev_pa NUMBER  NOT NULL 
+    ) 
+    LOGGING 
+;
+
+ALTER TABLE Evento_Cambio_Jugador 
+    ADD CONSTRAINT Evento_Cambio_Jugador_PK PRIMARY KEY ( id_ev_ca_ju ) ;
 
 CREATE TABLE Evento_Falta 
     ( 
@@ -39,7 +61,9 @@ CREATE TABLE Evento_Gol
      id_ev_go                NUMBER  NOT NULL , 
      Evento_Partido_id_ev_pa NUMBER  NOT NULL , 
      Jugador_id_ju           NUMBER  NOT NULL , 
-     tiempo_gol              VARCHAR2 (8)  NOT NULL 
+     tiempo_gol              VARCHAR2 (8)  NOT NULL , 
+     entre_tiempo_ev_go      VARCHAR2 (8) , 
+     penal                   NUMBER 
     ) 
     LOGGING 
 ;
@@ -179,7 +203,8 @@ CREATE TABLE Posicion_Jugador
      Jugador_id_ju    NUMBER  NOT NULL , 
      nombre_po_ju     VARCHAR2 (2) , 
      capitan          NUMBER , 
-     No_camiseta      NUMBER 
+     no_camiseta      NUMBER , 
+     titular          NUMBER 
     ) 
     LOGGING 
 ;
@@ -251,6 +276,30 @@ CREATE TABLE Tipo_Tarjeta
 ALTER TABLE Tipo_Tarjeta 
     ADD CONSTRAINT Tipo_Tarjeta_PK PRIMARY KEY ( id_ti_ta ) ;
 
+ALTER TABLE Cambio_Jugador 
+    ADD CONSTRAINT Cambio_Jugador_Evento_Cambio_Jugador_FK FOREIGN KEY 
+    ( 
+     Evento_Cambio_Jugador_id_ev_ca_ju
+    ) 
+    REFERENCES Evento_Cambio_Jugador 
+    ( 
+     id_ev_ca_ju
+    ) 
+    NOT DEFERRABLE 
+;
+
+ALTER TABLE Cambio_Jugador 
+    ADD CONSTRAINT Cambio_Jugador_Jugador_FK FOREIGN KEY 
+    ( 
+     Jugador_id_ju
+    ) 
+    REFERENCES Jugador 
+    ( 
+     id_ju
+    ) 
+    NOT DEFERRABLE 
+;
+
 ALTER TABLE Equipo 
     ADD CONSTRAINT Equipo_Pais_FK FOREIGN KEY 
     ( 
@@ -259,6 +308,18 @@ ALTER TABLE Equipo
     REFERENCES Pais 
     ( 
      id_pa
+    ) 
+    NOT DEFERRABLE 
+;
+
+ALTER TABLE Evento_Cambio_Jugador 
+    ADD CONSTRAINT Evento_Cambio_Jugador_Evento_Partido_FK FOREIGN KEY 
+    ( 
+     Evento_Partido_id_ev_pa
+    ) 
+    REFERENCES Evento_Partido 
+    ( 
+     id_ev_pa
     ) 
     NOT DEFERRABLE 
 ;
@@ -509,9 +570,9 @@ ALTER TABLE Tipo_Premio
 
 -- Informe de Resumen de Oracle SQL Developer Data Modeler: 
 -- 
--- CREATE TABLE                            19
+-- CREATE TABLE                            21
 -- CREATE INDEX                             2
--- ALTER TABLE                             40
+-- ALTER TABLE                             45
 -- CREATE VIEW                              0
 -- ALTER VIEW                               0
 -- CREATE PACKAGE                           0
