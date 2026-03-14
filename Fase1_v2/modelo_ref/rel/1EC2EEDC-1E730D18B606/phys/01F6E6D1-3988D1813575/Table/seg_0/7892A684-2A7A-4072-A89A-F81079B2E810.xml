@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Tipo_Tarjeta" directorySegmentName="seg_0" id="7892A684-2A7A-4072-A89A-F81079B2E810">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="color_tarjeta" id="0A01E23D-4312-A250-6B53-E254F3D2F282">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_ti_ta" id="DEE624FD-5EAD-C3CF-E0BD-EC475C53630B">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Tipo_Tarjeta_PK" id="35439246-6DDB-104D-57BB-DB15BF26D7BA">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

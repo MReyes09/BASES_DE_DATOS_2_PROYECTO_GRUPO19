@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pa_eq" directorySegmentName="seg_0" id="73BEA2EC-02CA-C4B9-DAFE-BC124CD5A99A">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 02:32:40 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<sourcePk>3375B3FE-DEAB-EF8C-2479-D3F14249290F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C689788E-C7A7-50D9-BCD3-6687E5925C03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB465F2F-FFD2-2197-0B5D-1A74B079954D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

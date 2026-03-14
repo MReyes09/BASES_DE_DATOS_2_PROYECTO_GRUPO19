@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Premio" directorySegmentName="seg_0" id="AF7275D0-E1A7-CC51-F2DD-E14650F629A2">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_pre" id="003D4287-CC9E-C911-B413-C1B26554E379">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Mundial_id_mu" id="62656238-5745-FD0E-D7CE-2CBBD8B3FEAD">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Premio_Mundial_FK" id="FB302812-AF6D-7364-DED9-DCF5672CFB57">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Premio_PK" id="A14B8CF4-2410-2855-FE09-A548D4E4F53C">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

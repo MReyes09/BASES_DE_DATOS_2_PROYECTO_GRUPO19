@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ju_red_so" directorySegmentName="seg_0" id="DD59F63A-8EF2-E56C-24EE-640F20CF373F">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:30:17 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<sourcePk>9BBDDC37-8CDF-3B4C-2A4E-AD76B6CBB707</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>475AED7A-9F5C-90E2-E9FB-538CBDBEE067</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C2A32558-EFD1-9EB4-12DB-61DD880E8B2F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

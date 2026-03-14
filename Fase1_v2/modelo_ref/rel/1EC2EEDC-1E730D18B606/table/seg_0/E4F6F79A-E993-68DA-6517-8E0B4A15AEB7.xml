@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4F6F79A-E993-68DA-6517-8E0B4A15AEB7" name="Evento_Falta">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Evento_Partido_id_ev_pa" id="620F9732-658C-C8A9-05BE-6D7AA9856FDB">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="444DCE05-6C5B-8CFF-F5B7-DFD4EE202C31" referredColumn="DE16CB0B-B343-AD34-21F2-FC42FB9E27F5"/>
+</associations>
+</Column>
+<Column name="Tipo_Tarjeta_id_ti_ta" id="C402D563-1902-BA11-A87B-D1409873662B">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34651CF2-E60A-2A15-8C32-787CEAC6C726" referredColumn="DEE624FD-5EAD-C3CF-E0BD-EC475C53630B"/>
+</associations>
+</Column>
+<Column name="minuto_falta" id="66AA542C-DA96-F2F3-8EEB-782DA69023F8">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<generatorID>4B61ABF6-7569-1C6E-8817-6017E1378EBC</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="entre_tiempo" id="CE00CBDB-AB09-0C8D-B812-A2D46A7D0DA9">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<generatorID>CCDA9847-2392-2C65-9EAF-D674CB36BAAC</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B9CAA34-C5DB-49F2-7DC4-EE8D92D4B6F4" name="Evento_Falta_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="620F9732-658C-C8A9-05BE-6D7AA9856FDB"/>
+<colUsage columnID="C402D563-1902-BA11-A87B-D1409873662B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C4132C4-76EA-304B-FBC4-BBAFF1AD80DD" name="Evento_Falta_Evento_Partido_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<generatorID>E6B9AF5E-6389-1AD2-9A46-D38FBED4DC07</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="620F9732-658C-C8A9-05BE-6D7AA9856FDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBF07BCC-01AE-9B4E-F77E-9B75A40AE467" name="Evento_Falta_Tipo_Tarjeta_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<generatorID>E6B9AF5E-6389-1AD2-9A46-D38FBED4DC07</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C402D563-1902-BA11-A87B-D1409873662B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

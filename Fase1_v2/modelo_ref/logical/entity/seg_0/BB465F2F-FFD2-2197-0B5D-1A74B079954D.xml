@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB465F2F-FFD2-2197-0B5D-1A74B079954D" name="Equipo">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 02:07:01 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>eq</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_eq" id="145A15CB-0CF7-A5E7-9918-5EC27A7E039B">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 02:07:10 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="director_tecnico_eq" id="5B2DDC55-5457-DEBC-48A7-0B15299D5C50">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 02:07:19 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pa" id="623FD35B-B5DC-F49A-CC36-14CADFBB81B7">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 02:32:40 UTC</createdTime>
+<generatorID>73BEA2EC-02CA-C4B9-DAFE-BC124CD5A99A</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>2C3B8FF5-32C2-F068-9C94-F1F86D59CF0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3077723C-586D-FE04-0F17-D9CCEFEDAFCB" name="Equipo PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 02:07:18 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>145A15CB-0CF7-A5E7-9918-5EC27A7E039B</attributeRef>
+<attributeRef>623FD35B-B5DC-F49A-CC36-14CADFBB81B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

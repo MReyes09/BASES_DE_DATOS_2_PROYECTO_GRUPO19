@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10A94E30-6DDB-D5E4-EE05-C1F760374066" name="Premios_Jugador">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Premio_id_pre" id="996BE5B6-269F-E935-6539-42615F0B4DDA">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA5A36D-9411-3B92-C962-B4DE77A585F2" referredColumn="003D4287-CC9E-C911-B413-C1B26554E379"/>
+</associations>
+</Column>
+<Column name="Jugador_id_ju" id="AF25EE9C-4028-2576-CC3E-CF0755A631E0">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D0E09E6-0AD2-FEBC-DF9F-6F7B9179B3E2" referredColumn="142E5AC8-57FD-7969-284D-C6B740AA8568"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="226F2BEC-91D9-AC1B-B5CD-9153B5DE8480" name="Premios_Jugador_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="996BE5B6-269F-E935-6539-42615F0B4DDA"/>
+<colUsage columnID="AF25EE9C-4028-2576-CC3E-CF0755A631E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0EFD9D7-7EF8-D186-48D5-D6904812CA48" name="Premios_Jugador_Premio_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<generatorID>D926761F-5EB3-01E5-70D4-345D5FBE7E19</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="996BE5B6-269F-E935-6539-42615F0B4DDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B1FC9B0-59DC-7F1C-DE2A-93AF4DC9FB8B" name="Premios_Jugador_Jugador_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<generatorID>D926761F-5EB3-01E5-70D4-345D5FBE7E19</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF25EE9C-4028-2576-CC3E-CF0755A631E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

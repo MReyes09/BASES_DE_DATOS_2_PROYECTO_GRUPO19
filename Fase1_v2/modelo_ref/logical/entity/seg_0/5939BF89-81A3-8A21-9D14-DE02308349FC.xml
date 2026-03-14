@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5939BF89-81A3-8A21-9D14-DE02308349FC" name="Mundial">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>36F0B002-A37F-A6B6-E7A9-CCDE4D6167DF</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>mu</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mu" id="34A14ED4-3510-9E19-6271-A441A0444167">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>00437EB2-DD87-AEFB-ACA3-5398E7507840</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_mu" id="89C85132-5C72-256D-1774-EA4A61B0A913">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>BAFAD52C-5B19-FCAC-D815-C9377A477282</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="organizador_mu" id="40114F9A-4E06-5AEB-7C72-AEF9A4A5D833">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 22:06:15 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBA9ED72-A8BF-3215-3246-2FFEE022211E" name="Mundial pkey">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-13 21:50:59 UTC</createdTime>
+<generatorID>4343F7C7-A75F-A308-E4E6-AA071AA4325B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34A14ED4-3510-9E19-6271-A441A0444167</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
