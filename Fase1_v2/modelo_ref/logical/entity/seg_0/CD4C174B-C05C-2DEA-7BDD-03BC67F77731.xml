@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD4C174B-C05C-2DEA-7BDD-03BC67F77731" name="Evento_Gol">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:42:09 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ev_go</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ev_go" id="CCCA5702-AFD9-BD98-D9EC-207701AFF28F">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:42:18 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ev_pa" id="1550C5CF-79D9-5BB2-644F-CB0E4EB9C95B">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:42:48 UTC</createdTime>
+<generatorID>B1F88D57-331C-7ABE-DFC7-47928F2D8EAF</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>5B9C5866-9113-3403-3EB1-0CE62582F05D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ju" id="BE1EA531-5477-B348-AC6A-146279D433DA">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:44:51 UTC</createdTime>
+<generatorID>FBCA86F5-C1A8-B461-FCAC-94D3B6A9D183</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>D5202266-DF87-0AA7-1594-4C2598B0B595</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiempo_gol" id="E7329D16-A02F-0988-5CDB-235A572568D5">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:45:21 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF633117-76CF-ABEE-45A1-DAB753F9CE0B" name="Evento_Gol PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:42:25 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCCA5702-AFD9-BD98-D9EC-207701AFF28F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

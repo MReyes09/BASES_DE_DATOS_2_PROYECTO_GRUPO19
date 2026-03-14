@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34651CF2-E60A-2A15-8C32-787CEAC6C726" containerWithKeyObject="E4F6F79A-E993-68DA-6517-8E0B4A15AEB7" localFKIndex="FBF07BCC-01AE-9B4E-F77E-9B75A40AE467" name="Evento_Falta_Tipo_Tarjeta_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 04:05:32 UTC</createdTime>
+<generatorID>E6B9AF5E-6389-1AD2-9A46-D38FBED4DC07</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<referredTableLongName>Tipo_Tarjeta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7892A684-2A7A-4072-A89A-F81079B2E810</referredTableID>
+<keyObject>35439246-6DDB-104D-57BB-DB15BF26D7BA</keyObject>
+<referredKeyID>35439246-6DDB-104D-57BB-DB15BF26D7BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ti_ta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

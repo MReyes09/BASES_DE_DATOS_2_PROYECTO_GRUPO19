@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Evento_Falta" directorySegmentName="seg_0" id="E6B9AF5E-6389-1AD2-9A46-D38FBED4DC07">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:40:33 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>65C75F83-F5AD-68A7-9AC3-A416D57250CE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>65E6A98C-BF0B-CBA0-57BE-5396ED41891A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="minuto_falta" id="4B61ABF6-7569-1C6E-8817-6017E1378EBC">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:40:41 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</attribute>
+<attribute name="entre_tiempo" id="CCDA9847-2392-2C65-9EAF-D674CB36BAAC">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:40:51 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

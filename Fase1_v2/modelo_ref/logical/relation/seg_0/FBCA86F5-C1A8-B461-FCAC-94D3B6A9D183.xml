@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="go_ju" directorySegmentName="seg_0" id="FBCA86F5-C1A8-B461-FCAC-94D3B6A9D183">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 03:44:51 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<sourcePk>9BBDDC37-8CDF-3B4C-2A4E-AD76B6CBB707</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>475AED7A-9F5C-90E2-E9FB-538CBDBEE067</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD4C174B-C05C-2DEA-7BDD-03BC67F77731</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
