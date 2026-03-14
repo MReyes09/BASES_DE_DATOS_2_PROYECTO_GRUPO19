@@ -1,0 +1,10941 @@
+-- Detalle de mundiales por jugador (para generar Posicion_Jugador)
+-- Generado: 2026-03-14 02:39:49
+-- Columnas: jugador_id, mundial, pais, posicion, numero_camiseta, capitan, titular
+
+-- 1, 1958, Inglaterra, FW, 21, 0, 3
+-- 2, 2022, Estados Unidos, FW, 11, 0, 0
+-- 3, 1966, Bulgaria, FW, 17, 0, 0
+-- 4, 2006, Togo, DF, 3, 2, 2
+-- 5, 1998, Camerún, DF, 13, 0, 0
+-- 6, 2014, Italia, DF, 7, 0, 1
+-- 7, 1954, Uruguay, FW, 7, 0, 4
+-- 8, 1954, Francia, GK, 3, 0, 0
+-- 8, 1958, Francia, GK, 1, 0, 4
+-- 9, 2002, Italia, GK, 12, 0, 0
+-- 10, 2006, Argentina, GK, 1, 0, 5
+-- 11, 2018, Egipto, DF, 13, 0, 3
+-- 12, 1990, Egipto, MF, 10, 2, 2
+-- 13, 1994, Arabia Saudita, DF, 13, 2, 4
+-- 14, 1994, Marruecos, DF, 2, 0, 2
+-- 15, 1990, Egipto, FW, 19, 0, 0
+-- 16, 2022, Túnez, DF, 24, 0, 2
+-- 17, 1978, Irán, FW, 20, 0, 3
+-- 18, 2010, Argelia, MF, 22, 0, 0
+-- 19, 2022, Ghana, MF, 21, 0, 3
+-- 20, 1986, Iraq, FW, 11, 0, 0
+-- 21, 1990, Emiratos Arabes, FW, 9, 0, 0
+-- 22, 2022, Arabia Saudita, DF, 12, 0, 3
+-- 23, 1994, Arabia Saudita, FW, 9, 2, 2
+-- 24, 1990, Emiratos Arabes, DF, 6, 2, 3
+-- 25, 1990, Emiratos Arabes, GK, 1, 0, 0
+-- 26, 2018, Nigeria, DF, 12, 0, 1
+-- 27, 1990, Emiratos Arabes, GK, 22, 0, 0
+-- 28, 2010, Japón, MF, 2, 0, 4
+-- 29, 1990, Egipto, MF, 8, 0, 3
+-- 30, 1998, Irán, GK, 1, 2, 2
+-- 31, 2018, Irán, GK, 22, 0, 0
+-- 31, 2022, Irán, GK, 22, 0, 0
+-- 32, 1982, Camerún, MF, 14, 0, 3
+-- 33, 1934, Suiza, FW, None, 0, 2
+-- 33, 1938, Suiza, FW, None, 1, 3
+-- 34, 1978, Brasil, DF, 14, 0, 0
+-- 35, 2002, Portugal, DF, 3, 0, 0
+-- 36, 1994, España, DF, 5, 0, 5
+-- 36, 1998, España, DF, 5, 0, 1
+-- 37, 1962, Argentina, FW, 21, 0, 0
+-- 38, 2006, Francia, DF, 3, 0, 6
+-- 38, 2010, Francia, DF, 3, 0, 2
+-- 39, 1986, España, GK, 22, 0, 0
+-- 39, 1990, España, GK, 13, 0, 0
+-- 40, 1974, Australia, FW, 11, 0, 1
+-- 41, 1990, Egipto, MF, 12, 0, 0
+-- 42, 2010, Camerún, FW, 23, 0, 0
+-- 42, 2014, Camerún, FW, 10, 0, 2
+-- 42, 2022, Camerún, FW, 10, 1, 1
+-- 43, 2022, Marruecos, MF, 14, 0, 0
+-- 44, 1938, Suecia, GK, None, 0, 3
+-- 45, 1978, Alemania Occidental, FW, 7, 0, 3
+-- 46, 1998, Marruecos, DF, 15, 0, 1
+-- 47, 2002, Uruguay, FW, 13, 0, 3
+-- 47, 2010, Uruguay, FW, 13, 0, 0
+-- 48, 1990, Brasil, GK, 12, 0, 0
+-- 49, 1982, Perú, GK, 1, 0, 0
+-- 50, 1962, Colombia, FW, 13, 0, 3
+-- 51, 1998, Paraguay, GK, 12, 0, 0
+-- 52, 1958, Argentina, DF, 15, 0, 0
+-- 53, 1986, Uruguay, DF, 3, 1, 4
+-- 54, 1970, El Salvador, FW, 21, 0, 0
+-- 55, 1950, Bolivia, DF, None, 0, 1
+-- 56, 2014, Ecuador, DF, 21, 0, 0
+-- 57, 1958, Paraguay, DF, 4, 0, 3
+-- 58, 1974, Yugoslavia, MF, 10, 1, 6
+-- 59, 2002, Eslovenia, MF, 18, 0, 2
+-- 60, 2014, Costa Rica, DF, 2, 0, 1
+-- 60, 2018, Costa Rica, DF, 2, 0, 3
+-- 61, 2022, Estados Unidos, MF, 23, 0, 0
+-- 62, 2014, Ghana, MF, 6, 0, 0
+-- 63, 1998, Chile, MF, 8, 0, 4
+-- 64, 1950, España, GK, None, 0, 0
+-- 65, 2018, Argentina, DF, 8, 0, 1
+-- 65, 2022, Argentina, MF, 8, 0, 4
+-- 66, 1998, Paraguay, MF, 10, 0, 3
+-- 66, 2002, Paraguay, MF, 10, 0, 4
+-- 66, 2006, Paraguay, MF, 10, 0, 3
+-- 67, 1982, Kuwait, GK, 21, 0, 0
+-- 68, 1982, Nueva Zelanda, DF, 16, 0, 0
+-- 69, 1970, Rumania, GK, 21, 0, 2
+-- 70, 1962, Checoslovaquia, FW, 10, 0, 3
+-- 70, 1970, Checoslovaquia, FW, 10, 0, 2
+-- 71, 1930, Bélgica, FW, None, 0, 2
+-- 72, 2014, Ghana, GK, 1, 0, 0
+-- 73, 1998, Inglaterra, DF, 5, 0, 4
+-- 74, 2022, Estados Unidos, MF, 4, 4, 4
+-- 75, 1950, Brasil, FW, None, 0, 0
+-- 76, 2006, Ghana, MF, 18, 0, 2
+-- 77, 2006, Ghana, MF, 20, 0, 1
+-- 78, 2010, Ghana, DF, 19, 0, 1
+-- 79, 2006, Togo, FW, 4, 0, 3
+-- 80, 2022, Canadá, DF, 3, 0, 1
+-- 81, 1962, España, FW, 18, 0, 1
+-- 81, 1966, España, DF, 21, 0, 1
+-- 82, 2010, Nigeria, DF, 22, 0, 0
+-- 83, 1950, Brasil, FW, None, 0, 6
+-- 84, 1974, Brasil, MF, 18, 0, 1
+-- 85, 1994, Nigeria, MF, 21, 0, 0
+-- 85, 1998, Nigeria, MF, 8, 0, 3
+-- 85, 2002, Nigeria, MF, 8, 0, 0
+-- 86, 2022, Alemania, FW, 24, 0, 0
+-- 87, 2010, Ghana, FW, 18, 0, 0
+-- 88, 2006, Ghana, GK, 1, 0, 0
+-- 89, 1970, Brasil, GK, 12, 0, 0
+-- 90, 2014, Ghana, MF, 14, 0, 0
+-- 91, 2006, Brasil, FW, 7, 0, 3
+-- 92, 2018, Perú, DF, 17, 0, 3
+-- 93, 1938, Suiza, FW, None, 0, 0
+-- 94, 2022, Suiza, MF, 14, 0, 0
+-- 95, 1938, Suiza, FW, None, 0, 2
+-- 96, 2010, Paises Bajos, MF, 20, 0, 0
+-- 97, 2014, Ghana, DF, 23, 0, 2
+-- 98, 2022, Catar, FW, 11, 0, 3
+-- 99, 2002, Nigeria, DF, 13, 0, 0
+-- 99, 2010, Nigeria, DF, 5, 0, 1
+-- 100, 1966, URSS, DF, 5, 0, 1
+-- 100, 1970, URSS, DF, 3, 0, 3
+-- 101, 1938, Brasil, MF, None, 0, 4
+-- 102, 2022, Ghana, MF, 13, 0, 0
+-- 103, 2006, Togo, GK, 16, 0, 3
+-- 104, 2014, Nigeria, GK, 21, 0, 0
+-- 105, 1994, Camerún, DF, 15, 0, 3
+-- 106, 2006, Togo, MF, 8, 0, 1
+-- 107, 1994, Nigeria, GK, 22, 0, 0
+-- 108, 2010, Dinamarca, DF, 4, 0, 3
+-- 109, 2002, Nigeria, FW, 17, 0, 3
+-- 110, 1998, Estados Unidos, DF, 12, 0, 0
+-- 110, 2002, Estados Unidos, DF, 12, 0, 3
+-- 111, 1994, Nigeria, GK, 16, 0, 0
+-- 112, 2022, Marruecos, DF, 5, 0, 4
+-- 113, 1958, Paraguay, FW, 7, 3, 3
+-- 114, 2010, Argentina, FW, 16, 0, 1
+-- 114, 2014, Argentina, FW, 20, 0, 3
+-- 114, 2018, Argentina, FW, 19, 0, 2
+-- 115, 2014, Colombia, MF, 8, 0, 3
+-- 115, 2018, Colombia, MF, 8, 0, 1
+-- 116, 2010, México, DF, 12, 0, 1
+-- 116, 2014, México, DF, 22, 0, 4
+-- 117, 1958, Paraguay, GK, 12, 0, 2
+-- 118, 1998, España, DF, 15, 0, 2
+-- 119, 2022, Costa Rica, MF, 20, 0, 1
+-- 120, 1986, Uruguay, FW, 20, 0, 0
+-- 120, 1990, Uruguay, FW, 18, 0, 1
+-- 121, 1998, Paraguay, MF, 6, 0, 0
+-- 122, 1930, Chile, FW, None, 0, 1
+-- 123, 1958, Paraguay, FW, 10, 0, 0
+-- 124, 2002, Ecuador, MF, 10, 1, 1
+-- 125, 1930, Paraguay, MF, None, 0, 1
+-- 126, 1986, México, FW, 13, 0, 5
+-- 127, 2010, Ghana, GK, 1, 0, 0
+-- 128, 2014, Ghana, MF, 8, 0, 1
+-- 129, 1974, Suecia, MF, 22, 0, 0
+-- 130, 1950, Suecia, MF, None, 0, 0
+-- 131, 2014, Irán, GK, 1, 0, 0
+-- 132, 2022, Catar, DF, 14, 0, 3
+-- 133, 1954, Turquía, DF, 19, 0, 0
+-- 134, 2002, Corea del Sur, MF, 19, 0, 4
+-- 134, 2006, Corea del Sur, FW, 9, 0, 0
+-- 134, 2010, Corea del Sur, FW, 9, 0, 0
+-- 135, 2010, Ghana, GK, 16, 0, 0
+-- 136, 1974, Chile, FW, 9, 0, 3
+-- 137, 2022, Ghana, DF, 15, 0, 0
+-- 138, 1990, Austria, DF, 2, 0, 3
+-- 139, 2002, Argentina, MF, 16, 0, 1
+-- 139, 2006, Argentina, MF, 16, 0, 0
+-- 140, 1954, Escocia, DF, 3, 0, 2
+-- 141, 2018, Marruecos, MF, 15, 0, 0
+-- 142, 1986, Escocia, MF, 8, 0, 3
+-- 142, 1990, Escocia, MF, 3, 3, 3
+-- 143, 2010, Nigeria, FW, 8, 0, 3
+-- 144, 2010, Nigeria, GK, 23, 0, 0
+-- 145, 2006, Costa de Marfil, MF, 2, 0, 2
+-- 146, 2018, Suiza, DF, 5, 0, 4
+-- 146, 2022, Suiza, DF, 5, 0, 4
+-- 147, 2022, Paises Bajos, DF, 5, 0, 5
+-- 148, 1954, Turquía, DF, 18, 0, 0
+-- 149, 1978, Túnez, FW, 9, 0, 3
+-- 150, 2014, Rusia, GK, 1, 0, 3
+-- 150, 2018, Rusia, GK, 1, 5, 5
+-- 151, 1998, Japón, DF, 17, 0, 3
+-- 151, 2002, Japón, DF, 2, 0, 0
+-- 152, 2006, Togo, DF, 12, 0, 0
+-- 153, 2014, Costa de Marfil, DF, 7, 0, 0
+-- 154, 2018, Nigeria, GK, 16, 0, 0
+-- 155, 2006, Angola, FW, 10, 3, 3
+-- 156, 2002, Nigeria, FW, 18, 0, 1
+-- 157, 2002, Turquía, DF, 4, 0, 7
+-- 158, 1982, Kuwait, FW, 10, 0, 3
+-- 159, 1998, Arabia Saudita, GK, 22, 0, 0
+-- 160, 1994, Arabia Saudita, MF, 18, 0, 1
+-- 161, 2006, Arabia Saudita, DF, 15, 0, 0
+-- 162, 1982, Kuwait, MF, 8, 0, 3
+-- 163, 1994, Arabia Saudita, MF, 8, 0, 4
+-- 164, 2006, Arabia Saudita, DF, 17, 0, 0
+-- 165, 1982, Kuwait, FW, 16, 0, 3
+-- 166, 1994, Arabia Saudita, DF, 15, 0, 0
+-- 167, 1994, Arabia Saudita, GK, 1, 0, 4
+-- 167, 1998, Arabia Saudita, GK, 1, 0, 3
+-- 167, 2002, Arabia Saudita, GK, 1, 2, 3
+-- 167, 2006, Arabia Saudita, GK, 1, 0, 0
+-- 168, 1994, Arabia Saudita, DF, 2, 0, 1
+-- 169, 2002, Arabia Saudita, FW, 15, 0, 0
+-- 170, 1998, Arabia Saudita, DF, 17, 0, 0
+-- 170, 2002, Arabia Saudita, DF, 12, 0, 1
+-- 170, 2006, Arabia Saudita, DF, 2, 0, 3
+-- 171, 1998, Arabia Saudita, FW, 8, 0, 0
+-- 171, 2002, Arabia Saudita, FW, 11, 0, 1
+-- 172, 1998, Arabia Saudita, MF, 16, 0, 3
+-- 172, 2002, Arabia Saudita, MF, 16, 0, 2
+-- 173, 1934, Egipto, MF, None, 0, 1
+-- 174, 2002, Arabia Saudita, MF, 19, 0, 0
+-- 174, 2006, Arabia Saudita, MF, 6, 0, 2
+-- 175, 1982, Kuwait, MF, 11, 0, 0
+-- 176, 1994, Arabia Saudita, FW, 7, 0, 0
+-- 177, 1990, Emiratos Arabes, DF, 21, 0, 1
+-- 178, 1982, Kuwait, FW, 19, 0, 0
+-- 179, 1998, Arabia Saudita, MF, 12, 0, 0
+-- 180, 2006, Arabia Saudita, FW, 11, 0, 1
+-- 181, 1982, Kuwait, DF, 15, 0, 0
+-- 182, 2006, Arabia Saudita, FW, 23, 0, 0
+-- 183, 1994, Arabia Saudita, GK, 22, 0, 0
+-- 184, 1982, Kuwait, MF, 6, 3, 3
+-- 185, 1994, Arabia Saudita, FW, 12, 0, 2
+-- 185, 1998, Arabia Saudita, FW, 9, 0, 3
+-- 185, 2002, Arabia Saudita, FW, 9, 1, 1
+-- 185, 2006, Arabia Saudita, FW, 9, 1, 1
+-- 186, 1998, Arabia Saudita, DF, 2, 0, 3
+-- 186, 2002, Arabia Saudita, DF, 2, 0, 2
+-- 187, 1998, Arabia Saudita, DF, 19, 0, 0
+-- 188, 2006, Arabia Saudita, FW, 20, 0, 2
+-- 189, 1994, Arabia Saudita, DF, 3, 0, 4
+-- 189, 1998, Arabia Saudita, DF, 3, 0, 2
+-- 190, 1994, Arabia Saudita, FW, 11, 0, 0
+-- 190, 1998, Arabia Saudita, FW, 11, 0, 1
+-- 191, 2006, Arabia Saudita, DF, 4, 0, 3
+-- 192, 1982, Kuwait, DF, 5, 0, 3
+-- 193, 1994, Arabia Saudita, MF, 14, 0, 2
+-- 193, 1998, Arabia Saudita, MF, 14, 0, 1
+-- 194, 1994, Arabia Saudita, FW, 10, 0, 4
+-- 194, 1998, Arabia Saudita, FW, 10, 0, 2
+-- 195, 1982, Kuwait, DF, 4, 0, 0
+-- 196, 2006, Arabia Saudita, DF, 5, 0, 0
+-- 197, 1986, Iraq, DF, 22, 0, 3
+-- 198, 2022, Arabia Saudita, GK, 1, 0, 0
+-- 199, 1994, Arabia Saudita, GK, 21, 0, 0
+-- 199, 1998, Arabia Saudita, GK, 21, 0, 0
+-- 200, 2002, Arabia Saudita, MF, 17, 0, 2
+-- 201, 1998, Arabia Saudita, MF, 7, 0, 2
+-- 201, 2002, Arabia Saudita, MF, 7, 0, 2
+-- 202, 2002, Arabia Saudita, MF, 10, 0, 0
+-- 202, 2006, Arabia Saudita, MF, 10, 0, 0
+-- 203, 2022, Catar, GK, 1, 0, 1
+-- 204, 2002, Arabia Saudita, DF, 6, 0, 2
+-- 205, 1982, Kuwait, DF, 17, 0, 0
+-- 206, 1998, Arabia Saudita, DF, 13, 0, 3
+-- 206, 2002, Arabia Saudita, DF, 13, 0, 3
+-- 206, 2006, Arabia Saudita, DF, 13, 2, 3
+-- 207, 1994, Arabia Saudita, DF, 17, 0, 0
+-- 208, 1990, Emiratos Arabes, FW, 10, 0, 3
+-- 209, 1982, Kuwait, GK, 1, 0, 3
+-- 210, 1998, Arabia Saudita, MF, 18, 0, 1
+-- 210, 2002, Arabia Saudita, MF, 18, 0, 3
+-- 210, 2006, Arabia Saudita, MF, 18, 0, 1
+-- 211, 1998, Arabia Saudita, FW, 15, 0, 1
+-- 212, 2002, Arabia Saudita, FW, 20, 0, 2
+-- 213, 2022, Arabia Saudita, MF, 18, 0, 0
+-- 214, 2022, Arabia Saudita, FW, 20, 0, 0
+-- 215, 2022, Arabia Saudita, DF, 4, 0, 2
+-- 216, 2022, Arabia Saudita, GK, 22, 0, 0
+-- 217, 2018, Arabia Saudita, DF, 6, 0, 3
+-- 217, 2022, Arabia Saudita, DF, 6, 0, 1
+-- 218, 2018, Arabia Saudita, DF, 4, 0, 1
+-- 218, 2022, Arabia Saudita, DF, 5, 0, 3
+-- 219, 2022, Arabia Saudita, FW, 9, 0, 3
+-- 220, 2022, Arabia Saudita, MF, 24, 0, 0
+-- 221, 2018, Arabia Saudita, MF, 18, 0, 3
+-- 221, 2022, Arabia Saudita, FW, 10, 2, 3
+-- 222, 2018, Arabia Saudita, MF, 7, 0, 3
+-- 222, 2022, Arabia Saudita, MF, 7, 1, 1
+-- 223, 2022, Arabia Saudita, DF, 2, 0, 1
+-- 224, 2022, Catar, MF, 24, 0, 0
+-- 225, 2022, Catar, MF, 20, 0, 0
+-- 226, 2018, Arabia Saudita, DF, 2, 0, 0
+-- 227, 2022, Arabia Saudita, MF, 15, 0, 1
+-- 228, 2022, Catar, MF, 10, 3, 3
+-- 229, 2018, Arabia Saudita, MF, 17, 0, 2
+-- 230, 2018, Arabia Saudita, MF, 15, 0, 0
+-- 231, 2018, Arabia Saudita, MF, 11, 0, 0
+-- 232, 2022, Arabia Saudita, MF, 8, 0, 2
+-- 233, 2018, Arabia Saudita, GK, 1, 0, 1
+-- 234, 2018, Arabia Saudita, MF, 16, 0, 1
+-- 235, 2018, Arabia Saudita, GK, 21, 0, 1
+-- 236, 2018, Arabia Saudita, FW, 19, 0, 2
+-- 237, 2022, Arabia Saudita, MF, 16, 0, 1
+-- 238, 2018, Arabia Saudita, GK, 22, 0, 1
+-- 238, 2022, Arabia Saudita, GK, 21, 0, 3
+-- 239, 2022, Catar, DF, 15, 0, 1
+-- 240, 2018, Arabia Saudita, FW, 10, 0, 1
+-- 241, 2018, Arabia Saudita, DF, 13, 0, 3
+-- 241, 2022, Arabia Saudita, DF, 13, 0, 1
+-- 242, 2022, Arabia Saudita, FW, 11, 0, 3
+-- 243, 2018, Arabia Saudita, MF, 8, 0, 1
+-- 244, 2022, Catar, FW, 7, 0, 0
+-- 245, 1970, Bulgaria, DF, 4, 0, 1
+-- 245, 1974, Bulgaria, DF, 12, 0, 0
+-- 246, 1970, Marruecos, FW, 17, 0, 1
+-- 247, 2014, España, DF, 18, 0, 3
+-- 247, 2018, España, DF, 18, 0, 4
+-- 247, 2022, España, DF, 18, 0, 3
+-- 248, 1934, Argentina, MF, None, 0, 0
+-- 249, 2002, España, MF, 14, 0, 1
+-- 249, 2006, España, MF, 6, 0, 1
+-- 250, 1962, Hungría, FW, 9, 0, 3
+-- 250, 1966, Hungría, FW, 9, 0, 4
+-- 251, 1990, Bélgica, DF, 3, 0, 1
+-- 251, 1994, Bélgica, DF, 4, 0, 3
+-- 252, 1994, Italia, MF, 11, 0, 7
+-- 252, 1998, Italia, MF, 9, 0, 3
+-- 253, 1962, Italia, GK, 13, 0, 0
+-- 253, 1966, Italia, GK, 1, 0, 3
+-- 253, 1970, Italia, GK, 1, 0, 6
+-- 253, 1974, Italia, GK, 12, 0, 0
+-- 254, 2010, España, DF, 2, 0, 0
+-- 254, 2014, España, DF, 2, 0, 1
+-- 255, 1986, Escocia, DF, 15, 0, 1
+-- 256, 2014, Chile, DF, 3, 0, 0
+-- 257, 1930, Bolivia, FW, None, 0, 2
+-- 258, 1934, Alemania, MF, None, 0, 0
+-- 259, 1970, Checoslovaquia, FW, 20, 0, 0
+-- 260, 1962, Argentina, DF, 17, 0, 0
+-- 260, 1966, Argentina, MF, 12, 0, 3
+-- 261, 2006, Estados Unidos, DF, 2, 0, 0
+-- 262, 1934, Rumania, DF, None, 0, 1
+-- 263, 2010, Paraguay, DF, 21, 0, 4
+-- 264, 1986, Paraguay, MF, 17, 0, 0
+-- 265, 1934, Francia, FW, None, 0, 1
+-- 266, 1966, Brasil, FW, 18, 0, 2
+-- 267, 1990, Brasil, DF, 14, 0, 0
+-- 267, 1994, Brasil, DF, 13, 0, 6
+-- 267, 1998, Brasil, DF, 3, 0, 6
+-- 268, 2014, Bélgica, DF, 2, 0, 4
+-- 268, 2018, Bélgica, DF, 2, 0, 6
+-- 268, 2022, Bélgica, DF, 2, 0, 3
+-- 269, 1990, Irlanda, FW, 9, 0, 5
+-- 269, 1994, Irlanda, FW, 9, 0, 1
+-- 270, 1986, URSS, MF, 20, 0, 4
+-- 270, 1990, URSS, MF, 7, 0, 3
+-- 271, 1970, México, DF, 2, 0, 0
+-- 272, 1994, Bulgaria, FW, 18, 0, 0
+-- 273, 1986, Brasil, MF, 15, 0, 5
+-- 273, 1990, Brasil, MF, 5, 0, 4
+-- 274, 2002, Rusia, MF, 15, 0, 1
+-- 275, 2018, Inglaterra, DF, 22, 0, 1
+-- 275, 2022, Inglaterra, DF, 18, 0, 0
+-- 276, 2002, Suecia, MF, 7, 0, 4
+-- 276, 2006, Suecia, MF, 7, 0, 4
+-- 277, 1966, Portugal, DF, 20, 0, 5
+-- 278, 1994, Grecia, FW, 21, 0, 1
+-- 279, 1982, España, DF, 6, 0, 5
+-- 280, 1994, Grecia, DF, 22, 0, 1
+-- 281, 1994, Grecia, FW, 16, 0, 1
+-- 282, 1982, El Salvador, MF, 16, 0, 0
+-- 283, 2006, Costa Rica, GK, 23, 0, 0
+-- 284, 1998, España, FW, 11, 0, 2
+-- 285, 1974, Brasil, DF, 15, 0, 1
+-- 286, 1950, Brasil, FW, None, 0, 1
+-- 287, 1954, Brasil, DF, 13, 0, 0
+-- 288, 1950, Bolivia, FW, None, 0, 1
+-- 289, 2022, Catar, FW, 19, 0, 3
+-- 290, 1954, Turquía, DF, 14, 0, 0
+-- 291, 1986, Iraq, MF, 12, 0, 0
+-- 292, 2018, Brasil, GK, 1, 0, 5
+-- 292, 2022, Brasil, GK, 1, 0, 4
+-- 293, 1990, España, DF, 12, 0, 0
+-- 293, 1994, España, DF, 18, 0, 4
+-- 293, 1998, España, DF, 4, 0, 3
+-- 294, 1978, Irán, DF, 5, 0, 1
+-- 295, 2002, Suecia, FW, 10, 0, 4
+-- 295, 2006, Suecia, FW, 20, 0, 1
+-- 296, 1958, Gales, FW, 10, 0, 5
+-- 297, 1958, Gales, FW, 21, 0, 0
+-- 298, 1934, Italia, DF, None, 0, 5
+-- 299, 1962, Suiza, FW, 14, 0, 3
+-- 300, 1966, Suiza, DF, 2, 0, 0
+-- 301, 2022, Gales, MF, 7, 0, 1
+-- 302, 1986, Alemania Occidental, MF, 13, 0, 0
+-- 303, 2018, Inglaterra, MF, 20, 0, 4
+-- 304, 1986, Alemania Occidental, FW, 19, 0, 7
+-- 305, 1982, Alemania Occidental, FW, 16, 0, 0
+-- 306, 2022, Argentina, MF, 16, 0, 0
+-- 307, 2014, Portugal, DF, 19, 0, 1
+-- 308, 2010, Portugal, FW, 18, 0, 2
+-- 308, 2014, Portugal, FW, 9, 0, 1
+-- 309, 1998, Argentina, MF, 5, 0, 5
+-- 309, 2002, Argentina, MF, 5, 0, 1
+-- 310, 1938, Suecia, MF, None, 0, 3
+-- 311, 1986, Argentina, FW, 1, 0, 0
+-- 312, 1982, Nueva Zelanda, DF, 6, 0, 2
+-- 313, 2014, Irán, DF, 17, 0, 0
+-- 314, 2002, Camerún, MF, 15, 0, 0
+-- 315, 2006, Australia, FW, 15, 0, 0
+-- 316, 1986, Paraguay, FW, 21, 0, 0
+-- 317, 1938, Cuba, FW, None, 0, 1
+-- 318, 1982, España, MF, 4, 0, 5
+-- 319, 1978, Argentina, MF, 1, 0, 0
+-- 320, 2006, España, MF, 14, 0, 3
+-- 320, 2010, España, MF, 14, 0, 7
+-- 320, 2014, España, MF, 14, 0, 3
+-- 321, 1974, Australia, FW, 12, 0, 3
+-- 322, 1958, Italia, FW, 18, 0, 3
+-- 322, 1962, Italia, FW, 9, 0, 2
+-- 323, 1962, Brasil, DF, 15, 0, 0
+-- 323, 1966, Brasil, DF, 6, 0, 2
+-- 324, 2002, Arabia Saudita, DF, 23, 0, 0
+-- 325, 2010, Estados Unidos, FW, 17, 0, 4
+-- 325, 2014, Estados Unidos, FW, 17, 0, 1
+-- 326, 1982, Italia, FW, 18, 0, 0
+-- 326, 1986, Italia, FW, 18, 0, 4
+-- 327, 2022, Costa Rica, GK, 18, 0, 0
+-- 328, 2022, México, FW, 25, 0, 0
+-- 329, 2002, Paraguay, MF, 8, 0, 2
+-- 330, 2010, Honduras, MF, 17, 0, 2
+-- 331, 2018, México, DF, 21, 0, 3
+-- 331, 2022, México, DF, 4, 0, 2
+-- 332, 1962, Uruguay, DF, 18, 0, 3
+-- 332, 1966, Uruguay, MF, 16, 0, 0
+-- 333, 1962, Uruguay, DF, 3, 0, 3
+-- 333, 1966, Uruguay, MF, 14, 0, 0
+-- 334, 2022, Argentina, FW, 9, 0, 5
+-- 335, 2022, México, DF, 26, 0, 1
+-- 336, 1990, Colombia, MF, 14, 0, 4
+-- 336, 1994, Colombia, MF, 14, 0, 3
+-- 337, 1950, Chile, DF, None, 0, 3
+-- 338, 2014, Argentina, MF, 19, 0, 0
+-- 339, 2014, Colombia, DF, 16, 0, 1
+-- 340, 1986, Portugal, DF, 5, 0, 3
+-- 341, 2006, Suecia, GK, 12, 0, 0
+-- 342, 2010, Portugal, DF, 2, 0, 4
+-- 342, 2014, Portugal, DF, 2, 0, 3
+-- 342, 2018, Portugal, DF, 2, 0, 0
+-- 343, 2010, Brasil, DF, 13, 0, 3
+-- 343, 2014, Brasil, DF, 2, 0, 4
+-- 343, 2022, Brasil, DF, 13, 1, 1
+-- 344, 1986, Uruguay, GK, 12, 0, 4
+-- 344, 1990, Uruguay, GK, 1, 0, 4
+-- 345, 1986, Uruguay, FW, 7, 0, 2
+-- 345, 1990, Uruguay, FW, 7, 0, 2
+-- 346, 1962, Colombia, DF, 4, 0, 2
+-- 347, 1950, Italia, FW, None, 0, 1
+-- 348, 1938, Suiza, FW, None, 0, 3
+-- 349, 1986, México, DF, 18, 0, 3
+-- 350, 2022, Marruecos, MF, 15, 0, 4
+-- 351, 1978, Suecia, DF, 14, 0, 0
+-- 352, 1986, Marruecos, MF, 16, 0, 0
+-- 353, 1966, España, FW, 8, 0, 2
+-- 354, 1982, Argelia, GK, 21, 0, 0
+-- 354, 1986, Argelia, GK, 22, 0, 0
+-- 355, 1978, Brasil, DF, 4, 0, 7
+-- 356, 1962, Brasil, FW, 20, 0, 4
+-- 357, 1958, Paraguay, FW, 11, 0, 3
+-- 358, 2022, Ghana, DF, 18, 0, 3
+-- 359, 1994, México, DF, 4, 4, 4
+-- 360, 1954, Uruguay, FW, 19, 0, 4
+-- 361, 2014, Nigeria, DF, 5, 0, 4
+-- 362, 2006, Ecuador, DF, 13, 0, 1
+-- 363, 1966, Suiza, DF, 3, 0, 2
+-- 364, 2006, Arabia Saudita, MF, 7, 0, 1
+-- 365, 2006, Italia, GK, 14, 0, 0
+-- 366, 2014, Nigeria, FW, 23, 0, 0
+-- 367, 1998, Austria, MF, 11, 0, 0
+-- 368, 1966, Portugal, GK, 1, 0, 0
+-- 369, 1930, México, MF, None, 0, 2
+-- 370, 1994, Arabia Saudita, MF, 6, 0, 3
+-- 370, 1998, Arabia Saudita, MF, 6, 3, 3
+-- 371, 2018, Panamá, DF, 2, 0, 2
+-- 372, 2018, Irán, MF, 11, 0, 3
+-- 372, 2022, Irán, MF, 11, 0, 0
+-- 373, 2006, Ghana, FW, 14, 0, 4
+-- 373, 2010, Ghana, FW, 14, 0, 0
+-- 374, 1994, Nigeria, FW, 14, 0, 4
+-- 374, 1998, Nigeria, FW, 14, 0, 1
+-- 375, 1998, España, MF, 18, 0, 2
+-- 376, 2010, Portugal, MF, 17, 0, 0
+-- 376, 2014, Portugal, MF, 20, 0, 1
+-- 377, 1982, Francia, DF, 2, 0, 5
+-- 377, 1986, Francia, DF, 2, 0, 7
+-- 378, 2022, Gales, DF, 15, 0, 3
+-- 379, 2018, Marruecos, MF, 16, 0, 3
+-- 380, 2018, Marruecos, MF, 21, 0, 0
+-- 380, 2022, Marruecos, MF, 4, 0, 7
+-- 381, 1934, Estados Unidos, MF, None, 0, 0
+-- 382, 1938, Noruega, DF, None, 0, 0
+-- 383, 1994, Nigeria, MF, 11, 0, 4
+-- 384, 1998, Marruecos, MF, 17, 0, 1
+-- 385, 2010, Corea del Norte, FW, 7, 0, 0
+-- 386, 1994, Corea del Sur, DF, 13, 0, 0
+-- 387, 2002, China, GK, 1, 0, 0
+-- 388, 1966, Corea del Norte, FW, 21, 0, 0
+-- 389, 2010, Corea del Norte, MF, 17, 0, 3
+-- 390, 1974, Italia, FW, 19, 0, 2
+-- 391, 1986, Italia, MF, 9, 0, 0
+-- 391, 1990, Italia, MF, 9, 0, 2
+-- 392, 1970, Uruguay, DF, 2, 0, 6
+-- 393, 1998, Camerún, GK, 16, 0, 0
+-- 394, 1934, Paises Bajos, MF, None, 0, 1
+-- 394, 1938, Paises Bajos, MF, None, 0, 1
+-- 395, 1986, Dinamarca, DF, 21, 0, 3
+-- 396, 2022, Dinamarca, DF, 2, 0, 3
+-- 397, 1938, Noruega, DF, None, 0, 0
+-- 398, 2010, Dinamarca, GK, 16, 0, 0
+-- 399, 1954, Escocia, GK, 14, 0, 0
+-- 400, 1962, Inglaterra, MF, 14, 0, 0
+-- 401, 1982, Inglaterra, DF, 2, 0, 0
+-- 401, 1986, Inglaterra, DF, 12, 0, 0
+-- 402, 2002, Brasil, DF, 14, 0, 2
+-- 403, 1938, Suecia, FW, None, 0, 1
+-- 404, 2002, Suecia, FW, 22, 0, 0
+-- 405, 1974, Suecia, DF, 5, 0, 4
+-- 406, 2002, Suecia, MF, 20, 0, 0
+-- 406, 2006, Suecia, MF, 19, 0, 0
+-- 407, 1934, Suecia, MF, None, 0, 2
+-- 408, 1938, Suecia, FW, None, 0, 3
+-- 409, 1994, Suecia, FW, 19, 0, 6
+-- 410, 1978, Suecia, DF, 13, 0, 0
+-- 411, 1934, Suecia, DF, None, 0, 0
+-- 412, 1994, Suecia, DF, 3, 0, 7
+-- 412, 2002, Suecia, DF, 3, 0, 0
+-- 413, 1978, Suecia, DF, 20, 0, 0
+-- 414, 1978, Suecia, DF, 3, 0, 3
+-- 415, 1950, Suecia, DF, None, 0, 5
+-- 416, 1934, Suecia, DF, None, 0, 2
+-- 417, 1990, Suecia, GK, 1, 0, 0
+-- 418, 1998, Inglaterra, MF, 14, 0, 4
+-- 419, 1930, Francia, DF, None, 0, 0
+-- 420, 1990, Rumania, DF, 4, 0, 4
+-- 421, 1994, Bulgaria, FW, 22, 0, 0
+-- 422, 1930, Uruguay, MF, None, 0, 4
+-- 423, 1986, Portugal, MF, 21, 0, 2
+-- 424, 2006, Angola, MF, 8, 0, 2
+-- 425, 1974, Haití, DF, 4, 0, 1
+-- 426, 1998, Brasil, DF, 15, 0, 0
+-- 427, 2006, Angola, FW, 19, 0, 0
+-- 428, 1938, Noruega, MF, None, 0, 0
+-- 429, 1938, Italia, MF, None, 0, 4
+-- 430, 1938, Noruega, FW, None, 0, 0
+-- 431, 2006, Trinidad y Tobago, DF, 4, 0, 0
+-- 432, 1982, URSS, FW, 15, 0, 0
+-- 433, 1990, España, DF, 4, 0, 4
+-- 434, 1986, Hungría, GK, 22, 0, 0
+-- 435, 2010, Argentina, GK, 21, 0, 0
+-- 435, 2014, Argentina, GK, 21, 0, 0
+-- 436, 2010, Francia, FW, 21, 0, 2
+-- 437, 1998, Camerún, MF, 8, 0, 2
+-- 438, 2010, Costa de Marfil, DF, 2, 0, 0
+-- 439, 1962, Yugoslavia, MF, 7, 0, 1
+-- 440, 2010, Ghana, MF, 6, 0, 5
+-- 441, 1950, Estados Unidos, DF, None, 0, 0
+-- 442, 1950, Italia, MF, None, 0, 1
+-- 443, 1954, Bélgica, FW, 10, 0, 2
+-- 444, 2018, Argentina, DF, 4, 0, 0
+-- 445, 2014, Irán, FW, 10, 0, 0
+-- 445, 2018, Irán, FW, 10, 0, 2
+-- 445, 2022, Irán, FW, 10, 0, 0
+-- 446, 1930, Uruguay, FW, None, 0, 2
+-- 447, 1950, Suiza, FW, None, 0, 2
+-- 447, 1954, Suiza, FW, 15, 0, 3
+-- 447, 1962, Suiza, FW, 15, 3, 3
+-- 448, 1978, Italia, MF, 9, 0, 5
+-- 448, 1982, Italia, MF, 9, 0, 6
+-- 449, 1974, Haití, MF, 9, 0, 3
+-- 450, 2002, Suecia, DF, 13, 0, 0
+-- 451, 1986, Portugal, MF, 3, 0, 3
+-- 452, 2022, Brasil, FW, 19, 0, 1
+-- 453, 2022, México, FW, 21, 0, 0
+-- 454, 1950, España, DF, None, 0, 1
+-- 455, 1966, Italia, GK, 2, 0, 0
+-- 456, 2010, Alemania, DF, 4, 0, 1
+-- 457, 1982, Camerún, DF, 16, 0, 3
+-- 458, 2014, Japón, DF, 14, 0, 1
+-- 459, 1970, El Salvador, FW, 11, 0, 2
+-- 460, 1994, Italia, DF, 2, 0, 1
+-- 461, 1962, Colombia, DF, 7, 0, 0
+-- 462, 1994, Grecia, DF, 2, 1, 2
+-- 463, 1966, Bulgaria, DF, 19, 0, 0
+-- 464, 2006, Ghana, MF, 10, 4, 4
+-- 464, 2010, Ghana, MF, 10, 0, 0
+-- 465, 1958, URSS, FW, 7, 0, 1
+-- 466, 2014, Italia, MF, 14, 0, 0
+-- 467, 2014, México, MF, 20, 0, 0
+-- 467, 2018, México, MF, 20, 0, 0
+-- 468, 2018, Perú, MF, 23, 0, 1
+-- 469, 1982, El Salvador, MF, 7, 0, 0
+-- 470, 1986, Bulgaria, DF, 3, 0, 3
+-- 471, 1930, Brasil, FW, None, 0, 1
+-- 472, 2014, Chile, MF, 20, 0, 4
+-- 473, 1998, España, DF, 3, 0, 0
+-- 474, 1950, Bolivia, MF, None, 0, 0
+-- 475, 1962, España, GK, 1, 0, 1
+-- 476, 2018, Perú, DF, 5, 0, 0
+-- 477, 2022, México, DF, 2, 0, 1
+-- 478, 2022, Uruguay, DF, 4, 0, 0
+-- 479, 1966, Chile, FW, 1, 0, 3
+-- 480, 2010, España, DF, 17, 0, 0
+-- 481, 2022, Ecuador, DF, 4, 0, 0
+-- 482, 1934, Italia, FW, None, 0, 0
+-- 483, 1998, Paraguay, DF, 2, 0, 3
+-- 483, 2002, Paraguay, DF, 2, 0, 4
+-- 484, 1982, Escocia, FW, 18, 0, 2
+-- 484, 1986, Escocia, FW, 17, 0, 1
+-- 485, 1978, España, GK, 1, 0, 0
+-- 485, 1982, España, GK, 1, 5, 5
+-- 486, 1978, Argentina, MF, 2, 0, 6
+-- 486, 1982, Argentina, MF, 1, 0, 5
+-- 487, 1930, Chile, FW, None, 0, 1
+-- 488, 1998, México, FW, 21, 0, 0
+-- 488, 2002, México, FW, 21, 0, 3
+-- 488, 2006, México, FW, 21, 0, 0
+-- 489, 1954, México, FW, 11, 0, 2
+-- 490, 2002, Sudáfrica, GK, 16, 0, 3
+-- 491, 2018, Francia, GK, 23, 0, 0
+-- 491, 2022, Francia, GK, 23, 0, 0
+-- 492, 1958, Paraguay, DF, 2, 0, 3
+-- 493, 2010, Uruguay, MF, 17, 0, 7
+-- 493, 2014, Uruguay, MF, 17, 0, 4
+-- 494, 1938, Brasil, MF, None, 0, 1
+-- 495, 1930, Bolivia, MF, None, 0, 1
+-- 496, 1974, Chile, DF, 4, 0, 3
+-- 497, 1962, Colombia, FW, 22, 0, 1
+-- 498, 1938, Cuba, MF, None, 0, 3
+-- 499, 2014, Colombia, DF, 4, 0, 1
+-- 499, 2018, Colombia, DF, 4, 0, 4
+-- 500, 1934, Brasil, MF, None, 0, 0
+-- 501, 1994, Colombia, FW, 16, 0, 0
+-- 501, 1998, Colombia, FW, 15, 0, 1
+-- 502, 1982, Perú, DF, 13, 0, 0
+-- 503, 1934, Brasil, FW, None, 0, 1
+-- 504, 2018, Argentina, GK, 12, 0, 2
+-- 504, 2022, Argentina, GK, 1, 0, 0
+-- 505, 2014, Colombia, DF, 7, 0, 5
+-- 506, 1962, Inglaterra, DF, 2, 0, 4
+-- 506, 1966, Inglaterra, DF, 14, 0, 0
+-- 507, 1990, Estados Unidos, DF, 15, 0, 3
+-- 508, 1982, Irlanda del Norte, FW, 9, 0, 5
+-- 508, 1986, Irlanda del Norte, FW, 14, 0, 0
+-- 509, 1954, Inglaterra, MF, 19, 0, 0
+-- 510, 2018, Islandia, DF, 14, 0, 2
+-- 511, 1986, Dinamarca, MF, 15, 0, 3
+-- 512, 1998, Chile, DF, 16, 0, 1
+-- 513, 1950, Bolivia, GK, None, 0, 0
+-- 514, 2022, Ecuador, DF, 14, 0, 0
+-- 515, 2018, España, GK, 13, 0, 0
+-- 516, 2018, Panamá, FW, 16, 0, 0
+-- 517, 2014, Ecuador, MF, 15, 0, 1
+-- 518, 1930, Yugoslavia, MF, None, 0, 3
+-- 519, 2022, México, DF, 6, 0, 0
+-- 520, 1966, Francia, MF, 2, 3, 3
+-- 521, 1966, Argentina, FW, 19, 0, 4
+-- 522, 1990, Austria, DF, 8, 0, 2
+-- 523, 2018, Australia, FW, 17, 0, 0
+-- 524, 1982, Honduras, GK, 21, 0, 3
+-- 525, 2022, Catar, MF, 8, 0, 0
+-- 526, 2002, Alemania, FW, 14, 0, 0
+-- 526, 2006, Alemania, FW, 14, 0, 0
+-- 527, 2010, Ghana, MF, 21, 0, 5
+-- 527, 2014, Ghana, MF, 20, 0, 3
+-- 528, 2022, Japón, FW, 18, 0, 0
+-- 529, 1998, Croacia, MF, 7, 0, 7
+-- 530, 1970, URSS, MF, 11, 0, 3
+-- 531, 2002, Ecuador, MF, 7, 0, 0
+-- 532, 1978, España, MF, 4, 2, 3
+-- 533, 1950, España, DF, None, 0, 1
+-- 534, 2018, España, MF, 20, 0, 1
+-- 534, 2022, España, FW, 10, 0, 3
+-- 535, 2018, Egipto, DF, 12, 0, 0
+-- 536, 2002, Turquía, DF, 2, 0, 2
+-- 537, 2022, Arabia Saudita, FW, 25, 0, 0
+-- 538, 1978, Suecia, FW, 21, 0, 0
+-- 539, 1962, Bulgaria, FW, 15, 0, 1
+-- 539, 1966, Bulgaria, FW, 9, 0, 3
+-- 539, 1970, Bulgaria, FW, 19, 0, 2
+-- 540, 2018, España, FW, 17, 0, 0
+-- 541, 1994, Colombia, FW, 21, 0, 3
+-- 541, 1998, Colombia, FW, 11, 0, 1
+-- 542, 1982, Argelia, FW, 7, 0, 3
+-- 542, 1986, Argelia, FW, 7, 0, 2
+-- 543, 2006, Togo, DF, 19, 0, 1
+-- 544, 2018, Arabia Saudita, FW, 20, 0, 0
+-- 545, 2010, Camerún, DF, 2, 0, 3
+-- 545, 2014, Camerún, DF, 2, 0, 2
+-- 546, 1930, Perú, MF, None, 0, 1
+-- 547, 1970, Inglaterra, FW, 22, 0, 1
+-- 548, 1934, Francia, FW, None, 0, 1
+-- 548, 1938, Francia, FW, None, 0, 2
+-- 549, 1950, Inglaterra, DF, None, 0, 2
+-- 550, 1962, Chile, GK, 22, 0, 0
+-- 551, 1998, Argentina, MF, 15, 0, 0
+-- 552, 1934, Argentina, DF, None, 0, 0
+-- 553, 1950, Yugoslavia, FW, None, 0, 0
+-- 554, 2022, Ghana, GK, 1, 0, 3
+-- 555, 2022, Australia, DF, 3, 0, 1
+-- 556, 1994, Grecia, GK, 20, 0, 1
+-- 557, 2006, Togo, MF, 21, 0, 0
+-- 558, 2014, Ghana, MF, 7, 0, 3
+-- 559, 1934, Brasil, FW, None, 0, 0
+-- 560, 2022, Marruecos, DF, 25, 0, 2
+-- 561, 1966, Francia, GK, 1, 0, 3
+-- 562, 1986, Alemania Occidental, DF, 15, 0, 2
+-- 562, 1990, Alemania Occidental, DF, 5, 0, 7
+-- 563, 1974, Haití, DF, 3, 0, 2
+-- 564, 1998, Sudáfrica, MF, 12, 0, 2
+-- 565, 2018, Suecia, DF, 6, 0, 5
+-- 566, 1950, Brasil, DF, None, 6, 6
+-- 567, 1974, Suecia, DF, 18, 0, 2
+-- 568, 1930, Estados Unidos, FW, None, 0, 3
+-- 569, 1990, Alemania Occidental, GK, 12, 0, 0
+-- 570, 2014, Costa de Marfil, DF, 17, 0, 3
+-- 571, 1954, Bélgica, GK, 17, 0, 0
+-- 572, 1974, Haití, MF, 19, 0, 0
+-- 573, 1950, Paraguay, FW, None, 0, 2
+-- 574, 1950, Paraguay, FW, None, 0, 0
+-- 575, 1954, México, MF, 6, 0, 2
+-- 576, 1934, Hungría, FW, None, 0, 1
+-- 577, 2014, Bosnia-Herzegovina, GK, 22, 0, 0
+-- 578, 1958, Paraguay, FW, 20, 0, 0
+-- 579, 2018, Panamá, MF, 19, 0, 1
+-- 580, 1958, Argentina, FW, 19, 0, 2
+-- 581, 2018, Nigeria, DF, 20, 0, 0
+-- 582, 1958, Suecia, DF, 3, 0, 6
+-- 583, 1970, Suecia, DF, 3, 0, 3
+-- 584, 1934, Suecia, DF, None, 0, 2
+-- 585, 1986, Francia, DF, 3, 0, 4
+-- 586, 1998, Paraguay, DF, 5, 0, 4
+-- 586, 2002, Paraguay, DF, 5, 0, 4
+-- 587, 2018, México, DF, 2, 0, 2
+-- 588, 1998, Argentina, DF, 2, 0, 5
+-- 588, 2002, Argentina, DF, 2, 0, 0
+-- 588, 2006, Argentina, DF, 2, 1, 5
+-- 589, 1974, Argentina, FW, 2, 0, 6
+-- 590, 2006, Túnez, DF, 19, 0, 2
+-- 591, 2010, Ghana, MF, 13, 0, 4
+-- 591, 2014, Ghana, MF, 10, 0, 3
+-- 591, 2022, Ghana, FW, 10, 3, 3
+-- 592, 2010, Ghana, DF, 17, 0, 0
+-- 593, 2014, Ghana, FW, 13, 0, 1
+-- 593, 2022, Ghana, FW, 9, 0, 2
+-- 594, 2010, Nigeria, MF, 13, 0, 1
+-- 595, 2014, Ecuador, FW, 17, 0, 0
+-- 596, 2002, Ecuador, DF, 15, 0, 1
+-- 596, 2006, Ecuador, MF, 15, 1, 1
+-- 597, 2002, Ecuador, DF, 23, 0, 0
+-- 597, 2014, Ecuador, DF, 10, 0, 3
+-- 598, 1938, Cuba, GK, None, 0, 1
+-- 599, 2014, Nigeria, MF, 15, 0, 1
+-- 600, 2006, Togo, MF, 6, 0, 1
+-- 601, 2006, Arabia Saudita, MF, 16, 0, 3
+-- 602, 1998, Irán, FW, 11, 0, 3
+-- 603, 1994, Marruecos, GK, 1, 1, 2
+-- 604, 2018, Irán, FW, 20, 0, 3
+-- 604, 2022, Irán, FW, 20, 0, 2
+-- 605, 2006, Costa Rica, MF, 14, 0, 0
+-- 605, 2018, Costa Rica, MF, 14, 0, 0
+-- 606, 2014, España, DF, 22, 0, 2
+-- 606, 2018, España, DF, 14, 0, 0
+-- 606, 2022, España, DF, 2, 0, 2
+-- 607, 1994, Marruecos, MF, 8, 0, 3
+-- 607, 1998, Marruecos, MF, 16, 0, 0
+-- 608, 1998, Noruega, GK, 13, 0, 0
+-- 609, 1998, Nigeria, FW, 13, 0, 1
+-- 610, 2014, Nigeria, MF, 18, 0, 2
+-- 611, 1998, Nigeria, DF, 3, 0, 3
+-- 611, 2002, Nigeria, DF, 3, 0, 2
+-- 612, 1994, Irlanda, DF, 14, 0, 4
+-- 613, 1998, Alemania, DF, 14, 0, 1
+-- 614, 2006, Paises Bajos, FW, 21, 0, 0
+-- 614, 2010, Paises Bajos, FW, 19, 0, 0
+-- 615, 2006, Croacia, MF, 8, 0, 3
+-- 616, 2022, Serbia, DF, 15, 0, 0
+-- 617, 1974, Argentina, FW, 3, 0, 5
+-- 618, 2002, Arabia Saudita, GK, 22, 0, 0
+-- 619, 1974, Zaire, DF, 11, 0, 0
+-- 620, 2014, Colombia, FW, 17, 0, 0
+-- 620, 2018, Colombia, FW, 7, 0, 0
+-- 621, 2022, Australia, MF, 26, 0, 1
+-- 622, 1998, Bulgaria, MF, 19, 0, 1
+-- 623, 1954, Bélgica, MF, 19, 0, 0
+-- 624, 2014, Croacia, MF, 15, 0, 0
+-- 624, 2018, Croacia, MF, 19, 0, 1
+-- 625, 1950, Suiza, FW, None, 0, 3
+-- 626, 2006, Costa Rica, DF, 17, 0, 1
+-- 627, 1930, Bélgica, GK, None, 0, 2
+-- 627, 1934, Bélgica, GK, None, 0, 0
+-- 627, 1938, Bélgica, GK, None, 0, 1
+-- 628, 1998, Túnez, DF, 21, 0, 1
+-- 628, 2002, Túnez, DF, 2, 2, 3
+-- 629, 2018, Túnez, MF, 9, 0, 2
+-- 630, 2010, Alemania, DF, 14, 0, 2
+-- 631, 1982, Bélgica, DF, 14, 0, 3
+-- 632, 2006, Corea del Sur, MF, 15, 0, 0
+-- 633, 1966, Suiza, MF, 4, 0, 3
+-- 634, 1950, Paraguay, MF, None, 0, 0
+-- 635, 2002, Paraguay, FW, 7, 0, 0
+-- 636, 1962, México, FW, 21, 0, 0
+-- 637, 1994, Italia, MF, 13, 0, 6
+-- 637, 1998, Italia, MF, 11, 0, 5
+-- 638, 1990, Italia, FW, 15, 0, 4
+-- 638, 1994, Italia, FW, 10, 0, 7
+-- 638, 1998, Italia, FW, 18, 0, 2
+-- 639, 1998, Irán, MF, 6, 0, 3
+-- 640, 1986, Italia, MF, 10, 0, 4
+-- 641, 2014, Ecuador, DF, 18, 0, 0
+-- 642, 2022, Dinamarca, DF, 26, 0, 0
+-- 643, 2018, Arabia Saudita, MF, 9, 0, 2
+-- 643, 2022, Arabia Saudita, FW, 19, 0, 0
+-- 644, 1994, Marruecos, FW, 13, 0, 2
+-- 645, 1982, Kuwait, GK, 22, 0, 0
+-- 646, 1982, Camerún, FW, 13, 0, 0
+-- 647, 1950, Estados Unidos, MF, None, 1, 3
+-- 648, 1986, Inglaterra, GK, 22, 0, 0
+-- 649, 1982, Honduras, MF, 16, 0, 0
+-- 650, 1950, Inglaterra, FW, None, 0, 1
+-- 651, 2014, Inglaterra, DF, 3, 0, 2
+-- 652, 1958, Escocia, MF, 13, 0, 1
+-- 653, 1974, Yugoslavia, FW, 19, 0, 3
+-- 654, 2002, Polonia, MF, 17, 0, 0
+-- 655, 2002, Polonia, DF, 20, 0, 1
+-- 655, 2006, Polonia, DF, 6, 3, 3
+-- 656, 1958, Gales, MF, 15, 0, 1
+-- 657, 1958, Gales, MF, 22, 0, 0
+-- 658, 1990, España, MF, 16, 0, 0
+-- 658, 1994, España, MF, 10, 0, 2
+-- 659, 2006, Irán, DF, 3, 0, 1
+-- 660, 1934, Paises Bajos, FW, None, 0, 1
+-- 661, 1982, URSS, MF, 12, 0, 4
+-- 661, 1986, URSS, MF, 12, 0, 2
+-- 662, 2002, Croacia, FW, 22, 0, 0
+-- 662, 2006, Croacia, FW, 21, 0, 0
+-- 663, 1994, Bulgaria, MF, 20, 0, 7
+-- 663, 1998, Bulgaria, MF, 10, 0, 3
+-- 664, 1990, Argentina, FW, 3, 0, 1
+-- 664, 1994, Argentina, FW, 19, 0, 4
+-- 664, 1998, Argentina, FW, 18, 0, 0
+-- 665, 1990, Estados Unidos, DF, 17, 0, 2
+-- 665, 1994, Estados Unidos, DF, 17, 0, 4
+-- 665, 1998, Estados Unidos, DF, 17, 0, 0
+-- 666, 1974, Argentina, FW, 4, 0, 3
+-- 667, 1954, México, FW, 10, 0, 2
+-- 668, 2022, España, DF, 14, 0, 1
+-- 669, 2018, Senegal, FW, 20, 0, 1
+-- 670, 1930, Bolivia, MF, None, 0, 2
+-- 671, 1994, Bolivia, MF, 22, 0, 2
+-- 672, 1970, Brasil, DF, 14, 0, 0
+-- 673, 2022, Gales, FW, 11, 3, 3
+-- 674, 1978, Argentina, GK, 3, 0, 0
+-- 674, 1982, Argentina, GK, 2, 0, 0
+-- 675, 1990, Rumania, FW, 18, 0, 2
+-- 676, 1978, Hungría, DF, 14, 0, 1
+-- 676, 1982, Hungría, DF, 3, 0, 2
+-- 677, 1990, Yugoslavia, DF, 18, 0, 1
+-- 678, 1966, Inglaterra, MF, 7, 0, 4
+-- 678, 1970, Inglaterra, MF, 8, 0, 3
+-- 679, 1938, Suiza, GK, None, 0, 0
+-- 680, 2002, Alemania, MF, 13, 0, 6
+-- 680, 2006, Alemania, MF, 13, 5, 5
+-- 681, 1954, Suiza, FW, 16, 0, 4
+-- 682, 1930, Uruguay, GK, None, 0, 4
+-- 683, 2022, Senegal, DF, 12, 0, 0
+-- 684, 1938, Hungría, MF, None, 0, 1
+-- 685, 2018, Nigeria, DF, 6, 0, 3
+-- 686, 2014, Italia, FW, 9, 0, 3
+-- 687, 2018, Panamá, DF, 23, 0, 0
+-- 688, 1998, Sudáfrica, GK, 16, 0, 0
+-- 689, 1982, URSS, DF, 5, 0, 5
+-- 690, 1950, Brasil, FW, None, 0, 2
+-- 690, 1954, Brasil, FW, 9, 0, 2
+-- 691, 2010, Costa de Marfil, DF, 22, 0, 0
+-- 691, 2014, Costa de Marfil, DF, 22, 0, 3
+-- 692, 1970, Marruecos, MF, 8, 3, 3
+-- 693, 1986, Portugal, DF, 11, 0, 0
+-- 694, 2018, Argentina, MF, 7, 0, 2
+-- 695, 2014, Ecuador, GK, 1, 0, 0
+-- 696, 1966, URSS, FW, 18, 0, 5
+-- 697, 1962, Inglaterra, GK, 22, 0, 0
+-- 697, 1966, Inglaterra, GK, 1, 0, 6
+-- 697, 1970, Inglaterra, GK, 1, 0, 3
+-- 698, 1990, Estados Unidos, DF, 4, 0, 2
+-- 699, 1958, Inglaterra, DF, 3, 0, 4
+-- 700, 2010, Nueva Zelanda, GK, 23, 0, 0
+-- 701, 1966, URSS, GK, 22, 0, 0
+-- 702, 1986, Escocia, MF, 9, 0, 1
+-- 703, 1970, Israel, DF, 2, 0, 2
+-- 704, 1966, Francia, FW, 3, 0, 0
+-- 705, 2002, España, MF, 8, 0, 4
+-- 706, 1938, Polonia, FW, None, 0, 0
+-- 707, 1978, Francia, GK, 1, 0, 0
+-- 707, 1982, Francia, GK, 1, 0, 0
+-- 708, 1938, Rumania, FW, None, 0, 2
+-- 709, 1982, Perú, FW, 7, 0, 1
+-- 710, 1982, Argentina, MF, 3, 0, 1
+-- 711, 1950, Brasil, GK, None, 0, 6
+-- 712, 1930, Rumania, FW, None, 0, 2
+-- 713, 1938, Rumania, MF, None, 0, 1
+-- 714, 2018, Panamá, MF, 8, 0, 3
+-- 715, 1970, Uruguay, FW, 17, 0, 1
+-- 716, 1982, Italia, DF, 2, 0, 0
+-- 716, 1990, Italia, DF, 2, 0, 7
+-- 716, 1994, Italia, DF, 6, 3, 3
+-- 717, 1986, Italia, MF, 11, 0, 1
+-- 718, 1974, Argentina, DF, 5, 0, 3
+-- 719, 2022, Croacia, DF, 3, 0, 1
+-- 720, 1966, Italia, FW, 3, 0, 2
+-- 721, 2014, Inglaterra, MF, 21, 0, 1
+-- 722, 1982, Checoslovaquia, DF, 5, 0, 3
+-- 723, 1986, Inglaterra, MF, 19, 0, 0
+-- 723, 1990, Inglaterra, MF, 11, 0, 5
+-- 724, 2006, Suiza, MF, 16, 0, 4
+-- 724, 2010, Suiza, MF, 7, 0, 2
+-- 724, 2014, Suiza, MF, 7, 0, 0
+-- 725, 2006, Italia, MF, 17, 0, 0
+-- 726, 2006, República Checa, FW, 15, 0, 1
+-- 727, 1938, Cuba, DF, None, 0, 3
+-- 728, 1990, Costa Rica, GK, 21, 0, 1
+-- 729, 2014, Costa Rica, MF, 11, 0, 0
+-- 730, 2010, México, FW, 7, 0, 0
+-- 731, 1998, Chile, FW, 21, 0, 0
+-- 732, 2010, Paraguay, GK, 12, 0, 0
+-- 733, 2006, Paraguay, MF, 8, 0, 1
+-- 733, 2010, Paraguay, MF, 8, 0, 1
+-- 734, 1998, Jamaica, GK, 1, 2, 2
+-- 735, 1986, Uruguay, MF, 8, 3, 3
+-- 736, 2010, Paraguay, FW, 19, 0, 3
+-- 737, 2018, Colombia, MF, 5, 0, 2
+-- 738, 2010, Nueva Zelanda, MF, 13, 0, 0
+-- 739, 2006, Costa de Marfil, GK, 23, 0, 1
+-- 739, 2010, Costa de Marfil, GK, 1, 0, 3
+-- 739, 2014, Costa de Marfil, GK, 1, 0, 3
+-- 740, 2010, Inglaterra, MF, 14, 0, 3
+-- 741, 1954, Austria, DF, 4, 0, 4
+-- 741, 1958, Austria, DF, 18, 0, 0
+-- 742, 2022, Catar, GK, 22, 0, 2
+-- 743, 1974, Haití, FW, 18, 0, 0
+-- 744, 1998, Francia, GK, 16, 0, 7
+-- 744, 2002, Francia, GK, 16, 0, 3
+-- 744, 2006, Francia, GK, 16, 0, 7
+-- 745, 1998, Sudáfrica, FW, 9, 0, 2
+-- 746, 1986, Dinamarca, MF, 20, 0, 0
+-- 747, 1998, Nigeria, GK, 22, 0, 0
+-- 748, 2006, Italia, DF, 6, 0, 1
+-- 748, 2014, Italia, DF, 15, 0, 3
+-- 749, 1970, México, FW, 20, 0, 0
+-- 750, 2014, Argentina, DF, 23, 0, 1
+-- 751, 1994, Alemania, MF, 21, 0, 0
+-- 752, 1950, España, FW, None, 0, 6
+-- 753, 1954, Turquía, DF, 3, 0, 3
+-- 754, 1998, Marruecos, FW, 14, 0, 3
+-- 755, 2022, Camerún, FW, 11, 0, 0
+-- 756, 2010, Camerún, DF, 5, 0, 2
+-- 757, 2006, Serbia y Montenegro, DF, 13, 0, 0
+-- 758, 1938, Francia, MF, None, 0, 2
+-- 759, 2002, Turquía, MF, 10, 0, 7
+-- 760, 1990, Argentina, MF, 4, 0, 7
+-- 760, 1994, Argentina, MF, 8, 0, 1
+-- 761, 2006, Polonia, DF, 4, 0, 3
+-- 762, 1938, Brasil, GK, None, 0, 2
+-- 763, 1978, Francia, MF, 9, 1, 2
+-- 764, 1978, Brasil, MF, 17, 0, 7
+-- 764, 1982, Brasil, MF, 18, 0, 0
+-- 765, 1986, Uruguay, DF, 6, 0, 3
+-- 766, 1986, Argentina, MF, 2, 0, 7
+-- 766, 1990, Argentina, MF, 2, 0, 3
+-- 767, 1994, Argentina, FW, 9, 0, 4
+-- 767, 1998, Argentina, FW, 9, 1, 5
+-- 767, 2002, Argentina, FW, 9, 1, 3
+-- 768, 1986, Francia, GK, 1, 0, 6
+-- 769, 2018, Bélgica, FW, 21, 0, 1
+-- 769, 2022, Bélgica, FW, 23, 0, 2
+-- 770, 1986, Paraguay, GK, 12, 0, 0
+-- 771, 1978, Francia, DF, 2, 0, 1
+-- 771, 1982, Francia, DF, 3, 0, 2
+-- 771, 1986, Francia, DF, 4, 1, 7
+-- 772, 1998, Inglaterra, MF, 8, 0, 2
+-- 773, 1950, Brasil, MF, None, 0, 5
+-- 773, 1954, Brasil, DF, 6, 3, 3
+-- 774, 1954, Alemania Occidental, DF, 4, 0, 2
+-- 775, 2002, Alemania, DF, 4, 0, 0
+-- 776, 1978, Austria, MF, 20, 0, 0
+-- 776, 1982, Austria, MF, 14, 0, 2
+-- 777, 1978, Austria, GK, 22, 0, 0
+-- 778, 1990, Austria, MF, 12, 0, 0
+-- 779, 2010, México, FW, 21, 0, 1
+-- 780, 1990, Argentina, DF, 5, 0, 0
+-- 781, 1970, Perú, MF, 8, 0, 2
+-- 782, 1974, Haití, DF, 6, 0, 3
+-- 783, 1950, Yugoslavia, GK, None, 0, 0
+-- 783, 1954, Yugoslavia, GK, 1, 0, 3
+-- 783, 1958, Yugoslavia, GK, 1, 0, 3
+-- 784, 1986, Inglaterra, FW, 20, 0, 3
+-- 784, 1990, Inglaterra, FW, 9, 0, 3
+-- 785, 1990, Inglaterra, GK, 22, 0, 0
+-- 786, 2002, Estados Unidos, MF, 17, 0, 2
+-- 786, 2006, Estados Unidos, MF, 17, 0, 2
+-- 786, 2010, Estados Unidos, MF, 7, 0, 0
+-- 786, 2014, Estados Unidos, DF, 7, 0, 4
+-- 787, 2006, Australia, DF, 16, 0, 0
+-- 787, 2010, Australia, DF, 6, 0, 1
+-- 788, 1934, Francia, DF, None, 0, 0
+-- 789, 2010, Chile, FW, 15, 0, 4
+-- 789, 2014, Chile, MF, 15, 0, 0
+-- 790, 1990, Brasil, FW, 16, 0, 0
+-- 790, 1994, Brasil, FW, 7, 0, 7
+-- 790, 1998, Brasil, FW, 20, 0, 7
+-- 791, 2014, Honduras, DF, 21, 0, 3
+-- 792, 1966, Alemania Occidental, MF, 4, 0, 6
+-- 792, 1970, Alemania Occidental, DF, 4, 0, 5
+-- 792, 1974, Alemania Occidental, DF, 5, 7, 7
+-- 793, 2014, Estados Unidos, MF, 15, 0, 3
+-- 794, 1998, Inglaterra, MF, 7, 0, 2
+-- 794, 2002, Inglaterra, MF, 7, 5, 5
+-- 794, 2006, Inglaterra, MF, 7, 5, 5
+-- 795, 2010, Dinamarca, FW, 17, 0, 0
+-- 796, 2014, Camerún, DF, 12, 0, 1
+-- 797, 2018, Polonia, DF, 5, 0, 2
+-- 797, 2022, Polonia, DF, 5, 0, 0
+-- 798, 2018, Túnez, DF, 6, 0, 1
+-- 799, 2014, Estados Unidos, MF, 11, 0, 3
+-- 800, 1938, Paises Bajos, DF, None, 0, 0
+-- 801, 1978, Alemania Occidental, MF, 15, 0, 3
+-- 802, 1950, Suiza, FW, None, 0, 0
+-- 803, 2014, Bosnia-Herzegovina, GK, 1, 0, 3
+-- 804, 1994, España, FW, 11, 0, 0
+-- 805, 2018, Australia, DF, 16, 0, 3
+-- 805, 2022, Australia, DF, 16, 0, 4
+-- 806, 2006, Suiza, MF, 19, 0, 0
+-- 806, 2010, Suiza, MF, 11, 0, 1
+-- 806, 2014, Suiza, MF, 11, 0, 4
+-- 806, 2018, Suiza, MF, 11, 1, 4
+-- 807, 2014, Irán, DF, 19, 0, 0
+-- 808, 1990, Alemania Occidental, MF, 15, 0, 4
+-- 809, 2018, Irán, GK, 1, 0, 3
+-- 809, 2022, Irán, GK, 1, 0, 2
+-- 810, 2014, Irán, DF, 20, 0, 0
+-- 811, 2002, Túnez, GK, 16, 0, 0
+-- 812, 1930, Yugoslavia, FW, None, 0, 3
+-- 813, 1986, URSS, FW, 19, 0, 3
+-- 814, 1962, Argentina, FW, 11, 0, 2
+-- 815, 2010, Argelia, DF, 3, 0, 3
+-- 816, 2018, Marruecos, MF, 10, 0, 3
+-- 817, 2006, Ucrania, FW, 20, 0, 0
+-- 818, 1954, Yugoslavia, DF, 17, 0, 0
+-- 819, 1934, Argentina, DF, None, 0, 1
+-- 820, 2014, Argelia, DF, 4, 0, 2
+-- 821, 1970, Inglaterra, MF, 19, 0, 1
+-- 822, 1982, Camerún, GK, 12, 0, 0
+-- 822, 1990, Camerún, GK, 1, 0, 0
+-- 822, 1994, Camerún, GK, 1, 0, 2
+-- 823, 2022, Alemania, DF, 25, 0, 0
+-- 824, 2010, Argelia, DF, 12, 0, 0
+-- 825, 2002, Brasil, DF, 13, 0, 0
+-- 826, 2022, Inglaterra, MF, 22, 0, 5
+-- 827, 1958, Brasil, DF, 2, 6, 6
+-- 827, 1962, Brasil, DF, 13, 0, 0
+-- 827, 1966, Brasil, DF, 4, 2, 2
+-- 828, 1970, Israel, DF, 3, 0, 1
+-- 829, 1982, Francia, FW, 15, 0, 1
+-- 829, 1986, Francia, FW, 16, 0, 2
+-- 830, 1958, Francia, FW, 14, 0, 0
+-- 831, 1982, Argelia, MF, 10, 0, 2
+-- 831, 1986, Argelia, MF, 10, 0, 2
+-- 832, 1974, Italia, DF, 14, 0, 0
+-- 832, 1978, Italia, DF, 2, 0, 5
+-- 833, 1958, México, FW, 19, 0, 2
+-- 834, 1994, Rumania, DF, 4, 0, 5
+-- 835, 2002, Turquía, MF, 21, 0, 6
+-- 836, 1958, URSS, GK, 13, 0, 0
+-- 837, 1998, Túnez, MF, 19, 0, 0
+-- 838, 2018, Túnez, MF, 14, 0, 0
+-- 839, 1978, Túnez, GK, 21, 0, 0
+-- 840, 1978, Túnez, FW, 11, 0, 1
+-- 841, 1938, Francia, DF, None, 0, 0
+-- 842, 1970, Marruecos, GK, 1, 0, 2
+-- 843, 1986, Argelia, MF, 18, 0, 2
+-- 844, 1978, Túnez, FW, 15, 0, 0
+-- 845, 2018, Túnez, GK, 1, 0, 1
+-- 846, 1978, Túnez, MF, 8, 0, 3
+-- 847, 1970, Israel, FW, 17, 0, 0
+-- 848, 2022, Túnez, MF, 15, 0, 1
+-- 849, 2006, Túnez, FW, 17, 0, 0
+-- 850, 2022, Túnez, GK, 22, 0, 0
+-- 851, 1998, Túnez, FW, 18, 0, 3
+-- 852, 1998, Túnez, FW, 2, 0, 0
+-- 853, 2018, Túnez, FW, 8, 0, 3
+-- 854, 2018, Túnez, DF, 2, 0, 2
+-- 855, 1998, Marruecos, GK, 12, 0, 2
+-- 856, 1954, Francia, MF, 15, 0, 1
+-- 857, 2002, Túnez, MF, 18, 0, 3
+-- 858, 2006, Suiza, GK, 12, 0, 0
+-- 858, 2010, Suiza, GK, 1, 0, 3
+-- 858, 2014, Suiza, GK, 1, 0, 4
+-- 859, 2018, Túnez, DF, 3, 0, 0
+-- 860, 1994, Italia, DF, 3, 0, 6
+-- 861, 2018, Marruecos, DF, 5, 2, 2
+-- 862, 1982, Argelia, MF, 6, 0, 0
+-- 863, 1958, Hungría, FW, 20, 0, 2
+-- 864, 1934, Alemania, FW, None, 0, 2
+-- 865, 2010, Dinamarca, FW, 11, 0, 3
+-- 866, 1966, Hungría, FW, 7, 0, 4
+-- 867, 1930, Brasil, FW, None, 0, 1
+-- 868, 1954, Checoslovaquia, MF, 6, 0, 0
+-- 869, 1974, Italia, MF, 4, 0, 3
+-- 869, 1978, Italia, MF, 10, 0, 6
+-- 870, 1990, Uruguay, MF, 16, 0, 0
+-- 871, 2014, Honduras, FW, 11, 0, 3
+-- 872, 2006, Ecuador, FW, 23, 0, 0
+-- 873, 2010, Paraguay, FW, 10, 0, 1
+-- 874, 1998, Paraguay, FW, 15, 0, 4
+-- 875, 1930, Paraguay, GK, None, 0, 1
+-- 876, 1930, Paraguay, MF, None, 0, 1
+-- 877, 1930, Paraguay, FW, None, 0, 2
+-- 878, 1986, Argelia, MF, 17, 0, 0
+-- 879, 1970, Marruecos, DF, 3, 0, 3
+-- 880, 2022, Costa Rica, MF, 9, 0, 1
+-- 881, 2022, Marruecos, DF, 24, 0, 0
+-- 882, 1982, Argelia, FW, 9, 0, 1
+-- 882, 1986, Argelia, FW, 12, 0, 0
+-- 883, 1982, Argelia, GK, 22, 0, 0
+-- 884, 2014, Argelia, MF, 14, 0, 3
+-- 885, 2018, Uruguay, MF, 6, 0, 5
+-- 885, 2022, Uruguay, MF, 6, 0, 3
+-- 886, 1950, Inglaterra, FW, None, 0, 2
+-- 887, 1986, Portugal, GK, 1, 1, 1
+-- 888, 1930, Brasil, MF, None, 0, 0
+-- 889, 2014, Francia, FW, 10, 0, 5
+-- 889, 2022, Francia, FW, 19, 0, 0
+-- 890, 1978, Francia, FW, 14, 0, 1
+-- 891, 1958, Hungría, MF, 6, 0, 2
+-- 892, 2018, Polonia, DF, 18, 0, 2
+-- 892, 2022, Polonia, DF, 18, 0, 4
+-- 893, 2014, Rusia, DF, 14, 3, 3
+-- 894, 1994, Noruega, DF, 20, 0, 3
+-- 894, 1998, Noruega, DF, 4, 0, 4
+-- 895, 2018, Suecia, FW, 9, 0, 5
+-- 896, 1962, Uruguay, FW, 20, 0, 1
+-- 897, 1982, Checoslovaquia, MF, 13, 0, 2
+-- 898, 1986, Francia, GK, 21, 0, 0
+-- 899, 1938, Cuba, MF, None, 0, 3
+-- 900, 1986, Dinamarca, MF, 9, 0, 3
+-- 901, 2022, Paises Bajos, MF, 11, 0, 1
+-- 902, 1994, Paises Bajos, FW, 10, 0, 5
+-- 902, 1998, Paises Bajos, FW, 8, 0, 6
+-- 903, 1958, Suecia, DF, 2, 0, 6
+-- 904, 1982, Italia, DF, 3, 0, 2
+-- 904, 1986, Italia, DF, 2, 0, 3
+-- 904, 1990, Italia, DF, 3, 7, 7
+-- 904, 1998, Italia, DF, 2, 0, 2
+-- 905, 1938, Suecia, FW, None, 0, 0
+-- 906, 2022, Paises Bajos, FW, 7, 0, 3
+-- 907, 2002, Estados Unidos, DF, 3, 0, 2
+-- 907, 2006, Estados Unidos, DF, 12, 0, 0
+-- 908, 1966, Chile, DF, 2, 0, 0
+-- 909, 1930, Bolivia, GK, None, 0, 2
+-- 910, 1998, Colombia, DF, 5, 0, 3
+-- 911, 1994, México, MF, 6, 0, 3
+-- 911, 1998, México, MF, 6, 0, 1
+-- 912, 2014, Brasil, MF, 20, 0, 1
+-- 913, 1966, Alemania Occidental, GK, 21, 0, 0
+-- 914, 2006, Costa Rica, FW, 13, 0, 0
+-- 915, 2010, Honduras, DF, 5, 0, 1
+-- 915, 2014, Honduras, DF, 5, 0, 3
+-- 916, 1958, Suecia, FW, 21, 0, 1
+-- 917, 1950, Paraguay, FW, None, 0, 0
+-- 918, 1986, Dinamarca, DF, 12, 0, 3
+-- 919, 1986, Alemania, DF, 14, 0, 6
+-- 919, 1990, Alemania, DF, 14, 0, 7
+-- 919, 1994, Alemania, DF, 14, 0, 5
+-- 920, 1990, Italia, MF, 10, 0, 3
+-- 920, 1994, Italia, MF, 14, 0, 5
+-- 921, 1998, Argentina, MF, 16, 0, 0
+-- 922, 1970, Italia, MF, 10, 0, 6
+-- 923, 1934, Italia, MF, None, 0, 4
+-- 924, 1978, Argentina, FW, 4, 0, 5
+-- 924, 1982, Argentina, FW, 4, 0, 5
+-- 925, 1938, Italia, FW, None, 0, 0
+-- 926, 2010, Nueva Zelanda, MF, 11, 0, 3
+-- 927, 1978, Francia, GK, 21, 0, 2
+-- 928, 1994, Rusia, FW, 11, 0, 0
+-- 928, 2002, Rusia, FW, 11, 0, 2
+-- 929, 2014, Bosnia-Herzegovina, DF, 7, 0, 3
+-- 930, 2014, Estados Unidos, DF, 5, 0, 4
+-- 931, 1982, URSS, MF, 8, 0, 5
+-- 931, 1986, URSS, DF, 2, 0, 3
+-- 931, 1990, URSS, DF, 2, 0, 2
+-- 932, 1966, España, GK, 12, 0, 0
+-- 933, 1982, Honduras, FW, 9, 0, 3
+-- 934, 2010, Portugal, GK, 12, 0, 0
+-- 934, 2014, Portugal, GK, 22, 0, 2
+-- 934, 2018, Portugal, GK, 22, 0, 0
+-- 935, 2002, Portugal, DF, 22, 0, 2
+-- 936, 1986, Escocia, MF, 10, 0, 0
+-- 936, 1990, Escocia, MF, 8, 0, 1
+-- 937, 1978, Italia, FW, 18, 0, 7
+-- 938, 1970, Bélgica, DF, 13, 0, 0
+-- 939, 1998, Túnez, MF, 8, 0, 2
+-- 939, 2002, Túnez, MF, 3, 0, 0
+-- 940, 2002, Senegal, DF, 21, 0, 0
+-- 941, 1938, Italia, FW, None, 0, 3
+-- 942, 2018, Polonia, GK, 12, 0, 0
+-- 943, 1986, Francia, DF, 5, 0, 1
+-- 944, 2014, Bosnia-Herzegovina, DF, 3, 0, 1
+-- 945, 1934, Austria, FW, None, 0, 4
+-- 946, 1938, Suiza, FW, None, 0, 3
+-- 946, 1950, Suiza, FW, None, 2, 2
+-- 947, 1994, Suiza, MF, 16, 0, 2
+-- 948, 1982, Checoslovaquia, MF, 12, 0, 1
+-- 949, 1986, Marruecos, DF, 20, 0, 0
+-- 950, 1954, Francia, DF, 8, 0, 0
+-- 951, 1990, Checoslovaquia, DF, 2, 0, 0
+-- 952, 2022, Polonia, MF, 6, 0, 2
+-- 953, 1998, Alemania, FW, 20, 0, 5
+-- 953, 2002, Alemania, FW, 20, 0, 0
+-- 954, 1954, Alemania Occidental, MF, 18, 0, 0
+-- 955, 1954, Suiza, MF, 8, 0, 1
+-- 956, 2014, Argentina, MF, 6, 0, 3
+-- 956, 2018, Argentina, MF, 5, 0, 1
+-- 957, 1950, Brasil, MF, None, 0, 5
+-- 958, 1982, Chile, DF, 4, 0, 3
+-- 959, 2022, Paises Bajos, GK, 13, 0, 0
+-- 960, 1990, Checoslovaquia, DF, 7, 0, 5
+-- 961, 1998, Croacia, DF, 6, 0, 7
+-- 962, 1934, Rumania, FW, None, 0, 1
+-- 962, 1938, Rumania, FW, None, 0, 1
+-- 963, 1958, Irlanda del Norte, FW, 7, 0, 5
+-- 964, 1954, Escocia, FW, 19, 0, 0
+-- 965, 1978, España, DF, 6, 0, 1
+-- 966, 2006, Trinidad y Tobago, MF, 7, 0, 3
+-- 967, 1938, Hungría, FW, None, 0, 0
+-- 968, 1934, Hungría, DF, None, 0, 0
+-- 968, 1938, Hungría, DF, None, 0, 4
+-- 969, 2010, Eslovenia, MF, 10, 0, 3
+-- 970, 1978, Irán, FW, 4, 0, 0
+-- 971, 1970, URSS, FW, 16, 0, 4
+-- 972, 1990, Brasil, MF, 7, 0, 0
+-- 973, 2002, Uruguay, DF, 19, 0, 0
+-- 974, 1934, Suiza, GK, None, 0, 0
+-- 974, 1938, Suiza, GK, None, 0, 0
+-- 975, 2018, Islandia, MF, 8, 0, 3
+-- 976, 1994, Suecia, DF, 4, 0, 6
+-- 977, 1994, Noruega, DF, 5, 0, 3
+-- 977, 1998, Noruega, DF, 5, 0, 4
+-- 978, 1974, Escocia, DF, 6, 0, 1
+-- 979, 1998, Francia, DF, 5, 0, 5
+-- 980, 1958, Irlanda del Norte, MF, 4, 5, 5
+-- 981, 1954, México, FW, 15, 0, 0
+-- 981, 1958, México, MF, 20, 0, 2
+-- 982, 1998, México, FW, 11, 0, 4
+-- 982, 2002, México, FW, 10, 0, 4
+-- 982, 2010, México, FW, 10, 1, 1
+-- 983, 1950, Italia, DF, None, 0, 1
+-- 984, 2006, República Checa, GK, 16, 0, 0
+-- 985, 2014, Paises Bajos, DF, 5, 0, 7
+-- 985, 2022, Paises Bajos, DF, 17, 0, 5
+-- 986, 1990, Paises Bajos, DF, 21, 0, 0
+-- 986, 1994, Paises Bajos, DF, 15, 0, 0
+-- 987, 1990, Estados Unidos, MF, 8, 0, 0
+-- 988, 1974, Alemania Oriental, GK, 21, 0, 0
+-- 989, 1982, URSS, FW, 11, 0, 5
+-- 989, 1986, URSS, FW, 11, 1, 1
+-- 990, 1994, Suecia, MF, 21, 0, 1
+-- 991, 1978, Escocia, GK, 12, 0, 0
+-- 992, 2006, Portugal, FW, 15, 0, 0
+-- 993, 2006, Ghana, MF, 9, 0, 1
+-- 993, 2010, Ghana, MF, 9, 0, 0
+-- 994, 2010, Alemania, DF, 20, 0, 5
+-- 994, 2014, Alemania, DF, 20, 0, 7
+-- 994, 2018, Alemania, DF, 17, 0, 2
+-- 995, 2010, Ghana, FW, 23, 0, 5
+-- 995, 2014, Ghana, FW, 9, 0, 1
+-- 996, 1982, Nueva Zelanda, MF, 17, 0, 3
+-- 997, 1974, Zaire, DF, 5, 0, 3
+-- 998, 2006, Paraguay, GK, 22, 0, 2
+-- 998, 2010, Paraguay, GK, 22, 0, 0
+-- 999, 1998, Croacia, MF, 10, 6, 6
+-- 1000, 1950, Yugoslavia, FW, None, 0, 3
+-- 1000, 1954, Yugoslavia, FW, 10, 1, 2
+-- 1001, 2006, Estados Unidos, DF, 3, 0, 2
+-- 1001, 2010, Estados Unidos, DF, 3, 4, 4
+-- 1002, 2010, Italia, DF, 13, 0, 0
+-- 1003, 1986, Argentina, MF, 3, 0, 0
+-- 1004, 1950, Suiza, DF, None, 1, 3
+-- 1004, 1954, Suiza, DF, 4, 4, 4
+-- 1005, 1986, Bélgica, GK, 20, 0, 0
+-- 1005, 1990, Bélgica, GK, 12, 0, 0
+-- 1006, 2002, Alemania, FW, 17, 0, 3
+-- 1007, 1934, Rumania, FW, None, 0, 1
+-- 1007, 1938, Rumania, FW, None, 0, 1
+-- 1008, 1982, Hungría, FW, 15, 0, 0
+-- 1009, 1962, Hungría, FW, 20, 0, 0
+-- 1010, 2018, Islandia, FW, 22, 0, 1
+-- 1011, 2002, Alemania, DF, 18, 0, 0
+-- 1012, 1994, Bélgica, MF, 16, 0, 2
+-- 1012, 1998, Bélgica, MF, 21, 0, 2
+-- 1012, 2002, Bélgica, MF, 21, 0, 0
+-- 1013, 1998, Paises Bajos, DF, 15, 0, 0
+-- 1014, 1938, Rumania, FW, None, 0, 1
+-- 1015, 2002, Dinamarca, DF, 20, 0, 0
+-- 1016, 1958, Argentina, FW, 18, 0, 1
+-- 1017, 1998, Francia, MF, 14, 0, 1
+-- 1017, 2002, Francia, MF, 14, 0, 0
+-- 1018, 1974, Yugoslavia, DF, 6, 0, 5
+-- 1019, 1986, Hungría, FW, 19, 0, 2
+-- 1020, 1994, Noruega, MF, 22, 0, 2
+-- 1021, 2006, Costa de Marfil, DF, 3, 0, 3
+-- 1021, 2010, Costa de Marfil, DF, 3, 0, 1
+-- 1021, 2014, Costa de Marfil, DF, 3, 0, 3
+-- 1022, 1990, Croacia, FW, 14, 0, 0
+-- 1022, 2002, Croacia, FW, 11, 0, 3
+-- 1023, 1998, Colombia, MF, 14, 0, 0
+-- 1024, 2006, Costa Rica, MF, 7, 0, 1
+-- 1024, 2014, Costa Rica, MF, 7, 0, 4
+-- 1024, 2018, Costa Rica, MF, 7, 0, 0
+-- 1025, 2010, Argentina, MF, 5, 0, 1
+-- 1026, 2014, Costa de Marfil, MF, 6, 0, 0
+-- 1027, 1962, Checoslovaquia, DF, 21, 0, 0
+-- 1028, 2002, Argentina, GK, 23, 0, 0
+-- 1029, 2014, Ecuador, GK, 12, 0, 0
+-- 1030, 2002, Paraguay, MF, 15, 0, 1
+-- 1030, 2006, Paraguay, MF, 6, 0, 2
+-- 1030, 2010, Paraguay, MF, 6, 0, 3
+-- 1031, 1966, Inglaterra, GK, 13, 0, 0
+-- 1031, 1970, Inglaterra, GK, 12, 0, 1
+-- 1032, 1970, Bulgaria, MF, 8, 0, 2
+-- 1032, 1974, Bulgaria, MF, 8, 3, 3
+-- 1033, 1930, México, GK, None, 0, 2
+-- 1034, 2010, Camerún, DF, 12, 0, 1
+-- 1035, 1974, Alemania Occidental, MF, 16, 0, 4
+-- 1035, 1978, Alemania Occidental, MF, 6, 0, 6
+-- 1036, 1978, Polonia, FW, 18, 0, 4
+-- 1036, 1982, Polonia, FW, 20, 0, 6
+-- 1036, 1986, Polonia, FW, 20, 4, 4
+-- 1037, 1970, Italia, FW, 20, 0, 6
+-- 1037, 1974, Italia, FW, 20, 0, 0
+-- 1038, 1950, Italia, FW, None, 0, 1
+-- 1038, 1954, Italia, FW, 19, 1, 1
+-- 1039, 1966, Francia, MF, 4, 0, 3
+-- 1040, 1990, Irlanda, GK, 1, 0, 5
+-- 1040, 1994, Irlanda, GK, 1, 0, 4
+-- 1041, 2010, Italia, DF, 23, 0, 0
+-- 1041, 2014, Italia, DF, 19, 0, 1
+-- 1042, 1982, Chile, MF, 7, 0, 3
+-- 1043, 2014, Costa de Marfil, FW, 12, 0, 2
+-- 1044, 1930, Estados Unidos, MF, None, 0, 0
+-- 1045, 2010, Sudáfrica, DF, 14, 0, 0
+-- 1046, 1998, Escocia, FW, 20, 0, 0
+-- 1047, 1970, Israel, FW, 11, 0, 0
+-- 1048, 1950, México, FW, None, 0, 1
+-- 1049, 1978, Italia, GK, 22, 0, 0
+-- 1049, 1982, Italia, GK, 12, 0, 0
+-- 1050, 1934, Italia, FW, None, 0, 1
+-- 1051, 1994, Argentina, DF, 15, 0, 0
+-- 1052, 1978, Suecia, DF, 2, 0, 3
+-- 1053, 1954, Uruguay, FW, 11, 0, 5
+-- 1054, 2014, Costa Rica, MF, 5, 0, 5
+-- 1054, 2018, Costa Rica, MF, 5, 0, 3
+-- 1054, 2022, Costa Rica, MF, 5, 0, 3
+-- 1055, 2002, México, FW, 9, 0, 4
+-- 1055, 2006, México, FW, 9, 0, 2
+-- 1056, 1986, Argentina, MF, 4, 0, 2
+-- 1057, 1950, Estados Unidos, GK, None, 0, 3
+-- 1058, 2006, Irán, FW, 15, 0, 0
+-- 1059, 1994, Bulgaria, MF, 11, 0, 2
+-- 1059, 1998, Bulgaria, MF, 18, 0, 1
+-- 1060, 1974, Bulgaria, FW, 20, 0, 0
+-- 1061, 1994, Bolivia, MF, 6, 3, 3
+-- 1062, 1966, México, FW, 20, 0, 3
+-- 1062, 1970, México, FW, 9, 0, 1
+-- 1063, 2006, Ecuador, FW, 9, 0, 1
+-- 1064, 2018, Colombia, FW, 19, 0, 0
+-- 1065, 2022, Canadá, GK, 18, 1, 3
+-- 1066, 1958, Suecia, MF, 15, 0, 4
+-- 1067, 1994, Bélgica, DF, 3, 0, 1
+-- 1067, 1998, Bélgica, DF, 5, 0, 3
+-- 1068, 2010, Estados Unidos, DF, 12, 0, 2
+-- 1069, 1990, Rusia, FW, 12, 0, 0
+-- 1069, 1994, Rusia, MF, 13, 0, 1
+-- 1070, 1998, Irán, GK, 22, 0, 0
+-- 1071, 1958, Checoslovaquia, FW, 10, 0, 3
+-- 1071, 1962, Checoslovaquia, FW, 20, 0, 0
+-- 1072, 1982, URSS, DF, 14, 0, 3
+-- 1073, 2006, Alemania, MF, 18, 0, 2
+-- 1074, 2006, Polonia, GK, 1, 0, 3
+-- 1075, 2006, Polonia, DF, 19, 0, 2
+-- 1076, 2010, Paises Bajos, GK, 22, 0, 0
+-- 1077, 1978, Paises Bajos, MF, 14, 0, 0
+-- 1078, 1954, Yugoslavia, MF, 6, 0, 3
+-- 1078, 1958, Yugoslavia, MF, 9, 0, 4
+-- 1079, 1994, Paises Bajos, FW, 12, 0, 0
+-- 1080, 2006, Croacia, FW, 22, 0, 0
+-- 1081, 1966, Francia, DF, 5, 0, 3
+-- 1082, 1934, Suiza, FW, None, 0, 1
+-- 1083, 1930, Argentina, GK, None, 1, 3
+-- 1084, 1986, Uruguay, MF, 5, 0, 3
+-- 1085, 1978, Francia, DF, 3, 0, 2
+-- 1085, 1982, Francia, DF, 4, 0, 6
+-- 1085, 1986, Francia, DF, 6, 0, 6
+-- 1086, 2014, Bélgica, GK, 13, 0, 0
+-- 1087, 1930, Argentina, GK, None, 0, 2
+-- 1088, 1998, Túnez, MF, 13, 0, 2
+-- 1088, 2002, Túnez, MF, 13, 0, 3
+-- 1088, 2006, Túnez, MF, 13, 3, 3
+-- 1089, 1934, Checoslovaquia, MF, None, 0, 0
+-- 1089, 1938, Checoslovaquia, MF, None, 0, 3
+-- 1090, 2010, Argelia, MF, 7, 0, 1
+-- 1091, 1986, Marruecos, MF, 8, 0, 4
+-- 1092, 2022, Catar, MF, 12, 0, 2
+-- 1093, 2022, Marruecos, MF, 17, 0, 7
+-- 1094, 2010, Argelia, DF, 2, 0, 3
+-- 1094, 2014, Argelia, DF, 2, 2, 2
+-- 1095, 2018, Marruecos, FW, 20, 0, 0
+-- 1096, 1998, Túnez, DF, 4, 0, 2
+-- 1097, 1998, Camerún, GK, 22, 0, 0
+-- 1097, 2002, Camerún, GK, 1, 0, 3
+-- 1098, 2006, Paises Bajos, DF, 3, 0, 2
+-- 1098, 2010, Paises Bajos, DF, 12, 0, 2
+-- 1099, 1998, Túnez, GK, 22, 0, 0
+-- 1099, 2002, Túnez, GK, 1, 0, 3
+-- 1099, 2006, Túnez, GK, 1, 0, 3
+-- 1100, 2006, Francia, DF, 2, 0, 0
+-- 1101, 2018, Marruecos, GK, 1, 0, 0
+-- 1101, 2022, Marruecos, GK, 1, 0, 6
+-- 1102, 1938, Francia, DF, None, 0, 0
+-- 1103, 1982, Argelia, FW, 20, 0, 1
+-- 1104, 1934, Bélgica, MF, None, 0, 0
+-- 1105, 2018, Marruecos, MF, 14, 1, 3
+-- 1106, 2018, Marruecos, FW, 13, 0, 2
+-- 1107, 1986, Marruecos, DF, 5, 0, 4
+-- 1108, 1994, Marruecos, MF, 19, 0, 1
+-- 1109, 2002, Túnez, DF, 12, 0, 3
+-- 1110, 1958, Gales, MF, 6, 5, 5
+-- 1111, 1986, México, MF, 10, 5, 5
+-- 1112, 2018, Bélgica, DF, 20, 0, 3
+-- 1113, 1998, Escocia, DF, 3, 0, 3
+-- 1114, 1998, Jamaica, FW, 10, 0, 0
+-- 1115, 2014, Ghana, DF, 21, 0, 3
+-- 1116, 2010, Nueva Zelanda, DF, 18, 0, 0
+-- 1117, 2022, Australia, FW, 6, 0, 0
+-- 1118, 2014, Australia, MF, 13, 0, 1
+-- 1119, 1954, Hungría, MF, 5, 2, 5
+-- 1119, 1958, Hungría, MF, 5, 2, 3
+-- 1120, 2010, Paises Bajos, DF, 15, 0, 0
+-- 1121, 1958, Inglaterra, FW, 17, 0, 1
+-- 1122, 1978, Francia, DF, 5, 0, 1
+-- 1123, 1938, Checoslovaquia, FW, None, 0, 0
+-- 1124, 2018, Croacia, MF, 14, 0, 0
+-- 1125, 2010, Estados Unidos, MF, 4, 0, 4
+-- 1125, 2014, Estados Unidos, MF, 4, 0, 4
+-- 1126, 1938, Bélgica, GK, None, 0, 0
+-- 1127, 2014, Argelia, MF, 11, 0, 2
+-- 1128, 1930, Bélgica, MF, None, 2, 2
+-- 1129, 1938, Bélgica, FW, None, 0, 1
+-- 1130, 2018, Dinamarca, FW, 11, 0, 2
+-- 1130, 2022, Dinamarca, FW, 9, 0, 1
+-- 1131, 1986, Brasil, DF, 17, 0, 5
+-- 1131, 1990, Brasil, DF, 6, 0, 4
+-- 1131, 1994, Brasil, DF, 6, 0, 3
+-- 1132, 1938, Brasil, MF, None, 0, 2
+-- 1133, 1954, Brasil, DF, 4, 0, 3
+-- 1134, 2018, Alemania, MF, 20, 0, 0
+-- 1134, 2022, Alemania, MF, 17, 0, 0
+-- 1135, 1978, Paises Bajos, DF, 22, 0, 4
+-- 1136, 1974, Alemania Oriental, DF, 3, 6, 6
+-- 1137, 1994, Noruega, DF, 4, 3, 3
+-- 1138, 1934, Austria, FW, None, 0, 1
+-- 1139, 1938, Rumania, FW, None, 0, 0
+-- 1140, 2010, Chile, GK, 1, 4, 4
+-- 1140, 2014, Chile, GK, 1, 4, 4
+-- 1141, 2006, México, FW, 19, 0, 3
+-- 1142, 1954, México, DF, 13, 0, 0
+-- 1143, 1982, Escocia, FW, 9, 0, 1
+-- 1144, 2010, Eslovenia, DF, 2, 0, 3
+-- 1145, 2002, Irlanda, DF, 14, 0, 4
+-- 1146, 1994, Suiza, MF, 6, 0, 4
+-- 1147, 1986, Alemania, DF, 3, 0, 5
+-- 1147, 1990, Alemania, DF, 3, 0, 6
+-- 1147, 1994, Alemania, DF, 3, 0, 3
+-- 1148, 1978, Austria, DF, 4, 0, 4
+-- 1149, 1974, Alemania Occidental, DF, 3, 0, 7
+-- 1149, 1982, Alemania Occidental, MF, 3, 0, 7
+-- 1150, 2022, Brasil, DF, 24, 0, 1
+-- 1151, 1974, Escocia, MF, 4, 3, 3
+-- 1152, 2014, Costa Rica, FW, 14, 0, 1
+-- 1153, 2006, Australia, MF, 23, 0, 2
+-- 1153, 2010, Australia, FW, 23, 0, 2
+-- 1153, 2014, Australia, MF, 23, 0, 2
+-- 1154, 1934, Bélgica, FW, None, 0, 0
+-- 1155, 1986, Canadá, DF, 6, 0, 3
+-- 1156, 2002, Inglaterra, DF, 14, 0, 0
+-- 1156, 2006, Inglaterra, DF, 14, 0, 0
+-- 1157, 1982, Alemania Occidental, DF, 2, 0, 7
+-- 1157, 1986, Alemania Occidental, DF, 2, 0, 6
+-- 1158, 1982, Nueva Zelanda, DF, 5, 0, 0
+-- 1159, 1930, Brasil, DF, None, 0, 1
+-- 1160, 1974, Argentina, MF, 6, 1, 3
+-- 1161, 1966, Brasil, DF, 5, 0, 1
+-- 1161, 1970, Brasil, DF, 2, 0, 6
+-- 1162, 1930, Bolivia, MF, None, 0, 0
+-- 1163, 1950, Uruguay, FW, None, 0, 0
+-- 1164, 1938, Brasil, MF, None, 0, 1
+-- 1165, 1998, Paraguay, FW, 17, 0, 1
+-- 1166, 2014, México, MF, 17, 0, 0
+-- 1167, 1998, RF de Yugoslavia, DF, 6, 0, 2
+-- 1168, 1990, Yugoslavia, MF, 7, 0, 4
+-- 1169, 1958, Inglaterra, FW, 18, 0, 1
+-- 1170, 1954, Inglaterra, FW, 8, 0, 3
+-- 1171, 2010, Nueva Zelanda, FW, 22, 0, 0
+-- 1172, 1966, Suiza, DF, 5, 2, 2
+-- 1173, 1950, Yugoslavia, DF, None, 0, 0
+-- 1174, 1990, Suecia, FW, 17, 0, 3
+-- 1174, 1994, Suecia, FW, 11, 0, 7
+-- 1175, 1938, Polonia, GK, None, 0, 0
+-- 1176, 2018, Túnez, DF, 11, 0, 2
+-- 1176, 2022, Túnez, DF, 6, 0, 2
+-- 1177, 1982, Inglaterra, MF, 3, 0, 0
+-- 1178, 2014, Estados Unidos, DF, 6, 0, 0
+-- 1179, 1986, Bélgica, DF, 19, 0, 2
+-- 1180, 1990, URSS, MF, 21, 0, 0
+-- 1181, 1982, Irlanda del Norte, FW, 7, 0, 0
+-- 1182, 1954, Escocia, FW, 10, 0, 2
+-- 1183, 1958, Escocia, GK, 2, 0, 1
+-- 1184, 1998, Jamaica, DF, 21, 0, 0
+-- 1185, 1930, Estados Unidos, FW, None, 0, 3
+-- 1186, 1986, Argentina, DF, 5, 0, 7
+-- 1187, 2002, México, DF, 20, 0, 0
+-- 1188, 2010, Nueva Zelanda, MF, 8, 0, 0
+-- 1189, 1950, Bolivia, FW, None, 0, 0
+-- 1190, 2002, Inglaterra, DF, 12, 0, 0
+-- 1191, 2006, Polonia, FW, 23, 0, 0
+-- 1192, 2014, Croacia, MF, 14, 0, 0
+-- 1192, 2018, Croacia, MF, 11, 0, 4
+-- 1192, 2022, Croacia, MF, 11, 0, 6
+-- 1193, 1962, Alemania Occidental, MF, 10, 0, 4
+-- 1193, 1966, Alemania Occidental, MF, 7, 0, 2
+-- 1194, 1958, Francia, FW, 15, 0, 0
+-- 1195, 1994, Suiza, GK, 22, 0, 0
+-- 1196, 1938, Francia, FW, None, 0, 0
+-- 1197, 1938, Noruega, FW, None, 0, 1
+-- 1198, 2002, Costa Rica, FW, 16, 0, 0
+-- 1199, 1938, Noruega, FW, None, 0, 1
+-- 1200, 1958, Checoslovaquia, DF, 17, 0, 1
+-- 1200, 1962, Checoslovaquia, MF, 16, 0, 0
+-- 1201, 1986, URSS, DF, 6, 0, 1
+-- 1202, 1958, URSS, FW, 18, 0, 0
+-- 1203, 1994, Italia, GK, 22, 0, 0
+-- 1204, 1974, Escocia, DF, 14, 0, 2
+-- 1204, 1978, Escocia, DF, 4, 0, 3
+-- 1205, 2022, Canadá, FW, 11, 0, 3
+-- 1206, 1934, Suiza, FW, None, 0, 0
+-- 1207, 1934, Alemania, GK, None, 0, 0
+-- 1207, 1938, Alemania, GK, None, 0, 0
+-- 1208, 1990, Alemania, DF, 6, 0, 7
+-- 1208, 1994, Alemania, DF, 6, 0, 3
+-- 1209, 1998, Sudáfrica, MF, 13, 0, 0
+-- 1209, 2002, Sudáfrica, MF, 18, 0, 0
+-- 1210, 1954, Hungría, FW, 16, 0, 2
+-- 1210, 1958, Hungría, FW, 7, 0, 2
+-- 1211, 2010, Estados Unidos, FW, 14, 0, 0
+-- 1212, 2022, Croacia, FW, 17, 0, 0
+-- 1213, 1966, Francia, DF, 6, 0, 3
+-- 1214, 1934, Suiza, FW, None, 0, 0
+-- 1215, 1930, Rumania, DF, None, 0, 2
+-- 1215, 1938, Rumania, DF, None, 0, 2
+-- 1216, 1982, Honduras, MF, 11, 0, 0
+-- 1217, 1998, Italia, GK, 22, 0, 0
+-- 1217, 2002, Italia, GK, 1, 0, 4
+-- 1217, 2006, Italia, GK, 1, 0, 7
+-- 1217, 2010, Italia, GK, 1, 0, 1
+-- 1217, 2014, Italia, GK, 1, 2, 2
+-- 1218, 1962, Italia, GK, 1, 2, 2
+-- 1219, 2022, Ghana, MF, 11, 0, 0
+-- 1220, 2002, Eslovenia, DF, 23, 0, 1
+-- 1221, 1954, Turquía, DF, 13, 0, 0
+-- 1222, 1962, Italia, FW, 22, 0, 1
+-- 1222, 1966, Italia, MF, 4, 1, 3
+-- 1223, 1974, Yugoslavia, DF, 2, 0, 6
+-- 1224, 1974, Australia, FW, 20, 0, 3
+-- 1225, 1990, Inglaterra, FW, 21, 0, 1
+-- 1226, 1982, Honduras, DF, 4, 0, 2
+-- 1227, 1974, Polonia, DF, 8, 0, 0
+-- 1228, 1982, Polonia, MF, 13, 0, 7
+-- 1228, 1986, Polonia, MF, 15, 0, 1
+-- 1229, 1958, Hungría, FW, 10, 0, 3
+-- 1230, 2010, Suiza, FW, 18, 0, 0
+-- 1231, 1938, Suecia, FW, None, 0, 0
+-- 1232, 2002, Ecuador, MF, 14, 0, 0
+-- 1233, 1986, Hungría, MF, 17, 0, 1
+-- 1234, 1978, Alemania Occidental, GK, 22, 0, 0
+-- 1235, 2006, Argentina, DF, 21, 0, 3
+-- 1235, 2010, Argentina, DF, 4, 0, 3
+-- 1236, 1954, Inglaterra, GK, 12, 0, 0
+-- 1237, 1966, Italia, DF, 5, 0, 2
+-- 1237, 1970, Italia, DF, 2, 0, 6
+-- 1237, 1974, Italia, DF, 6, 0, 3
+-- 1238, 1998, Argentina, GK, 12, 0, 0
+-- 1238, 2002, Argentina, GK, 1, 0, 0
+-- 1239, 1934, Checoslovaquia, DF, None, 0, 1
+-- 1239, 1938, Checoslovaquia, DF, None, 1, 3
+-- 1240, 1950, Uruguay, FW, None, 0, 0
+-- 1241, 1954, Turquía, FW, 10, 0, 2
+-- 1242, 1938, Checoslovaquia, GK, None, 0, 1
+-- 1243, 2014, Suiza, GK, 21, 0, 0
+-- 1243, 2018, Suiza, GK, 21, 0, 0
+-- 1244, 1998, Escocia, MF, 8, 0, 3
+-- 1245, 1982, Escocia, DF, 21, 0, 0
+-- 1246, 1978, Escocia, DF, 22, 0, 2
+-- 1247, 1994, Estados Unidos, DF, 3, 0, 0
+-- 1247, 1998, Estados Unidos, DF, 4, 0, 2
+-- 1248, 1986, Argentina, MF, 7, 0, 7
+-- 1248, 1990, Argentina, MF, 7, 0, 7
+-- 1249, 1998, Jamaica, FW, 18, 0, 2
+-- 1250, 2002, Turquía, MF, 7, 0, 0
+-- 1251, 1982, URSS, MF, 17, 0, 0
+-- 1252, 1934, Alemania, DF, None, 0, 3
+-- 1253, 1986, Dinamarca, DF, 3, 0, 4
+-- 1254, 1950, Chile, MF, None, 0, 3
+-- 1255, 2010, España, MF, 16, 0, 7
+-- 1255, 2014, España, MF, 16, 0, 2
+-- 1255, 2018, España, MF, 5, 0, 4
+-- 1255, 2022, España, MF, 5, 4, 4
+-- 1256, 1930, Bolivia, FW, None, 0, 2
+-- 1257, 1950, Bolivia, DF, None, 1, 1
+-- 1258, 1982, Inglaterra, DF, 4, 0, 4
+-- 1258, 1986, Inglaterra, DF, 6, 0, 5
+-- 1258, 1990, Inglaterra, DF, 6, 3, 5
+-- 1259, 2002, Croacia, GK, 12, 0, 0
+-- 1259, 2006, Croacia, GK, 23, 0, 0
+-- 1260, 2018, Inglaterra, GK, 13, 0, 0
+-- 1261, 1986, España, FW, 9, 0, 5
+-- 1261, 1990, España, FW, 9, 4, 4
+-- 1262, 2002, Alemania, GK, 23, 0, 0
+-- 1262, 2010, Alemania, GK, 22, 0, 1
+-- 1263, 2002, Inglaterra, MF, 21, 0, 4
+-- 1264, 1938, Bélgica, FW, None, 0, 1
+-- 1265, 1954, Hungría, DF, 2, 0, 5
+-- 1266, 1958, Austria, FW, 9, 0, 3
+-- 1267, 1966, Inglaterra, DF, 15, 0, 0
+-- 1268, 1990, Irlanda, FW, 20, 0, 0
+-- 1269, 1954, Inglaterra, DF, 3, 0, 3
+-- 1270, 1986, Corea del Sur, MF, 19, 0, 2
+-- 1270, 1990, Corea del Sur, FW, 11, 0, 2
+-- 1271, 2002, México, MF, 19, 0, 1
+-- 1272, 1986, Paraguay, DF, 14, 0, 0
+-- 1273, 2018, Argentina, GK, 23, 0, 2
+-- 1274, 2006, Suiza, MF, 7, 0, 4
+-- 1275, 1986, Paraguay, FW, 9, 0, 4
+-- 1276, 2006, Paraguay, MF, 7, 0, 0
+-- 1277, 2022, Gales, DF, 24, 0, 0
+-- 1278, 2014, Francia, MF, 6, 0, 4
+-- 1279, 1954, Brasil, GK, 22, 0, 0
+-- 1280, 2014, Francia, MF, 7, 0, 0
+-- 1281, 1982, Honduras, FW, 18, 0, 0
+-- 1282, 1986, Paraguay, DF, 15, 0, 0
+-- 1283, 1962, Uruguay, MF, 22, 0, 2
+-- 1284, 1950, Paraguay, DF, None, 0, 0
+-- 1285, 1970, El Salvador, FW, 15, 0, 0
+-- 1286, 1950, Bolivia, MF, None, 0, 0
+-- 1287, 1986, Uruguay, FW, 21, 0, 2
+-- 1288, 1990, Colombia, MF, 18, 0, 0
+-- 1288, 1998, Colombia, DF, 13, 0, 3
+-- 1289, 1978, Italia, DF, 3, 0, 7
+-- 1289, 1982, Italia, DF, 4, 0, 7
+-- 1289, 1986, Italia, DF, 3, 0, 4
+-- 1290, 2010, Alemania, FW, 19, 0, 2
+-- 1291, 2018, Perú, GK, 12, 0, 0
+-- 1292, 1994, Argentina, DF, 13, 0, 4
+-- 1293, 1978, Perú, GK, 13, 0, 0
+-- 1294, 2002, Paraguay, DF, 18, 0, 4
+-- 1294, 2006, Paraguay, DF, 5, 0, 3
+-- 1294, 2010, Paraguay, DF, 5, 0, 1
+-- 1295, 2010, Uruguay, DF, 22, 0, 2
+-- 1295, 2014, Uruguay, DF, 22, 0, 4
+-- 1295, 2018, Uruguay, DF, 22, 0, 5
+-- 1295, 2022, Uruguay, DF, 22, 0, 1
+-- 1296, 2010, Paraguay, MF, 15, 0, 4
+-- 1297, 1986, Paraguay, DF, 13, 0, 0
+-- 1298, 2014, Argelia, DF, 17, 0, 0
+-- 1299, 1958, Checoslovaquia, MF, 3, 0, 1
+-- 1300, 1966, Uruguay, MF, 6, 0, 4
+-- 1300, 1970, Uruguay, MF, 16, 0, 0
+-- 1301, 1994, Brasil, DF, 14, 0, 0
+-- 1301, 1998, Brasil, DF, 2, 0, 6
+-- 1301, 2002, Brasil, DF, 2, 7, 7
+-- 1301, 2006, Brasil, DF, 2, 4, 4
+-- 1302, 2014, Inglaterra, DF, 5, 0, 3
+-- 1302, 2018, Inglaterra, DF, 15, 0, 1
+-- 1303, 2006, Australia, MF, 4, 0, 3
+-- 1303, 2010, Australia, FW, 4, 0, 2
+-- 1303, 2014, Australia, FW, 4, 0, 2
+-- 1303, 2018, Australia, FW, 4, 0, 0
+-- 1304, 2014, Ecuador, FW, 11, 0, 2
+-- 1305, 2022, Ecuador, MF, 23, 0, 3
+-- 1306, 1950, Yugoslavia, FW, None, 0, 3
+-- 1307, 1950, Yugoslavia, MF, None, 1, 2
+-- 1307, 1954, Yugoslavia, MF, 4, 0, 3
+-- 1308, 1938, Paises Bajos, DF, None, 0, 1
+-- 1309, 1986, España, MF, 18, 0, 3
+-- 1310, 1982, Argentina, FW, 5, 0, 2
+-- 1310, 1990, Argentina, MF, 6, 0, 2
+-- 1311, 1966, México, GK, 12, 0, 2
+-- 1311, 1970, México, GK, 1, 0, 4
+-- 1312, 2018, Panamá, GK, 12, 0, 0
+-- 1313, 1958, México, FW, 9, 0, 1
+-- 1314, 1998, Escocia, DF, 4, 0, 2
+-- 1315, 1958, Escocia, DF, 4, 0, 3
+-- 1316, 1998, Colombia, GK, 12, 0, 0
+-- 1317, 2018, Croacia, DF, 15, 0, 1
+-- 1318, 1966, Argentina, DF, 6, 0, 1
+-- 1319, 1934, Italia, DF, None, 0, 0
+-- 1320, 1990, Estados Unidos, DF, 20, 0, 3
+-- 1320, 1994, Estados Unidos, DF, 20, 0, 4
+-- 1321, 1966, Inglaterra, MF, 20, 0, 1
+-- 1322, 1962, Colombia, DF, 6, 0, 0
+-- 1323, 1950, Paraguay, FW, None, 0, 0
+-- 1324, 2014, Costa Rica, MF, 20, 0, 0
+-- 1325, 2018, Costa Rica, DF, 15, 0, 1
+-- 1325, 2022, Costa Rica, DF, 15, 0, 2
+-- 1326, 1930, Uruguay, FW, None, 0, 0
+-- 1327, 1982, España, DF, 2, 0, 5
+-- 1327, 1986, España, DF, 3, 5, 5
+-- 1328, 1958, México, GK, 12, 0, 0
+-- 1329, 2002, Senegal, FW, 7, 0, 3
+-- 1330, 2002, Senegal, FW, 9, 0, 0
+-- 1331, 1994, España, DF, 4, 0, 1
+-- 1332, 1990, Rumania, FW, 9, 0, 0
+-- 1333, 2022, Francia, MF, 25, 0, 1
+-- 1334, 1934, Checoslovaquia, MF, None, 0, 4
+-- 1335, 2006, Argentina, MF, 5, 0, 3
+-- 1336, 2014, Costa Rica, GK, 23, 0, 0
+-- 1337, 1970, Uruguay, DF, 14, 0, 0
+-- 1338, 2014, Estados Unidos, DF, 20, 0, 3
+-- 1339, 1994, España, MF, 15, 0, 3
+-- 1340, 2006, Italia, MF, 16, 0, 4
+-- 1340, 2010, Italia, MF, 16, 0, 0
+-- 1341, 2014, Argentina, DF, 3, 0, 1
+-- 1342, 2018, Uruguay, GK, 12, 0, 0
+-- 1343, 1934, España, FW, None, 0, 1
+-- 1344, 1950, Italia, MF, None, 0, 1
+-- 1345, 1982, Irlanda del Norte, FW, 21, 0, 0
+-- 1346, 1986, Irlanda del Norte, MF, 21, 0, 1
+-- 1347, 1974, Australia, FW, 19, 0, 1
+-- 1348, 2014, Costa Rica, FW, 9, 0, 5
+-- 1348, 2018, Costa Rica, FW, 12, 0, 1
+-- 1348, 2022, Costa Rica, FW, 12, 0, 3
+-- 1349, 1998, Inglaterra, DF, 2, 0, 4
+-- 1349, 2002, Inglaterra, DF, 6, 0, 5
+-- 1349, 2006, Inglaterra, DF, 12, 0, 0
+-- 1350, 1962, Chile, FW, 20, 0, 1
+-- 1350, 1966, Chile, FW, 3, 0, 0
+-- 1351, 1970, Perú, DF, 2, 0, 2
+-- 1352, 1950, Chile, MF, None, 0, 0
+-- 1353, 1994, México, GK, 1, 0, 4
+-- 1353, 1998, México, GK, 1, 0, 4
+-- 1353, 2002, México, GK, 23, 0, 0
+-- 1354, 1998, Paraguay, FW, 21, 0, 3
+-- 1354, 2002, Paraguay, FW, 11, 0, 1
+-- 1355, 2010, Honduras, GK, 1, 0, 0
+-- 1356, 1934, Brasil, MF, None, 0, 1
+-- 1357, 1990, Argentina, GK, 22, 0, 0
+-- 1358, 2022, Portugal, DF, 20, 0, 3
+-- 1359, 1998, Francia, DF, 2, 0, 1
+-- 1359, 2002, Francia, DF, 2, 0, 1
+-- 1360, 2014, Italia, MF, 6, 0, 2
+-- 1361, 2002, Portugal, DF, 4, 0, 0
+-- 1361, 2006, Portugal, DF, 3, 0, 1
+-- 1362, 1986, Paraguay, MF, 10, 0, 4
+-- 1363, 1950, Paraguay, FW, None, 0, 0
+-- 1364, 1990, Argentina, FW, 8, 0, 5
+-- 1364, 1994, Argentina, FW, 7, 0, 3
+-- 1364, 2002, Argentina, FW, 21, 0, 0
+-- 1365, 1998, Paraguay, DF, 20, 0, 2
+-- 1365, 2002, Paraguay, DF, 21, 0, 4
+-- 1365, 2006, Paraguay, DF, 21, 0, 3
+-- 1365, 2010, Paraguay, DF, 4, 1, 1
+-- 1366, 1994, España, GK, 13, 0, 1
+-- 1366, 1998, España, GK, 13, 0, 0
+-- 1366, 2006, España, GK, 19, 0, 1
+-- 1367, 1998, Italia, DF, 4, 0, 5
+-- 1367, 2002, Italia, DF, 5, 0, 3
+-- 1367, 2006, Italia, DF, 5, 7, 7
+-- 1367, 2010, Italia, DF, 5, 3, 3
+-- 1368, 2022, Uruguay, MF, 24, 0, 0
+-- 1369, 1950, Paraguay, MF, None, 0, 2
+-- 1370, 1962, Argentina, DF, 18, 0, 2
+-- 1371, 2010, España, DF, 11, 0, 7
+-- 1372, 1934, Bélgica, FW, None, 0, 1
+-- 1372, 1938, Bélgica, FW, None, 0, 0
+-- 1373, 1930, Francia, DF, None, 0, 3
+-- 1374, 1974, Italia, MF, 8, 0, 3
+-- 1375, 1970, Checoslovaquia, FW, 21, 0, 1
+-- 1376, 1950, Bolivia, FW, None, 0, 1
+-- 1377, 1950, Italia, FW, None, 0, 2
+-- 1377, 1954, Italia, FW, 10, 0, 1
+-- 1378, 1930, Uruguay, GK, None, 0, 0
+-- 1379, 1950, Italia, FW, None, 0, 0
+-- 1380, 2002, Portugal, FW, 19, 0, 0
+-- 1381, 1950, Italia, FW, None, 2, 2
+-- 1382, 1950, México, GK, None, 0, 3
+-- 1382, 1954, México, GK, 1, 0, 1
+-- 1382, 1958, México, GK, 1, 3, 3
+-- 1382, 1962, México, GK, 1, 3, 3
+-- 1382, 1966, México, GK, 1, 0, 1
+-- 1383, 1954, Uruguay, DF, 16, 0, 2
+-- 1384, 2014, Colombia, MF, 5, 0, 0
+-- 1385, 2018, Marruecos, MF, 23, 0, 0
+-- 1386, 1974, Uruguay, MF, 16, 0, 0
+-- 1387, 1978, México, MF, 16, 0, 1
+-- 1388, 1954, México, MF, 5, 0, 2
+-- 1388, 1958, México, MF, 17, 0, 2
+-- 1388, 1962, México, MF, 5, 0, 3
+-- 1389, 1978, España, MF, 11, 0, 3
+-- 1390, 1998, Paraguay, FW, 9, 0, 3
+-- 1390, 2002, Paraguay, FW, 20, 0, 3
+-- 1391, 2010, Paraguay, FW, 7, 0, 2
+-- 1392, 1986, Brasil, FW, 9, 0, 5
+-- 1392, 1990, Brasil, FW, 9, 0, 4
+-- 1393, 1998, Jamaica, MF, 7, 0, 1
+-- 1394, 2002, Uruguay, GK, 1, 0, 3
+-- 1395, 1978, Brasil, GK, 12, 0, 0
+-- 1395, 1982, Brasil, GK, 22, 0, 0
+-- 1395, 1986, Brasil, GK, 1, 0, 5
+-- 1396, 1970, Brasil, DF, 4, 6, 6
+-- 1397, 1998, Brasil, GK, 12, 0, 0
+-- 1398, 1986, Portugal, MF, 6, 0, 3
+-- 1399, 1934, Suecia, MF, None, 0, 2
+-- 1400, 1962, España, GK, 3, 0, 2
+-- 1401, 2010, Chile, MF, 6, 0, 3
+-- 1401, 2014, Chile, MF, 6, 0, 0
+-- 1402, 1998, México, DF, 18, 0, 1
+-- 1402, 2002, México, DF, 16, 0, 4
+-- 1403, 2002, Sudáfrica, DF, 3, 0, 3
+-- 1404, 1990, Italia, FW, 16, 0, 2
+-- 1405, 1974, Argentina, GK, 1, 0, 5
+-- 1406, 2010, Australia, DF, 21, 0, 2
+-- 1407, 1966, Francia, GK, 21, 0, 0
+-- 1408, 1974, Brasil, MF, 17, 0, 5
+-- 1409, 2006, Inglaterra, DF, 15, 0, 2
+-- 1409, 2010, Inglaterra, DF, 18, 0, 1
+-- 1410, 1986, España, FW, 10, 0, 0
+-- 1411, 2018, Bélgica, MF, 11, 0, 3
+-- 1411, 2022, Bélgica, FW, 11, 0, 2
+-- 1412, 1974, Argentina, DF, 7, 0, 1
+-- 1413, 2010, Francia, GK, 23, 0, 0
+-- 1414, 1954, Bélgica, MF, 5, 0, 2
+-- 1415, 1930, México, FW, None, 0, 3
+-- 1416, 1930, Paraguay, FW, None, 0, 0
+-- 1417, 2006, Inglaterra, MF, 18, 0, 1
+-- 1417, 2010, Inglaterra, MF, 22, 0, 0
+-- 1418, 2018, Perú, FW, 18, 0, 3
+-- 1419, 1958, Argentina, GK, 1, 0, 3
+-- 1420, 2002, Irlanda, MF, 22, 0, 0
+-- 1421, 2006, Inglaterra, GK, 22, 0, 0
+-- 1422, 2018, Perú, MF, 16, 0, 0
+-- 1423, 2022, Estados Unidos, DF, 20, 0, 1
+-- 1424, 1970, Bélgica, FW, 19, 0, 0
+-- 1425, 1954, México, FW, 18, 0, 0
+-- 1426, 2018, España, DF, 2, 0, 2
+-- 1426, 2022, España, DF, 20, 0, 1
+-- 1427, 1938, Cuba, GK, None, 0, 2
+-- 1428, 1966, Portugal, GK, 2, 0, 1
+-- 1429, 2014, Portugal, MF, 6, 0, 1
+-- 1429, 2018, Portugal, MF, 14, 0, 4
+-- 1429, 2022, Portugal, MF, 14, 0, 2
+-- 1430, 1930, Brasil, FW, None, 0, 1
+-- 1430, 1934, Brasil, FW, None, 0, 0
+-- 1431, 1950, Chile, MF, None, 0, 2
+-- 1432, 2018, Perú, GK, 21, 0, 0
+-- 1433, 1986, Brasil, FW, 8, 0, 2
+-- 1434, 1954, Suiza, MF, 9, 0, 3
+-- 1435, 1950, Italia, GK, None, 0, 0
+-- 1436, 1950, México, FW, None, 2, 3
+-- 1437, 1990, Irlanda, FW, 10, 0, 2
+-- 1437, 1994, Irlanda, FW, 16, 0, 0
+-- 1438, 2018, Brasil, MF, 5, 0, 4
+-- 1438, 2022, Brasil, MF, 5, 0, 4
+-- 1439, 1958, Irlanda del Norte, FW, 13, 0, 2
+-- 1440, 2022, Polonia, DF, 2, 0, 4
+-- 1441, 2002, España, GK, 1, 0, 5
+-- 1441, 2006, España, GK, 1, 2, 3
+-- 1441, 2010, España, GK, 1, 7, 7
+-- 1441, 2014, España, GK, 1, 2, 2
+-- 1442, 1994, Italia, FW, 18, 0, 3
+-- 1443, 2014, Italia, FW, 10, 0, 0
+-- 1444, 1990, Colombia, DF, 17, 0, 0
+-- 1445, 1982, Irlanda del Norte, MF, 14, 0, 0
+-- 1446, 2018, Brasil, GK, 16, 0, 0
+-- 1447, 2022, Bélgica, MF, 21, 0, 3
+-- 1448, 1998, Chile, DF, 2, 0, 0
+-- 1449, 1982, Francia, GK, 21, 0, 1
+-- 1450, 2018, Bélgica, GK, 13, 0, 0
+-- 1450, 2022, Bélgica, GK, 13, 0, 0
+-- 1451, 1934, Italia, MF, None, 0, 1
+-- 1452, 2022, Camerún, DF, 21, 0, 2
+-- 1453, 1974, Italia, GK, 22, 0, 0
+-- 1454, 1950, Brasil, GK, None, 0, 0
+-- 1454, 1954, Brasil, GK, 1, 0, 3
+-- 1454, 1958, Brasil, GK, 1, 0, 0
+-- 1454, 1962, Brasil, GK, 22, 0, 0
+-- 1455, 2010, Uruguay, GK, 12, 0, 0
+-- 1456, 1982, El Salvador, DF, 2, 0, 1
+-- 1457, 1994, Bolivia, MF, 20, 0, 0
+-- 1458, 2006, Ecuador, MF, 14, 0, 3
+-- 1459, 1970, México, GK, 22, 0, 0
+-- 1460, 2002, Costa Rica, DF, 22, 0, 3
+-- 1461, 1970, El Salvador, DF, 18, 0, 1
+-- 1462, 1930, Uruguay, FW, None, 0, 2
+-- 1463, 2010, México, MF, 8, 0, 0
+-- 1464, 1930, México, FW, None, 0, 0
+-- 1465, 2006, México, DF, 15, 0, 1
+-- 1466, 1954, Uruguay, FW, 22, 0, 0
+-- 1467, 1974, Chile, FW, 20, 0, 0
+-- 1468, 1990, Uruguay, MF, 21, 0, 0
+-- 1469, 1974, Chile, FW, 7, 0, 2
+-- 1469, 1982, Chile, FW, 13, 0, 2
+-- 1470, 2002, Turquía, GK, 12, 0, 0
+-- 1471, 1986, Irlanda del Norte, FW, 22, 0, 0
+-- 1472, 1974, Italia, MF, 18, 0, 1
+-- 1472, 1978, Italia, MF, 16, 0, 7
+-- 1472, 1982, Italia, MF, 15, 0, 0
+-- 1473, 1998, Argentina, GK, 17, 0, 0
+-- 1473, 2002, Argentina, GK, 12, 0, 3
+-- 1474, 2022, Canadá, FW, 9, 0, 0
+-- 1475, 2010, Uruguay, FW, 7, 0, 6
+-- 1475, 2014, Uruguay, FW, 21, 0, 4
+-- 1475, 2018, Uruguay, FW, 21, 0, 4
+-- 1475, 2022, Uruguay, FW, 21, 0, 1
+-- 1476, 1934, Italia, GK, None, 0, 0
+-- 1477, 1990, Costa Rica, FW, 14, 0, 4
+-- 1478, 1938, Francia, DF, None, 0, 2
+-- 1479, 2014, España, MF, 20, 0, 1
+-- 1480, 1930, Uruguay, FW, None, 0, 4
+-- 1481, 1938, Polonia, FW, None, 0, 0
+-- 1482, 2010, Eslovaquia, DF, 4, 0, 1
+-- 1483, 2006, República Checa, GK, 1, 0, 3
+-- 1484, 2002, Eslovenia, MF, 8, 3, 3
+-- 1485, 2002, Eslovenia, MF, 20, 0, 0
+-- 1486, 1998, España, MF, 16, 0, 0
+-- 1487, 2002, Costa Rica, MF, 10, 0, 3
+-- 1487, 2006, Costa Rica, MF, 10, 0, 3
+-- 1488, 1950, Paraguay, GK, None, 0, 0
+-- 1489, 1970, Italia, DF, 5, 0, 6
+-- 1490, 1982, Argelia, GK, 1, 0, 3
+-- 1491, 2014, Italia, FW, 11, 0, 0
+-- 1492, 1938, Italia, GK, None, 0, 0
+-- 1493, 1998, Austria, MF, 13, 0, 2
+-- 1494, 1938, Checoslovaquia, MF, None, 0, 0
+-- 1495, 1930, Argentina, FW, None, 0, 1
+-- 1496, 1954, Italia, DF, 14, 0, 0
+-- 1497, 1974, Brasil, FW, 9, 0, 0
+-- 1498, 1950, España, FW, None, 0, 0
+-- 1499, 2010, Eslovenia, DF, 5, 0, 3
+-- 1500, 1998, Brasil, MF, 5, 0, 6
+-- 1501, 1950, Paraguay, DF, None, 0, 2
+-- 1502, 1954, Turquía, MF, 5, 0, 3
+-- 1503, 1938, Bélgica, FW, None, 0, 0
+-- 1504, 1982, Bélgica, FW, 11, 0, 5
+-- 1504, 1986, Bélgica, MF, 11, 7, 7
+-- 1504, 1990, Bélgica, FW, 11, 3, 3
+-- 1505, 2002, Ecuador, GK, 1, 0, 3
+-- 1506, 1986, Corea del Sur, FW, 11, 0, 3
+-- 1507, 2002, Corea del Sur, FW, 16, 0, 1
+-- 1507, 2010, Corea del Sur, DF, 22, 0, 3
+-- 1508, 2010, Corea del Norte, DF, 2, 0, 3
+-- 1509, 2018, Túnez, FW, 20, 0, 1
+-- 1509, 2022, Túnez, MF, 18, 0, 0
+-- 1510, 1934, España, FW, None, 0, 1
+-- 1511, 2022, Costa Rica, MF, 2, 0, 0
+-- 1512, 2014, Bélgica, MF, 22, 0, 1
+-- 1512, 2018, Bélgica, MF, 22, 0, 4
+-- 1513, 1986, Argelia, DF, 19, 0, 0
+-- 1514, 2022, Marruecos, MF, 13, 0, 0
+-- 1515, 1962, México, DF, 13, 0, 0
+-- 1515, 1966, México, DF, 2, 0, 3
+-- 1516, 2002, Ecuador, MF, 16, 0, 3
+-- 1517, 1966, Argentina, FW, 14, 0, 0
+-- 1518, 2010, Grecia, GK, 1, 0, 0
+-- 1519, 1970, Perú, MF, 7, 0, 4
+-- 1520, 1982, Checoslovaquia, MF, 16, 0, 1
+-- 1521, 1930, Paraguay, DF, None, 0, 0
+-- 1522, 1994, Argentina, DF, 3, 0, 4
+-- 1522, 1998, Argentina, DF, 3, 0, 3
+-- 1522, 2002, Argentina, DF, 22, 0, 1
+-- 1523, 2014, Estados Unidos, DF, 21, 0, 0
+-- 1524, 1982, URSS, GK, 22, 0, 0
+-- 1525, 1982, URSS, GK, 16, 0, 0
+-- 1526, 1986, URSS, GK, 16, 0, 1
+-- 1526, 1990, URSS, GK, 16, 0, 0
+-- 1527, 1930, Bélgica, MF, None, 0, 0
+-- 1528, 1930, Francia, MF, None, 0, 3
+-- 1529, 1994, Marruecos, FW, 9, 0, 2
+-- 1530, 2010, Argelia, GK, 16, 0, 1
+-- 1531, 1930, Chile, DF, None, 0, 2
+-- 1532, 1958, Irlanda del Norte, MF, 20, 0, 0
+-- 1533, 1994, Suiza, FW, 11, 0, 4
+-- 1534, 1998, Francia, GK, 22, 0, 0
+-- 1535, 2010, Grecia, FW, 9, 0, 1
+-- 1536, 2006, Trinidad y Tobago, DF, 17, 0, 0
+-- 1537, 1958, Gales, FW, 9, 0, 4
+-- 1538, 1958, Gales, MF, 5, 0, 5
+-- 1539, 1958, Inglaterra, FW, 20, 0, 0
+-- 1539, 1962, Inglaterra, FW, 11, 0, 4
+-- 1539, 1966, Inglaterra, FW, 9, 0, 6
+-- 1539, 1970, Inglaterra, MF, 9, 0, 4
+-- 1540, 1966, Inglaterra, DF, 5, 0, 6
+-- 1540, 1970, Inglaterra, DF, 17, 0, 1
+-- 1541, 1930, Bolivia, DF, None, 0, 2
+-- 1542, 1990, Costa Rica, MF, 8, 0, 4
+-- 1543, 1990, Costa Rica, DF, 6, 0, 4
+-- 1544, 1994, México, GK, 22, 0, 0
+-- 1545, 1994, México, MF, 13, 0, 0
+-- 1546, 2022, México, MF, 24, 0, 3
+-- 1547, 2014, Honduras, MF, 23, 0, 0
+-- 1548, 2010, Honduras, DF, 2, 0, 3
+-- 1548, 2014, Honduras, DF, 2, 0, 0
+-- 1549, 1974, Argentina, MF, 8, 0, 0
+-- 1550, 1970, Israel, FW, 13, 0, 0
+-- 1551, 1978, Túnez, DF, 18, 0, 0
+-- 1552, 1986, Argelia, MF, 3, 0, 0
+-- 1553, 2022, Marruecos, FW, 21, 0, 0
+-- 1554, 2010, Camerún, DF, 14, 0, 1
+-- 1554, 2014, Camerún, DF, 14, 0, 2
+-- 1555, 2006, Túnez, MF, 14, 0, 3
+-- 1556, 1978, Túnez, FW, 16, 0, 0
+-- 1557, 1986, España, DF, 15, 0, 1
+-- 1557, 1990, España, DF, 2, 0, 4
+-- 1558, 1994, Rusia, GK, 1, 0, 1
+-- 1558, 2002, Rusia, GK, 12, 0, 0
+-- 1559, 2002, Estados Unidos, DF, 14, 0, 0
+-- 1559, 2006, Estados Unidos, DF, 6, 0, 3
+-- 1559, 2010, Estados Unidos, DF, 6, 0, 4
+-- 1560, 2018, Rusia, MF, 6, 0, 3
+-- 1561, 2018, Irán, DF, 4, 0, 1
+-- 1561, 2022, Irán, DF, 15, 0, 1
+-- 1562, 1958, Francia, MF, 8, 0, 0
+-- 1563, 1998, Marruecos, MF, 8, 0, 2
+-- 1564, 1978, Brasil, MF, 21, 0, 1
+-- 1565, 1950, Brasil, FW, None, 0, 4
+-- 1566, 2010, Italia, DF, 4, 0, 3
+-- 1566, 2014, Italia, DF, 3, 0, 3
+-- 1567, 1998, Italia, FW, 20, 0, 0
+-- 1568, 2006, Ucrania, DF, 13, 0, 0
+-- 1569, 1998, Túnez, MF, 14, 0, 3
+-- 1570, 2006, Túnez, FW, 9, 0, 1
+-- 1571, 1998, Paraguay, GK, 1, 4, 4
+-- 1571, 2002, Paraguay, GK, 1, 3, 3
+-- 1572, 1986, Paraguay, MF, 19, 0, 0
+-- 1573, 1954, Inglaterra, DF, 18, 0, 0
+-- 1574, 2006, Francia, DF, 21, 0, 0
+-- 1575, 1934, Argentina, DF, None, 0, 0
+-- 1576, 1974, Italia, FW, 9, 0, 2
+-- 1577, 2002, Costa Rica, DF, 21, 0, 0
+-- 1578, 2006, Estados Unidos, FW, 11, 0, 0
+-- 1579, 2006, Australia, DF, 14, 0, 4
+-- 1579, 2010, Australia, DF, 11, 0, 1
+-- 1580, 1998, Marruecos, MF, 18, 0, 3
+-- 1581, 1994, Rumania, MF, 8, 0, 0
+-- 1582, 1938, Rumania, DF, None, 0, 1
+-- 1583, 1962, URSS, FW, 22, 0, 3
+-- 1583, 1966, URSS, FW, 11, 0, 4
+-- 1584, 1982, URSS, DF, 3, 5, 5
+-- 1584, 1986, URSS, DF, 3, 0, 0
+-- 1585, 1930, Argentina, DF, None, 0, 1
+-- 1586, 1938, Italia, FW, None, 0, 0
+-- 1587, 1986, Corea del Sur, GK, 1, 0, 0
+-- 1588, 2022, Corea del Sur, FW, 9, 0, 3
+-- 1589, 2006, Corea del Sur, FW, 19, 0, 3
+-- 1590, 1994, Corea del Sur, MF, 15, 0, 1
+-- 1591, 1986, Corea del Sur, MF, 4, 0, 2
+-- 1592, 1986, Corea del Sur, DF, 14, 0, 1
+-- 1592, 1990, Corea del Sur, DF, 15, 0, 0
+-- 1593, 2006, Corea del Sur, DF, 23, 0, 0
+-- 1594, 2010, Corea del Sur, DF, 4, 0, 4
+-- 1595, 1986, Corea del Sur, MF, 8, 0, 2
+-- 1596, 2022, Corea del Sur, DF, 24, 0, 0
+-- 1597, 2010, Corea del Norte, FW, 12, 0, 0
+-- 1598, 1954, Corea del Sur, FW, 8, 0, 1
+-- 1599, 1994, Corea del Sur, MF, 14, 0, 0
+-- 1600, 2002, Corea del Sur, GK, 23, 0, 0
+-- 1601, 1990, Corea del Sur, GK, 21, 0, 3
+-- 1601, 1994, Corea del Sur, GK, 1, 3, 3
+-- 1602, 2002, Corea del Sur, DF, 4, 0, 6
+-- 1602, 2006, Corea del Sur, DF, 4, 0, 3
+-- 1603, 1990, Corea del Sur, DF, 3, 0, 3
+-- 1604, 1994, Corea del Sur, MF, 19, 0, 0
+-- 1605, 1986, Corea del Sur, MF, 9, 0, 2
+-- 1605, 1990, Corea del Sur, FW, 14, 2, 3
+-- 1606, 1998, Corea del Sur, MF, 2, 0, 2
+-- 1606, 2002, Corea del Sur, MF, 3, 0, 0
+-- 1607, 2002, Corea del Sur, FW, 8, 0, 0
+-- 1608, 1998, Corea del Sur, FW, 10, 0, 2
+-- 1608, 2002, Corea del Sur, FW, 11, 0, 0
+-- 1609, 1994, Corea del Sur, DF, 12, 0, 2
+-- 1609, 1998, Corea del Sur, DF, 4, 0, 1
+-- 1610, 1954, Corea del Sur, FW, 18, 0, 1
+-- 1611, 1962, URSS, DF, 5, 0, 3
+-- 1612, 1966, Francia, DF, 7, 0, 0
+-- 1613, 1938, Cuba, DF, None, 0, 3
+-- 1614, 1998, Túnez, DF, 6, 0, 2
+-- 1615, 1970, Marruecos, MF, 16, 0, 0
+-- 1616, 2010, Camerún, FW, 13, 0, 2
+-- 1616, 2014, Camerún, FW, 13, 0, 3
+-- 1616, 2022, Camerún, FW, 13, 2, 3
+-- 1617, 1990, Checoslovaquia, MF, 8, 0, 5
+-- 1618, 2002, Francia, DF, 5, 0, 0
+-- 1619, 2018, Dinamarca, DF, 6, 0, 4
+-- 1619, 2022, Dinamarca, DF, 6, 0, 3
+-- 1620, 1986, Dinamarca, FW, 18, 0, 0
+-- 1621, 2022, Dinamarca, GK, 16, 0, 0
+-- 1622, 2002, Dinamarca, GK, 22, 0, 0
+-- 1622, 2010, Dinamarca, GK, 22, 0, 0
+-- 1623, 2010, Nueva Zelanda, MF, 21, 0, 0
+-- 1624, 2014, Grecia, MF, 16, 0, 2
+-- 1625, 2002, Nigeria, MF, 15, 0, 2
+-- 1626, 1954, Corea del Sur, MF, 16, 0, 1
+-- 1627, 2002, Rusia, DF, 14, 0, 0
+-- 1628, 1970, Perú, DF, 4, 4, 4
+-- 1628, 1978, Perú, DF, 4, 6, 6
+-- 1629, 1990, Corea del Sur, MF, 8, 0, 1
+-- 1630, 1994, Corea del Sur, DF, 2, 0, 0
+-- 1631, 1986, Corea del Sur, DF, 3, 0, 0
+-- 1631, 1990, Corea del Sur, DF, 13, 0, 1
+-- 1632, 2006, Corea del Sur, FW, 16, 0, 0
+-- 1633, 1954, Corea del Sur, MF, 11, 0, 1
+-- 1634, 1986, Corea del Sur, DF, 5, 0, 3
+-- 1634, 1990, Corea del Sur, DF, 5, 1, 1
+-- 1635, 2006, Brasil, DF, 13, 0, 1
+-- 1636, 1958, Alemania Occidental, FW, 14, 0, 2
+-- 1637, 2022, Ecuador, MF, 5, 0, 0
+-- 1638, 1934, España, MF, None, 0, 3
+-- 1639, 2014, Paises Bajos, GK, 1, 0, 7
+-- 1640, 1930, Perú, FW, None, 0, 0
+-- 1641, 2014, Bélgica, DF, 23, 0, 0
+-- 1642, 2002, Eslovenia, FW, 21, 0, 2
+-- 1643, 1998, Rumania, DF, 13, 0, 4
+-- 1644, 1934, Rumania, FW, None, 0, 0
+-- 1645, 1982, Polonia, MF, 15, 0, 1
+-- 1646, 2018, Polonia, DF, 4, 0, 1
+-- 1647, 1934, España, DF, None, 0, 2
+-- 1648, 1934, Austria, DF, None, 0, 4
+-- 1649, 1966, México, MF, 9, 0, 1
+-- 1650, 1978, México, DF, 13, 0, 1
+-- 1651, 2022, Senegal, MF, 11, 0, 2
+-- 1652, 2002, Senegal, DF, 6, 4, 4
+-- 1653, 2002, Francia, FW, 9, 0, 0
+-- 1653, 2010, Francia, FW, 9, 0, 1
+-- 1654, 2022, Senegal, DF, 4, 0, 1
+-- 1655, 2002, Senegal, GK, 22, 0, 0
+-- 1656, 1986, Bélgica, FW, 16, 0, 6
+-- 1656, 1990, Bélgica, FW, 14, 0, 0
+-- 1657, 1934, Bélgica, MF, None, 0, 1
+-- 1658, 2018, Suecia, MF, 17, 0, 5
+-- 1659, 1958, Inglaterra, DF, 4, 0, 3
+-- 1660, 2010, Nueva Zelanda, MF, 16, 0, 0
+-- 1661, 1978, Escocia, GK, 20, 0, 0
+-- 1662, 2010, Estados Unidos, MF, 13, 0, 2
+-- 1663, 1970, Inglaterra, FW, 21, 0, 1
+-- 1664, 1986, Irlanda del Norte, FW, 17, 0, 2
+-- 1665, 2014, Honduras, MF, 20, 0, 2
+-- 1666, 2014, Paises Bajos, MF, 16, 0, 1
+-- 1667, 1986, Argentina, DF, 8, 0, 1
+-- 1668, 1994, Estados Unidos, DF, 21, 0, 3
+-- 1669, 1998, Túnez, DF, 17, 0, 2
+-- 1669, 2002, Túnez, DF, 23, 0, 1
+-- 1670, 1958, Inglaterra, MF, 15, 0, 1
+-- 1671, 1982, Irlanda del Norte, MF, 20, 0, 0
+-- 1672, 1982, Inglaterra, GK, 1, 0, 0
+-- 1673, 1998, Bélgica, DF, 15, 0, 2
+-- 1674, 2010, Francia, DF, 22, 0, 1
+-- 1675, 1986, Bélgica, DF, 14, 0, 0
+-- 1675, 1990, Bélgica, DF, 4, 0, 3
+-- 1676, 1970, Brasil, MF, 5, 0, 6
+-- 1677, 1974, Polonia, MF, 11, 0, 0
+-- 1678, 2022, Inglaterra, DF, 16, 0, 0
+-- 1679, 2014, Uruguay, DF, 19, 0, 0
+-- 1679, 2018, Uruguay, DF, 19, 0, 1
+-- 1679, 2022, Uruguay, DF, 19, 0, 2
+-- 1680, 1950, Inglaterra, FW, None, 0, 0
+-- 1681, 2002, Italia, DF, 4, 0, 1
+-- 1682, 1998, Paises Bajos, MF, 11, 1, 7
+-- 1682, 2006, Paises Bajos, MF, 8, 0, 4
+-- 1683, 1930, Chile, FW, None, 0, 0
+-- 1684, 1970, Rumania, DF, 6, 0, 0
+-- 1685, 1982, Bélgica, MF, 10, 0, 5
+-- 1686, 2010, Portugal, DF, 23, 0, 4
+-- 1686, 2014, Portugal, DF, 5, 0, 1
+-- 1687, 1966, Inglaterra, DF, 2, 0, 6
+-- 1688, 1998, Italia, MF, 13, 0, 0
+-- 1689, 1938, Italia, FW, None, 0, 3
+-- 1690, 1998, Dinamarca, DF, 12, 0, 4
+-- 1691, 2002, Inglaterra, DF, 3, 0, 5
+-- 1691, 2006, Inglaterra, DF, 3, 0, 5
+-- 1691, 2010, Inglaterra, DF, 3, 0, 4
+-- 1692, 1982, Nueva Zelanda, MF, 8, 0, 1
+-- 1693, 2002, Inglaterra, MF, 19, 0, 0
+-- 1693, 2006, Inglaterra, MF, 11, 0, 5
+-- 1693, 2010, Inglaterra, MF, 11, 0, 0
+-- 1694, 1950, Yugoslavia, DF, None, 0, 0
+-- 1695, 2018, Costa Rica, MF, 9, 0, 1
+-- 1696, 1962, Colombia, MF, 15, 0, 3
+-- 1697, 1962, España, FW, 4, 1, 1
+-- 1698, 1958, Escocia, FW, 19, 0, 3
+-- 1699, 1990, Escocia, MF, 18, 0, 0
+-- 1699, 1998, Escocia, MF, 11, 0, 3
+-- 1700, 1982, Italia, DF, 5, 0, 7
+-- 1700, 1986, Italia, DF, 4, 0, 1
+-- 1701, 2006, Argentina, DF, 4, 0, 1
+-- 1702, 1950, Estados Unidos, MF, None, 0, 3
+-- 1703, 1958, Francia, GK, 2, 0, 0
+-- 1704, 2006, Suiza, GK, 21, 0, 0
+-- 1705, 1966, Portugal, MF, 10, 6, 6
+-- 1706, 2022, Gales, DF, 25, 0, 0
+-- 1707, 2002, Senegal, DF, 17, 0, 5
+-- 1708, 2022, Francia, FW, 20, 0, 1
+-- 1709, 1954, Escocia, FW, 20, 0, 0
+-- 1710, 1934, Italia, GK, None, 4, 5
+-- 1711, 1966, Francia, FW, 8, 0, 1
+-- 1712, 2022, Suiza, DF, 18, 0, 0
+-- 1713, 1990, Argentina, GK, 1, 0, 0
+-- 1714, 1990, Costa Rica, GK, 1, 0, 3
+-- 1715, 1934, Alemania, FW, None, 0, 4
+-- 1716, 1962, Inglaterra, FW, 7, 0, 0
+-- 1716, 1966, Inglaterra, FW, 11, 0, 1
+-- 1717, 2002, Irlanda, FW, 13, 0, 0
+-- 1718, 2006, Estados Unidos, DF, 13, 0, 1
+-- 1719, 1994, Italia, MF, 15, 0, 1
+-- 1720, 1982, Italia, MF, 16, 0, 7
+-- 1720, 1986, Italia, FW, 16, 0, 4
+-- 1721, 1978, Italia, GK, 12, 0, 0
+-- 1722, 2022, Costa Rica, FW, 7, 0, 2
+-- 1723, 1962, Chile, DF, 5, 0, 5
+-- 1724, 2010, Chile, DF, 5, 0, 1
+-- 1725, 2002, España, GK, 23, 0, 0
+-- 1726, 2006, Estados Unidos, MF, 15, 0, 2
+-- 1727, 1950, Estados Unidos, DF, None, 0, 0
+-- 1728, 2018, Panamá, MF, 11, 0, 2
+-- 1729, 1986, Escocia, FW, 21, 0, 0
+-- 1730, 1970, Inglaterra, DF, 3, 0, 4
+-- 1731, 1954, Escocia, FW, 21, 0, 0
+-- 1732, 1982, Inglaterra, MF, 5, 0, 4
+-- 1733, 1954, Bélgica, FW, 9, 0, 2
+-- 1734, 1958, Argentina, FW, 7, 0, 3
+-- 1735, 1974, Uruguay, FW, 11, 0, 2
+-- 1736, 1970, Uruguay, GK, 22, 0, 0
+-- 1737, 2002, Costa Rica, MF, 19, 0, 0
+-- 1738, 1998, Colombia, DF, 2, 0, 0
+-- 1739, 1994, Colombia, GK, 1, 0, 3
+-- 1739, 1998, Colombia, GK, 1, 0, 0
+-- 1740, 1950, México, GK, None, 0, 0
+-- 1741, 2014, Croacia, DF, 5, 0, 3
+-- 1741, 2018, Croacia, DF, 5, 0, 1
+-- 1742, 1974, Escocia, MF, 15, 0, 0
+-- 1743, 1998, Chile, MF, 19, 0, 1
+-- 1744, 2018, Dinamarca, FW, 21, 0, 2
+-- 1744, 2022, Dinamarca, FW, 21, 0, 1
+-- 1745, 2022, Canadá, DF, 25, 0, 0
+-- 1746, 1982, Chile, GK, 12, 0, 0
+-- 1747, 2018, México, FW, 17, 0, 0
+-- 1748, 2006, México, GK, 12, 0, 0
+-- 1748, 2014, México, GK, 1, 0, 0
+-- 1748, 2018, México, GK, 1, 0, 0
+-- 1749, 1986, Paraguay, GK, 22, 0, 0
+-- 1750, 2022, Argentina, FW, 15, 0, 0
+-- 1751, 1990, Uruguay, MF, 15, 0, 0
+-- 1752, 1970, Perú, GK, 12, 0, 0
+-- 1753, 1982, Inglaterra, GK, 13, 0, 0
+-- 1754, 1950, Suiza, GK, None, 0, 0
+-- 1755, 1962, Uruguay, MF, 8, 0, 1
+-- 1755, 1966, Uruguay, MF, 7, 0, 4
+-- 1755, 1970, Uruguay, MF, 20, 0, 5
+-- 1756, 1994, Colombia, DF, 18, 0, 0
+-- 1757, 1954, México, FW, 22, 0, 0
+-- 1758, 1930, Chile, GK, None, 0, 3
+-- 1759, 2018, Perú, DF, 3, 0, 0
+-- 1760, 1954, Turquía, FW, 22, 0, 1
+-- 1761, 1938, Rumania, MF, None, 0, 1
+-- 1762, 2014, España, FW, 19, 0, 2
+-- 1762, 2018, España, FW, 19, 0, 4
+-- 1763, 2022, Portugal, GK, 22, 0, 5
+-- 1764, 2006, Portugal, DF, 4, 0, 1
+-- 1764, 2010, Portugal, DF, 21, 0, 2
+-- 1764, 2014, Portugal, DF, 13, 0, 1
+-- 1765, 1994, Italia, DF, 4, 0, 6
+-- 1765, 1998, Italia, DF, 5, 0, 5
+-- 1766, 1954, Italia, GK, 22, 0, 0
+-- 1767, 2006, Portugal, MF, 6, 0, 4
+-- 1768, 1982, Honduras, DF, 5, 0, 3
+-- 1769, 2014, Honduras, FW, 13, 0, 3
+-- 1770, 2022, México, GK, 12, 0, 0
+-- 1771, 1966, Francia, FW, 9, 0, 0
+-- 1772, 2002, Francia, GK, 23, 0, 0
+-- 1772, 2006, Francia, GK, 23, 0, 0
+-- 1773, 1982, Francia, FW, 16, 0, 1
+-- 1774, 1934, Francia, FW, None, 0, 0
+-- 1774, 1938, Francia, FW, None, 0, 0
+-- 1775, 2014, Bélgica, GK, 1, 0, 5
+-- 1775, 2018, Bélgica, GK, 1, 1, 7
+-- 1775, 2022, Bélgica, GK, 1, 0, 3
+-- 1776, 1962, Brasil, FW, 9, 0, 0
+-- 1777, 2006, Australia, GK, 12, 0, 0
+-- 1778, 1990, Estados Unidos, MF, 21, 0, 0
+-- 1779, 1954, Escocia, MF, 7, 0, 2
+-- 1779, 1958, Escocia, MF, 12, 0, 2
+-- 1780, 2006, Trinidad y Tobago, DF, 2, 0, 0
+-- 1781, 1958, Irlanda del Norte, FW, 17, 0, 1
+-- 1782, 1958, Escocia, FW, 18, 0, 0
+-- 1783, 1994, Irlanda, FW, 15, 0, 3
+-- 1784, 1950, Estados Unidos, FW, None, 0, 0
+-- 1785, 1998, Rumania, FW, 21, 0, 0
+-- 1786, 1998, Bélgica, DF, 2, 0, 1
+-- 1787, 1950, Chile, FW, None, 0, 3
+-- 1788, 1998, Argentina, FW, 19, 0, 0
+-- 1788, 2002, Argentina, FW, 19, 0, 0
+-- 1788, 2006, Argentina, FW, 9, 0, 4
+-- 1789, 1982, Nueva Zelanda, MF, 13, 0, 3
+-- 1790, 2006, Brasil, DF, 15, 0, 0
+-- 1791, 1934, España, FW, None, 0, 1
+-- 1792, 2010, Italia, DF, 3, 0, 3
+-- 1793, 1994, Bolivia, DF, 16, 0, 2
+-- 1794, 1954, Yugoslavia, DF, 3, 0, 3
+-- 1794, 1958, Yugoslavia, DF, 4, 0, 4
+-- 1795, 1970, Suecia, FW, 13, 0, 1
+-- 1795, 1974, Suecia, MF, 19, 0, 0
+-- 1796, 2006, Inglaterra, FW, 21, 0, 2
+-- 1796, 2010, Inglaterra, FW, 9, 0, 0
+-- 1797, 1958, Gales, MF, 16, 0, 0
+-- 1798, 1974, Alemania Oriental, GK, 1, 0, 6
+-- 1799, 1974, Paises Bajos, FW, 14, 7, 7
+-- 1800, 1966, Portugal, DF, 14, 0, 0
+-- 1801, 1986, México, DF, 14, 0, 5
+-- 1802, 1986, México, FW, 5, 0, 0
+-- 1803, 1962, Chile, DF, 16, 0, 1
+-- 1803, 1966, Chile, MF, 4, 0, 3
+-- 1804, 1982, Honduras, DF, 17, 0, 1
+-- 1805, 1982, Honduras, MF, 14, 0, 1
+-- 1806, 2006, Argentina, FW, 20, 0, 0
+-- 1807, 1954, Uruguay, MF, 17, 0, 5
+-- 1808, 1958, Argentina, FW, 22, 0, 2
+-- 1809, 1970, Perú, MF, 17, 0, 0
+-- 1810, 1978, Hungría, MF, 13, 0, 2
+-- 1810, 1982, Hungría, MF, 17, 0, 0
+-- 1811, 1938, Hungría, FW, None, 0, 0
+-- 1812, 1982, Hungría, MF, 16, 0, 0
+-- 1813, 1954, Hungría, FW, 18, 0, 0
+-- 1814, 1982, Hungría, DF, 20, 0, 0
+-- 1814, 1986, Hungría, DF, 12, 0, 0
+-- 1815, 1934, Checoslovaquia, DF, None, 0, 4
+-- 1816, 2018, Colombia, GK, 22, 0, 0
+-- 1817, 2014, Colombia, MF, 11, 0, 5
+-- 1817, 2018, Colombia, MF, 11, 0, 4
+-- 1818, 2014, Costa Rica, MF, 22, 0, 0
+-- 1819, 1962, Uruguay, FW, 11, 0, 2
+-- 1819, 1970, Uruguay, MF, 7, 0, 5
+-- 1819, 1974, Uruguay, MF, 7, 0, 1
+-- 1820, 1962, Uruguay, MF, 6, 0, 0
+-- 1821, 1970, Perú, FW, 10, 0, 4
+-- 1821, 1978, Perú, FW, 10, 0, 6
+-- 1821, 1982, Perú, MF, 10, 0, 3
+-- 1822, 1950, México, MF, None, 0, 1
+-- 1823, 1978, Italia, DF, 4, 0, 2
+-- 1824, 1986, Argentina, DF, 9, 0, 6
+-- 1825, 1934, Rumania, MF, None, 0, 0
+-- 1826, 1978, México, MF, 17, 0, 3
+-- 1827, 1978, Perú, MF, 8, 0, 6
+-- 1827, 1982, Perú, MF, 8, 0, 3
+-- 1828, 2018, Perú, MF, 8, 0, 3
+-- 1829, 2002, Paraguay, FW, 23, 0, 0
+-- 1829, 2006, Paraguay, FW, 23, 0, 0
+-- 1830, 2006, Argentina, DF, 17, 0, 1
+-- 1831, 1954, Francia, MF, 9, 0, 0
+-- 1832, 2006, Australia, MF, 5, 0, 4
+-- 1832, 2010, Australia, MF, 5, 0, 3
+-- 1833, 1974, Alemania Occidental, DF, 8, 0, 3
+-- 1833, 1978, Alemania Occidental, MF, 16, 0, 0
+-- 1834, 2018, Panamá, DF, 3, 0, 0
+-- 1835, 2022, Australia, FW, 25, 0, 0
+-- 1836, 2002, Irlanda, DF, 4, 0, 0
+-- 1837, 1954, Escocia, DF, 2, 2, 2
+-- 1838, 1958, Irlanda del Norte, DF, 2, 0, 5
+-- 1839, 1974, Australia, DF, 5, 0, 3
+-- 1840, 2002, España, DF, 2, 0, 1
+-- 1841, 1958, Irlanda del Norte, FW, 8, 0, 5
+-- 1842, 1982, Bélgica, GK, 12, 0, 1
+-- 1843, 1966, Portugal, MF, 19, 0, 0
+-- 1844, 1930, Rumania, DF, None, 0, 1
+-- 1845, 1934, Estados Unidos, DF, None, 0, 1
+-- 1846, 1982, Bélgica, FW, 21, 0, 4
+-- 1846, 1994, Bélgica, FW, 11, 0, 0
+-- 1847, 1954, Hungría, FW, 11, 0, 5
+-- 1848, 2018, Marruecos, DF, 4, 0, 2
+-- 1849, 1986, Uruguay, FW, 9, 0, 2
+-- 1850, 2006, Paraguay, DF, 14, 0, 0
+-- 1850, 2010, Paraguay, DF, 14, 0, 5
+-- 1851, 2002, Eslovenia, GK, 12, 0, 1
+-- 1852, 1998, Corea del Sur, DF, 19, 0, 0
+-- 1853, 1998, Irán, FW, 10, 0, 3
+-- 1853, 2006, Irán, FW, 10, 2, 2
+-- 1854, 2002, Rusia, DF, 13, 0, 0
+-- 1855, 2002, Senegal, DF, 2, 0, 5
+-- 1856, 1970, Marruecos, MF, 15, 0, 0
+-- 1857, 1982, Argelia, MF, 15, 0, 2
+-- 1858, 1994, Suecia, FW, 10, 0, 5
+-- 1859, 2022, Túnez, GK, 16, 0, 3
+-- 1860, 1998, Escocia, DF, 22, 0, 3
+-- 1861, 1986, Hungría, MF, 9, 0, 1
+-- 1862, 1938, Bélgica, MF, None, 0, 0
+-- 1863, 1978, Francia, FW, 16, 0, 1
+-- 1864, 1974, Escocia, FW, 8, 0, 3
+-- 1864, 1978, Escocia, FW, 8, 0, 3
+-- 1864, 1982, Escocia, FW, 8, 0, 1
+-- 1865, 2022, Portugal, DF, 2, 0, 3
+-- 1866, 2018, Dinamarca, DF, 14, 0, 4
+-- 1867, 1986, Portugal, GK, 22, 0, 2
+-- 1868, 2022, Dinamarca, MF, 14, 0, 1
+-- 1869, 1978, Irán, MF, 2, 0, 2
+-- 1870, 1978, España, FW, 7, 0, 1
+-- 1871, 2010, Portugal, GK, 22, 0, 0
+-- 1872, 2018, Brasil, DF, 14, 0, 1
+-- 1872, 2022, Brasil, DF, 2, 0, 3
+-- 1873, 1950, Brasil, MF, None, 0, 5
+-- 1874, 1966, URSS, DF, 10, 0, 4
+-- 1875, 2022, Ghana, GK, 12, 0, 0
+-- 1876, 2010, Portugal, FW, 10, 0, 2
+-- 1877, 2014, Brasil, DF, 13, 0, 1
+-- 1878, 1994, Marruecos, MF, 11, 0, 2
+-- 1879, 1982, URSS, MF, 13, 0, 2
+-- 1880, 2022, Marruecos, DF, 20, 0, 2
+-- 1881, 1970, Brasil, FW, 20, 0, 0
+-- 1882, 2014, Italia, DF, 4, 0, 3
+-- 1883, 1938, Francia, GK, None, 0, 0
+-- 1884, 1982, URSS, GK, 1, 0, 5
+-- 1884, 1986, URSS, GK, 1, 0, 3
+-- 1884, 1990, URSS, GK, 1, 1, 1
+-- 1885, 1938, Checoslovaquia, DF, None, 0, 3
+-- 1886, 2014, Ghana, GK, 16, 0, 2
+-- 1887, 2002, Turquía, MF, 22, 0, 6
+-- 1888, 2014, Irán, GK, 22, 0, 0
+-- 1889, 2022, Canadá, FW, 20, 0, 2
+-- 1890, 1962, Italia, DF, 18, 0, 1
+-- 1891, 1938, Rumania, GK, None, 0, 0
+-- 1892, 2014, Brasil, DF, 4, 1, 7
+-- 1893, 1966, Bulgaria, MF, 20, 0, 1
+-- 1893, 1970, Bulgaria, MF, 5, 0, 1
+-- 1894, 1998, Paises Bajos, MF, 16, 0, 6
+-- 1895, 2010, Sudáfrica, MF, 7, 0, 0
+-- 1896, 2014, Australia, DF, 3, 0, 3
+-- 1897, 1954, Escocia, DF, 6, 0, 2
+-- 1898, 2022, Gales, GK, 21, 0, 0
+-- 1899, 2022, Canadá, FW, 19, 0, 3
+-- 1900, 2022, Gales, DF, 4, 0, 3
+-- 1901, 1998, México, DF, 5, 0, 4
+-- 1902, 2014, Estados Unidos, MF, 14, 0, 1
+-- 1903, 2018, Panamá, DF, 15, 0, 2
+-- 1904, 1990, Costa Rica, MF, 13, 0, 0
+-- 1905, 1954, Uruguay, DF, 13, 0, 0
+-- 1906, 1998, Jamaica, MF, 3, 0, 2
+-- 1907, 1990, Italia, DF, 4, 0, 4
+-- 1908, 2018, Uruguay, FW, 10, 0, 1
+-- 1908, 2022, Uruguay, MF, 10, 0, 1
+-- 1909, 1994, Colombia, FW, 7, 0, 1
+-- 1909, 1998, Colombia, FW, 7, 0, 2
+-- 1910, 1930, Bélgica, GK, None, 0, 0
+-- 1911, 1998, Bélgica, DF, 16, 0, 0
+-- 1911, 2002, Bélgica, DF, 3, 0, 2
+-- 1912, 1994, Paises Bajos, DF, 2, 0, 4
+-- 1912, 1998, Paises Bajos, DF, 4, 6, 7
+-- 1913, 1938, Paises Bajos, FW, None, 0, 0
+-- 1914, 1994, Paises Bajos, MF, 9, 0, 2
+-- 1914, 1998, Paises Bajos, MF, 7, 0, 6
+-- 1915, 1966, Francia, FW, 10, 0, 1
+-- 1916, 2014, Bélgica, MF, 7, 0, 4
+-- 1916, 2018, Bélgica, MF, 7, 0, 6
+-- 1916, 2022, Bélgica, MF, 7, 1, 3
+-- 1917, 2006, Paises Bajos, DF, 15, 0, 1
+-- 1918, 1930, Bélgica, MF, None, 0, 1
+-- 1919, 1930, Bélgica, DF, None, 0, 1
+-- 1920, 2014, España, GK, 12, 0, 0
+-- 1920, 2018, España, GK, 1, 0, 4
+-- 1921, 1994, Paises Bajos, GK, 1, 0, 5
+-- 1921, 1998, Paises Bajos, GK, 18, 0, 0
+-- 1922, 1990, Bélgica, FW, 9, 0, 4
+-- 1922, 1994, Bélgica, FW, 9, 0, 3
+-- 1923, 2014, Paises Bajos, MF, 8, 0, 3
+-- 1924, 1938, Paises Bajos, FW, None, 0, 1
+-- 1925, 2022, Paises Bajos, MF, 21, 0, 5
+-- 1926, 2022, Paises Bajos, FW, 9, 0, 0
+-- 1927, 2010, Paises Bajos, MF, 8, 0, 6
+-- 1927, 2014, Paises Bajos, MF, 6, 0, 5
+-- 1928, 1974, Paises Bajos, DF, 7, 0, 0
+-- 1929, 2022, Bélgica, FW, 22, 0, 0
+-- 1930, 1978, España, DF, 2, 0, 1
+-- 1931, 2022, Uruguay, MF, 7, 0, 0
+-- 1932, 2002, Ecuador, DF, 4, 0, 3
+-- 1932, 2006, Ecuador, DF, 4, 0, 4
+-- 1933, 1978, México, MF, 7, 0, 3
+-- 1934, 2022, Estados Unidos, MF, 14, 0, 0
+-- 1935, 1970, Perú, DF, 3, 0, 3
+-- 1936, 1930, Perú, DF, None, 0, 2
+-- 1937, 1990, Uruguay, DF, 3, 0, 4
+-- 1938, 2022, Paises Bajos, DF, 3, 0, 1
+-- 1939, 1986, México, MF, 6, 0, 1
+-- 1940, 2002, Uruguay, MF, 22, 0, 0
+-- 1941, 1986, Canadá, MF, 19, 0, 0
+-- 1942, 1966, Francia, DF, 11, 0, 1
+-- 1943, 1986, Italia, MF, 13, 0, 4
+-- 1943, 1990, Italia, MF, 11, 0, 6
+-- 1944, 2022, Argentina, MF, 7, 0, 7
+-- 1945, 2002, España, MF, 11, 0, 4
+-- 1946, 2022, Paises Bajos, MF, 15, 0, 3
+-- 1947, 2006, Italia, MF, 4, 0, 2
+-- 1947, 2010, Italia, MF, 6, 0, 3
+-- 1947, 2014, Italia, MF, 16, 0, 2
+-- 1948, 2010, Italia, GK, 14, 0, 0
+-- 1949, 1990, Bélgica, DF, 15, 0, 0
+-- 1950, 1982, Bélgica, DF, 15, 0, 2
+-- 1951, 2014, Italia, DF, 2, 0, 1
+-- 1952, 1974, Uruguay, DF, 13, 0, 0
+-- 1953, 1970, Italia, MF, 16, 0, 6
+-- 1954, 1958, Brasil, DF, 14, 0, 5
+-- 1955, 1934, Argentina, FW, None, 1, 1
+-- 1956, 2002, Bélgica, GK, 1, 0, 4
+-- 1957, 1934, Bélgica, FW, None, 0, 1
+-- 1958, 2014, Paises Bajos, DF, 3, 0, 7
+-- 1958, 2022, Paises Bajos, DF, 6, 0, 0
+-- 1959, 1990, Bélgica, GK, 20, 0, 0
+-- 1959, 1994, Bélgica, GK, 12, 0, 0
+-- 1959, 1998, Bélgica, GK, 1, 0, 2
+-- 1960, 1938, Bélgica, MF, None, 0, 1
+-- 1961, 1938, Paises Bajos, FW, None, 0, 0
+-- 1962, 1994, Paises Bajos, DF, 21, 0, 0
+-- 1963, 1986, Bélgica, DF, 4, 0, 2
+-- 1963, 1990, Bélgica, DF, 16, 0, 4
+-- 1963, 1994, Bélgica, DF, 14, 0, 4
+-- 1964, 2010, Paises Bajos, MF, 14, 0, 1
+-- 1965, 2022, Bélgica, DF, 26, 0, 0
+-- 1966, 2014, Francia, DF, 2, 0, 4
+-- 1967, 2006, Portugal, MF, 20, 0, 4
+-- 1967, 2010, Portugal, MF, 20, 0, 1
+-- 1968, 2010, Eslovenia, FW, 14, 0, 1
+-- 1969, 1998, Estados Unidos, MF, 15, 0, 1
+-- 1970, 1998, Bélgica, DF, 22, 0, 2
+-- 1970, 2002, Bélgica, DF, 2, 0, 1
+-- 1971, 2010, Inglaterra, FW, 19, 0, 2
+-- 1972, 1934, Francia, GK, None, 0, 0
+-- 1973, 2014, Bélgica, MF, 16, 0, 1
+-- 1974, 2006, Suiza, FW, 14, 0, 0
+-- 1975, 2006, Suiza, DF, 23, 0, 4
+-- 1976, 2018, Australia, DF, 2, 0, 0
+-- 1976, 2022, Australia, DF, 2, 0, 2
+-- 1977, 1982, Austria, DF, 4, 0, 4
+-- 1978, 1934, Rumania, MF, None, 0, 1
+-- 1979, 2014, Irán, MF, 21, 0, 3
+-- 1979, 2018, Irán, FW, 21, 0, 0
+-- 1980, 1962, México, FW, 7, 0, 3
+-- 1981, 1970, Perú, FW, 18, 0, 0
+-- 1982, 1958, México, DF, 2, 0, 3
+-- 1982, 1962, México, DF, 2, 0, 3
+-- 1982, 1966, México, DF, 4, 0, 1
+-- 1983, 1994, México, MF, 14, 0, 3
+-- 1984, 1998, Italia, FW, 10, 0, 3
+-- 1984, 2002, Italia, FW, 7, 0, 1
+-- 1984, 2006, Italia, FW, 7, 0, 1
+-- 1985, 1962, España, MF, 5, 0, 2
+-- 1985, 1966, España, MF, 4, 0, 2
+-- 1986, 2018, Dinamarca, MF, 8, 0, 4
+-- 1986, 2022, Dinamarca, MF, 8, 0, 1
+-- 1987, 1930, Bélgica, FW, None, 0, 1
+-- 1988, 1970, Rumania, DF, 13, 0, 0
+-- 1989, 1930, Francia, FW, None, 0, 3
+-- 1989, 1934, Francia, MF, None, 0, 1
+-- 1989, 1938, Francia, MF, None, 0, 2
+-- 1990, 2006, Angola, DF, 21, 0, 3
+-- 1991, 2002, Ecuador, FW, 11, 0, 3
+-- 1991, 2006, Ecuador, FW, 11, 0, 3
+-- 1992, 2014, Honduras, MF, 12, 0, 0
+-- 1993, 1998, Argentina, FW, 21, 0, 0
+-- 1994, 1986, Paraguay, DF, 5, 4, 4
+-- 1995, 1930, Argentina, DF, None, 0, 5
+-- 1996, 1958, Argentina, MF, 2, 3, 3
+-- 1997, 1930, Francia, MF, None, 0, 1
+-- 1997, 1934, Francia, MF, None, 0, 0
+-- 1998, 2018, Inglaterra, DF, 17, 0, 2
+-- 1999, 2002, Italia, FW, 18, 0, 0
+-- 2000, 1930, Italia, FW, None, 0, 1
+-- 2000, 1934, Italia, FW, None, 0, 1
+-- 2001, 2014, Bélgica, MF, 19, 0, 2
+-- 2001, 2018, Bélgica, MF, 19, 0, 2
+-- 2002, 2018, Francia, FW, 11, 0, 2
+-- 2002, 2022, Francia, FW, 11, 0, 6
+-- 2003, 1970, Rumania, MF, 7, 0, 3
+-- 2004, 2006, Costa de Marfil, MF, 20, 0, 0
+-- 2004, 2010, Costa de Marfil, DF, 20, 0, 2
+-- 2005, 2010, Estados Unidos, DF, 15, 0, 4
+-- 2006, 2010, Argentina, DF, 2, 0, 5
+-- 2006, 2014, Argentina, DF, 15, 0, 3
+-- 2007, 1986, Bélgica, DF, 21, 0, 6
+-- 2007, 1990, Bélgica, DF, 7, 0, 4
+-- 2008, 2006, Estados Unidos, MF, 8, 0, 2
+-- 2008, 2010, Estados Unidos, MF, 8, 0, 4
+-- 2008, 2014, Estados Unidos, FW, 8, 4, 4
+-- 2009, 1982, URSS, DF, 6, 0, 5
+-- 2009, 1986, URSS, DF, 5, 3, 3
+-- 2009, 1990, URSS, DF, 5, 1, 1
+-- 2010, 2018, Bélgica, DF, 23, 0, 1
+-- 2010, 2022, Bélgica, DF, 19, 0, 2
+-- 2011, 1930, Perú, MF, None, 0, 2
+-- 2012, 1974, Bulgaria, FW, 11, 0, 3
+-- 2013, 2022, Australia, DF, 20, 0, 0
+-- 2014, 1966, Brasil, MF, 13, 0, 2
+-- 2015, 1998, Brasil, MF, 19, 0, 1
+-- 2015, 2002, Brasil, FW, 17, 0, 0
+-- 2016, 1930, Paraguay, GK, None, 0, 1
+-- 2017, 2014, Rusia, MF, 7, 0, 0
+-- 2018, 2014, Paises Bajos, FW, 21, 0, 1
+-- 2018, 2022, Paises Bajos, FW, 10, 0, 3
+-- 2019, 1954, Brasil, MF, 16, 0, 0
+-- 2020, 2010, Suiza, FW, 19, 0, 2
+-- 2021, 1954, Francia, FW, 16, 0, 2
+-- 2022, 1962, Bulgaria, FW, 19, 0, 2
+-- 2022, 1966, Bulgaria, MF, 7, 0, 2
+-- 2022, 1970, Bulgaria, MF, 11, 0, 2
+-- 2023, 1998, Francia, DF, 8, 1, 7
+-- 2023, 2002, Francia, DF, 8, 3, 3
+-- 2024, 1998, Francia, MF, 7, 6, 6
+-- 2025, 1974, Haití, MF, 8, 0, 3
+-- 2026, 1986, Bélgica, FW, 10, 0, 2
+-- 2027, 2022, Estados Unidos, DF, 2, 0, 4
+-- 2028, 1930, Rumania, FW, None, 0, 2
+-- 2029, 1986, Hungría, MF, 10, 0, 3
+-- 2030, 1982, Yugoslavia, FW, 18, 0, 0
+-- 2031, 2022, Australia, MF, 17, 0, 0
+-- 2032, 1970, Bélgica, FW, 9, 0, 1
+-- 2033, 1970, Bélgica, DF, 4, 0, 3
+-- 2034, 1966, Bulgaria, GK, 22, 0, 0
+-- 2035, 1974, Polonia, MF, 12, 7, 7
+-- 2035, 1978, Polonia, MF, 12, 6, 6
+-- 2036, 1990, Argentina, FW, 9, 0, 1
+-- 2037, 1994, Marruecos, GK, 12, 0, 0
+-- 2038, 1978, Túnez, MF, 10, 0, 3
+-- 2039, 2006, Francia, MF, 8, 0, 0
+-- 2040, 1998, Italia, MF, 14, 0, 4
+-- 2040, 2002, Italia, MF, 14, 0, 1
+-- 2041, 1986, Italia, MF, 14, 0, 3
+-- 2042, 1998, Italia, MF, 15, 0, 2
+-- 2042, 2002, Italia, MF, 16, 0, 0
+-- 2043, 1938, Francia, GK, None, 0, 2
+-- 2044, 2010, Argentina, MF, 7, 0, 4
+-- 2044, 2014, Argentina, MF, 7, 0, 5
+-- 2044, 2018, Argentina, MF, 11, 0, 3
+-- 2044, 2022, Argentina, FW, 11, 0, 4
+-- 2045, 1998, Italia, MF, 16, 0, 1
+-- 2046, 2010, Italia, FW, 10, 0, 1
+-- 2047, 1950, Estados Unidos, FW, None, 0, 0
+-- 2048, 1962, España, FW, 6, 0, 0
+-- 2049, 2022, Senegal, FW, 9, 0, 4
+-- 2050, 2010, Francia, MF, 19, 0, 3
+-- 2051, 1938, Francia, DF, None, 0, 2
+-- 2052, 2022, Senegal, DF, 22, 0, 4
+-- 2053, 2018, Senegal, GK, 1, 0, 0
+-- 2054, 2002, Senegal, GK, 16, 0, 0
+-- 2055, 1986, Portugal, FW, 17, 0, 2
+-- 2056, 2002, Senegal, MF, 15, 0, 3
+-- 2057, 2006, Francia, MF, 18, 0, 0
+-- 2057, 2010, Francia, MF, 18, 1, 1
+-- 2058, 2018, Portugal, DF, 13, 0, 0
+-- 2058, 2022, Portugal, DF, 4, 0, 4
+-- 2059, 2022, Senegal, MF, 15, 0, 3
+-- 2060, 2002, Senegal, DF, 13, 0, 5
+-- 2061, 1930, Paraguay, MF, None, 0, 2
+-- 2062, 2018, Colombia, DF, 18, 0, 0
+-- 2063, 1950, Chile, FW, None, 0, 2
+-- 2064, 1994, Argentina, DF, 16, 0, 1
+-- 2065, 1962, México, FW, 11, 0, 3
+-- 2065, 1966, México, MF, 6, 0, 3
+-- 2065, 1970, México, MF, 16, 0, 0
+-- 2066, 2018, Panamá, FW, 10, 0, 0
+-- 2067, 2014, Costa Rica, DF, 15, 0, 5
+-- 2068, 2014, Chile, MF, 21, 0, 4
+-- 2069, 1982, El Salvador, DF, 18, 0, 0
+-- 2070, 1966, Uruguay, DF, 13, 0, 0
+-- 2071, 1982, Argentina, FW, 6, 0, 2
+-- 2072, 1978, Perú, DF, 5, 0, 4
+-- 2072, 1982, Perú, DF, 15, 3, 3
+-- 2073, 1934, Estados Unidos, FW, None, 0, 1
+-- 2074, 1950, Inglaterra, MF, None, 0, 3
+-- 2074, 1954, Inglaterra, MF, 6, 0, 3
+-- 2075, 1958, Brasil, FW, 21, 0, 1
+-- 2076, 1998, Brasil, GK, 22, 0, 0
+-- 2076, 2002, Brasil, GK, 12, 0, 0
+-- 2076, 2006, Brasil, GK, 1, 1, 5
+-- 2077, 1930, Bélgica, MF, None, 0, 2
+-- 2078, 1954, Brasil, MF, 8, 0, 3
+-- 2078, 1958, Brasil, MF, 6, 0, 6
+-- 2078, 1962, Brasil, MF, 8, 0, 6
+-- 2079, 2006, Croacia, GK, 12, 0, 0
+-- 2080, 2014, Costa de Marfil, MF, 20, 0, 3
+-- 2081, 2022, Senegal, FW, 19, 0, 1
+-- 2082, 1934, Alemania, FW, None, 0, 0
+-- 2083, 2022, Senegal, FW, 20, 0, 0
+-- 2084, 2022, Senegal, GK, 1, 0, 0
+-- 2085, 1954, Austria, FW, 19, 0, 2
+-- 2085, 1958, Austria, FW, 19, 0, 0
+-- 2086, 2018, Inglaterra, MF, 4, 1, 2
+-- 2086, 2022, Inglaterra, DF, 15, 0, 0
+-- 2087, 1970, Alemania Occidental, MF, 19, 0, 0
+-- 2088, 1978, Alemania Occidental, DF, 3, 0, 5
+-- 2089, 1962, Bulgaria, MF, 7, 0, 1
+-- 2090, 2014, Francia, DF, 17, 0, 1
+-- 2091, 1982, Austria, MF, 15, 0, 0
+-- 2092, 2010, Sudáfrica, MF, 13, 0, 2
+-- 2093, 1994, Grecia, FW, 14, 0, 0
+-- 2094, 1986, Bulgaria, DF, 5, 4, 4
+-- 2095, 1962, Bulgaria, DF, 3, 0, 3
+-- 2095, 1970, Bulgaria, DF, 3, 1, 1
+-- 2096, 1962, Bulgaria, MF, 17, 0, 0
+-- 2097, 1962, Bulgaria, DF, 8, 0, 1
+-- 2098, 1998, Irán, DF, 8, 0, 0
+-- 2099, 2006, Costa de Marfil, FW, 15, 0, 1
+-- 2099, 2010, Costa de Marfil, FW, 15, 0, 2
+-- 2100, 1958, Brasil, MF, 5, 0, 2
+-- 2101, 1970, Rumania, DF, 5, 0, 3
+-- 2102, 1986, Uruguay, DF, 4, 0, 3
+-- 2103, 2014, Costa de Marfil, MF, 14, 0, 0
+-- 2104, 1998, Francia, MF, 13, 0, 3
+-- 2105, 2002, Senegal, MF, 19, 0, 5
+-- 2106, 2002, Senegal, DF, 4, 1, 5
+-- 2107, 2002, Senegal, FW, 11, 0, 5
+-- 2108, 2018, Senegal, FW, 9, 0, 1
+-- 2109, 2018, Marruecos, DF, 17, 0, 2
+-- 2110, 1974, Brasil, MF, 21, 0, 4
+-- 2110, 1978, Brasil, MF, 11, 0, 6
+-- 2110, 1982, Brasil, FW, 21, 0, 1
+-- 2111, 1954, Bélgica, DF, 13, 0, 0
+-- 2112, 2022, Francia, DF, 3, 0, 1
+-- 2113, 2014, Estados Unidos, MF, 10, 0, 0
+-- 2114, 1986, Hungría, DF, 13, 0, 0
+-- 2115, 1986, Hungría, GK, 1, 0, 2
+-- 2116, 1950, Inglaterra, GK, None, 0, 0
+-- 2117, 1986, Inglaterra, FW, 21, 0, 0
+-- 2118, 1998, Jamaica, DF, 4, 0, 0
+-- 2119, 2014, Argelia, MF, 18, 0, 2
+-- 2120, 1950, Yugoslavia, MF, None, 0, 3
+-- 2121, 2014, Costa de Marfil, DF, 18, 0, 0
+-- 2122, 1954, Brasil, DF, 2, 0, 3
+-- 2122, 1958, Brasil, DF, 4, 0, 1
+-- 2122, 1962, Brasil, DF, 2, 0, 6
+-- 2122, 1966, Brasil, DF, 2, 0, 2
+-- 2123, 2010, Argelia, FW, 11, 0, 2
+-- 2124, 2002, Camerún, FW, 19, 0, 0
+-- 2125, 2014, Camerún, DF, 4, 0, 1
+-- 2126, 2022, Ghana, DF, 23, 0, 1
+-- 2127, 1930, Yugoslavia, MF, None, 0, 3
+-- 2128, 1990, Camerún, FW, 18, 0, 0
+-- 2129, 2006, Serbia y Montenegro, DF, 14, 0, 2
+-- 2130, 2006, Serbia y Montenegro, MF, 11, 0, 3
+-- 2131, 1966, Francia, DF, 12, 0, 3
+-- 2132, 1998, Francia, MF, 6, 0, 6
+-- 2132, 2002, Francia, MF, 6, 0, 1
+-- 2133, 1998, RF de Yugoslavia, DF, 3, 0, 4
+-- 2134, 2006, Suiza, DF, 2, 0, 1
+-- 2134, 2014, Suiza, DF, 20, 0, 4
+-- 2134, 2018, Suiza, DF, 20, 0, 1
+-- 2135, 1998, RF de Yugoslavia, DF, 5, 0, 0
+-- 2136, 2010, Serbia, GK, 23, 0, 0
+-- 2137, 2022, Serbia, FW, 21, 0, 0
+-- 2138, 2018, Serbia, GK, 23, 0, 0
+-- 2138, 2022, Serbia, GK, 1, 0, 0
+-- 2139, 2022, Japón, MF, 8, 0, 2
+-- 2140, 1934, Rumania, FW, None, 0, 1
+-- 2140, 1938, Rumania, FW, None, 1, 2
+-- 2141, 1970, Checoslovaquia, DF, 2, 0, 3
+-- 2142, 1998, Rumania, DF, 4, 0, 1
+-- 2143, 1970, Rumania, MF, 8, 0, 0
+-- 2144, 1990, URSS, FW, 11, 0, 3
+-- 2145, 1930, Brasil, FW, None, 0, 0
+-- 2146, 1954, Escocia, MF, 5, 0, 2
+-- 2146, 1958, Escocia, MF, 10, 0, 0
+-- 2147, 1970, Bélgica, MF, 6, 0, 3
+-- 2148, 1982, Nueva Zelanda, DF, 2, 0, 2
+-- 2149, 1978, Paises Bajos, GK, 19, 0, 0
+-- 2150, 2006, Japón, GK, 12, 0, 0
+-- 2151, 1974, Yugoslavia, DF, 15, 0, 0
+-- 2152, 2022, Bélgica, FW, 25, 0, 0
+-- 2153, 1986, Canadá, GK, 22, 0, 1
+-- 2154, 2018, Dinamarca, FW, 12, 0, 0
+-- 2154, 2022, Dinamarca, FW, 12, 0, 1
+-- 2155, 1958, Checoslovaquia, GK, 19, 0, 4
+-- 2156, 1986, Marruecos, MF, 6, 0, 4
+-- 2157, 1982, Polonia, DF, 4, 0, 0
+-- 2158, 1974, Polonia, FW, 19, 0, 1
+-- 2159, 1970, Italia, FW, 13, 0, 6
+-- 2160, 1970, Rumania, FW, 19, 0, 0
+-- 2161, 1938, Brasil, DF, None, 0, 4
+-- 2162, 1986, México, MF, 8, 0, 0
+-- 2163, 2014, Ecuador, GK, 22, 0, 3
+-- 2163, 2022, Ecuador, GK, 22, 0, 0
+-- 2164, 1990, Uruguay, DF, 6, 0, 4
+-- 2165, 1930, Paraguay, FW, None, 0, 1
+-- 2166, 1962, Argentina, GK, 12, 0, 1
+-- 2167, 2006, Costa de Marfil, DF, 17, 1, 1
+-- 2168, 1974, Escocia, DF, 16, 0, 0
+-- 2168, 1978, Escocia, DF, 3, 0, 2
+-- 2169, 1990, Italia, MF, 17, 0, 5
+-- 2169, 1994, Italia, MF, 16, 0, 5
+-- 2170, 1982, Irlanda del Norte, DF, 3, 0, 4
+-- 2170, 1986, Irlanda del Norte, DF, 3, 0, 3
+-- 2171, 1938, Italia, MF, None, 0, 0
+-- 2172, 1934, Estados Unidos, FW, None, 0, 1
+-- 2173, 2010, Brasil, GK, 22, 0, 0
+-- 2174, 2002, Italia, MF, 11, 0, 2
+-- 2175, 1998, Escocia, FW, 13, 0, 0
+-- 2176, 1966, Chile, DF, 5, 0, 0
+-- 2177, 2002, Estados Unidos, MF, 21, 0, 5
+-- 2177, 2006, Estados Unidos, MF, 21, 0, 3
+-- 2177, 2010, Estados Unidos, MF, 10, 0, 4
+-- 2178, 1994, Estados Unidos, DF, 5, 0, 4
+-- 2178, 1998, Estados Unidos, DF, 5, 3, 3
+-- 2179, 1930, Uruguay, FW, None, 0, 3
+-- 2180, 1990, Inglaterra, DF, 15, 0, 1
+-- 2181, 1998, Brasil, MF, 17, 0, 0
+-- 2182, 1938, Indias Orientales Holand., DF, None, 0, 0
+-- 2183, 2010, México, FW, 17, 0, 4
+-- 2183, 2014, México, MF, 10, 0, 4
+-- 2183, 2018, México, MF, 10, 0, 0
+-- 2184, 2018, México, MF, 6, 0, 0
+-- 2185, 2006, Paraguay, MF, 19, 0, 1
+-- 2186, 1982, Italia, MF, 10, 0, 0
+-- 2187, 2006, Togo, MF, 9, 0, 1
+-- 2188, 1958, Irlanda del Norte, FW, 16, 0, 1
+-- 2189, 1958, Inglaterra, FW, 7, 0, 3
+-- 2189, 1962, Inglaterra, FW, 17, 0, 4
+-- 2190, 1930, Estados Unidos, GK, None, 0, 3
+-- 2191, 2018, Brasil, FW, 7, 0, 0
+-- 2192, 1978, Túnez, DF, 2, 0, 3
+-- 2193, 1958, Francia, FW, 16, 0, 1
+-- 2194, 2010, Costa de Marfil, FW, 7, 0, 0
+-- 2195, 2006, Inglaterra, MF, 20, 0, 0
+-- 2196, 1990, Estados Unidos, DF, 3, 0, 2
+-- 2197, 2022, Túnez, DF, 20, 0, 2
+-- 2198, 1986, Bulgaria, FW, 16, 0, 0
+-- 2199, 2006, Serbia y Montenegro, DF, 3, 0, 1
+-- 2200, 2006, Ghana, MF, 23, 0, 2
+-- 2201, 2014, Alemania, MF, 14, 0, 0
+-- 2201, 2018, Alemania, MF, 7, 0, 2
+-- 2202, 1982, Alemania Occidental, MF, 6, 0, 7
+-- 2203, 1986, Argelia, GK, 1, 0, 2
+-- 2204, 1954, Bélgica, DF, 2, 0, 2
+-- 2205, 2014, Suiza, FW, 19, 0, 3
+-- 2205, 2018, Suiza, FW, 19, 0, 1
+-- 2206, 2006, Costa de Marfil, FW, 11, 2, 2
+-- 2206, 2010, Costa de Marfil, FW, 11, 2, 2
+-- 2206, 2014, Costa de Marfil, FW, 11, 1, 1
+-- 2207, 1938, Paises Bajos, FW, None, 0, 0
+-- 2208, 1978, Francia, GK, 22, 0, 1
+-- 2209, 1998, RF de Yugoslavia, MF, 15, 0, 0
+-- 2210, 1982, Honduras, DF, 12, 0, 1
+-- 2211, 2002, Costa Rica, DF, 2, 0, 0
+-- 2211, 2006, Costa Rica, DF, 2, 0, 1
+-- 2212, 2002, China, DF, 17, 0, 2
+-- 2213, 1978, Perú, DF, 2, 0, 6
+-- 2213, 1982, Perú, DF, 2, 0, 3
+-- 2214, 2014, Costa Rica, DF, 6, 0, 4
+-- 2214, 2018, Costa Rica, DF, 6, 0, 2
+-- 2214, 2022, Costa Rica, DF, 6, 0, 3
+-- 2215, 1962, URSS, DF, 4, 0, 1
+-- 2216, 1982, Chile, MF, 6, 0, 3
+-- 2217, 1974, Alemania Oriental, FW, 9, 0, 0
+-- 2218, 1974, Haití, DF, 5, 0, 1
+-- 2219, 2010, Portugal, DF, 5, 0, 1
+-- 2220, 1934, Hungría, MF, None, 0, 0
+-- 2220, 1938, Hungría, MF, None, 0, 0
+-- 2221, 2002, Polonia, GK, 1, 0, 2
+-- 2222, 2006, Serbia y Montenegro, DF, 15, 0, 2
+-- 2223, 2006, Polonia, DF, 17, 0, 0
+-- 2224, 1962, Suiza, MF, 16, 0, 2
+-- 2224, 1966, Suiza, MF, 6, 0, 1
+-- 2225, 2002, Irlanda, FW, 9, 0, 4
+-- 2226, 1998, Francia, FW, 21, 0, 1
+-- 2226, 2002, Francia, FW, 21, 0, 1
+-- 2227, 2022, Australia, FW, 15, 0, 4
+-- 2228, 1998, Rumania, DF, 3, 0, 1
+-- 2229, 2006, Serbia y Montenegro, MF, 4, 0, 3
+-- 2230, 2022, Paises Bajos, DF, 22, 0, 5
+-- 2231, 1970, Rumania, FW, 9, 0, 3
+-- 2232, 1990, Rumania, FW, 17, 0, 0
+-- 2232, 1994, Rumania, FW, 11, 0, 5
+-- 2232, 1998, Rumania, FW, 17, 0, 1
+-- 2233, 1970, Rumania, MF, 15, 0, 3
+-- 2234, 1990, Brasil, MF, 4, 0, 4
+-- 2234, 1994, Brasil, MF, 8, 4, 7
+-- 2234, 1998, Brasil, MF, 8, 7, 7
+-- 2235, 1934, Suecia, FW, None, 0, 2
+-- 2236, 1982, Irlanda del Norte, GK, 22, 0, 0
+-- 2237, 2002, Irlanda, DF, 15, 0, 0
+-- 2238, 1970, Bélgica, GK, 22, 0, 0
+-- 2239, 1930, Bolivia, DF, None, 0, 2
+-- 2240, 2010, Eslovaquia, DF, 16, 0, 4
+-- 2241, 1990, Escocia, FW, 13, 0, 1
+-- 2241, 1998, Escocia, FW, 9, 0, 3
+-- 2242, 1962, Yugoslavia, DF, 2, 0, 6
+-- 2243, 2014, Alemania, DF, 15, 0, 0
+-- 2244, 2018, Suecia, MF, 21, 0, 0
+-- 2245, 1958, Checoslovaquia, FW, 8, 0, 4
+-- 2246, 1954, Yugoslavia, FW, 20, 0, 1
+-- 2247, 1986, Bulgaria, DF, 21, 0, 0
+-- 2248, 2018, Argentina, FW, 21, 0, 0
+-- 2248, 2022, Argentina, FW, 21, 0, 0
+-- 2249, 2002, Inglaterra, MF, 23, 0, 0
+-- 2250, 1938, Polonia, MF, None, 0, 1
+-- 2251, 2014, Rusia, MF, 10, 0, 0
+-- 2251, 2018, Rusia, MF, 9, 0, 1
+-- 2252, 1974, Yugoslavia, FW, 11, 5, 5
+-- 2253, 2014, Bosnia-Herzegovina, FW, 11, 0, 3
+-- 2254, 2006, Suiza, MF, 15, 0, 0
+-- 2254, 2014, Suiza, MF, 15, 0, 0
+-- 2254, 2018, Suiza, MF, 15, 0, 4
+-- 2255, 1986, Polonia, MF, 21, 0, 4
+-- 2256, 2010, Eslovenia, DF, 3, 0, 0
+-- 2257, 1982, Polonia, DF, 2, 0, 4
+-- 2258, 1970, URSS, DF, 4, 0, 3
+-- 2259, 2018, Rusia, FW, 22, 0, 4
+-- 2260, 1998, Jamaica, MF, 16, 0, 1
+-- 2261, 1962, Inglaterra, MF, 20, 0, 0
+-- 2261, 1966, Inglaterra, FW, 22, 0, 0
+-- 2262, 1982, Camerún, FW, 21, 0, 0
+-- 2263, 2022, Camerún, DF, 24, 0, 1
+-- 2264, 2006, Costa de Marfil, DF, 21, 0, 3
+-- 2264, 2010, Costa de Marfil, DF, 21, 0, 3
+-- 2265, 2018, Irán, MF, 9, 0, 3
+-- 2266, 2018, Nigeria, DF, 21, 0, 0
+-- 2267, 1990, Camerún, DF, 5, 0, 5
+-- 2268, 1958, Paraguay, DF, 6, 0, 2
+-- 2269, 1962, España, DF, 7, 0, 1
+-- 2270, 1962, Colombia, DF, 8, 0, 3
+-- 2271, 2018, Nigeria, DF, 3, 0, 0
+-- 2272, 2010, Nigeria, DF, 21, 0, 0
+-- 2273, 1954, Alemania Occidental, FW, 6, 0, 6
+-- 2273, 1958, Alemania Occidental, MF, 4, 0, 4
+-- 2274, 1950, Inglaterra, DF, None, 0, 1
+-- 2275, 1982, Brasil, MF, 11, 0, 5
+-- 2276, 2014, Portugal, FW, 11, 0, 1
+-- 2277, 1986, Alemania Occidental, DF, 6, 0, 7
+-- 2278, 2018, Brasil, GK, 23, 0, 0
+-- 2278, 2022, Brasil, GK, 23, 0, 1
+-- 2279, 1982, Brasil, DF, 13, 0, 0
+-- 2280, 2002, Brasil, FW, 20, 0, 2
+-- 2281, 1978, Brasil, DF, 6, 0, 2
+-- 2281, 1982, Brasil, DF, 16, 0, 0
+-- 2281, 1986, Brasil, DF, 4, 5, 5
+-- 2282, 1986, Brasil, FW, 11, 0, 0
+-- 2283, 2002, Suecia, DF, 14, 0, 0
+-- 2283, 2006, Suecia, DF, 5, 0, 4
+-- 2284, 2002, Brasil, DF, 5, 0, 6
+-- 2285, 1998, Brasil, FW, 21, 0, 0
+-- 2286, 2006, Angola, MF, 13, 0, 0
+-- 2287, 1986, Brasil, DF, 2, 0, 2
+-- 2288, 1974, Suecia, FW, 10, 0, 6
+-- 2288, 1978, Suecia, FW, 22, 0, 1
+-- 2289, 1966, Brasil, FW, 22, 0, 0
+-- 2289, 1970, Brasil, FW, 19, 0, 0
+-- 2289, 1974, Brasil, FW, 20, 0, 1
+-- 2290, 2010, Estados Unidos, MF, 19, 0, 1
+-- 2291, 2010, Portugal, GK, 1, 0, 4
+-- 2291, 2014, Portugal, GK, 1, 0, 0
+-- 2292, 2014, Croacia, FW, 22, 0, 0
+-- 2293, 2006, Trinidad y Tobago, MF, 11, 0, 3
+-- 2294, 1958, Argentina, DF, 14, 0, 0
+-- 2295, 1958, Gales, DF, 14, 0, 0
+-- 2296, 1994, Alemania, MF, 20, 0, 3
+-- 2297, 1994, Noruega, DF, 17, 0, 0
+-- 2297, 1998, Noruega, DF, 15, 0, 4
+-- 2298, 2010, Suiza, DF, 22, 0, 0
+-- 2299, 1950, Suiza, MF, None, 0, 3
+-- 2299, 1954, Suiza, DF, 10, 0, 3
+-- 2300, 1994, Suiza, DF, 13, 0, 0
+-- 2301, 1994, Nigeria, DF, 2, 0, 3
+-- 2301, 1998, Nigeria, DF, 17, 0, 1
+-- 2302, 2010, Uruguay, MF, 8, 0, 0
+-- 2303, 2014, Nigeria, DF, 6, 0, 0
+-- 2304, 1954, Suiza, GK, 1, 0, 0
+-- 2305, 1990, Estados Unidos, FW, 13, 0, 0
+-- 2306, 1966, Suiza, GK, 12, 0, 1
+-- 2307, 1990, Egipto, MF, 15, 0, 0
+-- 2308, 1930, Rumania, MF, None, 0, 2
+-- 2309, 1990, Emiratos Arabes, DF, 19, 0, 3
+-- 2310, 1950, España, GK, None, 1, 2
+-- 2311, 1970, Suecia, MF, 21, 0, 0
+-- 2311, 1974, Suecia, MF, 16, 0, 1
+-- 2312, 2002, Nigeria, GK, 12, 0, 0
+-- 2312, 2010, Nigeria, GK, 16, 0, 0
+-- 2312, 2014, Nigeria, GK, 16, 0, 0
+-- 2313, 2002, Nigeria, DF, 19, 0, 0
+-- 2314, 2018, Suecia, MF, 8, 0, 5
+-- 2315, 1990, Camerún, FW, 11, 0, 0
+-- 2316, 1994, Camerún, DF, 4, 0, 0
+-- 2317, 1974, Zaire, FW, 19, 0, 0
+-- 2318, 1994, Nigeria, FW, 18, 0, 0
+-- 2319, 2018, Egipto, GK, 16, 0, 0
+-- 2320, 1990, Suecia, FW, 18, 0, 1
+-- 2321, 1994, Marruecos, GK, 22, 0, 1
+-- 2322, 2018, Marruecos, MF, 8, 0, 3
+-- 2323, 1994, Marruecos, MF, 15, 0, 3
+-- 2324, 1990, Egipto, GK, 22, 0, 0
+-- 2325, 1986, Marruecos, DF, 4, 0, 3
+-- 2326, 1998, Marruecos, GK, 1, 0, 0
+-- 2327, 1998, Marruecos, GK, 22, 0, 1
+-- 2328, 1970, Marruecos, MF, 10, 0, 3
+-- 2329, 1986, Marruecos, MF, 7, 0, 3
+-- 2329, 1994, Marruecos, MF, 10, 1, 1
+-- 2330, 1986, Marruecos, MF, 15, 0, 0
+-- 2331, 1986, Argelia, GK, 21, 0, 1
+-- 2332, 1994, Marruecos, MF, 7, 0, 1
+-- 2332, 1998, Marruecos, MF, 7, 0, 3
+-- 2333, 1994, Marruecos, DF, 3, 0, 3
+-- 2333, 1998, Marruecos, DF, 3, 0, 2
+-- 2334, 2018, Marruecos, FW, 9, 0, 1
+-- 2335, 2018, Marruecos, GK, 12, 0, 3
+-- 2335, 2022, Marruecos, GK, 12, 0, 1
+-- 2336, 1990, Egipto, FW, 20, 0, 3
+-- 2337, 1994, Marruecos, DF, 4, 1, 2
+-- 2337, 1998, Marruecos, DF, 20, 0, 3
+-- 2338, 2022, Marruecos, MF, 23, 0, 1
+-- 2339, 1998, Marruecos, FW, 11, 0, 0
+-- 2340, 1970, Marruecos, DF, 18, 0, 0
+-- 2341, 1998, Túnez, GK, 1, 0, 3
+-- 2342, 1998, Túnez, FW, 11, 0, 3
+-- 2342, 2002, Túnez, FW, 11, 1, 1
+-- 2343, 2018, Egipto, GK, 1, 1, 1
+-- 2344, 1934, Egipto, DF, None, 0, 1
+-- 2345, 2018, Egipto, GK, 23, 0, 2
+-- 2346, 2018, Egipto, DF, 15, 0, 0
+-- 2347, 2022, Marruecos, DF, 18, 0, 3
+-- 2348, 1966, España, DF, 3, 0, 1
+-- 2349, 1998, Camerún, MF, 2, 0, 0
+-- 2350, 2010, Brasil, MF, 7, 0, 2
+-- 2351, 2002, Uruguay, GK, 23, 0, 0
+-- 2352, 1930, Chile, MF, None, 0, 1
+-- 2353, 2010, Paises Bajos, FW, 17, 0, 0
+-- 2354, 1986, Dinamarca, FW, 10, 0, 4
+-- 2355, 1998, Escocia, DF, 18, 0, 0
+-- 2356, 2010, Nueva Zelanda, MF, 7, 0, 3
+-- 2357, 1978, Túnez, DF, 17, 0, 0
+-- 2358, 2006, Suecia, FW, 17, 0, 0
+-- 2359, 2018, Egipto, DF, 3, 0, 0
+-- 2360, 2018, Egipto, MF, 17, 0, 3
+-- 2361, 1986, España, FW, 20, 0, 0
+-- 2362, 1982, Nueva Zelanda, DF, 14, 0, 3
+-- 2363, 1962, Suiza, GK, 1, 0, 3
+-- 2363, 1966, Suiza, GK, 1, 0, 2
+-- 2364, 1958, Gales, MF, 20, 0, 0
+-- 2365, 2018, Suiza, DF, 4, 0, 0
+-- 2365, 2022, Suiza, DF, 4, 0, 2
+-- 2366, 1950, Brasil, DF, None, 0, 1
+-- 2366, 1954, Brasil, MF, 14, 0, 0
+-- 2367, 1986, Brasil, MF, 19, 0, 5
+-- 2368, 2010, Camerún, FW, 10, 0, 1
+-- 2369, 1994, Camerún, FW, 19, 0, 3
+-- 2370, 2018, Suiza, FW, 7, 0, 1
+-- 2370, 2022, Suiza, FW, 7, 0, 4
+-- 2371, 1994, Nigeria, DF, 19, 0, 3
+-- 2372, 2014, Nigeria, FW, 9, 0, 4
+-- 2373, 1998, Brasil, MF, 11, 0, 0
+-- 2373, 2006, Brasil, MF, 5, 0, 3
+-- 2374, 2006, Australia, MF, 7, 0, 3
+-- 2374, 2010, Australia, MF, 7, 0, 3
+-- 2375, 1966, Alemania Occidental, FW, 11, 0, 4
+-- 2376, 1990, Bélgica, MF, 6, 0, 2
+-- 2376, 1994, Bélgica, DF, 15, 0, 2
+-- 2377, 2018, Marruecos, FW, 19, 0, 0
+-- 2377, 2022, Marruecos, FW, 19, 0, 7
+-- 2378, 1982, Camerún, MF, 19, 0, 0
+-- 2379, 2006, Irán, FW, 16, 0, 0
+-- 2380, 1998, Paraguay, MF, 16, 0, 4
+-- 2381, 2018, Japón, DF, 6, 0, 0
+-- 2381, 2022, Japón, MF, 6, 0, 3
+-- 2382, 2006, Japón, MF, 4, 0, 0
+-- 2382, 2010, Japón, MF, 7, 0, 4
+-- 2382, 2014, Japón, MF, 7, 0, 0
+-- 2383, 2010, Dinamarca, MF, 20, 0, 1
+-- 2384, 1958, Austria, GK, 22, 0, 0
+-- 2385, 1982, Alemania Occidental, MF, 17, 0, 0
+-- 2386, 2002, Bélgica, MF, 17, 0, 0
+-- 2387, 1990, Suecia, MF, 9, 0, 0
+-- 2388, 2010, Camerún, MF, 18, 0, 2
+-- 2388, 2014, Camerún, MF, 18, 0, 3
+-- 2389, 1982, Camerún, DF, 3, 0, 0
+-- 2390, 1986, Argentina, MF, 12, 0, 3
+-- 2391, 2002, Nigeria, GK, 22, 0, 1
+-- 2391, 2010, Nigeria, GK, 1, 0, 3
+-- 2391, 2014, Nigeria, GK, 1, 1, 4
+-- 2392, 2002, Camerún, MF, 14, 0, 0
+-- 2393, 2022, Camerún, GK, 16, 0, 2
+-- 2394, 2022, Serbia, DF, 3, 0, 0
+-- 2395, 2006, Togo, MF, 20, 0, 0
+-- 2396, 2014, Ecuador, DF, 3, 0, 3
+-- 2397, 2002, Turquía, MF, 19, 0, 0
+-- 2398, 2002, Turquía, FW, 6, 0, 0
+-- 2399, 2006, Serbia y Montenegro, MF, 2, 0, 1
+-- 2400, 1954, Alemania Occidental, DF, 5, 0, 0
+-- 2400, 1958, Alemania Occidental, DF, 2, 0, 6
+-- 2400, 1962, Alemania Occidental, DF, 2, 0, 4
+-- 2401, 2010, Dinamarca, MF, 21, 0, 0
+-- 2401, 2018, Dinamarca, MF, 10, 0, 4
+-- 2401, 2022, Dinamarca, MF, 10, 1, 3
+-- 2402, 1986, Dinamarca, FW, 19, 0, 0
+-- 2403, 1938, Noruega, MF, None, 1, 1
+-- 2404, 1938, Suecia, DF, None, 0, 3
+-- 2405, 1990, Suecia, DF, 2, 0, 0
+-- 2406, 1990, Suecia, GK, 12, 0, 0
+-- 2406, 1994, Suecia, GK, 12, 0, 0
+-- 2407, 1970, Suecia, MF, 8, 0, 2
+-- 2408, 1978, Suecia, DF, 5, 0, 3
+-- 2409, 2022, Croacia, DF, 5, 0, 0
+-- 2410, 1994, Suecia, FW, 20, 0, 0
+-- 2411, 1966, Portugal, FW, 7, 0, 0
+-- 2412, 1954, Turquía, DF, 4, 0, 3
+-- 2413, 1962, Uruguay, FW, 23, 0, 0
+-- 2414, 1954, Suiza, FW, 11, 0, 0
+-- 2414, 1962, Suiza, FW, 17, 0, 2
+-- 2415, 1990, Colombia, DF, 2, 0, 4
+-- 2415, 1994, Colombia, DF, 2, 0, 3
+-- 2416, 1982, Chile, DF, 19, 0, 0
+-- 2417, 1962, Colombia, FW, 18, 0, 0
+-- 2418, 2018, Panamá, DF, 4, 0, 3
+-- 2419, 2010, Honduras, GK, 22, 0, 0
+-- 2419, 2014, Honduras, GK, 22, 0, 0
+-- 2420, 1962, Chile, GK, 1, 0, 5
+-- 2421, 1978, Irán, DF, 15, 0, 2
+-- 2422, 1986, México, MF, 7, 0, 3
+-- 2423, 1966, Uruguay, MF, 21, 0, 0
+-- 2423, 1970, Uruguay, MF, 9, 0, 3
+-- 2423, 1974, Uruguay, MF, 8, 0, 3
+-- 2424, 1930, Chile, GK, None, 0, 0
+-- 2425, 1994, México, MF, 15, 0, 0
+-- 2426, 2002, Ecuador, DF, 17, 0, 0
+-- 2426, 2006, Ecuador, DF, 17, 0, 4
+-- 2427, 2010, Honduras, FW, 13, 0, 2
+-- 2427, 2014, Honduras, MF, 15, 0, 3
+-- 2428, 2006, Túnez, FW, 2, 0, 0
+-- 2429, 2006, Ghana, MF, 8, 0, 3
+-- 2429, 2014, Ghana, MF, 5, 0, 0
+-- 2430, 1998, Chile, MF, 20, 0, 2
+-- 2431, 1986, Hungría, FW, 11, 0, 3
+-- 2432, 1998, Irán, MF, 9, 0, 3
+-- 2433, 1998, Colombia, MF, 17, 0, 0
+-- 2434, 1990, Colombia, FW, 7, 0, 2
+-- 2435, 2010, Chile, MF, 13, 0, 1
+-- 2436, 2022, Ecuador, FW, 11, 0, 3
+-- 2437, 2022, Ecuador, DF, 7, 0, 3
+-- 2438, 1994, Bolivia, MF, 10, 0, 0
+-- 2439, 1930, Paraguay, MF, None, 0, 1
+-- 2440, 2018, Nigeria, MF, 8, 0, 3
+-- 2441, 1974, Zaire, FW, 21, 0, 2
+-- 2442, 1998, Camerún, FW, 11, 0, 0
+-- 2442, 2002, Camerún, FW, 9, 0, 3
+-- 2442, 2010, Camerún, FW, 9, 3, 3
+-- 2442, 2014, Camerún, FW, 9, 1, 1
+-- 2443, 1982, Francia, GK, 22, 0, 6
+-- 2444, 2010, Nigeria, MF, 20, 0, 3
+-- 2445, 1998, España, FW, 17, 0, 2
+-- 2446, 1962, España, FW, 15, 0, 1
+-- 2447, 1966, Portugal, FW, 13, 0, 6
+-- 2448, 2022, Canadá, MF, 7, 0, 2
+-- 2449, 1994, Italia, MF, 17, 0, 1
+-- 2450, 1982, Escocia, DF, 17, 0, 1
+-- 2451, 1954, Escocia, MF, 4, 0, 0
+-- 2451, 1958, Escocia, DF, 9, 1, 3
+-- 2452, 1998, Sudáfrica, GK, 22, 0, 0
+-- 2453, 1930, Argentina, MF, None, 0, 4
+-- 2454, 1930, Argentina, FW, None, 0, 4
+-- 2455, 1970, Brasil, DF, 16, 0, 5
+-- 2456, 2010, Francia, DF, 13, 2, 2
+-- 2456, 2014, Francia, DF, 3, 0, 4
+-- 2457, 2018, Islandia, DF, 15, 0, 0
+-- 2458, 1982, Camerún, FW, 20, 0, 0
+-- 2459, 1962, Chile, DF, 2, 0, 6
+-- 2459, 1966, Chile, DF, 6, 0, 1
+-- 2460, 2018, Irán, MF, 6, 0, 2
+-- 2460, 2022, Irán, MF, 6, 0, 2
+-- 2461, 2018, Nigeria, GK, 1, 0, 0
+-- 2462, 1994, Nigeria, DF, 13, 0, 0
+-- 2463, 2022, Marruecos, FW, 16, 0, 0
+-- 2464, 1990, Argentina, DF, 11, 0, 1
+-- 2465, 2014, México, MF, 8, 0, 0
+-- 2465, 2018, México, FW, 8, 0, 0
+-- 2466, 2006, Polonia, GK, 22, 0, 0
+-- 2466, 2018, Polonia, GK, 22, 0, 1
+-- 2467, 2022, Brasil, MF, 15, 0, 1
+-- 2468, 2006, España, MF, 18, 0, 2
+-- 2468, 2010, España, MF, 10, 0, 0
+-- 2468, 2014, España, MF, 10, 0, 0
+-- 2469, 1966, Italia, DF, 6, 0, 3
+-- 2469, 1970, Italia, DF, 3, 6, 6
+-- 2469, 1974, Italia, DF, 3, 3, 3
+-- 2470, 1962, Argentina, FW, 7, 0, 2
+-- 2471, 2002, Senegal, MF, 10, 0, 4
+-- 2472, 1970, Marruecos, DF, 13, 0, 1
+-- 2473, 2006, Costa de Marfil, MF, 7, 0, 0
+-- 2474, 2022, Bélgica, DF, 4, 0, 0
+-- 2475, 2018, Brasil, DF, 22, 0, 4
+-- 2476, 1982, El Salvador, DF, 5, 0, 1
+-- 2477, 1990, Emiratos Arabes, MF, 18, 0, 0
+-- 2478, 1990, Emiratos Arabes, FW, 7, 1, 1
+-- 2479, 1934, Egipto, GK, None, 0, 0
+-- 2480, 1962, Alemania Occidental, GK, 22, 0, 4
+-- 2481, 2022, Camerún, DF, 19, 0, 3
+-- 2482, 1970, Israel, FW, 9, 0, 3
+-- 2483, 2014, Rusia, MF, 20, 0, 3
+-- 2484, 1982, Kuwait, DF, 2, 0, 3
+-- 2485, 1990, Colombia, MF, 20, 0, 2
+-- 2486, 2018, Marruecos, MF, 11, 0, 0
+-- 2487, 1994, Arabia Saudita, FW, 20, 0, 2
+-- 2488, 1982, Brasil, MF, 15, 0, 5
+-- 2488, 1986, Brasil, MF, 5, 0, 0
+-- 2489, 2018, Colombia, FW, 9, 4, 4
+-- 2490, 1958, URSS, FW, 20, 0, 1
+-- 2491, 2010, Nueva Zelanda, FW, 14, 0, 3
+-- 2492, 2002, China, DF, 5, 0, 1
+-- 2493, 1982, Kuwait, MF, 12, 0, 1
+-- 2494, 1978, Irán, FW, 18, 0, 3
+-- 2495, 1970, Marruecos, FW, 9, 0, 0
+-- 2496, 2018, Perú, FW, 10, 0, 1
+-- 2497, 1962, México, MF, 16, 0, 0
+-- 2498, 1950, Chile, DF, None, 0, 3
+-- 2499, 1974, Chile, MF, 19, 0, 0
+-- 2500, 1978, Irán, FW, 3, 0, 0
+-- 2501, 1962, Hungría, FW, 16, 0, 0
+-- 2501, 1966, Hungría, FW, 10, 0, 4
+-- 2502, 2002, Suecia, MF, 19, 0, 0
+-- 2503, 2022, Suiza, MF, 16, 0, 0
+-- 2504, 2018, Egipto, DF, 7, 2, 3
+-- 2505, 2022, España, FW, 25, 0, 0
+-- 2506, 1950, Suiza, FW, None, 0, 3
+-- 2506, 1954, Suiza, FW, 17, 0, 4
+-- 2507, 1950, Italia, MF, None, 0, 1
+-- 2508, 1938, Indias Orientales Holand., MF, None, 0, 0
+-- 2509, 1930, Brasil, MF, None, 0, 2
+-- 2510, 1934, Egipto, FW, None, 0, 1
+-- 2511, 2002, Senegal, MF, 12, 0, 1
+-- 2512, 1978, Hungría, FW, 7, 0, 1
+-- 2512, 1982, Hungría, FW, 7, 0, 2
+-- 2513, 2018, Argentina, DF, 6, 0, 0
+-- 2514, 1934, España, FW, None, 0, 1
+-- 2515, 2010, Australia, GK, 12, 0, 0
+-- 2516, 1958, URSS, FW, 21, 0, 0
+-- 2517, 2014, Argelia, FW, 10, 0, 4
+-- 2518, 1998, Austria, DF, 5, 0, 3
+-- 2519, 2010, Estados Unidos, MF, 22, 0, 0
+-- 2520, 2014, Bosnia-Herzegovina, GK, 12, 0, 0
+-- 2521, 2018, Francia, FW, 18, 0, 0
+-- 2522, 1938, Rumania, DF, None, 0, 1
+-- 2523, 2010, Brasil, MF, 5, 0, 4
+-- 2524, 1970, Brasil, GK, 1, 0, 6
+-- 2525, 2022, Portugal, FW, 11, 0, 4
+-- 2526, 2014, Bélgica, MF, 8, 0, 4
+-- 2526, 2018, Bélgica, MF, 8, 0, 3
+-- 2527, 1986, Inglaterra, DF, 14, 0, 4
+-- 2528, 1958, Hungría, FW, 21, 0, 3
+-- 2528, 1962, Hungría, FW, 11, 0, 3
+-- 2528, 1966, Hungría, FW, 12, 0, 0
+-- 2529, 2014, Paises Bajos, MF, 18, 0, 0
+-- 2530, 1998, Inglaterra, FW, 19, 0, 0
+-- 2531, 1998, Inglaterra, DF, 21, 0, 0
+-- 2531, 2002, Inglaterra, DF, 5, 0, 5
+-- 2531, 2006, Inglaterra, DF, 5, 0, 5
+-- 2531, 2010, Inglaterra, DF, 5, 0, 0
+-- 2532, 1982, Argelia, MF, 8, 3, 3
+-- 2533, 1954, Turquía, FW, 9, 0, 2
+-- 2534, 2018, Portugal, MF, 16, 0, 1
+-- 2534, 2022, Portugal, MF, 8, 0, 4
+-- 2535, 2022, Suiza, DF, 2, 0, 1
+-- 2536, 2010, Suiza, MF, 16, 0, 3
+-- 2536, 2014, Suiza, MF, 16, 0, 0
+-- 2536, 2018, Suiza, MF, 16, 0, 0
+-- 2537, 2018, Portugal, MF, 4, 0, 0
+-- 2538, 2018, Rusia, DF, 2, 0, 4
+-- 2539, 2010, Uruguay, MF, 20, 0, 1
+-- 2540, 2002, Ecuador, FW, 13, 0, 0
+-- 2541, 1930, Perú, DF, None, 0, 0
+-- 2542, 2014, Argentina, MF, 13, 0, 0
+-- 2543, 2022, Argentina, MF, 24, 0, 5
+-- 2544, 2014, Argentina, DF, 17, 0, 4
+-- 2545, 1994, México, GK, 12, 0, 0
+-- 2546, 1974, Uruguay, GK, 22, 0, 0
+-- 2547, 1970, Perú, DF, 14, 0, 1
+-- 2548, 1970, El Salvador, GK, 20, 0, 0
+-- 2549, 1930, Uruguay, MF, None, 0, 4
+-- 2550, 1986, Francia, MF, 9, 0, 6
+-- 2551, 2010, Chile, MF, 14, 0, 2
+-- 2552, 1930, Bolivia, FW, None, 0, 2
+-- 2553, 1986, Paraguay, GK, 1, 0, 4
+-- 2554, 2010, Uruguay, FW, 21, 0, 0
+-- 2555, 1938, Cuba, MF, None, 3, 3
+-- 2556, 2014, Brasil, MF, 5, 0, 3
+-- 2556, 2018, Brasil, MF, 17, 0, 1
+-- 2557, 1990, España, MF, 10, 0, 0
+-- 2558, 2002, Portugal, DF, 5, 3, 3
+-- 2559, 1930, Brasil, MF, None, 0, 2
+-- 2560, 2006, Portugal, DF, 5, 0, 7
+-- 2561, 1954, Escocia, FW, 12, 0, 2
+-- 2561, 1958, Escocia, FW, 22, 0, 1
+-- 2562, 1970, Italia, DF, 6, 0, 0
+-- 2563, 1990, Italia, DF, 5, 0, 1
+-- 2564, 1934, Italia, MF, None, 0, 4
+-- 2564, 1938, Italia, MF, None, 0, 4
+-- 2565, 1954, Italia, MF, 16, 0, 0
+-- 2566, 1934, Italia, MF, None, 0, 3
+-- 2567, 1938, Italia, FW, None, 0, 1
+-- 2568, 1986, Paraguay, MF, 7, 0, 4
+-- 2569, 2022, Estados Unidos, FW, 9, 0, 1
+-- 2570, 1930, Argentina, FW, None, 4, 4
+-- 2571, 1966, Argentina, DF, 8, 0, 4
+-- 2572, 1950, Bolivia, MF, None, 0, 1
+-- 2573, 1994, España, DF, 2, 0, 5
+-- 2573, 1998, España, DF, 2, 0, 1
+-- 2574, 1938, Cuba, FW, None, 0, 1
+-- 2575, 1986, Francia, MF, 11, 0, 1
+-- 2576, 1990, Italia, DF, 6, 0, 6
+-- 2577, 1962, Italia, MF, 21, 0, 2
+-- 2578, 1954, Suiza, MF, 12, 0, 0
+-- 2579, 1966, Portugal, DF, 22, 0, 3
+-- 2580, 2014, Grecia, MF, 18, 0, 1
+-- 2581, 2014, Camerún, GK, 1, 0, 0
+-- 2582, 1958, Checoslovaquia, FW, 14, 0, 3
+-- 2583, 1982, Austria, GK, 21, 0, 0
+-- 2584, 1990, Camerún, MF, 19, 0, 0
+-- 2585, 1982, Checoslovaquia, DF, 3, 0, 3
+-- 2586, 1994, Camerún, MF, 18, 0, 0
+-- 2587, 1970, Alemania Occidental, DF, 11, 0, 5
+-- 2588, 1966, Brasil, DF, 3, 0, 1
+-- 2589, 1990, Checoslovaquia, DF, 12, 0, 0
+-- 2590, 1934, Estados Unidos, MF, None, 0, 0
+-- 2591, 2010, Chile, MF, 19, 0, 0
+-- 2592, 1938, Bélgica, FW, None, 0, 0
+-- 2593, 2002, Portugal, FW, 7, 0, 3
+-- 2593, 2006, Portugal, FW, 7, 6, 6
+-- 2594, 2006, Angola, MF, 7, 0, 3
+-- 2595, 1966, Chile, DF, 7, 0, 3
+-- 2595, 1974, Chile, DF, 5, 0, 3
+-- 2595, 1982, Chile, DF, 5, 3, 3
+-- 2596, 1982, Honduras, FW, 10, 0, 3
+-- 2597, 2010, Honduras, DF, 3, 0, 3
+-- 2597, 2014, Honduras, DF, 3, 0, 3
+-- 2598, 2010, Eslovenia, DF, 19, 0, 0
+-- 2599, 2002, Rusia, GK, 23, 0, 0
+-- 2600, 2018, Brasil, DF, 6, 0, 1
+-- 2601, 1998, Rumania, DF, 18, 0, 3
+-- 2602, 1974, Argentina, GK, 12, 0, 1
+-- 2602, 1978, Argentina, GK, 5, 0, 7
+-- 2602, 1982, Argentina, GK, 7, 0, 5
+-- 2603, 2010, Estados Unidos, FW, 20, 0, 3
+-- 2604, 2002, Irlanda, DF, 2, 0, 3
+-- 2605, 2018, Islandia, FW, 11, 0, 3
+-- 2606, 1982, Irlanda del Norte, MF, 15, 0, 0
+-- 2607, 1950, Inglaterra, FW, None, 0, 3
+-- 2607, 1954, Inglaterra, FW, 11, 0, 3
+-- 2607, 1958, Inglaterra, FW, 11, 0, 1
+-- 2608, 1950, Yugoslavia, DF, None, 0, 0
+-- 2609, 1974, Polonia, GK, 1, 0, 0
+-- 2610, 1978, Alemania Occidental, FW, 9, 0, 4
+-- 2610, 1982, Alemania Occidental, FW, 8, 0, 3
+-- 2611, 2018, Dinamarca, FW, 15, 0, 0
+-- 2612, 1998, Sudáfrica, DF, 5, 0, 3
+-- 2613, 1994, Noruega, FW, 9, 0, 2
+-- 2614, 1970, El Salvador, FW, 10, 0, 3
+-- 2615, 2006, Angola, FW, 16, 0, 0
+-- 2616, 1990, Escocia, FW, 21, 0, 1
+-- 2617, 1970, Checoslovaquia, GK, 13, 0, 0
+-- 2618, 1998, Noruega, FW, 17, 0, 4
+-- 2619, 1994, Noruega, FW, 6, 0, 3
+-- 2619, 1998, Noruega, FW, 16, 0, 0
+-- 2620, 1998, Noruega, FW, 9, 0, 4
+-- 2621, 1974, Alemania Occidental, MF, 15, 0, 1
+-- 2621, 1978, Alemania Occidental, MF, 10, 0, 4
+-- 2622, 1930, Paraguay, MF, None, 0, 0
+-- 2623, 1950, México, MF, None, 0, 1
+-- 2624, 2018, Perú, FW, 20, 0, 3
+-- 2625, 1958, México, MF, 6, 0, 3
+-- 2626, 1978, México, DF, 15, 0, 1
+-- 2627, 1986, México, FW, 15, 0, 3
+-- 2628, 1950, Chile, DF, None, 0, 0
+-- 2629, 1990, Costa Rica, DF, 3, 4, 4
+-- 2630, 1930, Paraguay, DF, None, 0, 1
+-- 2631, 1930, Estados Unidos, FW, None, 3, 3
+-- 2631, 1934, Estados Unidos, FW, None, 0, 1
+-- 2632, 1962, Inglaterra, MF, 6, 0, 4
+-- 2632, 1966, Inglaterra, MF, 17, 0, 0
+-- 2633, 1998, Inglaterra, GK, 22, 0, 0
+-- 2634, 1954, Suiza, DF, 5, 0, 1
+-- 2635, 2022, Inglaterra, MF, 20, 0, 3
+-- 2636, 1994, Camerún, MF, 17, 0, 3
+-- 2636, 2002, Camerún, MF, 17, 0, 3
+-- 2637, 1982, Alemania Occidental, DF, 5, 0, 4
+-- 2638, 1982, Alemania Occidental, DF, 4, 0, 7
+-- 2638, 1986, Alemania Occidental, DF, 4, 0, 7
+-- 2639, 2022, Francia, DF, 13, 0, 2
+-- 2640, 1966, Italia, MF, 7, 0, 1
+-- 2641, 1990, URSS, DF, 19, 0, 0
+-- 2642, 1938, Italia, DF, None, 0, 3
+-- 2643, 1990, Uruguay, FW, 19, 0, 1
+-- 2644, 2006, Costa Rica, MF, 6, 0, 2
+-- 2645, 2006, México, FW, 17, 0, 2
+-- 2646, 2002, Costa Rica, FW, 7, 0, 1
+-- 2647, 1958, Francia, FW, 17, 0, 6
+-- 2648, 1970, Brasil, DF, 15, 0, 1
+-- 2649, 2018, Portugal, DF, 6, 0, 4
+-- 2650, 1970, Uruguay, FW, 15, 0, 3
+-- 2651, 1974, Escocia, MF, 17, 0, 0
+-- 2652, 2002, Uruguay, FW, 21, 0, 0
+-- 2652, 2010, Uruguay, FW, 10, 1, 7
+-- 2652, 2014, Uruguay, FW, 10, 0, 2
+-- 2653, 1966, Uruguay, DF, 4, 0, 0
+-- 2653, 1974, Uruguay, DF, 4, 0, 3
+-- 2654, 2018, Suecia, MF, 10, 0, 5
+-- 2655, 2006, Togo, FW, 13, 0, 2
+-- 2656, 2014, Inglaterra, GK, 22, 0, 0
+-- 2657, 1978, Escocia, DF, 14, 0, 2
+-- 2658, 1930, Brasil, MF, None, 0, 0
+-- 2659, 1998, Sudáfrica, MF, 7, 0, 3
+-- 2659, 2002, Sudáfrica, MF, 7, 0, 3
+-- 2660, 2014, Inglaterra, GK, 13, 0, 1
+-- 2661, 1982, Inglaterra, DF, 6, 0, 1
+-- 2662, 1962, Chile, MF, 10, 0, 2
+-- 2662, 1966, Chile, MF, 8, 0, 2
+-- 2663, 1994, Suiza, MF, 17, 0, 0
+-- 2664, 2002, Inglaterra, FW, 9, 0, 0
+-- 2665, 2022, Argentina, DF, 2, 0, 0
+-- 2666, 1990, Paises Bajos, DF, 18, 0, 0
+-- 2667, 1966, México, FW, 10, 0, 1
+-- 2667, 1970, México, FW, 21, 0, 4
+-- 2668, 1986, Uruguay, MF, 10, 0, 4
+-- 2668, 1990, Uruguay, MF, 9, 4, 4
+-- 2669, 1974, Haití, GK, 1, 0, 3
+-- 2670, 1982, Inglaterra, FW, 8, 0, 5
+-- 2671, 2014, Costa Rica, DF, 12, 0, 0
+-- 2672, 1986, España, MF, 17, 0, 3
+-- 2673, 1950, Brasil, FW, None, 0, 0
+-- 2673, 1954, Brasil, FW, 11, 0, 2
+-- 2674, 2022, Ecuador, MF, 21, 0, 1
+-- 2675, 2006, México, FW, 10, 0, 2
+-- 2675, 2010, México, FW, 9, 0, 3
+-- 2676, 2002, Paraguay, DF, 17, 0, 0
+-- 2677, 2006, Argentina, GK, 12, 0, 0
+-- 2678, 1974, Haití, MF, 10, 0, 2
+-- 2679, 1998, Dinamarca, MF, 8, 0, 0
+-- 2680, 2014, Australia, DF, 2, 0, 1
+-- 2681, 1982, Alemania Occidental, GK, 21, 0, 0
+-- 2682, 2022, Polonia, MF, 24, 0, 3
+-- 2683, 1938, Noruega, FW, None, 0, 1
+-- 2684, 1934, Austria, GK, None, 0, 0
+-- 2685, 2022, Canadá, MF, 8, 0, 0
+-- 2686, 2002, Portugal, DF, 18, 0, 1
+-- 2687, 2006, Brasil, FW, 21, 0, 0
+-- 2687, 2014, Brasil, FW, 9, 0, 6
+-- 2688, 2018, Brasil, MF, 18, 0, 0
+-- 2688, 2022, Brasil, MF, 8, 0, 2
+-- 2689, 1986, Portugal, DF, 8, 0, 3
+-- 2690, 2006, Suiza, FW, 9, 0, 4
+-- 2690, 2010, Suiza, FW, 9, 1, 1
+-- 2691, 2022, Suiza, MF, 20, 0, 0
+-- 2692, 1934, Argentina, GK, None, 0, 1
+-- 2693, 2018, Suiza, MF, 8, 0, 0
+-- 2693, 2022, Suiza, MF, 8, 0, 4
+-- 2694, 1998, Alemania, MF, 15, 0, 0
+-- 2695, 1950, Brasil, FW, None, 0, 4
+-- 2696, 1934, Suiza, MF, None, 0, 0
+-- 2697, 2018, Islandia, MF, 3, 0, 0
+-- 2698, 1994, Estados Unidos, GK, 18, 0, 0
+-- 2698, 1998, Estados Unidos, GK, 1, 0, 1
+-- 2698, 2002, Estados Unidos, GK, 1, 0, 5
+-- 2699, 1950, Suiza, FW, None, 0, 2
+-- 2700, 1958, Hungría, FW, 19, 0, 0
+-- 2701, 2006, Alemania, DF, 3, 0, 6
+-- 2701, 2010, Alemania, DF, 3, 0, 7
+-- 2702, 1974, Alemania Oriental, GK, 22, 0, 0
+-- 2703, 1938, Suiza, FW, None, 0, 0
+-- 2704, 1962, Suiza, FW, 22, 0, 0
+-- 2705, 1954, Italia, FW, 21, 0, 2
+-- 2706, 1986, Dinamarca, MF, 13, 0, 0
+-- 2707, 2022, Paises Bajos, DF, 26, 0, 0
+-- 2708, 2002, Alemania, MF, 22, 0, 7
+-- 2708, 2006, Alemania, MF, 8, 0, 6
+-- 2709, 1974, Alemania Oriental, DF, 5, 0, 0
+-- 2710, 1954, Suiza, MF, 13, 0, 0
+-- 2711, 1978, Austria, GK, 21, 0, 0
+-- 2712, 2010, Uruguay, DF, 4, 0, 5
+-- 2712, 2014, Uruguay, DF, 4, 0, 0
+-- 2713, 2010, Chile, DF, 2, 0, 1
+-- 2714, 1970, Perú, DF, 5, 0, 4
+-- 2715, 1998, Chile, DF, 3, 0, 4
+-- 2716, 2014, Chile, MF, 19, 0, 0
+-- 2717, 1966, Suiza, DF, 7, 0, 3
+-- 2718, 2002, Japón, MF, 15, 0, 0
+-- 2718, 2006, Japón, MF, 15, 0, 2
+-- 2719, 2022, Costa Rica, DF, 4, 0, 3
+-- 2720, 2022, Alemania, FW, 9, 0, 0
+-- 2721, 1978, Hungría, MF, 20, 0, 0
+-- 2722, 2022, México, FW, 11, 0, 0
+-- 2723, 1950, Italia, DF, None, 0, 2
+-- 2724, 1970, Italia, MF, 21, 0, 0
+-- 2725, 1986, Polonia, FW, 22, 0, 0
+-- 2726, 1966, España, FW, 19, 0, 1
+-- 2727, 1934, Hungría, DF, None, 0, 1
+-- 2728, 1986, Portugal, FW, 10, 0, 1
+-- 2729, 2022, Catar, MF, 25, 0, 0
+-- 2730, 2018, Egipto, MF, 4, 0, 0
+-- 2731, 2018, Egipto, DF, 2, 0, 3
+-- 2732, 2014, Nigeria, MF, 4, 0, 0
+-- 2733, 1950, España, DF, None, 0, 6
+-- 2734, 2002, México, DF, 2, 0, 0
+-- 2735, 2018, Brasil, FW, 9, 0, 5
+-- 2735, 2022, Brasil, FW, 18, 0, 1
+-- 2736, 1934, Francia, MF, None, 0, 0
+-- 2737, 2002, Túnez, MF, 8, 0, 2
+-- 2738, 2018, Rusia, GK, 20, 0, 0
+-- 2739, 1974, Polonia, FW, 18, 0, 7
+-- 2740, 1950, Estados Unidos, FW, None, 0, 3
+-- 2741, 1966, Bulgaria, DF, 4, 3, 3
+-- 2741, 1970, Bulgaria, DF, 15, 1, 1
+-- 2742, 2014, Argentina, MF, 5, 0, 3
+-- 2743, 1970, Bulgaria, DF, 12, 0, 2
+-- 2744, 1954, Checoslovaquia, FW, 20, 0, 0
+-- 2744, 1958, Checoslovaquia, FW, 7, 0, 0
+-- 2745, 2002, Eslovenia, MF, 14, 0, 0
+-- 2746, 2022, Paises Bajos, FW, 8, 0, 5
+-- 2747, 2006, República Checa, MF, 4, 2, 2
+-- 2748, 1934, Argentina, FW, None, 0, 1
+-- 2749, 1994, Rumania, MF, 18, 0, 0
+-- 2749, 1998, Rumania, MF, 5, 0, 4
+-- 2750, 1986, Italia, FW, 19, 0, 4
+-- 2751, 1938, Polonia, DF, None, 0, 1
+-- 2752, 2014, Australia, GK, 18, 0, 0
+-- 2753, 1994, Rusia, DF, 4, 0, 0
+-- 2754, 2002, Eslovenia, DF, 5, 0, 1
+-- 2755, 1962, Yugoslavia, FW, 10, 5, 6
+-- 2756, 2022, Ecuador, GK, 1, 0, 3
+-- 2757, 1994, México, MF, 17, 0, 1
+-- 2758, 1974, Chile, DF, 15, 0, 0
+-- 2758, 1982, Chile, DF, 18, 0, 1
+-- 2759, 1930, Perú, MF, None, 1, 2
+-- 2760, 1998, Escocia, FW, 7, 0, 3
+-- 2761, 2022, Inglaterra, MF, 26, 0, 0
+-- 2762, 1930, Estados Unidos, MF, None, 0, 3
+-- 2762, 1934, Estados Unidos, MF, None, 0, 0
+-- 2763, 1970, Perú, FW, 11, 0, 4
+-- 2764, 2018, México, MF, 23, 0, 4
+-- 2764, 2022, México, DF, 23, 0, 3
+-- 2765, 1998, Argentina, MF, 20, 0, 1
+-- 2765, 2002, Argentina, MF, 20, 0, 0
+-- 2766, 2006, Francia, DF, 5, 0, 7
+-- 2766, 2010, Francia, DF, 5, 0, 3
+-- 2767, 1966, España, MF, 17, 0, 3
+-- 2768, 1978, Argentina, MF, 6, 0, 7
+-- 2768, 1982, Argentina, MF, 9, 0, 4
+-- 2769, 1982, España, MF, 17, 0, 0
+-- 2769, 1986, España, MF, 14, 0, 4
+-- 2770, 2018, Perú, GK, 1, 0, 3
+-- 2771, 1954, Italia, FW, 9, 0, 2
+-- 2772, 1982, Italia, GK, 22, 0, 0
+-- 2772, 1986, Italia, GK, 1, 0, 4
+-- 2773, 1978, Argentina, DF, 7, 0, 7
+-- 2773, 1982, Argentina, DF, 8, 0, 5
+-- 2774, 1978, Argentina, DF, 8, 0, 0
+-- 2775, 1998, Paraguay, DF, 4, 0, 4
+-- 2775, 2002, Paraguay, DF, 4, 1, 4
+-- 2775, 2006, Paraguay, DF, 4, 3, 3
+-- 2776, 2010, Paraguay, FW, 23, 0, 0
+-- 2777, 1950, Uruguay, DF, None, 0, 2
+-- 2778, 2014, Costa Rica, DF, 16, 0, 5
+-- 2778, 2018, Costa Rica, DF, 16, 0, 3
+-- 2779, 1962, Colombia, FW, 19, 0, 1
+-- 2780, 1982, Chile, FW, 21, 0, 1
+-- 2781, 2006, Polonia, DF, 3, 0, 0
+-- 2782, 2002, China, MF, 13, 0, 0
+-- 2783, 2010, Argelia, GK, 1, 0, 0
+-- 2784, 1982, Hungría, DF, 6, 0, 3
+-- 2784, 1986, Hungría, DF, 6, 1, 3
+-- 2785, 1962, España, MF, 8, 0, 1
+-- 2786, 2014, Argentina, DF, 2, 0, 7
+-- 2787, 2010, Argentina, DF, 12, 0, 0
+-- 2788, 1930, Paraguay, MF, None, 0, 1
+-- 2789, 1930, Perú, MF, None, 0, 1
+-- 2790, 2022, España, DF, 3, 0, 0
+-- 2791, 2014, Honduras, DF, 6, 0, 1
+-- 2792, 2006, España, FW, 11, 0, 2
+-- 2793, 1994, México, FW, 10, 0, 4
+-- 2793, 1998, México, FW, 10, 0, 0
+-- 2794, 2010, Honduras, DF, 14, 0, 0
+-- 2794, 2014, Honduras, MF, 14, 0, 2
+-- 2795, 2002, Uruguay, MF, 5, 0, 3
+-- 2796, 2002, México, MF, 3, 0, 0
+-- 2796, 2006, México, MF, 20, 0, 0
+-- 2797, 2010, Australia, FW, 19, 0, 1
+-- 2798, 1974, Chile, DF, 2, 0, 3
+-- 2799, 1994, México, MF, 8, 0, 3
+-- 2799, 1998, México, MF, 8, 4, 4
+-- 2799, 2002, México, MF, 8, 0, 0
+-- 2800, 1950, Suecia, MF, None, 0, 5
+-- 2801, 1950, Estados Unidos, GK, None, 0, 0
+-- 2802, 1998, Jamaica, DF, 15, 0, 3
+-- 2803, 2010, Uruguay, MF, 5, 0, 1
+-- 2803, 2014, Uruguay, MF, 5, 0, 1
+-- 2804, 1974, Uruguay, DF, 14, 0, 2
+-- 2805, 1986, Argentina, DF, 13, 0, 4
+-- 2806, 1982, Chile, DF, 2, 0, 2
+-- 2807, 2014, Honduras, MF, 19, 0, 2
+-- 2808, 1958, Brasil, FW, 11, 0, 4
+-- 2808, 1962, Brasil, FW, 7, 0, 6
+-- 2808, 1966, Brasil, FW, 16, 0, 2
+-- 2809, 1930, México, DF, None, 0, 1
+-- 2810, 1930, México, DF, None, 3, 3
+-- 2811, 1990, Inglaterra, MF, 19, 0, 6
+-- 2812, 1978, Túnez, MF, 4, 0, 2
+-- 2813, 2018, Senegal, DF, 21, 0, 1
+-- 2814, 1982, Perú, DF, 4, 0, 0
+-- 2815, 1966, Argentina, GK, 3, 0, 0
+-- 2816, 2002, Italia, MF, 8, 0, 0
+-- 2816, 2006, Italia, MF, 8, 0, 5
+-- 2816, 2010, Italia, MF, 8, 0, 1
+-- 2817, 1938, Alemania, FW, None, 0, 1
+-- 2818, 1994, Alemania, MF, 15, 0, 0
+-- 2819, 2022, España, MF, 9, 0, 4
+-- 2820, 2002, Paraguay, MF, 14, 0, 1
+-- 2820, 2006, Paraguay, MF, 11, 0, 0
+-- 2821, 1950, Paraguay, DF, None, 0, 2
+-- 2822, 1994, Colombia, MF, 5, 0, 2
+-- 2823, 2006, Serbia y Montenegro, DF, 6, 0, 3
+-- 2824, 2014, Suiza, FW, 17, 0, 0
+-- 2824, 2018, Suiza, FW, 18, 0, 1
+-- 2825, 1982, URSS, MF, 9, 0, 5
+-- 2826, 2010, Sudáfrica, DF, 2, 0, 2
+-- 2827, 1998, Jamaica, FW, 8, 0, 1
+-- 2828, 1930, México, FW, None, 0, 2
+-- 2829, 2018, Rusia, MF, 8, 0, 3
+-- 2830, 2014, Costa de Marfil, GK, 16, 0, 0
+-- 2831, 1966, Hungría, GK, 22, 0, 0
+-- 2832, 1974, Paises Bajos, FW, 1, 0, 0
+-- 2833, 1954, Bélgica, GK, 12, 0, 0
+-- 2834, 1994, Suiza, DF, 5, 4, 4
+-- 2835, 2010, Grecia, FW, 17, 0, 2
+-- 2835, 2014, Grecia, FW, 17, 0, 1
+-- 2836, 1966, Hungría, GK, 21, 0, 3
+-- 2837, 1954, Hungría, GK, 21, 0, 0
+-- 2838, 1938, Alemania, FW, None, 0, 1
+-- 2839, 1978, Escocia, MF, 15, 1, 2
+-- 2840, 1998, Escocia, MF, 15, 0, 0
+-- 2841, 1994, Bulgaria, MF, 14, 0, 0
+-- 2842, 1982, Francia, MF, 9, 0, 5
+-- 2842, 1986, Francia, MF, 13, 0, 1
+-- 2843, 1938, Italia, MF, None, 0, 0
+-- 2844, 1978, Italia, DF, 5, 0, 7
+-- 2844, 1982, Italia, DF, 6, 0, 6
+-- 2845, 1930, Estados Unidos, FW, None, 0, 0
+-- 2846, 1962, España, FW, 9, 1, 3
+-- 2846, 1966, España, FW, 11, 2, 2
+-- 2847, 1994, Nigeria, FW, 7, 0, 4
+-- 2847, 1998, Nigeria, MF, 7, 0, 3
+-- 2848, 1994, Bulgaria, MF, 19, 0, 0
+-- 2849, 2002, Camerún, DF, 8, 0, 3
+-- 2849, 2010, Camerún, DF, 8, 0, 2
+-- 2850, 1982, Bélgica, DF, 2, 3, 3
+-- 2850, 1986, Bélgica, DF, 2, 0, 6
+-- 2850, 1990, Bélgica, DF, 2, 1, 3
+-- 2851, 1934, Brasil, GK, None, 0, 0
+-- 2852, 1966, Portugal, DF, 5, 0, 1
+-- 2853, 1954, Bélgica, GK, 1, 0, 2
+-- 2854, 2018, Brasil, DF, 4, 0, 0
+-- 2855, 2006, Inglaterra, MF, 4, 0, 4
+-- 2855, 2010, Inglaterra, MF, 4, 4, 4
+-- 2855, 2014, Inglaterra, MF, 4, 2, 2
+-- 2856, 1966, Brasil, MF, 11, 0, 1
+-- 2856, 1970, Brasil, MF, 8, 0, 4
+-- 2857, 2010, Costa de Marfil, FW, 10, 0, 2
+-- 2857, 2014, Costa de Marfil, FW, 10, 0, 3
+-- 2858, 1930, Uruguay, MF, None, 0, 4
+-- 2859, 1966, URSS, DF, 9, 0, 1
+-- 2860, 1986, Bulgaria, MF, 11, 0, 4
+-- 2861, 2022, Túnez, MF, 5, 0, 1
+-- 2862, 1970, Marruecos, FW, 11, 0, 3
+-- 2863, 1970, Rumania, MF, 14, 0, 0
+-- 2864, 1978, Irán, DF, 11, 0, 0
+-- 2865, 2010, Argelia, FW, 9, 0, 0
+-- 2866, 1954, Italia, GK, 1, 0, 2
+-- 2867, 1950, Uruguay, FW, None, 0, 4
+-- 2868, 2014, Argelia, FW, 9, 0, 0
+-- 2869, 2018, Irán, FW, 14, 0, 0
+-- 2869, 2022, Irán, MF, 14, 0, 0
+-- 2870, 1998, Túnez, MF, 10, 0, 2
+-- 2870, 2002, Túnez, MF, 10, 0, 2
+-- 2870, 2006, Túnez, MF, 10, 0, 0
+-- 2871, 2022, Irán, MF, 17, 0, 2
+-- 2872, 1978, Túnez, MF, 6, 0, 3
+-- 2873, 2014, Irán, FW, 16, 0, 3
+-- 2873, 2018, Irán, FW, 16, 0, 0
+-- 2874, 2014, Argelia, DF, 3, 0, 2
+-- 2875, 1954, Italia, DF, 3, 0, 3
+-- 2876, 1954, Francia, DF, 4, 0, 2
+-- 2877, 1990, Italia, MF, 13, 0, 7
+-- 2878, 1938, Polonia, DF, None, 0, 0
+-- 2879, 1962, Alemania Occidental, MF, 15, 0, 2
+-- 2880, 1954, Austria, MF, 14, 0, 0
+-- 2881, 2010, Francia, FW, 11, 0, 1
+-- 2882, 1978, Brasil, FW, 18, 0, 6
+-- 2883, 2006, Italia, FW, 11, 0, 4
+-- 2883, 2010, Italia, FW, 11, 0, 2
+-- 2884, 2006, Brasil, DF, 16, 0, 1
+-- 2884, 2010, Brasil, DF, 16, 0, 0
+-- 2885, 2002, Brasil, MF, 8, 0, 7
+-- 2885, 2006, Brasil, MF, 17, 0, 2
+-- 2885, 2010, Brasil, MF, 8, 0, 5
+-- 2886, 1990, Escocia, DF, 11, 0, 0
+-- 2887, 1990, Paises Bajos, FW, 17, 0, 2
+-- 2888, 1958, Brasil, GK, 3, 0, 6
+-- 2888, 1962, Brasil, GK, 1, 0, 6
+-- 2888, 1966, Brasil, GK, 1, 0, 2
+-- 2889, 1994, Brasil, GK, 22, 0, 0
+-- 2890, 2014, Uruguay, DF, 13, 0, 3
+-- 2890, 2018, Uruguay, DF, 2, 0, 4
+-- 2890, 2022, Uruguay, DF, 2, 0, 3
+-- 2891, 1998, Bulgaria, DF, 13, 0, 2
+-- 2892, 1958, Paraguay, DF, 13, 0, 0
+-- 2893, 2014, Alemania, DF, 3, 0, 0
+-- 2893, 2018, Alemania, DF, 4, 0, 0
+-- 2893, 2022, Alemania, DF, 4, 0, 0
+-- 2894, 1998, Brasil, MF, 7, 0, 1
+-- 2895, 1950, Italia, DF, None, 0, 1
+-- 2896, 1982, Francia, MF, 11, 0, 2
+-- 2897, 1982, Francia, MF, 12, 0, 6
+-- 2897, 1986, Francia, MF, 12, 0, 6
+-- 2898, 2014, Francia, FW, 9, 0, 2
+-- 2898, 2018, Francia, FW, 9, 0, 6
+-- 2898, 2022, Francia, FW, 9, 0, 6
+-- 2899, 2018, Islandia, MF, 19, 0, 1
+-- 2900, 1986, Argentina, MF, 14, 0, 7
+-- 2900, 1990, Argentina, MF, 14, 0, 3
+-- 2901, 2002, Irlanda, GK, 1, 0, 4
+-- 2902, 2006, Francia, DF, 17, 0, 0
+-- 2903, 2006, Polonia, MF, 20, 0, 0
+-- 2904, 1966, España, MF, 6, 0, 1
+-- 2905, 1974, Argentina, DF, 9, 0, 1
+-- 2906, 1990, Austria, MF, 19, 0, 0
+-- 2907, 2006, Trinidad y Tobago, FW, 13, 0, 1
+-- 2908, 2018, Polonia, DF, 15, 0, 1
+-- 2908, 2022, Polonia, DF, 15, 0, 4
+-- 2909, 1954, Francia, FW, 17, 0, 1
+-- 2910, 2002, Polonia, DF, 13, 0, 1
+-- 2911, 2014, Rusia, MF, 8, 0, 3
+-- 2912, 2014, Grecia, GK, 12, 0, 0
+-- 2913, 2022, Alemania, FW, 10, 0, 3
+-- 2914, 2006, Costa de Marfil, GK, 16, 0, 0
+-- 2915, 2018, Corea del Sur, DF, 22, 0, 0
+-- 2916, 1934, Suiza, DF, None, 0, 0
+-- 2917, 2010, Uruguay, DF, 3, 0, 5
+-- 2917, 2014, Uruguay, DF, 3, 3, 4
+-- 2917, 2018, Uruguay, DF, 3, 5, 5
+-- 2917, 2022, Uruguay, DF, 3, 2, 2
+-- 2918, 1962, Chile, GK, 12, 0, 1
+-- 2918, 1966, Chile, GK, 9, 0, 0
+-- 2919, 2018, Panamá, MF, 20, 0, 3
+-- 2920, 1950, Bolivia, FW, None, 0, 0
+-- 2921, 2010, Costa de Marfil, DF, 6, 0, 0
+-- 2922, 1986, España, DF, 8, 0, 4
+-- 2923, 1994, España, MF, 7, 0, 5
+-- 2924, 1998, Dinamarca, MF, 17, 0, 0
+-- 2925, 1938, Alemania, MF, None, 0, 1
+-- 2926, 2006, Irán, DF, 4, 1, 2
+-- 2927, 2018, Rusia, MF, 17, 0, 4
+-- 2928, 2010, Brasil, GK, 12, 0, 0
+-- 2929, 1986, Portugal, FW, 9, 2, 3
+-- 2930, 1970, Uruguay, FW, 18, 0, 0
+-- 2931, 2022, Argentina, MF, 17, 0, 2
+-- 2932, 1978, México, DF, 14, 0, 1
+-- 2933, 2006, Paraguay, GK, 12, 0, 0
+-- 2934, 1990, Colombia, MF, 8, 0, 4
+-- 2934, 1994, Colombia, MF, 6, 0, 1
+-- 2935, 2018, Panamá, MF, 6, 0, 3
+-- 2936, 1990, Colombia, DF, 3, 0, 4
+-- 2937, 1950, México, DF, None, 0, 2
+-- 2938, 1930, Bolivia, FW, None, 0, 1
+-- 2939, 2010, Estados Unidos, FW, 9, 0, 1
+-- 2940, 1958, México, GK, 13, 0, 0
+-- 2940, 1962, México, GK, 12, 0, 0
+-- 2941, 1974, Uruguay, FW, 21, 0, 0
+-- 2942, 1954, México, DF, 14, 0, 1
+-- 2943, 2002, Ecuador, DF, 8, 0, 0
+-- 2944, 2010, Alemania, FW, 23, 0, 0
+-- 2944, 2018, Alemania, FW, 23, 0, 0
+-- 2945, 2018, Uruguay, FW, 18, 0, 0
+-- 2945, 2022, Uruguay, FW, 18, 0, 0
+-- 2946, 1990, Costa Rica, MF, 12, 0, 3
+-- 2947, 2002, Costa Rica, FW, 11, 0, 3
+-- 2947, 2006, Costa Rica, FW, 11, 0, 3
+-- 2948, 2018, Senegal, GK, 23, 0, 0
+-- 2948, 2022, Senegal, GK, 23, 0, 0
+-- 2949, 1938, Bélgica, DF, None, 0, 0
+-- 2950, 1998, Brasil, DF, 14, 0, 1
+-- 2951, 1962, Uruguay, DF, 5, 0, 3
+-- 2951, 1966, Uruguay, DF, 5, 0, 4
+-- 2952, 2014, Japón, GK, 23, 0, 0
+-- 2952, 2022, Japón, GK, 12, 0, 4
+-- 2953, 1966, Francia, FW, 13, 0, 3
+-- 2954, 1930, Perú, FW, None, 0, 0
+-- 2955, 1930, Estados Unidos, FW, None, 0, 3
+-- 2955, 1934, Estados Unidos, FW, None, 0, 1
+-- 2956, 1962, Colombia, FW, 21, 0, 2
+-- 2957, 1962, Colombia, DF, 5, 0, 3
+-- 2958, 1970, Perú, DF, 15, 0, 0
+-- 2959, 1970, Perú, DF, 13, 0, 2
+-- 2960, 1982, Perú, GK, 12, 0, 0
+-- 2961, 1950, Paraguay, DF, None, 0, 2
+-- 2962, 1962, Argentina, FW, 22, 0, 1
+-- 2962, 1966, Argentina, FW, 16, 0, 4
+-- 2963, 2014, Uruguay, MF, 20, 0, 3
+-- 2964, 1950, Paraguay, MF, None, 0, 0
+-- 2965, 1930, Paraguay, FW, None, 0, 2
+-- 2966, 1958, México, FW, 22, 0, 2
+-- 2967, 2002, Argentina, FW, 18, 0, 1
+-- 2968, 1962, Uruguay, MF, 16, 0, 0
+-- 2969, 2014, Costa Rica, DF, 3, 0, 5
+-- 2969, 2018, Costa Rica, DF, 3, 0, 3
+-- 2970, 2010, Uruguay, MF, 18, 0, 1
+-- 2971, 1982, El Salvador, FW, 11, 0, 3
+-- 2972, 1966, México, DF, 13, 0, 0
+-- 2972, 1970, México, MF, 17, 0, 3
+-- 2973, 1934, Francia, DF, None, 0, 0
+-- 2974, 1950, Uruguay, MF, None, 0, 2
+-- 2975, 2006, Costa Rica, DF, 12, 0, 3
+-- 2976, 2006, Argentina, MF, 22, 0, 2
+-- 2977, 1974, Uruguay, DF, 15, 0, 0
+-- 2978, 2010, Chile, FW, 11, 0, 2
+-- 2979, 1950, Uruguay, DF, None, 0, 4
+-- 2980, 2014, Estados Unidos, DF, 3, 0, 2
+-- 2981, 1974, Chile, DF, 13, 0, 0
+-- 2982, 1990, Costa Rica, DF, 4, 0, 4
+-- 2983, 1962, Uruguay, DF, 17, 0, 0
+-- 2984, 1950, España, DF, None, 0, 5
+-- 2985, 1950, España, MF, None, 0, 5
+-- 2986, 1998, Jamaica, DF, 5, 1, 3
+-- 2987, 2010, Estados Unidos, DF, 21, 0, 0
+-- 2988, 2022, Australia, FW, 23, 0, 3
+-- 2989, 2002, Bélgica, MF, 8, 0, 4
+-- 2990, 1998, Sudáfrica, GK, 23, 0, 0
+-- 2991, 1938, Polonia, MF, None, 0, 1
+-- 2992, 2018, Polonia, MF, 6, 0, 2
+-- 2993, 1986, Escocia, GK, 12, 0, 0
+-- 2993, 1990, Escocia, GK, 12, 0, 0
+-- 2994, 1974, Bulgaria, GK, 1, 0, 2
+-- 2995, 1982, España, DF, 3, 0, 5
+-- 2995, 1986, España, MF, 6, 0, 1
+-- 2996, 2018, Alemania, MF, 14, 0, 1
+-- 2996, 2022, Alemania, MF, 8, 0, 2
+-- 2997, 1986, Iraq, MF, 14, 0, 2
+-- 2998, 1974, Polonia, DF, 6, 0, 7
+-- 2998, 1978, Polonia, DF, 6, 0, 5
+-- 2999, 1970, Italia, FW, 19, 0, 0
+-- 3000, 1990, Rusia, DF, 20, 0, 3
+-- 3000, 1994, Rusia, DF, 3, 0, 2
+-- 3001, 1970, Rumania, GK, 22, 0, 0
+-- 3002, 1962, Hungría, MF, 8, 0, 2
+-- 3003, 1934, España, FW, None, 0, 2
+-- 3004, 1978, Perú, MF, 16, 0, 0
+-- 3005, 1990, España, DF, 14, 0, 3
+-- 3006, 1986, Bulgaria, MF, 10, 0, 3
+-- 3007, 2010, Costa de Marfil, MF, 12, 0, 0
+-- 3008, 1966, Suiza, FW, 8, 0, 2
+-- 3009, 2014, Alemania, FW, 19, 0, 3
+-- 3009, 2022, Alemania, MF, 11, 0, 0
+-- 3010, 1986, Escocia, DF, 2, 0, 3
+-- 3010, 1990, Escocia, DF, 4, 0, 1
+-- 3011, 1998, Escocia, GK, 21, 0, 0
+-- 3012, 2010, Francia, MF, 8, 0, 2
+-- 3013, 1998, RF de Yugoslavia, MF, 18, 0, 0
+-- 3014, 2006, Francia, FW, 9, 0, 0
+-- 3014, 2010, Francia, FW, 10, 0, 2
+-- 3015, 1990, Argentina, GK, 12, 0, 5
+-- 3015, 1994, Argentina, GK, 1, 0, 0
+-- 3016, 1970, Perú, GK, 21, 0, 0
+-- 3017, 1934, Paises Bajos, FW, None, 0, 0
+-- 3018, 2022, Polonia, GK, 22, 0, 0
+-- 3019, 1966, Alemania Occidental, FW, 20, 0, 0
+-- 3019, 1970, Alemania Occidental, FW, 20, 0, 1
+-- 3019, 1974, Alemania Occidental, FW, 9, 0, 5
+-- 3020, 1962, España, DF, 10, 0, 2
+-- 3021, 2014, Costa de Marfil, MF, 15, 0, 1
+-- 3022, 2010, Brasil, FW, 23, 0, 0
+-- 3023, 1958, Irlanda del Norte, DF, 19, 0, 0
+-- 3024, 1938, Suecia, MF, None, 0, 0
+-- 3025, 1970, Suecia, FW, 10, 0, 1
+-- 3025, 1974, Suecia, MF, 6, 0, 6
+-- 3026, 1934, Alemania, MF, None, 0, 1
+-- 3027, 2014, Costa Rica, MF, 13, 0, 0
+-- 3028, 2014, Rusia, DF, 13, 0, 0
+-- 3028, 2018, Rusia, DF, 14, 0, 0
+-- 3029, 1934, Suecia, DF, None, 0, 0
+-- 3030, 2018, Suecia, DF, 4, 5, 5
+-- 3031, 1994, Suiza, FW, 15, 0, 0
+-- 3032, 1938, Suiza, FW, None, 0, 1
+-- 3033, 1954, Italia, MF, 20, 0, 0
+-- 3034, 2002, Dinamarca, MF, 7, 0, 4
+-- 3035, 2006, Trinidad y Tobago, DF, 8, 0, 2
+-- 3036, 1982, Escocia, DF, 3, 0, 3
+-- 3037, 1986, Canadá, MF, 8, 0, 2
+-- 3038, 1978, Italia, FW, 19, 0, 0
+-- 3038, 1982, Italia, FW, 19, 0, 7
+-- 3039, 2022, Croacia, GK, 12, 0, 0
+-- 3040, 2022, Inglaterra, FW, 7, 0, 0
+-- 3041, 1962, Inglaterra, FW, 8, 0, 4
+-- 3041, 1966, Inglaterra, FW, 8, 0, 3
+-- 3042, 1950, Bolivia, MF, None, 0, 1
+-- 3043, 2014, Estados Unidos, MF, 16, 0, 0
+-- 3044, 1954, Inglaterra, DF, 13, 0, 0
+-- 3045, 2010, Inglaterra, GK, 12, 0, 1
+-- 3046, 1958, Irlanda del Norte, GK, 1, 0, 4
+-- 3047, 2006, Australia, MF, 13, 0, 4
+-- 3047, 2010, Australia, MF, 13, 0, 1
+-- 3048, 1958, Suecia, MF, 8, 0, 5
+-- 3049, 1990, Suecia, MF, 19, 0, 0
+-- 3050, 2006, Suiza, DF, 13, 0, 0
+-- 3050, 2010, Suiza, DF, 13, 0, 3
+-- 3051, 2014, Francia, MF, 11, 0, 3
+-- 3051, 2018, Francia, FW, 7, 0, 7
+-- 3051, 2022, Francia, FW, 7, 0, 6
+-- 3052, 1990, Checoslovaquia, FW, 19, 0, 0
+-- 3053, 1970, Bulgaria, FW, 21, 0, 0
+-- 3053, 1974, Bulgaria, FW, 16, 0, 0
+-- 3054, 1934, Bélgica, FW, None, 0, 1
+-- 3055, 1954, Francia, DF, 5, 0, 0
+-- 3056, 1970, Suecia, DF, 5, 0, 3
+-- 3056, 1974, Suecia, DF, 13, 0, 2
+-- 3057, 1934, Argentina, GK, None, 0, 0
+-- 3058, 1962, Suiza, DF, 9, 0, 3
+-- 3058, 1966, Suiza, DF, 9, 0, 1
+-- 3059, 1994, Noruega, GK, 12, 0, 0
+-- 3059, 1998, Noruega, GK, 1, 4, 4
+-- 3060, 2002, Dinamarca, FW, 8, 0, 3
+-- 3060, 2010, Dinamarca, FW, 8, 0, 1
+-- 3061, 2018, Polonia, MF, 11, 0, 2
+-- 3061, 2022, Polonia, MF, 11, 0, 0
+-- 3062, 1954, Hungría, GK, 1, 0, 5
+-- 3062, 1958, Hungría, GK, 1, 0, 3
+-- 3062, 1962, Hungría, GK, 1, 3, 3
+-- 3063, 2014, Alemania, DF, 2, 0, 0
+-- 3064, 2006, Italia, DF, 3, 0, 6
+-- 3065, 2014, Ecuador, MF, 23, 0, 1
+-- 3065, 2022, Ecuador, MF, 8, 0, 1
+-- 3066, 2018, Serbia, MF, 16, 0, 0
+-- 3066, 2022, Serbia, MF, 26, 0, 0
+-- 3067, 1986, Bélgica, DF, 13, 0, 5
+-- 3067, 1990, Bélgica, DF, 13, 0, 2
+-- 3067, 1994, Bélgica, DF, 13, 3, 3
+-- 3068, 2006, República Checa, DF, 2, 0, 3
+-- 3069, 1990, Corea del Sur, DF, 17, 0, 2
+-- 3069, 1994, Corea del Sur, MF, 17, 0, 0
+-- 3070, 2006, Ecuador, DF, 2, 0, 1
+-- 3070, 2014, Ecuador, DF, 2, 0, 3
+-- 3071, 1934, Italia, FW, None, 0, 4
+-- 3072, 2006, México, DF, 18, 0, 1
+-- 3072, 2010, México, MF, 18, 0, 2
+-- 3072, 2014, México, MF, 18, 0, 4
+-- 3072, 2018, México, MF, 18, 3, 4
+-- 3072, 2022, México, MF, 18, 1, 1
+-- 3073, 1994, España, MF, 9, 0, 2
+-- 3074, 2014, Colombia, MF, 13, 0, 2
+-- 3075, 1934, Italia, FW, None, 0, 1
+-- 3076, 1966, Italia, DF, 8, 0, 1
+-- 3077, 1986, Paraguay, MF, 16, 0, 1
+-- 3078, 1982, Yugoslavia, MF, 3, 0, 3
+-- 3079, 2022, Serbia, MF, 8, 0, 1
+-- 3080, 2018, Islandia, MF, 4, 0, 0
+-- 3081, 2018, Islandia, MF, 7, 0, 2
+-- 3082, 2018, Portugal, FW, 17, 0, 3
+-- 3083, 2010, Argelia, MF, 17, 0, 0
+-- 3084, 2006, Túnez, FW, 7, 0, 0
+-- 3085, 1982, Argelia, DF, 2, 0, 3
+-- 3085, 1986, Argelia, DF, 2, 3, 3
+-- 3086, 2022, Francia, MF, 6, 0, 1
+-- 3087, 1950, Bolivia, FW, None, 0, 0
+-- 3088, 2018, Portugal, DF, 5, 0, 4
+-- 3088, 2022, Portugal, DF, 5, 0, 3
+-- 3089, 1994, España, MF, 8, 0, 2
+-- 3089, 1998, España, MF, 8, 0, 0
+-- 3090, 1990, Colombia, FW, 9, 0, 0
+-- 3091, 2018, Perú, FW, 9, 2, 2
+-- 3092, 2002, Ecuador, DF, 6, 0, 3
+-- 3093, 2010, Honduras, MF, 20, 2, 2
+-- 3094, 1950, México, MF, None, 0, 0
+-- 3095, 1982, El Salvador, GK, 1, 0, 3
+-- 3096, 2018, Senegal, MF, 5, 0, 3
+-- 3096, 2022, Senegal, MF, 5, 0, 3
+-- 3097, 2022, Senegal, MF, 26, 0, 1
+-- 3098, 2018, Suecia, FW, 11, 0, 0
+-- 3099, 2002, Uruguay, MF, 7, 0, 1
+-- 3100, 2022, España, DF, 15, 0, 0
+-- 3101, 1978, Francia, MF, 10, 0, 1
+-- 3102, 1990, Costa Rica, MF, 9, 0, 0
+-- 3103, 2022, Brasil, MF, 17, 0, 0
+-- 3104, 1934, Suiza, MF, None, 0, 2
+-- 3104, 1938, Suiza, MF, None, 0, 0
+-- 3105, 1982, Honduras, FW, 19, 0, 0
+-- 3106, 1998, Francia, FW, 9, 0, 4
+-- 3107, 1978, Hungría, GK, 1, 0, 2
+-- 3108, 1990, Paises Bajos, MF, 10, 4, 4
+-- 3109, 1954, Hungría, GK, 22, 0, 0
+-- 3110, 2022, Polonia, DF, 25, 0, 0
+-- 3111, 2018, Alemania, MF, 21, 0, 0
+-- 3111, 2022, Alemania, MF, 21, 0, 3
+-- 3112, 1990, Escocia, GK, 22, 0, 0
+-- 3113, 2018, Islandia, MF, 17, 3, 3
+-- 3114, 2022, Gales, DF, 2, 0, 0
+-- 3115, 2022, Alemania, DF, 20, 0, 0
+-- 3116, 1958, URSS, FW, 19, 0, 0
+-- 3116, 1962, URSS, FW, 13, 0, 0
+-- 3117, 2006, Ucrania, MF, 9, 0, 5
+-- 3118, 2006, Ucrania, MF, 14, 0, 3
+-- 3119, 1958, Suecia, MF, 14, 1, 6
+-- 3120, 1934, Suecia, FW, None, 0, 2
+-- 3121, 1974, Polonia, DF, 5, 0, 1
+-- 3122, 1950, Bolivia, FW, None, 0, 1
+-- 3123, 1982, Honduras, DF, 2, 0, 2
+-- 3124, 1958, México, FW, 10, 0, 1
+-- 3125, 1950, Bolivia, GK, None, 0, 1
+-- 3126, 2018, México, MF, 5, 0, 0
+-- 3126, 2022, México, MF, 14, 0, 0
+-- 3127, 2014, Chile, MF, 16, 0, 1
+-- 3128, 2010, Argentina, MF, 17, 0, 2
+-- 3129, 2018, Costa Rica, DF, 22, 0, 0
+-- 3130, 1950, México, DF, None, 0, 2
+-- 3131, 1982, Perú, DF, 14, 0, 0
+-- 3132, 1958, México, DF, 14, 0, 2
+-- 3133, 1986, Uruguay, DF, 2, 0, 4
+-- 3133, 1990, Uruguay, DF, 2, 0, 4
+-- 3134, 1994, México, DF, 21, 0, 1
+-- 3135, 2014, Colombia, FW, 9, 0, 4
+-- 3136, 2010, Estados Unidos, GK, 18, 0, 0
+-- 3136, 2014, Estados Unidos, GK, 12, 0, 0
+-- 3137, 1978, España, MF, 12, 0, 0
+-- 3138, 2018, Costa Rica, MF, 20, 0, 3
+-- 3139, 1970, México, DF, 14, 0, 4
+-- 3140, 2018, Argentina, GK, 1, 0, 0
+-- 3141, 2022, Croacia, DF, 20, 0, 7
+-- 3142, 2006, Ghana, FW, 3, 0, 3
+-- 3142, 2010, Ghana, FW, 3, 0, 5
+-- 3142, 2014, Ghana, FW, 3, 3, 3
+-- 3143, 2006, Suiza, FW, 10, 0, 1
+-- 3144, 1950, Suiza, DF, None, 0, 0
+-- 3145, 2014, Corea del Sur, MF, 8, 0, 0
+-- 3146, 1994, Corea del Sur, MF, 16, 0, 0
+-- 3146, 1998, Corea del Sur, MF, 17, 0, 2
+-- 3147, 1966, Corea del Norte, MF, 14, 0, 2
+-- 3148, 1974, Paises Bajos, MF, 2, 0, 7
+-- 3148, 1978, Paises Bajos, MF, 9, 0, 6
+-- 3149, 1998, Austria, FW, 7, 0, 1
+-- 3150, 1986, Canadá, GK, 21, 0, 0
+-- 3151, 1938, Polonia, FW, None, 0, 0
+-- 3152, 1934, Hungría, GK, None, 0, 0
+-- 3152, 1938, Hungría, GK, None, 0, 1
+-- 3153, 1998, Marruecos, FW, 9, 0, 3
+-- 3154, 2018, Túnez, DF, 5, 0, 1
+-- 3155, 2014, Irán, MF, 11, 0, 0
+-- 3156, 1958, Escocia, DF, 6, 0, 0
+-- 3157, 1974, Yugoslavia, DF, 3, 0, 6
+-- 3158, 1990, Yugoslavia, DF, 5, 0, 5
+-- 3159, 2014, Bosnia-Herzegovina, MF, 21, 0, 1
+-- 3160, 1990, Alemania, MF, 8, 0, 5
+-- 3160, 1994, Alemania, MF, 8, 0, 5
+-- 3160, 1998, Alemania, MF, 10, 0, 4
+-- 3161, 1970, Checoslovaquia, DF, 4, 0, 2
+-- 3162, 1974, Suecia, GK, 17, 0, 0
+-- 3162, 1978, Suecia, GK, 12, 0, 0
+-- 3163, 2006, Túnez, DF, 3, 0, 3
+-- 3164, 2014, Irán, GK, 12, 0, 3
+-- 3165, 2014, Irán, MF, 8, 0, 0
+-- 3166, 1990, Rumania, MF, 10, 0, 3
+-- 3166, 1994, Rumania, MF, 10, 5, 5
+-- 3166, 1998, Rumania, MF, 10, 4, 4
+-- 3167, 1982, Austria, FW, 13, 0, 1
+-- 3168, 2006, Estados Unidos, GK, 19, 0, 0
+-- 3168, 2010, Estados Unidos, GK, 23, 0, 0
+-- 3169, 1938, Alemania, FW, None, 0, 2
+-- 3170, 2014, Bosnia-Herzegovina, MF, 20, 0, 2
+-- 3171, 2014, Irán, MF, 3, 0, 3
+-- 3171, 2018, Irán, DF, 3, 2, 3
+-- 3171, 2022, Irán, DF, 3, 3, 3
+-- 3172, 1986, Hungría, FW, 21, 0, 0
+-- 3173, 2002, Polonia, DF, 6, 0, 2
+-- 3174, 1958, Suecia, MF, 17, 0, 0
+-- 3175, 2018, Marruecos, DF, 2, 0, 3
+-- 3175, 2022, Marruecos, DF, 2, 0, 7
+-- 3176, 1994, Noruega, DF, 18, 0, 2
+-- 3177, 1978, Hungría, MF, 16, 0, 0
+-- 3178, 1982, Yugoslavia, FW, 19, 0, 0
+-- 3179, 1934, Egipto, MF, None, 0, 0
+-- 3180, 1998, Jamaica, FW, 22, 0, 3
+-- 3181, 1954, Austria, DF, 20, 0, 0
+-- 3181, 1958, Austria, DF, 2, 0, 1
+-- 3182, 2018, Islandia, GK, 1, 0, 3
+-- 3183, 1994, Noruega, DF, 2, 0, 1
+-- 3183, 1998, Noruega, DF, 2, 0, 0
+-- 3184, 1934, Paises Bajos, GK, None, 0, 0
+-- 3185, 1962, Alemania Occidental, MF, 8, 0, 3
+-- 3185, 1966, Alemania Occidental, MF, 8, 0, 5
+-- 3185, 1970, Alemania Occidental, MF, 8, 0, 1
+-- 3186, 2018, Islandia, MF, 20, 0, 2
+-- 3187, 2010, Argelia, DF, 5, 0, 3
+-- 3187, 2014, Argelia, DF, 5, 2, 4
+-- 3188, 2014, Australia, MF, 10, 0, 0
+-- 3189, 1998, Alemania, MF, 16, 0, 3
+-- 3189, 2002, Alemania, MF, 8, 0, 6
+-- 3190, 1974, Alemania Oriental, MF, 17, 0, 1
+-- 3191, 2022, Marruecos, FW, 9, 0, 0
+-- 3192, 2018, Egipto, MF, 8, 0, 3
+-- 3193, 1998, Irán, MF, 18, 0, 0
+-- 3194, 1970, Israel, GK, 21, 0, 0
+-- 3195, 2010, Camerún, GK, 16, 0, 3
+-- 3196, 1958, Irlanda del Norte, DF, 21, 0, 0
+-- 3197, 1982, Irlanda del Norte, FW, 11, 0, 5
+-- 3197, 1986, Irlanda del Norte, FW, 19, 0, 1
+-- 3198, 1954, Escocia, FW, 9, 0, 0
+-- 3199, 1958, Austria, FW, 14, 0, 0
+-- 3200, 1986, Iraq, GK, 1, 2, 2
+-- 3201, 1958, Suecia, FW, 7, 0, 5
+-- 3202, 2010, Eslovaquia, MF, 17, 4, 4
+-- 3203, 1966, Corea del Norte, MF, 11, 0, 4
+-- 3204, 1954, Corea del Sur, DF, 14, 0, 1
+-- 3205, 1954, Corea del Sur, GK, 12, 0, 0
+-- 3206, 2014, Corea del Sur, MF, 14, 0, 3
+-- 3207, 1954, Austria, DF, 2, 0, 5
+-- 3207, 1958, Austria, DF, 5, 3, 3
+-- 3208, 2010, Eslovenia, GK, 12, 0, 0
+-- 3209, 2010, Eslovenia, GK, 1, 0, 3
+-- 3210, 2006, Alemania, FW, 9, 0, 0
+-- 3211, 1982, Alemania Occidental, DF, 12, 0, 0
+-- 3212, 1986, Hungría, MF, 15, 0, 1
+-- 3213, 1982, Escocia, DF, 5, 0, 3
+-- 3214, 1938, Noruega, MF, None, 0, 0
+-- 3215, 1938, Suecia, FW, None, 0, 0
+-- 3216, 2006, Suecia, DF, 13, 0, 0
+-- 3217, 1994, Grecia, MF, 17, 0, 2
+-- 3218, 2002, China, FW, 10, 0, 3
+-- 3219, 1954, Austria, DF, 3, 0, 4
+-- 3219, 1958, Austria, DF, 3, 0, 2
+-- 3220, 1978, Austria, MF, 13, 0, 0
+-- 3221, 2018, Japón, MF, 8, 0, 3
+-- 3222, 1958, Suecia, GK, 16, 0, 0
+-- 3223, 1974, Australia, MF, 17, 0, 0
+-- 3224, 2002, Inglaterra, MF, 18, 0, 2
+-- 3224, 2006, Inglaterra, MF, 16, 0, 3
+-- 3225, 1934, Alemania, DF, None, 0, 3
+-- 3226, 2018, Marruecos, MF, 18, 0, 1
+-- 3227, 1934, Estados Unidos, DF, None, 0, 0
+-- 3228, 1990, Estados Unidos, MF, 6, 0, 3
+-- 3228, 1994, Estados Unidos, MF, 6, 0, 3
+-- 3229, 1986, Argelia, FW, 13, 0, 1
+-- 3230, 1978, Escocia, MF, 21, 0, 0
+-- 3231, 2022, Gales, FW, 19, 0, 0
+-- 3232, 2010, Inglaterra, GK, 23, 0, 0
+-- 3232, 2014, Inglaterra, GK, 1, 0, 2
+-- 3233, 2002, Irlanda, DF, 3, 0, 4
+-- 3234, 1978, Escocia, MF, 10, 0, 3
+-- 3234, 1982, Escocia, MF, 16, 0, 1
+-- 3235, 2002, Arabia Saudita, DF, 5, 0, 0
+-- 3236, 1938, Indias Orientales Holand., GK, None, 0, 0
+-- 3237, 2010, Nigeria, MF, 15, 0, 2
+-- 3238, 1974, Escocia, GK, 1, 0, 3
+-- 3239, 2010, Japón, MF, 17, 4, 4
+-- 3239, 2014, Japón, MF, 17, 3, 3
+-- 3239, 2018, Japón, MF, 17, 3, 3
+-- 3240, 1990, Checoslovaquia, MF, 4, 5, 5
+-- 3241, 1986, Iraq, DF, 15, 0, 3
+-- 3242, 2006, Irán, FW, 9, 0, 3
+-- 3243, 1978, Túnez, FW, 19, 0, 0
+-- 3244, 2022, Catar, MF, 3, 0, 3
+-- 3245, 1990, Egipto, FW, 9, 0, 3
+-- 3246, 1990, Egipto, DF, 2, 0, 3
+-- 3247, 2022, Catar, GK, 21, 0, 0
+-- 3248, 1990, Emiratos Arabes, MF, 13, 0, 0
+-- 3249, 1998, Paises Bajos, FW, 21, 0, 1
+-- 3250, 2018, Túnez, GK, 22, 0, 1
+-- 3250, 2022, Túnez, GK, 26, 0, 0
+-- 3251, 1934, Austria, FW, None, 0, 0
+-- 3252, 1986, Inglaterra, FW, 9, 0, 2
+-- 3253, 2022, Catar, MF, 6, 0, 2
+-- 3254, 1978, Austria, MF, 6, 0, 0
+-- 3254, 1982, Austria, MF, 6, 0, 4
+-- 3255, 1998, Japón, DF, 13, 0, 0
+-- 3255, 2002, Japón, DF, 6, 0, 0
+-- 3256, 1954, Austria, FW, 22, 0, 0
+-- 3257, 1966, Francia, FW, 14, 0, 3
+-- 3258, 2022, Alemania, FW, 7, 0, 1
+-- 3259, 2002, Turquía, MF, 14, 0, 0
+-- 3260, 2018, Arabia Saudita, DF, 23, 0, 1
+-- 3261, 2018, Arabia Saudita, DF, 5, 0, 1
+-- 3262, 2018, Arabia Saudita, DF, 3, 3, 3
+-- 3263, 1974, Escocia, MF, 10, 0, 3
+-- 3264, 1954, Inglaterra, FW, 21, 0, 0
+-- 3264, 1958, Inglaterra, FW, 10, 0, 4
+-- 3264, 1962, Inglaterra, FW, 10, 4, 4
+-- 3265, 2014, Bélgica, MF, 10, 0, 4
+-- 3265, 2018, Bélgica, FW, 10, 6, 6
+-- 3265, 2022, Bélgica, FW, 10, 2, 2
+-- 3266, 2018, Bélgica, MF, 16, 0, 1
+-- 3266, 2022, Bélgica, MF, 16, 0, 1
+-- 3267, 1970, Marruecos, GK, 12, 0, 1
+-- 3268, 1982, Irlanda del Norte, FW, 19, 0, 0
+-- 3269, 2018, Alemania, DF, 3, 0, 2
+-- 3270, 1994, Suecia, GK, 22, 0, 0
+-- 3270, 2002, Suecia, GK, 1, 0, 4
+-- 3271, 2022, Gales, GK, 1, 0, 2
+-- 3272, 2018, Egipto, DF, 6, 0, 3
+-- 3273, 1998, Noruega, FW, 14, 0, 0
+-- 3274, 1934, Alemania, FW, None, 0, 1
+-- 3275, 1998, Alemania, DF, 3, 0, 5
+-- 3276, 1998, Dinamarca, DF, 5, 0, 3
+-- 3276, 2002, Dinamarca, DF, 5, 2, 2
+-- 3277, 2006, República Checa, FW, 18, 0, 0
+-- 3278, 2006, Argentina, DF, 6, 0, 4
+-- 3278, 2010, Argentina, DF, 6, 0, 4
+-- 3279, 1938, Francia, MF, None, 0, 2
+-- 3280, 2006, Paises Bajos, DF, 14, 0, 2
+-- 3280, 2010, Paises Bajos, DF, 3, 0, 7
+-- 3281, 1978, Irán, GK, 1, 0, 3
+-- 3282, 1998, Estados Unidos, MF, 2, 0, 2
+-- 3282, 2002, Estados Unidos, DF, 2, 0, 4
+-- 3283, 2018, Suecia, DF, 14, 0, 0
+-- 3284, 1966, Alemania Occidental, FW, 10, 0, 6
+-- 3284, 1970, Alemania Occidental, FW, 10, 0, 2
+-- 3285, 2002, España, MF, 4, 0, 3
+-- 3286, 1930, Bélgica, MF, None, 0, 2
+-- 3286, 1934, Bélgica, MF, None, 0, 0
+-- 3287, 1970, Suecia, GK, 1, 0, 1
+-- 3287, 1974, Suecia, GK, 1, 0, 6
+-- 3287, 1978, Suecia, GK, 1, 0, 3
+-- 3288, 1994, Alemania, DF, 5, 0, 2
+-- 3288, 1998, Alemania, DF, 5, 0, 2
+-- 3289, 1934, Egipto, MF, None, 0, 1
+-- 3290, 1998, Dinamarca, DF, 6, 0, 5
+-- 3290, 2002, Dinamarca, DF, 6, 0, 4
+-- 3291, 1954, Checoslovaquia, FW, 8, 0, 2
+-- 3292, 1990, Estados Unidos, MF, 19, 0, 0
+-- 3293, 1954, Escocia, FW, 16, 0, 0
+-- 3294, 2014, Inglaterra, MF, 14, 0, 2
+-- 3294, 2018, Inglaterra, MF, 8, 0, 5
+-- 3294, 2022, Inglaterra, MF, 8, 0, 3
+-- 3295, 1998, Escocia, DF, 5, 3, 3
+-- 3296, 1938, Noruega, MF, None, 0, 1
+-- 3297, 1998, Dinamarca, DF, 20, 0, 0
+-- 3297, 2002, Dinamarca, DF, 3, 2, 4
+-- 3298, 2014, Brasil, DF, 15, 0, 0
+-- 3299, 1938, Bélgica, MF, None, 0, 0
+-- 3300, 1998, Francia, FW, 12, 0, 3
+-- 3300, 2002, Francia, FW, 12, 0, 2
+-- 3300, 2006, Francia, FW, 12, 0, 7
+-- 3300, 2010, Francia, FW, 12, 0, 0
+-- 3301, 1998, Austria, MF, 20, 0, 0
+-- 3302, 1982, Nueva Zelanda, DF, 3, 0, 2
+-- 3303, 1966, Francia, MF, 15, 0, 2
+-- 3304, 1966, Francia, MF, 16, 0, 2
+-- 3305, 1938, Brasil, FW, None, 0, 2
+-- 3306, 1986, México, GK, 20, 0, 0
+-- 3307, 1974, Argentina, DF, 10, 0, 6
+-- 3308, 1934, Bélgica, FW, None, 0, 1
+-- 3309, 1986, Alemania Occidental, DF, 5, 0, 1
+-- 3310, 1958, Alemania Occidental, GK, 1, 0, 5
+-- 3311, 1962, Alemania Occidental, FW, 18, 0, 0
+-- 3312, 1990, Alemania Occidental, MF, 21, 0, 0
+-- 3313, 1930, Brasil, MF, None, 0, 2
+-- 3314, 1986, México, FW, 11, 0, 0
+-- 3314, 1994, México, FW, 7, 0, 2
+-- 3315, 2014, Uruguay, FW, 8, 0, 0
+-- 3316, 1958, México, MF, 7, 0, 1
+-- 3316, 1962, México, MF, 18, 0, 1
+-- 3317, 2022, Costa Rica, MF, 25, 0, 0
+-- 3318, 2006, Costa Rica, MF, 16, 0, 0
+-- 3319, 1982, El Salvador, FW, 9, 0, 1
+-- 3320, 1950, México, MF, None, 0, 0
+-- 3321, 1966, México, MF, 15, 0, 3
+-- 3321, 1970, México, DF, 6, 0, 1
+-- 3322, 1962, México, FW, 9, 0, 3
+-- 3323, 2010, México, FW, 14, 0, 1
+-- 3323, 2014, México, FW, 14, 0, 0
+-- 3323, 2018, México, FW, 14, 0, 4
+-- 3324, 1986, México, FW, 19, 0, 0
+-- 3325, 1982, El Salvador, GK, 19, 0, 0
+-- 3326, 2018, Francia, DF, 21, 0, 7
+-- 3326, 2022, Francia, DF, 21, 0, 1
+-- 3327, 1998, México, FW, 15, 0, 4
+-- 3327, 2002, México, FW, 15, 0, 0
+-- 3328, 1982, Argentina, MF, 12, 0, 0
+-- 3329, 1990, Colombia, FW, 22, 0, 0
+-- 3330, 2022, Francia, DF, 22, 0, 5
+-- 3331, 2014, Brasil, MF, 18, 0, 0
+-- 3332, 2002, Bélgica, GK, 23, 0, 0
+-- 3333, 1994, Suiza, DF, 4, 0, 4
+-- 3334, 2014, México, MF, 6, 0, 4
+-- 3334, 2018, México, DF, 16, 0, 4
+-- 3334, 2022, México, MF, 16, 0, 2
+-- 3335, 2014, Chile, GK, 23, 0, 0
+-- 3336, 1990, Uruguay, DF, 4, 0, 3
+-- 3337, 1990, Colombia, DF, 4, 0, 4
+-- 3337, 1994, Colombia, DF, 4, 0, 3
+-- 3338, 1954, Alemania Occidental, FW, 17, 0, 1
+-- 3339, 1954, Checoslovaquia, MF, 14, 0, 2
+-- 3339, 1958, Checoslovaquia, MF, 15, 0, 1
+-- 3340, 1990, Austria, MF, 20, 0, 3
+-- 3340, 1998, Austria, MF, 10, 0, 1
+-- 3341, 1974, Alemania Occidental, FW, 18, 0, 2
+-- 3342, 2002, Inglaterra, FW, 11, 0, 5
+-- 3342, 2010, Inglaterra, FW, 21, 0, 2
+-- 3343, 1998, Paises Bajos, GK, 22, 0, 0
+-- 3344, 1958, Escocia, DF, 5, 0, 2
+-- 3345, 1958, Gales, FW, 8, 0, 3
+-- 3346, 2014, Irán, MF, 2, 0, 1
+-- 3347, 1970, Bélgica, DF, 2, 0, 3
+-- 3348, 1974, Alemania Occidental, FW, 11, 0, 2
+-- 3349, 1978, Austria, MF, 7, 0, 6
+-- 3350, 1986, Paraguay, FW, 20, 0, 0
+-- 3351, 1954, Hungría, FW, 9, 0, 4
+-- 3351, 1958, Hungría, FW, 9, 2, 2
+-- 3352, 1998, Austria, DF, 12, 0, 0
+-- 3353, 1990, Paises Bajos, GK, 16, 0, 0
+-- 3354, 1982, Alemania Occidental, DF, 19, 0, 0
+-- 3355, 1990, España, DF, 17, 0, 0
+-- 3355, 1994, España, DF, 6, 0, 3
+-- 3355, 1998, España, DF, 6, 0, 3
+-- 3355, 2002, España, DF, 6, 4, 4
+-- 3356, 2018, Japón, GK, 12, 0, 0
+-- 3357, 2010, Argentina, FW, 9, 0, 4
+-- 3357, 2014, Argentina, FW, 9, 0, 6
+-- 3357, 2018, Argentina, FW, 9, 0, 1
+-- 3358, 1990, Colombia, GK, 1, 0, 4
+-- 3359, 1934, España, MF, None, 0, 0
+-- 3360, 1966, Portugal, DF, 9, 0, 6
+-- 3361, 2006, Alemania, GK, 23, 0, 0
+-- 3362, 2018, Suecia, MF, 15, 0, 0
+-- 3363, 1982, Nueva Zelanda, DF, 15, 0, 1
+-- 3364, 2022, Ecuador, DF, 3, 0, 3
+-- 3365, 1982, Austria, MF, 10, 0, 4
+-- 3366, 1998, Japón, MF, 22, 0, 0
+-- 3367, 2006, Trinidad y Tobago, GK, 1, 0, 2
+-- 3368, 1962, Inglaterra, FW, 9, 0, 2
+-- 3369, 2006, Alemania, MF, 15, 0, 0
+-- 3370, 1934, Estados Unidos, GK, None, 0, 1
+-- 3371, 1954, Checoslovaquia, FW, 7, 0, 2
+-- 3372, 1954, Checoslovaquia, MF, 13, 0, 1
+-- 3373, 1986, Marruecos, GK, 12, 0, 0
+-- 3374, 1958, Francia, MF, 9, 0, 0
+-- 3375, 1934, Suiza, FW, None, 0, 0
+-- 3376, 1982, Inglaterra, MF, 9, 0, 1
+-- 3376, 1986, Inglaterra, MF, 4, 0, 5
+-- 3377, 1966, Chile, MF, 10, 0, 0
+-- 3378, 1986, Inglaterra, MF, 18, 0, 3
+-- 3378, 1990, Inglaterra, MF, 18, 0, 0
+-- 3379, 1958, Inglaterra, GK, 13, 0, 0
+-- 3379, 1962, Inglaterra, GK, 12, 0, 0
+-- 3380, 1974, Alemania Occidental, FW, 17, 0, 4
+-- 3380, 1978, Alemania Occidental, FW, 17, 0, 3
+-- 3381, 1986, Alemania Occidental, FW, 20, 0, 0
+-- 3382, 1974, Alemania Occidental, MF, 14, 0, 6
+-- 3383, 1966, Alemania Occidental, DF, 2, 0, 5
+-- 3383, 1970, Alemania Occidental, DF, 2, 0, 4
+-- 3383, 1974, Alemania Occidental, DF, 6, 0, 0
+-- 3384, 1974, Alemania Oriental, FW, 20, 0, 5
+-- 3385, 1958, Alemania Occidental, DF, 18, 0, 0
+-- 3386, 2022, Alemania, MF, 18, 0, 0
+-- 3387, 1934, Austria, MF, None, 0, 0
+-- 3388, 1998, Noruega, DF, 19, 0, 0
+-- 3389, 1938, Paises Bajos, MF, None, 0, 0
+-- 3390, 1998, Dinamarca, DF, 4, 0, 5
+-- 3391, 1986, Dinamarca, GK, 22, 0, 2
+-- 3392, 1954, Uruguay, FW, 8, 0, 2
+-- 3393, 1934, Alemania, FW, None, 0, 2
+-- 3394, 2022, Canadá, MF, 10, 0, 2
+-- 3395, 2022, Dinamarca, MF, 23, 0, 3
+-- 3396, 2010, Estados Unidos, MF, 11, 0, 0
+-- 3397, 2014, Grecia, DF, 20, 0, 4
+-- 3398, 2014, Australia, MF, 16, 0, 0
+-- 3399, 2002, Irlanda, MF, 8, 0, 4
+-- 3400, 2010, Australia, FW, 14, 0, 1
+-- 3401, 1938, Noruega, MF, None, 0, 1
+-- 3402, 1938, Noruega, DF, None, 0, 1
+-- 3403, 2010, Eslovaquia, FW, 13, 0, 0
+-- 3404, 1974, Escocia, DF, 5, 0, 3
+-- 3405, 2010, Japón, MF, 18, 0, 4
+-- 3405, 2014, Japón, FW, 4, 0, 3
+-- 3405, 2018, Japón, MF, 4, 0, 0
+-- 3406, 2018, Corea del Sur, DF, 14, 0, 1
+-- 3406, 2022, Corea del Sur, DF, 14, 0, 0
+-- 3407, 1954, Corea del Sur, GK, 1, 0, 2
+-- 3408, 2014, Corea del Sur, DF, 20, 0, 3
+-- 3409, 1990, Corea del Sur, DF, 20, 0, 3
+-- 3409, 1994, Corea del Sur, DF, 20, 0, 3
+-- 3409, 1998, Corea del Sur, DF, 20, 0, 3
+-- 3409, 2002, Corea del Sur, DF, 20, 7, 7
+-- 3410, 2010, Corea del Norte, FW, 10, 3, 3
+-- 3411, 2022, Camerún, MF, 18, 0, 2
+-- 3412, 1954, Inglaterra, FW, 22, 0, 0
+-- 3413, 1958, Gales, DF, 3, 0, 5
+-- 3414, 1958, Inglaterra, GK, 12, 0, 0
+-- 3415, 1938, Checoslovaquia, FW, None, 0, 1
+-- 3416, 1958, Austria, FW, 7, 0, 2
+-- 3417, 1966, Alemania Occidental, FW, 13, 0, 0
+-- 3418, 1982, Argelia, DF, 17, 0, 0
+-- 3419, 2022, Portugal, FW, 21, 0, 1
+-- 3420, 1990, Austria, MF, 11, 0, 1
+-- 3421, 1950, Yugoslavia, DF, None, 1, 3
+-- 3421, 1954, Yugoslavia, DF, 5, 0, 3
+-- 3422, 1970, Checoslovaquia, DF, 5, 2, 2
+-- 3423, 2022, Estados Unidos, GK, 12, 0, 0
+-- 3424, 1934, Austria, FW, None, 2, 2
+-- 3425, 1966, Suiza, FW, 10, 0, 3
+-- 3426, 2022, Irán, GK, 24, 0, 1
+-- 3427, 2014, Irán, DF, 4, 0, 3
+-- 3428, 2018, Irán, DF, 19, 0, 2
+-- 3428, 2022, Irán, DF, 19, 0, 3
+-- 3429, 1994, Suiza, DF, 2, 0, 4
+-- 3430, 1994, Bulgaria, DF, 5, 0, 7
+-- 3431, 1986, Marruecos, GK, 22, 0, 0
+-- 3432, 1954, Bélgica, FW, 8, 0, 1
+-- 3433, 1990, Irlanda, MF, 8, 0, 5
+-- 3433, 1994, Irlanda, MF, 8, 0, 4
+-- 3434, 1974, Argentina, FW, 11, 0, 4
+-- 3434, 1978, Argentina, MF, 9, 0, 3
+-- 3435, 1978, Paises Bajos, DF, 15, 0, 0
+-- 3436, 1958, Checoslovaquia, FW, 13, 0, 3
+-- 3437, 2006, Estados Unidos, GK, 1, 0, 0
+-- 3437, 2010, Estados Unidos, GK, 1, 0, 4
+-- 3437, 2014, Estados Unidos, GK, 1, 0, 4
+-- 3438, 1958, Inglaterra, DF, 2, 0, 4
+-- 3438, 1962, Inglaterra, DF, 21, 0, 0
+-- 3439, 2014, Alemania, DF, 4, 0, 7
+-- 3440, 1930, Bélgica, DF, None, 0, 2
+-- 3441, 1990, Colombia, DF, 13, 0, 0
+-- 3442, 1970, Checoslovaquia, MF, 16, 0, 1
+-- 3443, 1998, Bulgaria, MF, 14, 0, 1
+-- 3444, 1970, Checoslovaquia, DF, 14, 0, 1
+-- 3445, 1930, Yugoslavia, FW, None, 0, 0
+-- 3446, 1982, Yugoslavia, DF, 15, 0, 1
+-- 3447, 1982, Alemania Occidental, FW, 9, 0, 3
+-- 3448, 1982, Checoslovaquia, GK, 21, 0, 1
+-- 3449, 2022, Australia, MF, 10, 0, 0
+-- 3450, 1934, Suiza, GK, None, 0, 0
+-- 3450, 1938, Suiza, GK, None, 0, 3
+-- 3451, 1954, Suiza, FW, 18, 0, 3
+-- 3452, 1982, El Salvador, MF, 10, 3, 3
+-- 3453, 1934, Suiza, MF, None, 0, 2
+-- 3454, 1950, Suiza, GK, None, 0, 1
+-- 3455, 2010, Suiza, MF, 6, 0, 3
+-- 3456, 1970, Inglaterra, MF, 16, 0, 0
+-- 3457, 1950, Inglaterra, MF, None, 0, 3
+-- 3458, 1986, Irlanda del Norte, GK, 13, 0, 0
+-- 3459, 1990, Irlanda, DF, 14, 0, 0
+-- 3460, 2002, Portugal, MF, 12, 0, 0
+-- 3460, 2006, Portugal, MF, 10, 0, 0
+-- 3461, 1986, Corea del Sur, MF, 17, 0, 3
+-- 3462, 1938, Indias Orientales Holand., DF, None, 0, 1
+-- 3463, 2014, Brasil, FW, 7, 0, 5
+-- 3464, 1954, Brasil, FW, 18, 0, 1
+-- 3465, 2014, Alemania, DF, 5, 0, 6
+-- 3465, 2018, Alemania, DF, 5, 0, 2
+-- 3466, 1962, Inglaterra, FW, 18, 0, 0
+-- 3466, 1966, Inglaterra, FW, 21, 0, 6
+-- 3467, 2010, Paises Bajos, FW, 21, 0, 0
+-- 3467, 2014, Paises Bajos, FW, 19, 0, 0
+-- 3468, 1966, Inglaterra, DF, 18, 0, 0
+-- 3468, 1970, Inglaterra, MF, 18, 0, 0
+-- 3469, 1966, Inglaterra, FW, 10, 0, 3
+-- 3469, 1970, Inglaterra, FW, 10, 0, 3
+-- 3470, 2002, Ecuador, DF, 3, 2, 3
+-- 3470, 2006, Ecuador, DF, 3, 3, 3
+-- 3471, 2018, Perú, MF, 7, 0, 0
+-- 3472, 2002, Argentina, MF, 15, 0, 0
+-- 3473, 1990, Emiratos Arabes, FW, 12, 0, 3
+-- 3474, 1986, Iraq, MF, 6, 0, 3
+-- 3475, 2022, Canadá, MF, 13, 2, 2
+-- 3476, 1974, Escocia, MF, 18, 0, 0
+-- 3477, 2006, Alemania, DF, 4, 0, 1
+-- 3478, 1954, Bélgica, MF, 4, 0, 2
+-- 3479, 1990, Corea del Sur, MF, 9, 0, 2
+-- 3480, 2018, Corea del Sur, FW, 11, 0, 2
+-- 3480, 2022, Corea del Sur, MF, 11, 0, 1
+-- 3481, 2022, Corea del Sur, MF, 6, 0, 4
+-- 3482, 2014, Corea del Sur, DF, 6, 0, 0
+-- 3483, 1990, Corea del Sur, FW, 18, 0, 1
+-- 3483, 1994, Corea del Sur, FW, 18, 0, 3
+-- 3483, 1998, Corea del Sur, FW, 18, 0, 0
+-- 3483, 2002, Corea del Sur, FW, 18, 0, 3
+-- 3484, 2022, Corea del Sur, FW, 16, 0, 1
+-- 3485, 1990, Checoslovaquia, MF, 16, 0, 0
+-- 3486, 1990, Suecia, DF, 3, 2, 2
+-- 3487, 2002, Corea del Sur, DF, 2, 0, 0
+-- 3488, 2006, Italia, FW, 15, 0, 0
+-- 3488, 2010, Italia, FW, 9, 0, 3
+-- 3489, 2006, Ucrania, DF, 3, 0, 0
+-- 3490, 1950, Chile, FW, None, 0, 1
+-- 3491, 2014, Colombia, MF, 14, 0, 3
+-- 3492, 2002, Ecuador, GK, 12, 0, 0
+-- 3493, 2014, Ecuador, MF, 5, 0, 0
+-- 3494, 2022, Ecuador, MF, 10, 0, 1
+-- 3495, 2014, Bosnia-Herzegovina, FW, 9, 0, 1
+-- 3496, 1986, Iraq, DF, 2, 0, 1
+-- 3497, 1990, Emiratos Arabes, DF, 15, 0, 3
+-- 3498, 2002, Suecia, FW, 21, 0, 0
+-- 3498, 2006, Suecia, FW, 10, 0, 3
+-- 3499, 2014, Bosnia-Herzegovina, MF, 17, 0, 0
+-- 3500, 2002, Japón, MF, 22, 0, 1
+-- 3501, 2010, Nigeria, FW, 10, 0, 0
+-- 3502, 2018, Nigeria, DF, 2, 0, 3
+-- 3503, 2010, Camerún, FW, 17, 0, 0
+-- 3504, 2022, Túnez, DF, 2, 0, 0
+-- 3505, 2018, Nigeria, FW, 9, 0, 1
+-- 3506, 2014, Rusia, DF, 4, 0, 3
+-- 3506, 2018, Rusia, DF, 4, 0, 5
+-- 3507, 1950, España, FW, None, 0, 5
+-- 3508, 1990, Colombia, FW, 16, 0, 2
+-- 3509, 1998, Japón, DF, 4, 3, 3
+-- 3510, 1962, Hungría, DF, 13, 0, 0
+-- 3510, 1966, Hungría, DF, 18, 0, 0
+-- 3511, 2018, Nigeria, FW, 14, 0, 2
+-- 3512, 2002, Nigeria, FW, 7, 0, 0
+-- 3513, 1994, Nigeria, FW, 17, 0, 0
+-- 3513, 1998, Nigeria, FW, 20, 0, 3
+-- 3514, 1938, Noruega, FW, None, 0, 0
+-- 3515, 2010, Eslovenia, DF, 6, 0, 0
+-- 3516, 2022, Serbia, MF, 24, 0, 0
+-- 3517, 2006, Serbia y Montenegro, MF, 22, 0, 1
+-- 3518, 1998, Rumania, FW, 11, 0, 3
+-- 3519, 1962, Bulgaria, FW, 9, 0, 1
+-- 3520, 1998, Bulgaria, MF, 11, 0, 2
+-- 3521, 1994, Bulgaria, DF, 15, 0, 0
+-- 3522, 1958, Hungría, GK, 22, 0, 1
+-- 3522, 1962, Hungría, GK, 22, 0, 1
+-- 3523, 1990, Alemania, GK, 1, 0, 7
+-- 3523, 1994, Alemania, GK, 1, 0, 5
+-- 3524, 1974, Zaire, DF, 2, 0, 3
+-- 3525, 1958, URSS, FW, 11, 0, 5
+-- 3526, 1966, Corea del Norte, MF, 6, 0, 4
+-- 3527, 1958, Escocia, FW, 21, 0, 2
+-- 3528, 1982, Alemania Occidental, GK, 22, 0, 0
+-- 3528, 1986, Alemania Occidental, GK, 22, 0, 0
+-- 3529, 2014, Italia, FW, 17, 0, 1
+-- 3530, 1986, Portugal, DF, 20, 0, 3
+-- 3531, 2002, Japón, MF, 5, 0, 4
+-- 3531, 2006, Japón, MF, 17, 0, 1
+-- 3531, 2010, Japón, MF, 20, 0, 0
+-- 3532, 2006, Trinidad y Tobago, GK, 22, 0, 0
+-- 3533, 1998, Inglaterra, MF, 4, 0, 4
+-- 3534, 1954, Brasil, FW, 19, 0, 1
+-- 3535, 1950, Chile, FW, None, 0, 0
+-- 3536, 1958, Argentina, FW, 20, 0, 0
+-- 3537, 2018, Islandia, DF, 5, 0, 1
+-- 3538, 1990, Suecia, MF, 10, 0, 3
+-- 3538, 1994, Suecia, MF, 8, 0, 7
+-- 3539, 2006, España, MF, 13, 0, 1
+-- 3539, 2010, España, MF, 6, 0, 6
+-- 3539, 2014, España, MF, 6, 0, 3
+-- 3539, 2018, España, MF, 6, 0, 3
+-- 3540, 2010, Ghana, DF, 7, 0, 2
+-- 3540, 2014, Ghana, DF, 2, 0, 0
+-- 3541, 2010, Suiza, MF, 8, 2, 3
+-- 3541, 2014, Suiza, MF, 8, 4, 4
+-- 3542, 2014, Japón, DF, 19, 0, 0
+-- 3543, 1986, Iraq, GK, 20, 0, 1
+-- 3544, 1958, Paraguay, FW, 22, 0, 0
+-- 3545, 1958, Paraguay, FW, 19, 0, 0
+-- 3546, 2014, Italia, FW, 22, 0, 0
+-- 3547, 2018, Japón, MF, 14, 0, 3
+-- 3548, 1998, Italia, FW, 19, 0, 0
+-- 3548, 2002, Italia, FW, 9, 0, 1
+-- 3548, 2006, Italia, FW, 18, 0, 0
+-- 3549, 1986, Canadá, MF, 16, 0, 0
+-- 3550, 2014, Rusia, MF, 21, 0, 0
+-- 3551, 1998, Camerún, FW, 18, 0, 2
+-- 3552, 1934, Argentina, FW, None, 0, 1
+-- 3553, 1934, España, MF, None, 0, 2
+-- 3554, 1930, Uruguay, FW, None, 0, 4
+-- 3555, 1966, España, GK, 1, 0, 3
+-- 3556, 1974, Alemania Oriental, MF, 16, 0, 3
+-- 3557, 1994, Nigeria, DF, 3, 0, 1
+-- 3557, 1998, Nigeria, DF, 19, 0, 1
+-- 3558, 1958, Yugoslavia, GK, 20, 0, 0
+-- 3559, 1966, Argentina, GK, 2, 0, 0
+-- 3560, 2018, Australia, MF, 22, 0, 0
+-- 3560, 2022, Australia, MF, 22, 0, 4
+-- 3561, 1994, Irlanda, DF, 2, 0, 2
+-- 3562, 2010, Serbia, GK, 12, 0, 0
+-- 3563, 1938, Noruega, FW, None, 0, 1
+-- 3564, 2002, Suecia, GK, 23, 0, 0
+-- 3564, 2006, Suecia, GK, 1, 0, 3
+-- 3565, 1986, Paraguay, FW, 18, 0, 0
+-- 3566, 2018, España, MF, 22, 0, 4
+-- 3567, 1938, Bélgica, FW, None, 0, 1
+-- 3568, 1978, México, FW, 21, 0, 1
+-- 3569, 1986, Bulgaria, FW, 7, 0, 2
+-- 3570, 2010, Chile, DF, 4, 0, 4
+-- 3570, 2014, Chile, DF, 4, 0, 4
+-- 3571, 1986, Argentina, GK, 15, 0, 0
+-- 3571, 1994, Argentina, GK, 12, 0, 4
+-- 3572, 1974, Paises Bajos, DF, 5, 0, 0
+-- 3573, 1998, Sudáfrica, DF, 21, 0, 3
+-- 3573, 2002, Sudáfrica, DF, 13, 0, 1
+-- 3574, 2006, Ghana, DF, 21, 0, 0
+-- 3575, 2022, Ghana, MF, 7, 0, 0
+-- 3576, 2022, Japón, DF, 4, 0, 3
+-- 3577, 1930, Brasil, DF, None, 0, 2
+-- 3578, 2014, Camerún, GK, 16, 0, 3
+-- 3579, 2022, Japón, DF, 26, 0, 0
+-- 3580, 2022, Japón, MF, 14, 0, 3
+-- 3581, 1998, Japón, MF, 7, 0, 0
+-- 3582, 2002, Italia, DF, 15, 0, 1
+-- 3583, 1994, Rumania, FW, 21, 0, 0
+-- 3584, 1998, España, DF, 14, 0, 1
+-- 3585, 1930, Brasil, MF, None, 0, 0
+-- 3586, 1970, Rumania, DF, 12, 0, 0
+-- 3587, 1958, URSS, FW, 17, 0, 4
+-- 3588, 1998, Bulgaria, FW, 20, 0, 0
+-- 3589, 1962, Bulgaria, GK, 18, 0, 0
+-- 3590, 1994, Bulgaria, DF, 3, 0, 6
+-- 3590, 1998, Bulgaria, DF, 3, 3, 3
+-- 3591, 1958, URSS, FW, 8, 0, 5
+-- 3591, 1962, URSS, FW, 14, 0, 4
+-- 3592, 2010, Serbia, DF, 6, 0, 3
+-- 3592, 2018, Serbia, DF, 6, 0, 2
+-- 3593, 1974, Bulgaria, DF, 19, 0, 3
+-- 3594, 1930, Yugoslavia, DF, None, 3, 3
+-- 3595, 1990, Yugoslavia, GK, 1, 0, 5
+-- 3596, 1962, Yugoslavia, MF, 22, 0, 0
+-- 3597, 2022, Croacia, GK, 23, 0, 0
+-- 3598, 2010, Japón, DF, 13, 0, 0
+-- 3599, 1978, Polonia, FW, 7, 0, 1
+-- 3599, 1982, Polonia, FW, 19, 0, 2
+-- 3600, 2018, Nigeria, FW, 18, 0, 1
+-- 3601, 2010, Honduras, DF, 21, 0, 2
+-- 3601, 2014, Honduras, DF, 7, 0, 2
+-- 3602, 2002, Rusia, MF, 20, 0, 2
+-- 3603, 2018, Colombia, FW, 21, 0, 1
+-- 3604, 2002, Turquía, MF, 13, 0, 0
+-- 3605, 1934, Argentina, FW, None, 0, 0
+-- 3606, 1998, Túnez, DF, 20, 0, 0
+-- 3607, 2022, Marruecos, MF, 26, 0, 0
+-- 3608, 1934, Suiza, MF, None, 0, 2
+-- 3609, 2006, Trinidad y Tobago, GK, 21, 0, 1
+-- 3610, 1998, Escocia, FW, 10, 0, 2
+-- 3611, 2022, Senegal, FW, 7, 0, 0
+-- 3612, 1998, Sudáfrica, DF, 4, 0, 2
+-- 3613, 2010, Dinamarca, DF, 6, 0, 3
+-- 3614, 1938, Suecia, MF, None, 0, 2
+-- 3615, 1934, Suiza, FW, None, 0, 1
+-- 3616, 1934, Suiza, FW, None, 0, 1
+-- 3617, 2014, Inglaterra, DF, 6, 0, 2
+-- 3618, 2014, Irán, FW, 9, 0, 0
+-- 3618, 2018, Irán, FW, 18, 0, 2
+-- 3618, 2022, Irán, MF, 7, 0, 1
+-- 3619, 1978, Irán, FW, 17, 0, 2
+-- 3620, 2002, Túnez, DF, 15, 0, 3
+-- 3620, 2006, Túnez, DF, 15, 0, 3
+-- 3621, 1990, Costa Rica, FW, 16, 0, 0
+-- 3622, 1966, Portugal, MF, 16, 0, 6
+-- 3623, 1986, Portugal, MF, 14, 0, 1
+-- 3624, 1950, Brasil, FW, None, 0, 5
+-- 3625, 1962, Brasil, FW, 18, 0, 0
+-- 3626, 1962, Brasil, DF, 12, 0, 0
+-- 3627, 1966, Brasil, FW, 17, 0, 3
+-- 3627, 1970, Brasil, FW, 7, 0, 6
+-- 3627, 1974, Brasil, FW, 7, 0, 7
+-- 3628, 2022, Croacia, MF, 26, 0, 0
+-- 3629, 1934, Alemania, GK, None, 0, 1
+-- 3629, 1938, Alemania, GK, None, 0, 0
+-- 3630, 1974, Polonia, FW, 15, 0, 0
+-- 3631, 1986, Alemania Occidental, DF, 17, 0, 5
+-- 3632, 2022, Senegal, DF, 14, 0, 3
+-- 3633, 1994, Noruega, FW, 11, 0, 1
+-- 3633, 1998, Noruega, MF, 11, 0, 0
+-- 3634, 2002, Suecia, DF, 15, 0, 4
+-- 3635, 1930, Yugoslavia, GK, None, 0, 3
+-- 3636, 1982, Checoslovaquia, DF, 2, 0, 0
+-- 3637, 2010, Eslovaquia, FW, 14, 0, 0
+-- 3638, 2022, Irán, DF, 25, 0, 0
+-- 3639, 2006, Paises Bajos, DF, 2, 0, 1
+-- 3640, 1982, Polonia, DF, 7, 0, 3
+-- 3641, 2006, Angola, DF, 3, 0, 3
+-- 3642, 2022, Gales, FW, 20, 0, 2
+-- 3643, 2002, Inglaterra, GK, 22, 0, 0
+-- 3643, 2006, Inglaterra, GK, 13, 0, 0
+-- 3643, 2010, Inglaterra, GK, 1, 0, 3
+-- 3644, 1986, Canadá, MF, 15, 0, 3
+-- 3645, 1982, Irlanda del Norte, MF, 18, 0, 0
+-- 3646, 1982, Polonia, DF, 5, 0, 7
+-- 3647, 2002, Alemania, FW, 9, 0, 3
+-- 3648, 1934, Austria, DF, None, 0, 0
+-- 3649, 1982, Checoslovaquia, FW, 18, 0, 3
+-- 3650, 1934, Alemania, DF, None, 0, 2
+-- 3650, 1938, Alemania, DF, None, 0, 2
+-- 3651, 2018, Corea del Sur, DF, 20, 0, 3
+-- 3652, 1998, Corea del Sur, DF, 16, 0, 0
+-- 3653, 1962, Italia, DF, 19, 0, 1
+-- 3653, 1966, Italia, DF, 9, 0, 1
+-- 3654, 2006, República Checa, DF, 6, 0, 3
+-- 3655, 2014, Paises Bajos, DF, 7, 0, 3
+-- 3656, 2006, Alemania, DF, 2, 0, 1
+-- 3656, 2010, Alemania, MF, 2, 0, 1
+-- 3657, 1974, Paises Bajos, MF, 6, 0, 7
+-- 3657, 1978, Paises Bajos, MF, 6, 0, 7
+-- 3658, 2022, Paises Bajos, FW, 18, 0, 1
+-- 3659, 1970, Bélgica, FW, 21, 0, 0
+-- 3660, 1934, Suecia, FW, None, 0, 0
+-- 3661, 2018, Suecia, DF, 18, 0, 1
+-- 3662, 1990, Suecia, MF, 11, 0, 0
+-- 3663, 2014, Bélgica, MF, 20, 0, 1
+-- 3663, 2018, Bélgica, FW, 18, 0, 1
+-- 3664, 1978, Francia, DF, 4, 0, 2
+-- 3664, 1982, Francia, DF, 5, 0, 6
+-- 3665, 2002, Túnez, GK, 22, 0, 0
+-- 3666, 1990, Costa Rica, FW, 11, 0, 4
+-- 3667, 1966, México, FW, 11, 0, 0
+-- 3668, 1990, Costa Rica, DF, 18, 0, 0
+-- 3669, 2010, Chile, DF, 18, 0, 3
+-- 3669, 2014, Chile, DF, 18, 0, 4
+-- 3670, 1978, Austria, MF, 11, 0, 4
+-- 3670, 1982, Austria, MF, 11, 0, 1
+-- 3671, 1950, Paraguay, FW, None, 0, 2
+-- 3672, 1974, Escocia, DF, 2, 0, 3
+-- 3672, 1978, Escocia, DF, 2, 0, 1
+-- 3673, 1970, Marruecos, FW, 14, 0, 2
+-- 3674, 1990, Croacia, DF, 17, 0, 0
+-- 3674, 1998, Croacia, MF, 17, 0, 7
+-- 3674, 2002, Croacia, DF, 17, 2, 3
+-- 3675, 2006, República Checa, MF, 14, 0, 0
+-- 3676, 2022, Suiza, MF, 26, 0, 0
+-- 3677, 1938, Francia, MF, None, 0, 0
+-- 3678, 1986, Iraq, GK, 21, 0, 0
+-- 3679, 1962, México, FW, 19, 0, 2
+-- 3680, 1938, Brasil, DF, None, 0, 1
+-- 3681, 1974, Uruguay, DF, 2, 0, 3
+-- 3682, 1962, México, DF, 15, 0, 2
+-- 3682, 1966, México, DF, 5, 0, 1
+-- 3683, 2022, Túnez, FW, 19, 0, 0
+-- 3684, 2002, Túnez, FW, 5, 0, 3
+-- 3684, 2006, Túnez, FW, 5, 0, 3
+-- 3685, 1974, Haití, DF, 12, 0, 1
+-- 3686, 2022, Túnez, FW, 9, 0, 2
+-- 3687, 1978, Túnez, DF, 20, 0, 3
+-- 3688, 1994, Arabia Saudita, MF, 16, 0, 3
+-- 3689, 1970, Bélgica, DF, 5, 0, 2
+-- 3690, 2010, Australia, MF, 15, 0, 0
+-- 3690, 2014, Australia, MF, 15, 3, 3
+-- 3690, 2018, Australia, MF, 15, 3, 3
+-- 3691, 2018, Polonia, DF, 3, 0, 1
+-- 3691, 2022, Polonia, DF, 3, 0, 0
+-- 3692, 2018, Croacia, DF, 13, 0, 1
+-- 3693, 2014, Brasil, GK, 1, 0, 0
+-- 3694, 1998, Túnez, FW, 9, 0, 0
+-- 3694, 2002, Túnez, FW, 9, 0, 0
+-- 3695, 2014, Croacia, FW, 9, 0, 1
+-- 3696, 2006, Polonia, FW, 21, 0, 2
+-- 3697, 1962, Checoslovaquia, FW, 11, 0, 5
+-- 3698, 2006, Túnez, DF, 18, 0, 1
+-- 3699, 2006, Inglaterra, MF, 17, 0, 0
+-- 3700, 2010, Eslovaquia, FW, 18, 0, 3
+-- 3701, 1982, Irlanda del Norte, GK, 1, 0, 4
+-- 3701, 1986, Irlanda del Norte, GK, 1, 0, 3
+-- 3702, 2002, Dinamarca, MF, 14, 0, 0
+-- 3703, 2010, Dinamarca, MF, 7, 0, 0
+-- 3704, 2022, Dinamarca, MF, 7, 0, 1
+-- 3705, 2002, Dinamarca, DF, 12, 0, 2
+-- 3706, 1990, Corea del Sur, GK, 19, 0, 0
+-- 3707, 2022, Corea del Sur, MF, 25, 0, 1
+-- 3708, 1950, Suecia, FW, None, 0, 4
+-- 3709, 1998, Alemania, MF, 13, 0, 3
+-- 3709, 2002, Alemania, MF, 16, 0, 2
+-- 3710, 1958, Yugoslavia, FW, 22, 0, 0
+-- 3710, 1962, Yugoslavia, FW, 9, 0, 6
+-- 3711, 1974, Yugoslavia, MF, 12, 0, 1
+-- 3711, 1982, Yugoslavia, MF, 17, 0, 0
+-- 3712, 1982, Yugoslavia, DF, 2, 0, 0
+-- 3713, 2006, Serbia y Montenegro, GK, 1, 0, 3
+-- 3714, 1954, Inglaterra, FW, 20, 0, 0
+-- 3715, 2014, Corea del Sur, FW, 19, 0, 0
+-- 3716, 2010, Corea del Norte, DF, 8, 0, 3
+-- 3717, 2002, China, GK, 22, 1, 3
+-- 3718, 1986, Marruecos, DF, 19, 0, 0
+-- 3719, 1974, Uruguay, MF, 17, 0, 0
+-- 3720, 1990, España, DF, 3, 0, 1
+-- 3721, 1982, España, DF, 13, 0, 0
+-- 3722, 2014, México, FW, 9, 0, 0
+-- 3722, 2018, México, FW, 9, 0, 0
+-- 3722, 2022, México, FW, 9, 0, 0
+-- 3723, 1954, México, FW, 19, 0, 0
+-- 3724, 2006, República Checa, DF, 13, 0, 0
+-- 3725, 2014, Brasil, FW, 21, 0, 1
+-- 3726, 2018, Corea del Sur, GK, 23, 0, 3
+-- 3726, 2022, Corea del Sur, GK, 21, 0, 0
+-- 3727, 1998, Japón, FW, 18, 0, 3
+-- 3728, 1934, Bélgica, DF, None, 0, 1
+-- 3729, 2002, Portugal, FW, 8, 0, 3
+-- 3730, 1986, Portugal, DF, 2, 0, 0
+-- 3731, 2006, Angola, GK, 1, 0, 3
+-- 3732, 2002, España, MF, 22, 0, 2
+-- 3732, 2006, España, MF, 17, 0, 1
+-- 3733, 1982, España, MF, 8, 0, 1
+-- 3734, 1998, Camerún, FW, 21, 0, 1
+-- 3734, 2002, Camerún, FW, 21, 0, 0
+-- 3735, 1930, Brasil, GK, None, 0, 1
+-- 3736, 1958, Brasil, FW, 17, 0, 2
+-- 3737, 1970, Brasil, DF, 17, 0, 0
+-- 3738, 1938, Noruega, DF, None, 0, 1
+-- 3739, 2014, Estados Unidos, FW, 9, 0, 0
+-- 3740, 1938, Noruega, GK, None, 0, 1
+-- 3741, 1958, Suecia, DF, 5, 0, 0
+-- 3742, 1950, Suecia, DF, None, 0, 2
+-- 3743, 2006, Trinidad y Tobago, DF, 3, 0, 2
+-- 3744, 2006, Trinidad y Tobago, FW, 14, 0, 3
+-- 3745, 1994, Noruega, DF, 3, 0, 1
+-- 3746, 1998, Noruega, DF, 3, 0, 4
+-- 3747, 2022, Gales, FW, 9, 0, 0
+-- 3748, 2006, Estados Unidos, FW, 9, 0, 0
+-- 3749, 2014, Estados Unidos, DF, 23, 0, 4
+-- 3750, 2010, Inglaterra, DF, 2, 0, 4
+-- 3750, 2014, Inglaterra, DF, 2, 0, 2
+-- 3751, 2022, Estados Unidos, GK, 25, 0, 0
+-- 3752, 1934, Suecia, MF, None, 0, 0
+-- 3753, 2018, Suecia, GK, 12, 0, 0
+-- 3754, 2022, Canadá, DF, 2, 0, 3
+-- 3755, 1990, Escocia, FW, 7, 0, 3
+-- 3756, 1978, Escocia, FW, 11, 0, 1
+-- 3757, 1978, Escocia, FW, 17, 0, 0
+-- 3758, 1974, Escocia, MF, 7, 0, 0
+-- 3759, 1954, Escocia, FW, 15, 0, 0
+-- 3760, 1998, RF de Yugoslavia, MF, 4, 0, 4
+-- 3761, 2010, Eslovenia, DF, 13, 0, 3
+-- 3762, 1970, Checoslovaquia, FW, 11, 0, 2
+-- 3763, 1934, Suecia, FW, None, 0, 2
+-- 3763, 1938, Suecia, FW, None, 0, 3
+-- 3764, 2010, Australia, GK, 18, 0, 0
+-- 3764, 2018, Australia, GK, 12, 0, 0
+-- 3765, 1958, Gales, FW, 11, 0, 5
+-- 3766, 1994, Estados Unidos, MF, 13, 0, 1
+-- 3766, 1998, Estados Unidos, MF, 13, 0, 3
+-- 3766, 2002, Estados Unidos, MF, 13, 0, 0
+-- 3767, 2014, Estados Unidos, MF, 13, 0, 4
+-- 3768, 1958, Gales, GK, 12, 0, 0
+-- 3769, 2006, Trinidad y Tobago, FW, 15, 0, 1
+-- 3770, 2014, Inglaterra, DF, 16, 0, 1
+-- 3770, 2018, Inglaterra, DF, 16, 0, 2
+-- 3771, 2010, Corea del Norte, FW, 9, 0, 3
+-- 3772, 1974, Paises Bajos, GK, 8, 0, 7
+-- 3772, 1978, Paises Bajos, GK, 8, 0, 4
+-- 3773, 1994, Paises Bajos, MF, 8, 0, 5
+-- 3773, 1998, Paises Bajos, MF, 6, 0, 5
+-- 3774, 1954, Francia, DF, 10, 1, 1
+-- 3774, 1958, Francia, MF, 10, 4, 5
+-- 3775, 2002, Suecia, MF, 18, 0, 0
+-- 3775, 2006, Suecia, FW, 18, 0, 2
+-- 3776, 1950, Suecia, FW, None, 0, 3
+-- 3777, 2006, Polonia, DF, 2, 0, 1
+-- 3778, 1938, Francia, MF, None, 0, 2
+-- 3779, 1974, Escocia, FW, 9, 0, 3
+-- 3779, 1978, Escocia, FW, 9, 0, 3
+-- 3779, 1982, Escocia, FW, 15, 0, 1
+-- 3780, 2002, Portugal, DF, 13, 0, 0
+-- 3781, 2002, Portugal, DF, 2, 0, 3
+-- 3782, 1986, Portugal, GK, 12, 0, 0
+-- 3783, 1978, Brasil, FW, 19, 0, 4
+-- 3784, 1998, Dinamarca, MF, 21, 0, 5
+-- 3784, 2002, Dinamarca, FW, 10, 0, 1
+-- 3784, 2010, Dinamarca, MF, 10, 1, 3
+-- 3785, 1990, Brasil, DF, 2, 0, 4
+-- 3785, 1994, Brasil, DF, 2, 0, 7
+-- 3786, 1986, Portugal, DF, 16, 0, 0
+-- 3787, 1966, Portugal, FW, 12, 0, 6
+-- 3788, 1966, Portugal, DF, 21, 0, 2
+-- 3789, 1966, Portugal, GK, 3, 0, 5
+-- 3790, 1974, Haití, GK, 22, 0, 0
+-- 3791, 2010, Sudáfrica, GK, 1, 0, 1
+-- 3792, 1986, Brasil, DF, 13, 0, 3
+-- 3793, 2010, Brasil, MF, 17, 0, 0
+-- 3794, 2010, Serbia, MF, 14, 0, 3
+-- 3795, 1950, Yugoslavia, MF, None, 0, 3
+-- 3796, 1982, Yugoslavia, DF, 14, 0, 3
+-- 3797, 1982, El Salvador, DF, 3, 0, 3
+-- 3798, 2018, Serbia, FW, 19, 0, 0
+-- 3798, 2022, Serbia, FW, 11, 0, 0
+-- 3799, 1990, Yugoslavia, DF, 6, 0, 5
+-- 3800, 2018, Corea del Sur, MF, 8, 0, 1
+-- 3801, 2006, Brasil, DF, 4, 0, 5
+-- 3801, 2010, Brasil, DF, 4, 0, 5
+-- 3802, 1994, España, FW, 14, 0, 0
+-- 3803, 2014, España, DF, 5, 0, 1
+-- 3804, 2002, España, DF, 3, 0, 3
+-- 3805, 2006, España, DF, 20, 0, 1
+-- 3806, 1978, España, FW, 8, 0, 2
+-- 3806, 1982, España, FW, 7, 0, 4
+-- 3807, 2010, México, DF, 16, 0, 3
+-- 3808, 1998, RF de Yugoslavia, MF, 7, 0, 4
+-- 3809, 1966, Italia, MF, 10, 0, 0
+-- 3809, 1970, Italia, MF, 18, 0, 0
+-- 3809, 1974, Italia, MF, 16, 0, 0
+-- 3810, 1954, Brasil, FW, 7, 0, 3
+-- 3811, 1986, España, DF, 11, 0, 3
+-- 3812, 2010, Brasil, MF, 19, 0, 1
+-- 3813, 1986, Brasil, DF, 14, 0, 5
+-- 3814, 2006, Brasil, GK, 22, 0, 0
+-- 3814, 2010, Brasil, GK, 1, 0, 5
+-- 3814, 2014, Brasil, GK, 12, 0, 7
+-- 3815, 1986, España, FW, 19, 0, 5
+-- 3815, 1990, España, FW, 19, 0, 3
+-- 3815, 1994, España, FW, 19, 0, 3
+-- 3816, 1990, Emiratos Arabes, MF, 3, 0, 3
+-- 3817, 1950, España, FW, None, 0, 1
+-- 3818, 1934, Checoslovaquia, FW, None, 0, 4
+-- 3819, 2018, Corea del Sur, DF, 3, 0, 0
+-- 3820, 2010, Corea del Sur, GK, 18, 0, 4
+-- 3820, 2014, Corea del Sur, GK, 1, 0, 2
+-- 3821, 2018, Corea del Sur, MF, 15, 0, 1
+-- 3822, 2022, Corea del Sur, MF, 5, 0, 4
+-- 3823, 1982, Brasil, DF, 14, 0, 0
+-- 3824, 2002, Brasil, MF, 19, 0, 4
+-- 3825, 2006, Brasil, MF, 19, 0, 2
+-- 3826, 1982, Brasil, DF, 6, 0, 5
+-- 3826, 1986, Brasil, DF, 6, 0, 5
+-- 3827, 2002, Brasil, DF, 16, 0, 1
+-- 3828, 1998, Brasil, DF, 4, 0, 7
+-- 3829, 1962, Brasil, DF, 14, 0, 0
+-- 3830, 2022, Croacia, DF, 22, 0, 6
+-- 3831, 1998, Croacia, MF, 21, 0, 3
+-- 3832, 1998, Croacia, DF, 5, 0, 0
+-- 3833, 2018, Australia, FW, 9, 0, 1
+-- 3834, 1970, Checoslovaquia, FW, 19, 0, 1
+-- 3835, 1982, Checoslovaquia, DF, 4, 0, 2
+-- 3836, 2018, Australia, DF, 6, 0, 0
+-- 3837, 1982, Austria, FW, 18, 0, 1
+-- 3838, 1958, Alemania Occidental, DF, 3, 0, 5
+-- 3839, 1978, Polonia, DF, 14, 0, 0
+-- 3840, 1962, Yugoslavia, DF, 3, 0, 5
+-- 3841, 1938, Noruega, DF, None, 0, 0
+-- 3842, 1950, Brasil, DF, None, 0, 6
+-- 3843, 1978, Túnez, DF, 3, 0, 3
+-- 3844, 2006, Irán, DF, 13, 0, 3
+-- 3845, 1934, Austria, FW, None, 0, 0
+-- 3846, 1954, Checoslovaquia, FW, 15, 0, 2
+-- 3847, 2010, Serbia, MF, 4, 0, 0
+-- 3848, 1994, Marruecos, MF, 20, 0, 0
+-- 3849, 1986, Argelia, MF, 6, 0, 3
+-- 3850, 2010, Argelia, MF, 21, 0, 3
+-- 3851, 1990, Checoslovaquia, DF, 3, 0, 5
+-- 3852, 1962, Checoslovaquia, FW, 18, 0, 3
+-- 3853, 1954, Turquía, FW, 21, 0, 0
+-- 3854, 1954, Francia, DF, 6, 0, 2
+-- 3854, 1958, Francia, DF, 4, 0, 6
+-- 3855, 2014, Japón, MF, 10, 0, 2
+-- 3855, 2018, Japón, MF, 10, 0, 3
+-- 3856, 1982, Camerún, DF, 2, 0, 3
+-- 3857, 2010, Dinamarca, MF, 12, 0, 2
+-- 3858, 1994, Alemania, GK, 22, 0, 0
+-- 3858, 1998, Alemania, GK, 12, 0, 0
+-- 3858, 2002, Alemania, GK, 1, 7, 7
+-- 3858, 2006, Alemania, GK, 12, 1, 1
+-- 3859, 2018, Egipto, FW, 11, 0, 0
+-- 3860, 2002, Turquía, FW, 15, 0, 0
+-- 3861, 2010, Nigeria, MF, 14, 0, 2
+-- 3862, 2006, Japón, DF, 21, 0, 2
+-- 3863, 2002, Brasil, FW, 23, 0, 0
+-- 3863, 2006, Brasil, MF, 8, 0, 5
+-- 3863, 2010, Brasil, MF, 10, 0, 4
+-- 3864, 2014, Japón, FW, 11, 0, 0
+-- 3865, 2006, Australia, GK, 18, 0, 1
+-- 3866, 1974, Zaire, FW, 20, 0, 1
+-- 3867, 2006, Angola, DF, 5, 0, 3
+-- 3868, 2018, Croacia, GK, 12, 0, 1
+-- 3869, 2018, Croacia, FW, 16, 0, 0
+-- 3870, 2006, Ucrania, MF, 19, 0, 4
+-- 3871, 1974, Polonia, GK, 3, 0, 0
+-- 3872, 1994, Grecia, DF, 5, 0, 3
+-- 3873, 1994, Camerún, DF, 13, 0, 3
+-- 3873, 1998, Camerún, DF, 5, 0, 2
+-- 3873, 2002, Camerún, DF, 5, 0, 3
+-- 3874, 1958, Suecia, FW, 19, 0, 1
+-- 3875, 1938, Suecia, DF, None, 0, 2
+-- 3876, 2006, Suecia, MF, 16, 0, 3
+-- 3877, 1934, Checoslovaquia, FW, None, 0, 0
+-- 3878, 2006, Costa de Marfil, FW, 8, 0, 1
+-- 3879, 2010, Costa de Marfil, FW, 8, 0, 2
+-- 3879, 2014, Costa de Marfil, FW, 8, 0, 2
+-- 3880, 1978, Alemania Occidental, DF, 5, 0, 6
+-- 3880, 1982, Alemania Occidental, DF, 20, 1, 7
+-- 3881, 2002, Polonia, MF, 10, 0, 2
+-- 3882, 2022, Japón, MF, 15, 0, 4
+-- 3883, 1994, Suecia, DF, 14, 0, 2
+-- 3884, 1934, Egipto, FW, None, 0, 0
+-- 3885, 1934, Egipto, MF, None, 0, 1
+-- 3886, 2002, Camerún, GK, 22, 0, 0
+-- 3886, 2010, Camerún, GK, 1, 0, 0
+-- 3887, 1970, Bulgaria, GK, 22, 0, 0
+-- 3888, 1982, Camerún, MF, 17, 0, 0
+-- 3889, 2022, Polonia, MF, 13, 0, 2
+-- 3890, 1990, Camerún, MF, 2, 0, 3
+-- 3890, 1994, Camerún, MF, 2, 0, 1
+-- 3891, 2022, Irán, DF, 13, 0, 0
+-- 3892, 2018, Inglaterra, FW, 9, 6, 6
+-- 3892, 2022, Inglaterra, FW, 9, 5, 5
+-- 3893, 1962, URSS, FW, 15, 0, 2
+-- 3894, 1966, Corea del Norte, DF, 4, 0, 1
+-- 3895, 1954, Corea del Sur, MF, 4, 0, 2
+-- 3896, 1986, Corea del Sur, FW, 22, 0, 0
+-- 3897, 2010, Corea del Sur, DF, 23, 0, 0
+-- 3898, 1966, Corea del Norte, MF, 10, 0, 1
+-- 3899, 2018, Arabia Saudita, MF, 12, 0, 0
+-- 3899, 2022, Arabia Saudita, MF, 23, 0, 3
+-- 3900, 1970, Marruecos, DF, 4, 0, 3
+-- 3901, 2018, Francia, MF, 13, 0, 7
+-- 3902, 1998, Nigeria, FW, 4, 1, 2
+-- 3902, 2002, Nigeria, FW, 4, 0, 1
+-- 3902, 2010, Nigeria, MF, 4, 1, 1
+-- 3903, 2014, Rusia, FW, 6, 0, 1
+-- 3904, 2010, Grecia, FW, 20, 0, 0
+-- 3905, 2014, Grecia, GK, 13, 0, 0
+-- 3906, 1974, Polonia, FW, 20, 0, 0
+-- 3907, 1970, URSS, DF, 5, 0, 3
+-- 3908, 1966, Hungría, DF, 2, 0, 4
+-- 3909, 1974, Alemania Occidental, MF, 19, 0, 0
+-- 3910, 2022, Australia, DF, 5, 0, 1
+-- 3911, 1994, Grecia, DF, 13, 0, 2
+-- 3912, 2010, Grecia, MF, 10, 3, 3
+-- 3912, 2014, Grecia, MF, 10, 2, 2
+-- 3913, 1970, Israel, DF, 20, 0, 0
+-- 3914, 1982, Kuwait, MF, 18, 0, 2
+-- 3915, 1986, Polonia, MF, 9, 0, 1
+-- 3916, 1974, Yugoslavia, FW, 18, 0, 2
+-- 3917, 1994, Grecia, DF, 18, 0, 1
+-- 3918, 1986, Hungría, DF, 5, 0, 3
+-- 3919, 1998, Francia, MF, 19, 0, 4
+-- 3920, 1978, Alemania Occidental, GK, 21, 0, 0
+-- 3921, 2002, Eslovenia, MF, 19, 0, 3
+-- 3922, 1986, Iraq, DF, 13, 0, 0
+-- 3923, 2006, Irán, MF, 8, 0, 2
+-- 3924, 2022, Irán, MF, 18, 0, 1
+-- 3925, 2006, Arabia Saudita, MF, 14, 0, 3
+-- 3926, 1994, Grecia, GK, 15, 0, 1
+-- 3927, 1974, Suecia, DF, 3, 0, 6
+-- 3927, 1978, Suecia, DF, 19, 0, 0
+-- 3928, 2014, Grecia, GK, 1, 0, 4
+-- 3929, 1978, Túnez, FW, 14, 0, 0
+-- 3930, 1954, Hungría, DF, 12, 0, 0
+-- 3930, 1958, Hungría, DF, 12, 0, 0
+-- 3931, 1994, Rusia, MF, 10, 0, 2
+-- 3931, 2002, Rusia, MF, 8, 0, 3
+-- 3932, 1990, Egipto, DF, 6, 0, 0
+-- 3933, 1974, Polonia, MF, 13, 0, 7
+-- 3933, 1978, Polonia, MF, 8, 0, 4
+-- 3934, 2006, Túnez, GK, 22, 0, 0
+-- 3935, 1934, Egipto, MF, None, 0, 0
+-- 3936, 1978, Irán, MF, 8, 0, 3
+-- 3937, 1974, Yugoslavia, DF, 5, 0, 6
+-- 3938, 1990, Yugoslavia, DF, 13, 0, 3
+-- 3939, 1950, Yugoslavia, MF, None, 0, 0
+-- 3940, 2010, Grecia, MF, 21, 0, 3
+-- 3940, 2014, Grecia, MF, 21, 2, 2
+-- 3941, 1982, Hungría, GK, 21, 0, 0
+-- 3942, 1966, URSS, GK, 21, 0, 2
+-- 3942, 1970, URSS, GK, 2, 0, 4
+-- 3943, 2002, Ecuador, FW, 9, 0, 1
+-- 3943, 2006, Ecuador, FW, 10, 0, 1
+-- 3944, 1998, Japón, GK, 20, 0, 3
+-- 3944, 2002, Japón, GK, 1, 0, 0
+-- 3944, 2006, Japón, GK, 23, 0, 3
+-- 3944, 2010, Japón, GK, 23, 0, 0
+-- 3945, 2010, Japón, GK, 21, 0, 4
+-- 3945, 2014, Japón, GK, 1, 0, 3
+-- 3945, 2018, Japón, GK, 1, 0, 4
+-- 3945, 2022, Japón, GK, 1, 0, 0
+-- 3946, 2022, Canadá, MF, 14, 0, 1
+-- 3947, 2006, Irán, FW, 17, 0, 0
+-- 3948, 1978, Irán, DF, 21, 0, 3
+-- 3949, 1982, Polonia, GK, 21, 0, 0
+-- 3949, 1986, Polonia, GK, 12, 0, 0
+-- 3950, 1966, Corea del Norte, FW, 18, 0, 0
+-- 3951, 2002, Irlanda, FW, 10, 0, 4
+-- 3952, 1994, Irlanda, MF, 6, 0, 4
+-- 3952, 2002, Irlanda, MF, 6, 0, 0
+-- 3953, 2022, Túnez, DF, 21, 0, 1
+-- 3954, 1982, Inglaterra, FW, 7, 0, 0
+-- 3955, 1990, Austria, FW, 15, 0, 0
+-- 3956, 1962, Suiza, DF, 10, 0, 0
+-- 3957, 2002, Alemania, DF, 15, 0, 1
+-- 3957, 2006, Alemania, MF, 5, 0, 2
+-- 3958, 2022, Alemania, DF, 5, 0, 1
+-- 3959, 2006, Costa de Marfil, MF, 18, 0, 2
+-- 3959, 2010, Costa de Marfil, FW, 18, 0, 1
+-- 3960, 1958, Irlanda del Norte, DF, 5, 0, 5
+-- 3961, 1974, Paises Bajos, FW, 9, 0, 1
+-- 3962, 1958, Alemania Occidental, FW, 15, 0, 1
+-- 3963, 1934, Francia, FW, None, 0, 1
+-- 3964, 1990, Estados Unidos, GK, 18, 0, 0
+-- 3964, 1998, Estados Unidos, GK, 18, 0, 2
+-- 3964, 2002, Estados Unidos, GK, 18, 0, 0
+-- 3964, 2006, Estados Unidos, GK, 18, 0, 3
+-- 3965, 1934, Suecia, FW, None, 0, 2
+-- 3965, 1938, Suecia, FW, None, 2, 2
+-- 3966, 1990, Irlanda, FW, 19, 0, 0
+-- 3966, 1994, Irlanda, FW, 20, 0, 0
+-- 3967, 1994, Irlanda, DF, 12, 0, 2
+-- 3967, 2002, Irlanda, DF, 18, 0, 4
+-- 3968, 1994, Irlanda, GK, 22, 0, 0
+-- 3968, 2002, Irlanda, GK, 23, 0, 0
+-- 3969, 1958, Gales, GK, 1, 0, 5
+-- 3970, 1974, Zaire, MF, 9, 0, 1
+-- 3971, 1934, Hungría, FW, None, 0, 1
+-- 3972, 1974, Argentina, FW, 13, 0, 5
+-- 3972, 1978, Argentina, FW, 10, 0, 7
+-- 3972, 1982, Argentina, FW, 11, 0, 5
+-- 3973, 2006, Australia, FW, 19, 0, 0
+-- 3973, 2010, Australia, FW, 9, 0, 1
+-- 3974, 1978, Escocia, DF, 13, 0, 2
+-- 3975, 1950, Estados Unidos, DF, None, 1, 3
+-- 3976, 1998, Inglaterra, DF, 18, 0, 0
+-- 3976, 2002, Inglaterra, DF, 15, 0, 0
+-- 3977, 1982, Hungría, DF, 18, 0, 1
+-- 3978, 1978, Hungría, DF, 6, 3, 3
+-- 3979, 2002, Turquía, MF, 8, 0, 7
+-- 3980, 1994, Irlanda, DF, 13, 0, 0
+-- 3981, 1954, Suiza, DF, 14, 0, 4
+-- 3981, 1962, Suiza, DF, 4, 0, 0
+-- 3982, 2002, Rusia, FW, 16, 0, 0
+-- 3982, 2014, Rusia, FW, 11, 0, 1
+-- 3983, 1958, URSS, DF, 2, 0, 5
+-- 3984, 1994, Nigeria, DF, 4, 1, 1
+-- 3985, 1954, Turquía, FW, 7, 0, 3
+-- 3986, 1958, Inglaterra, FW, 9, 0, 4
+-- 3986, 1962, Inglaterra, FW, 13, 0, 0
+-- 3987, 2006, Australia, FW, 10, 0, 2
+-- 3987, 2010, Australia, FW, 10, 0, 1
+-- 3988, 2006, Serbia y Montenegro, FW, 8, 0, 2
+-- 3989, 1986, Marruecos, MF, 17, 0, 3
+-- 3990, 1998, Irán, DF, 4, 0, 3
+-- 3991, 1990, Emiratos Arabes, DF, 2, 0, 3
+-- 3992, 1990, Emiratos Arabes, MF, 8, 0, 2
+-- 3993, 1986, Marruecos, DF, 2, 0, 4
+-- 3994, 2018, Túnez, FW, 19, 0, 0
+-- 3995, 2018, Túnez, FW, 15, 0, 0
+-- 3996, 1986, Iraq, DF, 3, 1, 3
+-- 3997, 2022, Irán, DF, 4, 0, 0
+-- 3998, 1998, Irán, MF, 14, 1, 3
+-- 3999, 2018, Irán, DF, 13, 0, 0
+-- 4000, 2018, Túnez, FW, 7, 0, 1
+-- 4001, 1994, Rusia, GK, 16, 2, 2
+-- 4002, 2002, Arabia Saudita, MF, 14, 0, 2
+-- 4002, 2006, Arabia Saudita, DF, 12, 0, 1
+-- 4003, 2006, Irán, FW, 11, 0, 0
+-- 4004, 2018, Túnez, FW, 10, 2, 3
+-- 4004, 2022, Túnez, FW, 10, 1, 1
+-- 4005, 2010, Alemania, MF, 6, 0, 7
+-- 4005, 2014, Alemania, MF, 6, 0, 4
+-- 4005, 2018, Alemania, MF, 6, 0, 2
+-- 4006, 2022, Túnez, FW, 11, 0, 0
+-- 4007, 2022, Catar, DF, 13, 0, 0
+-- 4008, 1982, URSS, DF, 4, 0, 0
+-- 4008, 1990, URSS, DF, 3, 0, 3
+-- 4009, 1994, Rusia, DF, 21, 0, 3
+-- 4010, 1970, URSS, FW, 21, 0, 3
+-- 4011, 2006, Arabia Saudita, GK, 22, 0, 0
+-- 4012, 2002, Rusia, MF, 21, 0, 1
+-- 4013, 2022, Catar, DF, 16, 0, 3
+-- 4014, 2010, Sudáfrica, MF, 23, 0, 1
+-- 4015, 2010, Sudáfrica, DF, 20, 0, 3
+-- 4016, 1998, Sudáfrica, MF, 15, 0, 0
+-- 4017, 2010, Sudáfrica, GK, 16, 0, 2
+-- 4018, 1966, URSS, MF, 7, 0, 3
+-- 4018, 1970, URSS, DF, 8, 0, 3
+-- 4019, 1962, URSS, FW, 21, 0, 1
+-- 4019, 1966, URSS, FW, 15, 0, 4
+-- 4020, 2010, Corea del Sur, MF, 16, 0, 4
+-- 4020, 2014, Corea del Sur, MF, 16, 0, 3
+-- 4020, 2018, Corea del Sur, MF, 16, 2, 2
+-- 4021, 1990, Paises Bajos, FW, 12, 0, 1
+-- 4022, 1934, Suiza, FW, None, 0, 2
+-- 4022, 1938, Suiza, FW, None, 0, 0
+-- 4023, 2002, Irlanda, GK, 16, 0, 0
+-- 4024, 2018, Suecia, FW, 22, 0, 0
+-- 4025, 2010, Alemania, FW, 9, 0, 0
+-- 4026, 1938, Noruega, GK, None, 0, 0
+-- 4027, 2002, Suecia, GK, 12, 0, 0
+-- 4028, 1998, España, FW, 19, 0, 1
+-- 4029, 2002, Irlanda, FW, 11, 0, 4
+-- 4030, 2010, Nueva Zelanda, FW, 10, 0, 3
+-- 4031, 1978, Argentina, DF, 11, 0, 0
+-- 4032, 2010, Corea del Sur, MF, 6, 0, 0
+-- 4032, 2014, Corea del Sur, MF, 7, 0, 0
+-- 4033, 1966, Corea del Norte, FW, 17, 0, 1
+-- 4034, 1998, Corea del Sur, GK, 1, 0, 3
+-- 4034, 2002, Corea del Sur, GK, 12, 0, 0
+-- 4035, 2014, Corea del Sur, DF, 2, 0, 0
+-- 4036, 2006, Corea del Sur, MF, 8, 0, 0
+-- 4037, 1998, Corea del Sur, FW, 9, 0, 2
+-- 4038, 1998, Corea del Sur, MF, 7, 0, 3
+-- 4039, 2006, Corea del Sur, DF, 3, 0, 2
+-- 4039, 2010, Corea del Sur, DF, 15, 0, 0
+-- 4040, 2010, Corea del Sur, DF, 3, 0, 0
+-- 4041, 2010, Corea del Sur, MF, 13, 0, 1
+-- 4042, 1954, Corea del Sur, MF, 15, 0, 1
+-- 4043, 2006, Corea del Sur, DF, 6, 0, 2
+-- 4044, 2018, Corea del Sur, GK, 21, 0, 0
+-- 4045, 2022, Corea del Sur, DF, 3, 0, 4
+-- 4046, 1986, Corea del Sur, FW, 7, 0, 0
+-- 4047, 1986, Corea del Sur, FW, 16, 0, 3
+-- 4047, 1990, Corea del Sur, MF, 16, 0, 3
+-- 4047, 1994, Corea del Sur, MF, 9, 0, 3
+-- 4048, 2010, Corea del Sur, MF, 8, 0, 4
+-- 4049, 2010, Corea del Norte, MF, 6, 0, 0
+-- 4050, 2010, Corea del Norte, MF, 22, 0, 0
+-- 4051, 2022, Corea del Sur, DF, 4, 0, 3
+-- 4052, 2018, Corea del Sur, DF, 12, 0, 1
+-- 4053, 2022, Corea del Sur, DF, 15, 0, 4
+-- 4054, 2010, Corea del Norte, GK, 18, 0, 0
+-- 4055, 2010, Corea del Norte, GK, 20, 0, 0
+-- 4056, 2002, Corea del Sur, MF, 5, 0, 5
+-- 4056, 2006, Corea del Sur, MF, 5, 0, 2
+-- 4056, 2010, Corea del Sur, MF, 5, 0, 0
+-- 4057, 1994, Corea del Sur, DF, 4, 0, 3
+-- 4058, 1990, Corea del Sur, GK, 1, 0, 0
+-- 4059, 1986, Corea del Sur, DF, 12, 0, 1
+-- 4060, 1986, Corea del Sur, MF, 18, 0, 0
+-- 4061, 2006, Corea del Sur, DF, 18, 0, 0
+-- 4062, 1966, Corea del Norte, FW, 12, 0, 2
+-- 4063, 2014, Corea del Sur, GK, 21, 0, 1
+-- 4063, 2018, Corea del Sur, GK, 1, 0, 0
+-- 4063, 2022, Corea del Sur, GK, 1, 0, 4
+-- 4064, 2014, Corea del Sur, FW, 18, 0, 1
+-- 4064, 2018, Corea del Sur, FW, 9, 0, 1
+-- 4065, 1998, Corea del Sur, DF, 13, 0, 2
+-- 4065, 2002, Corea del Sur, DF, 7, 0, 6
+-- 4066, 2022, Corea del Sur, DF, 23, 0, 0
+-- 4067, 2006, Corea del Sur, GK, 20, 0, 0
+-- 4068, 2010, Corea del Norte, MF, 15, 0, 0
+-- 4069, 2006, Corea del Sur, DF, 2, 0, 2
+-- 4070, 2006, Corea del Sur, GK, 21, 0, 0
+-- 4070, 2010, Corea del Sur, GK, 21, 0, 0
+-- 4071, 1986, Corea del Sur, FW, 20, 0, 1
+-- 4072, 2014, Corea del Sur, DF, 5, 0, 3
+-- 4072, 2018, Corea del Sur, DF, 19, 0, 3
+-- 4072, 2022, Corea del Sur, DF, 19, 0, 4
+-- 4073, 1966, Corea del Norte, FW, 19, 0, 0
+-- 4074, 2018, Alemania, DF, 18, 0, 3
+-- 4074, 2022, Alemania, MF, 6, 0, 3
+-- 4075, 2018, Francia, DF, 3, 0, 1
+-- 4076, 1970, Suecia, FW, 9, 0, 3
+-- 4076, 1974, Suecia, MF, 9, 0, 2
+-- 4077, 2022, Australia, DF, 24, 0, 0
+-- 4078, 2010, Inglaterra, DF, 20, 0, 1
+-- 4079, 2006, Ghana, GK, 22, 0, 4
+-- 4079, 2010, Ghana, GK, 22, 1, 5
+-- 4080, 1990, Checoslovaquia, DF, 15, 0, 1
+-- 4081, 2002, Irlanda, MF, 12, 0, 4
+-- 4082, 2006, República Checa, GK, 23, 0, 0
+-- 4083, 1986, Hungría, FW, 7, 0, 2
+-- 4084, 1998, Bulgaria, DF, 21, 0, 0
+-- 4085, 2010, Eslovenia, MF, 17, 0, 3
+-- 4086, 1994, Alemania, FW, 19, 0, 0
+-- 4086, 1998, Alemania, FW, 9, 0, 0
+-- 4087, 1970, Suecia, DF, 14, 0, 0
+-- 4088, 1994, Bulgaria, DF, 16, 0, 4
+-- 4089, 1974, Alemania Oriental, DF, 18, 0, 6
+-- 4090, 1970, URSS, MF, 12, 0, 1
+-- 4091, 1998, Bulgaria, DF, 2, 0, 3
+-- 4092, 1982, Hungría, GK, 22, 0, 0
+-- 4093, 1982, Hungría, FW, 10, 0, 2
+-- 4094, 1962, Bulgaria, DF, 4, 0, 2
+-- 4094, 1966, Bulgaria, MF, 8, 0, 1
+-- 4095, 1938, Alemania, MF, None, 0, 1
+-- 4096, 2022, Polonia, DF, 14, 0, 4
+-- 4097, 2014, Japón, MF, 8, 0, 0
+-- 4098, 1998, Dinamarca, GK, 22, 0, 0
+-- 4098, 2002, Dinamarca, GK, 16, 0, 0
+-- 4099, 2010, Dinamarca, DF, 3, 0, 2
+-- 4099, 2018, Dinamarca, DF, 4, 4, 4
+-- 4099, 2022, Dinamarca, DF, 4, 1, 1
+-- 4100, 2022, Paises Bajos, MF, 14, 0, 3
+-- 4101, 2006, Croacia, FW, 17, 0, 2
+-- 4102, 2002, Brasil, MF, 15, 0, 3
+-- 4102, 2010, Brasil, MF, 20, 0, 0
+-- 4103, 1974, Alemania Occidental, GK, 22, 0, 0
+-- 4104, 1990, Rumania, DF, 3, 0, 4
+-- 4105, 1962, Colombia, FW, 17, 0, 3
+-- 4106, 1990, Alemania, FW, 18, 0, 7
+-- 4106, 1994, Alemania, FW, 18, 0, 5
+-- 4106, 1998, Alemania, FW, 18, 5, 5
+-- 4107, 1954, Alemania Occidental, FW, 14, 0, 2
+-- 4107, 1958, Alemania Occidental, FW, 13, 0, 2
+-- 4108, 1994, Estados Unidos, FW, 14, 0, 0
+-- 4109, 2002, Polonia, DF, 2, 0, 1
+-- 4110, 2002, Alemania, FW, 11, 0, 7
+-- 4110, 2006, Alemania, FW, 11, 0, 7
+-- 4110, 2010, Alemania, FW, 11, 0, 5
+-- 4110, 2014, Alemania, FW, 11, 0, 3
+-- 4111, 2022, Alemania, DF, 16, 0, 0
+-- 4112, 1998, Paises Bajos, FW, 9, 0, 4
+-- 4113, 1974, Polonia, FW, 21, 0, 0
+-- 4114, 1998, Austria, GK, 21, 0, 0
+-- 4115, 2002, Eslovenia, DF, 6, 0, 2
+-- 4116, 1990, Checoslovaquia, FW, 17, 0, 5
+-- 4117, 2018, Dinamarca, DF, 5, 0, 1
+-- 4118, 1994, Suiza, FW, 9, 0, 3
+-- 4119, 1994, Corea del Sur, MF, 10, 0, 3
+-- 4120, 1998, Corea del Sur, MF, 14, 0, 1
+-- 4121, 2022, Suiza, GK, 21, 0, 1
+-- 4122, 1934, Alemania, FW, None, 0, 3
+-- 4123, 1990, Checoslovaquia, DF, 5, 0, 4
+-- 4124, 1978, Hungría, DF, 3, 0, 2
+-- 4125, 1954, Hungría, FW, 8, 0, 5
+-- 4126, 1990, Paises Bajos, MF, 7, 0, 1
+-- 4127, 1990, Paises Bajos, DF, 4, 0, 4
+-- 4127, 1994, Paises Bajos, DF, 4, 5, 5
+-- 4128, 1990, Alemania, GK, 22, 0, 0
+-- 4128, 1994, Alemania, GK, 12, 0, 0
+-- 4128, 1998, Alemania, GK, 1, 0, 5
+-- 4129, 1954, Austria, FW, 11, 0, 4
+-- 4129, 1958, Austria, FW, 10, 0, 3
+-- 4130, 1954, Austria, FW, 7, 0, 5
+-- 4131, 1994, Grecia, MF, 19, 0, 3
+-- 4132, 1998, Austria, DF, 6, 0, 0
+-- 4133, 1990, Alemania, DF, 4, 0, 4
+-- 4133, 1994, Alemania, DF, 4, 0, 5
+-- 4133, 1998, Alemania, DF, 4, 0, 4
+-- 4134, 1954, Alemania Occidental, DF, 3, 0, 5
+-- 4135, 2022, Suiza, GK, 24, 0, 0
+-- 4136, 1938, Hungría, FW, None, 0, 2
+-- 4137, 1998, Japón, GK, 1, 0, 0
+-- 4138, 2014, España, MF, 17, 0, 1
+-- 4138, 2018, España, MF, 8, 0, 2
+-- 4138, 2022, España, MF, 8, 0, 0
+-- 4139, 2014, Rusia, FW, 9, 0, 3
+-- 4140, 2010, Serbia, DF, 3, 0, 2
+-- 4140, 2018, Serbia, DF, 11, 3, 3
+-- 4141, 2014, Bosnia-Herzegovina, DF, 5, 0, 2
+-- 4142, 1974, Bulgaria, MF, 5, 0, 3
+-- 4143, 1986, Bulgaria, MF, 17, 0, 0
+-- 4144, 1962, Bulgaria, FW, 10, 0, 3
+-- 4144, 1966, Bulgaria, FW, 11, 0, 2
+-- 4145, 1970, Bulgaria, MF, 17, 0, 2
+-- 4146, 1994, Grecia, DF, 3, 0, 1
+-- 4147, 2006, República Checa, FW, 9, 0, 1
+-- 4148, 1954, Austria, MF, 6, 0, 5
+-- 4148, 1958, Austria, MF, 6, 0, 3
+-- 4149, 1954, Austria, DF, 13, 0, 1
+-- 4149, 1958, Austria, DF, 15, 0, 1
+-- 4150, 2022, Francia, FW, 12, 0, 1
+-- 4151, 1938, Checoslovaquia, MF, None, 0, 0
+-- 4152, 2010, Eslovenia, MF, 20, 0, 0
+-- 4153, 2006, Japón, DF, 3, 0, 1
+-- 4153, 2010, Japón, DF, 3, 0, 4
+-- 4154, 2014, Rusia, MF, 23, 0, 3
+-- 4155, 2002, Camerún, MF, 23, 0, 1
+-- 4156, 1998, RF de Yugoslavia, DF, 13, 0, 3
+-- 4157, 1986, Polonia, MF, 13, 0, 3
+-- 4158, 2014, Bélgica, DF, 4, 4, 4
+-- 4158, 2018, Bélgica, DF, 4, 0, 4
+-- 4159, 2022, Francia, DF, 24, 0, 3
+-- 4160, 2018, Senegal, FW, 14, 0, 0
+-- 4161, 1978, Austria, GK, 1, 0, 6
+-- 4161, 1982, Austria, GK, 1, 0, 5
+-- 4162, 2006, Costa de Marfil, FW, 9, 0, 2
+-- 4163, 2006, Costa de Marfil, FW, 14, 0, 1
+-- 4164, 2010, Costa de Marfil, MF, 14, 0, 0
+-- 4165, 2022, Canadá, MF, 15, 0, 0
+-- 4166, 2014, Grecia, MF, 8, 0, 3
+-- 4167, 2014, Paises Bajos, DF, 14, 0, 0
+-- 4168, 2010, Japón, DF, 15, 0, 0
+-- 4168, 2014, Japón, DF, 15, 0, 2
+-- 4169, 1978, Alemania Occidental, DF, 13, 0, 0
+-- 4170, 1990, Austria, GK, 22, 0, 0
+-- 4171, 1990, Austria, GK, 21, 0, 0
+-- 4171, 1998, Austria, GK, 1, 0, 3
+-- 4172, 2014, Corea del Sur, MF, 13, 3, 3
+-- 4172, 2018, Corea del Sur, MF, 13, 0, 2
+-- 4173, 1994, Estados Unidos, DF, 4, 0, 1
+-- 4174, 2022, Paises Bajos, MF, 20, 0, 1
+-- 4175, 1954, Francia, FW, 18, 0, 2
+-- 4175, 1958, Francia, FW, 18, 0, 6
+-- 4176, 1934, Checoslovaquia, MF, None, 0, 0
+-- 4176, 1938, Checoslovaquia, MF, None, 0, 3
+-- 4177, 2010, Eslovaquia, MF, 20, 0, 0
+-- 4178, 1938, Hungría, DF, None, 0, 3
+-- 4179, 1934, Francia, FW, None, 0, 0
+-- 4180, 1938, Polonia, FW, None, 0, 0
+-- 4181, 1978, Irán, GK, 22, 0, 0
+-- 4182, 2010, Eslovenia, MF, 8, 3, 3
+-- 4183, 2002, Turquía, DF, 3, 0, 6
+-- 4184, 1966, URSS, DF, 13, 0, 2
+-- 4185, 1994, Rusia, MF, 14, 0, 1
+-- 4186, 2006, Serbia y Montenegro, MF, 7, 0, 1
+-- 4187, 1962, Checoslovaquia, FW, 15, 0, 0
+-- 4188, 2014, Francia, DF, 21, 0, 2
+-- 4189, 1962, Alemania Occidental, FW, 7, 0, 1
+-- 4190, 1954, Checoslovaquia, FW, 19, 0, 0
+-- 4191, 2006, Polonia, MF, 5, 0, 0
+-- 4192, 1994, Bulgaria, FW, 7, 0, 7
+-- 4192, 1998, Bulgaria, FW, 7, 0, 2
+-- 4193, 1986, Bulgaria, FW, 20, 0, 1
+-- 4194, 1934, Checoslovaquia, MF, None, 0, 4
+-- 4194, 1938, Checoslovaquia, MF, None, 0, 3
+-- 4195, 2018, Serbia, MF, 17, 0, 2
+-- 4195, 2022, Serbia, MF, 17, 0, 2
+-- 4196, 1962, Bulgaria, MF, 16, 0, 1
+-- 4196, 1966, Bulgaria, FW, 16, 0, 1
+-- 4197, 1962, Bulgaria, DF, 5, 0, 3
+-- 4198, 1978, Polonia, GK, 22, 0, 0
+-- 4199, 1958, Hungría, MF, 15, 0, 2
+-- 4200, 1966, Bulgaria, FW, 14, 0, 1
+-- 4201, 1934, Rumania, MF, None, 0, 1
+-- 4202, 1962, URSS, GK, 3, 0, 0
+-- 4203, 2006, Costa de Marfil, DF, 6, 0, 1
+-- 4204, 1962, Checoslovaquia, GK, 22, 0, 0
+-- 4205, 1982, Argelia, DF, 3, 0, 0
+-- 4206, 2018, Senegal, DF, 3, 0, 3
+-- 4206, 2022, Senegal, DF, 3, 4, 4
+-- 4207, 2002, Sudáfrica, FW, 23, 0, 0
+-- 4208, 2022, Francia, DF, 5, 0, 5
+-- 4209, 1982, Argelia, DF, 4, 0, 3
+-- 4209, 1986, Argelia, DF, 4, 0, 2
+-- 4210, 2018, Senegal, MF, 8, 1, 1
+-- 4210, 2022, Senegal, DF, 8, 0, 1
+-- 4211, 2002, Croacia, MF, 10, 0, 3
+-- 4211, 2006, Croacia, MF, 10, 3, 3
+-- 4212, 2006, República Checa, MF, 5, 0, 1
+-- 4213, 2002, Croacia, DF, 21, 0, 3
+-- 4213, 2006, Croacia, DF, 4, 0, 2
+-- 4214, 1998, RF de Yugoslavia, FW, 22, 0, 1
+-- 4215, 2006, Serbia y Montenegro, GK, 12, 0, 0
+-- 4216, 1962, Yugoslavia, FW, 18, 0, 2
+-- 4217, 1962, Bulgaria, MF, 6, 1, 3
+-- 4218, 2014, Croacia, MF, 20, 0, 1
+-- 4218, 2018, Croacia, MF, 8, 0, 1
+-- 4218, 2022, Croacia, MF, 8, 0, 7
+-- 4219, 1954, Hungría, MF, 14, 0, 0
+-- 4220, 1986, Hungría, FW, 20, 0, 1
+-- 4221, 1978, Hungría, GK, 22, 0, 0
+-- 4222, 1930, Rumania, FW, None, 0, 2
+-- 4222, 1934, Rumania, FW, None, 0, 1
+-- 4222, 1938, Rumania, FW, None, 1, 1
+-- 4223, 2002, Rusia, DF, 2, 0, 3
+-- 4224, 1938, Francia, FW, None, 0, 0
+-- 4225, 2018, Polonia, FW, 23, 0, 1
+-- 4226, 2010, Eslovaquia, MF, 8, 0, 1
+-- 4227, 1982, Checoslovaquia, MF, 7, 0, 0
+-- 4228, 1958, Austria, MF, 17, 0, 2
+-- 4229, 1958, Austria, FW, 8, 0, 2
+-- 4230, 2014, Rusia, DF, 2, 0, 2
+-- 4231, 2002, Polonia, MF, 21, 0, 3
+-- 4232, 1998, Croacia, FW, 16, 0, 0
+-- 4233, 1966, Alemania Occidental, FW, 19, 0, 1
+-- 4234, 2018, Suecia, DF, 16, 0, 1
+-- 4235, 1986, URSS, GK, 22, 0, 0
+-- 4236, 1954, Yugoslavia, GK, 12, 0, 0
+-- 4237, 1998, RF de Yugoslavia, GK, 1, 0, 4
+-- 4238, 2018, Croacia, FW, 9, 0, 3
+-- 4238, 2022, Croacia, FW, 9, 0, 7
+-- 4239, 2014, Alemania, MF, 23, 0, 1
+-- 4240, 2006, Croacia, MF, 19, 0, 3
+-- 4241, 1978, Austria, FW, 9, 0, 6
+-- 4241, 1982, Austria, FW, 9, 0, 4
+-- 4242, 2010, Serbia, MF, 17, 0, 3
+-- 4243, 1954, Checoslovaquia, DF, 12, 0, 0
+-- 4244, 1962, Alemania Occidental, FW, 17, 0, 1
+-- 4245, 1954, Checoslovaquia, FW, 17, 0, 1
+-- 4245, 1958, Checoslovaquia, FW, 11, 0, 1
+-- 4246, 1982, Austria, DF, 2, 0, 5
+-- 4247, 1934, Checoslovaquia, MF, None, 0, 4
+-- 4248, 1974, Alemania Oriental, MF, 10, 0, 1
+-- 4249, 1994, Bulgaria, DF, 2, 0, 4
+-- 4250, 1974, Alemania Occidental, DF, 20, 0, 0
+-- 4251, 1934, Alemania, GK, None, 0, 3
+-- 4252, 1938, Checoslovaquia, FW, None, 0, 1
+-- 4253, 1978, Austria, MF, 10, 0, 6
+-- 4254, 2010, Eslovenia, MF, 15, 0, 0
+-- 4255, 1978, Austria, MF, 12, 0, 5
+-- 4256, 1986, Marruecos, FW, 9, 0, 4
+-- 4257, 2022, Dinamarca, DF, 13, 0, 3
+-- 4258, 1958, Yugoslavia, GK, 2, 0, 1
+-- 4258, 1962, Yugoslavia, GK, 12, 0, 0
+-- 4259, 1982, Checoslovaquia, FW, 10, 0, 2
+-- 4260, 1958, URSS, DF, 3, 0, 5
+-- 4261, 1982, Yugoslavia, DF, 6, 0, 2
+-- 4262, 1998, Dinamarca, GK, 16, 0, 0
+-- 4263, 2018, Dinamarca, MF, 2, 0, 0
+-- 4264, 1974, Paises Bajos, DF, 12, 0, 7
+-- 4264, 1978, Paises Bajos, DF, 5, 7, 7
+-- 4265, 2010, Dinamarca, DF, 13, 0, 1
+-- 4266, 2006, Paises Bajos, DF, 12, 0, 0
+-- 4267, 1934, Suecia, FW, None, 0, 2
+-- 4268, 2010, Alemania, MF, 18, 0, 0
+-- 4268, 2014, Alemania, MF, 18, 0, 7
+-- 4268, 2018, Alemania, MF, 8, 0, 3
+-- 4269, 1998, Croacia, FW, 2, 0, 0
+-- 4270, 2006, Serbia y Montenegro, DF, 20, 0, 3
+-- 4271, 1958, Yugoslavia, MF, 8, 0, 4
+-- 4272, 2014, Paises Bajos, GK, 23, 0, 0
+-- 4273, 1990, Estados Unidos, DF, 12, 0, 0
+-- 4274, 2018, Australia, FW, 10, 0, 3
+-- 4275, 2018, Polonia, MF, 10, 0, 3
+-- 4275, 2022, Polonia, MF, 10, 0, 4
+-- 4276, 2002, Polonia, FW, 9, 0, 2
+-- 4277, 2002, Polonia, MF, 18, 0, 3
+-- 4277, 2006, Polonia, MF, 8, 0, 3
+-- 4278, 1986, Polonia, DF, 14, 0, 1
+-- 4279, 1990, Checoslovaquia, MF, 9, 0, 4
+-- 4280, 2022, Japón, MF, 11, 0, 2
+-- 4281, 1954, Alemania Occidental, GK, 21, 0, 0
+-- 4282, 2002, Polonia, FW, 8, 0, 1
+-- 4283, 2010, Eslovaquia, GK, 23, 0, 0
+-- 4284, 2010, Eslovaquia, MF, 19, 0, 2
+-- 4285, 1954, Turquía, FW, 11, 1, 3
+-- 4286, 2018, Rusia, DF, 13, 0, 3
+-- 4287, 2022, Ghana, MF, 20, 0, 3
+-- 4288, 1998, Austria, MF, 22, 0, 3
+-- 4289, 1966, Suiza, FW, 13, 0, 2
+-- 4290, 2006, Ghana, DF, 4, 0, 1
+-- 4291, 1962, Hungría, FW, 19, 0, 1
+-- 4292, 1966, Suiza, MF, 11, 0, 2
+-- 4293, 1978, Polonia, GK, 21, 0, 2
+-- 4294, 1982, Checoslovaquia, DF, 15, 0, 1
+-- 4295, 1970, Checoslovaquia, MF, 9, 0, 3
+-- 4296, 1982, Camerún, DF, 6, 0, 3
+-- 4296, 1990, Camerún, DF, 6, 0, 4
+-- 4297, 2022, Camerún, MF, 15, 0, 2
+-- 4298, 1994, Alemania, FW, 11, 0, 0
+-- 4299, 2022, Australia, FW, 21, 0, 0
+-- 4300, 1978, Polonia, DF, 13, 0, 0
+-- 4300, 1982, Polonia, DF, 3, 0, 5
+-- 4301, 1938, Alemania, MF, None, 0, 2
+-- 4302, 1962, Alemania Occidental, DF, 13, 0, 0
+-- 4303, 1974, Alemania Oriental, DF, 2, 0, 4
+-- 4304, 2018, Polonia, MF, 21, 0, 1
+-- 4305, 1974, Polonia, FW, 22, 0, 0
+-- 4305, 1978, Polonia, FW, 15, 0, 0
+-- 4305, 1982, Polonia, FW, 18, 0, 0
+-- 4306, 2006, Polonia, GK, 12, 0, 0
+-- 4307, 2018, Rusia, DF, 3, 0, 5
+-- 4308, 2006, Paises Bajos, FW, 7, 0, 2
+-- 4308, 2010, Paises Bajos, FW, 7, 0, 7
+-- 4308, 2014, Paises Bajos, FW, 15, 0, 5
+-- 4309, 2010, Serbia, MF, 22, 0, 2
+-- 4310, 1958, URSS, DF, 4, 0, 5
+-- 4311, 1994, Rusia, DF, 2, 0, 2
+-- 4312, 1986, URSS, DF, 10, 0, 4
+-- 4312, 1990, URSS, DF, 4, 1, 3
+-- 4313, 2018, Rusia, MF, 7, 0, 2
+-- 4314, 1938, Noruega, FW, None, 0, 1
+-- 4315, 1962, Checoslovaquia, MF, 19, 0, 6
+-- 4315, 1970, Checoslovaquia, MF, 6, 0, 1
+-- 4316, 2010, Dinamarca, MF, 5, 0, 0
+-- 4316, 2018, Dinamarca, MF, 7, 0, 1
+-- 4317, 2014, Corea del Sur, DF, 4, 0, 0
+-- 4318, 2014, Ghana, GK, 12, 0, 1
+-- 4319, 1954, Alemania Occidental, GK, 22, 0, 1
+-- 4319, 1958, Alemania Occidental, GK, 22, 0, 1
+-- 4320, 2022, Corea del Sur, MF, 22, 0, 1
+-- 4321, 2022, Corea del Sur, DF, 20, 0, 1
+-- 4322, 2022, Ghana, MF, 8, 0, 0
+-- 4323, 2010, Grecia, DF, 16, 0, 2
+-- 4324, 1978, Perú, FW, 19, 0, 5
+-- 4324, 1982, Perú, FW, 19, 0, 1
+-- 4325, 1978, Argentina, GK, 13, 0, 0
+-- 4326, 1954, Alemania Occidental, DF, 2, 0, 3
+-- 4327, 1978, Perú, MF, 18, 0, 0
+-- 4328, 1978, Túnez, MF, 12, 0, 2
+-- 4329, 1978, Túnez, DF, 5, 0, 1
+-- 4330, 1970, Inglaterra, DF, 5, 0, 3
+-- 4331, 1958, Argentina, FW, 11, 0, 2
+-- 4332, 1990, Rumania, FW, 7, 0, 3
+-- 4332, 1998, Rumania, FW, 7, 0, 1
+-- 4333, 2010, Argelia, MF, 8, 0, 3
+-- 4333, 2014, Argelia, MF, 8, 0, 1
+-- 4334, 1958, Hungría, FW, 16, 0, 0
+-- 4335, 1978, Francia, FW, 17, 0, 2
+-- 4335, 1982, Francia, FW, 17, 0, 3
+-- 4336, 1998, Croacia, GK, 1, 0, 7
+-- 4337, 1958, Francia, MF, 11, 0, 1
+-- 4338, 1934, España, FW, None, 0, 2
+-- 4339, 1994, Marruecos, FW, 17, 0, 0
+-- 4340, 2006, Alemania, DF, 16, 0, 7
+-- 4340, 2010, Alemania, DF, 16, 6, 6
+-- 4340, 2014, Alemania, MF, 16, 7, 7
+-- 4341, 2022, Túnez, MF, 14, 0, 3
+-- 4342, 2010, Argelia, DF, 14, 0, 0
+-- 4343, 1982, Honduras, FW, 7, 0, 0
+-- 4344, 1978, Túnez, FW, 7, 3, 3
+-- 4345, 1962, Checoslovaquia, DF, 2, 0, 5
+-- 4346, 1994, Estados Unidos, DF, 22, 0, 4
+-- 4346, 1998, Estados Unidos, DF, 22, 0, 0
+-- 4347, 2014, Inglaterra, MF, 20, 0, 1
+-- 4348, 2006, Angola, GK, 12, 0, 0
+-- 4349, 1998, Francia, GK, 1, 0, 0
+-- 4350, 1954, México, FW, 9, 0, 2
+-- 4351, 1998, Escocia, MF, 14, 0, 3
+-- 4352, 1970, Bélgica, FW, 18, 0, 2
+-- 4353, 2014, Inglaterra, FW, 18, 0, 0
+-- 4354, 1934, Bélgica, FW, None, 0, 0
+-- 4355, 2006, Inglaterra, MF, 8, 0, 5
+-- 4355, 2010, Inglaterra, MF, 8, 0, 4
+-- 4355, 2014, Inglaterra, MF, 8, 1, 1
+-- 4356, 2022, Ghana, DF, 2, 0, 1
+-- 4357, 1970, Marruecos, DF, 2, 0, 2
+-- 4358, 1986, Marruecos, DF, 3, 0, 4
+-- 4359, 1962, Chile, FW, 9, 0, 5
+-- 4359, 1966, Chile, FW, 11, 0, 2
+-- 4360, 1966, Italia, DF, 11, 0, 1
+-- 4361, 2006, Francia, GK, 1, 0, 0
+-- 4361, 2014, Francia, GK, 23, 0, 0
+-- 4362, 2006, Paises Bajos, MF, 6, 0, 0
+-- 4363, 2014, Suiza, DF, 6, 0, 0
+-- 4363, 2018, Suiza, DF, 6, 0, 1
+-- 4364, 2022, Paises Bajos, FW, 12, 0, 0
+-- 4365, 1934, España, FW, None, 0, 2
+-- 4366, 1934, Paises Bajos, FW, None, 0, 0
+-- 4367, 2014, Australia, GK, 12, 0, 0
+-- 4368, 1930, Francia, FW, None, 0, 3
+-- 4369, 1962, Uruguay, FW, 19, 0, 1
+-- 4370, 1954, Hungría, DF, 4, 0, 5
+-- 4371, 2006, Ecuador, GK, 22, 0, 0
+-- 4372, 1966, España, FW, 22, 0, 1
+-- 4373, 2022, España, DF, 24, 0, 3
+-- 4374, 1994, Estados Unidos, DF, 2, 0, 0
+-- 4375, 1930, Rumania, GK, None, 0, 2
+-- 4376, 1974, Chile, MF, 14, 0, 0
+-- 4377, 2006, Ecuador, MF, 7, 0, 0
+-- 4378, 1930, Bolivia, MF, None, 0, 2
+-- 4379, 1998, México, MF, 14, 0, 2
+-- 4380, 1982, Argelia, DF, 12, 0, 1
+-- 4381, 1966, Bulgaria, DF, 15, 0, 1
+-- 4382, 2022, Canadá, FW, 17, 0, 2
+-- 4383, 1986, URSS, DF, 15, 0, 2
+-- 4384, 1982, Francia, MF, 13, 0, 2
+-- 4385, 1986, México, GK, 1, 0, 5
+-- 4386, 1978, Argentina, MF, 12, 0, 1
+-- 4387, 2010, Dinamarca, FW, 18, 0, 0
+-- 4388, 1970, Suecia, MF, 7, 0, 3
+-- 4388, 1974, Suecia, MF, 7, 5, 5
+-- 4388, 1978, Suecia, MF, 8, 0, 3
+-- 4389, 1994, Suecia, FW, 7, 0, 2
+-- 4389, 2002, Suecia, FW, 11, 0, 4
+-- 4389, 2006, Suecia, FW, 11, 0, 4
+-- 4390, 1978, Suecia, MF, 9, 0, 3
+-- 4391, 1990, Suecia, DF, 4, 0, 3
+-- 4392, 2018, Suecia, MF, 7, 0, 4
+-- 4393, 1970, Suecia, GK, 12, 0, 2
+-- 4393, 1974, Suecia, GK, 12, 0, 0
+-- 4394, 2022, Canadá, DF, 22, 0, 2
+-- 4395, 2006, Trinidad y Tobago, FW, 10, 0, 0
+-- 4396, 1934, Egipto, MF, None, 0, 1
+-- 4397, 1998, Irán, FW, 13, 0, 0
+-- 4398, 1974, Polonia, FW, 16, 0, 7
+-- 4398, 1978, Polonia, FW, 16, 0, 6
+-- 4398, 1982, Polonia, FW, 16, 0, 7
+-- 4399, 1974, Alemania Oriental, MF, 13, 0, 3
+-- 4400, 1998, Dinamarca, FW, 11, 0, 5
+-- 4401, 1986, Dinamarca, MF, 11, 0, 4
+-- 4401, 1998, Dinamarca, MF, 10, 5, 5
+-- 4402, 1998, Camerún, DF, 12, 0, 0
+-- 4402, 2002, Camerún, MF, 12, 0, 3
+-- 4403, 1930, Francia, MF, None, 0, 0
+-- 4404, 1930, Francia, FW, None, 0, 2
+-- 4404, 1934, Francia, FW, None, 0, 0
+-- 4405, 1998, Dinamarca, DF, 13, 0, 1
+-- 4406, 2002, Dinamarca, DF, 4, 0, 4
+-- 4407, 1930, Perú, FW, None, 0, 2
+-- 4408, 2014, Argentina, FW, 22, 0, 4
+-- 4409, 1974, Escocia, FW, 19, 0, 1
+-- 4410, 1998, Nigeria, MF, 11, 0, 4
+-- 4410, 2002, Nigeria, MF, 11, 0, 1
+-- 4411, 1998, Jamaica, GK, 13, 0, 1
+-- 4412, 2006, Trinidad y Tobago, DF, 6, 0, 3
+-- 4413, 2018, Uruguay, MF, 17, 0, 3
+-- 4414, 2014, México, DF, 7, 0, 4
+-- 4414, 2018, México, MF, 7, 0, 3
+-- 4415, 1934, Hungría, MF, None, 0, 1
+-- 4415, 1938, Hungría, MF, None, 0, 4
+-- 4416, 2006, Australia, MF, 11, 0, 0
+-- 4417, 2010, Serbia, FW, 8, 0, 0
+-- 4418, 2022, Serbia, MF, 22, 0, 0
+-- 4419, 1986, Francia, DF, 7, 0, 1
+-- 4420, 1998, Inglaterra, DF, 3, 0, 4
+-- 4421, 1978, España, MF, 14, 0, 2
+-- 4422, 1974, Haití, FW, 16, 0, 0
+-- 4423, 1974, Haití, DF, 17, 0, 0
+-- 4424, 1982, Brasil, DF, 2, 0, 5
+-- 4425, 1970, Brasil, GK, 22, 0, 0
+-- 4425, 1974, Brasil, GK, 1, 0, 7
+-- 4425, 1978, Brasil, GK, 1, 6, 7
+-- 4425, 1986, Brasil, GK, 22, 0, 0
+-- 4426, 2022, Portugal, FW, 15, 0, 0
+-- 4427, 1954, Francia, MF, 19, 0, 0
+-- 4428, 2006, Angola, DF, 4, 0, 0
+-- 4429, 1998, Francia, DF, 18, 0, 2
+-- 4429, 2002, Francia, DF, 18, 0, 2
+-- 4430, 2014, Australia, FW, 7, 0, 3
+-- 4430, 2018, Australia, FW, 7, 0, 3
+-- 4430, 2022, Australia, FW, 7, 0, 4
+-- 4431, 1934, España, MF, None, 0, 2
+-- 4432, 1934, Bélgica, FW, None, 0, 0
+-- 4433, 1994, Rusia, MF, 20, 0, 1
+-- 4434, 2014, Corea del Sur, GK, 23, 0, 0
+-- 4435, 1966, Corea del Norte, GK, 1, 0, 4
+-- 4436, 2002, Corea del Sur, FW, 14, 0, 2
+-- 4436, 2006, Corea del Sur, FW, 14, 0, 3
+-- 4437, 2010, Corea del Sur, MF, 17, 0, 4
+-- 4437, 2014, Corea del Sur, MF, 17, 0, 3
+-- 4438, 1998, Corea del Sur, FW, 21, 0, 0
+-- 4438, 2010, Corea del Sur, FW, 20, 0, 0
+-- 4439, 2002, Corea del Sur, MF, 13, 0, 3
+-- 4439, 2006, Corea del Sur, MF, 13, 0, 2
+-- 4440, 1970, Inglaterra, FW, 7, 0, 3
+-- 4441, 1990, Corea del Sur, MF, 12, 0, 1
+-- 4442, 2006, Corea del Sur, MF, 17, 0, 3
+-- 4443, 2018, Corea del Sur, MF, 17, 0, 3
+-- 4443, 2022, Corea del Sur, MF, 10, 0, 3
+-- 4444, 1994, Corea del Sur, DF, 3, 0, 0
+-- 4445, 2010, Corea del Sur, DF, 14, 0, 4
+-- 4446, 2022, Corea del Sur, MF, 18, 0, 1
+-- 4447, 1966, Corea del Norte, GK, 9, 0, 0
+-- 4448, 2014, Corea del Sur, FW, 11, 0, 0
+-- 4449, 1998, Corea del Sur, DF, 3, 0, 0
+-- 4450, 1998, Corea del Sur, DF, 5, 0, 3
+-- 4450, 2002, Corea del Sur, DF, 15, 0, 1
+-- 4451, 1998, Inglaterra, MF, 17, 0, 0
+-- 4452, 1998, Corea del Sur, DF, 12, 0, 1
+-- 4453, 1954, Corea del Sur, MF, 5, 0, 0
+-- 4454, 1990, Corea del Sur, MF, 10, 0, 0
+-- 4454, 1998, Corea del Sur, MF, 15, 0, 2
+-- 4455, 2010, Corea del Sur, FW, 11, 0, 0
+-- 4456, 2018, Corea del Sur, MF, 10, 0, 0
+-- 4457, 1986, Corea del Sur, FW, 6, 0, 0
+-- 4457, 1990, Corea del Sur, FW, 6, 0, 0
+-- 4458, 1994, Corea del Sur, GK, 22, 0, 0
+-- 4458, 2002, Corea del Sur, GK, 1, 0, 7
+-- 4458, 2006, Corea del Sur, GK, 1, 3, 3
+-- 4458, 2010, Corea del Sur, GK, 1, 0, 0
+-- 4459, 2014, Corea del Sur, DF, 12, 0, 3
+-- 4459, 2018, Corea del Sur, DF, 2, 0, 3
+-- 4460, 1990, Corea del Sur, MF, 22, 0, 1
+-- 4460, 1994, Corea del Sur, MF, 6, 0, 3
+-- 4461, 2002, Corea del Sur, MF, 10, 0, 5
+-- 4461, 2006, Corea del Sur, DF, 12, 0, 3
+-- 4461, 2010, Corea del Sur, DF, 12, 0, 4
+-- 4462, 1958, Gales, FW, 17, 0, 0
+-- 4463, 1958, Escocia, FW, 14, 0, 2
+-- 4464, 1978, Perú, FW, 15, 0, 0
+-- 4464, 1982, Perú, FW, 5, 0, 2
+-- 4465, 1950, Paraguay, MF, None, 0, 2
+-- 4466, 1938, Suiza, DF, None, 0, 3
+-- 4467, 1934, Estados Unidos, MF, None, 0, 0
+-- 4468, 1998, Alemania, GK, 22, 0, 0
+-- 4468, 2002, Alemania, GK, 12, 0, 0
+-- 4468, 2006, Alemania, GK, 1, 0, 6
+-- 4469, 1994, Suiza, GK, 12, 0, 0
+-- 4470, 1934, Alemania, FW, None, 0, 4
+-- 4470, 1938, Alemania, FW, None, 0, 2
+-- 4471, 1982, Escocia, GK, 22, 0, 0
+-- 4471, 1986, Escocia, GK, 1, 0, 3
+-- 4471, 1990, Escocia, GK, 1, 0, 3
+-- 4471, 1998, Escocia, GK, 1, 0, 3
+-- 4472, 1966, Suiza, DF, 14, 0, 1
+-- 4473, 1974, Brasil, FW, 8, 0, 3
+-- 4474, 2002, Sudáfrica, DF, 5, 0, 0
+-- 4475, 2006, Croacia, MF, 15, 0, 0
+-- 4476, 2006, Croacia, MF, 16, 0, 0
+-- 4477, 1990, RF de Yugoslavia, GK, 22, 0, 0
+-- 4477, 1998, RF de Yugoslavia, GK, 12, 0, 0
+-- 4478, 2018, Francia, FW, 8, 0, 1
+-- 4479, 2002, Uruguay, DF, 3, 0, 2
+-- 4480, 1986, Canadá, DF, 2, 0, 3
+-- 4481, 2006, Inglaterra, MF, 19, 0, 0
+-- 4481, 2010, Inglaterra, MF, 7, 0, 2
+-- 4482, 2014, Paises Bajos, FW, 17, 0, 1
+-- 4483, 1970, Perú, FW, 9, 0, 4
+-- 4484, 1994, Brasil, MF, 16, 0, 4
+-- 4484, 1998, Brasil, MF, 18, 0, 6
+-- 4485, 1966, Italia, MF, 12, 0, 1
+-- 4486, 1994, Noruega, MF, 8, 0, 3
+-- 4486, 1998, Noruega, MF, 8, 0, 3
+-- 4487, 2010, Suiza, GK, 21, 0, 0
+-- 4488, 1934, Brasil, FW, None, 0, 1
+-- 4488, 1938, Brasil, FW, None, 2, 4
+-- 4489, 1954, Uruguay, MF, 6, 0, 0
+-- 4490, 1962, Chile, DF, 14, 0, 0
+-- 4491, 2018, Dinamarca, MF, 18, 0, 0
+-- 4492, 1986, Dinamarca, MF, 6, 0, 4
+-- 4493, 2018, Colombia, MF, 16, 0, 2
+-- 4494, 1958, Francia, DF, 5, 0, 6
+-- 4495, 1950, España, DF, None, 0, 0
+-- 4496, 1994, Bulgaria, MF, 9, 0, 7
+-- 4497, 1982, Chile, FW, 9, 0, 0
+-- 4498, 2010, Sudáfrica, MF, 12, 0, 2
+-- 4499, 1986, Canadá, GK, 1, 0, 2
+-- 4500, 1990, Escocia, DF, 15, 0, 1
+-- 4501, 2022, Gales, MF, 23, 0, 0
+-- 4502, 2006, Polonia, DF, 18, 0, 0
+-- 4503, 2018, Polonia, FW, 9, 3, 3
+-- 4503, 2022, Polonia, FW, 9, 4, 4
+-- 4504, 2002, Estados Unidos, MF, 7, 0, 2
+-- 4504, 2006, Estados Unidos, DF, 7, 0, 2
+-- 4505, 1958, Paraguay, FW, 16, 0, 0
+-- 4506, 1958, Paraguay, DF, 3, 0, 3
+-- 4507, 1966, Corea del Norte, FW, 22, 0, 0
+-- 4508, 1966, Corea del Norte, DF, 16, 0, 2
+-- 4509, 1954, Corea del Sur, DF, 13, 0, 1
+-- 4510, 1954, Corea del Sur, FW, 19, 0, 1
+-- 4511, 1954, Corea del Sur, FW, 7, 0, 1
+-- 4512, 2002, China, MF, 8, 0, 3
+-- 4513, 2002, China, DF, 14, 0, 3
+-- 4514, 2002, China, MF, 18, 0, 3
+-- 4515, 1930, Francia, FW, None, 0, 3
+-- 4516, 1990, Camerún, MF, 15, 0, 1
+-- 4516, 1994, Camerún, MF, 6, 0, 3
+-- 4517, 1970, Alemania Occidental, FW, 14, 0, 4
+-- 4518, 2010, Suiza, DF, 2, 0, 3
+-- 4518, 2014, Suiza, DF, 2, 0, 4
+-- 4518, 2018, Suiza, DF, 2, 3, 3
+-- 4519, 1954, Alemania Occidental, DF, 10, 0, 4
+-- 4520, 1958, Suecia, MF, 4, 5, 5
+-- 4521, 2010, Portugal, FW, 9, 0, 1
+-- 4522, 1934, Francia, MF, None, 0, 1
+-- 4523, 1990, Rumania, GK, 22, 0, 0
+-- 4524, 1966, Corea del Norte, DF, 5, 0, 4
+-- 4525, 1966, Brasil, MF, 14, 0, 3
+-- 4526, 1978, Túnez, FW, 13, 0, 0
+-- 4527, 1990, Suecia, MF, 13, 0, 2
+-- 4527, 1994, Suecia, MF, 16, 0, 0
+-- 4528, 1950, Suecia, GK, None, 0, 0
+-- 4529, 2018, Suecia, DF, 3, 0, 4
+-- 4530, 1982, Austria, GK, 22, 0, 0
+-- 4530, 1990, Austria, GK, 1, 0, 3
+-- 4531, 1938, Suecia, MF, None, 0, 1
+-- 4532, 1978, Suecia, MF, 7, 0, 2
+-- 4533, 2002, Suecia, MF, 6, 0, 4
+-- 4533, 2006, Suecia, MF, 6, 0, 4
+-- 4534, 1974, Suecia, MF, 20, 0, 0
+-- 4535, 2022, Dinamarca, MF, 25, 0, 2
+-- 4536, 1986, Inglaterra, FW, 10, 0, 5
+-- 4536, 1990, Inglaterra, FW, 10, 0, 7
+-- 4537, 2018, Polonia, MF, 8, 0, 0
+-- 4538, 2018, Inglaterra, MF, 7, 0, 5
+-- 4539, 2002, Alemania, DF, 2, 0, 7
+-- 4540, 1990, Austria, MF, 10, 0, 1
+-- 4541, 1958, Yugoslavia, FW, 18, 0, 0
+-- 4542, 1938, Polonia, MF, None, 0, 0
+-- 4543, 1986, URSS, MF, 13, 0, 1
+-- 4543, 1990, URSS, MF, 8, 0, 2
+-- 4544, 1982, Alemania Occidental, MF, 7, 0, 6
+-- 4544, 1986, Alemania Occidental, MF, 7, 0, 1
+-- 4544, 1990, Alemania Occidental, MF, 7, 0, 3
+-- 4545, 1990, URSS, FW, 14, 0, 0
+-- 4546, 2022, Croacia, FW, 14, 0, 3
+-- 4547, 2018, Croacia, GK, 1, 0, 0
+-- 4547, 2022, Croacia, GK, 1, 0, 7
+-- 4548, 1950, Chile, GK, None, 3, 3
+-- 4549, 1998, Francia, DF, 3, 0, 6
+-- 4549, 2002, Francia, DF, 3, 0, 3
+-- 4550, 2018, Serbia, MF, 22, 0, 2
+-- 4551, 2010, Eslovenia, FW, 9, 0, 2
+-- 4552, 2006, Serbia y Montenegro, FW, 21, 0, 0
+-- 4553, 1990, Suecia, DF, 5, 0, 1
+-- 4553, 1994, Suecia, DF, 5, 0, 6
+-- 4554, 2002, Suecia, MF, 9, 0, 2
+-- 4554, 2006, Suecia, MF, 9, 0, 4
+-- 4555, 2002, Estados Unidos, DF, 16, 0, 0
+-- 4556, 1934, Francia, GK, None, 0, 0
+-- 4556, 1938, Francia, GK, None, 0, 0
+-- 4557, 2010, España, FW, 19, 0, 0
+-- 4558, 2022, España, MF, 6, 0, 1
+-- 4559, 2010, Francia, GK, 1, 0, 3
+-- 4559, 2014, Francia, GK, 1, 5, 5
+-- 4559, 2018, Francia, GK, 1, 6, 6
+-- 4559, 2022, Francia, GK, 1, 6, 6
+-- 4560, 2018, Argentina, MF, 20, 0, 0
+-- 4561, 1938, Italia, MF, None, 0, 4
+-- 4562, 2010, Nueva Zelanda, DF, 3, 0, 3
+-- 4563, 2022, Gales, DF, 17, 0, 0
+-- 4564, 2006, Angola, DF, 20, 0, 3
+-- 4565, 2010, Uruguay, MF, 14, 0, 0
+-- 4565, 2014, Uruguay, MF, 14, 0, 2
+-- 4566, 1966, Italia, MF, 13, 0, 2
+-- 4567, 2014, Rusia, GK, 12, 0, 0
+-- 4568, 1970, Alemania Occidental, FW, 17, 0, 4
+-- 4569, 1938, Suiza, MF, None, 0, 3
+-- 4570, 1974, Alemania Oriental, FW, 8, 0, 3
+-- 4571, 1958, Suecia, FW, 18, 0, 1
+-- 4572, 1954, Inglaterra, FW, 9, 0, 2
+-- 4573, 2018, Inglaterra, MF, 21, 0, 3
+-- 4574, 1994, Camerún, MF, 12, 0, 0
+-- 4575, 1970, URSS, DF, 7, 0, 1
+-- 4576, 1934, Suiza, MF, None, 0, 0
+-- 4577, 1994, Noruega, DF, 15, 0, 0
+-- 4578, 2006, República Checa, FW, 12, 0, 1
+-- 4579, 2014, Bélgica, DF, 18, 0, 1
+-- 4580, 1958, Argentina, DF, 4, 0, 3
+-- 4581, 2022, Estados Unidos, DF, 15, 0, 0
+-- 4582, 2002, Costa Rica, GK, 1, 3, 3
+-- 4583, 1938, Brasil, FW, None, 0, 3
+-- 4584, 2018, Portugal, GK, 12, 0, 0
+-- 4585, 1998, Japón, FW, 12, 0, 0
+-- 4586, 1994, España, GK, 22, 0, 0
+-- 4587, 2006, España, DF, 12, 0, 1
+-- 4588, 1934, Argentina, MF, None, 0, 1
+-- 4589, 1950, Paraguay, FW, None, 0, 2
+-- 4590, 1978, Francia, DF, 6, 0, 2
+-- 4590, 1982, Francia, DF, 6, 0, 1
+-- 4591, 1998, Argentina, FW, 7, 0, 4
+-- 4591, 2002, Argentina, FW, 7, 0, 2
+-- 4592, 2006, Paraguay, FW, 20, 0, 0
+-- 4593, 2022, Costa Rica, MF, 21, 0, 0
+-- 4594, 2002, Argentina, FW, 17, 0, 0
+-- 4595, 1930, México, FW, None, 0, 3
+-- 4596, 1958, México, FW, 21, 0, 0
+-- 4597, 2014, Honduras, GK, 1, 0, 0
+-- 4598, 1954, México, DF, 2, 0, 2
+-- 4599, 1966, Argentina, DF, 13, 0, 0
+-- 4600, 1962, Colombia, DF, 11, 0, 3
+-- 4601, 2002, Costa Rica, MF, 6, 0, 2
+-- 4602, 1950, Paraguay, FW, None, 2, 2
+-- 4603, 1970, México, FW, 10, 0, 1
+-- 4604, 1982, España, FW, 11, 0, 3
+-- 4605, 1978, México, FW, 8, 0, 1
+-- 4606, 1954, Hungría, MF, 3, 0, 5
+-- 4607, 1966, Alemania Occidental, MF, 16, 0, 0
+-- 4607, 1970, Alemania Occidental, DF, 16, 0, 0
+-- 4608, 1950, Italia, FW, None, 0, 0
+-- 4608, 1954, Italia, FW, 11, 0, 3
+-- 4609, 1934, Argentina, MF, None, 0, 0
+-- 4610, 1990, Argentina, DF, 13, 0, 2
+-- 4611, 1930, Perú, FW, None, 0, 2
+-- 4612, 1974, Escocia, FW, 11, 0, 3
+-- 4613, 1970, Uruguay, FW, 21, 0, 2
+-- 4614, 1962, Italia, DF, 2, 0, 2
+-- 4615, 2018, Dinamarca, GK, 16, 0, 0
+-- 4616, 1974, Haití, DF, 21, 0, 1
+-- 4617, 1954, Francia, MF, 11, 0, 0
+-- 4618, 2022, Senegal, MF, 25, 0, 0
+-- 4619, 1966, Portugal, FW, 8, 0, 0
+-- 4620, 1970, URSS, DF, 6, 0, 1
+-- 4621, 2006, Angola, FW, 18, 0, 0
+-- 4622, 2002, Dinamarca, FW, 18, 0, 0
+-- 4623, 2014, Croacia, DF, 6, 0, 3
+-- 4623, 2018, Croacia, DF, 6, 0, 6
+-- 4623, 2022, Croacia, DF, 6, 0, 6
+-- 4624, 1998, Jamaica, FW, 17, 0, 2
+-- 4625, 1986, Canadá, MF, 18, 0, 0
+-- 4626, 2018, Perú, DF, 22, 0, 0
+-- 4627, 2018, México, FW, 22, 0, 4
+-- 4627, 2022, México, FW, 22, 0, 3
+-- 4628, 1994, Colombia, MF, 8, 0, 0
+-- 4628, 1998, Colombia, MF, 8, 0, 3
+-- 4629, 1978, Polonia, FW, 19, 0, 2
+-- 4630, 1978, Paises Bajos, FW, 21, 0, 0
+-- 4631, 1970, Rumania, FW, 11, 3, 3
+-- 4632, 1994, Suecia, DF, 15, 0, 0
+-- 4632, 2002, Suecia, DF, 16, 0, 4
+-- 4632, 2006, Suecia, DF, 4, 0, 4
+-- 4633, 2002, Brasil, DF, 3, 0, 7
+-- 4633, 2006, Brasil, DF, 3, 0, 5
+-- 4633, 2010, Brasil, DF, 3, 5, 5
+-- 4634, 1938, Checoslovaquia, FW, None, 0, 2
+-- 4635, 2010, Uruguay, DF, 2, 6, 6
+-- 4635, 2014, Uruguay, DF, 2, 1, 1
+-- 4636, 1978, México, MF, 18, 0, 0
+-- 4637, 1990, Checoslovaquia, FW, 18, 0, 0
+-- 4638, 1994, España, MF, 21, 0, 4
+-- 4638, 1998, España, MF, 21, 0, 3
+-- 4638, 2002, España, MF, 21, 0, 3
+-- 4639, 2010, Brasil, FW, 9, 0, 5
+-- 4640, 1934, España, MF, None, 0, 0
+-- 4641, 1974, Brasil, DF, 2, 0, 6
+-- 4642, 2006, Brasil, DF, 14, 0, 0
+-- 4642, 2010, Brasil, DF, 14, 0, 0
+-- 4643, 1934, Brasil, FW, None, 0, 1
+-- 4643, 1938, Brasil, FW, None, 0, 2
+-- 4644, 2014, Brasil, MF, 17, 0, 6
+-- 4645, 1934, Brasil, DF, None, 0, 1
+-- 4646, 2002, Brasil, FW, 21, 0, 0
+-- 4647, 1982, Brasil, DF, 4, 0, 5
+-- 4648, 2014, Bélgica, FW, 9, 0, 2
+-- 4648, 2018, Bélgica, FW, 9, 0, 6
+-- 4648, 2022, Bélgica, FW, 9, 0, 0
+-- 4649, 2022, Serbia, MF, 16, 0, 3
+-- 4650, 2010, Serbia, DF, 13, 0, 2
+-- 4651, 2014, Bosnia-Herzegovina, MF, 16, 0, 2
+-- 4652, 1998, México, MF, 19, 0, 2
+-- 4652, 2002, México, MF, 11, 0, 4
+-- 4653, 1990, Rumania, GK, 1, 4, 4
+-- 4654, 2018, Rusia, GK, 12, 0, 0
+-- 4655, 2014, Australia, MF, 21, 0, 0
+-- 4655, 2018, Australia, MF, 8, 0, 0
+-- 4656, 1990, Rumania, MF, 21, 0, 3
+-- 4656, 1994, Rumania, MF, 5, 0, 5
+-- 4657, 1970, Rumania, DF, 3, 0, 3
+-- 4658, 1990, Rumania, MF, 11, 0, 0
+-- 4659, 2002, España, FW, 12, 0, 0
+-- 4660, 1978, Argentina, FW, 14, 0, 5
+-- 4661, 1950, Suiza, DF, None, 0, 3
+-- 4662, 2018, Suecia, DF, 2, 0, 4
+-- 4663, 2006, Suiza, FW, 18, 0, 0
+-- 4664, 2002, Dinamarca, DF, 13, 0, 0
+-- 4665, 1966, Alemania Occidental, DF, 14, 0, 1
+-- 4666, 1938, Polonia, FW, None, 0, 0
+-- 4667, 1934, Estados Unidos, MF, None, 0, 0
+-- 4668, 2010, Argelia, GK, 23, 0, 2
+-- 4668, 2014, Argelia, GK, 23, 0, 4
+-- 4669, 2002, China, MF, 9, 2, 2
+-- 4670, 2018, Túnez, DF, 12, 0, 2
+-- 4670, 2022, Túnez, DF, 12, 0, 1
+-- 4671, 1970, Marruecos, MF, 6, 0, 3
+-- 4672, 2022, Australia, FW, 11, 0, 0
+-- 4673, 1990, Camerún, MF, 21, 0, 3
+-- 4673, 1994, Camerún, MF, 11, 0, 0
+-- 4674, 2022, Argentina, MF, 20, 0, 6
+-- 4675, 1950, Estados Unidos, DF, None, 0, 3
+-- 4676, 1978, Escocia, MF, 16, 0, 1
+-- 4677, 1982, España, DF, 14, 0, 0
+-- 4677, 1986, España, DF, 4, 0, 1
+-- 4678, 1954, Uruguay, GK, 12, 0, 0
+-- 4679, 1938, Brasil, DF, None, 0, 4
+-- 4680, 2018, Panamá, DF, 13, 0, 1
+-- 4681, 2022, Japón, FW, 20, 0, 0
+-- 4682, 1994, Grecia, FW, 9, 0, 3
+-- 4683, 1954, Hungría, FW, 17, 0, 0
+-- 4684, 1974, Chile, DF, 12, 0, 0
+-- 4685, 1950, Chile, DF, None, 0, 1
+-- 4686, 1958, Escocia, MF, 11, 0, 1
+-- 4687, 1974, Australia, MF, 8, 0, 3
+-- 4688, 1954, Escocia, FW, 8, 0, 2
+-- 4689, 2018, Australia, FW, 14, 0, 0
+-- 4689, 2022, Australia, FW, 9, 0, 0
+-- 4690, 1978, Polonia, DF, 3, 0, 5
+-- 4691, 2006, Irán, MF, 21, 0, 2
+-- 4692, 1994, Arabia Saudita, DF, 5, 0, 4
+-- 4692, 1998, Arabia Saudita, DF, 5, 0, 0
+-- 4693, 2022, Inglaterra, MF, 25, 0, 0
+-- 4694, 1938, Polonia, GK, None, 0, 1
+-- 4695, 2022, Catar, MF, 23, 0, 2
+-- 4696, 1982, Argelia, FW, 11, 0, 3
+-- 4696, 1986, Argelia, FW, 11, 0, 3
+-- 4697, 2002, Dinamarca, FW, 21, 0, 0
+-- 4698, 2022, Arabia Saudita, DF, 3, 0, 0
+-- 4699, 2006, Paises Bajos, MF, 16, 0, 0
+-- 4700, 2022, Japón, FW, 25, 0, 3
+-- 4701, 2022, Dinamarca, DF, 5, 0, 3
+-- 4702, 1954, Bélgica, MF, 20, 0, 0
+-- 4703, 1974, Zaire, MF, 15, 0, 1
+-- 4704, 1974, Zaire, FW, 18, 0, 0
+-- 4705, 2002, Uruguay, FW, 11, 0, 0
+-- 4706, 2010, México, DF, 19, 0, 0
+-- 4707, 1970, El Salvador, GK, 1, 0, 3
+-- 4708, 1982, Alemania Occidental, MF, 14, 0, 4
+-- 4708, 1986, Alemania Occidental, MF, 10, 0, 6
+-- 4709, 2010, Italia, DF, 2, 0, 0
+-- 4710, 1950, Italia, MF, None, 0, 1
+-- 4711, 2006, Suiza, DF, 3, 0, 3
+-- 4711, 2010, Suiza, DF, 3, 0, 0
+-- 4712, 1954, Italia, DF, 13, 0, 2
+-- 4713, 1974, Suecia, FW, 15, 0, 1
+-- 4714, 2018, Islandia, DF, 18, 0, 3
+-- 4715, 1990, Suecia, FW, 20, 0, 1
+-- 4716, 1938, Cuba, FW, None, 0, 2
+-- 4717, 2018, Inglaterra, DF, 6, 0, 6
+-- 4717, 2022, Inglaterra, DF, 6, 0, 5
+-- 4718, 1998, Irán, MF, 2, 0, 3
+-- 4718, 2006, Irán, MF, 2, 0, 3
+-- 4719, 1974, Australia, GK, 22, 0, 0
+-- 4720, 2014, Irán, DF, 13, 0, 0
+-- 4721, 1954, Francia, MF, 13, 0, 1
+-- 4722, 1998, Austria, MF, 17, 0, 3
+-- 4723, 1986, Iraq, MF, 16, 0, 0
+-- 4724, 1998, Camerún, MF, 19, 0, 1
+-- 4725, 2014, Argelia, FW, 21, 0, 1
+-- 4726, 1982, Francia, DF, 7, 0, 1
+-- 4727, 1954, Alemania Occidental, MF, 8, 0, 5
+-- 4728, 2010, Brasil, DF, 2, 0, 5
+-- 4728, 2014, Brasil, DF, 23, 0, 3
+-- 4729, 1962, Uruguay, GK, 12, 0, 0
+-- 4730, 1966, Alemania Occidental, GK, 22, 0, 0
+-- 4730, 1970, Alemania Occidental, GK, 1, 0, 5
+-- 4730, 1974, Alemania Occidental, GK, 1, 0, 7
+-- 4730, 1978, Alemania Occidental, GK, 1, 0, 6
+-- 4731, 1934, Francia, DF, None, 0, 1
+-- 4732, 1998, Estados Unidos, MF, 19, 0, 2
+-- 4733, 2002, Polonia, GK, 12, 0, 1
+-- 4734, 1954, Checoslovaquia, FW, 18, 0, 0
+-- 4735, 2022, Croacia, MF, 7, 0, 1
+-- 4736, 1982, Polonia, DF, 10, 0, 7
+-- 4736, 1986, Polonia, DF, 10, 0, 4
+-- 4737, 1990, Camerún, FW, 20, 0, 5
+-- 4738, 2002, Francia, MF, 7, 0, 1
+-- 4738, 2006, Francia, MF, 6, 0, 7
+-- 4739, 2006, Japón, FW, 11, 0, 1
+-- 4740, 2018, Japón, DF, 20, 0, 1
+-- 4741, 2010, Camerún, MF, 11, 0, 2
+-- 4741, 2014, Camerún, MF, 11, 0, 0
+-- 4742, 2022, Serbia, MF, 6, 0, 1
+-- 4743, 1974, Zaire, FW, 14, 0, 2
+-- 4744, 2022, Paises Bajos, DF, 16, 0, 0
+-- 4745, 1982, Perú, MF, 18, 0, 0
+-- 4746, 1954, Checoslovaquia, FW, 9, 0, 0
+-- 4747, 1970, Suecia, DF, 15, 0, 0
+-- 4748, 1998, Jamaica, DF, 2, 0, 2
+-- 4749, 1982, Nueva Zelanda, DF, 11, 0, 1
+-- 4750, 1978, Italia, DF, 6, 0, 1
+-- 4751, 1962, Italia, DF, 5, 0, 2
+-- 4752, 1990, Italia, DF, 7, 0, 7
+-- 4752, 1994, Italia, DF, 5, 4, 7
+-- 4752, 1998, Italia, DF, 3, 5, 5
+-- 4752, 2002, Italia, DF, 3, 4, 4
+-- 4753, 1950, Bolivia, FW, None, 0, 1
+-- 4754, 2010, Grecia, DF, 22, 0, 0
+-- 4755, 2006, Togo, FW, 11, 0, 0
+-- 4756, 1966, URSS, FW, 19, 0, 5
+-- 4757, 2006, Francia, MF, 7, 0, 6
+-- 4757, 2010, Francia, MF, 15, 0, 1
+-- 4758, 1986, Escocia, DF, 3, 0, 2
+-- 4758, 1990, Escocia, DF, 6, 0, 3
+-- 4759, 2006, Togo, MF, 10, 0, 3
+-- 4760, 1974, Zaire, MF, 8, 0, 3
+-- 4761, 1998, Croacia, DF, 18, 0, 0
+-- 4762, 1962, URSS, FW, 16, 0, 2
+-- 4763, 1990, Italia, FW, 18, 0, 0
+-- 4764, 1994, Argentina, MF, 21, 0, 0
+-- 4765, 2010, Francia, GK, 16, 0, 0
+-- 4765, 2018, Francia, GK, 16, 0, 1
+-- 4765, 2022, Francia, GK, 16, 0, 1
+-- 4766, 2014, Costa de Marfil, GK, 23, 0, 0
+-- 4767, 2014, Argelia, DF, 20, 0, 3
+-- 4768, 2010, Camerún, MF, 20, 0, 0
+-- 4769, 2014, Croacia, FW, 17, 0, 2
+-- 4769, 2018, Croacia, FW, 17, 0, 6
+-- 4770, 2018, Senegal, FW, 10, 2, 3
+-- 4771, 1950, Brasil, FW, None, 0, 4
+-- 4772, 1970, Uruguay, MF, 10, 0, 6
+-- 4773, 1978, Italia, DF, 7, 0, 0
+-- 4774, 1966, Brasil, GK, 12, 0, 1
+-- 4775, 2014, Francia, DF, 13, 0, 0
+-- 4776, 1970, Alemania Occidental, GK, 21, 0, 0
+-- 4777, 2014, Grecia, MF, 2, 0, 4
+-- 4778, 1966, Uruguay, DF, 3, 0, 4
+-- 4779, 2006, Portugal, MF, 18, 0, 6
+-- 4780, 1950, Inglaterra, FW, None, 0, 2
+-- 4781, 1930, Brasil, FW, None, 0, 0
+-- 4782, 2014, Grecia, DF, 4, 0, 4
+-- 4783, 1994, Grecia, DF, 4, 0, 1
+-- 4784, 1990, España, FW, 20, 0, 1
+-- 4785, 1962, URSS, MF, 9, 0, 0
+-- 4786, 2002, Turquía, FW, 17, 0, 1
+-- 4787, 1934, Egipto, FW, None, 0, 0
+-- 4788, 1982, Argelia, DF, 16, 0, 3
+-- 4788, 1986, Argelia, DF, 16, 0, 3
+-- 4789, 2010, Argelia, MF, 6, 0, 0
+-- 4790, 1998, Irán, MF, 7, 0, 0
+-- 4791, 1950, Suecia, DF, None, 0, 0
+-- 4792, 1974, Zaire, MF, 10, 3, 3
+-- 4793, 1974, Uruguay, MF, 18, 0, 3
+-- 4794, 2006, Angola, FW, 9, 0, 0
+-- 4795, 1954, Yugoslavia, MF, 14, 0, 0
+-- 4796, 1974, Australia, FW, 10, 0, 0
+-- 4797, 1966, Portugal, FW, 15, 0, 0
+-- 4798, 1970, El Salvador, DF, 14, 0, 1
+-- 4799, 1986, México, DF, 4, 0, 0
+-- 4800, 1978, Perú, DF, 3, 0, 6
+-- 4801, 2006, Paraguay, DF, 15, 0, 0
+-- 4802, 1930, Perú, DF, None, 1, 1
+-- 4803, 1982, Honduras, MF, 6, 3, 3
+-- 4804, 1982, Argentina, MF, 10, 0, 5
+-- 4804, 1986, Argentina, MF, 10, 7, 7
+-- 4804, 1990, Argentina, MF, 10, 7, 7
+-- 4804, 1994, Argentina, MF, 10, 2, 2
+-- 4805, 1994, Grecia, MF, 12, 0, 1
+-- 4806, 1978, España, FW, 15, 0, 0
+-- 4807, 1970, Bulgaria, FW, 18, 0, 1
+-- 4808, 1954, Francia, MF, 12, 0, 2
+-- 4808, 1958, Francia, MF, 12, 0, 5
+-- 4809, 1978, España, DF, 17, 0, 3
+-- 4810, 1966, España, FW, 9, 0, 1
+-- 4811, 2014, Brasil, DF, 6, 0, 6
+-- 4811, 2018, Brasil, DF, 12, 1, 4
+-- 4812, 1954, Francia, DF, 7, 1, 1
+-- 4812, 1958, Francia, DF, 6, 1, 1
+-- 4813, 1994, Italia, GK, 12, 0, 2
+-- 4814, 2006, España, DF, 4, 0, 1
+-- 4814, 2010, España, DF, 4, 0, 0
+-- 4815, 1990, Costa Rica, MF, 19, 0, 4
+-- 4816, 2010, Italia, GK, 12, 0, 2
+-- 4817, 2010, Italia, MF, 15, 0, 2
+-- 4817, 2014, Italia, MF, 8, 0, 3
+-- 4818, 1994, Brasil, DF, 15, 0, 7
+-- 4819, 2006, Angola, DF, 23, 0, 0
+-- 4820, 1970, Brasil, DF, 6, 0, 1
+-- 4820, 1974, Brasil, DF, 16, 0, 0
+-- 4821, 2002, Brasil, GK, 1, 0, 7
+-- 4822, 1966, Chile, MF, 12, 0, 3
+-- 4823, 2006, Angola, DF, 2, 0, 0
+-- 4824, 2006, España, MF, 16, 0, 2
+-- 4825, 1934, España, DF, None, 0, 1
+-- 4826, 2006, República Checa, DF, 3, 0, 0
+-- 4827, 2006, Suiza, MF, 5, 0, 0
+-- 4828, 1998, Chile, DF, 5, 0, 4
+-- 4829, 1950, Italia, MF, None, 0, 1
+-- 4829, 1954, Italia, MF, 15, 0, 1
+-- 4830, 1974, Yugoslavia, GK, 1, 0, 6
+-- 4831, 1998, Croacia, MF, 11, 0, 1
+-- 4832, 2010, Chile, GK, 23, 0, 0
+-- 4833, 2002, Costa Rica, DF, 3, 0, 3
+-- 4833, 2006, Costa Rica, DF, 3, 3, 3
+-- 4834, 2010, Alemania, MF, 21, 0, 0
+-- 4835, 1990, Costa Rica, DF, 15, 0, 0
+-- 4836, 1982, Inglaterra, FW, 11, 0, 5
+-- 4837, 1998, Rumania, MF, 15, 0, 1
+-- 4838, 1974, Brasil, DF, 6, 0, 7
+-- 4839, 1974, Brasil, DF, 3, 4, 7
+-- 4840, 1982, Italia, MF, 11, 0, 2
+-- 4841, 2006, Angola, GK, 22, 0, 0
+-- 4842, 2018, Portugal, MF, 10, 0, 3
+-- 4842, 2022, Portugal, MF, 17, 0, 1
+-- 4843, 2018, Portugal, DF, 19, 0, 0
+-- 4844, 1970, El Salvador, DF, 3, 3, 3
+-- 4845, 1962, Argentina, DF, 14, 0, 0
+-- 4846, 1930, Yugoslavia, FW, None, 0, 3
+-- 4847, 1966, URSS, FW, 20, 0, 1
+-- 4848, 1934, Hungría, FW, None, 0, 2
+-- 4849, 1986, Bulgaria, DF, 13, 0, 2
+-- 4850, 1986, Bulgaria, MF, 14, 0, 1
+-- 4851, 1962, Yugoslavia, DF, 5, 0, 6
+-- 4852, 2002, Sudáfrica, GK, 20, 0, 0
+-- 4853, 1982, Argelia, MF, 18, 0, 0
+-- 4853, 1986, Argelia, MF, 8, 0, 2
+-- 4854, 1990, Italia, MF, 14, 0, 0
+-- 4855, 2022, Camerún, MF, 26, 0, 0
+-- 4856, 2002, México, MF, 4, 4, 4
+-- 4856, 2006, México, DF, 4, 4, 4
+-- 4856, 2010, México, DF, 4, 2, 4
+-- 4856, 2014, México, DF, 4, 4, 4
+-- 4856, 2018, México, DF, 4, 1, 1
+-- 4857, 2018, Brasil, DF, 13, 0, 0
+-- 4857, 2022, Brasil, DF, 4, 0, 4
+-- 4858, 1998, Alemania, FW, 11, 0, 0
+-- 4859, 1970, Bélgica, DF, 14, 0, 0
+-- 4860, 1934, Brasil, MF, None, 1, 1
+-- 4860, 1938, Brasil, MF, None, 3, 3
+-- 4861, 1986, Inglaterra, DF, 5, 0, 1
+-- 4862, 1954, Escocia, GK, 1, 0, 2
+-- 4863, 2022, México, FW, 20, 0, 2
+-- 4864, 1990, España, MF, 6, 0, 4
+-- 4865, 2022, Brasil, FW, 26, 0, 1
+-- 4866, 1934, Estados Unidos, DF, None, 0, 0
+-- 4867, 2022, Costa Rica, DF, 16, 0, 1
+-- 4868, 2022, Argentina, GK, 23, 0, 7
+-- 4869, 2014, Ecuador, MF, 20, 0, 0
+-- 4870, 2002, Costa Rica, DF, 5, 0, 3
+-- 4870, 2006, Costa Rica, DF, 5, 0, 1
+-- 4871, 2014, Colombia, FW, 21, 0, 2
+-- 4872, 2010, España, MF, 20, 0, 0
+-- 4872, 2014, España, MF, 4, 0, 1
+-- 4873, 1978, México, DF, 12, 0, 2
+-- 4874, 1970, El Salvador, MF, 9, 0, 2
+-- 4875, 2022, Argentina, FW, 22, 0, 2
+-- 4876, 2022, Argentina, DF, 25, 0, 2
+-- 4877, 2014, Honduras, MF, 10, 0, 0
+-- 4878, 2014, Honduras, FW, 16, 0, 0
+-- 4879, 1954, México, DF, 4, 0, 1
+-- 4880, 1990, Uruguay, FW, 17, 0, 1
+-- 4881, 2010, Honduras, FW, 15, 0, 1
+-- 4882, 1950, Uruguay, DF, None, 0, 0
+-- 4882, 1954, Uruguay, DF, 3, 2, 5
+-- 4882, 1962, Uruguay, DF, 14, 0, 0
+-- 4883, 2018, Portugal, FW, 18, 0, 0
+-- 4884, 2010, Nigeria, FW, 9, 0, 0
+-- 4885, 2014, Paises Bajos, DF, 4, 0, 5
+-- 4886, 1938, Noruega, FW, None, 0, 0
+-- 4887, 1978, Hungría, DF, 12, 0, 2
+-- 4887, 1982, Hungría, DF, 2, 0, 3
+-- 4888, 1998, Inglaterra, GK, 13, 0, 0
+-- 4888, 2002, Inglaterra, GK, 13, 0, 0
+-- 4889, 1962, Argentina, DF, 3, 0, 3
+-- 4889, 1966, Argentina, DF, 7, 0, 4
+-- 4890, 2002, Túnez, DF, 14, 0, 0
+-- 4891, 1966, Argentina, FW, 21, 0, 4
+-- 4892, 1994, Marruecos, DF, 14, 0, 0
+-- 4893, 2006, Argentina, MF, 8, 0, 5
+-- 4893, 2010, Argentina, MF, 14, 4, 4
+-- 4893, 2014, Argentina, MF, 14, 0, 7
+-- 4893, 2018, Argentina, MF, 14, 0, 4
+-- 4894, 1930, Uruguay, DF, None, 0, 3
+-- 4895, 1930, Francia, FW, None, 0, 2
+-- 4896, 1962, Italia, FW, 8, 0, 1
+-- 4897, 1962, Checoslovaquia, FW, 14, 0, 1
+-- 4898, 1934, Italia, GK, None, 0, 0
+-- 4898, 1938, Italia, GK, None, 0, 0
+-- 4899, 2010, Sudáfrica, DF, 3, 0, 2
+-- 4900, 1998, Sudáfrica, FW, 6, 0, 1
+-- 4901, 1958, URSS, GK, 12, 0, 0
+-- 4901, 1962, URSS, GK, 2, 0, 0
+-- 4902, 1958, URSS, DF, 15, 0, 0
+-- 4902, 1962, URSS, DF, 7, 0, 4
+-- 4903, 1974, Uruguay, DF, 3, 1, 1
+-- 4904, 1982, Checoslovaquia, FW, 19, 0, 0
+-- 4905, 1958, Checoslovaquia, MF, 5, 0, 4
+-- 4905, 1962, Checoslovaquia, MF, 6, 0, 6
+-- 4906, 1934, Egipto, GK, None, 0, 1
+-- 4907, 1950, Uruguay, GK, None, 0, 3
+-- 4907, 1954, Uruguay, GK, 1, 0, 5
+-- 4908, 2006, Arabia Saudita, MF, 19, 0, 0
+-- 4909, 1974, Zaire, MF, 6, 0, 2
+-- 4910, 1982, Italia, MF, 17, 0, 0
+-- 4910, 1994, Italia, FW, 19, 0, 3
+-- 4911, 1990, Camerún, DF, 4, 0, 2
+-- 4912, 1978, Escocia, MF, 7, 0, 1
+-- 4913, 2002, Estados Unidos, DF, 4, 0, 3
+-- 4913, 2006, Estados Unidos, DF, 4, 0, 2
+-- 4914, 1974, Polonia, MF, 14, 0, 7
+-- 4915, 1978, Polonia, MF, 11, 0, 4
+-- 4916, 2010, España, FW, 13, 0, 0
+-- 4916, 2014, España, FW, 13, 0, 0
+-- 4917, 1982, Kuwait, MF, 7, 0, 1
+-- 4918, 2022, Costa Rica, DF, 22, 0, 0
+-- 4919, 2010, Eslovenia, FW, 23, 0, 0
+-- 4920, 2002, Italia, DF, 23, 0, 0
+-- 4920, 2006, Italia, DF, 23, 0, 3
+-- 4921, 2006, Angola, MF, 11, 0, 3
+-- 4922, 1990, Rumania, MF, 15, 0, 0
+-- 4923, 1954, Escocia, MF, 17, 0, 0
+-- 4924, 1966, Hungría, MF, 13, 0, 2
+-- 4925, 2006, Paises Bajos, DF, 4, 0, 3
+-- 4925, 2010, Paises Bajos, DF, 4, 0, 6
+-- 4926, 2002, Estados Unidos, FW, 11, 0, 2
+-- 4927, 1954, Suiza, DF, 6, 0, 0
+-- 4928, 2018, Túnez, GK, 16, 1, 1
+-- 4928, 2022, Túnez, GK, 1, 0, 0
+-- 4929, 2018, Serbia, MF, 21, 0, 3
+-- 4930, 2010, Camerún, MF, 21, 0, 1
+-- 4930, 2014, Camerún, MF, 21, 0, 2
+-- 4931, 2010, Argelia, MF, 13, 0, 3
+-- 4932, 1970, Uruguay, DF, 3, 0, 6
+-- 4933, 1958, Hungría, DF, 2, 0, 4
+-- 4933, 1962, Hungría, DF, 2, 0, 4
+-- 4933, 1966, Hungría, DF, 3, 0, 4
+-- 4934, 2002, Japón, DF, 3, 0, 4
+-- 4935, 2010, Japón, MF, 8, 0, 4
+-- 4936, 1982, Alemania, MF, 18, 0, 0
+-- 4936, 1986, Alemania, MF, 8, 0, 7
+-- 4936, 1990, Alemania, MF, 10, 7, 7
+-- 4936, 1994, Alemania, MF, 10, 5, 5
+-- 4936, 1998, Alemania, MF, 8, 0, 3
+-- 4937, 1950, Inglaterra, FW, None, 0, 1
+-- 4937, 1954, Inglaterra, FW, 7, 0, 2
+-- 4938, 1930, Francia, DF, None, 0, 3
+-- 4938, 1934, Francia, DF, None, 0, 1
+-- 4938, 1938, Francia, DF, None, 2, 2
+-- 4939, 1962, Italia, GK, 12, 0, 1
+-- 4940, 2014, Francia, MF, 14, 0, 5
+-- 4940, 2018, Francia, MF, 14, 0, 4
+-- 4941, 1962, Yugoslavia, MF, 15, 0, 1
+-- 4942, 2002, Polonia, GK, 22, 0, 0
+-- 4943, 1982, Polonia, MF, 8, 0, 6
+-- 4943, 1986, Polonia, MF, 6, 0, 3
+-- 4944, 1954, Brasil, FW, 17, 0, 1
+-- 4945, 1986, Brasil, DF, 16, 0, 0
+-- 4945, 1990, Brasil, DF, 21, 0, 4
+-- 4946, 1954, Brasil, DF, 15, 0, 0
+-- 4946, 1958, Brasil, DF, 16, 0, 0
+-- 4946, 1962, Brasil, DF, 3, 6, 6
+-- 4947, 1994, Brasil, MF, 5, 0, 7
+-- 4948, 1954, Suiza, FW, 19, 0, 0
+-- 4949, 2010, Eslovenia, DF, 22, 0, 0
+-- 4950, 2014, Francia, MF, 12, 0, 0
+-- 4951, 2014, Brasil, DF, 14, 0, 1
+-- 4952, 1950, Chile, FW, None, 0, 1
+-- 4953, 1958, Paraguay, GK, 1, 0, 1
+-- 4954, 1990, Egipto, MF, 14, 0, 0
+-- 4955, 1982, Kuwait, DF, 14, 0, 3
+-- 4956, 2018, Irán, GK, 12, 0, 0
+-- 4957, 1990, Brasil, MF, 18, 0, 0
+-- 4957, 1994, Brasil, MF, 17, 0, 4
+-- 4958, 2022, Marruecos, DF, 3, 0, 5
+-- 4959, 1978, Polonia, FW, 2, 0, 0
+-- 4960, 1966, Uruguay, GK, 1, 0, 4
+-- 4960, 1970, Uruguay, GK, 1, 0, 6
+-- 4960, 1974, Uruguay, GK, 1, 2, 3
+-- 4961, 1966, Italia, MF, 14, 0, 3
+-- 4961, 1970, Italia, MF, 15, 0, 6
+-- 4961, 1974, Italia, MF, 7, 0, 3
+-- 4962, 2022, Camerún, DF, 17, 0, 0
+-- 4963, 2018, Francia, FW, 10, 0, 6
+-- 4963, 2022, Francia, FW, 10, 0, 6
+-- 4964, 2018, Senegal, DF, 2, 0, 0
+-- 4965, 2022, Camerún, FW, 20, 0, 3
+-- 4966, 2010, Camerún, DF, 19, 0, 3
+-- 4966, 2014, Camerún, DF, 17, 0, 3
+-- 4967, 1982, Camerún, MF, 8, 0, 3
+-- 4968, 2018, Senegal, DF, 4, 0, 0
+-- 4969, 1982, Camerún, DF, 7, 0, 3
+-- 4970, 1998, Camerún, FW, 10, 0, 3
+-- 4970, 2002, Camerún, FW, 10, 0, 3
+-- 4971, 1990, Camerún, MF, 8, 0, 4
+-- 4971, 1994, Camerún, MF, 8, 0, 2
+-- 4972, 1990, Irlanda, DF, 4, 2, 5
+-- 4973, 1958, Inglaterra, GK, 1, 0, 4
+-- 4974, 1990, Escocia, MF, 20, 0, 0
+-- 4975, 1994, Irlanda, MF, 21, 0, 1
+-- 4975, 2002, Irlanda, MF, 7, 0, 1
+-- 4976, 1986, Escocia, FW, 16, 0, 0
+-- 4977, 1998, Estados Unidos, FW, 20, 0, 2
+-- 4977, 2002, Estados Unidos, FW, 20, 0, 5
+-- 4977, 2006, Estados Unidos, FW, 20, 0, 3
+-- 4978, 1990, Escocia, MF, 16, 0, 3
+-- 4979, 1998, Sudáfrica, FW, 17, 0, 3
+-- 4979, 2002, Sudáfrica, FW, 17, 0, 3
+-- 4980, 1982, Irlanda del Norte, DF, 12, 0, 5
+-- 4980, 1986, Irlanda del Norte, DF, 18, 0, 0
+-- 4981, 1982, Nueva Zelanda, MF, 19, 0, 0
+-- 4982, 1990, Escocia, FW, 9, 0, 1
+-- 4983, 1958, Escocia, DF, 7, 0, 0
+-- 4984, 1982, Irlanda del Norte, MF, 4, 0, 5
+-- 4984, 1986, Irlanda del Norte, MF, 6, 0, 3
+-- 4985, 1958, Irlanda del Norte, FW, 15, 0, 0
+-- 4986, 1982, Inglaterra, MF, 10, 0, 0
+-- 4987, 1986, Irlanda del Norte, DF, 5, 0, 3
+-- 4988, 1954, Inglaterra, MF, 14, 0, 2
+-- 4989, 1930, Estados Unidos, FW, None, 0, 3
+-- 4990, 2010, Nueva Zelanda, MF, 15, 0, 0
+-- 4991, 1994, Irlanda, MF, 17, 0, 0
+-- 4992, 2014, Australia, DF, 19, 0, 2
+-- 4993, 1974, Escocia, DF, 3, 0, 3
+-- 4993, 1982, Escocia, DF, 2, 1, 1
+-- 4994, 1990, Irlanda, DF, 7, 3, 5
+-- 4994, 1994, Irlanda, DF, 5, 0, 4
+-- 4995, 2022, Australia, MF, 14, 0, 4
+-- 4996, 1958, Irlanda del Norte, MF, 10, 0, 5
+-- 4997, 1982, Irlanda del Norte, MF, 10, 0, 5
+-- 4997, 1986, Irlanda del Norte, MF, 8, 3, 3
+-- 4998, 1950, Estados Unidos, MF, None, 1, 3
+-- 4999, 1990, Escocia, FW, 14, 0, 1
+-- 5000, 1982, Nueva Zelanda, MF, 12, 0, 3
+-- 5001, 2014, Australia, MF, 17, 0, 2
+-- 5002, 2022, Estados Unidos, MF, 8, 0, 4
+-- 5003, 1990, Escocia, DF, 17, 0, 1
+-- 5004, 1998, Escocia, MF, 17, 0, 0
+-- 5005, 1998, Escocia, DF, 6, 0, 0
+-- 5006, 1934, Estados Unidos, FW, None, 0, 1
+-- 5007, 1982, Escocia, DF, 13, 0, 0
+-- 5007, 1986, Escocia, DF, 5, 0, 1
+-- 5007, 1990, Escocia, DF, 2, 0, 3
+-- 5008, 1990, Escocia, MF, 10, 0, 2
+-- 5009, 1990, Irlanda, MF, 21, 0, 0
+-- 5009, 1994, Irlanda, MF, 19, 0, 0
+-- 5010, 1990, Inglaterra, MF, 16, 0, 3
+-- 5011, 1998, Inglaterra, MF, 11, 0, 0
+-- 5012, 1958, Irlanda del Norte, DF, 3, 0, 5
+-- 5013, 1954, Escocia, FW, 22, 0, 0
+-- 5014, 1986, Irlanda del Norte, MF, 20, 0, 0
+-- 5015, 1998, Escocia, DF, 2, 0, 1
+-- 5016, 1958, Irlanda del Norte, FW, 11, 0, 5
+-- 5017, 1990, Escocia, DF, 19, 0, 3
+-- 5018, 1974, Escocia, DF, 21, 0, 0
+-- 5018, 1978, Escocia, DF, 5, 0, 0
+-- 5019, 1986, Escocia, MF, 11, 0, 1
+-- 5019, 1990, Escocia, MF, 5, 0, 2
+-- 5020, 1934, Italia, MF, None, 0, 5
+-- 5020, 1938, Italia, FW, None, 4, 4
+-- 5021, 1954, Alemania Occidental, MF, 9, 0, 1
+-- 5022, 2010, Chile, DF, 17, 0, 3
+-- 5022, 2014, Chile, DF, 17, 0, 4
+-- 5023, 1990, Costa Rica, FW, 7, 0, 0
+-- 5023, 2002, Costa Rica, FW, 17, 0, 0
+-- 5024, 2010, México, FW, 22, 0, 0
+-- 5025, 1978, México, FW, 20, 0, 0
+-- 5026, 1994, Argentina, FW, 11, 0, 0
+-- 5027, 1986, Argelia, DF, 5, 0, 2
+-- 5028, 2010, Argelia, DF, 18, 0, 0
+-- 5028, 2014, Argelia, DF, 12, 0, 3
+-- 5029, 2014, Bosnia-Herzegovina, MF, 18, 0, 1
+-- 5030, 1994, Bélgica, DF, 2, 0, 1
+-- 5031, 1958, Gales, FW, 7, 0, 4
+-- 5032, 1938, Indias Orientales Holand., MF, None, 1, 1
+-- 5033, 1954, Bélgica, MF, 6, 0, 2
+-- 5034, 1982, Bélgica, DF, 4, 2, 4
+-- 5035, 1986, Argelia, DF, 20, 0, 2
+-- 5036, 2014, Suiza, FW, 18, 0, 3
+-- 5037, 1954, Turquía, MF, 15, 0, 0
+-- 5038, 1954, Suiza, FW, 20, 0, 2
+-- 5038, 1962, Suiza, MF, 11, 0, 1
+-- 5039, 2010, Portugal, MF, 16, 0, 4
+-- 5039, 2014, Portugal, MF, 16, 0, 2
+-- 5040, 2006, Costa de Marfil, DF, 12, 0, 2
+-- 5041, 2022, Túnez, MF, 8, 0, 0
+-- 5042, 2014, Colombia, MF, 15, 0, 1
+-- 5043, 1930, México, FW, None, 0, 1
+-- 5044, 1994, Bolivia, MF, 8, 0, 3
+-- 5045, 1962, Yugoslavia, FW, 17, 0, 2
+-- 5046, 1998, Túnez, FW, 12, 0, 0
+-- 5046, 2002, Túnez, MF, 21, 0, 2
+-- 5047, 1950, Suecia, FW, None, 0, 2
+-- 5047, 1958, Suecia, FW, 20, 0, 2
+-- 5048, 2002, Suecia, DF, 2, 0, 4
+-- 5048, 2006, Suecia, DF, 3, 4, 4
+-- 5049, 2006, Túnez, MF, 23, 0, 0
+-- 5050, 1930, Uruguay, MF, None, 0, 0
+-- 5051, 2022, Ecuador, MF, 15, 0, 0
+-- 5052, 2014, Chile, DF, 2, 0, 4
+-- 5053, 1950, Bolivia, FW, None, 0, 0
+-- 5054, 1986, Argelia, FW, 9, 0, 1
+-- 5055, 1962, Hungría, MF, 15, 0, 0
+-- 5056, 2022, Portugal, DF, 19, 0, 1
+-- 5057, 2002, Ecuador, MF, 19, 0, 3
+-- 5057, 2006, Ecuador, MF, 8, 0, 4
+-- 5057, 2014, Ecuador, MF, 8, 0, 0
+-- 5058, 2002, Uruguay, DF, 2, 0, 1
+-- 5059, 2022, Ecuador, MF, 20, 0, 2
+-- 5060, 2006, México, DF, 16, 0, 4
+-- 5061, 1962, Uruguay, DF, 4, 0, 3
+-- 5062, 1954, Uruguay, FW, 20, 0, 1
+-- 5063, 1930, Bolivia, FW, None, 2, 2
+-- 5064, 1970, El Salvador, MF, 19, 0, 1
+-- 5065, 1970, El Salvador, DF, 4, 0, 1
+-- 5066, 2002, España, MF, 16, 0, 1
+-- 5067, 1978, México, MF, 6, 0, 2
+-- 5068, 2006, Angola, MF, 14, 0, 3
+-- 5069, 1990, Colombia, DF, 21, 0, 0
+-- 5069, 1994, Colombia, DF, 3, 0, 1
+-- 5070, 1986, Paraguay, FW, 11, 0, 4
+-- 5071, 2010, Honduras, DF, 23, 0, 2
+-- 5072, 2018, Francia, DF, 22, 0, 0
+-- 5073, 2022, Senegal, GK, 16, 0, 4
+-- 5074, 2022, Senegal, DF, 2, 0, 0
+-- 5075, 2022, Senegal, MF, 6, 0, 3
+-- 5076, 2018, Marruecos, DF, 3, 0, 0
+-- 5077, 1958, Argentina, FW, 9, 0, 3
+-- 5078, 1962, Brasil, MF, 17, 0, 0
+-- 5079, 1962, Italia, FW, 11, 0, 2
+-- 5080, 2022, Ghana, DF, 14, 0, 1
+-- 5081, 2006, Ghana, DF, 5, 0, 4
+-- 5081, 2010, Ghana, DF, 5, 4, 4
+-- 5082, 2010, Ghana, DF, 8, 0, 3
+-- 5082, 2014, Ghana, DF, 19, 0, 3
+-- 5083, 1990, Paises Bajos, GK, 22, 0, 0
+-- 5084, 1990, Estados Unidos, GK, 1, 0, 3
+-- 5084, 1994, Estados Unidos, GK, 1, 4, 4
+-- 5084, 2002, Estados Unidos, GK, 19, 0, 0
+-- 5085, 2022, Gales, DF, 5, 0, 3
+-- 5086, 2018, Argentina, DF, 2, 0, 3
+-- 5087, 1966, México, MF, 17, 0, 2
+-- 5088, 2002, México, MF, 13, 0, 1
+-- 5089, 2018, Australia, DF, 3, 0, 0
+-- 5090, 2018, Túnez, DF, 4, 0, 3
+-- 5090, 2022, Túnez, DF, 4, 0, 3
+-- 5091, 1954, Bélgica, FW, 11, 2, 2
+-- 5092, 1966, Italia, FW, 15, 0, 1
+-- 5093, 1954, Inglaterra, GK, 1, 0, 3
+-- 5094, 1986, Marruecos, FW, 11, 0, 2
+-- 5095, 1998, Inglaterra, MF, 15, 0, 0
+-- 5096, 2014, Bélgica, MF, 14, 0, 3
+-- 5096, 2018, Bélgica, FW, 14, 0, 3
+-- 5096, 2022, Bélgica, FW, 14, 0, 1
+-- 5097, 2006, Alemania, DF, 17, 0, 6
+-- 5097, 2010, Alemania, DF, 17, 0, 7
+-- 5097, 2014, Alemania, DF, 17, 0, 4
+-- 5098, 1982, Argelia, DF, 5, 0, 3
+-- 5099, 2010, Argelia, DF, 20, 0, 0
+-- 5099, 2014, Argelia, DF, 6, 0, 2
+-- 5100, 2002, Costa Rica, GK, 18, 0, 0
+-- 5100, 2006, Costa Rica, GK, 1, 0, 0
+-- 5101, 1962, URSS, FW, 17, 0, 3
+-- 5102, 1974, Yugoslavia, GK, 22, 0, 0
+-- 5103, 2006, Argentina, FW, 19, 0, 1
+-- 5103, 2010, Argentina, FW, 10, 1, 5
+-- 5103, 2014, Argentina, FW, 10, 7, 7
+-- 5103, 2018, Argentina, FW, 10, 4, 4
+-- 5103, 2022, Argentina, FW, 10, 7, 7
+-- 5104, 1982, Austria, DF, 16, 0, 0
+-- 5105, 1978, Hungría, GK, 21, 0, 1
+-- 5105, 1982, Hungría, GK, 1, 0, 3
+-- 5106, 1962, Hungría, DF, 3, 0, 4
+-- 5106, 1966, Hungría, DF, 5, 0, 4
+-- 5107, 1966, Bulgaria, DF, 12, 0, 0
+-- 5108, 1962, URSS, FW, 18, 0, 1
+-- 5108, 1966, URSS, FW, 16, 0, 2
+-- 5108, 1970, URSS, FW, 18, 0, 0
+-- 5109, 2002, Camerún, DF, 13, 0, 0
+-- 5110, 2002, Alemania, DF, 21, 0, 7
+-- 5110, 2006, Alemania, DF, 21, 0, 6
+-- 5111, 1954, Alemania Occidental, MF, 11, 0, 0
+-- 5112, 2018, Bélgica, DF, 15, 0, 5
+-- 5112, 2022, Bélgica, MF, 15, 0, 2
+-- 5113, 2018, Argentina, MF, 13, 0, 2
+-- 5114, 1990, Camerún, MF, 10, 0, 5
+-- 5114, 1994, Camerún, MF, 10, 0, 3
+-- 5115, 2002, Túnez, FW, 7, 0, 0
+-- 5116, 1974, Zaire, DF, 16, 0, 0
+-- 5117, 2002, Dinamarca, MF, 15, 0, 0
+-- 5118, 1986, España, MF, 21, 0, 5
+-- 5118, 1990, España, MF, 21, 0, 4
+-- 5119, 1978, Francia, MF, 11, 0, 2
+-- 5120, 2010, México, GK, 23, 0, 0
+-- 5121, 1938, Paises Bajos, GK, None, 0, 0
+-- 5122, 2010, Brasil, DF, 6, 0, 5
+-- 5123, 2002, Francia, MF, 22, 0, 1
+-- 5124, 1970, Perú, MF, 6, 0, 4
+-- 5125, 1970, Checoslovaquia, DF, 3, 0, 3
+-- 5126, 2014, Bélgica, GK, 12, 0, 0
+-- 5126, 2018, Bélgica, GK, 12, 0, 0
+-- 5126, 2022, Bélgica, GK, 12, 0, 0
+-- 5127, 2006, Portugal, DF, 13, 0, 6
+-- 5127, 2010, Portugal, DF, 13, 0, 1
+-- 5128, 2022, Catar, DF, 2, 0, 3
+-- 5129, 1978, España, GK, 13, 0, 3
+-- 5129, 1982, España, GK, 22, 0, 0
+-- 5130, 1978, España, DF, 5, 0, 2
+-- 5131, 1950, Uruguay, FW, None, 0, 4
+-- 5131, 1954, Uruguay, FW, 9, 0, 3
+-- 5132, 1930, Yugoslavia, DF, None, 0, 3
+-- 5133, 1950, Yugoslavia, FW, None, 0, 1
+-- 5134, 1998, RF de Yugoslavia, DF, 11, 0, 4
+-- 5135, 1994, Rumania, DF, 14, 0, 3
+-- 5136, 1998, RF de Yugoslavia, FW, 9, 0, 4
+-- 5137, 1934, Paises Bajos, FW, None, 0, 0
+-- 5138, 1974, Bulgaria, FW, 9, 0, 0
+-- 5139, 1986, Bulgaria, GK, 1, 0, 4
+-- 5139, 1994, Bulgaria, GK, 1, 7, 7
+-- 5139, 1998, Bulgaria, GK, 12, 0, 0
+-- 5140, 1994, Bulgaria, FW, 17, 0, 0
+-- 5141, 1990, Checoslovaquia, GK, 21, 0, 0
+-- 5142, 2006, Polonia, MF, 13, 0, 0
+-- 5143, 1974, Bulgaria, FW, 14, 0, 0
+-- 5144, 1974, Uruguay, FW, 19, 0, 2
+-- 5145, 1950, Inglaterra, FW, None, 0, 1
+-- 5146, 1994, Suecia, MF, 18, 0, 3
+-- 5147, 2018, Serbia, DF, 15, 0, 3
+-- 5147, 2022, Serbia, DF, 4, 0, 3
+-- 5148, 2006, Ucrania, FW, 15, 0, 1
+-- 5149, 2010, Serbia, MF, 11, 0, 1
+-- 5150, 2018, Polonia, FW, 7, 0, 1
+-- 5150, 2022, Polonia, FW, 7, 0, 1
+-- 5151, 2018, Serbia, MF, 20, 0, 3
+-- 5151, 2022, Serbia, MF, 20, 0, 3
+-- 5152, 2022, Serbia, GK, 23, 0, 3
+-- 5153, 2002, Eslovenia, DF, 3, 0, 3
+-- 5154, 1974, Australia, GK, 21, 0, 0
+-- 5155, 2022, Brasil, DF, 14, 0, 4
+-- 5156, 2010, Argentina, FW, 19, 0, 1
+-- 5157, 2006, Argentina, DF, 15, 0, 1
+-- 5158, 2018, Serbia, MF, 4, 0, 2
+-- 5159, 1990, Alemania Occidental, FW, 11, 0, 0
+-- 5160, 1982, Camerún, FW, 9, 0, 3
+-- 5160, 1990, Camerún, FW, 9, 0, 0
+-- 5160, 1994, Camerún, FW, 9, 0, 0
+-- 5161, 2022, Canadá, MF, 23, 0, 0
+-- 5162, 2010, Chile, MF, 20, 0, 1
+-- 5163, 1982, Bélgica, DF, 3, 0, 5
+-- 5164, 1982, Bélgica, MF, 19, 0, 0
+-- 5165, 1986, Canadá, DF, 20, 0, 0
+-- 5166, 2022, Canadá, DF, 4, 0, 3
+-- 5167, 2014, Costa Rica, DF, 19, 0, 1
+-- 5168, 1982, Escocia, DF, 6, 0, 2
+-- 5168, 1986, Escocia, DF, 6, 1, 3
+-- 5169, 2006, Australia, DF, 22, 0, 0
+-- 5169, 2010, Australia, DF, 20, 0, 0
+-- 5169, 2014, Australia, MF, 5, 0, 1
+-- 5169, 2018, Australia, DF, 5, 0, 3
+-- 5170, 2002, Inglaterra, DF, 2, 0, 5
+-- 5171, 1982, Inglaterra, DF, 12, 5, 5
+-- 5172, 2010, Inglaterra, MF, 16, 0, 3
+-- 5172, 2014, Inglaterra, MF, 17, 0, 1
+-- 5173, 1998, Serbia y Montenegro, FW, 17, 0, 2
+-- 5173, 2006, Serbia y Montenegro, FW, 9, 2, 2
+-- 5174, 1954, Yugoslavia, DF, 16, 0, 0
+-- 5175, 2006, Angola, MF, 6, 0, 1
+-- 5176, 1958, Yugoslavia, MF, 14, 0, 0
+-- 5177, 1954, Yugoslavia, FW, 18, 0, 3
+-- 5177, 1958, Yugoslavia, FW, 7, 0, 3
+-- 5178, 1954, Corea del Sur, DF, 6, 1, 1
+-- 5179, 2018, Colombia, DF, 13, 0, 3
+-- 5180, 1994, España, MF, 16, 0, 1
+-- 5181, 2022, Japón, MF, 10, 0, 0
+-- 5182, 1998, Irán, FW, 21, 0, 3
+-- 5183, 2014, Ecuador, MF, 14, 0, 2
+-- 5184, 2006, Brasil, MF, 18, 0, 0
+-- 5185, 1934, Suiza, DF, None, 2, 2
+-- 5185, 1938, Suiza, DF, None, 2, 2
+-- 5186, 1994, Italia, DF, 7, 0, 0
+-- 5187, 1994, Grecia, GK, 1, 0, 1
+-- 5188, 1930, Paraguay, DF, None, 0, 1
+-- 5189, 2014, Bélgica, FW, 11, 0, 2
+-- 5190, 2018, Rusia, MF, 15, 0, 1
+-- 5191, 2018, Rusia, MF, 16, 0, 0
+-- 5192, 2018, Brasil, DF, 3, 2, 5
+-- 5193, 1958, Paraguay, DF, 17, 0, 1
+-- 5194, 1974, Brasil, FW, 19, 0, 1
+-- 5195, 1998, RF de Yugoslavia, DF, 2, 0, 2
+-- 5196, 2006, Irán, GK, 1, 0, 3
+-- 5197, 2014, Bosnia-Herzegovina, MF, 10, 0, 2
+-- 5198, 1986, Canadá, FW, 14, 0, 1
+-- 5199, 1950, Yugoslavia, FW, None, 1, 3
+-- 5199, 1954, Yugoslavia, FW, 8, 2, 3
+-- 5200, 1970, Bulgaria, FW, 20, 0, 1
+-- 5201, 2022, Japón, MF, 9, 0, 0
+-- 5202, 2014, Grecia, FW, 9, 0, 1
+-- 5203, 1994, Grecia, MF, 10, 1, 1
+-- 5204, 2018, Serbia, FW, 9, 0, 3
+-- 5204, 2022, Serbia, FW, 9, 0, 3
+-- 5205, 2022, Serbia, DF, 13, 0, 0
+-- 5206, 2002, Japón, DF, 17, 3, 3
+-- 5206, 2006, Japón, DF, 5, 2, 2
+-- 5207, 2002, Suecia, DF, 4, 4, 4
+-- 5208, 2002, Túnez, DF, 4, 0, 1
+-- 5209, 2002, Túnez, DF, 19, 0, 0
+-- 5210, 1998, Sudáfrica, MF, 11, 0, 2
+-- 5211, 1986, Bulgaria, FW, 9, 0, 3
+-- 5212, 2022, Serbia, DF, 25, 0, 1
+-- 5213, 1982, Polonia, GK, 1, 0, 7
+-- 5213, 1986, Polonia, GK, 1, 0, 4
+-- 5214, 2006, Túnez, MF, 12, 0, 3
+-- 5215, 2002, Sudáfrica, MF, 8, 0, 0
+-- 5216, 2002, Sudáfrica, MF, 10, 0, 0
+-- 5217, 1998, Sudáfrica, DF, 2, 0, 0
+-- 5218, 1958, Brasil, MF, 13, 0, 0
+-- 5219, 1970, Rumania, DF, 4, 0, 3
+-- 5220, 1954, Escocia, FW, 11, 0, 2
+-- 5221, 1938, Alemania, MF, None, 1, 1
+-- 5222, 1930, Brasil, FW, None, 0, 1
+-- 5223, 2010, Sudáfrica, MF, 11, 0, 2
+-- 5224, 2006, Croacia, MF, 14, 0, 0
+-- 5224, 2014, Croacia, MF, 10, 0, 3
+-- 5224, 2018, Croacia, MF, 10, 7, 7
+-- 5224, 2022, Croacia, MF, 10, 7, 7
+-- 5225, 1990, Alemania, MF, 17, 0, 0
+-- 5225, 1994, Alemania, MF, 7, 0, 3
+-- 5225, 1998, Alemania, MF, 7, 0, 2
+-- 5226, 1930, Bélgica, FW, None, 0, 2
+-- 5227, 2014, Rusia, MF, 15, 0, 0
+-- 5228, 2006, Ghana, DF, 13, 0, 2
+-- 5229, 1986, Iraq, MF, 7, 0, 2
+-- 5230, 1986, Iraq, MF, 18, 0, 0
+-- 5231, 2006, Togo, FW, 17, 0, 3
+-- 5232, 1990, Emiratos Arabes, DF, 16, 0, 0
+-- 5233, 2022, Catar, DF, 17, 0, 2
+-- 5234, 2018, Irán, DF, 5, 0, 0
+-- 5234, 2022, Irán, DF, 5, 0, 3
+-- 5235, 1982, Kuwait, FW, 20, 0, 0
+-- 5236, 2022, Irán, DF, 2, 0, 1
+-- 5237, 2018, Egipto, FW, 9, 0, 3
+-- 5238, 2018, Colombia, DF, 17, 0, 4
+-- 5239, 2002, Sudáfrica, DF, 4, 0, 3
+-- 5239, 2010, Sudáfrica, DF, 4, 3, 3
+-- 5240, 2002, Sudáfrica, MF, 12, 0, 3
+-- 5241, 1998, Sudáfrica, MF, 20, 0, 0
+-- 5242, 1934, Paises Bajos, FW, None, 0, 0
+-- 5243, 1986, Dinamarca, MF, 7, 0, 1
+-- 5244, 1994, Rumania, FW, 17, 0, 0
+-- 5244, 1998, Rumania, FW, 9, 0, 3
+-- 5245, 1938, Rumania, FW, None, 0, 1
+-- 5246, 2002, Sudáfrica, DF, 22, 0, 0
+-- 5247, 1998, España, GK, 22, 0, 0
+-- 5248, 2022, Argentina, DF, 26, 0, 6
+-- 5249, 1978, Suecia, GK, 17, 0, 0
+-- 5250, 1998, Dinamarca, FW, 18, 0, 2
+-- 5251, 1966, Hungría, FW, 15, 0, 0
+-- 5252, 1998, Dinamarca, FW, 9, 0, 0
+-- 5253, 1958, Checoslovaquia, FW, 9, 0, 3
+-- 5253, 1962, Checoslovaquia, FW, 9, 0, 0
+-- 5254, 1950, España, FW, None, 0, 1
+-- 5255, 1982, Bélgica, MF, 18, 0, 0
+-- 5255, 1986, Bélgica, MF, 17, 0, 1
+-- 5256, 1994, Colombia, GK, 12, 0, 0
+-- 5256, 1998, Colombia, GK, 22, 0, 3
+-- 5256, 2014, Colombia, GK, 22, 0, 0
+-- 5257, 1970, El Salvador, MF, 12, 0, 1
+-- 5258, 2006, Japón, DF, 2, 0, 0
+-- 5259, 1958, Hungría, FW, 18, 0, 0
+-- 5259, 1962, Hungría, FW, 18, 0, 1
+-- 5260, 2018, España, DF, 16, 0, 0
+-- 5261, 2014, Irán, DF, 15, 0, 3
+-- 5261, 2018, Irán, DF, 15, 0, 0
+-- 5262, 2022, Portugal, MF, 25, 0, 3
+-- 5263, 2002, Italia, FW, 20, 0, 0
+-- 5264, 1950, México, DF, None, 1, 1
+-- 5265, 2014, Ecuador, MF, 7, 0, 3
+-- 5266, 1990, Costa Rica, DF, 20, 0, 4
+-- 5267, 2002, Uruguay, DF, 4, 3, 3
+-- 5268, 1970, Uruguay, MF, 5, 0, 6
+-- 5268, 1974, Uruguay, DF, 5, 0, 1
+-- 5269, 2022, México, DF, 3, 0, 3
+-- 5270, 1970, México, DF, 4, 0, 0
+-- 5271, 2014, Honduras, DF, 4, 0, 0
+-- 5272, 1930, Italia, MF, None, 0, 4
+-- 5272, 1934, Italia, MF, None, 0, 5
+-- 5273, 2022, Argentina, DF, 4, 0, 1
+-- 5274, 2006, Paraguay, MF, 17, 0, 0
+-- 5275, 2010, Italia, MF, 22, 0, 3
+-- 5276, 1934, Italia, DF, None, 0, 4
+-- 5276, 1938, Italia, DF, None, 0, 1
+-- 5277, 1990, Argentina, DF, 15, 0, 3
+-- 5278, 2018, Corea del Sur, MF, 18, 0, 2
+-- 5279, 1962, Inglaterra, DF, 16, 0, 4
+-- 5279, 1966, Inglaterra, DF, 6, 6, 6
+-- 5279, 1970, Inglaterra, DF, 6, 4, 4
+-- 5280, 2006, Australia, DF, 3, 0, 4
+-- 5280, 2010, Australia, DF, 3, 0, 2
+-- 5281, 1994, Estados Unidos, FW, 15, 0, 0
+-- 5281, 1998, Estados Unidos, FW, 9, 0, 2
+-- 5281, 2002, Estados Unidos, FW, 9, 0, 0
+-- 5282, 2022, Gales, FW, 13, 0, 2
+-- 5283, 2022, Estados Unidos, DF, 18, 0, 0
+-- 5284, 1986, Canadá, DF, 5, 0, 0
+-- 5285, 1930, Estados Unidos, DF, None, 0, 3
+-- 5285, 1934, Estados Unidos, DF, None, 1, 1
+-- 5286, 2018, Australia, MF, 13, 0, 3
+-- 5286, 2022, Australia, MF, 13, 0, 4
+-- 5287, 1962, Italia, FW, 7, 1, 2
+-- 5288, 2006, Ecuador, GK, 12, 0, 4
+-- 5289, 1966, Portugal, DF, 17, 0, 3
+-- 5290, 1998, Paraguay, MF, 19, 0, 1
+-- 5291, 1970, Uruguay, FW, 11, 0, 3
+-- 5292, 2002, México, MF, 7, 0, 4
+-- 5292, 2006, México, FW, 11, 0, 1
+-- 5293, 2002, Uruguay, FW, 18, 0, 0
+-- 5294, 1930, Chile, DF, None, 0, 2
+-- 5295, 1990, Irlanda, DF, 5, 0, 5
+-- 5295, 1994, Irlanda, DF, 4, 0, 0
+-- 5296, 1950, Uruguay, FW, None, 0, 1
+-- 5297, 2010, Grecia, DF, 5, 0, 1
+-- 5297, 2014, Grecia, DF, 5, 0, 0
+-- 5298, 2022, España, FW, 7, 0, 1
+-- 5299, 1986, Portugal, DF, 13, 0, 0
+-- 5300, 1958, Checoslovaquia, MF, 20, 0, 0
+-- 5301, 1990, Checoslovaquia, MF, 11, 0, 5
+-- 5302, 1934, Rumania, MF, None, 0, 1
+-- 5303, 2018, Costa Rica, GK, 23, 0, 0
+-- 5304, 2010, Paraguay, DF, 3, 0, 5
+-- 5305, 1974, Uruguay, FW, 9, 0, 3
+-- 5306, 1998, Colombia, DF, 16, 0, 1
+-- 5307, 2010, México, DF, 15, 0, 2
+-- 5307, 2014, México, DF, 15, 0, 4
+-- 5307, 2018, México, DF, 15, 0, 3
+-- 5307, 2022, México, DF, 15, 0, 3
+-- 5308, 1994, Bolivia, FW, 11, 0, 0
+-- 5309, 1962, Chile, FW, 18, 0, 1
+-- 5310, 2018, España, FW, 9, 0, 0
+-- 5311, 1962, Suiza, DF, 5, 0, 1
+-- 5312, 2002, Costa Rica, GK, 23, 0, 0
+-- 5313, 1974, Escocia, FW, 20, 0, 2
+-- 5314, 1998, España, FW, 7, 0, 1
+-- 5314, 2002, España, FW, 9, 0, 3
+-- 5315, 1998, Italia, MF, 17, 0, 3
+-- 5316, 2010, Japón, FW, 19, 0, 0
+-- 5317, 1974, Italia, DF, 5, 0, 3
+-- 5318, 2002, Paraguay, MF, 16, 0, 0
+-- 5319, 2002, Japón, DF, 4, 1, 1
+-- 5320, 2010, Sudáfrica, MF, 19, 0, 0
+-- 5321, 2014, Japón, DF, 6, 0, 1
+-- 5322, 1998, Japón, MF, 15, 0, 0
+-- 5322, 2002, Japón, MF, 8, 0, 0
+-- 5323, 2022, Japón, MF, 13, 0, 3
+-- 5324, 1954, Alemania Occidental, FW, 13, 0, 5
+-- 5325, 1950, Italia, GK, None, 0, 1
+-- 5326, 1986, URSS, DF, 4, 0, 1
+-- 5327, 2022, Gales, MF, 16, 0, 0
+-- 5328, 1990, Irlanda, DF, 2, 0, 5
+-- 5329, 2022, Estados Unidos, FW, 16, 0, 0
+-- 5330, 2002, Irlanda, FW, 19, 0, 0
+-- 5331, 2018, Egipto, MF, 5, 0, 0
+-- 5332, 1950, Inglaterra, FW, None, 0, 3
+-- 5333, 1998, Sudáfrica, MF, 18, 0, 0
+-- 5334, 1982, Chile, FW, 11, 0, 3
+-- 5335, 2014, Nigeria, FW, 11, 0, 2
+-- 5335, 2018, Nigeria, FW, 11, 0, 3
+-- 5336, 1998, Sudáfrica, MF, 10, 0, 3
+-- 5337, 1978, Perú, FW, 12, 0, 0
+-- 5338, 2010, Nueva Zelanda, GK, 12, 0, 0
+-- 5339, 2014, Argelia, MF, 22, 0, 2
+-- 5340, 1994, Rusia, MF, 19, 0, 1
+-- 5340, 2002, Rusia, MF, 10, 0, 0
+-- 5341, 1962, México, GK, 22, 0, 0
+-- 5341, 1970, México, GK, 12, 0, 0
+-- 5342, 1954, México, GK, 12, 0, 1
+-- 5343, 2014, Italia, MF, 5, 0, 1
+-- 5344, 2018, Suiza, DF, 3, 0, 0
+-- 5345, 2014, Camerún, FW, 8, 0, 3
+-- 5346, 1934, Egipto, FW, None, 1, 1
+-- 5347, 2022, Alemania, FW, 26, 0, 0
+-- 5348, 2022, Inglaterra, MF, 19, 0, 2
+-- 5349, 1958, Argentina, MF, 16, 0, 0
+-- 5350, 2014, Portugal, MF, 8, 0, 3
+-- 5350, 2018, Portugal, MF, 8, 0, 2
+-- 5351, 1994, Camerún, FW, 20, 0, 0
+-- 5352, 1958, Francia, DF, 7, 0, 0
+-- 5353, 1978, Irán, GK, 12, 0, 0
+-- 5354, 1982, Polonia, GK, 22, 0, 0
+-- 5355, 1990, Brasil, DF, 13, 0, 2
+-- 5356, 1998, Bélgica, FW, 20, 0, 0
+-- 5357, 1998, Bélgica, FW, 9, 0, 0
+-- 5357, 2002, Bélgica, FW, 22, 0, 2
+-- 5358, 2010, Sudáfrica, FW, 9, 0, 3
+-- 5359, 1958, Checoslovaquia, DF, 2, 0, 4
+-- 5360, 2010, Serbia, FW, 21, 0, 0
+-- 5361, 1950, Yugoslavia, GK, None, 0, 3
+-- 5362, 1998, Croacia, GK, 12, 0, 0
+-- 5363, 2022, Túnez, FW, 7, 2, 2
+-- 5364, 2010, Dinamarca, DF, 23, 0, 0
+-- 5365, 1974, Zaire, GK, 1, 0, 3
+-- 5366, 1990, Emiratos Arabes, DF, 4, 0, 0
+-- 5367, 1982, Kuwait, DF, 3, 0, 3
+-- 5368, 1982, Kuwait, DF, 13, 0, 0
+-- 5369, 1950, Italia, FW, None, 0, 2
+-- 5369, 1954, Italia, FW, 7, 0, 2
+-- 5370, 2010, Eslovaquia, GK, 1, 0, 4
+-- 5371, 1958, Escocia, FW, 17, 0, 3
+-- 5372, 1978, Alemania Occidental, FW, 14, 0, 4
+-- 5373, 1970, Alemania Occidental, FW, 13, 0, 6
+-- 5373, 1974, Alemania Occidental, FW, 13, 0, 7
+-- 5374, 1978, Alemania Occidental, MF, 20, 0, 3
+-- 5374, 1982, Alemania Occidental, MF, 10, 0, 1
+-- 5375, 2006, Suiza, DF, 20, 0, 4
+-- 5376, 1934, Alemania, DF, None, 0, 1
+-- 5376, 1938, Alemania, DF, None, 0, 0
+-- 5377, 1934, España, MF, None, 0, 3
+-- 5378, 1990, Emiratos Arabes, GK, 17, 0, 3
+-- 5379, 2014, Bosnia-Herzegovina, MF, 13, 0, 2
+-- 5380, 1962, Yugoslavia, MF, 16, 1, 1
+-- 5381, 1970, Uruguay, DF, 6, 0, 6
+-- 5382, 2002, Sudáfrica, MF, 9, 0, 0
+-- 5383, 1974, Zaire, DF, 3, 0, 3
+-- 5384, 1974, Zaire, MF, 13, 0, 2
+-- 5385, 1950, Inglaterra, FW, None, 0, 2
+-- 5385, 1954, Inglaterra, FW, 17, 0, 1
+-- 5386, 1986, Brasil, FW, 7, 0, 3
+-- 5386, 1990, Brasil, FW, 15, 0, 3
+-- 5386, 1994, Brasil, FW, 19, 0, 0
+-- 5387, 1966, Francia, MF, 17, 0, 0
+-- 5388, 1982, Hungría, MF, 5, 0, 2
+-- 5389, 2010, Alemania, MF, 13, 0, 6
+-- 5389, 2014, Alemania, FW, 13, 0, 7
+-- 5389, 2018, Alemania, MF, 13, 0, 2
+-- 5389, 2022, Alemania, MF, 13, 0, 3
+-- 5390, 1970, Inglaterra, MF, 4, 0, 4
+-- 5391, 2010, Nueva Zelanda, MF, 17, 0, 0
+-- 5392, 2010, Corea del Norte, MF, 11, 0, 3
+-- 5393, 1978, Perú, FW, 7, 0, 6
+-- 5394, 1982, Bélgica, GK, 22, 0, 1
+-- 5394, 1986, Bélgica, GK, 12, 0, 0
+-- 5395, 2022, Catar, FW, 18, 0, 0
+-- 5396, 1970, México, MF, 8, 0, 3
+-- 5397, 1982, El Salvador, GK, 20, 0, 0
+-- 5398, 1986, México, MF, 16, 0, 4
+-- 5399, 1966, México, FW, 18, 0, 0
+-- 5400, 1930, Chile, FW, None, 0, 0
+-- 5401, 1950, Chile, FW, None, 0, 2
+-- 5402, 2014, Uruguay, GK, 12, 0, 0
+-- 5403, 2022, Catar, FW, 9, 0, 0
+-- 5404, 2006, Ghana, MF, 11, 0, 3
+-- 5404, 2010, Ghana, MF, 11, 0, 1
+-- 5404, 2014, Ghana, MF, 11, 0, 2
+-- 5405, 1994, Rumania, MF, 7, 0, 5
+-- 5405, 1998, Rumania, MF, 8, 0, 4
+-- 5406, 1970, URSS, MF, 14, 0, 4
+-- 5407, 2002, Uruguay, GK, 12, 0, 0
+-- 5408, 2002, Polonia, MF, 16, 0, 1
+-- 5409, 2018, Colombia, FW, 14, 0, 0
+-- 5410, 1930, Bolivia, GK, None, 0, 0
+-- 5411, 2018, Colombia, DF, 3, 0, 1
+-- 5412, 1990, Estados Unidos, FW, 16, 0, 3
+-- 5413, 1958, Escocia, FW, 16, 0, 2
+-- 5414, 2014, Nigeria, FW, 7, 0, 4
+-- 5414, 2018, Nigeria, FW, 7, 0, 2
+-- 5415, 2022, Estados Unidos, MF, 6, 0, 4
+-- 5416, 1974, Polonia, DF, 10, 0, 6
+-- 5417, 2022, Alemania, MF, 14, 0, 3
+-- 5418, 2010, Uruguay, GK, 1, 0, 7
+-- 5418, 2014, Uruguay, GK, 1, 0, 4
+-- 5418, 2018, Uruguay, GK, 1, 0, 5
+-- 5418, 2022, Uruguay, GK, 1, 0, 0
+-- 5419, 1998, Chile, MF, 18, 0, 0
+-- 5420, 1994, Italia, DF, 8, 0, 3
+-- 5421, 1958, Argentina, GK, 12, 0, 0
+-- 5422, 1962, Chile, FW, 19, 0, 0
+-- 5423, 2014, Alemania, DF, 21, 0, 1
+-- 5424, 2018, Japón, FW, 13, 0, 1
+-- 5425, 1930, Argentina, DF, None, 0, 1
+-- 5426, 1974, Yugoslavia, DF, 4, 0, 2
+-- 5427, 1990, Rumania, MF, 20, 0, 0
+-- 5428, 2018, Suiza, GK, 12, 0, 0
+-- 5429, 1990, Costa Rica, FW, 17, 0, 0
+-- 5430, 1998, Noruega, GK, 12, 0, 0
+-- 5431, 1994, Noruega, MF, 7, 0, 3
+-- 5431, 1998, Noruega, MF, 7, 0, 2
+-- 5432, 2002, Japón, MF, 20, 0, 3
+-- 5433, 2014, Costa Rica, DF, 8, 0, 0
+-- 5434, 2018, Senegal, MF, 13, 0, 2
+-- 5435, 2018, Senegal, MF, 17, 0, 1
+-- 5436, 2018, Senegal, GK, 16, 0, 3
+-- 5437, 2022, Senegal, DF, 10, 0, 0
+-- 5438, 2018, Senegal, MF, 11, 0, 0
+-- 5439, 2010, Camerún, MF, 7, 0, 1
+-- 5439, 2014, Camerún, MF, 7, 0, 1
+-- 5440, 2022, Corea del Sur, MF, 17, 0, 1
+-- 5441, 2018, Australia, FW, 11, 0, 2
+-- 5442, 2018, España, DF, 4, 0, 2
+-- 5443, 1954, Turquía, DF, 17, 0, 1
+-- 5444, 1994, España, DF, 20, 1, 3
+-- 5444, 1998, España, DF, 20, 0, 2
+-- 5444, 2002, España, DF, 20, 1, 4
+-- 5445, 1994, Marruecos, FW, 16, 0, 1
+-- 5446, 2006, Serbia y Montenegro, MF, 17, 0, 2
+-- 5447, 2006, Túnez, MF, 8, 0, 2
+-- 5448, 2010, Japón, DF, 5, 0, 4
+-- 5448, 2014, Japón, DF, 5, 0, 3
+-- 5448, 2018, Japón, DF, 5, 1, 4
+-- 5448, 2022, Japón, DF, 5, 0, 4
+-- 5449, 2018, Túnez, DF, 21, 0, 1
+-- 5450, 1966, Hungría, FW, 20, 0, 0
+-- 5451, 1986, Hungría, DF, 8, 2, 2
+-- 5452, 1962, Hungría, MF, 14, 0, 0
+-- 5452, 1966, Hungría, MF, 14, 0, 2
+-- 5453, 1938, Rumania, FW, None, 0, 0
+-- 5454, 1986, Hungría, MF, 16, 0, 0
+-- 5455, 1978, Hungría, MF, 18, 0, 3
+-- 5456, 1978, Irán, MF, 6, 0, 1
+-- 5457, 1962, Bulgaria, GK, 1, 0, 3
+-- 5457, 1966, Bulgaria, GK, 1, 0, 2
+-- 5458, 1978, Túnez, GK, 22, 0, 3
+-- 5459, 2014, Honduras, MF, 17, 0, 1
+-- 5460, 1930, Yugoslavia, FW, None, 0, 1
+-- 5461, 1978, México, DF, 2, 0, 0
+-- 5462, 1954, México, MF, 16, 0, 0
+-- 5462, 1962, México, MF, 6, 0, 3
+-- 5463, 2010, Japón, MF, 14, 0, 0
+-- 5464, 2018, Japón, GK, 23, 0, 0
+-- 5465, 2006, Japón, MF, 10, 0, 3
+-- 5465, 2010, Japón, MF, 10, 0, 0
+-- 5466, 1998, Japón, DF, 19, 0, 2
+-- 5467, 1998, Japón, MF, 8, 0, 3
+-- 5467, 2002, Japón, MF, 7, 0, 4
+-- 5467, 2006, Japón, MF, 7, 0, 3
+-- 5468, 2002, Japón, DF, 16, 0, 4
+-- 5468, 2006, Japón, DF, 6, 0, 0
+-- 5469, 1998, Japón, FW, 9, 0, 3
+-- 5469, 2002, Japón, FW, 10, 0, 0
+-- 5470, 2006, Japón, DF, 22, 1, 3
+-- 5470, 2010, Japón, DF, 22, 0, 4
+-- 5471, 1998, Irán, GK, 12, 0, 1
+-- 5472, 2010, Corea del Norte, DF, 16, 0, 0
+-- 5473, 2022, Senegal, DF, 24, 0, 0
+-- 5474, 2006, Túnez, MF, 20, 0, 3
+-- 5475, 1998, Japón, MF, 10, 0, 3
+-- 5476, 2018, Uruguay, MF, 8, 0, 4
+-- 5477, 1950, España, MF, None, 0, 0
+-- 5478, 2010, Portugal, MF, 17, 0, 0
+-- 5478, 2014, Portugal, MF, 20, 0, 1
+-- 5479, 1998, Bulgaria, MF, 16, 0, 2
+-- 5480, 1978, Paises Bajos, MF, 18, 0, 0
+-- 5481, 1998, Japón, DF, 2, 0, 3
+-- 5482, 1950, México, FW, None, 0, 1
+-- 5482, 1954, México, FW, 8, 2, 2
+-- 5483, 1998, Japón, GK, 21, 0, 0
+-- 5483, 2002, Japón, GK, 12, 0, 4
+-- 5483, 2006, Japón, GK, 1, 0, 0
+-- 5483, 2010, Japón, GK, 1, 0, 0
+-- 5484, 1982, Escocia, DF, 14, 0, 2
+-- 5484, 1986, Escocia, DF, 14, 0, 2
+-- 5485, 1938, Brasil, DF, None, 0, 1
+-- 5486, 1930, Uruguay, DF, None, 4, 4
+-- 5487, 1990, Emiratos Arabes, MF, 14, 0, 3
+-- 5488, 1982, Perú, FW, 17, 0, 0
+-- 5489, 1950, México, FW, None, 0, 1
+-- 5490, 1978, Perú, DF, 14, 0, 1
+-- 5491, 1966, México, FW, 21, 0, 0
+-- 5492, 1962, Argentina, DF, 15, 2, 2
+-- 5493, 1962, Chile, DF, 4, 4, 4
+-- 5494, 2010, España, FW, 22, 0, 1
+-- 5495, 2014, Costa Rica, GK, 1, 0, 5
+-- 5495, 2018, Costa Rica, GK, 1, 0, 3
+-- 5495, 2022, Costa Rica, GK, 1, 3, 3
+-- 5496, 2006, Irán, MF, 18, 0, 0
+-- 5497, 1978, Polonia, MF, 5, 0, 5
+-- 5498, 1938, Indias Orientales Holand., MF, None, 0, 1
+-- 5499, 1994, Marruecos, DF, 6, 0, 2
+-- 5499, 1998, Marruecos, DF, 6, 3, 3
+-- 5500, 1974, Haití, DF, 14, 3, 3
+-- 5501, 1982, Honduras, GK, 1, 0, 0
+-- 5502, 2006, Ucrania, MF, 18, 0, 0
+-- 5503, 1978, Irán, DF, 14, 0, 3
+-- 5504, 2022, Senegal, FW, 13, 0, 2
+-- 5505, 2002, Senegal, MF, 23, 0, 0
+-- 5506, 2002, Senegal, MF, 14, 0, 2
+-- 5507, 2002, Senegal, MF, 20, 0, 0
+-- 5508, 2018, Nigeria, MF, 4, 0, 3
+-- 5509, 2002, Camerún, FW, 11, 0, 0
+-- 5510, 1974, Zaire, GK, 12, 0, 0
+-- 5511, 1990, Camerún, DF, 17, 0, 4
+-- 5511, 1994, Camerún, DF, 5, 0, 1
+-- 5512, 1982, Camerún, DF, 4, 0, 3
+-- 5513, 2014, Camerún, GK, 23, 0, 0
+-- 5514, 1998, Camerún, MF, 15, 0, 3
+-- 5514, 2002, Camerún, FW, 7, 0, 0
+-- 5515, 1982, Camerún, DF, 15, 0, 0
+-- 5516, 2002, Senegal, DF, 5, 0, 1
+-- 5517, 2010, Camerún, GK, 22, 0, 0
+-- 5518, 1970, Rumania, MF, 16, 0, 2
+-- 5519, 1982, Inglaterra, DF, 14, 0, 1
+-- 5520, 1954, Turquía, DF, 16, 0, 0
+-- 5521, 2006, República Checa, MF, 11, 1, 3
+-- 5522, 1974, Paises Bajos, MF, 13, 0, 7
+-- 5522, 1978, Paises Bajos, MF, 13, 0, 5
+-- 5523, 1974, Chile, GK, 22, 0, 0
+-- 5524, 2006, Túnez, GK, 16, 0, 0
+-- 5525, 1986, México, MF, 22, 0, 5
+-- 5526, 1934, Egipto, FW, None, 0, 0
+-- 5527, 1934, Argentina, MF, None, 0, 1
+-- 5528, 1982, Checoslovaquia, FW, 11, 3, 3
+-- 5529, 2006, Australia, DF, 2, 0, 4
+-- 5529, 2010, Australia, DF, 2, 3, 3
+-- 5530, 1998, Chile, FW, 13, 0, 0
+-- 5531, 1982, Chile, MF, 20, 0, 2
+-- 5532, 1934, Checoslovaquia, FW, None, 0, 4
+-- 5532, 1938, Checoslovaquia, FW, None, 0, 2
+-- 5533, 2006, Irán, MF, 6, 0, 2
+-- 5533, 2014, Irán, MF, 6, 3, 3
+-- 5534, 1986, Italia, DF, 5, 0, 0
+-- 5535, 1974, Brasil, DF, 14, 0, 3
+-- 5535, 1978, Brasil, DF, 13, 0, 3
+-- 5536, 1938, Bélgica, FW, None, 0, 0
+-- 5537, 2010, Nueva Zelanda, DF, 6, 3, 3
+-- 5538, 2002, Portugal, GK, 15, 0, 0
+-- 5539, 1982, Irlanda del Norte, DF, 13, 0, 1
+-- 5540, 2022, Dinamarca, DF, 3, 0, 1
+-- 5541, 1954, Turquía, FW, 20, 0, 1
+-- 5542, 2002, Eslovenia, GK, 22, 0, 0
+-- 5543, 1990, Checoslovaquia, MF, 13, 0, 0
+-- 5544, 1990, Checoslovaquia, MF, 20, 0, 2
+-- 5545, 1950, Brasil, DF, None, 0, 0
+-- 5546, 1994, Marruecos, DF, 18, 0, 1
+-- 5546, 1998, Marruecos, DF, 13, 0, 0
+-- 5547, 1954, Italia, MF, 4, 0, 2
+-- 5548, 2006, Ucrania, DF, 2, 0, 5
+-- 5549, 1930, Paraguay, FW, None, 0, 2
+-- 5550, 1998, Italia, DF, 6, 0, 3
+-- 5550, 2002, Italia, DF, 13, 0, 3
+-- 5550, 2006, Italia, DF, 13, 0, 3
+-- 5551, 1954, Italia, MF, 6, 0, 3
+-- 5552, 2014, Portugal, DF, 14, 0, 0
+-- 5553, 1958, URSS, MF, 6, 1, 1
+-- 5553, 1962, URSS, MF, 10, 4, 4
+-- 5554, 1974, Alemania Occidental, MF, 10, 0, 0
+-- 5555, 2010, Alemania, GK, 1, 0, 6
+-- 5555, 2014, Alemania, GK, 1, 0, 7
+-- 5555, 2018, Alemania, GK, 1, 3, 3
+-- 5555, 2022, Alemania, GK, 1, 3, 3
+-- 5556, 1938, Alemania, FW, None, 0, 1
+-- 5557, 1950, Suiza, DF, None, 0, 3
+-- 5557, 1954, Suiza, DF, 7, 0, 4
+-- 5558, 2002, Alemania, FW, 7, 0, 4
+-- 5558, 2006, Alemania, FW, 10, 0, 0
+-- 5559, 2022, Portugal, MF, 18, 0, 4
+-- 5560, 1998, Inglaterra, DF, 12, 0, 3
+-- 5560, 2006, Inglaterra, DF, 2, 0, 2
+-- 5561, 1970, Inglaterra, DF, 2, 0, 3
+-- 5562, 2014, Brasil, FW, 10, 0, 5
+-- 5562, 2018, Brasil, FW, 10, 0, 5
+-- 5562, 2022, Brasil, FW, 10, 0, 3
+-- 5563, 1930, Perú, FW, None, 0, 2
+-- 5564, 2022, Camerún, FW, 6, 0, 1
+-- 5565, 2022, Camerún, GK, 1, 0, 0
+-- 5566, 2010, Sudáfrica, DF, 5, 0, 1
+-- 5567, 2022, Camerún, FW, 2, 0, 0
+-- 5568, 1974, Zaire, MF, 17, 0, 0
+-- 5569, 1982, Camerún, FW, 18, 0, 2
+-- 5570, 2018, Senegal, FW, 19, 0, 3
+-- 5571, 2022, Irán, GK, 12, 0, 0
+-- 5572, 2006, Togo, DF, 2, 0, 3
+-- 5573, 1970, Italia, DF, 7, 0, 1
+-- 5574, 1986, Escocia, FW, 19, 0, 1
+-- 5575, 1982, Irlanda del Norte, DF, 5, 0, 5
+-- 5576, 1982, Irlanda del Norte, DF, 2, 0, 5
+-- 5576, 1986, Irlanda del Norte, DF, 2, 0, 3
+-- 5577, 1950, Inglaterra, MF, None, 0, 0
+-- 5578, 1970, Suecia, MF, 19, 0, 1
+-- 5579, 1986, Escocia, DF, 13, 0, 3
+-- 5580, 1934, Francia, FW, None, 0, 1
+-- 5580, 1938, Francia, FW, None, 0, 2
+-- 5581, 1998, Rumania, MF, 14, 0, 0
+-- 5582, 1998, Dinamarca, MF, 7, 0, 4
+-- 5583, 2002, Dinamarca, MF, 23, 0, 0
+-- 5584, 1986, Dinamarca, DF, 5, 0, 3
+-- 5585, 1986, Dinamarca, DF, 17, 0, 0
+-- 5586, 1974, Alemania Occidental, GK, 21, 0, 0
+-- 5587, 1938, Brasil, FW, None, 0, 0
+-- 5588, 2002, Rusia, GK, 1, 0, 3
+-- 5589, 2018, España, MF, 7, 0, 0
+-- 5590, 1994, Rusia, DF, 5, 0, 3
+-- 5590, 2002, Rusia, DF, 3, 0, 3
+-- 5591, 1970, Bulgaria, MF, 16, 0, 2
+-- 5591, 1974, Bulgaria, DF, 17, 0, 2
+-- 5592, 1962, Yugoslavia, DF, 20, 0, 0
+-- 5593, 1962, Bulgaria, DF, 22, 0, 0
+-- 5594, 1994, Bulgaria, GK, 12, 0, 0
+-- 5595, 1994, Bélgica, FW, 8, 0, 2
+-- 5595, 1998, Bélgica, FW, 10, 0, 3
+-- 5596, 2010, Brasil, FW, 21, 0, 1
+-- 5597, 1930, Brasil, FW, None, 0, 1
+-- 5598, 1994, Noruega, DF, 14, 0, 0
+-- 5599, 1934, Estados Unidos, FW, None, 0, 1
+-- 5600, 1938, Suecia, DF, None, 0, 1
+-- 5600, 1950, Suecia, DF, None, 5, 5
+-- 5601, 1938, Suecia, DF, None, 0, 0
+-- 5602, 1990, Suecia, MF, 14, 0, 3
+-- 5603, 2006, Suecia, DF, 2, 0, 0
+-- 5604, 1994, Suecia, DF, 13, 0, 0
+-- 5605, 1990, Suecia, DF, 6, 0, 3
+-- 5605, 1994, Suecia, DF, 2, 2, 7
+-- 5606, 1950, Suecia, FW, None, 0, 2
+-- 5607, 1978, Suecia, FW, 15, 0, 1
+-- 5608, 1950, Brasil, DF, None, 0, 0
+-- 5608, 1954, Brasil, DF, 3, 0, 3
+-- 5608, 1958, Brasil, DF, 12, 0, 6
+-- 5608, 1962, Brasil, DF, 6, 0, 6
+-- 5609, 1958, Austria, FW, 20, 0, 0
+-- 5610, 2010, Grecia, MF, 18, 0, 0
+-- 5611, 2010, Serbia, MF, 18, 0, 2
+-- 5612, 1990, Colombia, GK, 12, 0, 0
+-- 5613, 1994, Grecia, MF, 8, 0, 3
+-- 5614, 2014, Japón, GK, 12, 0, 0
+-- 5615, 2002, Japón, FW, 9, 0, 1
+-- 5616, 1998, Camerún, DF, 6, 0, 3
+-- 5616, 2002, Camerún, DF, 6, 0, 0
+-- 5617, 1982, Camerún, GK, 1, 3, 3
+-- 5617, 1990, Camerún, GK, 16, 0, 5
+-- 5617, 1994, Camerún, GK, 21, 0, 0
+-- 5618, 2022, Camerún, MF, 7, 0, 0
+-- 5619, 2010, Camerún, DF, 3, 0, 3
+-- 5619, 2014, Camerún, DF, 3, 2, 3
+-- 5619, 2022, Camerún, DF, 3, 0, 2
+-- 5620, 2010, Suiza, FW, 10, 0, 3
+-- 5621, 1934, Alemania, FW, None, 0, 1
+-- 5622, 2014, Ecuador, MF, 6, 0, 3
+-- 5623, 1970, URSS, FW, 19, 0, 1
+-- 5624, 1934, España, GK, None, 0, 1
+-- 5625, 1994, Corea del Sur, MF, 8, 0, 2
+-- 5625, 1998, Corea del Sur, MF, 8, 0, 1
+-- 5626, 1986, Corea del Sur, MF, 13, 0, 1
+-- 5626, 1990, Corea del Sur, MF, 7, 0, 1
+-- 5627, 2002, Sudáfrica, FW, 14, 0, 2
+-- 5627, 2010, Sudáfrica, FW, 18, 0, 0
+-- 5628, 2002, Arabia Saudita, MF, 8, 0, 1
+-- 5628, 2006, Arabia Saudita, MF, 8, 0, 3
+-- 5629, 2022, Paises Bajos, GK, 23, 0, 5
+-- 5630, 1982, Honduras, FW, 13, 0, 2
+-- 5631, 1950, Suecia, MF, None, 0, 3
+-- 5632, 1970, Suecia, MF, 16, 0, 1
+-- 5633, 1938, Noruega, GK, None, 0, 0
+-- 5634, 2018, Suecia, GK, 23, 0, 0
+-- 5635, 1978, Suecia, MF, 18, 0, 1
+-- 5636, 1970, Suecia, DF, 4, 2, 2
+-- 5636, 1974, Suecia, DF, 4, 1, 5
+-- 5636, 1978, Suecia, DF, 4, 3, 3
+-- 5637, 2022, Dinamarca, MF, 15, 0, 0
+-- 5638, 1986, Canadá, MF, 17, 0, 3
+-- 5639, 1958, Inglaterra, DF, 16, 0, 0
+-- 5639, 1962, Inglaterra, DF, 15, 0, 4
+-- 5640, 1950, Brasil, MF, None, 0, 1
+-- 5641, 2006, Irán, DF, 20, 0, 3
+-- 5642, 1970, Israel, GK, 22, 0, 0
+-- 5643, 2014, Camerún, DF, 5, 0, 0
+-- 5644, 2022, Irán, MF, 21, 0, 3
+-- 5645, 1930, Bélgica, DF, None, 0, 2
+-- 5646, 2002, Eslovenia, MF, 7, 0, 3
+-- 5647, 1954, Checoslovaquia, DF, 4, 2, 2
+-- 5647, 1958, Checoslovaquia, DF, 4, 4, 4
+-- 5647, 1962, Checoslovaquia, DF, 4, 6, 6
+-- 5648, 2010, Eslovenia, FW, 11, 0, 3
+-- 5649, 1962, Alemania Occidental, DF, 12, 0, 4
+-- 5650, 2006, Alemania, DF, 6, 0, 1
+-- 5651, 1930, Bolivia, FW, None, 0, 0
+-- 5652, 1938, Checoslovaquia, MF, None, 0, 0
+-- 5653, 2022, Camerún, FW, 9, 0, 0
+-- 5654, 2022, Camerún, MF, 22, 0, 0
+-- 5655, 1958, Alemania Occidental, DF, 20, 0, 0
+-- 5656, 1930, Perú, FW, None, 0, 0
+-- 5657, 1994, Paises Bajos, DF, 16, 0, 0
+-- 5657, 1998, Paises Bajos, DF, 5, 0, 6
+-- 5658, 2022, Portugal, MF, 23, 0, 1
+-- 5659, 2022, Uruguay, FW, 11, 0, 3
+-- 5660, 1966, México, DF, 14, 0, 3
+-- 5661, 2006, Paraguay, DF, 2, 0, 2
+-- 5662, 1986, Paraguay, MF, 6, 0, 4
+-- 5663, 2010, Honduras, MF, 7, 0, 2
+-- 5664, 2006, Costa Rica, FW, 21, 0, 0
+-- 5665, 2002, Portugal, FW, 21, 0, 0
+-- 5665, 2006, Portugal, FW, 21, 0, 0
+-- 5666, 2006, Portugal, DF, 14, 0, 6
+-- 5667, 1970, Rumania, MF, 10, 0, 3
+-- 5668, 1978, Irán, FW, 16, 0, 0
+-- 5669, 2022, Ghana, GK, 16, 0, 0
+-- 5670, 2018, Nigeria, FW, 13, 0, 0
+-- 5671, 1994, Nigeria, DF, 6, 0, 4
+-- 5672, 2014, Nigeria, FW, 19, 0, 0
+-- 5673, 1998, Sudáfrica, DF, 3, 0, 3
+-- 5674, 1938, Suecia, FW, None, 0, 3
+-- 5675, 1938, Polonia, MF, None, 0, 1
+-- 5676, 1990, Suecia, DF, 7, 0, 0
+-- 5677, 1978, Hungría, MF, 8, 0, 2
+-- 5677, 1982, Hungría, MF, 8, 3, 3
+-- 5678, 2014, Camerún, DF, 22, 0, 1
+-- 5679, 2002, Sudáfrica, DF, 2, 0, 3
+-- 5680, 2018, Francia, MF, 15, 0, 1
+-- 5681, 2002, Irlanda, DF, 20, 0, 0
+-- 5682, 2002, Estados Unidos, MF, 5, 0, 5
+-- 5682, 2006, Estados Unidos, MF, 5, 0, 0
+-- 5683, 1990, Irlanda, DF, 12, 0, 0
+-- 5684, 2002, Uruguay, FW, 10, 0, 0
+-- 5685, 1982, Irlanda del Norte, DF, 6, 0, 0
+-- 5685, 1986, Irlanda del Norte, DF, 4, 0, 3
+-- 5686, 1982, Irlanda del Norte, MF, 8, 5, 5
+-- 5687, 2014, Australia, MF, 11, 0, 3
+-- 5688, 1990, Costa Rica, DF, 5, 0, 1
+-- 5689, 1978, Austria, FW, 17, 0, 0
+-- 5690, 1958, Suecia, DF, 13, 0, 0
+-- 5691, 1978, Austria, DF, 3, 0, 6
+-- 5691, 1982, Austria, DF, 3, 5, 5
+-- 5692, 2018, Nigeria, MF, 15, 0, 0
+-- 5693, 2014, Nigeria, MF, 10, 0, 4
+-- 5693, 2018, Nigeria, MF, 10, 3, 3
+-- 5694, 1986, Iraq, DF, 17, 0, 1
+-- 5695, 2006, Togo, GK, 22, 0, 0
+-- 5696, 2010, Nigeria, FW, 18, 0, 1
+-- 5697, 2002, Nigeria, MF, 20, 0, 1
+-- 5698, 1974, Yugoslavia, MF, 8, 0, 5
+-- 5699, 1978, Perú, FW, 11, 0, 6
+-- 5699, 1982, Perú, FW, 11, 0, 3
+-- 5700, 2014, Nigeria, DF, 14, 0, 1
+-- 5701, 2010, Serbia, DF, 16, 0, 1
+-- 5702, 2002, Ecuador, MF, 5, 0, 3
+-- 5703, 2006, México, GK, 13, 0, 0
+-- 5703, 2010, México, GK, 13, 0, 0
+-- 5703, 2014, México, GK, 13, 0, 4
+-- 5703, 2018, México, GK, 13, 0, 4
+-- 5703, 2022, México, GK, 13, 2, 3
+-- 5704, 1950, México, MF, None, 0, 2
+-- 5704, 1954, México, DF, 21, 0, 0
+-- 5705, 1990, España, GK, 22, 0, 0
+-- 5706, 1934, Brasil, DF, None, 0, 0
+-- 5707, 1954, Austria, MF, 5, 4, 5
+-- 5708, 2006, Italia, DF, 22, 0, 0
+-- 5709, 2010, Nigeria, FW, 11, 0, 1
+-- 5709, 2014, Nigeria, FW, 8, 0, 3
+-- 5710, 1966, Suiza, MF, 15, 0, 1
+-- 5711, 2010, Nigeria, DF, 17, 0, 3
+-- 5712, 2022, Ghana, DF, 3, 0, 0
+-- 5713, 2006, Alemania, MF, 22, 0, 0
+-- 5714, 2018, España, DF, 12, 0, 0
+-- 5715, 2014, Nigeria, DF, 12, 0, 0
+-- 5716, 1982, URSS, MF, 10, 0, 2
+-- 5717, 2002, Japón, MF, 19, 0, 0
+-- 5717, 2006, Japón, MF, 8, 0, 2
+-- 5718, 2002, Nigeria, FW, 9, 0, 2
+-- 5719, 2010, Nigeria, FW, 19, 0, 2
+-- 5720, 1950, Yugoslavia, FW, None, 0, 1
+-- 5720, 1954, Yugoslavia, FW, 7, 0, 0
+-- 5721, 1958, Yugoslavia, FW, 19, 0, 2
+-- 5722, 1998, RF de Yugoslavia, FW, 21, 0, 0
+-- 5723, 1990, Austria, FW, 13, 0, 2
+-- 5724, 2018, Nigeria, MF, 19, 0, 0
+-- 5725, 2006, Japón, FW, 16, 0, 0
+-- 5726, 2018, Corea del Sur, DF, 4, 0, 0
+-- 5727, 2010, Corea del Sur, DF, 2, 0, 1
+-- 5728, 1966, Corea del Norte, MF, 13, 0, 3
+-- 5729, 1986, Corea del Sur, GK, 21, 0, 3
+-- 5730, 1958, Suecia, FW, 22, 0, 0
+-- 5731, 1994, Suiza, MF, 8, 0, 4
+-- 5732, 1930, Chile, FW, None, 0, 2
+-- 5733, 2022, Suiza, FW, 19, 0, 0
+-- 5734, 1994, Nigeria, DF, 20, 0, 0
+-- 5734, 1998, Nigeria, DF, 16, 0, 1
+-- 5735, 1998, Japón, FW, 14, 0, 0
+-- 5736, 2010, Japón, FW, 9, 0, 0
+-- 5736, 2014, Japón, FW, 9, 0, 3
+-- 5736, 2018, Japón, FW, 9, 0, 1
+-- 5737, 1994, Nigeria, DF, 5, 0, 4
+-- 5737, 1998, Nigeria, DF, 5, 3, 3
+-- 5738, 1994, Nigeria, MF, 10, 0, 1
+-- 5738, 1998, Nigeria, MF, 10, 0, 3
+-- 5738, 2002, Nigeria, MF, 10, 3, 3
+-- 5739, 2002, Nigeria, DF, 5, 0, 3
+-- 5740, 1998, Nigeria, MF, 21, 0, 0
+-- 5741, 1998, Nigeria, GK, 12, 0, 0
+-- 5742, 2010, Japón, FW, 16, 0, 4
+-- 5742, 2014, Japón, FW, 13, 0, 2
+-- 5743, 1982, Perú, DF, 16, 0, 3
+-- 5744, 1982, Argentina, DF, 13, 0, 0
+-- 5744, 1986, Argentina, DF, 16, 0, 3
+-- 5744, 1990, Argentina, MF, 16, 0, 5
+-- 5745, 1998, Camerún, MF, 20, 0, 2
+-- 5745, 2002, Camerún, DF, 20, 0, 2
+-- 5746, 1962, Argentina, FW, 20, 0, 2
+-- 5747, 1978, Argentina, DF, 15, 0, 7
+-- 5747, 1982, Argentina, DF, 14, 0, 5
+-- 5748, 2002, Croacia, FW, 18, 0, 1
+-- 5748, 2006, Croacia, FW, 18, 0, 1
+-- 5748, 2014, Croacia, FW, 18, 0, 3
+-- 5749, 1994, Nigeria, MF, 8, 0, 0
+-- 5750, 2014, Camerún, FW, 19, 0, 0
+-- 5751, 2002, Polonia, FW, 11, 0, 3
+-- 5752, 1994, Nigeria, MF, 15, 0, 4
+-- 5752, 1998, Nigeria, MF, 15, 0, 4
+-- 5753, 1930, México, FW, None, 0, 1
+-- 5754, 1966, Chile, GK, 13, 0, 3
+-- 5754, 1974, Chile, GK, 21, 0, 0
+-- 5755, 1986, Portugal, DF, 15, 0, 3
+-- 5756, 1938, Cuba, FW, None, 0, 0
+-- 5757, 1998, Bélgica, FW, 8, 0, 3
+-- 5758, 1966, España, DF, 16, 0, 0
+-- 5759, 1930, Estados Unidos, MF, None, 0, 0
+-- 5760, 1958, Francia, MF, 19, 0, 0
+-- 5761, 2022, Uruguay, DF, 16, 0, 3
+-- 5762, 2002, Uruguay, MF, 15, 0, 0
+-- 5763, 1938, Italia, GK, None, 0, 4
+-- 5764, 1974, Australia, FW, 13, 0, 0
+-- 5765, 1930, Paraguay, DF, None, 0, 2
+-- 5766, 1938, Italia, MF, None, 0, 0
+-- 5767, 1978, España, DF, 16, 0, 2
+-- 5768, 2022, España, FW, 21, 0, 4
+-- 5769, 2006, Estados Unidos, MF, 14, 0, 0
+-- 5770, 1986, Dinamarca, MF, 8, 0, 3
+-- 5771, 1986, Dinamarca, DF, 4, 4, 4
+-- 5772, 2018, Suecia, GK, 1, 0, 5
+-- 5773, 1934, Suecia, FW, None, 0, 0
+-- 5774, 1970, Suecia, DF, 20, 0, 2
+-- 5774, 1974, Suecia, DF, 2, 0, 4
+-- 5775, 2018, Suecia, DF, 5, 0, 0
+-- 5776, 2006, Togo, FW, 14, 0, 0
+-- 5777, 1990, Camerún, FW, 7, 0, 5
+-- 5777, 1994, Camerún, FW, 7, 0, 3
+-- 5777, 1998, Camerún, FW, 7, 3, 3
+-- 5778, 1990, Yugoslavia, GK, 12, 0, 0
+-- 5779, 2014, Nigeria, DF, 22, 0, 4
+-- 5779, 2018, Nigeria, DF, 22, 0, 2
+-- 5780, 2022, Suiza, GK, 12, 0, 0
+-- 5781, 1998, Japón, DF, 5, 0, 1
+-- 5782, 2022, Bélgica, MF, 18, 0, 1
+-- 5783, 2022, Camerún, GK, 23, 0, 1
+-- 5784, 1982, Camerún, DF, 5, 0, 3
+-- 5785, 1990, Camerún, DF, 3, 0, 3
+-- 5786, 2014, Nigeria, MF, 17, 0, 4
+-- 5786, 2018, Nigeria, MF, 17, 0, 0
+-- 5787, 2022, Camerún, MF, 5, 0, 0
+-- 5788, 1966, Argentina, FW, 20, 0, 4
+-- 5789, 1998, Japón, MF, 11, 0, 0
+-- 5789, 2002, Japón, MF, 18, 0, 4
+-- 5789, 2006, Japón, MF, 18, 0, 0
+-- 5790, 1994, Rusia, DF, 18, 1, 2
+-- 5790, 2002, Rusia, DF, 7, 3, 3
+-- 5791, 2006, Estados Unidos, DF, 22, 0, 3
+-- 5791, 2010, Estados Unidos, DF, 5, 0, 2
+-- 5792, 1998, Paises Bajos, DF, 13, 0, 0
+-- 5792, 2006, Paises Bajos, DF, 13, 0, 4
+-- 5792, 2010, Paises Bajos, DF, 13, 0, 1
+-- 5793, 1938, Paises Bajos, FW, None, 0, 0
+-- 5794, 2002, Nigeria, FW, 23, 0, 1
+-- 5795, 1998, Nigeria, DF, 2, 0, 1
+-- 5796, 2014, Ghana, DF, 4, 0, 1
+-- 5797, 2022, Bélgica, FW, 24, 0, 0
+-- 5798, 1934, Paises Bajos, MF, None, 0, 0
+-- 5799, 1990, Egipto, MF, 18, 0, 1
+-- 5800, 1998, México, MF, 20, 0, 2
+-- 5801, 1958, Brasil, DF, 8, 0, 0
+-- 5802, 2010, Chile, FW, 16, 0, 0
+-- 5802, 2014, Chile, FW, 14, 0, 0
+-- 5803, 1982, Italia, MF, 13, 0, 5
+-- 5804, 2014, Bélgica, FW, 17, 0, 2
+-- 5805, 2014, Argentina, GK, 12, 0, 0
+-- 5806, 1930, Argentina, DF, None, 0, 3
+-- 5807, 1958, Brasil, DF, 15, 0, 6
+-- 5807, 1966, Brasil, DF, 7, 1, 1
+-- 5808, 1982, Chile, MF, 14, 0, 0
+-- 5809, 1954, Escocia, FW, 13, 0, 2
+-- 5810, 1934, Italia, FW, None, 0, 5
+-- 5811, 2022, Croacia, FW, 18, 0, 1
+-- 5812, 1930, Paraguay, FW, None, 0, 0
+-- 5813, 1994, Argentina, FW, 17, 0, 1
+-- 5813, 1998, Argentina, FW, 10, 0, 5
+-- 5813, 2002, Argentina, MF, 10, 0, 3
+-- 5814, 1978, México, FW, 10, 0, 1
+-- 5814, 1986, México, MF, 21, 0, 0
+-- 5815, 1934, Suiza, DF, None, 0, 0
+-- 5816, 1938, Checoslovaquia, DF, None, 0, 0
+-- 5817, 2010, Paraguay, MF, 20, 0, 1
+-- 5818, 1962, México, FW, 10, 0, 0
+-- 5819, 1950, México, MF, None, 0, 3
+-- 5820, 1962, Chile, MF, 17, 0, 0
+-- 5821, 1994, Colombia, DF, 13, 0, 0
+-- 5822, 1978, Argentina, FW, 16, 0, 4
+-- 5823, 1950, Uruguay, MF, None, 0, 0
+-- 5824, 1998, Nigeria, MF, 18, 0, 1
+-- 5825, 2014, Japón, FW, 18, 0, 2
+-- 5825, 2018, Japón, FW, 15, 0, 3
+-- 5826, 1982, Chile, GK, 22, 0, 3
+-- 5827, 1978, Brasil, DF, 3, 0, 7
+-- 5827, 1982, Brasil, DF, 3, 0, 5
+-- 5827, 1986, Brasil, DF, 3, 0, 0
+-- 5828, 2014, Brasil, MF, 11, 0, 7
+-- 5829, 1930, Brasil, MF, None, 0, 0
+-- 5830, 1970, Inglaterra, FW, 20, 0, 0
+-- 5831, 2014, Nigeria, DF, 13, 0, 4
+-- 5832, 2018, Japón, MF, 18, 0, 0
+-- 5833, 1950, Paraguay, FW, None, 0, 0
+-- 5834, 2022, Canadá, MF, 21, 0, 1
+-- 5835, 2006, México, DF, 5, 0, 4
+-- 5835, 2010, México, DF, 5, 0, 4
+-- 5836, 1970, El Salvador, DF, 5, 0, 3
+-- 5837, 1982, El Salvador, DF, 12, 0, 2
+-- 5838, 2014, Colombia, GK, 1, 1, 5
+-- 5838, 2018, Colombia, GK, 1, 0, 4
+-- 5839, 1998, Irán, DF, 15, 0, 0
+-- 5840, 1998, Noruega, FW, 18, 0, 0
+-- 5841, 2002, Eslovenia, FW, 9, 0, 2
+-- 5842, 1990, Uruguay, MF, 8, 0, 3
+-- 5843, 1958, URSS, DF, 14, 0, 0
+-- 5843, 1962, URSS, DF, 6, 0, 4
+-- 5843, 1966, URSS, DF, 3, 0, 2
+-- 5844, 1986, Polonia, DF, 4, 0, 4
+-- 5845, 2010, Argentina, DF, 15, 0, 3
+-- 5845, 2018, Argentina, DF, 17, 0, 4
+-- 5845, 2022, Argentina, DF, 19, 0, 7
+-- 5846, 2018, Arabia Saudita, MF, 14, 0, 3
+-- 5846, 2022, Arabia Saudita, MF, 14, 0, 0
+-- 5847, 1974, Zaire, GK, 22, 0, 0
+-- 5848, 1986, Uruguay, GK, 22, 0, 0
+-- 5849, 1994, España, DF, 3, 0, 1
+-- 5850, 2002, China, GK, 23, 0, 0
+-- 5851, 1998, Marruecos, FW, 10, 0, 0
+-- 5852, 1986, Marruecos, DF, 14, 0, 1
+-- 5853, 2022, Camerún, MF, 14, 0, 1
+-- 5854, 2022, Marruecos, MF, 8, 0, 6
+-- 5855, 1970, Marruecos, GK, 19, 0, 0
+-- 5856, 2018, Panamá, DF, 17, 0, 1
+-- 5857, 1966, Alemania Occidental, MF, 12, 0, 6
+-- 5857, 1970, Alemania Occidental, MF, 12, 0, 6
+-- 5857, 1974, Alemania Occidental, MF, 12, 0, 7
+-- 5858, 1994, Paises Bajos, FW, 7, 0, 4
+-- 5858, 1998, Paises Bajos, FW, 14, 0, 4
+-- 5859, 2018, Costa Rica, DF, 8, 0, 2
+-- 5859, 2022, Costa Rica, DF, 8, 0, 3
+-- 5860, 1978, Argentina, MF, 17, 0, 0
+-- 5861, 1998, Inglaterra, FW, 20, 0, 2
+-- 5861, 2002, Inglaterra, FW, 10, 0, 5
+-- 5861, 2006, Inglaterra, FW, 10, 0, 3
+-- 5862, 1954, Inglaterra, DF, 5, 0, 1
+-- 5863, 2006, Ghana, GK, 16, 0, 0
+-- 5864, 2022, Ghana, MF, 6, 0, 0
+-- 5865, 2010, Ghana, FW, 20, 0, 0
+-- 5866, 2014, Inglaterra, MF, 15, 0, 0
+-- 5867, 2002, Turquía, DF, 5, 0, 5
+-- 5868, 2002, Turquía, DF, 16, 0, 2
+-- 5869, 2002, Turquía, GK, 23, 0, 0
+-- 5870, 2010, Alemania, MF, 8, 0, 7
+-- 5870, 2014, Alemania, MF, 8, 0, 7
+-- 5870, 2018, Alemania, MF, 10, 0, 2
+-- 5871, 1934, Paises Bajos, MF, None, 0, 0
+-- 5871, 1938, Paises Bajos, MF, None, 0, 1
+-- 5872, 2006, España, DF, 22, 0, 3
+-- 5873, 1986, Portugal, MF, 7, 0, 3
+-- 5874, 1930, Perú, FW, None, 0, 0
+-- 5875, 1962, España, DF, 13, 0, 2
+-- 5876, 2022, Ecuador, DF, 6, 0, 0
+-- 5877, 2010, Suiza, MF, 14, 0, 0
+-- 5878, 1966, México, FW, 8, 0, 3
+-- 5878, 1970, México, FW, 11, 0, 3
+-- 5879, 1974, Chile, MF, 16, 0, 3
+-- 5880, 1962, Argentina, DF, 6, 0, 2
+-- 5881, 1990, Camerún, MF, 13, 0, 1
+-- 5882, 1962, Argentina, FW, 9, 0, 2
+-- 5883, 1990, Italia, GK, 22, 0, 0
+-- 5883, 1994, Italia, GK, 1, 0, 5
+-- 5883, 1998, Italia, GK, 12, 0, 5
+-- 5884, 1978, Argentina, DF, 18, 0, 0
+-- 5885, 2022, Corea del Sur, MF, 8, 0, 0
+-- 5886, 1966, Inglaterra, FW, 19, 0, 1
+-- 5887, 2010, Corea del Norte, DF, 13, 0, 3
+-- 5888, 1966, Corea del Norte, MF, 7, 0, 4
+-- 5889, 1966, Corea del Norte, DF, 2, 0, 2
+-- 5890, 2010, Corea del Norte, DF, 14, 0, 0
+-- 5891, 2010, Corea del Norte, MF, 4, 0, 3
+-- 5892, 1966, Corea del Norte, FW, 8, 4, 4
+-- 5893, 2010, Corea del Norte, MF, 23, 0, 0
+-- 5894, 1986, Canadá, MF, 13, 0, 0
+-- 5895, 2006, Argentina, FW, 14, 0, 0
+-- 5895, 2014, Argentina, FW, 18, 0, 0
+-- 5896, 2022, Ecuador, DF, 18, 0, 0
+-- 5897, 1998, Colombia, DF, 3, 0, 3
+-- 5898, 2022, Argentina, MF, 14, 0, 0
+-- 5899, 2010, Honduras, FW, 10, 0, 1
+-- 5899, 2014, Honduras, FW, 9, 0, 0
+-- 5900, 2010, Honduras, DF, 4, 0, 0
+-- 5901, 2010, Honduras, MF, 8, 0, 3
+-- 5901, 2014, Honduras, MF, 8, 0, 2
+-- 5902, 1982, Polonia, MF, 14, 0, 1
+-- 5902, 1986, Polonia, FW, 16, 0, 0
+-- 5903, 1998, México, FW, 17, 0, 2
+-- 5903, 2002, México, FW, 17, 0, 0
+-- 5904, 2010, Argentina, FW, 18, 0, 0
+-- 5905, 2014, Italia, DF, 20, 0, 1
+-- 5906, 1950, Yugoslavia, MF, None, 0, 0
+-- 5907, 2022, Portugal, MF, 6, 0, 0
+-- 5908, 1938, Hungría, GK, None, 0, 0
+-- 5909, 1950, Suecia, FW, None, 0, 5
+-- 5910, 2010, Italia, MF, 17, 0, 0
+-- 5911, 1934, Hungría, MF, None, 0, 2
+-- 5912, 1954, Hungría, FW, 19, 0, 2
+-- 5913, 1970, Suecia, FW, 22, 0, 0
+-- 5914, 1990, Checoslovaquia, GK, 22, 0, 0
+-- 5915, 1930, Brasil, MF, None, 0, 0
+-- 5916, 1990, Yugoslavia, DF, 21, 0, 0
+-- 5917, 1962, Bulgaria, FW, 21, 0, 0
+-- 5918, 1990, Yugoslavia, FW, 9, 0, 2
+-- 5919, 1962, Argentina, FW, 8, 1, 1
+-- 5920, 1950, Italia, FW, None, 0, 1
+-- 5920, 1954, Italia, FW, 8, 2, 3
+-- 5921, 1994, Rumania, MF, 15, 0, 0
+-- 5922, 1982, Checoslovaquia, MF, 8, 0, 1
+-- 5923, 1950, España, FW, None, 0, 4
+-- 5924, 1974, Bulgaria, FW, 15, 0, 3
+-- 5925, 1982, Yugoslavia, GK, 1, 0, 3
+-- 5926, 2010, Serbia, FW, 9, 0, 1
+-- 5927, 2022, Canadá, GK, 16, 0, 0
+-- 5928, 2006, Ghana, DF, 15, 0, 4
+-- 5928, 2010, Ghana, DF, 4, 0, 5
+-- 5929, 2002, Italia, DF, 2, 0, 4
+-- 5930, 2010, Grecia, DF, 8, 0, 3
+-- 5931, 2010, Grecia, DF, 19, 0, 2
+-- 5931, 2014, Grecia, DF, 19, 0, 4
+-- 5932, 1954, Yugoslavia, FW, 19, 0, 0
+-- 5933, 1978, Francia, MF, 12, 0, 1
+-- 5934, 1986, Francia, FW, 17, 0, 4
+-- 5935, 1934, Bélgica, DF, None, 0, 0
+-- 5936, 2006, Ghana, DF, 6, 0, 2
+-- 5937, 1994, Rumania, DF, 19, 0, 0
+-- 5938, 2022, Brasil, MF, 7, 0, 4
+-- 5939, 1966, Brasil, FW, 21, 0, 1
+-- 5940, 1962, Bulgaria, GK, 20, 0, 0
+-- 5941, 1990, España, FW, 7, 0, 0
+-- 5942, 1998, México, DF, 13, 0, 3
+-- 5942, 2006, México, MF, 8, 0, 4
+-- 5943, 1930, Perú, GK, None, 0, 1
+-- 5944, 1998, Paraguay, MF, 13, 0, 3
+-- 5944, 2002, Paraguay, MF, 13, 0, 2
+-- 5944, 2006, Paraguay, MF, 13, 0, 3
+-- 5945, 1950, Paraguay, DF, None, 0, 0
+-- 5946, 2010, Chile, FW, 22, 0, 0
+-- 5946, 2014, Chile, FW, 22, 0, 0
+-- 5947, 2014, Ecuador, DF, 4, 0, 3
+-- 5948, 2022, Argentina, MF, 5, 0, 2
+-- 5949, 1950, Estados Unidos, FW, None, 0, 3
+-- 5950, 1986, Corea del Sur, FW, 10, 3, 3
+-- 5951, 2006, Corea del Sur, FW, 10, 0, 1
+-- 5951, 2010, Corea del Sur, FW, 10, 0, 4
+-- 5951, 2014, Corea del Sur, FW, 10, 0, 2
+-- 5952, 1994, Corea del Sur, GK, 21, 0, 0
+-- 5953, 1954, Corea del Sur, FW, 17, 0, 1
+-- 5954, 2002, Corea del Sur, MF, 21, 0, 7
+-- 5954, 2006, Corea del Sur, MF, 7, 0, 3
+-- 5954, 2010, Corea del Sur, MF, 7, 4, 4
+-- 5955, 2014, Corea del Sur, MF, 15, 0, 0
+-- 5956, 2014, Corea del Sur, DF, 22, 0, 0
+-- 5956, 2018, Corea del Sur, DF, 6, 0, 1
+-- 5957, 1994, Corea del Sur, DF, 5, 0, 3
+-- 5958, 1954, Corea del Sur, DF, 2, 1, 2
+-- 5959, 1986, Corea del Sur, DF, 2, 0, 3
+-- 5959, 1990, Corea del Sur, DF, 2, 0, 3
+-- 5960, 1954, Corea del Sur, DF, 3, 0, 1
+-- 5961, 1958, Escocia, DF, 3, 0, 1
+-- 5962, 2010, Sudáfrica, FW, 17, 0, 1
+-- 5963, 1990, Inglaterra, DF, 12, 0, 6
+-- 5964, 2002, Costa Rica, FW, 12, 0, 0
+-- 5965, 1954, Suiza, GK, 2, 0, 4
+-- 5966, 1958, Suecia, MF, 6, 0, 6
+-- 5967, 1958, Paraguay, FW, 8, 0, 3
+-- 5968, 1950, Italia, DF, None, 0, 1
+-- 5969, 2014, Italia, MF, 18, 0, 0
+-- 5970, 1950, España, DF, None, 0, 5
+-- 5971, 1998, Chile, MF, 7, 0, 3
+-- 5972, 2022, Ghana, MF, 5, 0, 3
+-- 5973, 1978, Irán, MF, 7, 3, 3
+-- 5974, 2022, Croacia, MF, 15, 0, 2
+-- 5975, 1994, Suiza, GK, 1, 0, 4
+-- 5976, 1986, Argentina, FW, 17, 0, 2
+-- 5977, 1962, Italia, FW, 17, 0, 1
+-- 5977, 1966, Italia, FW, 16, 0, 1
+-- 5978, 1934, Suiza, FW, None, 0, 1
+-- 5979, 1998, Irán, DF, 20, 0, 3
+-- 5980, 1986, Bulgaria, MF, 19, 0, 1
+-- 5981, 1958, Yugoslavia, FW, 16, 0, 0
+-- 5982, 1982, Yugoslavia, FW, 21, 0, 0
+-- 5983, 1938, Italia, FW, None, 0, 1
+-- 5984, 1978, Argentina, DF, 19, 7, 7
+-- 5984, 1982, Argentina, DF, 15, 5, 5
+-- 5984, 1986, Argentina, DF, 6, 0, 0
+-- 5985, 2010, Nueva Zelanda, GK, 1, 0, 3
+-- 5986, 2010, Argentina, MF, 23, 0, 0
+-- 5987, 1966, Argentina, MF, 11, 0, 0
+-- 5988, 2022, Paises Bajos, GK, 1, 0, 0
+-- 5989, 1930, Estados Unidos, FW, None, 0, 3
+-- 5990, 1930, Argentina, DF, None, 0, 4
+-- 5991, 1934, Brasil, FW, None, 0, 1
+-- 5991, 1938, Brasil, FW, None, 0, 3
+-- 5992, 2014, Portugal, GK, 12, 0, 1
+-- 5992, 2018, Portugal, GK, 1, 0, 4
+-- 5992, 2022, Portugal, GK, 1, 0, 0
+-- 5993, 2010, Grecia, DF, 3, 0, 0
+-- 5994, 1938, Indias Orientales Holand., DF, None, 0, 1
+-- 5995, 1934, Checoslovaquia, GK, None, 0, 0
+-- 5996, 1966, Alemania Occidental, DF, 15, 0, 0
+-- 5996, 1970, Alemania Occidental, DF, 15, 0, 2
+-- 5997, 1966, Alemania Occidental, DF, 17, 0, 0
+-- 5998, 2002, Portugal, FW, 9, 0, 3
+-- 5998, 2006, Portugal, FW, 9, 1, 6
+-- 5999, 1954, Brasil, DF, 12, 0, 0
+-- 6000, 2014, Brasil, MF, 8, 0, 5
+-- 6000, 2018, Brasil, MF, 15, 0, 5
+-- 6001, 2002, Portugal, MF, 17, 0, 2
+-- 6002, 1970, Brasil, MF, 18, 0, 2
+-- 6002, 1974, Brasil, MF, 11, 0, 5
+-- 6003, 2006, Portugal, DF, 2, 0, 1
+-- 6003, 2010, Portugal, DF, 3, 0, 1
+-- 6004, 1966, Brasil, DF, 8, 0, 2
+-- 6005, 1982, Brasil, MF, 7, 0, 0
+-- 6006, 2006, Portugal, GK, 22, 0, 0
+-- 6007, 1994, Brasil, FW, 18, 0, 0
+-- 6008, 1982, Brasil, GK, 12, 0, 0
+-- 6009, 2002, Portugal, MF, 6, 0, 0
+-- 6010, 1986, Brasil, GK, 12, 0, 0
+-- 6011, 2018, Francia, DF, 2, 0, 6
+-- 6011, 2022, Francia, DF, 2, 0, 1
+-- 6012, 1938, Bélgica, DF, None, 0, 1
+-- 6013, 2002, Eslovenia, MF, 11, 0, 3
+-- 6014, 1974, Yugoslavia, MF, 13, 0, 1
+-- 6015, 2022, Serbia, DF, 2, 0, 3
+-- 6016, 2002, Eslovenia, MF, 17, 0, 0
+-- 6017, 1938, Rumania, GK, None, 0, 1
+-- 6018, 2010, Honduras, FW, 9, 0, 1
+-- 6019, 2018, Argentina, MF, 22, 0, 1
+-- 6020, 1974, Uruguay, DF, 6, 0, 3
+-- 6021, 1986, Polonia, DF, 18, 0, 2
+-- 6022, 1950, Uruguay, GK, None, 0, 1
+-- 6023, 1962, Colombia, FW, 14, 0, 0
+-- 6024, 1998, Argentina, DF, 13, 0, 1
+-- 6025, 1986, Uruguay, MF, 18, 0, 0
+-- 6025, 1990, Uruguay, MF, 10, 0, 3
+-- 6026, 2018, Polonia, DF, 2, 0, 2
+-- 6027, 1954, Checoslovaquia, FW, 10, 0, 2
+-- 6028, 1994, Colombia, GK, 22, 0, 0
+-- 6029, 2010, Italia, FW, 20, 0, 0
+-- 6030, 1962, Inglaterra, FW, 19, 0, 2
+-- 6031, 1958, Irlanda del Norte, MF, 6, 0, 4
+-- 6032, 1990, Inglaterra, DF, 3, 0, 6
+-- 6033, 1978, Italia, MF, 11, 0, 0
+-- 6034, 1990, Austria, DF, 3, 0, 3
+-- 6035, 2010, Eslovenia, FW, 7, 0, 0
+-- 6036, 1934, Argentina, DF, None, 0, 1
+-- 6037, 2022, España, MF, 26, 0, 4
+-- 6038, 1982, Brasil, DF, 17, 0, 0
+-- 6039, 2010, España, FW, 18, 0, 2
+-- 6039, 2014, España, FW, 11, 0, 1
+-- 6040, 2022, Brasil, FW, 25, 0, 0
+-- 6041, 2002, Portugal, MF, 14, 0, 0
+-- 6042, 2010, Portugal, MF, 8, 0, 2
+-- 6043, 1934, Brasil, GK, None, 0, 1
+-- 6044, 1934, Bélgica, MF, None, 0, 1
+-- 6045, 1970, Bélgica, DF, 20, 0, 0
+-- 6046, 2002, Bélgica, DF, 15, 0, 3
+-- 6047, 1962, España, FW, 12, 0, 2
+-- 6047, 1966, España, FW, 20, 0, 2
+-- 6048, 2010, Eslovaquia, DF, 2, 0, 3
+-- 6049, 1998, México, FW, 9, 0, 0
+-- 6050, 1958, Brasil, FW, 10, 0, 4
+-- 6050, 1962, Brasil, FW, 10, 0, 2
+-- 6050, 1966, Brasil, FW, 10, 0, 2
+-- 6050, 1970, Brasil, FW, 10, 0, 6
+-- 6051, 1954, Austria, GK, 15, 0, 0
+-- 6052, 1934, Paises Bajos, MF, None, 0, 1
+-- 6053, 2022, Uruguay, FW, 8, 0, 2
+-- 6054, 2014, Costa Rica, GK, 18, 0, 0
+-- 6054, 2018, Costa Rica, GK, 18, 0, 0
+-- 6055, 1994, Bolivia, FW, 9, 0, 0
+-- 6056, 2014, México, MF, 21, 0, 0
+-- 6057, 1966, México, DF, 3, 3, 3
+-- 6057, 1970, México, DF, 3, 4, 4
+-- 6058, 1994, Bolivia, DF, 2, 0, 1
+-- 6059, 1958, Paraguay, FW, 18, 0, 0
+-- 6060, 2002, Turquía, MF, 18, 0, 5
+-- 6061, 2018, Panamá, GK, 1, 0, 3
+-- 6062, 1966, Bulgaria, DF, 5, 0, 3
+-- 6062, 1970, Bulgaria, DF, 6, 0, 3
+-- 6062, 1974, Bulgaria, DF, 6, 0, 3
+-- 6063, 1998, Bulgaria, FW, 9, 0, 1
+-- 6064, 1986, Irlanda del Norte, FW, 7, 0, 2
+-- 6065, 1998, Camerún, DF, 17, 0, 1
+-- 6066, 1954, Francia, DF, 14, 0, 1
+-- 6066, 1958, Francia, MF, 13, 1, 6
+-- 6067, 2010, Portugal, MF, 15, 0, 2
+-- 6067, 2014, Portugal, MF, 3, 0, 2
+-- 6067, 2018, Portugal, DF, 3, 0, 4
+-- 6067, 2022, Portugal, DF, 3, 2, 4
+-- 6068, 1958, Brasil, FW, 22, 0, 0
+-- 6068, 1962, Brasil, FW, 11, 0, 0
+-- 6069, 2010, Italia, MF, 7, 0, 3
+-- 6070, 1938, Brasil, FW, None, 0, 4
+-- 6071, 2014, México, FW, 19, 0, 4
+-- 6071, 2018, México, FW, 19, 0, 0
+-- 6072, 1966, Italia, FW, 17, 0, 2
+-- 6073, 1938, Italia, MF, None, 0, 0
+-- 6074, 1990, Uruguay, MF, 5, 0, 4
+-- 6075, 1990, Colombia, DF, 15, 0, 4
+-- 6075, 1994, Colombia, DF, 15, 0, 2
+-- 6076, 1986, Uruguay, DF, 14, 0, 2
+-- 6077, 2010, Uruguay, MF, 11, 0, 5
+-- 6077, 2014, Uruguay, MF, 6, 0, 3
+-- 6078, 2022, Portugal, DF, 13, 0, 1
+-- 6079, 1990, Uruguay, GK, 12, 0, 0
+-- 6080, 2014, Portugal, DF, 21, 0, 3
+-- 6081, 2010, Uruguay, DF, 16, 0, 7
+-- 6081, 2014, Uruguay, DF, 16, 0, 2
+-- 6081, 2018, Uruguay, DF, 16, 0, 0
+-- 6082, 2018, Portugal, DF, 15, 0, 1
+-- 6083, 1990, Uruguay, MF, 20, 0, 2
+-- 6084, 1966, Portugal, MF, 6, 0, 0
+-- 6085, 1958, Argentina, MF, 13, 0, 0
+-- 6086, 2018, Panamá, FW, 7, 0, 2
+-- 6087, 2010, Uruguay, MF, 15, 0, 7
+-- 6087, 2014, Uruguay, MF, 15, 0, 0
+-- 6088, 1962, Uruguay, FW, 7, 0, 3
+-- 6088, 1966, Uruguay, FW, 11, 0, 4
+-- 6089, 2014, Argentina, MF, 8, 0, 2
+-- 6089, 2018, Argentina, MF, 15, 0, 3
+-- 6090, 1994, Estados Unidos, MF, 7, 0, 1
+-- 6091, 1994, Argentina, MF, 18, 0, 0
+-- 6092, 1962, Colombia, FW, 16, 0, 0
+-- 6093, 1998, Colombia, MF, 18, 0, 0
+-- 6094, 1990, Colombia, MF, 6, 0, 0
+-- 6095, 1950, Uruguay, FW, None, 0, 4
+-- 6095, 1954, Uruguay, FW, 21, 0, 0
+-- 6096, 1930, México, FW, None, 0, 2
+-- 6097, 2006, México, MF, 23, 0, 1
+-- 6098, 1970, México, DF, 5, 0, 4
+-- 6099, 1950, México, FW, None, 0, 2
+-- 6100, 1998, México, GK, 22, 0, 0
+-- 6100, 2002, México, GK, 1, 0, 4
+-- 6100, 2010, México, GK, 1, 0, 4
+-- 6101, 1934, Argentina, FW, None, 0, 0
+-- 6102, 1994, Colombia, DF, 20, 0, 3
+-- 6103, 1966, Argentina, DF, 4, 0, 4
+-- 6103, 1974, Argentina, DF, 14, 4, 4
+-- 6104, 2014, Italia, GK, 13, 0, 0
+-- 6105, 1930, Argentina, FW, None, 0, 1
+-- 6106, 2014, Croacia, MF, 4, 0, 3
+-- 6106, 2018, Croacia, FW, 4, 0, 7
+-- 6106, 2022, Croacia, FW, 4, 0, 7
+-- 6107, 2006, Ecuador, DF, 5, 0, 0
+-- 6108, 1962, Suiza, GK, 2, 0, 0
+-- 6109, 2006, España, DF, 3, 0, 3
+-- 6110, 2010, Eslovaquia, GK, 12, 0, 0
+-- 6111, 2006, Italia, MF, 20, 0, 7
+-- 6112, 1978, Austria, DF, 16, 0, 0
+-- 6113, 1938, Suecia, FW, None, 0, 1
+-- 6114, 1970, Suecia, MF, 11, 0, 2
+-- 6114, 1974, Suecia, MF, 21, 0, 1
+-- 6115, 1974, Yugoslavia, DF, 14, 0, 0
+-- 6116, 2006, Italia, GK, 12, 0, 0
+-- 6117, 1970, Rumania, DF, 20, 0, 0
+-- 6118, 1954, Checoslovaquia, FW, 11, 0, 1
+-- 6119, 1938, Alemania, FW, None, 0, 1
+-- 6120, 1998, Italia, DF, 7, 0, 2
+-- 6121, 2018, Polonia, MF, 17, 0, 0
+-- 6122, 1954, Yugoslavia, FW, 22, 0, 0
+-- 6122, 1958, Yugoslavia, FW, 12, 0, 4
+-- 6123, 1986, Hungría, DF, 14, 0, 1
+-- 6124, 1966, Inglaterra, MF, 16, 0, 5
+-- 6124, 1970, Inglaterra, FW, 11, 0, 4
+-- 6125, 1958, Alemania Occidental, FW, 19, 0, 0
+-- 6126, 2002, Portugal, MF, 20, 0, 3
+-- 6126, 2006, Portugal, MF, 8, 0, 3
+-- 6127, 1998, Francia, MF, 17, 0, 6
+-- 6127, 2002, Francia, MF, 17, 0, 2
+-- 6128, 1978, Francia, MF, 13, 0, 1
+-- 6129, 1938, Bélgica, DF, None, 0, 0
+-- 6130, 1998, Bulgaria, DF, 4, 0, 2
+-- 6131, 1998, Bulgaria, MF, 22, 0, 0
+-- 6132, 2022, Croacia, FW, 16, 0, 1
+-- 6133, 2006, Serbia y Montenegro, DF, 16, 0, 0
+-- 6134, 1974, Yugoslavia, MF, 7, 0, 4
+-- 6135, 1930, Yugoslavia, FW, None, 0, 0
+-- 6136, 1970, Checoslovaquia, FW, 8, 0, 3
+-- 6137, 2010, Eslovaquia, DF, 22, 0, 0
+-- 6138, 2018, Australia, FW, 21, 0, 0
+-- 6139, 1994, Rumania, DF, 2, 0, 5
+-- 6139, 1998, Rumania, DF, 2, 0, 4
+-- 6140, 1930, Uruguay, FW, None, 0, 1
+-- 6141, 1986, Bulgaria, DF, 4, 0, 3
+-- 6142, 1974, Yugoslavia, GK, 21, 0, 0
+-- 6143, 2010, Serbia, MF, 19, 0, 0
+-- 6144, 1974, Yugoslavia, MF, 20, 0, 1
+-- 6144, 1982, Yugoslavia, MF, 7, 0, 3
+-- 6145, 1998, RF de Yugoslavia, MF, 16, 0, 4
+-- 6146, 1982, Checoslovaquia, FW, 20, 0, 0
+-- 6147, 1990, Suecia, FW, 21, 0, 2
+-- 6148, 1970, Suecia, GK, 17, 0, 0
+-- 6149, 1930, Argentina, FW, None, 0, 4
+-- 6150, 1998, Irán, DF, 5, 0, 0
+-- 6151, 1990, Irlanda, GK, 22, 0, 0
+-- 6152, 2022, Argentina, DF, 6, 0, 0
+-- 6153, 1978, Austria, DF, 5, 0, 6
+-- 6153, 1982, Austria, DF, 5, 0, 5
+-- 6154, 1954, Alemania Occidental, FW, 19, 0, 1
+-- 6155, 1982, Bélgica, GK, 1, 0, 3
+-- 6155, 1986, Bélgica, GK, 1, 0, 7
+-- 6156, 1990, Austria, DF, 4, 0, 2
+-- 6156, 1998, Austria, DF, 4, 0, 3
+-- 6157, 1990, Austria, FW, 17, 0, 0
+-- 6157, 1998, Austria, MF, 8, 0, 3
+-- 6158, 1990, Alemania Occidental, DF, 19, 0, 1
+-- 6159, 1994, Irlanda, DF, 3, 0, 3
+-- 6160, 2018, Brasil, MF, 11, 0, 5
+-- 6161, 2022, Inglaterra, MF, 14, 0, 0
+-- 6162, 1998, Sudáfrica, MF, 8, 0, 0
+-- 6163, 1930, Argentina, MF, None, 0, 0
+-- 6164, 1958, Francia, FW, 20, 0, 5
+-- 6165, 2022, Polonia, FW, 23, 0, 0
+-- 6166, 1994, Rusia, MF, 7, 0, 1
+-- 6167, 1982, Austria, MF, 12, 0, 1
+-- 6168, 1982, Nueva Zelanda, GK, 21, 0, 0
+-- 6169, 2018, Inglaterra, GK, 1, 0, 7
+-- 6169, 2022, Inglaterra, GK, 1, 0, 5
+-- 6170, 1938, Polonia, FW, None, 0, 1
+-- 6171, 1938, Polonia, MF, None, 0, 0
+-- 6172, 2002, Sudáfrica, MF, 21, 0, 0
+-- 6172, 2010, Sudáfrica, MF, 10, 0, 3
+-- 6173, 1934, Estados Unidos, MF, None, 0, 1
+-- 6174, 2022, Canadá, MF, 6, 0, 0
+-- 6175, 1938, Paises Bajos, MF, None, 0, 0
+-- 6176, 2002, Rusia, FW, 19, 0, 2
+-- 6177, 2018, Panamá, MF, 14, 0, 0
+-- 6178, 2006, Ghana, FW, 19, 0, 1
+-- 6179, 2006, México, DF, 14, 0, 3
+-- 6180, 1998, Argentina, DF, 4, 0, 1
+-- 6181, 2022, México, FW, 17, 0, 1
+-- 6182, 1970, El Salvador, GK, 13, 0, 0
+-- 6183, 1994, Bolivia, MF, 7, 0, 0
+-- 6184, 1930, Francia, MF, None, 0, 3
+-- 6185, 1954, Brasil, FW, 10, 0, 2
+-- 6186, 1954, Brasil, MF, 5, 0, 3
+-- 6187, 1950, Uruguay, MF, None, 0, 0
+-- 6188, 2014, Chile, FW, 9, 0, 0
+-- 6189, 2022, España, FW, 17, 0, 0
+-- 6190, 1978, Hungría, MF, 10, 0, 3
+-- 6191, 2010, Chile, GK, 12, 0, 0
+-- 6192, 1990, Uruguay, DF, 14, 0, 1
+-- 6193, 1938, Italia, FW, None, 0, 4
+-- 6194, 1938, Polonia, FW, None, 0, 1
+-- 6195, 1970, Bélgica, GK, 1, 0, 3
+-- 6196, 1974, Haití, GK, 2, 0, 0
+-- 6197, 2010, España, DF, 3, 0, 7
+-- 6197, 2014, España, DF, 3, 0, 1
+-- 6197, 2018, España, DF, 3, 0, 4
+-- 6198, 1998, Francia, MF, 11, 0, 1
+-- 6199, 1930, Uruguay, MF, None, 0, 0
+-- 6200, 1978, Austria, FW, 19, 0, 0
+-- 6201, 2006, Italia, MF, 21, 0, 7
+-- 6201, 2010, Italia, MF, 21, 0, 0
+-- 6201, 2014, Italia, MF, 21, 1, 3
+-- 6202, 1966, España, MF, 18, 0, 2
+-- 6202, 1978, España, DF, 18, 1, 1
+-- 6203, 1950, España, FW, None, 4, 5
+-- 6204, 2018, Polonia, DF, 20, 0, 2
+-- 6205, 1966, Francia, MF, 18, 0, 0
+-- 6206, 2018, Croacia, DF, 22, 0, 1
+-- 6207, 1970, Checoslovaquia, DF, 12, 0, 0
+-- 6208, 1954, Italia, FW, 18, 0, 0
+-- 6209, 1966, Italia, GK, 18, 0, 0
+-- 6210, 1998, España, FW, 9, 0, 1
+-- 6211, 1934, Italia, MF, None, 0, 2
+-- 6212, 2018, Croacia, FW, 20, 0, 1
+-- 6213, 2014, Bosnia-Herzegovina, MF, 8, 0, 3
+-- 6214, 2002, Argentina, DF, 13, 0, 2
+-- 6215, 1934, Checoslovaquia, GK, None, 4, 4
+-- 6215, 1938, Checoslovaquia, GK, None, 2, 2
+-- 6216, 2010, Francia, DF, 6, 0, 0
+-- 6217, 2006, República Checa, MF, 20, 0, 3
+-- 6218, 2022, Ecuador, MF, 19, 0, 3
+-- 6219, 1978, Francia, MF, 15, 0, 2
+-- 6219, 1982, Francia, MF, 10, 5, 5
+-- 6219, 1986, Francia, MF, 10, 6, 6
+-- 6220, 1990, Inglaterra, MF, 17, 0, 3
+-- 6221, 1982, Irlanda del Norte, GK, 17, 0, 1
+-- 6221, 1986, Irlanda del Norte, GK, 12, 0, 0
+-- 6222, 2018, Alemania, DF, 2, 0, 1
+-- 6223, 1934, Austria, GK, None, 0, 4
+-- 6224, 1938, Paises Bajos, DF, None, 0, 0
+-- 6225, 1982, Bélgica, DF, 16, 0, 1
+-- 6226, 2002, Croacia, GK, 1, 0, 3
+-- 6226, 2006, Croacia, GK, 1, 0, 3
+-- 6226, 2014, Croacia, GK, 1, 0, 3
+-- 6227, 1990, Bélgica, DF, 17, 0, 0
+-- 6228, 1954, Checoslovaquia, MF, 3, 0, 1
+-- 6228, 1958, Checoslovaquia, MF, 6, 0, 2
+-- 6228, 1962, Checoslovaquia, DF, 5, 0, 6
+-- 6229, 2006, República Checa, MF, 8, 0, 3
+-- 6230, 2002, Argentina, DF, 4, 0, 3
+-- 6231, 2006, Alemania, FW, 20, 0, 7
+-- 6231, 2010, Alemania, FW, 10, 0, 6
+-- 6231, 2014, Alemania, FW, 10, 0, 1
+-- 6232, 2014, Francia, MF, 19, 0, 4
+-- 6232, 2018, Francia, MF, 6, 0, 6
+-- 6233, 1930, Chile, DF, None, 0, 1
+-- 6234, 2006, República Checa, MF, 19, 0, 1
+-- 6235, 1970, Italia, DF, 4, 0, 0
+-- 6236, 1934, Hungría, MF, None, 0, 0
+-- 6236, 1938, Hungría, DF, None, 0, 1
+-- 6237, 1970, Checoslovaquia, MF, 17, 0, 1
+-- 6238, 1970, Bélgica, FW, 16, 0, 1
+-- 6239, 2018, Perú, MF, 14, 0, 0
+-- 6240, 1982, Hungría, FW, 11, 0, 3
+-- 6241, 1978, Brasil, DF, 15, 0, 0
+-- 6242, 1990, Austria, FW, 9, 3, 3
+-- 6242, 1998, Austria, FW, 19, 3, 3
+-- 6243, 1930, Brasil, FW, None, 0, 1
+-- 6244, 1974, Alemania Oriental, MF, 7, 0, 3
+-- 6245, 2014, México, DF, 16, 0, 0
+-- 6246, 2010, Chile, DF, 3, 0, 3
+-- 6247, 1962, URSS, FW, 19, 0, 4
+-- 6248, 1966, URSS, DF, 4, 0, 5
+-- 6249, 2014, Irán, DF, 23, 0, 3
+-- 6250, 1978, Paises Bajos, DF, 2, 0, 6
+-- 6251, 1998, Estados Unidos, DF, 3, 0, 2
+-- 6251, 2002, Estados Unidos, DF, 23, 0, 5
+-- 6251, 2006, Estados Unidos, DF, 23, 0, 2
+-- 6252, 2018, Inglaterra, GK, 23, 0, 0
+-- 6252, 2022, Inglaterra, GK, 13, 0, 0
+-- 6253, 1990, Rumania, DF, 13, 0, 0
+-- 6254, 1998, Rumania, MF, 16, 0, 3
+-- 6255, 1990, Rumania, MF, 6, 0, 4
+-- 6255, 1994, Rumania, DF, 6, 0, 5
+-- 6255, 1998, Rumania, DF, 6, 0, 3
+-- 6256, 1974, Yugoslavia, FW, 17, 0, 1
+-- 6257, 1958, Checoslovaquia, DF, 16, 0, 3
+-- 6257, 1962, Checoslovaquia, DF, 3, 0, 6
+-- 6258, 1994, Rusia, MF, 8, 0, 1
+-- 6259, 1970, Bulgaria, FW, 7, 0, 2
+-- 6260, 2006, Australia, DF, 6, 0, 1
+-- 6261, 1958, Yugoslavia, MF, 11, 0, 0
+-- 6261, 1962, Yugoslavia, MF, 6, 0, 6
+-- 6262, 1966, URSS, FW, 17, 0, 3
+-- 6262, 1970, URSS, FW, 22, 0, 0
+-- 6263, 2002, Ecuador, DF, 2, 0, 3
+-- 6264, 2022, Ecuador, DF, 25, 0, 1
+-- 6265, 2006, Costa Rica, GK, 18, 0, 3
+-- 6266, 1970, El Salvador, FW, 17, 0, 1
+-- 6267, 1958, México, MF, 5, 0, 1
+-- 6268, 1954, Alemania Occidental, DF, 7, 0, 5
+-- 6269, 1962, Checoslovaquia, FW, 17, 0, 3
+-- 6270, 2006, Portugal, FW, 23, 0, 1
+-- 6270, 2014, Portugal, FW, 23, 0, 1
+-- 6271, 1962, Suiza, FW, 18, 0, 1
+-- 6272, 2002, Dinamarca, MF, 17, 0, 1
+-- 6272, 2010, Dinamarca, MF, 2, 0, 3
+-- 6273, 2010, Dinamarca, MF, 14, 0, 0
+-- 6274, 2010, Dinamarca, DF, 15, 0, 3
+-- 6275, 2018, Irán, DF, 8, 0, 3
+-- 6275, 2022, Irán, DF, 8, 0, 3
+-- 6276, 1938, Francia, DF, None, 0, 0
+-- 6277, 1998, Jamaica, MF, 20, 0, 1
+-- 6278, 1974, Argentina, FW, 15, 0, 0
+-- 6279, 2010, Argentina, GK, 1, 0, 0
+-- 6280, 1958, Argentina, FW, 8, 0, 1
+-- 6281, 2014, Croacia, DF, 3, 0, 2
+-- 6282, 1938, Rumania, FW, None, 0, 1
+-- 6283, 1970, Italia, FW, 22, 0, 0
+-- 6284, 2022, Ecuador, DF, 17, 0, 3
+-- 6285, 2022, Ecuador, MF, 9, 0, 0
+-- 6286, 1998, Colombia, FW, 21, 0, 1
+-- 6287, 1994, Rumania, GK, 22, 0, 0
+-- 6288, 1982, Austria, DF, 17, 0, 1
+-- 6289, 1930, Brasil, FW, None, 2, 2
+-- 6290, 1990, Bélgica, GK, 1, 0, 4
+-- 6290, 1994, Bélgica, GK, 1, 0, 4
+-- 6291, 1950, Chile, FW, None, 0, 2
+-- 6292, 1966, Chile, MF, 14, 0, 3
+-- 6293, 1950, México, FW, None, 0, 0
+-- 6294, 2018, Serbia, FW, 8, 0, 0
+-- 6295, 1970, Israel, DF, 4, 0, 3
+-- 6296, 2010, Grecia, MF, 23, 0, 0
+-- 6297, 1954, Austria, FW, 10, 0, 5
+-- 6298, 1954, Checoslovaquia, MF, 16, 0, 0
+-- 6299, 1994, Rumania, DF, 3, 0, 5
+-- 6300, 1978, Austria, MF, 8, 0, 6
+-- 6300, 1982, Austria, MF, 8, 0, 5
+-- 6301, 1990, Croacia, MF, 15, 0, 1
+-- 6301, 1998, Croacia, MF, 8, 0, 4
+-- 6301, 2002, Croacia, MF, 8, 0, 1
+-- 6302, 1966, Suiza, GK, 22, 0, 0
+-- 6303, 1986, URSS, FW, 18, 0, 1
+-- 6303, 1990, URSS, FW, 10, 0, 3
+-- 6304, 1982, Escocia, FW, 20, 0, 0
+-- 6305, 2006, Croacia, FW, 9, 0, 3
+-- 6306, 1994, Rumania, GK, 1, 0, 3
+-- 6306, 1998, Rumania, GK, 22, 0, 0
+-- 6307, 1986, Polonia, DF, 2, 0, 1
+-- 6308, 1934, Checoslovaquia, FW, None, 0, 4
+-- 6308, 1938, Checoslovaquia, FW, None, 0, 1
+-- 6309, 1950, España, MF, None, 0, 6
+-- 6310, 1982, Yugoslavia, GK, 12, 0, 0
+-- 6311, 1970, Italia, DF, 9, 0, 0
+-- 6312, 1970, Bélgica, FW, 11, 0, 3
+-- 6313, 2002, Sudáfrica, MF, 11, 0, 0
+-- 6314, 1974, Italia, FW, 21, 0, 0
+-- 6314, 1978, Italia, FW, 20, 0, 0
+-- 6315, 2014, México, FW, 11, 0, 0
+-- 6316, 1970, México, MF, 15, 0, 3
+-- 6317, 2022, Estados Unidos, FW, 10, 0, 4
+-- 6318, 1934, Rumania, GK, None, 0, 0
+-- 6319, 1982, Argentina, GK, 16, 0, 0
+-- 6319, 1986, Argentina, GK, 18, 0, 7
+-- 6319, 1990, Argentina, GK, 1, 0, 2
+-- 6320, 1938, Paises Bajos, FW, None, 0, 0
+-- 6321, 1958, Austria, MF, 21, 0, 0
+-- 6322, 1954, España, FW, 10, 3, 3
+-- 6322, 1962, España, FW, 14, 0, 3
+-- 6323, 1966, Hungría, FW, 19, 0, 0
+-- 6324, 1978, Hungría, FW, 17, 0, 2
+-- 6325, 1934, Bélgica, MF, None, 0, 0
+-- 6326, 2002, España, DF, 5, 0, 4
+-- 6326, 2006, España, DF, 5, 0, 3
+-- 6326, 2010, España, DF, 5, 0, 7
+-- 6327, 1970, URSS, FW, 20, 0, 1
+-- 6328, 2006, Ucrania, GK, 12, 0, 0
+-- 6329, 1986, Iraq, MF, 19, 0, 1
+-- 6330, 2002, China, MF, 19, 0, 1
+-- 6331, 2002, China, FW, 16, 0, 0
+-- 6332, 2010, Italia, FW, 18, 0, 0
+-- 6333, 2018, Portugal, FW, 20, 0, 1
+-- 6334, 2006, Ghana, DF, 17, 0, 0
+-- 6335, 1966, Suiza, FW, 16, 0, 2
+-- 6336, 1994, Suiza, DF, 3, 0, 4
+-- 6337, 1978, Perú, MF, 17, 0, 2
+-- 6338, 1990, Costa Rica, DF, 2, 0, 0
+-- 6339, 2006, Portugal, GK, 12, 0, 0
+-- 6340, 1950, Suiza, MF, None, 0, 3
+-- 6341, 1934, España, DF, None, 1, 3
+-- 6342, 1978, España, FW, 9, 0, 0
+-- 6342, 1982, España, FW, 20, 0, 1
+-- 6343, 1986, Irlanda del Norte, FW, 9, 0, 0
+-- 6344, 1990, Irlanda, FW, 17, 0, 3
+-- 6344, 2002, Irlanda, FW, 17, 0, 0
+-- 6345, 1930, Perú, MF, None, 0, 0
+-- 6346, 1970, El Salvador, MF, 6, 0, 2
+-- 6347, 1974, Chile, DF, 3, 0, 3
+-- 6348, 2014, Colombia, MF, 20, 0, 1
+-- 6348, 2018, Colombia, MF, 20, 0, 4
+-- 6349, 1994, Bolivia, DF, 5, 0, 2
+-- 6350, 1990, España, DF, 8, 0, 0
+-- 6351, 1986, España, FW, 12, 0, 0
+-- 6352, 1986, México, DF, 3, 0, 5
+-- 6353, 1978, Perú, GK, 21, 0, 6
+-- 6353, 1982, Perú, GK, 21, 0, 3
+-- 6354, 1950, Chile, GK, None, 0, 0
+-- 6355, 1954, Inglaterra, FW, 16, 0, 0
+-- 6356, 1986, Dinamarca, GK, 16, 0, 0
+-- 6357, 1978, Hungría, DF, 15, 0, 0
+-- 6357, 1982, Hungría, DF, 13, 0, 1
+-- 6358, 2022, Francia, MF, 14, 0, 5
+-- 6359, 2014, Ghana, MF, 17, 0, 3
+-- 6360, 2022, Serbia, MF, 19, 0, 0
+-- 6361, 1974, Haití, MF, 13, 0, 1
+-- 6362, 1962, Colombia, FW, 20, 0, 2
+-- 6363, 1962, Yugoslavia, MF, 4, 0, 5
+-- 6364, 1994, Rusia, FW, 15, 0, 2
+-- 6365, 1998, Sudáfrica, DF, 19, 3, 3
+-- 6365, 2002, Sudáfrica, DF, 19, 3, 3
+-- 6366, 1986, Iraq, FW, 8, 0, 3
+-- 6367, 1962, Italia, MF, 3, 0, 2
+-- 6368, 1982, Checoslovaquia, DF, 14, 0, 2
+-- 6369, 2006, Polonia, MF, 16, 0, 3
+-- 6370, 2018, Serbia, FW, 18, 0, 0
+-- 6370, 2022, Serbia, FW, 7, 0, 0
+-- 6371, 2010, Eslovenia, MF, 18, 0, 3
+-- 6372, 1998, Estados Unidos, MF, 14, 0, 0
+-- 6373, 1958, Yugoslavia, DF, 21, 0, 0
+-- 6374, 1950, Yugoslavia, MF, None, 0, 0
+-- 6375, 1970, Rumania, GK, 1, 0, 1
+-- 6376, 1990, Rumania, FW, 14, 0, 3
+-- 6376, 1994, Rumania, FW, 9, 0, 4
+-- 6377, 2014, Portugal, MF, 15, 0, 0
+-- 6378, 1934, Egipto, DF, None, 0, 1
+-- 6379, 1990, España, MF, 18, 0, 0
+-- 6380, 1930, Rumania, MF, None, 0, 2
+-- 6380, 1938, Rumania, MF, None, 0, 2
+-- 6381, 1934, Alemania, GK, None, 0, 0
+-- 6381, 1938, Alemania, GK, None, 0, 2
+-- 6382, 1934, Egipto, MF, None, 0, 1
+-- 6383, 1986, Canadá, MF, 4, 0, 3
+-- 6384, 1982, El Salvador, FW, 17, 0, 0
+-- 6385, 2022, Ghana, DF, 17, 0, 2
+-- 6386, 2014, Irán, MF, 18, 0, 0
+-- 6387, 1954, Alemania Occidental, FW, 12, 0, 4
+-- 6387, 1958, Alemania Occidental, FW, 8, 0, 6
+-- 6388, 1986, Alemania Occidental, MF, 18, 0, 0
+-- 6389, 1994, Brasil, MF, 10, 3, 3
+-- 6390, 1958, Yugoslavia, FW, 17, 0, 4
+-- 6391, 2018, Serbia, GK, 12, 0, 0
+-- 6391, 2022, Serbia, GK, 12, 0, 0
+-- 6392, 1962, Bulgaria, DF, 2, 2, 2
+-- 6393, 2014, Croacia, MF, 7, 0, 3
+-- 6393, 2018, Croacia, MF, 7, 0, 6
+-- 6394, 1962, Hungría, FW, 17, 0, 3
+-- 6394, 1966, Hungría, FW, 11, 0, 4
+-- 6395, 1950, España, GK, None, 0, 4
+-- 6396, 1994, Bolivia, FW, 18, 0, 3
+-- 6397, 2002, Francia, GK, 1, 0, 0
+-- 6398, 2002, Alemania, MF, 5, 0, 5
+-- 6399, 2018, Francia, DF, 17, 0, 0
+-- 6400, 2010, Brasil, MF, 18, 0, 1
+-- 6400, 2014, Brasil, MF, 16, 0, 2
+-- 6401, 1998, Paraguay, FW, 18, 0, 0
+-- 6402, 2014, Uruguay, MF, 18, 0, 0
+-- 6403, 1962, Chile, FW, 7, 0, 6
+-- 6403, 1966, Chile, FW, 15, 0, 0
+-- 6404, 1994, México, DF, 3, 0, 4
+-- 6405, 1982, El Salvador, FW, 14, 0, 2
+-- 6406, 1998, Chile, GK, 12, 0, 0
+-- 6407, 1998, Chile, DF, 14, 0, 1
+-- 6408, 2022, Ecuador, GK, 12, 0, 0
+-- 6409, 1966, Chile, FW, 16, 0, 0
+-- 6410, 1990, Costa Rica, MF, 10, 0, 4
+-- 6411, 1970, Perú, FW, 22, 0, 0
+-- 6412, 1994, México, DF, 5, 0, 2
+-- 6412, 1998, México, MF, 7, 0, 3
+-- 6413, 2014, Colombia, FW, 19, 0, 1
+-- 6414, 2018, Perú, DF, 15, 0, 3
+-- 6415, 1978, México, DF, 4, 0, 2
+-- 6416, 2022, Portugal, FW, 26, 0, 2
+-- 6417, 1966, Uruguay, DF, 20, 0, 0
+-- 6418, 1994, Bolivia, MF, 14, 0, 1
+-- 6419, 2006, España, DF, 15, 0, 3
+-- 6419, 2010, España, DF, 15, 0, 7
+-- 6419, 2014, España, DF, 15, 1, 3
+-- 6419, 2018, España, DF, 15, 4, 4
+-- 6420, 1990, Estados Unidos, MF, 7, 0, 3
+-- 6420, 1994, Estados Unidos, MF, 9, 0, 4
+-- 6420, 1998, Estados Unidos, MF, 10, 0, 1
+-- 6421, 1986, Uruguay, FW, 19, 0, 2
+-- 6422, 1958, Argentina, DF, 17, 0, 0
+-- 6422, 1962, Argentina, DF, 2, 0, 1
+-- 6423, 2022, Inglaterra, GK, 23, 0, 0
+-- 6424, 2022, Gales, MF, 10, 0, 3
+-- 6425, 1950, Inglaterra, DF, None, 0, 3
+-- 6426, 1986, Irlanda del Norte, MF, 16, 0, 0
+-- 6427, 1990, Egipto, FW, 13, 0, 2
+-- 6428, 1990, Egipto, DF, 4, 0, 3
+-- 6429, 1978, México, FW, 9, 0, 3
+-- 6430, 2002, Croacia, MF, 5, 0, 2
+-- 6431, 2022, Brasil, FW, 11, 0, 4
+-- 6432, 1934, Estados Unidos, DF, None, 0, 0
+-- 6433, 2018, Inglaterra, FW, 19, 0, 1
+-- 6433, 2022, Inglaterra, FW, 11, 0, 1
+-- 6434, 2006, Polonia, FW, 11, 0, 0
+-- 6435, 1938, Rumania, MF, None, 0, 2
+-- 6436, 1986, Dinamarca, GK, 1, 0, 2
+-- 6437, 1986, URSS, MF, 21, 0, 3
+-- 6437, 1990, URSS, MF, 6, 0, 1
+-- 6438, 1962, Argentina, MF, 16, 0, 1
+-- 6438, 1966, Argentina, MF, 10, 4, 4
+-- 6439, 1938, Suiza, MF, None, 0, 0
+-- 6440, 1998, España, FW, 10, 0, 2
+-- 6440, 2002, España, FW, 7, 0, 4
+-- 6440, 2006, España, FW, 7, 2, 2
+-- 6441, 2022, Alemania, DF, 3, 0, 3
+-- 6442, 1938, Italia, DF, None, 0, 4
+-- 6443, 1990, Suecia, GK, 22, 0, 3
+-- 6443, 1994, Suecia, GK, 1, 0, 7
+-- 6444, 2022, España, GK, 13, 0, 0
+-- 6445, 1958, Paraguay, FW, 21, 0, 3
+-- 6446, 1974, Italia, MF, 17, 0, 0
+-- 6447, 1958, Irlanda del Norte, GK, 18, 0, 0
+-- 6448, 2022, Estados Unidos, DF, 13, 0, 4
+-- 6449, 2022, Ecuador, FW, 24, 0, 0
+-- 6450, 2006, Ecuador, DF, 18, 0, 3
+-- 6451, 2014, Croacia, FW, 16, 0, 0
+-- 6451, 2018, Croacia, FW, 18, 0, 6
+-- 6452, 2006, Ucrania, MF, 11, 0, 2
+-- 6453, 2002, Turquía, GK, 1, 0, 7
+-- 6454, 1982, El Salvador, DF, 4, 0, 3
+-- 6455, 2002, Uruguay, FW, 20, 0, 3
+-- 6456, 1930, Uruguay, DF, None, 0, 0
+-- 6457, 1990, Colombia, MF, 11, 0, 2
+-- 6458, 2022, Australia, GK, 12, 0, 0
+-- 6459, 1990, Rumania, DF, 2, 0, 4
+-- 6460, 1994, Argentina, MF, 5, 0, 4
+-- 6461, 1998, Estados Unidos, DF, 6, 0, 3
+-- 6461, 2002, Estados Unidos, DF, 6, 0, 0
+-- 6462, 1966, México, MF, 16, 0, 0
+-- 6463, 1934, España, FW, None, 0, 2
+-- 6464, 2002, Uruguay, FW, 17, 0, 0
+-- 6465, 2002, Alemania, DF, 3, 0, 1
+-- 6466, 1994, Suecia, MF, 17, 0, 0
+-- 6467, 1986, Inglaterra, MF, 16, 0, 3
+-- 6468, 2002, Irlanda, FW, 21, 0, 0
+-- 6469, 2010, Nueva Zelanda, DF, 4, 0, 3
+-- 6470, 1962, España, DF, 16, 0, 1
+-- 6470, 1966, España, DF, 15, 0, 2
+-- 6471, 1974, Australia, GK, 1, 0, 3
+-- 6472, 1954, Checoslovaquia, GK, 1, 0, 1
+-- 6473, 1966, España, GK, 13, 0, 0
+-- 6474, 2006, España, GK, 23, 0, 0
+-- 6474, 2010, España, GK, 23, 0, 0
+-- 6474, 2014, España, GK, 23, 0, 1
+-- 6474, 2018, España, GK, 23, 0, 0
+-- 6475, 1978, Brasil, FW, 9, 0, 2
+-- 6476, 1982, Alemania Occidental, FW, 13, 0, 1
+-- 6477, 1998, Austria, FW, 14, 0, 1
+-- 6478, 1974, Chile, MF, 10, 0, 3
+-- 6479, 1990, Austria, MF, 16, 0, 0
+-- 6480, 1998, Paises Bajos, DF, 2, 0, 4
+-- 6481, 1994, Noruega, MF, 10, 0, 1
+-- 6481, 1998, Noruega, MF, 10, 0, 4
+-- 6482, 1954, Francia, GK, 1, 0, 2
+-- 6482, 1958, Francia, GK, 3, 0, 2
+-- 6483, 1950, Italia, DF, None, 0, 1
+-- 6484, 2014, Francia, FW, 20, 0, 0
+-- 6485, 1974, Brasil, GK, 12, 0, 0
+-- 6486, 1982, Brasil, MF, 19, 0, 0
+-- 6487, 2018, Brasil, MF, 8, 0, 0
+-- 6488, 1990, Brasil, FW, 17, 0, 0
+-- 6489, 1994, Bélgica, DF, 22, 0, 0
+-- 6490, 1982, Bélgica, DF, 5, 0, 2
+-- 6490, 1986, Bélgica, DF, 5, 0, 5
+-- 6491, 1974, Paises Bajos, FW, 15, 0, 6
+-- 6491, 1978, Paises Bajos, FW, 12, 0, 7
+-- 6492, 1974, Paises Bajos, FW, 16, 0, 7
+-- 6492, 1978, Paises Bajos, FW, 16, 0, 6
+-- 6493, 2018, Alemania, FW, 11, 0, 2
+-- 6494, 1990, Alemania, DF, 2, 0, 4
+-- 6494, 1998, Alemania, DF, 19, 0, 1
+-- 6495, 2010, Francia, DF, 4, 0, 0
+-- 6496, 1990, Uruguay, DF, 13, 0, 0
+-- 6497, 1978, España, FW, 19, 0, 1
+-- 6498, 1962, Suiza, FW, 19, 0, 0
+-- 6499, 1950, Suiza, DF, None, 0, 0
+-- 6500, 2014, México, DF, 5, 0, 0
+-- 6501, 1970, Perú, MF, 19, 0, 0
+-- 6502, 1978, México, GK, 1, 0, 2
+-- 6503, 2006, España, MF, 10, 0, 1
+-- 6504, 1998, Chile, DF, 6, 0, 4
+-- 6505, 1958, México, FW, 8, 0, 3
+-- 6505, 1962, México, FW, 8, 0, 3
+-- 6505, 1966, México, FW, 19, 0, 3
+-- 6506, 1930, Bolivia, FW, None, 0, 1
+-- 6507, 1930, Bolivia, DF, None, 0, 0
+-- 6508, 1994, Estados Unidos, MF, 19, 0, 0
+-- 6508, 1998, Estados Unidos, MF, 21, 0, 3
+-- 6508, 2002, Estados Unidos, MF, 10, 4, 4
+-- 6508, 2006, Estados Unidos, MF, 10, 3, 3
+-- 6509, 2022, Estados Unidos, FW, 7, 0, 0
+-- 6510, 1982, Perú, MF, 22, 0, 0
+-- 6511, 2006, Irán, DF, 5, 0, 3
+-- 6512, 2018, Irán, DF, 23, 0, 3
+-- 6512, 2022, Irán, DF, 23, 0, 2
+-- 6513, 1986, Marruecos, FW, 13, 0, 0
+-- 6514, 2010, Corea del Norte, MF, 19, 0, 0
+-- 6515, 2010, Corea del Norte, DF, 3, 0, 3
+-- 6516, 2010, Corea del Norte, DF, 5, 0, 3
+-- 6517, 2010, Corea del Norte, DF, 21, 0, 0
+-- 6518, 2010, Corea del Norte, GK, 1, 0, 3
+-- 6519, 1986, Portugal, MF, 4, 0, 0
+-- 6520, 2022, Brasil, MF, 22, 0, 0
+-- 6521, 2006, Francia, MF, 22, 0, 6
+-- 6521, 2010, Francia, FW, 7, 0, 3
+-- 6522, 1998, Colombia, FW, 20, 0, 0
+-- 6523, 2002, Brasil, MF, 7, 0, 0
+-- 6523, 2006, Brasil, MF, 20, 0, 0
+-- 6524, 2002, España, GK, 13, 0, 0
+-- 6525, 2002, Portugal, GK, 16, 0, 0
+-- 6525, 2006, Portugal, GK, 1, 0, 7
+-- 6526, 2006, Portugal, DF, 16, 0, 6
+-- 6526, 2010, Portugal, DF, 6, 0, 4
+-- 6527, 1990, Brasil, DF, 3, 4, 4
+-- 6528, 1990, Brasil, DF, 19, 0, 2
+-- 6528, 1994, Brasil, DF, 3, 0, 1
+-- 6529, 2022, Inglaterra, MF, 4, 0, 5
+-- 6530, 1974, Australia, MF, 6, 0, 3
+-- 6531, 2022, Brasil, FW, 9, 0, 4
+-- 6532, 2002, Alemania, MF, 10, 0, 0
+-- 6533, 1998, Jamaica, GK, 14, 0, 0
+-- 6534, 1954, Turquía, DF, 2, 0, 3
+-- 6535, 2022, Suiza, MF, 25, 0, 1
+-- 6536, 1990, Alemania, FW, 13, 0, 1
+-- 6536, 1994, Alemania, FW, 9, 0, 2
+-- 6537, 1954, Austria, MF, 18, 0, 0
+-- 6538, 1998, Dinamarca, DF, 3, 0, 5
+-- 6539, 1950, Chile, FW, None, 0, 1
+-- 6540, 1938, Checoslovaquia, FW, None, 0, 2
+-- 6541, 1990, Paises Bajos, MF, 3, 0, 4
+-- 6541, 1994, Paises Bajos, MF, 3, 0, 4
+-- 6542, 1950, Uruguay, FW, None, 0, 0
+-- 6543, 1974, Paises Bajos, DF, 17, 0, 7
+-- 6543, 1978, Paises Bajos, DF, 17, 0, 3
+-- 6544, 1966, Brasil, DF, 9, 0, 1
+-- 6545, 2014, Estados Unidos, GK, 22, 0, 0
+-- 6546, 1994, Bolivia, DF, 4, 0, 3
+-- 6547, 1990, Colombia, FW, 19, 0, 4
+-- 6547, 1994, Colombia, MF, 19, 0, 3
+-- 6547, 1998, Colombia, MF, 19, 0, 3
+-- 6548, 1986, España, FW, 16, 0, 0
+-- 6549, 1978, Francia, DF, 7, 0, 1
+-- 6550, 1934, Francia, MF, None, 0, 1
+-- 6551, 1978, Escocia, MF, 6, 2, 2
+-- 6552, 1930, Uruguay, MF, None, 0, 0
+-- 6553, 2006, Argentina, MF, 10, 0, 5
+-- 6554, 2018, Australia, DF, 19, 0, 3
+-- 6555, 1994, Noruega, GK, 13, 0, 0
+-- 6556, 1998, Noruega, MF, 21, 0, 3
+-- 6557, 1954, Suiza, FW, 21, 0, 0
+-- 6558, 1970, Italia, FW, 11, 0, 6
+-- 6558, 1974, Italia, FW, 11, 0, 2
+-- 6559, 1998, Brasil, MF, 10, 0, 7
+-- 6559, 2002, Brasil, MF, 10, 0, 7
+-- 6560, 1998, Paraguay, DF, 3, 0, 0
+-- 6561, 1982, Chile, MF, 8, 0, 0
+-- 6562, 1982, El Salvador, FW, 13, 0, 3
+-- 6563, 1970, México, MF, 7, 0, 0
+-- 6564, 1970, El Salvador, DF, 2, 0, 3
+-- 6565, 1970, Brasil, MF, 11, 0, 5
+-- 6565, 1974, Brasil, MF, 10, 0, 7
+-- 6565, 1978, Brasil, MF, 10, 1, 1
+-- 6566, 1930, Paraguay, FW, None, 0, 0
+-- 6567, 1962, Italia, FW, 14, 0, 1
+-- 6567, 1966, Italia, MF, 19, 0, 2
+-- 6567, 1970, Italia, MF, 14, 0, 0
+-- 6567, 1974, Italia, MF, 10, 0, 2
+-- 6568, 1954, Uruguay, MF, 15, 0, 0
+-- 6569, 1986, Uruguay, DF, 15, 0, 1
+-- 6570, 2006, Paraguay, MF, 16, 0, 2
+-- 6570, 2010, Paraguay, MF, 16, 0, 5
+-- 6571, 1930, Chile, DF, None, 0, 1
+-- 6572, 1962, España, DF, 11, 0, 1
+-- 6572, 1966, España, DF, 14, 0, 0
+-- 6573, 1982, Inglaterra, MF, 15, 0, 5
+-- 6574, 1966, Italia, MF, 20, 0, 0
+-- 6575, 1998, Argentina, GK, 1, 0, 5
+-- 6576, 2006, Paises Bajos, FW, 11, 0, 3
+-- 6576, 2010, Paises Bajos, FW, 11, 0, 4
+-- 6576, 2014, Paises Bajos, FW, 11, 1, 7
+-- 6577, 1930, Rumania, MF, None, 0, 1
+-- 6578, 1954, Turquía, MF, 6, 0, 3
+-- 6579, 1990, España, MF, 15, 0, 4
+-- 6580, 1970, Brasil, FW, 13, 0, 0
+-- 6581, 1938, Brasil, FW, None, 0, 2
+-- 6582, 1998, Brasil, DF, 6, 0, 7
+-- 6582, 2002, Brasil, DF, 6, 0, 6
+-- 6582, 2006, Brasil, DF, 6, 0, 4
+-- 6583, 1978, Brasil, FW, 20, 0, 5
+-- 6583, 1982, Brasil, FW, 20, 0, 0
+-- 6584, 2018, Brasil, FW, 20, 0, 0
+-- 6585, 2022, Gales, DF, 14, 0, 2
+-- 6586, 1958, Escocia, FW, 20, 0, 1
+-- 6587, 1978, Escocia, FW, 19, 0, 1
+-- 6587, 1982, Escocia, FW, 11, 0, 3
+-- 6588, 2006, Brasil, FW, 23, 0, 1
+-- 6588, 2010, Brasil, FW, 11, 0, 4
+-- 6589, 2022, Estados Unidos, DF, 5, 0, 4
+-- 6590, 2006, Inglaterra, GK, 1, 0, 5
+-- 6591, 1950, Chile, FW, None, 0, 3
+-- 6592, 1962, Italia, DF, 16, 0, 3
+-- 6593, 1958, Inglaterra, FW, 8, 0, 3
+-- 6593, 1962, Inglaterra, FW, 4, 0, 0
+-- 6594, 1982, Inglaterra, MF, 16, 0, 4
+-- 6594, 1986, Inglaterra, MF, 7, 2, 2
+-- 6594, 1990, Inglaterra, MF, 7, 2, 2
+-- 6595, 1966, Francia, FW, 19, 0, 0
+-- 6596, 1950, México, DF, None, 0, 3
+-- 6596, 1954, México, DF, 20, 0, 0
+-- 6596, 1958, México, DF, 16, 0, 0
+-- 6597, 1962, Uruguay, MF, 10, 0, 2
+-- 6597, 1966, Uruguay, FW, 10, 0, 4
+-- 6597, 1970, Uruguay, MF, 8, 1, 1
+-- 6597, 1974, Uruguay, MF, 10, 0, 3
+-- 6598, 2022, Uruguay, GK, 23, 0, 3
+-- 6599, 1978, Francia, FW, 18, 0, 2
+-- 6599, 1982, Francia, FW, 18, 0, 3
+-- 6599, 1986, Francia, FW, 18, 0, 3
+-- 6600, 1990, Austria, FW, 14, 0, 2
+-- 6601, 2018, Serbia, DF, 14, 0, 0
+-- 6602, 1982, URSS, FW, 21, 0, 0
+-- 6602, 1986, URSS, FW, 14, 0, 1
+-- 6603, 2022, Gales, DF, 6, 0, 3
+-- 6604, 1962, España, DF, 17, 0, 2
+-- 6605, 2022, España, MF, 16, 0, 4
+-- 6606, 1978, Brasil, DF, 16, 0, 4
+-- 6607, 2018, Perú, DF, 2, 1, 2
+-- 6608, 2002, México, DF, 22, 0, 0
+-- 6609, 2018, Panamá, GK, 22, 0, 0
+-- 6610, 2022, México, MF, 8, 0, 0
+-- 6611, 2010, Argentina, DF, 3, 0, 1
+-- 6612, 2014, Uruguay, MF, 7, 0, 4
+-- 6612, 2018, Uruguay, MF, 7, 0, 1
+-- 6613, 2002, Uruguay, DF, 6, 0, 3
+-- 6614, 2006, México, DF, 22, 0, 1
+-- 6614, 2010, México, DF, 2, 0, 4
+-- 6614, 2014, México, DF, 2, 0, 4
+-- 6615, 2022, Argentina, MF, 18, 0, 1
+-- 6616, 1978, México, FW, 19, 0, 0
+-- 6617, 1986, México, GK, 12, 0, 0
+-- 6618, 1982, El Salvador, DF, 15, 0, 3
+-- 6619, 2014, Colombia, MF, 10, 0, 4
+-- 6619, 2018, Colombia, MF, 10, 0, 2
+-- 6620, 2002, México, MF, 18, 0, 3
+-- 6621, 1994, México, MF, 20, 0, 3
+-- 6622, 1938, Cuba, MF, None, 0, 3
+-- 6623, 2018, Panamá, MF, 21, 0, 3
+-- 6624, 2022, Uruguay, DF, 26, 0, 0
+-- 6625, 1974, Chile, DF, 6, 0, 1
+-- 6626, 2002, Costa Rica, DF, 14, 0, 0
+-- 6627, 2022, Ecuador, FW, 26, 0, 0
+-- 6628, 1994, Argentina, MF, 20, 0, 1
+-- 6629, 1962, Chile, DF, 15, 0, 2
+-- 6630, 1970, El Salvador, MF, 7, 0, 3
+-- 6631, 2006, Argentina, MF, 18, 0, 5
+-- 6631, 2010, Argentina, MF, 20, 0, 4
+-- 6631, 2014, Argentina, MF, 11, 0, 1
+-- 6632, 2006, Costa Rica, DF, 22, 0, 0
+-- 6633, 1930, México, MF, None, 0, 1
+-- 6634, 2014, Suiza, DF, 13, 0, 4
+-- 6634, 2018, Suiza, DF, 13, 0, 4
+-- 6634, 2022, Suiza, DF, 13, 0, 4
+-- 6635, 1986, Uruguay, GK, 1, 0, 0
+-- 6636, 1950, Uruguay, MF, None, 0, 4
+-- 6636, 1954, Uruguay, DF, 4, 0, 5
+-- 6637, 2022, Brasil, FW, 21, 0, 1
+-- 6638, 1962, Suiza, DF, 6, 0, 0
+-- 6639, 2002, Brasil, GK, 22, 0, 0
+-- 6639, 2006, Brasil, GK, 12, 0, 0
+-- 6640, 2018, Australia, MF, 23, 0, 3
+-- 6641, 2018, Suecia, MF, 19, 0, 0
+-- 6642, 1958, Argentina, FW, 10, 0, 1
+-- 6642, 1966, Argentina, FW, 18, 0, 0
+-- 6643, 1998, Paraguay, FW, 8, 0, 1
+-- 6644, 1950, Chile, MF, None, 0, 1
+-- 6645, 1994, Bolivia, GK, 12, 0, 0
+-- 6646, 1962, Chile, MF, 6, 0, 6
+-- 6647, 1998, Chile, DF, 4, 0, 3
+-- 6648, 2014, Ecuador, FW, 9, 0, 0
+-- 6649, 2014, Chile, DF, 13, 0, 0
+-- 6650, 1982, Chile, MF, 16, 0, 0
+-- 6651, 1982, Chile, DF, 17, 0, 0
+-- 6652, 1978, Perú, MF, 9, 0, 0
+-- 6652, 1982, Perú, MF, 20, 0, 0
+-- 6653, 1998, Paraguay, DF, 14, 0, 0
+-- 6654, 1978, Perú, DF, 22, 0, 1
+-- 6655, 2014, Argentina, DF, 16, 0, 6
+-- 6655, 2018, Argentina, DF, 16, 0, 3
+-- 6656, 1998, Marruecos, FW, 21, 0, 0
+-- 6657, 2010, Portugal, DF, 4, 0, 0
+-- 6658, 2022, Estados Unidos, MF, 17, 0, 0
+-- 6659, 1950, Chile, DF, None, 0, 2
+-- 6660, 1986, Alemania Occidental, MF, 21, 0, 2
+-- 6661, 1962, Argentina, GK, 1, 0, 2
+-- 6661, 1966, Argentina, GK, 1, 0, 4
+-- 6662, 1970, Israel, FW, 18, 0, 0
+-- 6663, 1982, URSS, DF, 20, 0, 0
+-- 6664, 2006, Togo, MF, 15, 0, 2
+-- 6665, 2006, Costa de Marfil, MF, 22, 0, 1
+-- 6665, 2010, Costa de Marfil, MF, 13, 0, 1
+-- 6666, 1990, Brasil, FW, 11, 0, 1
+-- 6666, 1994, Brasil, FW, 11, 0, 7
+-- 6667, 1950, Uruguay, MF, None, 0, 0
+-- 6668, 2022, Argentina, DF, 13, 0, 6
+-- 6669, 2002, España, DF, 15, 0, 2
+-- 6670, 1930, Paraguay, FW, None, 0, 1
+-- 6671, 1958, Paraguay, FW, 9, 0, 3
+-- 6672, 1986, Paraguay, MF, 8, 0, 4
+-- 6673, 2002, Uruguay, MF, 16, 0, 2
+-- 6674, 1962, México, DF, 14, 0, 0
+-- 6675, 2010, Argentina, GK, 22, 0, 5
+-- 6675, 2014, Argentina, GK, 1, 0, 7
+-- 6676, 1938, Brasil, FW, None, 0, 4
+-- 6677, 2002, Dinamarca, FW, 19, 0, 4
+-- 6677, 2010, Dinamarca, FW, 19, 0, 3
+-- 6678, 1954, México, DF, 3, 0, 2
+-- 6678, 1958, México, DF, 3, 0, 2
+-- 6679, 2022, México, MF, 7, 0, 0
+-- 6680, 1994, Brasil, DF, 4, 0, 0
+-- 6681, 2002, Brasil, MF, 11, 0, 5
+-- 6681, 2006, Brasil, MF, 10, 0, 5
+-- 6682, 1994, Brasil, FW, 20, 0, 0
+-- 6682, 1998, Brasil, FW, 9, 0, 7
+-- 6682, 2002, Brasil, FW, 9, 0, 7
+-- 6682, 2006, Brasil, FW, 9, 0, 5
+-- 6683, 2006, Portugal, FW, 17, 0, 6
+-- 6683, 2010, Portugal, FW, 7, 4, 4
+-- 6683, 2014, Portugal, FW, 7, 3, 3
+-- 6683, 2018, Portugal, FW, 7, 4, 4
+-- 6683, 2022, Portugal, FW, 7, 3, 3
+-- 6684, 2018, Dinamarca, GK, 22, 0, 0
+-- 6684, 2022, Dinamarca, GK, 22, 0, 0
+-- 6685, 1974, Australia, MF, 7, 0, 3
+-- 6686, 2006, Inglaterra, FW, 9, 0, 3
+-- 6686, 2010, Inglaterra, FW, 10, 0, 4
+-- 6686, 2014, Inglaterra, FW, 10, 0, 2
+-- 6687, 2002, Brasil, DF, 4, 0, 6
+-- 6688, 1930, México, MF, None, 0, 3
+-- 6689, 1930, México, DF, None, 0, 3
+-- 6690, 1966, Italia, DF, 21, 0, 2
+-- 6690, 1970, Italia, DF, 8, 0, 5
+-- 6691, 2018, Inglaterra, DF, 3, 0, 2
+-- 6692, 1934, Suecia, MF, None, 2, 2
+-- 6693, 1970, Israel, DF, 5, 0, 3
+-- 6694, 2006, Suecia, FW, 22, 0, 0
+-- 6695, 1950, España, FW, None, 0, 2
+-- 6696, 1970, Israel, DF, 6, 0, 3
+-- 6697, 1934, Italia, DF, None, 1, 1
+-- 6698, 2006, República Checa, MF, 10, 0, 3
+-- 6699, 1958, Argentina, MF, 5, 0, 3
+-- 6700, 1962, Argentina, MF, 13, 0, 1
+-- 6701, 1978, Italia, FW, 21, 0, 7
+-- 6701, 1982, Italia, FW, 20, 0, 7
+-- 6701, 1986, Italia, FW, 20, 0, 0
+-- 6702, 1998, Marruecos, DF, 4, 0, 2
+-- 6703, 2006, Ucrania, MF, 21, 0, 1
+-- 6704, 1990, Rumania, DF, 5, 0, 4
+-- 6705, 1986, Hungría, DF, 3, 0, 2
+-- 6706, 2006, Irán, GK, 12, 0, 0
+-- 6707, 1978, Escocia, GK, 1, 0, 3
+-- 6707, 1982, Escocia, GK, 1, 0, 3
+-- 6707, 1986, Escocia, GK, 22, 0, 0
+-- 6708, 1978, Francia, FW, 20, 0, 1
+-- 6709, 2022, Australia, DF, 4, 0, 4
+-- 6710, 1978, Irán, FW, 10, 0, 1
+-- 6711, 1990, Paises Bajos, FW, 15, 0, 0
+-- 6711, 1994, Paises Bajos, FW, 11, 0, 2
+-- 6712, 2006, República Checa, DF, 22, 0, 3
+-- 6713, 1934, Argentina, FW, None, 0, 1
+-- 6714, 1978, España, FW, 20, 0, 1
+-- 6715, 1954, Brasil, FW, 20, 0, 0
+-- 6716, 1970, Perú, GK, 1, 0, 4
+-- 6717, 1974, Australia, DF, 16, 0, 0
+-- 6718, 2018, Alemania, DF, 16, 0, 1
+-- 6718, 2022, Alemania, DF, 2, 0, 3
+-- 6719, 2002, Eslovenia, FW, 13, 0, 2
+-- 6720, 2018, Alemania, MF, 19, 0, 1
+-- 6721, 1978, Polonia, DF, 10, 0, 1
+-- 6722, 1994, Suiza, DF, 18, 0, 0
+-- 6723, 1978, Alemania Occidental, DF, 4, 0, 6
+-- 6724, 1994, Nigeria, GK, 1, 3, 4
+-- 6724, 1998, Nigeria, GK, 1, 0, 4
+-- 6725, 1982, Nueva Zelanda, FW, 7, 0, 3
+-- 6726, 2014, Francia, GK, 16, 0, 0
+-- 6727, 1982, El Salvador, MF, 8, 0, 2
+-- 6728, 1986, Argentina, DF, 19, 0, 7
+-- 6728, 1990, Argentina, DF, 19, 0, 5
+-- 6728, 1994, Argentina, DF, 6, 2, 4
+-- 6729, 1986, Portugal, FW, 19, 0, 0
+-- 6730, 2002, Portugal, MF, 10, 0, 1
+-- 6731, 2002, Portugal, DF, 23, 0, 3
+-- 6732, 2006, Angola, DF, 15, 0, 0
+-- 6733, 2018, Perú, FW, 11, 0, 0
+-- 6734, 2014, Costa Rica, FW, 10, 5, 5
+-- 6734, 2018, Costa Rica, MF, 10, 3, 3
+-- 6734, 2022, Costa Rica, MF, 10, 0, 0
+-- 6735, 1930, México, FW, None, 0, 2
+-- 6736, 1950, México, DF, None, 0, 1
+-- 6737, 1998, Paraguay, GK, 22, 0, 0
+-- 6738, 2010, Serbia, DF, 2, 0, 0
+-- 6738, 2018, Serbia, DF, 2, 0, 1
+-- 6739, 2010, Australia, FW, 17, 0, 0
+-- 6740, 1938, Checoslovaquia, FW, None, 0, 2
+-- 6741, 2022, Argentina, GK, 12, 0, 0
+-- 6742, 1954, Francia, GK, 2, 0, 0
+-- 6743, 1978, Alemania Occidental, FW, 11, 0, 5
+-- 6743, 1982, Alemania Occidental, FW, 11, 6, 6
+-- 6743, 1986, Alemania Occidental, FW, 11, 4, 4
+-- 6744, 2018, Islandia, GK, 13, 0, 0
+-- 6745, 1938, Suiza, FW, None, 0, 0
+-- 6746, 1994, Noruega, FW, 21, 0, 1
+-- 6747, 2006, Ucrania, DF, 6, 0, 4
+-- 6748, 1990, Austria, DF, 7, 0, 2
+-- 6749, 1930, Brasil, FW, None, 0, 1
+-- 6750, 1986, Francia, GK, 22, 0, 1
+-- 6751, 1990, Paises Bajos, DF, 13, 0, 1
+-- 6752, 1962, México, MF, 17, 0, 0
+-- 6752, 1966, México, FW, 7, 0, 0
+-- 6753, 1950, Brasil, MF, None, 0, 1
+-- 6754, 1934, Estados Unidos, FW, None, 0, 1
+-- 6755, 2014, Australia, GK, 1, 0, 3
+-- 6755, 2018, Australia, GK, 1, 0, 3
+-- 6755, 2022, Australia, GK, 1, 4, 4
+-- 6756, 2018, Polonia, MF, 13, 0, 2
+-- 6757, 1934, Suecia, GK, None, 0, 2
+-- 6758, 1950, Suecia, FW, None, 0, 1
+-- 6759, 1966, Corea del Norte, FW, 20, 0, 0
+-- 6760, 2014, Rusia, GK, 16, 0, 0
+-- 6761, 2002, Polonia, MF, 5, 0, 0
+-- 6762, 1974, Argentina, DF, 16, 0, 5
+-- 6763, 2022, Portugal, GK, 12, 0, 0
+-- 6764, 1930, Chile, MF, None, 0, 3
+-- 6765, 1950, Bolivia, MF, None, 0, 0
+-- 6766, 1974, Italia, DF, 13, 0, 0
+-- 6767, 2018, Senegal, DF, 12, 0, 3
+-- 6767, 2022, Senegal, DF, 21, 0, 4
+-- 6768, 1990, Yugoslavia, MF, 16, 0, 4
+-- 6769, 1990, Rumania, MF, 8, 0, 4
+-- 6770, 1998, Marruecos, DF, 2, 0, 3
+-- 6771, 2010, Honduras, DF, 16, 0, 1
+-- 6772, 2022, Marruecos, FW, 11, 0, 2
+-- 6773, 1962, URSS, MF, 11, 0, 0
+-- 6773, 1966, URSS, MF, 8, 0, 4
+-- 6774, 2006, Costa Rica, FW, 19, 0, 0
+-- 6775, 1962, Argentina, MF, 5, 0, 3
+-- 6776, 1998, Irán, DF, 3, 0, 0
+-- 6777, 1986, Iraq, FW, 9, 0, 2
+-- 6778, 2006, Irán, DF, 19, 0, 0
+-- 6778, 2014, Irán, DF, 5, 0, 3
+-- 6779, 1978, Irán, MF, 9, 0, 3
+-- 6780, 1986, Bulgaria, MF, 8, 0, 4
+-- 6781, 1986, Argelia, DF, 15, 0, 0
+-- 6782, 1978, Túnez, GK, 1, 0, 0
+-- 6783, 1938, Rumania, GK, None, 0, 1
+-- 6784, 1962, España, GK, 2, 0, 0
+-- 6785, 2018, Islandia, DF, 2, 0, 3
+-- 6786, 1930, Bélgica, FW, None, 0, 0
+-- 6787, 1950, Chile, MF, None, 0, 0
+-- 6788, 1954, Checoslovaquia, DF, 2, 0, 2
+-- 6788, 1958, Checoslovaquia, DF, 21, 0, 0
+-- 6789, 2010, Francia, DF, 2, 0, 3
+-- 6789, 2014, Francia, DF, 15, 0, 1
+-- 6790, 2002, Francia, DF, 19, 0, 0
+-- 6790, 2006, Francia, DF, 19, 0, 7
+-- 6791, 2006, Francia, FW, 14, 0, 0
+-- 6792, 1986, Marruecos, FW, 18, 0, 0
+-- 6793, 2018, Egipto, MF, 19, 0, 3
+-- 6794, 1970, Marruecos, MF, 7, 0, 3
+-- 6795, 1986, Iraq, FW, 10, 0, 1
+-- 6796, 2006, Túnez, DF, 21, 0, 0
+-- 6797, 2010, Argelia, FW, 10, 0, 0
+-- 6798, 2018, Australia, DF, 20, 0, 3
+-- 6799, 1974, Haití, FW, 11, 0, 2
+-- 6800, 1974, Haití, FW, 15, 0, 1
+-- 6801, 1962, Argentina, DF, 4, 0, 2
+-- 6802, 1930, Bolivia, MF, None, 0, 1
+-- 6803, 2018, Marruecos, DF, 6, 0, 2
+-- 6803, 2022, Marruecos, DF, 6, 6, 6
+-- 6804, 2014, Japón, FW, 20, 0, 0
+-- 6805, 1998, Japón, DF, 16, 0, 0
+-- 6806, 2022, Inglaterra, FW, 17, 0, 4
+-- 6807, 2014, Japón, DF, 3, 0, 0
+-- 6807, 2018, Japón, DF, 21, 0, 1
+-- 6808, 2014, Japón, DF, 21, 0, 0
+-- 6808, 2018, Japón, DF, 19, 0, 4
+-- 6808, 2022, Japón, DF, 19, 0, 1
+-- 6809, 2018, Senegal, FW, 15, 0, 0
+-- 6810, 2014, Francia, DF, 5, 0, 4
+-- 6811, 1978, Italia, MF, 17, 0, 0
+-- 6812, 1978, Italia, MF, 13, 0, 1
+-- 6813, 2018, Egipto, FW, 10, 0, 2
+-- 6814, 1998, Marruecos, MF, 19, 0, 0
+-- 6815, 1998, Chile, FW, 11, 0, 4
+-- 6816, 2022, Costa Rica, MF, 14, 0, 0
+-- 6817, 2010, Eslovaquia, DF, 21, 0, 1
+-- 6818, 1958, México, MF, 18, 0, 0
+-- 6819, 1986, Uruguay, MF, 17, 0, 0
+-- 6820, 2018, México, DF, 3, 0, 4
+-- 6821, 2006, México, DF, 3, 0, 4
+-- 6821, 2010, México, DF, 3, 0, 4
+-- 6821, 2014, México, DF, 3, 0, 1
+-- 6822, 1930, Uruguay, FW, None, 0, 0
+-- 6823, 1994, Arabia Saudita, MF, 19, 0, 2
+-- 6823, 1998, Arabia Saudita, MF, 20, 0, 2
+-- 6824, 1994, Rusia, FW, 9, 0, 2
+-- 6825, 1994, México, DF, 18, 0, 0
+-- 6826, 2006, España, DF, 2, 0, 1
+-- 6827, 1982, Perú, DF, 3, 0, 3
+-- 6828, 1998, Túnez, GK, 16, 0, 0
+-- 6829, 2022, Francia, DF, 17, 0, 0
+-- 6830, 2006, Togo, FW, 7, 0, 2
+-- 6831, 2014, Bosnia-Herzegovina, MF, 23, 0, 0
+-- 6832, 1970, Perú, DF, 16, 0, 0
+-- 6833, 2022, Ghana, DF, 4, 0, 3
+-- 6834, 1982, Hungría, DF, 14, 0, 2
+-- 6834, 1986, Hungría, DF, 2, 0, 3
+-- 6835, 2014, Camerún, FW, 20, 0, 0
+-- 6836, 2022, Catar, DF, 5, 0, 0
+-- 6837, 1958, URSS, FW, 10, 0, 3
+-- 6838, 2010, Grecia, FW, 14, 0, 1
+-- 6838, 2014, Grecia, FW, 14, 0, 3
+-- 6839, 1966, Uruguay, FW, 17, 0, 1
+-- 6840, 1994, México, FW, 19, 0, 0
+-- 6841, 1962, Italia, DF, 4, 0, 3
+-- 6841, 1966, Italia, DF, 22, 2, 2
+-- 6842, 2018, Argentina, DF, 18, 0, 2
+-- 6843, 1994, Marruecos, FW, 21, 0, 1
+-- 6844, 2010, Grecia, FW, 7, 0, 2
+-- 6844, 2014, Grecia, FW, 7, 0, 4
+-- 6845, 2014, Grecia, MF, 22, 0, 1
+-- 6846, 2014, Rusia, MF, 19, 0, 3
+-- 6846, 2018, Rusia, MF, 19, 0, 5
+-- 6847, 2018, Egipto, DF, 20, 0, 0
+-- 6848, 1994, Alemania, MF, 16, 0, 4
+-- 6849, 2014, Croacia, MF, 19, 0, 1
+-- 6850, 2006, Trinidad y Tobago, FW, 12, 0, 1
+-- 6851, 1986, Canadá, DF, 12, 0, 3
+-- 6852, 2002, Argentina, DF, 6, 0, 3
+-- 6852, 2010, Argentina, DF, 13, 0, 2
+-- 6853, 1938, Indias Orientales Holand., DF, None, 0, 1
+-- 6854, 1950, Suecia, DF, None, 0, 5
+-- 6855, 1978, España, MF, 21, 0, 3
+-- 6856, 2002, Paraguay, DF, 19, 0, 0
+-- 6857, 2010, Chile, FW, 7, 0, 4
+-- 6857, 2014, Chile, FW, 7, 0, 4
+-- 6858, 1930, México, MF, None, 0, 3
+-- 6859, 2018, Uruguay, MF, 5, 0, 1
+-- 6860, 2014, Colombia, MF, 6, 0, 4
+-- 6860, 2018, Colombia, MF, 6, 0, 3
+-- 6861, 2018, Colombia, DF, 23, 0, 4
+-- 6862, 1962, Colombia, GK, 1, 2, 3
+-- 6863, 1994, Bolivia, MF, 21, 0, 3
+-- 6864, 1978, México, FW, 11, 0, 3
+-- 6864, 1986, México, FW, 9, 0, 4
+-- 6864, 1994, México, FW, 9, 0, 1
+-- 6865, 1998, México, DF, 3, 0, 2
+-- 6866, 2022, México, DF, 19, 0, 2
+-- 6867, 1982, España, MF, 16, 0, 2
+-- 6868, 1962, Chile, FW, 11, 0, 6
+-- 6868, 1966, Chile, MF, 17, 3, 3
+-- 6869, 1994, Bolivia, DF, 17, 0, 0
+-- 6870, 1998, México, GK, 12, 0, 0
+-- 6870, 2002, México, GK, 12, 0, 0
+-- 6870, 2006, México, GK, 1, 0, 4
+-- 6871, 1962, Chile, DF, 3, 0, 6
+-- 6872, 2022, España, GK, 1, 0, 0
+-- 6873, 2002, Ecuador, MF, 21, 0, 0
+-- 6874, 1966, España, DF, 2, 0, 3
+-- 6875, 1990, España, DF, 5, 0, 4
+-- 6876, 2006, Trinidad y Tobago, DF, 5, 0, 3
+-- 6877, 1998, Dinamarca, FW, 19, 0, 2
+-- 6877, 2002, Dinamarca, FW, 11, 0, 3
+-- 6878, 1974, Suecia, FW, 11, 0, 6
+-- 6879, 1990, Rumania, DF, 19, 0, 0
+-- 6880, 1958, Hungría, FW, 11, 0, 3
+-- 6880, 1962, Hungría, FW, 7, 0, 3
+-- 6881, 1970, Uruguay, MF, 13, 0, 0
+-- 6882, 2022, Brasil, DF, 6, 0, 2
+-- 6883, 1994, Bolivia, DF, 3, 0, 3
+-- 6884, 2022, Alemania, MF, 19, 0, 1
+-- 6885, 2018, Senegal, MF, 6, 0, 3
+-- 6886, 1958, Argentina, FW, 21, 0, 0
+-- 6886, 1962, Argentina, FW, 10, 0, 2
+-- 6887, 2010, Sudáfrica, DF, 21, 0, 0
+-- 6888, 2002, Eslovenia, DF, 2, 0, 0
+-- 6889, 2002, Estados Unidos, DF, 22, 0, 5
+-- 6890, 1974, Haití, FW, 20, 0, 3
+-- 6891, 1982, Inglaterra, DF, 17, 0, 4
+-- 6891, 1986, Inglaterra, DF, 3, 0, 5
+-- 6892, 1998, Colombia, DF, 4, 0, 2
+-- 6893, 2002, Paraguay, FW, 9, 0, 4
+-- 6893, 2006, Paraguay, FW, 9, 0, 3
+-- 6893, 2010, Paraguay, FW, 9, 0, 3
+-- 6894, 2018, Perú, DF, 4, 0, 1
+-- 6895, 1954, España, DF, 2, 0, 5
+-- 6895, 1962, España, DF, 19, 0, 2
+-- 6896, 1982, Argentina, FW, 17, 0, 0
+-- 6897, 2010, Paraguay, MF, 11, 0, 1
+-- 6898, 1958, Yugoslavia, MF, 10, 0, 0
+-- 6899, 1978, España, FW, 10, 0, 2
+-- 6899, 1982, España, FW, 19, 0, 2
+-- 6900, 1986, Uruguay, MF, 11, 0, 4
+-- 6901, 1974, Argentina, GK, 21, 0, 0
+-- 6902, 2006, Túnez, FW, 11, 0, 0
+-- 6903, 2002, Japón, MF, 14, 0, 1
+-- 6903, 2006, Japón, DF, 14, 0, 3
+-- 6904, 1970, Uruguay, GK, 12, 0, 0
+-- 6904, 1974, Uruguay, GK, 12, 0, 0
+-- 6905, 2010, Eslovaquia, MF, 10, 0, 0
+-- 6906, 1978, Austria, DF, 2, 6, 6
+-- 6907, 2022, España, FW, 22, 0, 0
+-- 6908, 1998, Paraguay, DF, 11, 0, 4
+-- 6908, 2002, Paraguay, DF, 3, 0, 0
+-- 6909, 1986, Uruguay, MF, 16, 0, 1
+-- 6910, 1994, Grecia, FW, 7, 1, 1
+-- 6911, 2022, Estados Unidos, FW, 24, 0, 2
+-- 6912, 2002, Croacia, DF, 15, 0, 2
+-- 6913, 2006, Ecuador, MF, 19, 0, 0
+-- 6913, 2014, Ecuador, MF, 19, 0, 0
+-- 6914, 2022, Ecuador, MF, 16, 0, 0
+-- 6915, 1930, Perú, FW, None, 0, 0
+-- 6916, 1966, Argentina, MF, 17, 0, 0
+-- 6917, 1938, Hungría, MF, None, 0, 0
+-- 6918, 1934, Hungría, FW, None, 0, 1
+-- 6918, 1938, Hungría, FW, None, 4, 4
+-- 6919, 1958, Hungría, DF, 4, 0, 4
+-- 6919, 1962, Hungría, DF, 4, 1, 4
+-- 6920, 2006, Ghana, DF, 2, 0, 0
+-- 6920, 2010, Ghana, DF, 2, 0, 5
+-- 6921, 2018, Senegal, FW, 18, 0, 3
+-- 6921, 2022, Senegal, FW, 18, 0, 4
+-- 6922, 2002, Senegal, MF, 3, 0, 1
+-- 6923, 2022, Senegal, MF, 17, 0, 0
+-- 6924, 1978, Perú, GK, 1, 0, 0
+-- 6925, 1938, Hungría, FW, None, 0, 4
+-- 6926, 2002, Turquía, FW, 11, 0, 6
+-- 6927, 1962, Uruguay, FW, 9, 0, 3
+-- 6927, 1966, Uruguay, FW, 9, 0, 2
+-- 6928, 2018, Túnez, MF, 13, 0, 3
+-- 6928, 2022, Túnez, MF, 13, 0, 0
+-- 6929, 1970, Rumania, DF, 2, 0, 3
+-- 6930, 1982, España, FW, 9, 0, 4
+-- 6931, 1982, España, MF, 15, 0, 2
+-- 6932, 1998, RF de Yugoslavia, DF, 14, 0, 0
+-- 6933, 1990, RF de Yugoslavia, FW, 19, 0, 1
+-- 6933, 1998, RF de Yugoslavia, MF, 8, 0, 0
+-- 6934, 2006, Argentina, FW, 7, 0, 3
+-- 6935, 1958, Alemania Occidental, GK, 21, 0, 0
+-- 6935, 1962, Alemania Occidental, GK, 21, 0, 0
+-- 6936, 2022, Estados Unidos, DF, 26, 0, 0
+-- 6937, 2006, Argentina, DF, 13, 0, 1
+-- 6938, 1930, Uruguay, FW, None, 0, 3
+-- 6939, 2010, Paises Bajos, MF, 18, 0, 0
+-- 6940, 1978, Austria, FW, 18, 0, 3
+-- 6940, 1982, Austria, FW, 7, 0, 5
+-- 6941, 1974, Escocia, DF, 22, 0, 0
+-- 6942, 1954, Alemania Occidental, FW, 20, 0, 5
+-- 6942, 1958, Alemania Occidental, FW, 11, 6, 6
+-- 6942, 1962, Alemania Occidental, FW, 11, 4, 4
+-- 6943, 1974, Australia, DF, 4, 0, 3
+-- 6944, 1934, Austria, FW, None, 0, 2
+-- 6945, 2014, Suiza, DF, 22, 0, 2
+-- 6945, 2018, Suiza, DF, 22, 0, 3
+-- 6945, 2022, Suiza, DF, 22, 0, 2
+-- 6946, 2014, Rusia, DF, 3, 0, 0
+-- 6947, 1958, Checoslovaquia, FW, 18, 0, 0
+-- 6947, 1962, Checoslovaquia, FW, 8, 0, 6
+-- 6948, 1986, Paraguay, DF, 4, 0, 3
+-- 6949, 1950, Uruguay, FW, None, 0, 4
+-- 6949, 1954, Uruguay, FW, 10, 0, 5
+-- 6950, 1934, Italia, FW, None, 0, 4
+-- 6951, 2014, Croacia, DF, 13, 0, 0
+-- 6952, 1990, Italia, FW, 19, 0, 5
+-- 6953, 1966, Suiza, FW, 17, 0, 1
+-- 6954, 1998, Dinamarca, DF, 2, 0, 3
+-- 6955, 1954, Austria, FW, 8, 0, 2
+-- 6955, 1958, Austria, FW, 13, 0, 1
+-- 6956, 2022, Alemania, DF, 23, 0, 1
+-- 6957, 1934, Austria, DF, None, 0, 0
+-- 6958, 1938, Alemania, DF, None, 0, 1
+-- 6959, 2018, Dinamarca, GK, 1, 0, 4
+-- 6959, 2022, Dinamarca, GK, 1, 1, 3
+-- 6960, 1998, Dinamarca, GK, 1, 0, 5
+-- 6961, 2022, Japón, GK, 23, 0, 0
+-- 6962, 1958, Alemania Occidental, MF, 10, 0, 2
+-- 6963, 1954, Austria, GK, 1, 1, 4
+-- 6963, 1958, Austria, GK, 12, 0, 1
+-- 6964, 1962, Checoslovaquia, GK, 13, 0, 0
+-- 6965, 1930, Chile, FW, None, 2, 2
+-- 6966, 2002, Alemania, MF, 19, 0, 7
+-- 6966, 2006, Alemania, MF, 19, 1, 7
+-- 6967, 2014, Francia, MF, 22, 0, 1
+-- 6968, 1962, Suiza, DF, 7, 0, 3
+-- 6968, 1966, Suiza, DF, 18, 1, 1
+-- 6969, 1958, Alemania Occidental, DF, 17, 0, 2
+-- 6969, 1962, Alemania Occidental, DF, 3, 0, 4
+-- 6969, 1966, Alemania Occidental, DF, 3, 0, 6
+-- 6969, 1970, Alemania Occidental, DF, 3, 0, 5
+-- 6970, 1974, Alemania Oriental, MF, 6, 0, 2
+-- 6971, 1934, Paises Bajos, FW, None, 0, 0
+-- 6972, 1978, Paises Bajos, MF, 3, 0, 0
+-- 6973, 1990, Austria, DF, 5, 0, 2
+-- 6973, 1998, Austria, DF, 3, 0, 3
+-- 6974, 1998, Inglaterra, MF, 16, 0, 4
+-- 6974, 2002, Inglaterra, MF, 8, 0, 5
+-- 6975, 2018, Dinamarca, MF, 19, 0, 1
+-- 6976, 1998, Austria, MF, 2, 0, 0
+-- 6977, 2018, Islandia, GK, 12, 0, 0
+-- 6978, 1974, Paises Bajos, GK, 18, 0, 0
+-- 6978, 1978, Paises Bajos, GK, 1, 0, 3
+-- 6979, 1954, Checoslovaquia, GK, 22, 0, 0
+-- 6979, 1958, Checoslovaquia, GK, 22, 0, 0
+-- 6979, 1962, Checoslovaquia, GK, 1, 0, 6
+-- 6980, 1954, Francia, FW, 20, 0, 0
+-- 6981, 1962, Alemania Occidental, DF, 4, 0, 4
+-- 6981, 1966, Alemania Occidental, DF, 5, 0, 6
+-- 6981, 1970, Alemania Occidental, DF, 5, 0, 2
+-- 6982, 1970, Israel, MF, 7, 0, 3
+-- 6983, 1982, Alemania Occidental, GK, 1, 0, 7
+-- 6983, 1986, Alemania Occidental, GK, 1, 3, 7
+-- 6984, 2014, Alemania, FW, 9, 0, 0
+-- 6985, 1966, Francia, GK, 22, 0, 0
+-- 6986, 1970, Israel, DF, 12, 0, 3
+-- 6987, 1934, Alemania, DF, None, 0, 1
+-- 6988, 1990, Suecia, DF, 8, 0, 3
+-- 6988, 1994, Suecia, MF, 6, 0, 6
+-- 6989, 1974, Alemania Occidental, DF, 4, 0, 7
+-- 6989, 1978, Alemania Occidental, DF, 12, 0, 0
+-- 6990, 2006, Australia, GK, 1, 0, 3
+-- 6990, 2010, Australia, GK, 1, 0, 3
+-- 6991, 2010, Suiza, MF, 20, 0, 0
+-- 6992, 2006, Alemania, MF, 7, 0, 6
+-- 6992, 2010, Alemania, MF, 7, 1, 7
+-- 6992, 2014, Alemania, MF, 7, 0, 5
+-- 6993, 1986, Bélgica, MF, 8, 0, 7
+-- 6993, 1990, Bélgica, MF, 10, 0, 4
+-- 6993, 1994, Bélgica, MF, 10, 1, 4
+-- 6993, 1998, Bélgica, MF, 14, 1, 2
+-- 6994, 1978, Italia, DF, 8, 0, 7
+-- 6994, 1982, Italia, DF, 7, 0, 7
+-- 6994, 1986, Italia, DF, 6, 4, 4
+-- 6995, 1930, Argentina, FW, None, 0, 1
+-- 6996, 1994, Argentina, GK, 22, 0, 0
+-- 6997, 2006, Trinidad y Tobago, FW, 20, 0, 0
+-- 6998, 1958, Escocia, FW, 15, 0, 0
+-- 6999, 1958, Irlanda del Norte, FW, 14, 0, 2
+-- 7000, 1950, Inglaterra, DF, None, 0, 0
+-- 7001, 2010, Uruguay, DF, 19, 0, 0
+-- 7002, 1998, Inglaterra, GK, 1, 0, 4
+-- 7002, 2002, Inglaterra, GK, 1, 0, 5
+-- 7003, 1934, Suiza, GK, None, 0, 2
+-- 7004, 1998, Paises Bajos, MF, 10, 0, 3
+-- 7005, 1958, Alemania Occidental, FW, 12, 0, 5
+-- 7005, 1962, Alemania Occidental, FW, 9, 0, 4
+-- 7005, 1966, Alemania Occidental, FW, 9, 6, 6
+-- 7005, 1970, Alemania Occidental, FW, 9, 6, 6
+-- 7006, 2014, Suiza, FW, 9, 0, 1
+-- 7006, 2018, Suiza, FW, 9, 0, 2
+-- 7006, 2022, Suiza, FW, 9, 0, 0
+-- 7007, 1962, España, DF, 20, 1, 1
+-- 7008, 1954, Italia, MF, 17, 0, 1
+-- 7009, 1986, Canadá, FW, 9, 0, 0
+-- 7010, 1958, Paraguay, DF, 14, 0, 0
+-- 7011, 1974, Alemania Oriental, MF, 19, 0, 1
+-- 7012, 1990, Costa Rica, GK, 22, 0, 0
+-- 7013, 2022, Ghana, DF, 26, 0, 2
+-- 7014, 2010, Grecia, DF, 2, 0, 1
+-- 7015, 1958, Yugoslavia, MF, 15, 0, 3
+-- 7015, 1962, Yugoslavia, MF, 8, 0, 6
+-- 7016, 1930, Yugoslavia, FW, None, 0, 2
+-- 7017, 1970, Suecia, DF, 2, 0, 2
+-- 7018, 2010, Eslovenia, GK, 16, 0, 0
+-- 7019, 1958, Suecia, FW, 10, 0, 1
+-- 7020, 1982, Italia, FW, 21, 0, 0
+-- 7021, 1994, Rumania, DF, 13, 0, 3
+-- 7021, 1998, Rumania, DF, 20, 0, 0
+-- 7022, 2002, Rusia, MF, 17, 0, 0
+-- 7023, 1982, Checoslovaquia, GK, 1, 0, 1
+-- 7024, 2014, Rusia, DF, 5, 0, 0
+-- 7025, 2022, Ghana, FW, 25, 0, 0
+-- 7026, 2018, Rusia, DF, 5, 0, 0
+-- 7027, 1970, Bélgica, MF, 7, 0, 3
+-- 7028, 2002, Rusia, MF, 6, 0, 2
+-- 7029, 2006, Togo, FW, 18, 0, 2
+-- 7030, 2006, Suiza, DF, 4, 0, 3
+-- 7030, 2010, Suiza, DF, 4, 0, 1
+-- 7030, 2014, Suiza, DF, 4, 0, 0
+-- 7031, 1938, Checoslovaquia, FW, None, 0, 1
+-- 7032, 1958, Austria, FW, 11, 0, 3
+-- 7033, 2002, Rusia, DF, 18, 0, 0
+-- 7034, 1986, España, MF, 7, 0, 0
+-- 7035, 1990, Argentina, DF, 17, 0, 2
+-- 7035, 1994, Argentina, DF, 4, 0, 3
+-- 7035, 1998, Argentina, DF, 6, 0, 3
+-- 7036, 1950, Italia, GK, None, 0, 1
+-- 7037, 1998, Corea del Sur, GK, 22, 0, 0
+-- 7038, 1994, Corea del Sur, FW, 11, 0, 1
+-- 7038, 1998, Corea del Sur, FW, 11, 0, 2
+-- 7039, 2002, Corea del Sur, FW, 9, 0, 6
+-- 7039, 2006, Corea del Sur, FW, 11, 0, 0
+-- 7040, 1934, Rumania, FW, None, 0, 1
+-- 7041, 1950, México, FW, None, 0, 2
+-- 7041, 1954, México, FW, 17, 0, 0
+-- 7042, 1958, México, DF, 15, 0, 1
+-- 7042, 1962, México, DF, 3, 0, 3
+-- 7043, 2006, Costa Rica, MF, 20, 0, 2
+-- 7044, 2022, Costa Rica, GK, 23, 0, 0
+-- 7045, 1998, Irán, FW, 19, 0, 0
+-- 7046, 1938, Italia, MF, None, 0, 4
+-- 7047, 1962, URSS, FW, 20, 0, 0
+-- 7047, 1966, URSS, FW, 2, 0, 2
+-- 7047, 1970, URSS, MF, 15, 0, 2
+-- 7048, 1986, Italia, FW, 21, 0, 0
+-- 7048, 1990, Italia, FW, 20, 0, 0
+-- 7049, 1994, España, DF, 12, 0, 5
+-- 7049, 1998, España, DF, 12, 0, 3
+-- 7050, 1982, Brasil, FW, 9, 0, 5
+-- 7051, 2002, España, MF, 18, 0, 0
+-- 7052, 2002, Portugal, FW, 11, 0, 3
+-- 7053, 1998, Croacia, MF, 3, 0, 0
+-- 7053, 2002, Croacia, DF, 2, 0, 0
+-- 7053, 2006, Croacia, MF, 20, 0, 0
+-- 7054, 1970, El Salvador, MF, 16, 0, 0
+-- 7055, 1994, Colombia, MF, 17, 0, 0
+-- 7055, 1998, Colombia, MF, 6, 0, 3
+-- 7056, 1962, Colombia, MF, 10, 0, 2
+-- 7057, 1990, Argentina, DF, 18, 0, 5
+-- 7058, 1986, México, DF, 17, 0, 5
+-- 7059, 1958, México, FW, 11, 0, 3
+-- 7060, 1934, Austria, DF, None, 0, 4
+-- 7061, 2010, Eslovaquia, FW, 9, 0, 2
+-- 7062, 1982, Yugoslavia, FW, 16, 0, 0
+-- 7063, 1958, Inglaterra, FW, 22, 0, 0
+-- 7064, 1998, Jamaica, DF, 12, 0, 0
+-- 7065, 1938, Bélgica, DF, None, 0, 1
+-- 7066, 1934, Rumania, DF, None, 0, 0
+-- 7066, 1938, Rumania, DF, None, 0, 0
+-- 7067, 1994, Suiza, MF, 10, 0, 4
+-- 7068, 2006, Suecia, GK, 23, 0, 1
+-- 7069, 1998, Irán, MF, 16, 0, 0
+-- 7070, 1986, Iraq, DF, 4, 0, 3
+-- 7071, 1986, Iraq, DF, 5, 0, 2
+-- 7072, 1966, Bulgaria, DF, 2, 0, 2
+-- 7072, 1970, Bulgaria, DF, 2, 1, 2
+-- 7073, 1990, URSS, MF, 18, 0, 2
+-- 7074, 2002, China, MF, 6, 0, 0
+-- 7075, 2010, Suiza, MF, 23, 0, 0
+-- 7075, 2014, Suiza, MF, 23, 0, 4
+-- 7075, 2018, Suiza, MF, 23, 0, 4
+-- 7075, 2022, Suiza, MF, 23, 0, 3
+-- 7076, 2022, Arabia Saudita, MF, 26, 0, 0
+-- 7077, 1934, Egipto, DF, None, 0, 1
+-- 7078, 1986, Escocia, FW, 18, 0, 1
+-- 7079, 2014, Rusia, MF, 17, 0, 3
+-- 7080, 2014, Inglaterra, DF, 23, 0, 1
+-- 7080, 2022, Inglaterra, DF, 3, 0, 5
+-- 7081, 1990, Egipto, FW, 17, 0, 0
+-- 7082, 1998, Inglaterra, FW, 9, 4, 4
+-- 7083, 1990, Irlanda, MF, 11, 0, 5
+-- 7084, 2006, Ucrania, MF, 8, 0, 4
+-- 7085, 1982, URSS, FW, 7, 0, 5
+-- 7086, 1990, Irlanda, MF, 16, 0, 0
+-- 7086, 1994, Irlanda, MF, 10, 0, 4
+-- 7087, 1998, Inglaterra, FW, 10, 0, 2
+-- 7087, 2002, Inglaterra, FW, 17, 0, 0
+-- 7088, 1962, URSS, DF, 8, 0, 0
+-- 7088, 1966, URSS, DF, 6, 5, 5
+-- 7088, 1970, URSS, DF, 9, 4, 4
+-- 7089, 2006, Ucrania, FW, 7, 5, 5
+-- 7090, 2018, Japón, MF, 7, 0, 4
+-- 7090, 2022, Japón, MF, 7, 0, 0
+-- 7091, 2018, Egipto, FW, 18, 0, 0
+-- 7092, 2006, Ghana, DF, 7, 0, 3
+-- 7093, 1982, Inglaterra, GK, 22, 0, 5
+-- 7093, 1986, Inglaterra, GK, 1, 3, 5
+-- 7093, 1990, Inglaterra, GK, 1, 2, 7
+-- 7094, 1994, Corea del Sur, DF, 7, 0, 3
+-- 7095, 1966, Corea del Norte, DF, 3, 0, 4
+-- 7096, 2010, Nigeria, DF, 6, 0, 3
+-- 7097, 1970, Israel, FW, 14, 0, 1
+-- 7098, 1970, URSS, GK, 1, 0, 0
+-- 7099, 1978, Irán, DF, 19, 0, 0
+-- 7100, 2006, Irán, MF, 23, 0, 0
+-- 7100, 2014, Irán, MF, 7, 0, 2
+-- 7100, 2018, Irán, MF, 7, 1, 1
+-- 7101, 2018, Japón, DF, 3, 0, 3
+-- 7102, 2002, Nigeria, GK, 1, 0, 2
+-- 7103, 1990, Egipto, GK, 1, 0, 3
+-- 7104, 2006, Ucrania, GK, 1, 0, 5
+-- 7105, 1970, Israel, MF, 19, 0, 0
+-- 7106, 2006, Ucrania, GK, 23, 0, 0
+-- 7107, 2014, Argelia, GK, 1, 0, 0
+-- 7108, 1994, Nigeria, FW, 12, 0, 3
+-- 7109, 2002, Sudáfrica, MF, 6, 0, 3
+-- 7109, 2010, Sudáfrica, MF, 6, 0, 1
+-- 7110, 2002, Polonia, MF, 23, 0, 0
+-- 7111, 1966, URSS, MF, 14, 0, 2
+-- 7112, 2018, Francia, DF, 19, 0, 1
+-- 7113, 1950, Suiza, FW, None, 0, 0
+-- 7114, 1966, Alemania Occidental, DF, 18, 0, 0
+-- 7114, 1970, Alemania Occidental, DF, 18, 0, 0
+-- 7115, 1998, Chile, MF, 10, 0, 2
+-- 7116, 2010, Grecia, GK, 13, 0, 0
+-- 7117, 1934, Alemania, FW, None, 0, 4
+-- 7117, 1938, Alemania, FW, None, 0, 0
+-- 7118, 2010, Nueva Zelanda, DF, 2, 0, 0
+-- 7119, 1994, Italia, FW, 20, 0, 4
+-- 7120, 2018, Islandia, MF, 10, 0, 3
+-- 7121, 2018, Islandia, DF, 6, 0, 3
+-- 7122, 2018, Islandia, FW, 9, 0, 0
+-- 7123, 1958, Yugoslavia, DF, 3, 0, 2
+-- 7123, 1962, Yugoslavia, DF, 14, 0, 1
+-- 7124, 1998, Sudáfrica, FW, 14, 0, 0
+-- 7125, 1986, Brasil, MF, 20, 0, 0
+-- 7125, 1990, Brasil, MF, 10, 0, 0
+-- 7126, 1958, Inglaterra, DF, 14, 0, 0
+-- 7127, 1934, Checoslovaquia, FW, None, 0, 1
+-- 7128, 1966, Brasil, FW, 19, 0, 1
+-- 7129, 2018, Portugal, MF, 23, 0, 2
+-- 7130, 1950, España, DF, None, 0, 1
+-- 7131, 2018, Portugal, FW, 9, 0, 1
+-- 7131, 2022, Portugal, FW, 9, 0, 0
+-- 7132, 2022, Portugal, DF, 24, 0, 1
+-- 7133, 2018, Portugal, MF, 11, 0, 3
+-- 7133, 2022, Portugal, FW, 10, 0, 4
+-- 7134, 2002, Uruguay, FW, 9, 0, 3
+-- 7135, 2010, España, MF, 21, 0, 1
+-- 7135, 2014, España, MF, 21, 0, 2
+-- 7135, 2018, España, FW, 21, 0, 4
+-- 7136, 2014, Chile, MF, 5, 0, 3
+-- 7137, 2018, Uruguay, DF, 13, 0, 0
+-- 7138, 1962, Uruguay, FW, 21, 0, 0
+-- 7138, 1966, Uruguay, MF, 19, 0, 2
+-- 7139, 1962, Colombia, MF, 9, 0, 1
+-- 7140, 1974, Uruguay, FW, 20, 0, 0
+-- 7141, 1958, Paraguay, MF, 15, 0, 0
+-- 7142, 2010, Uruguay, GK, 23, 0, 0
+-- 7142, 2014, Uruguay, GK, 23, 0, 0
+-- 7142, 2018, Uruguay, GK, 23, 0, 0
+-- 7143, 2010, Brasil, DF, 15, 0, 0
+-- 7143, 2014, Brasil, DF, 3, 6, 6
+-- 7143, 2018, Brasil, DF, 2, 2, 5
+-- 7143, 2022, Brasil, DF, 3, 4, 4
+-- 7144, 2002, Francia, DF, 13, 0, 0
+-- 7144, 2006, Francia, DF, 13, 0, 1
+-- 7145, 2006, Portugal, FW, 11, 0, 3
+-- 7145, 2010, Portugal, FW, 11, 0, 2
+-- 7146, 1966, Argentina, MF, 9, 0, 0
+-- 7147, 1994, Argentina, MF, 14, 0, 4
+-- 7147, 1998, Argentina, MF, 8, 4, 4
+-- 7147, 2002, Argentina, MF, 14, 0, 2
+-- 7148, 1966, Bulgaria, GK, 21, 0, 1
+-- 7148, 1970, Bulgaria, GK, 1, 0, 2
+-- 7148, 1974, Bulgaria, GK, 22, 0, 0
+-- 7149, 2002, Eslovenia, GK, 1, 0, 2
+-- 7150, 1998, Croacia, DF, 20, 0, 6
+-- 7150, 2002, Croacia, DF, 20, 0, 1
+-- 7150, 2006, Croacia, DF, 7, 0, 3
+-- 7151, 1998, Camerún, MF, 14, 0, 1
+-- 7152, 1966, Portugal, FW, 11, 0, 6
+-- 7153, 1966, Francia, FW, 20, 0, 2
+-- 7154, 1990, Argentina, DF, 20, 0, 7
+-- 7155, 2022, España, GK, 23, 0, 4
+-- 7156, 1934, Bélgica, MF, None, 0, 0
+-- 7157, 2002, Bélgica, MF, 6, 0, 3
+-- 7158, 2022, Paises Bajos, MF, 25, 0, 0
+-- 7159, 1986, Dinamarca, FW, 14, 0, 0
+-- 7160, 1982, Nueva Zelanda, MF, 18, 0, 0
+-- 7161, 1958, Suecia, FW, 9, 0, 5
+-- 7162, 1958, URSS, FW, 9, 4, 5
+-- 7163, 1958, Irlanda del Norte, FW, 9, 0, 0
+-- 7164, 1998, Jamaica, MF, 6, 0, 3
+-- 7165, 1938, Checoslovaquia, FW, None, 0, 2
+-- 7166, 2002, Croacia, DF, 3, 0, 3
+-- 7166, 2006, Croacia, DF, 3, 0, 3
+-- 7167, 1998, Jamaica, DF, 19, 0, 3
+-- 7168, 2002, Inglaterra, MF, 4, 0, 3
+-- 7169, 1934, Austria, FW, None, 0, 3
+-- 7170, 2014, Costa de Marfil, FW, 21, 0, 0
+-- 7171, 2006, República Checa, FW, 7, 0, 0
+-- 7172, 1958, Hungría, DF, 3, 0, 4
+-- 7172, 1962, Hungría, DF, 6, 0, 4
+-- 7172, 1966, Hungría, MF, 6, 4, 4
+-- 7173, 1986, Bulgaria, MF, 2, 0, 3
+-- 7173, 1994, Bulgaria, FW, 10, 0, 6
+-- 7174, 2014, Italia, GK, 12, 0, 1
+-- 7175, 2014, Francia, MF, 18, 0, 2
+-- 7176, 2018, Dinamarca, FW, 23, 0, 3
+-- 7177, 1986, Dinamarca, DF, 2, 0, 1
+-- 7178, 1962, Italia, FW, 10, 0, 2
+-- 7179, 1978, Francia, FW, 19, 0, 2
+-- 7179, 1982, Francia, FW, 19, 0, 4
+-- 7180, 1938, Suecia, GK, None, 0, 0
+-- 7181, 1978, Suecia, FW, 10, 0, 3
+-- 7182, 2018, Túnez, MF, 17, 0, 3
+-- 7182, 2022, Túnez, MF, 17, 0, 3
+-- 7183, 1962, Yugoslavia, FW, 11, 0, 5
+-- 7184, 1950, Suecia, FW, None, 0, 3
+-- 7184, 1958, Suecia, FW, 11, 0, 6
+-- 7185, 2006, Australia, MF, 8, 0, 0
+-- 7186, 2022, Polonia, MF, 26, 0, 0
+-- 7187, 2022, Polonia, GK, 12, 0, 0
+-- 7188, 1938, Alemania, MF, None, 0, 1
+-- 7189, 2022, Dinamarca, MF, 24, 0, 0
+-- 7190, 2022, Dinamarca, MF, 11, 0, 2
+-- 7191, 1982, Polonia, DF, 6, 0, 0
+-- 7192, 2010, Eslovaquia, DF, 3, 0, 4
+-- 7193, 1990, Checoslovaquia, FW, 10, 0, 5
+-- 7194, 2018, Islandia, DF, 23, 0, 0
+-- 7195, 2018, Islandia, MF, 16, 0, 0
+-- 7196, 1958, Inglaterra, MF, 6, 0, 4
+-- 7197, 1990, Irlanda, FW, 15, 0, 0
+-- 7198, 2022, Túnez, FW, 25, 0, 2
+-- 7199, 2014, Argelia, FW, 13, 0, 3
+-- 7200, 1970, Marruecos, DF, 5, 0, 3
+-- 7201, 2018, Túnez, FW, 23, 0, 2
+-- 7201, 2022, Túnez, FW, 23, 0, 1
+-- 7202, 1982, Yugoslavia, MF, 8, 0, 3
+-- 7203, 1930, Estados Unidos, MF, None, 0, 0
+-- 7204, 2014, Inglaterra, DF, 12, 0, 1
+-- 7205, 1934, Bélgica, DF, None, 0, 1
+-- 7205, 1938, Bélgica, DF, None, 0, 0
+-- 7206, 2010, Nueva Zelanda, FW, 9, 0, 3
+-- 7207, 2002, Rusia, MF, 4, 0, 2
+-- 7208, 1994, Bélgica, DF, 5, 0, 3
+-- 7209, 1934, Austria, MF, None, 2, 4
+-- 7210, 1934, Paises Bajos, FW, None, 0, 1
+-- 7210, 1938, Paises Bajos, FW, None, 0, 1
+-- 7211, 1958, Inglaterra, FW, 19, 0, 0
+-- 7212, 2018, Costa Rica, DF, 4, 0, 0
+-- 7213, 2022, Gales, MF, 26, 0, 0
+-- 7214, 2010, Nueva Zelanda, DF, 19, 0, 3
+-- 7215, 2006, Polonia, MF, 15, 0, 3
+-- 7216, 1982, Polonia, FW, 11, 0, 6
+-- 7216, 1986, Polonia, FW, 11, 0, 4
+-- 7217, 2018, Rusia, DF, 23, 0, 1
+-- 7218, 2018, Rusia, FW, 10, 0, 1
+-- 7219, 2006, Paises Bajos, MF, 20, 0, 4
+-- 7219, 2010, Paises Bajos, MF, 10, 0, 7
+-- 7219, 2014, Paises Bajos, MF, 10, 0, 6
+-- 7220, 1994, Paises Bajos, GK, 22, 0, 0
+-- 7221, 2018, Portugal, DF, 21, 0, 3
+-- 7222, 2018, Egipto, FW, 14, 0, 0
+-- 7223, 2006, Polonia, MF, 7, 0, 2
+-- 7224, 1934, Checoslovaquia, FW, None, 0, 4
+-- 7225, 1986, Portugal, DF, 18, 0, 0
+-- 7226, 1974, Chile, MF, 18, 0, 1
+-- 7227, 1938, Cuba, FW, None, 0, 3
+-- 7228, 1982, Brasil, MF, 8, 5, 5
+-- 7228, 1986, Brasil, MF, 18, 0, 5
+-- 7229, 2002, Nigeria, DF, 16, 0, 2
+-- 7230, 1938, Indias Orientales Holand., FW, None, 0, 1
+-- 7231, 2002, Japón, GK, 23, 0, 0
+-- 7232, 1962, Bulgaria, FW, 14, 0, 2
+-- 7233, 1966, Argentina, FW, 15, 0, 4
+-- 7234, 1998, Noruega, MF, 6, 0, 1
+-- 7235, 1950, Suiza, DF, None, 0, 0
+-- 7236, 1998, Croacia, DF, 14, 0, 6
+-- 7236, 2002, Croacia, MF, 14, 0, 2
+-- 7237, 1934, España, FW, None, 0, 0
+-- 7238, 2022, España, MF, 19, 0, 0
+-- 7239, 1982, Francia, FW, 20, 0, 6
+-- 7240, 1990, Egipto, MF, 11, 0, 0
+-- 7241, 2002, Costa Rica, MF, 8, 0, 3
+-- 7241, 2006, Costa Rica, MF, 8, 0, 3
+-- 7242, 2002, Rusia, MF, 5, 0, 3
+-- 7243, 1998, Noruega, FW, 20, 0, 1
+-- 7244, 1962, Hungría, DF, 5, 0, 4
+-- 7245, 1998, Japón, DF, 3, 0, 3
+-- 7246, 2022, Japón, MF, 24, 0, 1
+-- 7247, 1934, Hungría, MF, None, 0, 0
+-- 7248, 1994, Estados Unidos, GK, 12, 0, 0
+-- 7248, 1998, Estados Unidos, GK, 16, 0, 0
+-- 7249, 2014, Suiza, GK, 12, 0, 0
+-- 7249, 2018, Suiza, GK, 1, 0, 4
+-- 7249, 2022, Suiza, GK, 1, 0, 3
+-- 7250, 1938, Indias Orientales Holand., FW, None, 0, 1
+-- 7251, 2014, Corea del Sur, FW, 9, 0, 3
+-- 7251, 2018, Corea del Sur, FW, 7, 1, 3
+-- 7251, 2022, Corea del Sur, MF, 7, 4, 4
+-- 7252, 2022, Corea del Sur, MF, 13, 0, 0
+-- 7253, 2002, Bélgica, FW, 9, 0, 0
+-- 7254, 2010, Camerún, MF, 6, 0, 1
+-- 7254, 2014, Camerún, MF, 6, 0, 2
+-- 7255, 2022, Corea del Sur, GK, 12, 0, 0
+-- 7256, 2002, Corea del Sur, MF, 22, 0, 7
+-- 7256, 2006, Corea del Sur, DF, 22, 0, 1
+-- 7257, 2022, Corea del Sur, MF, 26, 0, 0
+-- 7258, 1994, Camerún, DF, 3, 0, 2
+-- 7258, 1998, Camerún, DF, 4, 0, 3
+-- 7258, 2002, Camerún, DF, 4, 3, 3
+-- 7258, 2010, Camerún, DF, 4, 0, 0
+-- 7259, 1990, Camerún, GK, 22, 0, 0
+-- 7259, 1994, Camerún, GK, 22, 0, 1
+-- 7259, 1998, Camerún, GK, 1, 0, 3
+-- 7259, 2002, Camerún, GK, 16, 0, 0
+-- 7260, 1994, Estados Unidos, MF, 16, 0, 4
+-- 7261, 2002, Dinamarca, GK, 1, 0, 4
+-- 7261, 2010, Dinamarca, GK, 1, 0, 3
+-- 7262, 1930, Perú, DF, None, 0, 1
+-- 7263, 1962, Uruguay, DF, 15, 0, 0
+-- 7264, 1994, Bolivia, MF, 15, 0, 3
+-- 7265, 2002, Argentina, MF, 3, 0, 3
+-- 7265, 2006, Argentina, DF, 3, 4, 4
+-- 7266, 1994, Noruega, FW, 16, 0, 1
+-- 7267, 1962, Italia, FW, 15, 0, 1
+-- 7268, 2002, Uruguay, DF, 14, 0, 3
+-- 7269, 1994, Bolivia, DF, 13, 0, 1
+-- 7270, 2022, Croacia, DF, 19, 0, 5
+-- 7271, 1950, Paraguay, FW, None, 0, 0
+-- 7272, 1938, Cuba, FW, None, 0, 2
+-- 7273, 1962, Uruguay, GK, 1, 0, 3
+-- 7273, 1966, Uruguay, GK, 12, 0, 0
+-- 7274, 1990, Uruguay, FW, 11, 0, 3
+-- 7275, 1962, Argentina, FW, 19, 0, 1
+-- 7276, 2022, Uruguay, GK, 12, 0, 0
+-- 7277, 1962, Yugoslavia, GK, 1, 0, 6
+-- 7278, 1930, México, GK, None, 0, 1
+-- 7279, 1970, Perú, FW, 20, 0, 2
+-- 7279, 1978, Perú, MF, 20, 0, 0
+-- 7280, 1982, Chile, DF, 10, 0, 1
+-- 7281, 1978, México, GK, 22, 0, 1
+-- 7282, 1998, Túnez, MF, 15, 0, 3
+-- 7283, 2014, Argelia, FW, 15, 0, 2
+-- 7284, 1986, Marruecos, MF, 21, 0, 0
+-- 7285, 1978, Escocia, MF, 18, 0, 1
+-- 7285, 1982, Escocia, MF, 4, 2, 3
+-- 7285, 1986, Escocia, MF, 4, 2, 2
+-- 7286, 1998, Inglaterra, DF, 6, 0, 1
+-- 7286, 2002, Inglaterra, DF, 16, 0, 0
+-- 7287, 1954, Uruguay, FW, 18, 0, 1
+-- 7288, 2022, Australia, DF, 19, 0, 4
+-- 7289, 1950, Estados Unidos, FW, None, 0, 3
+-- 7290, 1950, Estados Unidos, MF, None, 0, 2
+-- 7291, 1930, Perú, FW, None, 0, 2
+-- 7292, 1962, Hungría, DF, 12, 0, 0
+-- 7292, 1966, Hungría, DF, 4, 0, 1
+-- 7293, 2022, Suiza, MF, 15, 0, 4
+-- 7294, 2018, Senegal, FW, 7, 0, 0
+-- 7295, 2022, Ghana, MF, 24, 0, 0
+-- 7296, 1930, Argentina, FW, None, 0, 1
+-- 7297, 2014, Bosnia-Herzegovina, DF, 4, 3, 3
+-- 7298, 1954, Yugoslavia, MF, 15, 0, 0
+-- 7299, 2018, Serbia, DF, 5, 0, 0
+-- 7300, 1974, Alemania Oriental, MF, 14, 0, 6
+-- 7301, 1990, Yugoslavia, DF, 3, 0, 5
+-- 7302, 1930, Yugoslavia, MF, None, 0, 0
+-- 7303, 2010, Estados Unidos, DF, 2, 0, 0
+-- 7304, 1970, Israel, MF, 8, 0, 3
+-- 7305, 1970, Israel, FW, 10, 3, 3
+-- 7306, 1974, Italia, DF, 2, 0, 3
+-- 7307, 2014, Australia, DF, 6, 0, 3
+-- 7308, 2010, Grecia, DF, 4, 0, 0
+-- 7309, 1938, Suiza, MF, None, 0, 3
+-- 7310, 1962, Inglaterra, GK, 1, 0, 4
+-- 7310, 1966, Inglaterra, GK, 12, 0, 0
+-- 7311, 2006, Suiza, DF, 17, 0, 1
+-- 7312, 1974, Argentina, DF, 17, 0, 2
+-- 7313, 2010, Francia, DF, 17, 0, 1
+-- 7314, 2018, Túnez, FW, 18, 0, 0
+-- 7315, 2006, Croacia, MF, 2, 0, 3
+-- 7315, 2014, Croacia, DF, 11, 3, 3
+-- 7316, 2022, Canadá, GK, 1, 0, 0
+-- 7317, 1930, Argentina, FW, None, 0, 4
+-- 7318, 1954, Checoslovaquia, GK, 21, 0, 1
+-- 7318, 1958, Checoslovaquia, GK, 1, 0, 0
+-- 7319, 1990, Bélgica, MF, 18, 0, 1
+-- 7319, 1994, Bélgica, MF, 6, 0, 4
+-- 7319, 1998, Bélgica, DF, 3, 0, 3
+-- 7320, 1974, Bulgaria, GK, 21, 0, 1
+-- 7321, 2006, República Checa, MF, 17, 0, 0
+-- 7322, 1998, Paises Bajos, DF, 3, 0, 7
+-- 7323, 1982, Checoslovaquia, MF, 17, 0, 1
+-- 7324, 1930, Rumania, FW, None, 0, 1
+-- 7325, 1994, Rumania, MF, 20, 0, 0
+-- 7325, 1998, Rumania, MF, 19, 0, 0
+-- 7326, 1998, Rumania, GK, 1, 0, 0
+-- 7327, 1998, Croacia, MF, 13, 0, 7
+-- 7327, 2002, Croacia, MF, 13, 0, 0
+-- 7328, 1954, Inglaterra, DF, 2, 0, 3
+-- 7329, 2022, Croacia, DF, 2, 0, 1
+-- 7330, 1950, Yugoslavia, DF, None, 0, 3
+-- 7330, 1954, Yugoslavia, DF, 2, 0, 3
+-- 7331, 1998, Serbia, MF, 20, 0, 2
+-- 7331, 2006, Serbia, MF, 10, 1, 3
+-- 7331, 2010, Serbia, MF, 10, 3, 3
+-- 7332, 1990, Yugoslavia, DF, 2, 0, 2
+-- 7333, 1990, Irlanda, FW, 18, 0, 0
+-- 7334, 1990, Irlanda, DF, 3, 0, 5
+-- 7334, 1994, Irlanda, DF, 11, 0, 4
+-- 7334, 2002, Irlanda, DF, 5, 4, 4
+-- 7335, 1930, Yugoslavia, DF, None, 0, 3
+-- 7336, 2022, Suiza, DF, 11, 0, 0
+-- 7337, 1986, Alemania Occidental, GK, 12, 0, 0
+-- 7338, 1930, Rumania, DF, None, 0, 1
+-- 7339, 1990, Alemania Occidental, DF, 16, 0, 0
+-- 7340, 1990, Checoslovaquia, GK, 1, 0, 5
+-- 7341, 2006, Paises Bajos, GK, 23, 0, 0
+-- 7341, 2010, Paises Bajos, GK, 1, 0, 7
+-- 7342, 1990, Rumania, GK, 12, 0, 0
+-- 7342, 1994, Rumania, GK, 12, 0, 2
+-- 7342, 1998, Rumania, GK, 12, 0, 4
+-- 7343, 1938, Suiza, DF, None, 0, 1
+-- 7344, 2006, Suecia, DF, 14, 0, 0
+-- 7345, 1970, Inglaterra, GK, 13, 0, 0
+-- 7346, 2006, Australia, MF, 21, 0, 3
+-- 7347, 2014, Inglaterra, FW, 19, 0, 2
+-- 7347, 2018, Inglaterra, FW, 10, 0, 6
+-- 7347, 2022, Inglaterra, FW, 10, 0, 2
+-- 7348, 1934, Hungría, DF, None, 2, 2
+-- 7349, 1962, Suiza, GK, 3, 0, 0
+-- 7350, 2010, Eslovenia, MF, 21, 0, 0
+-- 7351, 1986, Inglaterra, MF, 17, 0, 3
+-- 7351, 1990, Inglaterra, MF, 20, 0, 1
+-- 7352, 1986, Inglaterra, DF, 2, 0, 5
+-- 7352, 1990, Inglaterra, DF, 2, 0, 2
+-- 7353, 1986, Inglaterra, DF, 15, 0, 0
+-- 7354, 1998, RF de Yugoslavia, MF, 19, 0, 0
+-- 7355, 1982, Honduras, GK, 22, 0, 0
+-- 7356, 1994, Estados Unidos, FW, 8, 0, 4
+-- 7356, 1998, Estados Unidos, MF, 8, 0, 2
+-- 7356, 2002, Estados Unidos, MF, 8, 1, 2
+-- 7357, 1986, Irlanda del Norte, FW, 11, 0, 1
+-- 7358, 1974, Escocia, GK, 13, 0, 0
+-- 7359, 1962, Checoslovaquia, MF, 7, 0, 3
+-- 7360, 1982, Alemania Occidental, DF, 15, 0, 7
+-- 7361, 1966, Suiza, DF, 19, 0, 2
+-- 7362, 1966, Inglaterra, MF, 4, 0, 6
+-- 7362, 1970, Inglaterra, DF, 15, 0, 0
+-- 7363, 1998, Croacia, DF, 4, 0, 6
+-- 7364, 1962, Yugoslavia, FW, 21, 0, 0
+-- 7365, 2010, Eslovaquia, MF, 15, 0, 2
+-- 7366, 2014, Suiza, MF, 14, 0, 1
+-- 7367, 1998, Austria, MF, 18, 0, 0
+-- 7368, 1994, Bulgaria, FW, 8, 0, 7
+-- 7368, 1998, Bulgaria, FW, 8, 0, 3
+-- 7369, 1998, Bulgaria, MF, 17, 0, 0
+-- 7370, 1930, Yugoslavia, GK, None, 0, 0
+-- 7371, 1962, Yugoslavia, GK, 19, 0, 0
+-- 7372, 1954, Austria, FW, 21, 0, 4
+-- 7373, 1990, RF de Yugoslavia, MF, 10, 0, 5
+-- 7373, 1998, RF de Yugoslavia, MF, 10, 4, 4
+-- 7374, 1982, Yugoslavia, DF, 5, 0, 3
+-- 7375, 2006, Serbia, GK, 23, 0, 0
+-- 7375, 2010, Serbia, GK, 1, 0, 3
+-- 7375, 2018, Serbia, GK, 1, 0, 3
+-- 7376, 1958, Alemania Occidental, DF, 7, 0, 6
+-- 7377, 1990, Estados Unidos, MF, 14, 0, 1
+-- 7378, 2018, Inglaterra, DF, 5, 0, 7
+-- 7378, 2022, Inglaterra, DF, 5, 0, 5
+-- 7379, 1986, Francia, FW, 19, 0, 5
+-- 7380, 1954, Austria, MF, 12, 0, 0
+-- 7380, 1958, Austria, MF, 16, 0, 1
+-- 7381, 1974, Bulgaria, MF, 10, 0, 1
+-- 7382, 1982, Escocia, MF, 7, 0, 3
+-- 7382, 1986, Escocia, MF, 7, 0, 3
+-- 7383, 1990, Checoslovaquia, DF, 6, 0, 3
+-- 7384, 1994, Noruega, MF, 19, 0, 0
+-- 7384, 1998, Noruega, MF, 22, 0, 2
+-- 7385, 1954, Francia, FW, 21, 0, 2
+-- 7386, 1978, Austria, DF, 14, 0, 2
+-- 7387, 2010, Eslovaquia, MF, 6, 0, 3
+-- 7388, 1934, Alemania, MF, None, 0, 0
+-- 7389, 1962, Alemania Occidental, FW, 19, 0, 0
+-- 7390, 1974, Alemania Oriental, FW, 11, 0, 4
+-- 7391, 1990, Austria, DF, 18, 0, 2
+-- 7392, 1938, Alemania, DF, None, 0, 1
+-- 7393, 2006, Suiza, FW, 11, 0, 1
+-- 7394, 1974, Paises Bajos, MF, 19, 0, 0
+-- 7395, 2018, Croacia, DF, 3, 0, 6
+-- 7396, 1934, Alemania, FW, None, 0, 0
+-- 7396, 1938, Alemania, FW, None, 0, 1
+-- 7397, 1990, Suecia, MF, 15, 0, 1
+-- 7398, 1982, Checoslovaquia, GK, 22, 0, 1
+-- 7399, 1994, Alemania, MF, 2, 0, 1
+-- 7400, 2002, Bélgica, FW, 20, 0, 1
+-- 7401, 2002, Paraguay, MF, 6, 0, 2
+-- 7402, 2018, Dinamarca, DF, 17, 0, 3
+-- 7402, 2022, Dinamarca, DF, 17, 0, 0
+-- 7403, 2014, Uruguay, FW, 11, 0, 1
+-- 7403, 2018, Uruguay, FW, 11, 0, 1
+-- 7404, 1950, Suiza, GK, None, 0, 2
+-- 7404, 1954, Suiza, GK, 3, 0, 0
+-- 7405, 1994, Suiza, DF, 19, 0, 0
+-- 7406, 1958, Alemania Occidental, FW, 16, 0, 1
+-- 7406, 1962, Alemania Occidental, MF, 16, 0, 1
+-- 7407, 2014, Inglaterra, FW, 9, 0, 3
+-- 7408, 1982, Escocia, FW, 19, 0, 0
+-- 7408, 1986, Escocia, FW, 20, 0, 2
+-- 7409, 1938, Bélgica, MF, None, 1, 1
+-- 7410, 2002, China, FW, 12, 0, 0
+-- 7411, 1994, México, DF, 2, 0, 4
+-- 7411, 1998, México, DF, 2, 0, 4
+-- 7411, 2006, México, DF, 2, 0, 0
+-- 7412, 2010, Uruguay, FW, 9, 0, 6
+-- 7412, 2014, Uruguay, FW, 9, 0, 2
+-- 7412, 2018, Uruguay, FW, 9, 0, 5
+-- 7412, 2022, Uruguay, FW, 9, 1, 2
+-- 7413, 1962, España, MF, 21, 0, 2
+-- 7413, 1966, España, MF, 10, 0, 2
+-- 7414, 1930, Argentina, MF, None, 0, 2
+-- 7415, 1954, Turquía, FW, 8, 0, 2
+-- 7416, 2010, Honduras, FW, 11, 0, 2
+-- 7417, 2010, Chile, FW, 9, 0, 2
+-- 7418, 1930, Rumania, FW, None, 0, 0
+-- 7419, 2014, Croacia, GK, 23, 0, 0
+-- 7419, 2018, Croacia, GK, 23, 0, 6
+-- 7420, 1930, Chile, FW, None, 1, 3
+-- 7421, 1994, Suiza, FW, 14, 0, 0
+-- 7422, 2010, Serbia, DF, 20, 0, 1
+-- 7423, 2022, Croacia, MF, 25, 0, 0
+-- 7424, 2002, Camerún, FW, 18, 0, 0
+-- 7425, 1990, Croacia, FW, 20, 0, 0
+-- 7425, 1998, Croacia, FW, 9, 1, 7
+-- 7425, 2002, Croacia, FW, 9, 1, 1
+-- 7426, 1954, Turquía, GK, 12, 0, 1
+-- 7427, 2002, Turquía, FW, 9, 7, 7
+-- 7428, 1982, URSS, DF, 2, 0, 4
+-- 7429, 2018, Alemania, DF, 15, 0, 1
+-- 7429, 2022, Alemania, DF, 15, 0, 3
+-- 7430, 2022, Ghana, MF, 22, 0, 0
+-- 7431, 2010, Eslovenia, DF, 4, 0, 3
+-- 7432, 1990, Estados Unidos, FW, 9, 0, 0
+-- 7433, 1958, Gales, DF, 4, 0, 4
+-- 7434, 1998, Escocia, GK, 12, 0, 0
+-- 7435, 1990, Emiratos Arabes, MF, 5, 0, 0
+-- 7436, 1982, Kuwait, FW, 9, 0, 2
+-- 7437, 2014, Ghana, DF, 15, 0, 0
+-- 7438, 1982, Nueva Zelanda, MF, 10, 3, 3
+-- 7439, 2002, China, DF, 7, 0, 1
+-- 7440, 2002, Costa Rica, FW, 20, 0, 0
+-- 7441, 1950, Suecia, FW, None, 0, 5
+-- 7442, 1954, Corea del Sur, FW, 10, 0, 1
+-- 7443, 2014, Bosnia-Herzegovina, DF, 15, 0, 2
+-- 7444, 1974, Yugoslavia, FW, 9, 0, 6
+-- 7444, 1982, Yugoslavia, FW, 20, 3, 3
+-- 7445, 1982, Yugoslavia, FW, 13, 0, 3
+-- 7445, 1990, Yugoslavia, MF, 8, 0, 5
+-- 7446, 2014, Bosnia-Herzegovina, MF, 14, 0, 1
+-- 7447, 1982, URSS, MF, 18, 0, 0
+-- 7448, 2022, Croacia, DF, 24, 0, 1
+-- 7449, 1938, Indias Orientales Holand., MF, None, 0, 1
+-- 7450, 1994, Suiza, MF, 7, 0, 3
+-- 7451, 1974, Paises Bajos, DF, 20, 0, 7
+-- 7451, 1978, Paises Bajos, DF, 20, 0, 3
+-- 7452, 2002, Japón, FW, 11, 0, 3
+-- 7453, 1938, Suecia, MF, None, 1, 3
+-- 7454, 2002, Suecia, MF, 8, 0, 3
+-- 7454, 2006, Suecia, MF, 8, 0, 1
+-- 7455, 2018, Suecia, MF, 13, 0, 1
+-- 7456, 1950, Suecia, GK, None, 0, 5
+-- 7456, 1958, Suecia, GK, 1, 0, 6
+-- 7457, 2006, Suecia, DF, 15, 0, 0
+-- 7458, 2002, Suecia, MF, 17, 0, 3
+-- 7459, 2002, Suecia, DF, 5, 0, 0
+-- 7460, 1970, Suecia, MF, 6, 1, 3
+-- 7461, 1958, Suecia, GK, 12, 0, 0
+-- 7462, 2006, Ucrania, DF, 22, 0, 3
+-- 7463, 1982, Yugoslavia, GK, 22, 0, 0
+-- 7464, 1962, Yugoslavia, DF, 13, 0, 1
+-- 7465, 1934, Checoslovaquia, FW, None, 0, 3
+-- 7466, 1962, Inglaterra, MF, 5, 0, 0
+-- 7467, 1986, Canadá, MF, 11, 0, 1
+-- 7468, 2022, Polonia, FW, 16, 0, 1
+-- 7469, 2002, Polonia, MF, 7, 0, 2
+-- 7470, 1958, Austria, DF, 4, 0, 3
+-- 7471, 2002, Rusia, FW, 22, 0, 0
+-- 7472, 2002, Senegal, GK, 1, 0, 5
+-- 7473, 1994, Suiza, MF, 20, 0, 0
+-- 7474, 1934, Brasil, DF, None, 0, 1
+-- 7475, 1934, Hungría, GK, None, 0, 2
+-- 7475, 1938, Hungría, GK, None, 0, 3
+-- 7476, 1934, Hungría, FW, None, 0, 1
+-- 7477, 1934, Hungría, MF, None, 0, 1
+-- 7477, 1938, Hungría, MF, None, 0, 3
+-- 7478, 1958, Austria, GK, 1, 0, 2
+-- 7479, 1974, Polonia, FW, 17, 0, 6
+-- 7479, 1978, Polonia, FW, 17, 0, 5
+-- 7479, 1982, Polonia, FW, 17, 0, 1
+-- 7480, 2018, Polonia, GK, 1, 0, 2
+-- 7480, 2022, Polonia, GK, 1, 0, 4
+-- 7481, 1986, Hungría, GK, 18, 0, 1
+-- 7482, 1982, Hungría, FW, 12, 0, 0
+-- 7483, 1962, Hungría, GK, 21, 0, 0
+-- 7483, 1966, Hungría, GK, 1, 0, 1
+-- 7484, 1934, Alemania, FW, None, 4, 4
+-- 7484, 1938, Alemania, FW, None, 1, 1
+-- 7485, 1966, Hungría, DF, 17, 0, 3
+-- 7486, 1938, Polonia, FW, None, 0, 1
+-- 7487, 1958, Hungría, DF, 13, 0, 0
+-- 7488, 1954, Hungría, MF, 15, 0, 1
+-- 7488, 1958, Hungría, DF, 14, 0, 2
+-- 7489, 1938, Polonia, DF, None, 1, 1
+-- 7490, 1934, Hungría, MF, None, 0, 2
+-- 7490, 1938, Hungría, MF, None, 0, 1
+-- 7491, 1958, Alemania Occidental, MF, 6, 0, 6
+-- 7491, 1962, Alemania Occidental, MF, 6, 0, 4
+-- 7492, 1974, Polonia, DF, 4, 0, 7
+-- 7492, 1978, Polonia, DF, 4, 0, 6
+-- 7493, 2022, Polonia, MF, 8, 0, 0
+-- 7494, 2022, Polonia, MF, 19, 0, 2
+-- 7495, 2006, Polonia, MF, 10, 0, 2
+-- 7496, 1962, Suiza, DF, 8, 0, 3
+-- 7496, 1966, Suiza, DF, 20, 0, 1
+-- 7497, 1990, Italia, GK, 12, 0, 0
+-- 7498, 2006, Ghana, FW, 12, 0, 0
+-- 7499, 2014, Grecia, MF, 23, 0, 0
+-- 7500, 2018, Serbia, MF, 10, 0, 3
+-- 7500, 2022, Serbia, FW, 10, 3, 3
+-- 7501, 1990, Brasil, GK, 1, 0, 4
+-- 7501, 1994, Brasil, GK, 1, 0, 7
+-- 7501, 1998, Brasil, GK, 1, 0, 7
+-- 7502, 2014, Australia, FW, 9, 0, 1
+-- 7503, 2018, Argentina, DF, 3, 0, 4
+-- 7503, 2022, Argentina, DF, 3, 0, 3
+-- 7504, 2018, Marruecos, GK, 22, 0, 0
+-- 7504, 2022, Marruecos, GK, 22, 0, 0
+-- 7505, 2010, Ghana, FW, 12, 0, 3
+-- 7506, 1990, Egipto, GK, 21, 0, 0
+-- 7507, 1966, Uruguay, GK, 22, 0, 0
+-- 7508, 2014, Argelia, MF, 19, 0, 2
+-- 7509, 1938, Indias Orientales Holand., FW, None, 0, 1
+-- 7510, 2018, Brasil, FW, 21, 0, 0
+-- 7511, 2010, Nigeria, DF, 3, 0, 2
+-- 7512, 2006, Japón, FW, 9, 0, 2
+-- 7513, 2014, México, GK, 12, 0, 0
+-- 7513, 2018, México, GK, 12, 0, 0
+-- 7513, 2022, México, GK, 1, 0, 0
+-- 7514, 2022, Túnez, DF, 3, 0, 3
+-- 7515, 1970, Israel, FW, 15, 0, 1
+-- 7516, 2006, Irán, GK, 22, 0, 0
+-- 7517, 2006, Japón, FW, 20, 0, 1
+-- 7517, 2010, Japón, FW, 11, 0, 0
+-- 7518, 1934, Hungría, FW, None, 0, 0
+-- 7519, 2022, Arabia Saudita, DF, 17, 0, 2
+-- 7520, 1950, Suiza, FW, None, 0, 3
+-- 7521, 1938, Indias Orientales Holand., FW, None, 0, 1
+-- 7522, 1938, Indias Orientales Holand., GK, None, 0, 1
+-- 7523, 1938, Indias Orientales Holand., FW, None, 0, 0
+-- 7524, 2022, Japón, MF, 17, 0, 2
+-- 7525, 2010, Japón, DF, 4, 0, 4
+-- 7526, 1986, Italia, GK, 12, 0, 0
+-- 7527, 2022, Japón, DF, 3, 0, 2
+-- 7528, 1986, Argentina, MF, 20, 0, 0
+-- 7529, 1998, Chile, GK, 1, 0, 4
+-- 7530, 2018, Perú, MF, 13, 0, 2
+-- 7531, 1974, Suecia, MF, 14, 0, 5
+-- 7531, 1978, Suecia, MF, 6, 0, 2
+-- 7532, 1966, Argentina, FW, 22, 0, 0
+-- 7533, 1978, Argentina, DF, 20, 0, 7
+-- 7533, 1982, Argentina, DF, 18, 0, 5
+-- 7534, 1986, Polonia, MF, 7, 0, 1
+-- 7535, 1978, Italia, MF, 14, 0, 6
+-- 7535, 1982, Italia, MF, 14, 0, 7
+-- 7535, 1986, Italia, MF, 15, 0, 0
+-- 7536, 2022, Catar, MF, 26, 0, 0
+-- 7537, 2018, Irán, FW, 17, 0, 2
+-- 7537, 2022, Irán, FW, 9, 0, 3
+-- 7538, 1998, Alemania, MF, 21, 0, 3
+-- 7539, 2010, Alemania, DF, 5, 0, 0
+-- 7540, 1930, Francia, GK, None, 0, 0
+-- 7541, 1994, Italia, DF, 9, 0, 2
+-- 7542, 1970, Rumania, FW, 17, 0, 1
+-- 7543, 1990, Camerún, DF, 14, 5, 5
+-- 7543, 1994, Camerún, DF, 14, 3, 3
+-- 7544, 1994, Paises Bajos, FW, 17, 0, 1
+-- 7545, 2002, Paraguay, GK, 22, 0, 1
+-- 7546, 2002, Eslovenia, MF, 15, 0, 1
+-- 7547, 1950, Inglaterra, DF, None, 0, 0
+-- 7548, 2022, Paises Bajos, MF, 24, 0, 0
+-- 7549, 1954, Inglaterra, FW, 10, 0, 2
+-- 7550, 1978, Irán, FW, 13, 0, 0
+-- 7551, 2006, Togo, GK, 1, 0, 0
+-- 7552, 1994, Camerún, FW, 16, 0, 0
+-- 7552, 1998, Camerún, FW, 9, 0, 0
+-- 7553, 2006, Togo, DF, 5, 1, 3
+-- 7554, 2002, Camerún, DF, 2, 0, 3
+-- 7555, 1982, Camerún, GK, 22, 0, 0
+-- 7556, 2022, Francia, MF, 8, 0, 7
+-- 7557, 1938, Indias Orientales Holand., FW, None, 0, 0
+-- 7558, 1954, Austria, MF, 17, 0, 0
+-- 7559, 2018, Panamá, FW, 18, 0, 0
+-- 7560, 1998, Chile, GK, 22, 0, 0
+-- 7561, 2014, Costa Rica, MF, 17, 0, 5
+-- 7561, 2018, Costa Rica, MF, 17, 0, 0
+-- 7561, 2022, Costa Rica, MF, 17, 0, 3
+-- 7562, 1930, Uruguay, DF, None, 0, 1
+-- 7563, 1950, Uruguay, DF, None, 0, 4
+-- 7563, 1954, Uruguay, DF, 14, 0, 0
+-- 7564, 1974, Argentina, MF, 18, 0, 4
+-- 7565, 1934, Hungría, FW, None, 0, 1
+-- 7566, 2022, Brasil, DF, 16, 0, 1
+-- 7567, 2010, Chile, MF, 21, 0, 0
+-- 7568, 1938, Indias Orientales Holand., FW, None, 0, 0
+-- 7569, 1978, México, DF, 3, 0, 2
+-- 7570, 1982, España, DF, 5, 0, 5
+-- 7571, 2002, Ecuador, FW, 18, 0, 1
+-- 7571, 2006, Ecuador, FW, 21, 0, 3
+-- 7572, 2002, Ecuador, MF, 20, 0, 2
+-- 7572, 2006, Ecuador, MF, 20, 0, 4
+-- 7573, 2018, Polonia, FW, 14, 0, 0
+-- 7574, 1930, Brasil, FW, None, 0, 1
+-- 7575, 2018, Alemania, GK, 22, 0, 0
+-- 7575, 2022, Alemania, GK, 22, 0, 0
+-- 7576, 1994, Rusia, DF, 6, 0, 2
+-- 7577, 1998, México, DF, 16, 0, 0
+-- 7578, 2006, Inglaterra, DF, 6, 0, 5
+-- 7578, 2010, Inglaterra, DF, 6, 0, 4
+-- 7579, 1994, Rusia, DF, 12, 0, 1
+-- 7580, 2006, Argentina, FW, 11, 0, 2
+-- 7580, 2010, Argentina, FW, 11, 0, 4
+-- 7581, 2006, Irán, MF, 14, 0, 3
+-- 7581, 2014, Irán, MF, 14, 0, 3
+-- 7582, 1998, Túnez, DF, 7, 0, 1
+-- 7582, 2002, Túnez, DF, 17, 0, 0
+-- 7583, 2018, Francia, FW, 20, 0, 0
+-- 7584, 2022, Bélgica, DF, 3, 0, 0
+-- 7585, 2006, Trinidad y Tobago, MF, 18, 0, 3
+-- 7586, 1930, Francia, GK, None, 0, 3
+-- 7586, 1934, Francia, GK, None, 1, 1
+-- 7587, 1990, Suecia, MF, 16, 1, 2
+-- 7587, 1994, Suecia, MF, 9, 5, 5
+-- 7588, 2018, España, MF, 10, 0, 1
+-- 7589, 2002, Senegal, FW, 18, 0, 1
+-- 7590, 2002, Bélgica, MF, 19, 0, 0
+-- 7591, 1970, Bélgica, DF, 3, 0, 3
+-- 7592, 1934, Suecia, FW, None, 0, 0
+-- 7593, 2010, Honduras, MF, 6, 0, 1
+-- 7594, 2022, Gales, MF, 22, 0, 0
+-- 7595, 2006, Australia, FW, 17, 0, 0
+-- 7596, 1982, Inglaterra, DF, 18, 0, 5
+-- 7597, 1974, Escocia, GK, 12, 0, 0
+-- 7598, 1986, Alemania, MF, 16, 0, 0
+-- 7598, 1990, Alemania, MF, 20, 0, 1
+-- 7598, 1998, Alemania, DF, 6, 0, 3
+-- 7599, 1994, Noruega, GK, 1, 0, 3
+-- 7600, 1998, Francia, DF, 15, 0, 6
+-- 7600, 2002, Francia, DF, 15, 0, 3
+-- 7600, 2006, Francia, DF, 15, 0, 7
+-- 7601, 2022, Francia, FW, 26, 0, 0
+-- 7602, 2010, Sudáfrica, DF, 15, 0, 1
+-- 7603, 2006, Portugal, MF, 19, 0, 3
+-- 7603, 2010, Portugal, MF, 19, 0, 3
+-- 7604, 1962, Checoslovaquia, DF, 12, 0, 1
+-- 7605, 1958, Hungría, FW, 8, 0, 4
+-- 7605, 1962, Hungría, FW, 10, 0, 4
+-- 7605, 1966, Hungría, FW, 16, 0, 0
+-- 7606, 2018, Bélgica, MF, 17, 0, 2
+-- 7606, 2022, Bélgica, MF, 8, 0, 1
+-- 7607, 2010, Costa de Marfil, DF, 17, 0, 2
+-- 7608, 1982, Francia, MF, 14, 0, 4
+-- 7608, 1986, Francia, MF, 14, 0, 7
+-- 7609, 2002, Eslovenia, FW, 16, 0, 0
+-- 7610, 1962, Alemania Occidental, GK, 1, 0, 0
+-- 7610, 1966, Alemania Occidental, GK, 1, 0, 6
+-- 7611, 1938, Brasil, FW, None, 0, 1
+-- 7612, 2022, Paises Bajos, DF, 2, 0, 4
+-- 7613, 2006, Paises Bajos, GK, 22, 0, 0
+-- 7614, 1990, Rumania, FW, 16, 0, 2
+-- 7615, 1986, Marruecos, MF, 10, 0, 4
+-- 7616, 1934, Brasil, MF, None, 0, 1
+-- 7617, 2010, Costa de Marfil, MF, 9, 0, 3
+-- 7617, 2014, Costa de Marfil, MF, 9, 0, 3
+-- 7618, 1930, Yugoslavia, FW, None, 0, 3
+-- 7619, 1990, Brasil, FW, 20, 0, 0
+-- 7620, 1938, Hungría, FW, None, 0, 2
+-- 7621, 2002, Rusia, MF, 9, 0, 3
+-- 7622, 2006, Costa de Marfil, GK, 1, 0, 2
+-- 7623, 1982, Argelia, MF, 19, 0, 0
+-- 7624, 1962, Chile, FW, 21, 0, 4
+-- 7624, 1966, Chile, FW, 18, 0, 1
+-- 7625, 2002, Japón, MF, 21, 0, 4
+-- 7626, 1998, Dinamarca, MF, 15, 0, 0
+-- 7626, 2002, Dinamarca, MF, 2, 0, 4
+-- 7627, 1974, Argentina, DF, 19, 0, 0
+-- 7628, 1950, Italia, MF, None, 0, 0
+-- 7628, 1954, Italia, MF, 5, 0, 3
+-- 7629, 2018, Suecia, FW, 20, 0, 5
+-- 7630, 2006, Croacia, DF, 11, 0, 0
+-- 7631, 2022, Camerún, FW, 12, 0, 2
+-- 7632, 1982, Camerún, FW, 10, 0, 1
+-- 7633, 1990, Egipto, MF, 16, 0, 1
+-- 7634, 1934, Hungría, FW, None, 0, 2
+-- 7634, 1938, Hungría, FW, None, 0, 2
+-- 7635, 1998, Italia, GK, 1, 0, 0
+-- 7635, 2002, Italia, GK, 22, 0, 0
+-- 7636, 2006, Paraguay, DF, 3, 0, 1
+-- 7637, 1982, Honduras, MF, 8, 0, 0
+-- 7638, 2018, Francia, MF, 12, 0, 2
+-- 7639, 2022, Camerún, DF, 25, 0, 3
+-- 7640, 1974, Australia, MF, 14, 0, 0
+-- 7641, 1986, España, DF, 2, 0, 5
+-- 7642, 2002, Croacia, DF, 4, 0, 3
+-- 7642, 2006, Croacia, DF, 13, 0, 1
+-- 7643, 1950, Yugoslavia, FW, None, 0, 3
+-- 7644, 2002, Dinamarca, FW, 9, 0, 4
+-- 7644, 2010, Dinamarca, FW, 9, 2, 2
+-- 7645, 1974, Polonia, GK, 2, 0, 7
+-- 7645, 1978, Polonia, GK, 1, 0, 4
+-- 7646, 1958, Yugoslavia, DF, 5, 0, 2
+-- 7647, 2022, Japón, DF, 16, 0, 1
+-- 7648, 2002, Italia, MF, 17, 0, 4
+-- 7649, 2006, Italia, FW, 9, 0, 6
+-- 7650, 1978, Brasil, DF, 2, 0, 6
+-- 7651, 1978, Brasil, MF, 5, 0, 6
+-- 7651, 1982, Brasil, MF, 5, 0, 4
+-- 7652, 2018, Irán, MF, 2, 0, 0
+-- 7652, 2022, Irán, MF, 16, 0, 0
+-- 7653, 1986, Paraguay, DF, 2, 0, 4
+-- 7654, 1962, Chile, MF, 8, 2, 5
+-- 7655, 1978, Hungría, FW, 9, 0, 2
+-- 7655, 1982, Hungría, FW, 9, 0, 2
+-- 7656, 1978, Hungría, DF, 2, 0, 1
+-- 7657, 2010, Grecia, DF, 15, 0, 3
+-- 7657, 2014, Grecia, DF, 15, 0, 4
+-- 7658, 2002, México, MF, 6, 0, 4
+-- 7658, 2006, México, MF, 6, 0, 2
+-- 7658, 2010, México, MF, 6, 1, 4
+-- 7659, 2018, Uruguay, MF, 14, 0, 3
+-- 7659, 2022, Uruguay, MF, 14, 0, 0
+-- 7660, 1954, México, FW, 7, 0, 2
+-- 7661, 1930, Chile, MF, None, 0, 3
+-- 7662, 2010, Paraguay, DF, 17, 0, 1
+-- 7663, 1930, Chile, MF, None, 0, 2
+-- 7664, 2022, Uruguay, FW, 20, 0, 0
+-- 7665, 2022, Ecuador, DF, 2, 0, 3
+-- 7666, 2006, España, FW, 9, 0, 3
+-- 7666, 2010, España, FW, 9, 0, 4
+-- 7666, 2014, España, FW, 9, 0, 1
+-- 7667, 2022, España, FW, 11, 0, 3
+-- 7668, 2010, Estados Unidos, MF, 16, 0, 1
+-- 7669, 2018, Panamá, FW, 9, 0, 1
+-- 7670, 2022, Costa Rica, MF, 13, 0, 1
+-- 7671, 2010, México, MF, 20, 0, 0
+-- 7672, 1966, Portugal, FW, 18, 0, 6
+-- 7673, 2022, España, DF, 4, 0, 1
+-- 7674, 2018, Panamá, DF, 5, 3, 3
+-- 7675, 1998, Italia, DF, 8, 0, 0
+-- 7676, 1994, Bolivia, GK, 19, 0, 0
+-- 7677, 1974, Suecia, FW, 8, 0, 4
+-- 7677, 1978, Suecia, FW, 16, 0, 0
+-- 7678, 2014, Chile, GK, 12, 0, 0
+-- 7679, 1930, Yugoslavia, DF, None, 0, 0
+-- 7680, 2018, Serbia, DF, 3, 0, 2
+-- 7681, 2010, Serbia, MF, 7, 0, 0
+-- 7682, 1966, Brasil, MF, 20, 0, 1
+-- 7682, 1970, Brasil, MF, 9, 0, 6
+-- 7683, 1978, Hungría, FW, 19, 0, 0
+-- 7684, 1954, Hungría, FW, 7, 0, 2
+-- 7685, 1978, Hungría, DF, 4, 0, 3
+-- 7685, 1982, Hungría, DF, 4, 0, 2
+-- 7686, 1954, Hungría, FW, 20, 0, 2
+-- 7687, 2002, Italia, FW, 10, 0, 4
+-- 7687, 2006, Italia, MF, 10, 0, 6
+-- 7688, 1982, Camerún, MF, 11, 0, 0
+-- 7689, 2010, Francia, MF, 14, 0, 2
+-- 7690, 2006, Togo, DF, 23, 0, 1
+-- 7691, 2006, Costa de Marfil, DF, 4, 0, 2
+-- 7691, 2010, Costa de Marfil, DF, 4, 1, 3
+-- 7691, 2014, Costa de Marfil, DF, 4, 0, 1
+-- 7692, 2006, Costa de Marfil, MF, 19, 0, 3
+-- 7692, 2010, Costa de Marfil, MF, 19, 0, 3
+-- 7692, 2014, Costa de Marfil, MF, 19, 2, 3
+-- 7693, 1962, Colombia, MF, 12, 0, 0
+-- 7694, 1990, Irlanda, MF, 13, 0, 5
+-- 7694, 1994, Irlanda, MF, 7, 4, 4
+-- 7695, 1998, Túnez, DF, 5, 0, 1
+-- 7695, 2002, Túnez, DF, 6, 0, 3
+-- 7695, 2006, Túnez, DF, 6, 0, 3
+-- 7696, 1998, Túnez, DF, 3, 3, 3
+-- 7697, 1930, Estados Unidos, DF, None, 0, 3
+-- 7698, 1958, Irlanda del Norte, FW, 22, 0, 0
+-- 7699, 2002, Senegal, FW, 8, 0, 0
+-- 7700, 1962, Italia, MF, 6, 0, 0
+-- 7701, 2018, Alemania, GK, 12, 0, 0
+-- 7701, 2022, Alemania, GK, 12, 0, 0
+-- 7702, 1970, Bélgica, GK, 12, 0, 0
+-- 7703, 2018, Perú, DF, 6, 0, 3
+-- 7704, 2018, Islandia, MF, 21, 0, 0
+-- 7705, 1974, Paises Bajos, GK, 21, 0, 0
+-- 7706, 1986, México, DF, 2, 0, 2
+-- 7707, 1978, Francia, DF, 8, 2, 3
+-- 7707, 1982, Francia, DF, 8, 2, 7
+-- 7708, 2018, Egipto, MF, 21, 0, 3
+-- 7709, 1998, Francia, FW, 20, 0, 2
+-- 7709, 2002, Francia, FW, 20, 0, 3
+-- 7709, 2006, Francia, FW, 20, 0, 1
+-- 7710, 1986, Italia, DF, 7, 0, 0
+-- 7711, 1994, Marruecos, DF, 5, 0, 3
+-- 7711, 1998, Marruecos, DF, 5, 0, 1
+-- 7712, 2018, Inglaterra, DF, 12, 0, 6
+-- 7712, 2022, Inglaterra, DF, 12, 0, 2
+-- 7713, 2002, España, FW, 10, 0, 2
+-- 7714, 1990, Estados Unidos, DF, 2, 0, 1
+-- 7715, 1954, Checoslovaquia, DF, 5, 0, 2
+-- 7716, 1986, Argentina, MF, 21, 0, 0
+-- 7717, 1962, Uruguay, DF, 2, 3, 3
+-- 7717, 1966, Uruguay, DF, 2, 4, 4
+-- 7718, 2010, Alemania, MF, 15, 0, 1
+-- 7719, 1990, Argentina, MF, 21, 0, 4
+-- 7720, 2014, Australia, MF, 14, 0, 0
+-- 7721, 2018, Nigeria, DF, 5, 0, 3
+-- 7722, 2022, Bélgica, FW, 17, 0, 1
+-- 7723, 1982, Argentina, DF, 19, 0, 0
+-- 7724, 1994, Bolivia, GK, 1, 0, 3
+-- 7725, 1994, Grecia, MF, 6, 0, 2
+-- 7726, 1958, URSS, MF, 16, 0, 5
+-- 7727, 2010, Sudáfrica, MF, 8, 0, 3
+-- 7728, 1974, Zaire, DF, 4, 0, 3
+-- 7729, 1994, Grecia, MF, 11, 0, 1
+-- 7730, 2006, Japón, DF, 19, 0, 2
+-- 7731, 1990, URSS, DF, 13, 0, 0
+-- 7732, 1994, Bulgaria, DF, 4, 0, 6
+-- 7733, 1994, Rusia, MF, 17, 0, 2
+-- 7734, 1998, Croacia, DF, 15, 0, 0
+-- 7734, 2006, Croacia, DF, 5, 0, 3
+-- 7735, 1970, Rumania, FW, 18, 0, 0
+-- 7736, 2002, Arabia Saudita, DF, 3, 0, 3
+-- 7736, 2006, Arabia Saudita, DF, 3, 0, 3
+-- 7737, 1962, Italia, MF, 20, 0, 1
+-- 7738, 1938, Cuba, FW, None, 0, 3
+-- 7739, 1938, Hungría, MF, None, 0, 3
+-- 7740, 2010, Honduras, MF, 19, 0, 1
+-- 7741, 1954, Alemania Occidental, GK, 1, 0, 5
+-- 7742, 1970, Suecia, FW, 18, 0, 1
+-- 7743, 1954, Turquía, GK, 1, 2, 2
+-- 7744, 1958, Escocia, FW, 8, 0, 3
+-- 7745, 1982, Nueva Zelanda, FW, 4, 0, 0
+-- 7746, 1982, Nueva Zelanda, FW, 20, 0, 0
+-- 7747, 2022, Estados Unidos, GK, 1, 0, 4
+-- 7748, 1986, Francia, DF, 8, 0, 2
+-- 7749, 1938, Polonia, DF, None, 0, 0
+-- 7750, 2006, Ucrania, MF, 4, 0, 5
+-- 7751, 2014, Grecia, DF, 3, 0, 0
+-- 7752, 2010, Grecia, MF, 6, 0, 3
+-- 7752, 2014, Grecia, MF, 6, 0, 0
+-- 7753, 2010, Grecia, GK, 12, 0, 3
+-- 7754, 1966, Uruguay, DF, 15, 0, 4
+-- 7754, 1970, Uruguay, DF, 4, 5, 6
+-- 7755, 2010, Nigeria, MF, 12, 0, 2
+-- 7756, 2014, Nigeria, FW, 20, 0, 0
+-- 7757, 2010, Japón, DF, 6, 0, 0
+-- 7757, 2014, Japón, DF, 2, 0, 3
+-- 7758, 2002, Nigeria, DF, 14, 0, 2
+-- 7759, 2022, Japón, FW, 21, 0, 1
+-- 7760, 2018, Japón, DF, 2, 0, 0
+-- 7761, 1966, España, FW, 7, 0, 1
+-- 7762, 2022, Uruguay, MF, 25, 0, 0
+-- 7763, 1950, Bolivia, FW, None, 0, 1
+-- 7764, 2022, Canadá, FW, 12, 0, 0
+-- 7765, 2006, República Checa, DF, 21, 0, 2
+-- 7766, 2006, Costa Rica, DF, 4, 0, 3
+-- 7766, 2014, Costa Rica, DF, 4, 0, 4
+-- 7767, 2018, Francia, DF, 5, 0, 6
+-- 7768, 1938, Suecia, FW, None, 0, 0
+-- 7769, 2002, Turquía, DF, 20, 0, 3
+-- 7770, 1950, Paraguay, FW, None, 0, 2
+-- 7771, 2022, Francia, DF, 18, 0, 5
+-- 7772, 1958, Irlanda del Norte, GK, 12, 0, 1
+-- 7773, 2010, Inglaterra, DF, 15, 0, 2
+-- 7774, 1982, España, FW, 18, 0, 0
+-- 7775, 1986, Polonia, FW, 8, 0, 3
+-- 7776, 1934, Austria, MF, None, 0, 4
+-- 7777, 1934, Argentina, MF, None, 0, 1
+-- 7778, 1930, Uruguay, FW, None, 0, 1
+-- 7779, 2014, Costa Rica, FW, 21, 0, 0
+-- 7779, 2018, Costa Rica, FW, 21, 0, 2
+-- 7780, 1978, España, DF, 3, 0, 2
+-- 7781, 1982, Perú, MF, 9, 0, 2
+-- 7782, 2018, Colombia, MF, 15, 0, 1
+-- 7783, 1982, España, DF, 12, 0, 2
+-- 7784, 2018, Uruguay, FW, 20, 0, 0
+-- 7785, 1950, Chile, DF, None, 0, 0
+-- 7786, 2006, Ecuador, MF, 6, 0, 0
+-- 7787, 1978, España, GK, 22, 0, 0
+-- 7787, 1982, España, GK, 21, 0, 0
+-- 7787, 1986, España, GK, 13, 0, 0
+-- 7788, 1966, Uruguay, FW, 8, 0, 0
+-- 7789, 2018, Japón, MF, 11, 0, 1
+-- 7790, 2006, Argentina, GK, 23, 0, 0
+-- 7791, 2002, Nigeria, FW, 21, 0, 1
+-- 7791, 2010, Nigeria, FW, 7, 0, 0
+-- 7792, 1974, Australia, DF, 2, 0, 3
+-- 7793, 1990, URSS, GK, 22, 0, 2
+-- 7794, 2014, Nigeria, MF, 3, 0, 0
+-- 7795, 2018, Nigeria, GK, 23, 0, 3
+-- 7796, 1934, Hungría, DF, None, 0, 1
+-- 7797, 1958, Argentina, DF, 3, 0, 3
+-- 7798, 2010, Francia, FW, 20, 0, 0
+-- 7798, 2014, Francia, MF, 8, 0, 4
+-- 7799, 1994, Paises Bajos, DF, 18, 0, 4
+-- 7800, 1982, Argentina, FW, 20, 0, 1
+-- 7800, 1986, Argentina, FW, 11, 0, 7
+-- 7801, 1990, Colombia, MF, 10, 4, 4
+-- 7801, 1994, Colombia, MF, 10, 3, 3
+-- 7801, 1998, Colombia, MF, 10, 3, 3
+-- 7802, 2014, Colombia, DF, 23, 0, 1
+-- 7803, 1966, Chile, FW, 19, 0, 0
+-- 7803, 1974, Chile, MF, 8, 3, 3
+-- 7804, 1962, Chile, DF, 13, 0, 0
+-- 7805, 2010, España, GK, 12, 0, 0
+-- 7806, 1994, México, FW, 16, 0, 1
+-- 7807, 2006, Paraguay, FW, 18, 0, 3
+-- 7807, 2010, Paraguay, FW, 18, 0, 4
+-- 7808, 1970, México, FW, 19, 0, 4
+-- 7809, 2010, Chile, MF, 10, 0, 2
+-- 7809, 2014, Chile, MF, 10, 0, 1
+-- 7810, 1930, Perú, GK, None, 0, 1
+-- 7811, 1986, Brasil, MF, 21, 0, 0
+-- 7811, 1990, Brasil, MF, 8, 0, 4
+-- 7812, 1974, Brasil, FW, 13, 0, 5
+-- 7813, 1994, Colombia, FW, 11, 0, 2
+-- 7813, 1998, Colombia, FW, 9, 0, 1
+-- 7814, 1950, Bolivia, MF, None, 0, 1
+-- 7815, 2006, Ecuador, MF, 16, 0, 4
+-- 7815, 2014, Ecuador, MF, 16, 3, 3
+-- 7816, 2014, Ecuador, FW, 13, 0, 3
+-- 7816, 2022, Ecuador, FW, 13, 3, 3
+-- 7817, 1978, Argentina, MF, 21, 0, 4
+-- 7817, 1982, Argentina, FW, 21, 0, 0
+-- 7818, 1994, Colombia, FW, 9, 0, 0
+-- 7819, 1986, Canadá, FW, 7, 0, 3
+-- 7820, 1966, Chile, DF, 20, 0, 2
+-- 7821, 1982, Chile, DF, 3, 0, 3
+-- 7822, 2010, Australia, MF, 16, 0, 3
+-- 7823, 2002, España, MF, 17, 0, 4
+-- 7824, 1970, Israel, DF, 16, 0, 1
+-- 7825, 2010, Honduras, GK, 18, 1, 3
+-- 7825, 2014, Honduras, GK, 18, 3, 3
+-- 7826, 1930, Perú, MF, None, 0, 0
+-- 7827, 2002, Costa Rica, MF, 13, 0, 0
+-- 7828, 1974, Chile, GK, 1, 0, 3
+-- 7829, 1986, Bulgaria, GK, 22, 0, 0
+-- 7830, 2022, Uruguay, MF, 15, 0, 3
+-- 7831, 2002, Brasil, MF, 18, 0, 0
+-- 7832, 1990, Paises Bajos, MF, 14, 0, 2
+-- 7833, 1990, Paises Bajos, DF, 2, 0, 4
+-- 7834, 1938, Bélgica, MF, None, 0, 1
+-- 7835, 1990, Paises Bajos, FW, 9, 0, 4
+-- 7836, 2006, Paises Bajos, MF, 18, 0, 3
+-- 7836, 2010, Paises Bajos, MF, 6, 0, 7
+-- 7837, 1954, Bélgica, DF, 3, 0, 2
+-- 7838, 1990, Paises Bajos, GK, 1, 0, 4
+-- 7839, 1998, Paises Bajos, MF, 19, 0, 0
+-- 7839, 2006, Paises Bajos, DF, 5, 0, 3
+-- 7839, 2010, Paises Bajos, DF, 5, 7, 7
+-- 7840, 2002, Bélgica, DF, 16, 0, 4
+-- 7840, 2014, Bélgica, DF, 15, 0, 5
+-- 7841, 1974, Paises Bajos, FW, 10, 0, 0
+-- 7841, 1978, Paises Bajos, FW, 10, 0, 7
+-- 7842, 1974, Paises Bajos, MF, 11, 0, 0
+-- 7842, 1978, Paises Bajos, MF, 11, 0, 7
+-- 7843, 1954, Bélgica, FW, 16, 0, 2
+-- 7844, 1954, Bélgica, FW, 15, 0, 1
+-- 7845, 1938, Indias Orientales Holand., DF, None, 0, 0
+-- 7846, 1970, Bélgica, MF, 15, 0, 0
+-- 7847, 1982, Bélgica, FW, 13, 0, 0
+-- 7848, 1986, Bélgica, DF, 3, 0, 2
+-- 7848, 1990, Bélgica, MF, 8, 0, 4
+-- 7848, 1994, Bélgica, MF, 7, 0, 4
+-- 7848, 1998, Bélgica, MF, 6, 2, 2
+-- 7849, 1986, Bélgica, MF, 15, 0, 0
+-- 7850, 2002, Bélgica, DF, 12, 0, 2
+-- 7851, 1994, Bélgica, MF, 21, 0, 0
+-- 7852, 1954, Bélgica, DF, 18, 0, 0
+-- 7853, 1990, Bélgica, FW, 19, 0, 1
+-- 7854, 1934, Paises Bajos, GK, None, 0, 1
+-- 7855, 1994, Paises Bajos, GK, 13, 0, 0
+-- 7855, 1998, Paises Bajos, GK, 1, 0, 7
+-- 7855, 2006, Paises Bajos, GK, 1, 4, 4
+-- 7856, 2006, Paises Bajos, MF, 10, 0, 1
+-- 7856, 2010, Paises Bajos, MF, 23, 0, 3
+-- 7857, 1938, Paises Bajos, FW, None, 0, 1
+-- 7858, 2010, Paises Bajos, DF, 2, 0, 5
+-- 7859, 1934, Paises Bajos, DF, None, 0, 0
+-- 7860, 2022, Paises Bajos, DF, 4, 5, 5
+-- 7861, 1994, Paises Bajos, DF, 14, 0, 1
+-- 7862, 1974, Paises Bajos, MF, 3, 0, 7
+-- 7863, 1982, Nueva Zelanda, GK, 22, 0, 3
+-- 7864, 1934, Paises Bajos, MF, None, 1, 1
+-- 7864, 1938, Paises Bajos, MF, None, 1, 1
+-- 7865, 1970, Bélgica, FW, 10, 3, 3
+-- 7866, 1998, Paises Bajos, FW, 17, 0, 0
+-- 7867, 1954, Bélgica, FW, 22, 0, 0
+-- 7868, 1974, Paises Bajos, DF, 4, 0, 0
+-- 7869, 1934, Bélgica, MF, None, 0, 0
+-- 7870, 1998, Bélgica, MF, 11, 0, 1
+-- 7870, 2002, Bélgica, DF, 5, 0, 2
+-- 7871, 1954, Bélgica, MF, 14, 0, 0
+-- 7872, 1978, Paises Bajos, DF, 4, 0, 0
+-- 7873, 1990, Paises Bajos, FW, 19, 0, 0
+-- 7874, 1934, Paises Bajos, GK, None, 0, 0
+-- 7874, 1938, Paises Bajos, GK, None, 0, 1
+-- 7875, 1994, Bélgica, DF, 19, 0, 0
+-- 7875, 1998, Bélgica, DF, 19, 0, 0
+-- 7875, 2002, Bélgica, DF, 4, 0, 1
+-- 7876, 1970, Bélgica, MF, 8, 0, 3
+-- 7876, 1982, Bélgica, MF, 8, 0, 1
+-- 7877, 1934, Paises Bajos, FW, None, 0, 1
+-- 7878, 2006, Paises Bajos, FW, 9, 0, 3
+-- 7879, 2006, Paises Bajos, FW, 17, 0, 4
+-- 7879, 2010, Paises Bajos, FW, 9, 0, 7
+-- 7879, 2014, Paises Bajos, FW, 9, 6, 6
+-- 7880, 1934, Paises Bajos, DF, None, 0, 1
+-- 7881, 1938, Paises Bajos, FW, None, 0, 0
+-- 7882, 1954, Bélgica, MF, 21, 0, 0
+-- 7883, 1990, Paises Bajos, DF, 5, 0, 4
+-- 7884, 1982, Argentina, DF, 22, 0, 0
+-- 7885, 1994, Paises Bajos, FW, 19, 0, 3
+-- 7886, 2022, Bélgica, MF, 20, 0, 0
+-- 7887, 1998, Bélgica, GK, 12, 0, 1
+-- 7888, 2014, Bélgica, DF, 21, 0, 1
+-- 7889, 1982, Bélgica, FW, 9, 0, 5
+-- 7889, 1986, Bélgica, FW, 9, 0, 1
+-- 7890, 2002, Bélgica, GK, 13, 0, 0
+-- 7891, 1982, Bélgica, MF, 7, 0, 0
+-- 7891, 1986, Bélgica, MF, 7, 0, 2
+-- 7892, 2002, Bélgica, MF, 18, 0, 4
+-- 7893, 1982, Bélgica, FW, 20, 0, 4
+-- 7894, 1934, Bélgica, GK, None, 0, 1
+-- 7894, 1938, Bélgica, GK, None, 0, 0
+-- 7895, 1938, Bélgica, FW, None, 0, 1
+-- 7896, 1934, Francia, DF, None, 0, 0
+-- 7896, 1938, Francia, DF, None, 0, 0
+-- 7897, 1990, Paises Bajos, MF, 8, 0, 1
+-- 7898, 1990, Estados Unidos, GK, 22, 0, 0
+-- 7899, 1970, México, DF, 13, 0, 4
+-- 7900, 1958, Argentina, MF, 6, 0, 3
+-- 7900, 1966, Argentina, MF, 5, 0, 0
+-- 7901, 1978, Hungría, FW, 11, 0, 0
+-- 7902, 1930, Argentina, FW, None, 0, 4
+-- 7903, 2014, Francia, DF, 4, 0, 4
+-- 7903, 2018, Francia, DF, 4, 1, 7
+-- 7903, 2022, Francia, DF, 4, 1, 6
+-- 7904, 2018, Inglaterra, FW, 11, 0, 1
+-- 7905, 2018, Uruguay, DF, 4, 0, 2
+-- 7905, 2022, Uruguay, DF, 13, 0, 2
+-- 7906, 2002, Uruguay, MF, 8, 0, 3
+-- 7907, 1950, Uruguay, MF, None, 4, 4
+-- 7907, 1954, Uruguay, MF, 5, 3, 3
+-- 7908, 2014, Portugal, FW, 18, 0, 0
+-- 7909, 1982, Hungría, DF, 19, 0, 2
+-- 7909, 1986, Hungría, DF, 4, 0, 2
+-- 7910, 1966, Hungría, MF, 8, 0, 0
+-- 7911, 2014, Colombia, GK, 12, 0, 0
+-- 7911, 2018, Colombia, GK, 12, 0, 0
+-- 7912, 2014, Chile, FW, 11, 0, 4
+-- 7913, 1966, México, GK, 22, 0, 0
+-- 7914, 2022, Costa Rica, DF, 3, 0, 1
+-- 7915, 1950, Paraguay, GK, None, 0, 2
+-- 7916, 2022, Suiza, FW, 17, 0, 4
+-- 7917, 1930, Paraguay, FW, None, 2, 2
+-- 7918, 1934, Italia, MF, None, 0, 0
+-- 7919, 1954, Hungría, DF, 13, 0, 0
+-- 7920, 1958, Hungría, FW, 17, 0, 0
+-- 7921, 2006, Ucrania, DF, 17, 0, 2
+-- 7922, 1974, Bulgaria, FW, 13, 0, 0
+-- 7923, 1974, Bulgaria, DF, 18, 0, 3
+-- 7924, 1998, Croacia, GK, 22, 0, 0
+-- 7924, 2002, Croacia, GK, 23, 0, 0
+-- 7925, 1970, El Salvador, MF, 8, 0, 3
+-- 7926, 1978, México, DF, 5, 3, 3
+-- 7927, 2022, México, DF, 5, 0, 0
+-- 7928, 2002, Inglaterra, FW, 20, 0, 1
+-- 7929, 1998, Austria, FW, 9, 0, 1
+-- 7930, 1930, Estados Unidos, DF, None, 0, 0
+-- 7931, 1958, Brasil, FW, 20, 0, 4
+-- 7931, 1962, Brasil, FW, 19, 0, 6
+-- 7932, 2014, México, MF, 23, 0, 3
+-- 7933, 2018, España, FW, 11, 0, 1
+-- 7934, 1994, Argentina, DF, 2, 0, 0
+-- 7935, 1958, Gales, GK, 13, 0, 0
+-- 7936, 2018, Uruguay, MF, 15, 0, 5
+-- 7936, 2022, Uruguay, MF, 5, 0, 2
+-- 7937, 2022, México, FW, 10, 0, 3
+-- 7938, 1986, Uruguay, DF, 13, 0, 0
+-- 7939, 1998, Chile, MF, 17, 0, 0
+-- 7940, 1930, Francia, FW, None, 0, 1
+-- 7940, 1934, Francia, FW, None, 0, 0
+-- 7940, 1938, Francia, MF, None, 0, 2
+-- 7941, 2010, México, FW, 11, 0, 2
+-- 7941, 2018, México, FW, 11, 0, 4
+-- 7942, 1962, México, FW, 20, 0, 0
+-- 7942, 1970, México, MF, 18, 0, 1
+-- 7943, 1978, Perú, MF, 6, 0, 5
+-- 7943, 1982, Perú, MF, 6, 0, 3
+-- 7944, 1950, México, FW, None, 0, 3
+-- 7945, 1986, Bulgaria, FW, 18, 0, 0
+-- 7946, 1962, Bulgaria, FW, 13, 0, 3
+-- 7947, 1974, Bulgaria, DF, 4, 0, 3
+-- 7948, 1974, Chile, FW, 11, 0, 2
+-- 7949, 2018, Serbia, DF, 13, 0, 1
+-- 7949, 2022, Serbia, DF, 5, 0, 3
+-- 7950, 1930, Brasil, GK, None, 0, 1
+-- 7951, 2010, Portugal, MF, 14, 0, 0
+-- 7951, 2014, Portugal, MF, 4, 0, 3
+-- 7952, 2014, Paises Bajos, DF, 13, 0, 0
+-- 7953, 1954, Brasil, GK, 21, 0, 0
+-- 7954, 1970, Checoslovaquia, GK, 22, 0, 1
+-- 7955, 2018, Costa Rica, FW, 11, 0, 2
+-- 7955, 2022, Costa Rica, FW, 11, 0, 1
+-- 7956, 2006, Paises Bajos, FW, 19, 0, 0
+-- 7957, 1934, Paises Bajos, FW, None, 0, 1
+-- 7957, 1938, Paises Bajos, FW, None, 0, 1
+-- 7958, 1934, España, FW, None, 0, 1
+-- 7959, 1982, El Salvador, MF, 6, 0, 3
+-- 7960, 2010, Paraguay, MF, 13, 0, 4
+-- 7961, 1982, Bélgica, MF, 6, 0, 5
+-- 7961, 1986, Bélgica, MF, 6, 0, 6
+-- 7962, 1986, Francia, MF, 15, 0, 1
+-- 7963, 2022, Francia, MF, 15, 0, 1
+-- 7964, 1962, España, MF, 22, 0, 2
+-- 7965, 2014, Paises Bajos, DF, 12, 0, 1
+-- 7966, 1998, Bélgica, MF, 18, 0, 0
+-- 7966, 2002, Bélgica, MF, 11, 0, 4
+-- 7967, 1970, Bélgica, MF, 17, 0, 0
+-- 7968, 1982, Bélgica, MF, 17, 0, 1
+-- 7969, 1994, Bélgica, GK, 20, 0, 0
+-- 7969, 1998, Bélgica, GK, 13, 0, 0
+-- 7970, 2014, Bélgica, DF, 3, 0, 1
+-- 7970, 2018, Bélgica, DF, 3, 0, 1
+-- 7971, 2002, Bélgica, MF, 14, 0, 0
+-- 7972, 1990, Estados Unidos, FW, 10, 0, 3
+-- 7973, 1938, Suiza, MF, None, 0, 3
+-- 7974, 1958, Gales, FW, 18, 0, 1
+-- 7975, 2010, Paraguay, DF, 2, 0, 1
+-- 7976, 1998, Argentina, MF, 11, 0, 5
+-- 7976, 2002, Argentina, MF, 11, 2, 2
+-- 7976, 2010, Argentina, MF, 8, 0, 2
+-- 7977, 2014, Italia, MF, 23, 0, 2
+-- 7978, 1934, Francia, MF, None, 0, 1
+-- 7979, 1990, Bélgica, MF, 5, 0, 3
+-- 7980, 1998, Bélgica, DF, 17, 0, 1
+-- 7981, 1930, Bélgica, FW, None, 0, 2
+-- 7981, 1934, Bélgica, FW, None, 0, 0
+-- 7982, 2014, Bélgica, DF, 5, 1, 4
+-- 7982, 2018, Bélgica, DF, 5, 0, 6
+-- 7982, 2022, Bélgica, DF, 5, 0, 3
+-- 7983, 1986, Bélgica, DF, 22, 0, 5
+-- 7983, 1990, Bélgica, DF, 22, 0, 1
+-- 7984, 1954, Yugoslavia, FW, 21, 0, 0
+-- 7984, 1958, Yugoslavia, FW, 13, 0, 4
+-- 7985, 1970, Checoslovaquia, MF, 7, 0, 1
+-- 7986, 1970, Checoslovaquia, MF, 18, 0, 2
+-- 7987, 2018, Dinamarca, DF, 3, 0, 0
+-- 7988, 1986, Bélgica, FW, 18, 0, 5
+-- 7989, 1986, Italia, FW, 17, 0, 0
+-- 7989, 1990, Italia, FW, 21, 0, 3
+-- 7990, 2010, Nueva Zelanda, DF, 5, 0, 3
+-- 7991, 1966, Portugal, DF, 4, 0, 4
+-- 7992, 1986, España, MF, 5, 0, 5
+-- 7993, 2014, Brasil, GK, 22, 0, 0
+-- 7994, 2010, Uruguay, DF, 6, 0, 4
+-- 7995, 2014, Croacia, DF, 21, 0, 0
+-- 7995, 2018, Croacia, DF, 21, 0, 6
+-- 7995, 2022, Croacia, DF, 21, 0, 0
+-- 7996, 2010, Chile, MF, 8, 0, 4
+-- 7996, 2014, Chile, MF, 8, 0, 3
+-- 7997, 1930, Chile, FW, None, 0, 3
+-- 7998, 1950, Uruguay, FW, None, 0, 3
+-- 7999, 2006, Serbia, DF, 5, 0, 0
+-- 7999, 2010, Serbia, DF, 5, 0, 3
+-- 8000, 2010, Australia, MF, 22, 0, 0
+-- 8000, 2014, Australia, MF, 20, 0, 0
+-- 8001, 1998, Bélgica, DF, 4, 0, 2
+-- 8002, 2002, México, DF, 5, 0, 4
+-- 8003, 2006, Australia, FW, 9, 4, 4
+-- 8004, 1998, Francia, MF, 4, 0, 1
+-- 8004, 2002, Francia, MF, 4, 0, 3
+-- 8004, 2006, Francia, MF, 4, 1, 7
+-- 8005, 2014, Portugal, MF, 10, 0, 0
+-- 8006, 1966, Uruguay, FW, 18, 0, 3
+-- 8007, 2014, Costa de Marfil, DF, 2, 0, 0
+-- 8008, 1982, Italia, DF, 8, 0, 0
+-- 8008, 1986, Italia, DF, 8, 0, 4
+-- 8008, 1990, Italia, DF, 8, 0, 1
+-- 8009, 1998, Italia, FW, 21, 0, 5
+-- 8009, 2002, Italia, FW, 21, 0, 4
+-- 8010, 1970, Italia, GK, 17, 0, 0
+-- 8011, 1934, Austria, FW, None, 0, 4
+-- 8012, 1970, Checoslovaquia, GK, 1, 1, 2
+-- 8013, 1950, Uruguay, DF, None, 0, 0
+-- 8014, 2006, España, FW, 21, 0, 3
+-- 8014, 2010, España, FW, 7, 0, 7
+-- 8014, 2014, España, FW, 7, 0, 1
+-- 8015, 1998, México, MF, 4, 0, 2
+-- 8015, 2002, México, MF, 14, 0, 0
+-- 8016, 1990, Colombia, DF, 5, 0, 0
+-- 8017, 1978, Argentina, MF, 22, 0, 0
+-- 8018, 2006, Ecuador, GK, 1, 0, 0
+-- 8019, 1930, Paraguay, FW, None, 0, 0
+-- 8020, 1958, Paraguay, MF, 5, 0, 3
+-- 8021, 1930, Chile, FW, None, 0, 3
+-- 8022, 1970, El Salvador, MF, 22, 0, 0
+-- 8023, 1930, Perú, FW, None, 0, 2
+-- 8024, 1966, Chile, DF, 21, 0, 3
+-- 8025, 1930, Francia, MF, None, 3, 3
+-- 8026, 2002, Paraguay, GK, 12, 0, 0
+-- 8026, 2006, Paraguay, GK, 1, 0, 1
+-- 8026, 2010, Paraguay, GK, 1, 4, 5
+-- 8027, 1990, España, MF, 11, 0, 4
+-- 8028, 1998, Chile, DF, 15, 0, 3
+-- 8029, 1982, Honduras, DF, 3, 0, 3
+-- 8030, 1958, México, DF, 4, 0, 1
+-- 8030, 1962, México, DF, 4, 0, 1
+-- 8031, 2022, Uruguay, DF, 17, 0, 0
+-- 8032, 1954, Francia, FW, 22, 0, 2
+-- 8032, 1958, Francia, FW, 21, 0, 6
+-- 8033, 1954, Italia, DF, 2, 0, 1
+-- 8034, 1934, Hungría, FW, None, 0, 1
+-- 8034, 1938, Hungría, FW, None, 0, 2
+-- 8035, 2022, Brasil, FW, 20, 0, 4
+-- 8036, 1994, Brasil, FW, 21, 0, 0
+-- 8037, 1954, Italia, GK, 12, 0, 1
+-- 8038, 2014, Bosnia-Herzegovina, FW, 19, 0, 0
+-- 8039, 1970, Israel, GK, 1, 0, 3
+-- 8040, 2002, Ecuador, GK, 22, 0, 0
+-- 8041, 2022, Portugal, MF, 16, 0, 1
+-- 8042, 2002, Portugal, GK, 1, 0, 3
+-- 8043, 2022, Canadá, DF, 5, 0, 3
+-- 8044, 2010, Eslovaquia, FW, 11, 0, 4
+-- 8045, 1962, Colombia, GK, 2, 0, 0
+-- 8046, 1998, Argentina, DF, 14, 0, 3
+-- 8047, 1982, Checoslovaquia, FW, 9, 0, 3
+-- 8048, 2014, Paises Bajos, DF, 2, 0, 7
+-- 8049, 1974, Yugoslavia, MF, 16, 0, 0
+-- 8050, 1994, Rumania, FW, 16, 0, 0
+-- 8051, 2022, Serbia, FW, 18, 0, 1
+-- 8052, 1998, Croacia, FW, 19, 0, 3
+-- 8052, 2002, Croacia, FW, 19, 0, 0
+-- 8053, 2022, Croacia, MF, 13, 0, 1
+-- 8054, 1954, Bélgica, FW, 7, 0, 0
+-- 8055, 1934, Checoslovaquia, MF, None, 0, 0
+-- 8056, 1986, Alemania, FW, 9, 0, 4
+-- 8056, 1990, Alemania, FW, 9, 0, 6
+-- 8056, 1994, Alemania, FW, 13, 0, 2
+-- 8057, 1974, Alemania Oriental, FW, 15, 0, 2
+-- 8058, 2006, Suiza, MF, 6, 4, 4
+-- 8059, 1930, Rumania, DF, None, 2, 2
+-- 8059, 1934, Rumania, MF, None, 1, 1
+-- 8060, 1970, Alemania Occidental, DF, 7, 0, 6
+-- 8060, 1974, Alemania Occidental, DF, 2, 0, 7
+-- 8060, 1978, Alemania Occidental, DF, 2, 6, 6
+-- 8061, 1974, Bulgaria, FW, 7, 0, 3
+-- 8062, 1958, URSS, MF, 5, 0, 5
+-- 8063, 1982, Checoslovaquia, DF, 6, 0, 2
+-- 8064, 1962, Alemania Occidental, FW, 20, 0, 0
+-- 8065, 2010, Suiza, DF, 5, 0, 2
+-- 8065, 2014, Suiza, DF, 5, 0, 2
+-- 8066, 1934, Suiza, FW, None, 0, 2
+-- 8067, 1998, Sudáfrica, GK, 1, 0, 3
+-- 8067, 2002, Sudáfrica, GK, 1, 0, 0
+-- 8068, 1962, Suiza, FW, 12, 0, 0
+-- 8069, 1954, Suiza, FW, 22, 0, 4
+-- 8069, 1962, Suiza, FW, 20, 0, 2
+-- 8070, 1930, Bélgica, FW, None, 0, 1
+-- 8070, 1934, Bélgica, FW, None, 0, 1
+-- 8070, 1938, Bélgica, FW, None, 0, 1
+-- 8071, 1974, Haití, MF, 7, 0, 3
+-- 8072, 2010, Paises Bajos, GK, 16, 0, 0
+-- 8072, 2014, Paises Bajos, GK, 22, 0, 0
+-- 8073, 1994, España, DF, 17, 0, 1
+-- 8074, 2006, Ucrania, FW, 16, 0, 1
+-- 8075, 2006, Ucrania, FW, 10, 0, 4
+-- 8076, 1962, URSS, MF, 12, 0, 4
+-- 8076, 1966, URSS, MF, 12, 0, 5
+-- 8077, 2010, Ghana, DF, 15, 0, 2
+-- 8078, 1974, Paises Bajos, DF, 22, 0, 0
+-- 8079, 1986, Canadá, FW, 10, 0, 2
+-- 8080, 2002, Croacia, MF, 16, 0, 0
+-- 8080, 2006, Croacia, MF, 6, 0, 0
+-- 8081, 2014, Bosnia-Herzegovina, DF, 6, 0, 0
+-- 8082, 1934, Paises Bajos, FW, None, 0, 0
+-- 8083, 2014, Bosnia-Herzegovina, MF, 2, 0, 1
+-- 8084, 2014, Croacia, DF, 2, 0, 2
+-- 8084, 2018, Croacia, DF, 2, 0, 6
+-- 8085, 2002, Eslovenia, DF, 4, 0, 1
+-- 8086, 2002, Croacia, MF, 7, 0, 1
+-- 8087, 1966, Suiza, FW, 21, 0, 0
+-- 8088, 1930, Yugoslavia, FW, None, 0, 3
+-- 8089, 1982, Yugoslavia, FW, 11, 0, 3
+-- 8089, 1990, Yugoslavia, FW, 11, 5, 5
+-- 8090, 1982, Yugoslavia, DF, 9, 0, 0
+-- 8091, 1950, Yugoslavia, FW, None, 0, 2
+-- 8091, 1954, Yugoslavia, FW, 9, 0, 3
+-- 8092, 2006, Serbia y Montenegro, MF, 18, 0, 0
+-- 8093, 2014, Croacia, MF, 8, 0, 0
+-- 8094, 2018, Australia, GK, 18, 0, 0
+-- 8094, 2022, Australia, GK, 18, 0, 0
+-- 8095, 1990, Yugoslavia, DF, 4, 0, 2
+-- 8096, 1966, Bulgaria, DF, 3, 0, 3
+-- 8097, 2010, Grecia, DF, 11, 0, 3
+-- 8097, 2014, Grecia, DF, 11, 0, 0
+-- 8098, 1974, Zaire, MF, 7, 0, 1
+-- 8099, 2022, Catar, DF, 4, 0, 0
+-- 8100, 1986, Inglaterra, MF, 11, 0, 2
+-- 8100, 1990, Inglaterra, MF, 8, 0, 6
+-- 8101, 1974, Alemania Oriental, DF, 12, 0, 4
+-- 8102, 1934, Alemania, MF, None, 0, 4
+-- 8102, 1938, Alemania, MF, None, 0, 0
+-- 8103, 1938, Suiza, FW, None, 0, 0
+-- 8104, 1994, Alemania, DF, 17, 0, 2
+-- 8105, 1954, Austria, FW, 9, 0, 4
+-- 8106, 2018, Senegal, DF, 22, 0, 2
+-- 8107, 2014, Ghana, MF, 22, 0, 0
+-- 8108, 1938, Suiza, FW, None, 0, 3
+-- 8109, 2006, Inglaterra, FW, 23, 0, 0
+-- 8110, 1934, Brasil, FW, None, 0, 1
+-- 8111, 1974, Brasil, GK, 22, 0, 0
+-- 8111, 1978, Brasil, GK, 22, 0, 0
+-- 8111, 1982, Brasil, GK, 1, 0, 5
+-- 8112, 2002, Polonia, DF, 15, 2, 2
+-- 8113, 1934, Brasil, MF, None, 0, 0
+-- 8114, 2002, Bélgica, MF, 10, 0, 3
+-- 8115, 1990, Inglaterra, DF, 5, 0, 7
+-- 8116, 2018, Inglaterra, DF, 2, 0, 5
+-- 8116, 2022, Inglaterra, DF, 2, 0, 3
+-- 8117, 1950, Estados Unidos, FW, None, 0, 3
+-- 8118, 2002, Costa Rica, DF, 15, 0, 3
+-- 8118, 2006, Costa Rica, DF, 15, 0, 1
+-- 8119, 2018, Costa Rica, MF, 13, 0, 0
+-- 8120, 1954, Alemania Occidental, MF, 16, 6, 6
+-- 8120, 1958, Alemania Occidental, MF, 9, 0, 5
+-- 8121, 1954, Alemania Occidental, FW, 15, 0, 5
+-- 8122, 1938, Brasil, GK, None, 0, 3
+-- 8123, 2010, Sudáfrica, GK, 22, 0, 0
+-- 8124, 1934, Austria, FW, None, 0, 0
+-- 8125, 2002, Costa Rica, FW, 9, 0, 3
+-- 8125, 2006, Costa Rica, FW, 9, 0, 3
+-- 8126, 1986, Polonia, GK, 19, 0, 0
+-- 8127, 2022, Gales, GK, 12, 0, 1
+-- 8128, 2018, Egipto, FW, 22, 0, 1
+-- 8129, 2014, Ghana, FW, 18, 0, 1
+-- 8130, 1982, Escocia, MF, 10, 0, 3
+-- 8131, 2010, Inglaterra, DF, 13, 0, 0
+-- 8132, 1974, Australia, MF, 9, 0, 1
+-- 8133, 1938, Polonia, MF, None, 0, 0
+-- 8134, 2022, Dinamarca, DF, 18, 0, 0
+-- 8135, 2018, Costa Rica, DF, 19, 0, 1
+-- 8135, 2022, Costa Rica, DF, 19, 0, 2
+-- 8136, 2022, Canadá, DF, 26, 0, 0
+-- 8137, 1974, Australia, DF, 18, 0, 0
+-- 8138, 1950, Inglaterra, MF, None, 0, 0
+-- 8139, 2022, Estados Unidos, FW, 21, 0, 4
+-- 8140, 1990, Inglaterra, MF, 4, 0, 0
+-- 8141, 1962, Suiza, MF, 13, 0, 3
+-- 8142, 1978, Austria, DF, 15, 0, 0
+-- 8142, 1982, Austria, DF, 19, 0, 2
+-- 8143, 1994, Bélgica, FW, 17, 0, 3
+-- 8144, 1934, Paises Bajos, DF, None, 0, 1
+-- 8144, 1938, Paises Bajos, DF, None, 0, 1
+-- 8145, 1966, Alemania Occidental, DF, 6, 0, 6
+-- 8145, 1970, Alemania Occidental, DF, 6, 0, 1
+-- 8146, 2010, Camerún, FW, 15, 0, 2
+-- 8146, 2014, Camerún, FW, 15, 0, 0
+-- 8147, 1958, Gales, FW, 19, 0, 3
+-- 8148, 1994, Estados Unidos, FW, 10, 0, 0
+-- 8148, 1998, Estados Unidos, MF, 7, 0, 1
+-- 8149, 2022, Paises Bajos, FW, 19, 0, 0
+-- 8150, 2014, Alemania, GK, 22, 0, 0
+-- 8151, 1934, Suiza, DF, None, 0, 0
+-- 8152, 1934, Suiza, DF, None, 0, 2
+-- 8153, 1998, Escocia, DF, 16, 0, 1
+-- 8154, 1974, Alemania Oriental, DF, 4, 0, 6
+-- 8155, 2010, Eslovaquia, MF, 7, 0, 3
+-- 8156, 1990, Checoslovaquia, MF, 14, 0, 1
+-- 8157, 2014, Inglaterra, FW, 11, 0, 2
+-- 8157, 2018, Inglaterra, FW, 14, 0, 0
+-- 8158, 2010, Honduras, FW, 12, 0, 0
+-- 8159, 1934, Bélgica, MF, None, 1, 1
+-- 8160, 1934, Paises Bajos, FW, None, 0, 1
+-- 8160, 1938, Paises Bajos, FW, None, 0, 1
+-- 8161, 1982, Austria, FW, 20, 0, 0
+-- 8162, 1978, Suecia, FW, 11, 0, 2
+-- 8163, 1962, Alemania Occidental, DF, 14, 0, 0
+-- 8164, 2018, Alemania, FW, 9, 0, 3
+-- 8165, 1998, Nigeria, DF, 6, 0, 4
+-- 8165, 2002, Nigeria, DF, 6, 0, 2
+-- 8166, 1998, Austria, MF, 15, 0, 3
+-- 8167, 1938, Suecia, FW, None, 0, 2
+-- 8168, 1930, Rumania, FW, None, 0, 2
+-- 8169, 2022, Brasil, GK, 12, 0, 0
+-- 8170, 1958, Alemania Occidental, DF, 5, 0, 1
+-- 8171, 1990, Irlanda, MF, 6, 0, 0
+-- 8171, 1994, Irlanda, MF, 18, 0, 0
+-- 8172, 2022, Inglaterra, DF, 21, 0, 0
+-- 8173, 1982, Irlanda del Norte, FW, 16, 0, 5
+-- 8173, 1986, Irlanda del Norte, FW, 10, 0, 3
+-- 8174, 2006, Trinidad y Tobago, MF, 9, 0, 2
+-- 8175, 1998, Jamaica, MF, 11, 0, 3
+-- 8176, 1998, Escocia, DF, 19, 0, 0
+-- 8177, 2006, Suiza, MF, 8, 0, 4
+-- 8178, 1934, Suecia, GK, None, 0, 0
+-- 8179, 2022, Suiza, DF, 3, 0, 3
+-- 8180, 1974, Polonia, MF, 7, 0, 0
+-- 8181, 1998, Dinamarca, MF, 14, 0, 1
+-- 8182, 2010, Alemania, GK, 12, 0, 0
+-- 8183, 2022, Polonia, DF, 4, 0, 0
+-- 8184, 2014, Paises Bajos, MF, 20, 0, 5
+-- 8185, 1934, Argentina, FW, None, 0, 1
+-- 8186, 1962, Alemania Occidental, DF, 5, 0, 0
+-- 8187, 1978, Paises Bajos, DF, 7, 0, 2
+-- 8188, 2006, Suecia, MF, 21, 0, 2
+-- 8189, 1938, Polonia, FW, None, 0, 1
+-- 8190, 1982, Inglaterra, MF, 19, 0, 5
+-- 8190, 1986, Inglaterra, MF, 8, 0, 2
+-- 8191, 2014, Australia, DF, 22, 0, 3
+-- 8192, 2006, Australia, MF, 20, 0, 2
+-- 8192, 2010, Australia, DF, 8, 0, 3
+-- 8193, 1998, Jamaica, FW, 9, 0, 0
+-- 8194, 1950, Inglaterra, GK, None, 0, 3
+-- 8195, 1974, Australia, DF, 15, 0, 0
+-- 8196, 2022, Ghana, FW, 19, 0, 3
+-- 8197, 2022, Gales, MF, 18, 0, 0
+-- 8198, 2022, Gales, DF, 3, 0, 3
+-- 8199, 2022, España, FW, 12, 0, 1
+-- 8200, 1958, Gales, DF, 2, 0, 5
+-- 8201, 2014, Brasil, MF, 19, 0, 1
+-- 8201, 2018, Brasil, MF, 19, 0, 5
+-- 8202, 1990, Bélgica, FW, 21, 0, 0
+-- 8202, 1994, Bélgica, MF, 18, 0, 1
+-- 8202, 1998, Bélgica, MF, 7, 0, 3
+-- 8202, 2002, Bélgica, FW, 7, 4, 4
+-- 8203, 1954, Inglaterra, FW, 15, 0, 2
+-- 8204, 2014, Inglaterra, MF, 7, 0, 1
+-- 8205, 1954, Escocia, DF, 18, 0, 0
+-- 8206, 1986, Canadá, DF, 3, 3, 3
+-- 8207, 2022, Inglaterra, FW, 24, 0, 0
+-- 8208, 1974, Italia, DF, 15, 0, 0
+-- 8209, 2022, Gales, MF, 8, 0, 2
+-- 8210, 1974, Australia, DF, 3, 3, 3
+-- 8211, 1962, Inglaterra, DF, 3, 0, 4
+-- 8211, 1966, Inglaterra, DF, 3, 0, 6
+-- 8212, 1982, Nueva Zelanda, GK, 1, 0, 0
+-- 8213, 2022, Costa Rica, MF, 24, 0, 0
+-- 8214, 1970, Brasil, DF, 3, 0, 6
+-- 8214, 1974, Brasil, DF, 5, 3, 3
+-- 8215, 2002, Francia, FW, 11, 0, 3
+-- 8215, 2006, Francia, FW, 11, 0, 2
+-- 8216, 1974, Alemania Occidental, MF, 7, 0, 1
+-- 8217, 2022, Dinamarca, FW, 19, 0, 0
+-- 8218, 1990, Estados Unidos, DF, 5, 3, 3
+-- 8219, 1990, Paises Bajos, MF, 20, 0, 1
+-- 8219, 1994, Paises Bajos, MF, 20, 0, 3
+-- 8219, 1998, Paises Bajos, MF, 20, 0, 2
+-- 8220, 1982, Chile, GK, 1, 0, 0
+-- 8221, 2006, Trinidad y Tobago, FW, 16, 0, 0
+-- 8222, 1958, Francia, FW, 22, 0, 6
+-- 8223, 1982, Inglaterra, FW, 20, 0, 0
+-- 8224, 1990, Paises Bajos, MF, 11, 0, 3
+-- 8225, 1994, Paises Bajos, MF, 5, 0, 3
+-- 8226, 2014, Bélgica, MF, 6, 0, 4
+-- 8226, 2018, Bélgica, MF, 6, 0, 6
+-- 8226, 2022, Bélgica, MF, 6, 0, 3
+-- 8227, 1938, Polonia, FW, None, 0, 1
+-- 8228, 2010, Suiza, GK, 12, 0, 0
+-- 8229, 1998, Alemania, DF, 2, 0, 5
+-- 8230, 1998, Austria, GK, 16, 0, 0
+-- 8231, 1978, Polonia, DF, 20, 0, 0
+-- 8231, 1982, Polonia, DF, 12, 0, 0
+-- 8231, 1986, Polonia, DF, 5, 0, 4
+-- 8232, 1950, Estados Unidos, FW, None, 0, 1
+-- 8233, 2006, Trinidad y Tobago, MF, 23, 0, 0
+-- 8234, 1974, Argentina, DF, 20, 1, 5
+-- 8235, 2002, Estados Unidos, FW, 15, 0, 1
+-- 8235, 2006, Estados Unidos, FW, 16, 0, 0
+-- 8236, 1970, Alemania Occidental, GK, 22, 0, 1
+-- 8237, 1998, Camerún, DF, 3, 0, 3
+-- 8237, 2002, Camerún, DF, 3, 0, 3
+-- 8238, 2014, Estados Unidos, FW, 18, 0, 0
+-- 8239, 1954, Corea del Sur, FW, 9, 0, 2
+-- 8240, 1930, Estados Unidos, DF, None, 0, 3
+-- 8241, 2010, Nueva Zelanda, FW, 20, 0, 0
+-- 8242, 1982, Escocia, GK, 12, 0, 0
+-- 8243, 1982, Inglaterra, FW, 21, 0, 1
+-- 8244, 1982, Nueva Zelanda, FW, 9, 0, 3
+-- 8245, 1986, Inglaterra, GK, 13, 0, 0
+-- 8245, 1990, Inglaterra, GK, 13, 0, 0
+-- 8246, 2022, Camerún, DF, 4, 0, 1
+-- 8247, 1978, Alemania Occidental, FW, 19, 0, 0
+-- 8248, 1986, Irlanda del Norte, DF, 15, 0, 2
+-- 8249, 2022, Canadá, MF, 24, 0, 0
+-- 8250, 1990, Paises Bajos, MF, 6, 0, 4
+-- 8250, 1994, Paises Bajos, MF, 6, 0, 4
+-- 8251, 2014, Australia, DF, 8, 0, 0
+-- 8251, 2022, Australia, DF, 8, 0, 0
+-- 8252, 1950, Inglaterra, DF, None, 3, 3
+-- 8252, 1954, Inglaterra, DF, 4, 3, 3
+-- 8252, 1958, Inglaterra, DF, 5, 4, 4
+-- 8253, 2022, Estados Unidos, FW, 19, 0, 1
+-- 8254, 1990, Inglaterra, DF, 14, 0, 6
+-- 8255, 2002, Costa Rica, DF, 4, 0, 3
+-- 8256, 1970, Inglaterra, DF, 14, 0, 1
+-- 8257, 2010, Inglaterra, MF, 17, 0, 0
+-- 8258, 2002, China, DF, 4, 0, 3
+-- 8259, 1962, Suiza, MF, 21, 0, 3
+-- 8260, 1990, Estados Unidos, FW, 11, 0, 1
+-- 8260, 1994, Estados Unidos, FW, 11, 0, 3
+-- 8260, 1998, Estados Unidos, FW, 11, 0, 1
+-- 8261, 1994, Suiza, MF, 21, 0, 0
+-- 8262, 2002, España, DF, 19, 0, 1
+-- 8262, 2006, España, MF, 8, 0, 3
+-- 8262, 2010, España, MF, 8, 0, 7
+-- 8262, 2014, España, MF, 8, 0, 1
+-- 8263, 2014, Suiza, MF, 10, 0, 4
+-- 8263, 2018, Suiza, MF, 10, 0, 4
+-- 8263, 2022, Suiza, MF, 10, 4, 4
+-- 8264, 2002, China, DF, 21, 0, 3
+-- 8265, 1986, Francia, FW, 20, 0, 0
+-- 8266, 2014, Costa de Marfil, FW, 13, 0, 0
+-- 8267, 1982, Argelia, MF, 13, 0, 0
+-- 8268, 2006, Túnez, DF, 4, 0, 0
+-- 8269, 2010, Argelia, DF, 4, 3, 3
+-- 8270, 1990, Egipto, MF, 5, 0, 3
+-- 8271, 1962, Bulgaria, FW, 11, 0, 1
+-- 8271, 1966, Bulgaria, FW, 13, 0, 3
+-- 8271, 1970, Bulgaria, FW, 10, 0, 2
+-- 8272, 2006, Suiza, MF, 22, 0, 2
+-- 8272, 2010, Suiza, MF, 15, 0, 0
+-- 8273, 1986, URSS, MF, 8, 0, 3
+-- 8274, 2014, Japón, MF, 16, 0, 2
+-- 8274, 2018, Japón, MF, 16, 0, 1
+-- 8275, 1998, Japón, MF, 6, 0, 3
+-- 8276, 2022, Japón, DF, 2, 0, 1
+-- 8277, 2002, Japón, FW, 13, 0, 3
+-- 8277, 2006, Japón, FW, 13, 0, 2
+-- 8278, 1966, Bulgaria, MF, 18, 0, 0
+-- 8279, 1982, Chile, FW, 15, 0, 3
+-- 8280, 2002, China, FW, 20, 0, 2
+-- 8281, 2002, China, DF, 3, 0, 1
+-- 8282, 1966, Corea del Norte, FW, 15, 0, 2
+-- 8283, 1994, Bulgaria, MF, 6, 0, 6
+-- 8283, 1998, Bulgaria, MF, 6, 0, 2
+-- 8284, 2010, Japón, FW, 12, 0, 0
+-- 8285, 2006, Costa de Marfil, MF, 10, 0, 0
+-- 8286, 1986, URSS, MF, 7, 0, 3
+-- 8286, 1990, URSS, MF, 15, 0, 0
+-- 8287, 1958, URSS, GK, 1, 0, 5
+-- 8287, 1962, URSS, GK, 1, 0, 4
+-- 8287, 1966, URSS, GK, 1, 1, 4
+-- 8287, 1970, URSS, GK, 13, 0, 0
+-- 8288, 1990, Egipto, DF, 3, 1, 3
+-- 8289, 1966, Chile, FW, 22, 0, 1
+-- 8289, 1974, Chile, MF, 17, 0, 0
+-- 8290, 1974, Argentina, FW, 22, 0, 3
+-- 8291, 1982, Honduras, MF, 20, 0, 3
+-- 8292, 2010, Argelia, MF, 19, 0, 3
+-- 8292, 2014, Argelia, MF, 7, 0, 0
+-- 8293, 2010, Costa de Marfil, GK, 23, 0, 0
+-- 8294, 2014, Estados Unidos, DF, 2, 0, 0
+-- 8294, 2022, Estados Unidos, DF, 22, 0, 0
+-- 8295, 1998, Paraguay, FW, 7, 0, 0
+-- 8296, 1994, Nigeria, FW, 9, 0, 4
+-- 8296, 1998, Nigeria, FW, 9, 0, 1
+-- 8297, 2010, Corea del Sur, MF, 19, 0, 3
+-- 8298, 2014, Colombia, DF, 3, 4, 4
+-- 8299, 2018, Rusia, MF, 21, 0, 0
+-- 8300, 1958, URSS, DF, 22, 0, 0
+-- 8301, 2014, Rusia, DF, 22, 0, 1
+-- 8302, 1970, URSS, FW, 17, 0, 3
+-- 8303, 1982, URSS, FW, 19, 0, 0
+-- 8303, 1986, URSS, FW, 17, 0, 1
+-- 8304, 2006, Ucrania, DF, 5, 0, 1
+-- 8305, 2002, Nigeria, MF, 2, 0, 3
+-- 8305, 2010, Nigeria, DF, 2, 2, 3
+-- 8305, 2014, Nigeria, DF, 2, 3, 3
+-- 8306, 1990, Camerún, DF, 12, 0, 0
+-- 8307, 1986, Corea del Sur, DF, 15, 0, 0
+-- 8308, 1998, Corea del Sur, DF, 6, 3, 3
+-- 8308, 2002, Corea del Sur, MF, 6, 0, 7
+-- 8309, 1990, Corea del Sur, DF, 4, 0, 2
+-- 8310, 2002, Corea del Sur, MF, 17, 0, 0
+-- 8311, 2022, Corea del Sur, DF, 2, 0, 0
+-- 8312, 1986, Bulgaria, MF, 15, 0, 2
+-- 8313, 1994, Bulgaria, MF, 13, 0, 1
+-- 8313, 1998, Bulgaria, MF, 5, 0, 2
+-- 8314, 1970, Bulgaria, GK, 13, 0, 1
+-- 8315, 2006, Trinidad y Tobago, FW, 19, 3, 3
+-- 8316, 2014, Japón, DF, 22, 0, 3
+-- 8316, 2018, Japón, DF, 22, 0, 4
+-- 8316, 2022, Japón, DF, 22, 4, 4
+-- 8317, 1994, Bulgaria, FW, 21, 0, 0
+-- 8318, 2018, Perú, MF, 19, 0, 3
+-- 8319, 2018, Inglaterra, DF, 18, 0, 5
+-- 8320, 1958, Escocia, GK, 1, 2, 2
+-- 8321, 1990, Egipto, MF, 7, 0, 3
+-- 8322, 1990, Emiratos Arabes, DF, 20, 0, 2
+-- 8323, 2002, China, MF, 11, 0, 0
+-- 8324, 2014, Corea del Sur, DF, 3, 0, 3
+-- 8325, 2018, Corea del Sur, DF, 5, 0, 1
+-- 8326, 1954, Corea del Sur, FW, 20, 0, 1
+-- 8327, 1994, Rusia, FW, 22, 0, 1
+-- 8328, 2018, Dinamarca, FW, 20, 0, 3
+-- 8328, 2022, Dinamarca, FW, 20, 0, 0
+-- 8329, 1986, Paraguay, DF, 3, 0, 4
+-- 8330, 2014, Argentina, DF, 4, 0, 7
+-- 8331, 1934, España, DF, None, 0, 1
+-- 8332, 2010, Eslovaquia, DF, 5, 0, 3
+-- 8333, 2006, Italia, DF, 2, 0, 2
+-- 8334, 1978, Italia, MF, 15, 0, 2
+-- 8335, 1998, Bulgaria, DF, 15, 0, 0
+-- 8336, 1974, Bulgaria, DF, 2, 0, 0
+-- 8337, 1958, Brasil, FW, 7, 0, 6
+-- 8337, 1962, Brasil, FW, 21, 0, 6
+-- 8338, 1994, México, FW, 11, 0, 4
+-- 8339, 2002, Eslovenia, MF, 10, 0, 1
+-- 8340, 2002, Arabia Saudita, GK, 21, 0, 0
+-- 8340, 2006, Arabia Saudita, GK, 21, 0, 3
+-- 8341, 1982, Yugoslavia, DF, 4, 0, 3
+-- 8342, 2018, Suiza, MF, 17, 0, 0
+-- 8342, 2022, Suiza, MF, 6, 0, 0
+-- 8343, 1954, Hungría, MF, 6, 0, 4
+-- 8344, 1986, Marruecos, GK, 1, 4, 4
+-- 8345, 2022, Polonia, MF, 21, 0, 1
+-- 8346, 2022, Camerún, MF, 8, 0, 3
+-- 8347, 2002, Italia, MF, 19, 0, 4
+-- 8347, 2006, Italia, DF, 19, 0, 6
+-- 8347, 2010, Italia, DF, 19, 0, 3
+-- 8348, 2022, Costa Rica, MF, 26, 0, 0
+-- 8349, 1982, España, MF, 10, 0, 4
+-- 8350, 1934, España, GK, None, 2, 2
+-- 8351, 1998, Chile, FW, 9, 4, 4
+-- 8352, 2006, Irán, MF, 7, 0, 1
+-- 8353, 2002, Italia, MF, 6, 0, 3
+-- 8354, 1998, Argentina, DF, 22, 0, 5
+-- 8354, 2002, Argentina, MF, 8, 0, 3
+-- 8355, 2014, Colombia, DF, 2, 0, 4
+-- 8355, 2018, Colombia, DF, 2, 0, 0
+-- 8356, 1998, Irán, DF, 17, 0, 3
+-- 8357, 2022, Marruecos, MF, 10, 0, 0
+-- 8358, 1950, España, FW, None, 1, 6
+-- 8359, 1938, Francia, FW, None, 0, 0
+-- 8360, 1930, Rumania, GK, None, 0, 0
+-- 8361, 1986, URSS, MF, 9, 0, 3
+-- 8361, 1990, URSS, MF, 9, 0, 2
+-- 8362, 1986, Bulgaria, DF, 12, 0, 3
+-- 8363, 1998, Bulgaria, GK, 1, 0, 3
+-- 8364, 1990, Brasil, GK, 22, 0, 0
+-- 8365, 1998, Brasil, MF, 13, 0, 1
+-- 8366, 2006, Angola, MF, 17, 0, 3
+-- 8367, 1930, Brasil, DF, None, 0, 1
+-- 8368, 1970, Brasil, DF, 21, 0, 0
+-- 8368, 1974, Brasil, DF, 4, 0, 4
+-- 8369, 1998, Brasil, MF, 16, 0, 0
+-- 8369, 2006, Brasil, MF, 11, 0, 4
+-- 8370, 1978, Brasil, FW, 7, 0, 0
+-- 8371, 1954, Yugoslavia, MF, 11, 0, 3
+-- 8371, 1958, Yugoslavia, MF, 6, 4, 4
+-- 8372, 1954, Yugoslavia, DF, 13, 0, 0
+-- 8373, 1986, Argentina, GK, 22, 0, 0
+-- 8374, 1982, Honduras, MF, 15, 0, 3
+-- 8375, 2014, Croacia, GK, 12, 0, 0
+-- 8376, 1938, Checoslovaquia, FW, None, 0, 1
+-- 8377, 1954, Austria, GK, 16, 0, 1
+-- 8378, 2014, Argelia, GK, 16, 0, 0
+-- 8379, 1998, Paises Bajos, MF, 12, 0, 2
+-- 8380, 1986, Italia, GK, 22, 0, 0
+-- 8380, 1990, Italia, GK, 1, 0, 7
+-- 8381, 1934, Checoslovaquia, DF, None, 0, 3
+-- 8382, 1990, Uruguay, GK, 22, 0, 0
+-- 8383, 1962, Brasil, MF, 16, 0, 0
+-- 8384, 1950, México, DF, None, 0, 1
+-- 8385, 1994, Brasil, GK, 12, 0, 0
+-- 8386, 1978, Alemania Occidental, MF, 18, 0, 0
+-- 8387, 2002, Polonia, FW, 14, 0, 0
+-- 8388, 2002, Polonia, DF, 4, 0, 2
+-- 8388, 2006, Polonia, DF, 14, 0, 3
+-- 8389, 1938, Brasil, MF, None, 0, 4
+-- 8390, 1986, Polonia, FW, 17, 0, 0
+-- 8391, 2002, China, DF, 2, 0, 0
+-- 8392, 2002, China, MF, 15, 0, 2
+-- 8393, 1962, Bulgaria, DF, 12, 0, 1
+-- 8393, 1966, Bulgaria, FW, 6, 0, 3
+-- 8393, 1970, Bulgaria, DF, 14, 0, 2
+-- 8393, 1974, Bulgaria, DF, 3, 0, 0
+-- 8394, 1966, Bulgaria, FW, 10, 0, 1
+-- 8394, 1970, Bulgaria, FW, 9, 0, 1
+-- 8395, 1986, Bulgaria, MF, 6, 0, 1
+-- 8396, 2014, Rusia, MF, 18, 0, 1
+-- 8396, 2018, Rusia, MF, 18, 0, 3
+-- 8397, 2010, Argelia, MF, 15, 0, 3
+-- 8398, 1978, Brasil, MF, 8, 0, 3
+-- 8398, 1982, Brasil, MF, 10, 0, 5
+-- 8398, 1986, Brasil, MF, 10, 0, 0
+-- 8399, 1982, Argelia, MF, 14, 0, 2
+-- 8399, 1986, Argelia, MF, 14, 0, 2
+-- 8400, 1998, Francia, MF, 10, 0, 5
+-- 8400, 2002, Francia, MF, 10, 0, 1
+-- 8400, 2006, Francia, MF, 10, 6, 6
+-- 8401, 1998, Alemania, MF, 17, 0, 1
+-- 8401, 2002, Alemania, DF, 6, 0, 4
+-- 8402, 2010, Suiza, DF, 17, 0, 3
+-- 8402, 2014, Suiza, DF, 3, 0, 0
+-- 8403, 2014, Alemania, GK, 12, 0, 0
+-- 8404, 2002, Polonia, DF, 3, 1, 1
+-- 8405, 1934, Alemania, MF, None, 0, 4
+-- 8406, 2018, Polonia, MF, 19, 0, 3
+-- 8406, 2022, Polonia, MF, 20, 0, 4
+-- 8407, 2006, Serbia, FW, 19, 0, 1
+-- 8407, 2010, Serbia, FW, 15, 0, 3
+-- 8408, 1958, Checoslovaquia, FW, 12, 0, 3
+-- 8409, 1970, URSS, DF, 10, 0, 0
+-- 8410, 2022, Estados Unidos, DF, 3, 0, 3
+-- 8411, 1978, Alemania Occidental, DF, 8, 0, 2
+-- 8412, 2006, México, MF, 7, 0, 1
+-- 8413, 1994, Brasil, MF, 9, 0, 7
+-- 8414, 1934, Austria, FW, None, 0, 4
+-- 8415, 1958, Brasil, MF, 19, 0, 4
+-- 8415, 1962, Brasil, MF, 4, 0, 6
+-- 8415, 1966, Brasil, MF, 15, 0, 0
+-- 8416, 2002, Túnez, FW, 20, 0, 0
+-- 8417, 2018, Serbia, MF, 7, 0, 0
+-- 8417, 2022, Serbia, MF, 14, 0, 3
+-- 8418, 2002, Croacia, DF, 6, 0, 1
+-- 8419, 1982, Yugoslavia, MF, 10, 0, 0
+-- 8420, 2018, Marruecos, MF, 7, 0, 3
+-- 8420, 2022, Marruecos, MF, 7, 1, 7
+-- 8421, 1950, Brasil, MF, None, 0, 4
+-- 8422, 1950, Yugoslavia, DF, None, 0, 0
+-- 8423, 1970, Checoslovaquia, DF, 15, 0, 1
+-- 8424, 1974, Polonia, DF, 9, 0, 7
+-- 8424, 1978, Polonia, DF, 9, 0, 6
+-- 8424, 1982, Polonia, DF, 9, 7, 7
+-- 8424, 1986, Polonia, DF, 3, 0, 0
+-- 8425, 2018, Rusia, MF, 11, 0, 5
+-- 8426, 1966, España, MF, 5, 1, 3
+-- 8427, 1970, Italia, GK, 12, 0, 0
+-- 8427, 1974, Italia, GK, 1, 0, 3
+-- 8427, 1978, Italia, GK, 1, 7, 7
+-- 8427, 1982, Italia, GK, 1, 7, 7
+-- 8428, 2010, Costa de Marfil, GK, 16, 0, 0
+-- 8429, 2006, Costa de Marfil, MF, 5, 0, 3
+-- 8429, 2010, Costa de Marfil, MF, 5, 0, 3
+-- 8429, 2014, Costa de Marfil, MF, 5, 0, 2
+-- 8430, 1994, Italia, MF, 21, 0, 0
+-- 8431, 1978, Hungría, MF, 5, 0, 3
+-- 8432, 1934, Rumania, GK, None, 0, 1
+-- 8433, 2006, Costa de Marfil, DF, 13, 0, 0
+-- 8434, 1958, Brasil, DF, 9, 0, 0
+-- 8434, 1962, Brasil, DF, 5, 0, 6
+-- 8435, 1990, Austria, MF, 6, 0, 2
+-- 8436, 1938, Hungría, FW, None, 0, 4
+-- 8437, 2018, Suiza, MF, 14, 0, 3
+-- 8438, 2006, Suiza, GK, 1, 0, 4
+-- 8439, 1970, Uruguay, FW, 19, 0, 1
+-- 8440, 1986, España, GK, 1, 0, 5
+-- 8440, 1990, España, GK, 1, 0, 4
+-- 8440, 1994, España, GK, 1, 4, 4
+-- 8440, 1998, España, GK, 1, 3, 3
+-- 8441, 1994, Arabia Saudita, DF, 4, 0, 2
+-- 8441, 1998, Arabia Saudita, DF, 4, 0, 3
+-- 8441, 2002, Arabia Saudita, DF, 4, 0, 3
+-- 8442, 1990, Emiratos Arabes, FW, 11, 0, 0
+-- 8443, 1962, Colombia, DF, 3, 1, 1
+-- 8444, 2002, Sudáfrica, MF, 15, 0, 3
+-- 8445, 1930, Argentina, DF, None, 0, 1
+-- 8446, 2014, Colombia, DF, 18, 0, 4
+-- 8447, 2002, Polonia, FW, 19, 0, 3
+-- 8447, 2006, Polonia, FW, 9, 0, 3
+-- 8448, 2022, Polonia, MF, 17, 0, 0
+-- 8449, 2014, Estados Unidos, MF, 19, 0, 3
+-- 8450, 1990, URSS, DF, 17, 0, 2
