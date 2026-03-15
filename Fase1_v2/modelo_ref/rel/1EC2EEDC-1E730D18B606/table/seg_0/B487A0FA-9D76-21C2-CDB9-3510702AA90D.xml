@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B487A0FA-9D76-21C2-CDB9-3510702AA90D" name="Mundial">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>5939BF89-81A3-8A21-9D14-DE02308349FC</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>mu</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mu" id="07A55715-0831-4F2F-980A-2E3103B5E986">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>34A14ED4-3510-9E19-6271-A441A0444167</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_mu" id="A485AF9F-8920-51DE-A8E5-0D19E3EFCEEC">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>89C85132-5C72-256D-1774-EA4A61B0A913</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="organizador_mu" id="B588D635-3150-616D-CDBC-2DC296C8F67B">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>40114F9A-4E06-5AEB-7C72-AEF9A4A5D833</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A91F44ED-B267-6560-5FF3-5C030D49D0B5" name="Mundial_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>DBA9ED72-A8BF-3215-3246-2FFEE022211E</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07A55715-0831-4F2F-980A-2E3103B5E986"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

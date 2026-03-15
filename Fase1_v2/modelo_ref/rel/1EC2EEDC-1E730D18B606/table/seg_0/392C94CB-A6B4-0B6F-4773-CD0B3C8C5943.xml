@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="392C94CB-A6B4-0B6F-4773-CD0B3C8C5943" name="Llave_Mundial">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>1AB3753E-625A-0B1D-28A0-BBA9BA36FE4B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>lla_mu</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lla_mu" id="69124D46-3221-1595-151D-636DF9D53D01">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>372A10DF-3172-1338-0855-C9FD71FEAA44</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mundial_id_mu" id="58CFBCF0-D81D-E045-8414-03012F7D8BEF">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>59D3CC66-5A84-72E9-BF0F-96F263128FF9</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5236136A-9C00-B04E-3549-E0E5E369C735" referredColumn="07A55715-0831-4F2F-980A-2E3103B5E986"/>
+</associations>
+</Column>
+<Column name="Fase_id_fa" id="71076DC4-5AC2-1720-51D5-85BCEE48FA10">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>BEA20C83-F50D-9287-8561-76473C4E19C0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43A68ECE-B0A3-1E87-A559-B02FE05198B2" referredColumn="BF091F8D-5787-949F-1413-E29F0EF619E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07942087-FCBD-6731-0651-D28EBB334E41" name="Llave_Mundial_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>4D45FAFE-248A-93FE-319F-3E814A407664</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69124D46-3221-1595-151D-636DF9D53D01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58A4E908-B0A0-C86C-6EB8-A39F7AADE22C" name="Llave_Mundial__IDX">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DB841935-B487-3F47-E988-C20D87A652C9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="71076DC4-5AC2-1720-51D5-85BCEE48FA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EF6017C-D8B7-9C2D-6EE2-BAB915C9AA01" name="Llave_Mundial_Fase_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>DB841935-B487-3F47-E988-C20D87A652C9</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71076DC4-5AC2-1720-51D5-85BCEE48FA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A5EA063-EEEB-A6DF-93DB-A9144D7390F1" name="Llave_Mundial_Mundial_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>6ACC442C-2C58-AE9E-4A59-766F2F19ABE1</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58CFBCF0-D81D-E045-8414-03012F7D8BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

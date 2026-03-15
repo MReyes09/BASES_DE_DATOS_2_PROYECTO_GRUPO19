@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0D19A07-E5F8-B980-AE6C-FB6AC57AC927" containerWithKeyObject="F9BD6B7A-3D19-B44D-F64B-9ACFD001CC26" localFKIndex="4619D524-AD48-C986-5822-A8B17FDA0BA1" name="Evento_Falta_Evento_Partido_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>E6B9AF5E-6389-1AD2-9A46-D38FBED4DC07</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<referredTableLongName>Evento_Partido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6AEA6561-46EE-4468-990B-2A3686CB7A42</referredTableID>
+<keyObject>B614B26B-1785-81B9-9165-ADCE7F554877</keyObject>
+<referredKeyID>B614B26B-1785-81B9-9165-ADCE7F554877</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ev_pa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

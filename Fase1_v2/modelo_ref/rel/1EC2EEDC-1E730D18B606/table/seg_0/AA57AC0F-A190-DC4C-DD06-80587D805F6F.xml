@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA57AC0F-A190-DC4C-DD06-80587D805F6F" name="Plantilla">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>271DBEC9-6D04-D19B-14C0-087D634B7BF2</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>pla</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pla" id="6EE29AC2-5ED4-A240-AC1A-CF4DD8036F97">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>4AA44F7A-5A07-3B73-E788-DE9FF1B4BFFE</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais_id_pa" id="FDC5A0A2-9528-89CC-375C-31839EF042BC">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>04AB0F2A-6AEB-F435-BD71-C4CAA340FA87</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C78162DA-1A52-6812-80DC-D89A34468445" referredColumn="BE600479-F8FB-7E8C-061C-AA897793A914"/>
+</associations>
+</Column>
+<Column name="director_tecnico_pla" id="848A447D-53B7-B3DB-8F87-851A36141E5D">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>2705FAAA-0B2D-8A8A-49E8-082196B13AFF</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B5B6064-A975-1700-B944-6DC9F7986662" name="Plantilla_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>0E99B625-7D27-2B2C-7BF6-C294749BEBEA</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EE29AC2-5ED4-A240-AC1A-CF4DD8036F97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F333797F-F0CD-EF4B-C47B-28BD11BB6CBA" name="Plantilla_Pais_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>DBFE2409-569A-5FE0-E564-BD3BD7DD82DA</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDC5A0A2-9528-89CC-375C-31839EF042BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

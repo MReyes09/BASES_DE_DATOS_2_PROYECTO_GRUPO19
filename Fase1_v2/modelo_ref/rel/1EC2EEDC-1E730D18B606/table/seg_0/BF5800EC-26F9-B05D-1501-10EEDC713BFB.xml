@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF5800EC-26F9-B05D-1501-10EEDC713BFB" name="Premio_Tipo_Premio">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Premio_id_pre" id="C7E32245-221B-F9EE-032C-9589979F44CA">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="789D0DF1-6894-99F6-6AA5-68501A9478B5" referredColumn="BF9A1CC2-D0C2-95DD-5C63-9C0E3B7A713A"/>
+</associations>
+</Column>
+<Column name="Tipo_Premio_id_ti_pre" id="F0B878FA-161D-99C3-64B7-2C8BD50B34D7">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F6993FC-9BE9-D6C1-26E0-4323D16D0E99" referredColumn="65E68D30-DD93-1957-2250-53C1B5A38A5F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5D0E048-F191-2901-9F35-47E9D5D5D3F3" name="Premio_Tipo_Premio_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7E32245-221B-F9EE-032C-9589979F44CA"/>
+<colUsage columnID="F0B878FA-161D-99C3-64B7-2C8BD50B34D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6D3A752-3C88-97C6-9DF7-08FC381010BA" name="Premio_Tipo_Premio_Premio_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>F3ED60F7-04CD-E885-253B-F9436BCDBCC0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7E32245-221B-F9EE-032C-9589979F44CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FEB90EF-5366-22AF-6F17-F0C17E5318DD" name="Premio_Tipo_Premio_Tipo_Premio_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>F3ED60F7-04CD-E885-253B-F9436BCDBCC0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0B878FA-161D-99C3-64B7-2C8BD50B34D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

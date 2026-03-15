@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="84583BC3-0173-F20F-920D-0E47DBBD157F" containerWithKeyObject="812627B0-1AC6-157A-39F1-9355CB20B38A" localFKIndex="75DBA523-0E54-6B00-0480-5F6435850648" name="Posicion_Jugador_Plantilla_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>180CDEB3-3D19-F84A-7C50-138294A9D4A0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<referredTableLongName>Plantilla</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA57AC0F-A190-DC4C-DD06-80587D805F6F</referredTableID>
+<keyObject>3B5B6064-A975-1700-B944-6DC9F7986662</keyObject>
+<referredKeyID>3B5B6064-A975-1700-B944-6DC9F7986662</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pla</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

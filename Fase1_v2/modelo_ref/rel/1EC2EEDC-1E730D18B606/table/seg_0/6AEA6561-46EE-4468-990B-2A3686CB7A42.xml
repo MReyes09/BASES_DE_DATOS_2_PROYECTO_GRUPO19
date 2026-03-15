@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6AEA6561-46EE-4468-990B-2A3686CB7A42" name="Evento_Partido">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>65C75F83-F5AD-68A7-9AC3-A416D57250CE</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>ev_pa</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ev_pa" id="42A843D2-80A6-7DE9-404E-D6E9AD96E680">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>5B9C5866-9113-3403-3EB1-0CE62582F05D</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ev_pa" id="42F0E779-81D4-A0EC-1F83-A16849BF8662">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>D0EC1D2E-3B0C-1825-E86E-6F6303DF099F</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Llave_Mundial_id_lla_mu" id="0A4FFCCE-6FBE-AE22-F526-B42914672CEF">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>B4778FF0-821E-90F8-15C0-99D22019BE7A</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3B7A35C-15E2-A7D0-22FC-B2CFDC48EF37" referredColumn="69124D46-3221-1595-151D-636DF9D53D01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B614B26B-1785-81B9-9165-ADCE7F554877" name="Evento_Partido_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>172C1D40-AE04-7FFD-B80C-D35025B43F8C</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42A843D2-80A6-7DE9-404E-D6E9AD96E680"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8A4C15C-46D7-F500-9822-0D1301EC36F8" name="Evento_Partido_Llave_Mundial_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>793869EF-02F1-86E4-3264-2ABD6019A0B0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A4FFCCE-6FBE-AE22-F526-B42914672CEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

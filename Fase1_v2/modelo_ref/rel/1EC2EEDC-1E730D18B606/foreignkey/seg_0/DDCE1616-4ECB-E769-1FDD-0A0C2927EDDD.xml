@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DDCE1616-4ECB-E769-1FDD-0A0C2927EDDD" containerWithKeyObject="D996E8CE-D8CA-BBB7-2AD9-185F9D9403D3" localFKIndex="3558BF22-2D34-6BF9-85EA-40DDE600C185" name="Evento_Gol_Jugador_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>FBCA86F5-C1A8-B461-FCAC-94D3B6A9D183</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<referredTableLongName>Jugador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21B8EA94-75F2-EDCD-D593-5DD0E43E9BE0</referredTableID>
+<keyObject>2BA0413C-F327-FF31-847B-8BF72612C436</keyObject>
+<referredKeyID>2BA0413C-F327-FF31-847B-8BF72612C436</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ju</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2592F460-7FE8-E77A-9457-D52C6F2923E2" name="Pais_Clasificado">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pais_id_pa" id="B3FA331E-64E7-4FDF-5691-B8301494A6BF">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4648E386-6281-FBB8-E922-B06F0884450D" referredColumn="BE600479-F8FB-7E8C-061C-AA897793A914"/>
+</associations>
+</Column>
+<Column name="Grupo_id_gr" id="59682782-B77C-0278-A15E-D1DA03EA4E23">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4FCFC70-B432-C1C2-8530-2F4C06295570" referredColumn="1E769239-E6CE-20DF-DB2E-53943156862E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B627F4D-F66F-6EF1-E7FE-8BD7792A6715" name="Pais_Clasificado_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FA331E-64E7-4FDF-5691-B8301494A6BF"/>
+<colUsage columnID="59682782-B77C-0278-A15E-D1DA03EA4E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DB4A59A-997D-5E01-F62F-5299C50F0174" name="Pais_Clasificado_Pais_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>B5A3D343-B1AD-71E5-FA87-F98A456CE0C7</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FA331E-64E7-4FDF-5691-B8301494A6BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A3B4F4C-6BD8-2E38-5DB8-8AA79C9D42F5" name="Pais_Clasificado_Grupo_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:02:32 UTC</createdTime>
+<generatorID>B5A3D343-B1AD-71E5-FA87-F98A456CE0C7</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59682782-B77C-0278-A15E-D1DA03EA4E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
