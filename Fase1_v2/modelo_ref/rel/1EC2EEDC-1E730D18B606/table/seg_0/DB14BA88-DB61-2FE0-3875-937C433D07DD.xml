@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB14BA88-DB61-2FE0-3875-937C433D07DD" name="Llave_Mundial">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>1AB3753E-625A-0B1D-28A0-BBA9BA36FE4B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>lla_mu</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Mundial_id_mu" id="C35746CE-91E0-CE17-FFEB-AF6749D607A8">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>59D3CC66-5A84-72E9-BF0F-96F263128FF9</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34F5F7F3-95A4-00DA-D5B4-5E921BD168B5" referredColumn="59C36FF1-300B-F2EF-196F-7280AF6F8859"/>
+</associations>
+</Column>
+<Column name="Fase_id_fa" id="EEC6B3F5-11A5-09F1-8EE2-1457447F7D70">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>0E4376AB-B383-FA10-3E0C-841FEEB3FF7A</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4F0E1FE-339F-667B-5B9E-8CA6BAFE4756" referredColumn="1C39BCE6-3E40-C565-4207-548A528D5681"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0513343-071E-C26E-9374-C24DEBF1D824" name="Llave_Mundial_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>4D45FAFE-248A-93FE-319F-3E814A407664</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C35746CE-91E0-CE17-FFEB-AF6749D607A8"/>
+<colUsage columnID="EEC6B3F5-11A5-09F1-8EE2-1457447F7D70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04C9EEDB-2D9B-6A7F-5B69-0671EF70B8EC" name="Llave_Mundial_Fase_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>8C676F82-50EB-DB05-037C-4E7DB2AF4D3B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEC6B3F5-11A5-09F1-8EE2-1457447F7D70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87DA3A21-722A-CD70-C739-B25372CD11B8" name="Llave_Mundial_Mundial_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>6ACC442C-2C58-AE9E-4A59-766F2F19ABE1</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C35746CE-91E0-CE17-FFEB-AF6749D607A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

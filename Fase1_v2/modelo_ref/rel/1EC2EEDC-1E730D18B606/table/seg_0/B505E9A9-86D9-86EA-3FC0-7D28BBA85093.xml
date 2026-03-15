@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B505E9A9-86D9-86EA-3FC0-7D28BBA85093" name="Premio">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>B0AD4D7E-AE6E-E871-7B2A-52C445050F0D</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>pre</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pre" id="FFB3BC78-71A3-F3FC-AD2A-1D8274F43178">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>4DE9E727-08D8-802A-595F-9864A5ACD6C8</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mundial_id_mu" id="3716ACF1-5D71-C95F-EAFB-CB01C5A2BEAC">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>7C27E217-C15B-D1A8-2E1B-29C6F5276EBE</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12FEFD6D-5612-AEBB-828F-54852462A6FD" referredColumn="59C36FF1-300B-F2EF-196F-7280AF6F8859"/>
+</associations>
+</Column>
+<Column name="Tipo_Premio_id_ti_pre" id="09537597-177E-ED24-188B-536718F12563">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>28FED6CF-A133-B9E2-21EE-D16EF89FC904</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19AAA076-9278-2EF6-FA39-04F140B0EA91" referredColumn="7B77856E-11B8-4DDA-EF43-30849607888E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BC2C162-5B69-1F11-3490-AC93DDA24871" name="Premio_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>A26FBD92-B84C-F2E4-3DA8-742C8EF6F190</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFB3BC78-71A3-F3FC-AD2A-1D8274F43178"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C77B162-F43A-B461-506E-07731834B379" name="Premio_Mundial_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>8A6B7A97-EBE9-484F-BF1D-09EDA4CFA1BB</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3716ACF1-5D71-C95F-EAFB-CB01C5A2BEAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="182087B1-91D9-1CFC-01A4-FD4AEF086619" name="Premio_Tipo_Premio_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>B9D05C37-F1BE-C1B1-A6AE-2BF4834C452B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09537597-177E-ED24-188B-536718F12563"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

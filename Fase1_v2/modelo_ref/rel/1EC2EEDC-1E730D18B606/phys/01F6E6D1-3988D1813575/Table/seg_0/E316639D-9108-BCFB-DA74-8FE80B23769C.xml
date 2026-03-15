@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Red_social" directorySegmentName="seg_0" id="E316639D-9108-BCFB-DA74-8FE80B23769C">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nombre_red_so" id="91F5690D-69C2-3F52-91E8-741DEE910D64">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_red_so" id="A521F4CD-688F-4102-B6C9-2B27B993F393">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Jugador_id_ju" id="B51D6048-6E48-D1F0-0022-FD79477C1189">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tipo_red_sp" id="EBFD6186-4FB4-F081-B985-870DEEF0C335">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Red_social_Jugador_FK" id="4212B007-A310-1782-AD0B-6C817E03C2A3">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Red_social_PK" id="7A556796-B886-6669-5590-6DDB7CD1D4BE">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

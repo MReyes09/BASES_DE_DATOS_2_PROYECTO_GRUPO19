@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="299ED5D5-6033-9CAE-0962-549A7BFB1F29" name="Evento_Partido">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>65C75F83-F5AD-68A7-9AC3-A416D57250CE</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>ev_pa</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ev_pa" id="89828589-92A8-573E-9410-128E46F50D81">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>5B9C5866-9113-3403-3EB1-0CE62582F05D</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ev_pa" id="9084CF99-3AA8-7D5B-4B2D-725E7E52B7F4">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>D0EC1D2E-3B0C-1825-E86E-6F6303DF099F</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Llave_Mundial_id_mu" id="9D6CB0F4-AD84-2F42-6A58-348D4D63DAAC">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>FC647A01-1EFE-2A7B-1796-F34C689ABC19</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9268AAF6-97E5-96D6-BC9B-A3EFDA8BFBDB" referredColumn="C35746CE-91E0-CE17-FFEB-AF6749D607A8"/>
+</associations>
+</Column>
+<Column name="Llave_Mundial_id_fa" id="724E3FCF-6417-A5D3-0B14-9C59D10ACB92">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>89D777EF-22C7-BC7C-78C6-C64311FC877B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9268AAF6-97E5-96D6-BC9B-A3EFDA8BFBDB" referredColumn="EEC6B3F5-11A5-09F1-8EE2-1457447F7D70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A196E83C-48F9-EBC5-6EAE-C5F82657916F" name="Evento_Partido_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>172C1D40-AE04-7FFD-B80C-D35025B43F8C</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89828589-92A8-573E-9410-128E46F50D81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BA1F065-C254-5BC7-D323-F65B2E215BEC" name="Evento_Partido_Llave_Mundial_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>793869EF-02F1-86E4-3264-2ABD6019A0B0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D6CB0F4-AD84-2F42-6A58-348D4D63DAAC"/>
+<colUsage columnID="724E3FCF-6417-A5D3-0B14-9C59D10ACB92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

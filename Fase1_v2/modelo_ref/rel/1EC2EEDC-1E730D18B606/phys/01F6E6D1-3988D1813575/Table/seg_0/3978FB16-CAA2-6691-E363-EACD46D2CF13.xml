@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Posicion_Jugador" directorySegmentName="seg_0" id="3978FB16-CAA2-6691-E363-EACD46D2CF13">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nombre_po_ju" id="1FD186A4-E6FB-BF9E-A6CB-4FE3675E8739">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="capitan" id="2495BFDC-D405-4954-CE85-5F39D93BB4D8">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Jugador_id_ju" id="53520F56-FF0A-418A-8862-B9AF07657A96">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="titular" id="71D3C752-7896-7825-93CC-DF9749BADAEC">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Plantilla_id_pla" id="96C71C0D-D32A-5BEF-AFBA-DDDAB9C9AEAC">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_camiseta" id="A5AE91CB-698E-C87B-82ED-BC9D38A887F9">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Posicion_Jugador_Plantilla_FK" id="83E5BBFE-8D0D-FB4A-8866-237FD2A80044">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Posicion_Jugador_Jugador_FK" id="91392036-D97F-4262-9DA7-9A8660CE82D0">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Posicion_Jugador_PK" id="FDC6AB63-41E4-141F-099E-A2ED3EB249E6">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

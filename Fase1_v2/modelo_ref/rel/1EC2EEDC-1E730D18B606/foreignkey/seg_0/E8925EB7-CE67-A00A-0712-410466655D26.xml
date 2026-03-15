@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8925EB7-CE67-A00A-0712-410466655D26" containerWithKeyObject="9A25A950-7FDD-9911-ED32-A4B3AE5744F0" localFKIndex="914B9DCB-7249-8054-DCBB-33F2E2D6D114" name="Partido_Plantilla_Evento_Partido_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>60762905-ABDF-7F66-4552-C2C649C7CD62</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<referredTableLongName>Evento_Partido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>299ED5D5-6033-9CAE-0962-549A7BFB1F29</referredTableID>
+<keyObject>A196E83C-48F9-EBC5-6EAE-C5F82657916F</keyObject>
+<referredKeyID>A196E83C-48F9-EBC5-6EAE-C5F82657916F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ev_pa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

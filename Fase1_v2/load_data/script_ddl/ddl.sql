@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
---   en:        2026-03-15 15:25:25 CST
+--   en:        2026-03-15 17:10:54 CST
 --   sitio:      Oracle Database 21c
 --   tipo:      Oracle Database 21c
 
@@ -62,9 +62,10 @@ ALTER TABLE Evento_Gol
 
 CREATE TABLE Evento_Partido 
     ( 
-     id_ev_pa                NUMBER  NOT NULL , 
-     fecha_ev_pa             DATE  NOT NULL , 
-     Llave_Mundial_id_lla_mu NUMBER  NOT NULL 
+     id_ev_pa            NUMBER  NOT NULL , 
+     fecha_ev_pa         DATE  NOT NULL , 
+     Llave_Mundial_id_mu NUMBER  NOT NULL , 
+     Llave_Mundial_id_fa NUMBER  NOT NULL 
     ) 
     LOGGING 
 ;
@@ -110,27 +111,16 @@ CREATE TABLE Jugador
 ALTER TABLE Jugador 
     ADD CONSTRAINT Jugador_PK PRIMARY KEY ( id_ju ) ;
 
-CREATE TABLE Llave_Fase_Mundial 
-    ( 
-     Llave_Mundial_id_lla_mu NUMBER  NOT NULL , 
-     Fase_id_fa              NUMBER  NOT NULL 
-    ) 
-    LOGGING 
-;
-
-ALTER TABLE Llave_Fase_Mundial 
-    ADD CONSTRAINT Llave_Fase_Mundial_PK PRIMARY KEY ( Llave_Mundial_id_lla_mu, Fase_id_fa ) ;
-
 CREATE TABLE Llave_Mundial 
     ( 
-     id_lla_mu     NUMBER  NOT NULL , 
-     Mundial_id_mu NUMBER  NOT NULL 
+     Mundial_id_mu NUMBER  NOT NULL , 
+     Fase_id_fa    NUMBER  NOT NULL 
     ) 
     LOGGING 
 ;
 
 ALTER TABLE Llave_Mundial 
-    ADD CONSTRAINT Llave_Mundial_PK PRIMARY KEY ( id_lla_mu ) ;
+    ADD CONSTRAINT Llave_Mundial_PK PRIMARY KEY ( Mundial_id_mu, Fase_id_fa ) ;
 
 CREATE TABLE Mundial 
     ( 
@@ -350,35 +340,25 @@ ALTER TABLE Evento_Gol
 ALTER TABLE Evento_Partido 
     ADD CONSTRAINT Evento_Partido_Llave_Mundial_FK FOREIGN KEY 
     ( 
-     Llave_Mundial_id_lla_mu
+     Llave_Mundial_id_mu,
+     Llave_Mundial_id_fa
     ) 
     REFERENCES Llave_Mundial 
     ( 
-     id_lla_mu
+     Mundial_id_mu,
+     Fase_id_fa
     ) 
     NOT DEFERRABLE 
 ;
 
-ALTER TABLE Llave_Fase_Mundial 
-    ADD CONSTRAINT Llave_Fase_Mundial_Fase_FK FOREIGN KEY 
+ALTER TABLE Llave_Mundial 
+    ADD CONSTRAINT Llave_Mundial_Fase_FK FOREIGN KEY 
     ( 
      Fase_id_fa
     ) 
     REFERENCES Fase 
     ( 
      id_fa
-    ) 
-    NOT DEFERRABLE 
-;
-
-ALTER TABLE Llave_Fase_Mundial 
-    ADD CONSTRAINT Llave_Fase_Mundial_Llave_Mundial_FK FOREIGN KEY 
-    ( 
-     Llave_Mundial_id_lla_mu
-    ) 
-    REFERENCES Llave_Mundial 
-    ( 
-     id_lla_mu
     ) 
     NOT DEFERRABLE 
 ;
@@ -551,64 +531,47 @@ ALTER TABLE Red_social
     NOT DEFERRABLE 
 ;
 
---------------------------------------------------------
--- SECUENCIAS (auto-increment)
---------------------------------------------------------
 
--- Ya tienes datos en algunas: ajusta START WITH según tu caso real
 
--- Pais (ya tienes datos, inicia en 104)
-CREATE SEQUENCE seq_pais_id_pa 
-  START WITH 104 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Evento_Cambio_Jugador
-CREATE SEQUENCE seq_evento_cambio_jugador_id_ev_ca_ju 
-  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Evento_Gol
-CREATE SEQUENCE seq_evento_gol_id_ev_go 
-  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Evento_Partido
-CREATE SEQUENCE seq_evento_partido_id_ev_pa 
-  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Fase (ya tienes datos, inicia en 5)
-CREATE SEQUENCE seq_fase_id_fa 
-  START WITH 5 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Grupo (catálogo estático, si ya cargaste A..H y quieres seguir)
-CREATE SEQUENCE seq_grupo_id_gr 
-  START WITH 9 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Jugador
-CREATE SEQUENCE seq_jugador_id_ju 
-  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Llave_Mundial
-CREATE SEQUENCE seq_llave_mundial_id_lla_mu 
-  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Mundial (ya tienes datos, inicia en 24)
-CREATE SEQUENCE seq_mundial_id_mu 
-  START WITH 24 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Plantilla
-CREATE SEQUENCE seq_plantilla_id_pla 
-  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Premio
-CREATE SEQUENCE seq_premio_id_pre 
-  START WITH 2 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Red_social
-CREATE SEQUENCE seq_red_social_id_red_so 
-  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Tipo_Premio (ya tienes datos, inicia en 15)
-CREATE SEQUENCE seq_tipo_premio_id_ti_pre 
-  START WITH 15 INCREMENT BY 1 NOCACHE NOCYCLE;
-
--- Tipo_Tarjeta (ya tienes datos, inicia en 3)
-CREATE SEQUENCE seq_tipo_tarjeta_id_ti_ta 
-  START WITH 3 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Informe de Resumen de Oracle SQL Developer Data Modeler: 
+-- 
+-- CREATE TABLE                            20
+-- CREATE INDEX                             0
+-- ALTER TABLE                             43
+-- CREATE VIEW                              0
+-- ALTER VIEW                               0
+-- CREATE PACKAGE                           0
+-- CREATE PACKAGE BODY                      0
+-- CREATE PROCEDURE                         0
+-- CREATE FUNCTION                          0
+-- CREATE TRIGGER                           0
+-- ALTER TRIGGER                            0
+-- CREATE COLLECTION TYPE                   0
+-- CREATE STRUCTURED TYPE                   0
+-- CREATE STRUCTURED TYPE BODY              0
+-- CREATE CLUSTER                           0
+-- CREATE CONTEXT                           0
+-- CREATE DATABASE                          0
+-- CREATE DIMENSION                         0
+-- CREATE DIRECTORY                         0
+-- CREATE DISK GROUP                        0
+-- CREATE ROLE                              0
+-- CREATE ROLLBACK SEGMENT                  0
+-- CREATE SEQUENCE                          0
+-- CREATE MATERIALIZED VIEW                 0
+-- CREATE MATERIALIZED VIEW LOG             0
+-- CREATE SYNONYM                           0
+-- CREATE TABLESPACE                        0
+-- CREATE USER                              0
+-- 
+-- DROP TABLESPACE                          0
+-- DROP DATABASE                            0
+-- 
+-- REDACTION POLICY                         0
+-- 
+-- ORDS DROP SCHEMA                         0
+-- ORDS ENABLE SCHEMA                       0
+-- ORDS ENABLE OBJECT                       0
+-- 
+-- ERRORS                                   0
+-- WARNINGS                                 0

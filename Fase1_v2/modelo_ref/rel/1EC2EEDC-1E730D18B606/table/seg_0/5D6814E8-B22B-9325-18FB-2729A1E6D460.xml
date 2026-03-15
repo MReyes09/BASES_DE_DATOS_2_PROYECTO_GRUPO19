@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D6814E8-B22B-9325-18FB-2729A1E6D460" name="Cambio_Jugador">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Evento_Cambio_Jugador_id_ev_ca_ju" id="CD93CAF5-9D6C-698C-E14B-2E0F455BA1AB">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41479E2D-D5FC-2E53-0598-DD723251A4D0" referredColumn="2932A133-7F8C-5C8B-0D47-BABB04AF9ED6"/>
+</associations>
+</Column>
+<Column name="Jugador_id_ju" id="A5B8617D-3E34-36EF-8CD5-6E426F45CC4A">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06826B15-3127-95E1-B4E8-1BA30E49968E" referredColumn="16603E66-7F91-B5F6-0724-C4ABBAF8F084"/>
+</associations>
+</Column>
+<Column name="tiempo_ca_ju" id="94BECBCD-0B7C-F033-DCC2-2CF861A1B432">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>6AB5E49A-113C-1933-BBE8-82B53E6130E8</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD05DE04-700C-A45F-5E21-8780641B40D3" name="Cambio_Jugador_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD93CAF5-9D6C-698C-E14B-2E0F455BA1AB"/>
+<colUsage columnID="A5B8617D-3E34-36EF-8CD5-6E426F45CC4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2E634EC-09DA-E679-30A0-ABB7506501F5" name="Cambio_Jugador_Evento_Cambio_Jugador_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>29FF0C41-5650-CAA9-629C-A7A12EBD07AA</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD93CAF5-9D6C-698C-E14B-2E0F455BA1AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3075762-8B5E-781B-B01E-0E2993988D90" name="Cambio_Jugador_Jugador_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>29FF0C41-5650-CAA9-629C-A7A12EBD07AA</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B8617D-3E34-36EF-8CD5-6E426F45CC4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
