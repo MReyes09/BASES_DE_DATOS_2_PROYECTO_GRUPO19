@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gru_pa_cla_mu" directorySegmentName="seg_0" id="8734279C-95AA-1F56-9A99-AE9177D3B1D0">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:34:55 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<sourcePk>E73D2751-2408-93F7-CE46-13F63CA42B97</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6DD77668-B3C5-F2B0-BB51-011736FFC03A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6766AD45-D2E5-6BCD-6E46-3416CBD3487A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

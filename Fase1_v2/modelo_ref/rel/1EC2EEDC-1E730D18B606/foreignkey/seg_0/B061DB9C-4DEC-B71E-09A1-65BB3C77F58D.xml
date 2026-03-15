@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B061DB9C-4DEC-B71E-09A1-65BB3C77F58D" containerWithKeyObject="7A6F0857-5173-7BE4-6EA6-8C08E47592F3" localFKIndex="30DB6EC3-E6CB-5037-92B5-4520B7E6E6F2" name="Evento_Partido_Llave_Mundial_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<generatorID>793869EF-02F1-86E4-3264-2ABD6019A0B0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<referredTableLongName>Llave_Mundial</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F67F56DC-BF34-0400-FCFE-90BA46CE19D4</referredTableID>
+<keyObject>ED372DC2-661F-D83B-CBA3-CF5E79C2FA0F</keyObject>
+<referredKeyID>ED372DC2-661F-D83B-CBA3-CF5E79C2FA0F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_lla_mu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

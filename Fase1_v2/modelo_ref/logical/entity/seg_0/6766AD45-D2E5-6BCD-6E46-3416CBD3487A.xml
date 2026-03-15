@@ -1,8 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="271DBEC9-6D04-D19B-14C0-087D634B7BF2" name="Plantilla">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6766AD45-D2E5-6BCD-6E46-3416CBD3487A" name="Pais_Clasificado_Mundial">
 <createdBy>matth</createdBy>
-<createdTime>2026-03-13 21:50:59 UTC</createdTime>
-<generatorID>0A1E81D7-4300-2F65-49E3-842B61D0BA3B</generatorID>
+<createdTime>2026-03-15 05:31:41 UTC</createdTime>
 <ownerDesignName>modelo_ref</ownerDesignName>
 <engineerTo>
 <item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
@@ -15,25 +14,26 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>pla</shortName>
+<shortName>pa_cla_mu</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_pla" id="4AA44F7A-5A07-3B73-E788-DE9FF1B4BFFE">
+<Attribute name="id_mu" id="E89398CA-8868-2AD6-3559-10F34360AB87">
 <createdBy>matth</createdBy>
-<createdTime>2026-03-13 21:50:59 UTC</createdTime>
-<generatorID>66497890-F603-5761-2FD0-E7B7C5288E5E</generatorID>
+<createdTime>2026-03-15 05:33:33 UTC</createdTime>
+<generatorID>173F1A98-7A03-E4CB-CB39-F91190D630AD</generatorID>
 <ownerDesignName>modelo_ref</ownerDesignName>
 <engineerTo>
 <item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
 </engineerTo>
+<referedAttribute>34A14ED4-3510-9E19-6271-A441A0444167</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_pa" id="04AB0F2A-6AEB-F435-BD71-C4CAA340FA87">
+<Attribute name="id_pa" id="83C13F78-C90E-CF87-B60E-AF396AA5F580">
 <createdBy>matth</createdBy>
-<createdTime>2026-03-15 05:01:18 UTC</createdTime>
-<generatorID>DBFE2409-569A-5FE0-E564-BD3BD7DD82DA</generatorID>
+<createdTime>2026-03-15 05:34:11 UTC</createdTime>
+<generatorID>91794834-05A6-F0A6-DEAA-446CE4C3A241</generatorID>
 <ownerDesignName>modelo_ref</ownerDesignName>
 <engineerTo>
 <item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
@@ -44,32 +44,34 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="director_tecnico_pla" id="2705FAAA-0B2D-8A8A-49E8-082196B13AFF">
+<Attribute name="id_gr" id="33584306-0252-474B-87D6-B59830E780EC">
 <createdBy>matth</createdBy>
-<createdTime>2026-03-15 05:01:39 UTC</createdTime>
+<createdTime>2026-03-15 05:34:55 UTC</createdTime>
+<generatorID>8734279C-95AA-1F56-9A99-AE9177D3B1D0</generatorID>
 <ownerDesignName>modelo_ref</ownerDesignName>
 <engineerTo>
 <item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
 </engineerTo>
+<referedAttribute>AA51F4E4-96A4-D7D1-C9BE-8B5D7B98B039</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>90</dataTypeSize>
-<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0E99B625-7D27-2B2C-7BF6-C294749BEBEA" name="Posicion pkey">
+<identifier id="1BE93215-7100-C062-89F7-0071AADFFB5D" name="Pais_Clasificado_Mundial PK">
 <createdBy>matth</createdBy>
-<createdTime>2026-03-13 21:50:59 UTC</createdTime>
-<generatorID>8EC65E6D-F70C-83CA-10A9-EDB4A004D489</generatorID>
+<createdTime>2026-03-15 05:32:14 UTC</createdTime>
 <ownerDesignName>modelo_ref</ownerDesignName>
 <engineerTo>
 <item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4AA44F7A-5A07-3B73-E788-DE9FF1B4BFFE</attributeRef>
+<attributeRef>E89398CA-8868-2AD6-3559-10F34360AB87</attributeRef>
+<attributeRef>83C13F78-C90E-CF87-B60E-AF396AA5F580</attributeRef>
+<attributeRef>33584306-0252-474B-87D6-B59830E780EC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

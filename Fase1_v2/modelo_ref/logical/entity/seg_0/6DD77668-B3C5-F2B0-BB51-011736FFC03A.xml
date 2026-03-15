@@ -42,20 +42,6 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_mu" id="3656CAB4-6159-200D-8CFB-62D662010928">
-<createdBy>matth</createdBy>
-<createdTime>2026-03-14 01:27:57 UTC</createdTime>
-<generatorID>771122B4-BF73-F230-2470-86523551277E</generatorID>
-<ownerDesignName>modelo_ref</ownerDesignName>
-<engineerTo>
-<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
-</engineerTo>
-<referedAttribute>34A14ED4-3510-9E19-6271-A441A0444167</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E73D2751-2408-93F7-CE46-13F63CA42B97" name="Grupo pkey">

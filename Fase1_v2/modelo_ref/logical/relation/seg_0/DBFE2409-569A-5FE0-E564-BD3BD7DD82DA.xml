@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pa_pla" directorySegmentName="seg_0" id="DBFE2409-569A-5FE0-E564-BD3BD7DD82DA">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:01:18 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<sourcePk>3375B3FE-DEAB-EF8C-2479-D3F14249290F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C689788E-C7A7-50D9-BCD3-6687E5925C03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>271DBEC9-6D04-D19B-14C0-087D634B7BF2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

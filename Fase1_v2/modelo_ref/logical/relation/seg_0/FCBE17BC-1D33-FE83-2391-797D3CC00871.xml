@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Llave_Fase_Mundial" directorySegmentName="seg_0" id="FCBE17BC-1D33-FE83-2391-797D3CC00871">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:45:48 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1AB3753E-625A-0B1D-28A0-BBA9BA36FE4B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>18F23B87-EEEA-7024-FF05-7F81339E7D11</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
