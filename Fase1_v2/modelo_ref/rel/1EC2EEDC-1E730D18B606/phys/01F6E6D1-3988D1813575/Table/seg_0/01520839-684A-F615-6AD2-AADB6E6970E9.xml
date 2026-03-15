@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Evento_Gol" directorySegmentName="seg_0" id="01520839-684A-F615-6AD2-AADB6E6970E9">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Jugador_id_ju" id="231D0A5B-48EC-32BE-7B53-E49A26CA234C">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="entre_tiempo_ev_go" id="268C4763-6217-2CB5-6F8E-56E98D17458E">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="penal" id="4B9265C7-275E-E1FA-A2D5-54E714FB7B49">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Evento_Partido_id_ev_pa" id="5DF1852F-EA3A-7482-97F7-576B788B12F5">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tiempo_gol" id="BA8F3BB6-2E7C-CA4C-E040-92613BCEA355">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_ev_go" id="BBE31575-F425-DBF7-4453-CFB2DBC9ED26">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Evento_Gol_Jugador_FK" id="4BECA96F-8F85-F8F3-A91C-2FCF4F9693C6">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Evento_Gol_Evento_Partido_FK" id="DE57AED1-FBEB-E999-A5F4-D3FBE6B3A7D8">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Evento_Gol_PK" id="C6E10A27-7271-E83A-F9CD-CBD733572915">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

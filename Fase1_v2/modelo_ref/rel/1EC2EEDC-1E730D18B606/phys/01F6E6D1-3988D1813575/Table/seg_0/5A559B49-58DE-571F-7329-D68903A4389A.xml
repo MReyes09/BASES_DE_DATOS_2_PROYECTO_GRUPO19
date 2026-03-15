@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Pais_Clasificado_Mundial" directorySegmentName="seg_0" id="5A559B49-58DE-571F-7329-D68903A4389A">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Mundial_id_mu" id="6694063E-CC00-E7D4-71D7-EFA0F0C842C3">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Pais_id_pa" id="70FDF353-6608-FDDF-26E4-0EDAB6CB29FA">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Grupo_id_gr" id="7218622B-F799-BEDB-E0F6-7CF1132FF993">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pais_Clasificado_Mundial_Mundial_FK" id="896433C8-3128-0E85-C8C7-5195718C1009">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pais_Clasificado_Mundial_Pais_FK" id="9DAA546F-66C8-145F-3D74-DE3874C5B04D">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pais_Clasificado_Mundial_Grupo_FK" id="F71F5095-2AD3-B615-0149-5C8D52452331">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Pais_Clasificado_Mundial_PK" id="92EA6DE5-C9CA-C178-FC8F-6761A8AFBE2D">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

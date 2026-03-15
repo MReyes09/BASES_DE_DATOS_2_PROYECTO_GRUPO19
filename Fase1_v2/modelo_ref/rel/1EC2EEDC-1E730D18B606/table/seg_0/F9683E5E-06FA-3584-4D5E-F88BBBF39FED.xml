@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9683E5E-06FA-3584-4D5E-F88BBBF39FED" name="Evento_Cambio_Jugador">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<generatorID>0FFAFC19-DC0E-87CA-963C-27DF403F81B1</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>ev_ca_ju</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ev_ca_ju" id="3F1712C6-C6FA-D09B-28EB-DBCD89992B40">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<generatorID>F8D09A91-AC99-8360-D63D-B15B8E85F1FD</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evento_Partido_id_ev_pa" id="B8570D05-5375-1FCE-9163-05E0864C6518">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<generatorID>ED158067-5A4B-0D71-B824-CADD3B441270</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EDC7F0D-EAA3-E876-A613-084A6D248693" referredColumn="48429A99-6DAB-44F9-DE47-C5CAA4EF27A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F9AF074-433F-A1F7-5B4C-C95EE39380D9" name="Evento_Cambio_Jugador_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<generatorID>0A3C3594-8F13-30BC-B8B8-6F908953311F</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F1712C6-C6FA-D09B-28EB-DBCD89992B40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4C8146D-82B7-8AC6-43A1-83E30460847C" name="Evento_Cambio_Jugador_Evento_Partido_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:36 UTC</createdTime>
+<generatorID>5A6FBB29-3F63-258F-545E-20C7EE0A7558</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8570D05-5375-1FCE-9163-05E0864C6518"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
