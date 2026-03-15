@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pre_ti_pre" directorySegmentName="seg_0" id="B9D05C37-F1BE-C1B1-A6AE-2BF4834C452B">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:08 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<sourcePk>0FFF2EB1-4B22-C84A-E85F-C86951BD2ED8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8EFE78A4-3B39-1DFB-3681-CDFF79FFF20D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B0AD4D7E-AE6E-E871-7B2A-52C445050F0D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

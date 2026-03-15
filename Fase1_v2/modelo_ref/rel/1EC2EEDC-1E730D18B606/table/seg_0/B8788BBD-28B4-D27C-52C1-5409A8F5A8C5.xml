@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8788BBD-28B4-D27C-52C1-5409A8F5A8C5" name="Evento_Gol">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>CD4C174B-C05C-2DEA-7BDD-03BC67F77731</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>ev_go</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ev_go" id="D1E72161-31D9-B560-AE9B-F192A64A91FE">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>CCCA5702-AFD9-BD98-D9EC-207701AFF28F</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evento_Partido_id_ev_pa" id="F5C303A6-D745-1D9E-D817-6FE53638B676">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>1550C5CF-79D9-5BB2-644F-CB0E4EB9C95B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A9D9D15-D563-183A-C782-7A2D9897E76C" referredColumn="89828589-92A8-573E-9410-128E46F50D81"/>
+</associations>
+</Column>
+<Column name="Jugador_id_ju" id="109B9C9F-FB42-98FB-F37D-4ABB66BE81BF">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>BE1EA531-5477-B348-AC6A-146279D433DA</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5D357A9-22A4-BD14-5A83-C9BE13F3A544" referredColumn="16603E66-7F91-B5F6-0724-C4ABBAF8F084"/>
+</associations>
+</Column>
+<Column name="tiempo_gol" id="CB05B4F9-2FFE-20D5-51E9-C4665986E3D5">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>E7329D16-A02F-0988-5CDB-235A572568D5</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="entre_tiempo_ev_go" id="4DEFB020-CD75-F7CA-7741-374DF8E6A1BA">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>FB57E909-415B-847C-EF59-A07F729C1D30</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penal" id="2EE2EF5E-A6F6-8257-53BC-407E9FE08B89">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>1A67808B-C61D-7485-9D0E-905C28AF2C5F</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="814C3119-2531-B78E-E4AC-2B8AF2ABCC7D" name="Evento_Gol_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>BF633117-76CF-ABEE-45A1-DAB753F9CE0B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1E72161-31D9-B560-AE9B-F192A64A91FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="843FF2CB-9536-3E7F-B627-EB9F4FC80168" name="Evento_Gol_Jugador_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>FBCA86F5-C1A8-B461-FCAC-94D3B6A9D183</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109B9C9F-FB42-98FB-F37D-4ABB66BE81BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34A559BF-03DB-EAC9-FA2D-BBDA30E64AF7" name="Evento_Gol_Evento_Partido_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>B1F88D57-331C-7ABE-DFC7-47928F2D8EAF</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5C303A6-D745-1D9E-D817-6FE53638B676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

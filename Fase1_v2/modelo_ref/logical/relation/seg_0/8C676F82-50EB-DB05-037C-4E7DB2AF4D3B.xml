@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="llave_fase" directorySegmentName="seg_0" id="8C676F82-50EB-DB05-037C-4E7DB2AF4D3B">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:55:57 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<sourcePk>7E63C06D-B7E9-B829-302B-2CEE961C9A91</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18F23B87-EEEA-7024-FF05-7F81339E7D11</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1AB3753E-625A-0B1D-28A0-BBA9BA36FE4B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
