@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Cambio_Jugador" directorySegmentName="seg_0" id="CBB7EB07-9C4A-E152-259C-A829B12E2B98">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Evento_Cambio_Jugador_id_ev_ca_ju" id="91C613BC-6C60-A086-6584-0EA084A89816">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tiempo_ca_ju" id="BA2E3C7A-B1D1-EE8C-E1A4-ED2C16AEDB44">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Jugador_id_ju" id="BE3B3727-3F97-DCDB-0EEB-1D82599EAF41">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Cambio_Jugador_Evento_Cambio_Jugador_FK" id="2526BD4C-CCFA-59B2-A285-7F01886DA928">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Cambio_Jugador_Jugador_FK" id="801B2700-A207-DE8B-D4D5-E7E6005975B3">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Cambio_Jugador_PK" id="49D9DCEB-DB35-373F-CE36-64AE14B8D6C2">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

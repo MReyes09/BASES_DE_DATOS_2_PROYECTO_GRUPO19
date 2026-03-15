@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
---   en:        2026-03-13 23:00:05 CST
+--   en:        2026-03-14 13:10:48 CST
 --   sitio:      Oracle Database 21c
 --   tipo:      Oracle Database 21c
 
@@ -12,7 +12,8 @@
 CREATE TABLE Cambio_Jugador 
     ( 
      Evento_Cambio_Jugador_id_ev_ca_ju NUMBER  NOT NULL , 
-     Jugador_id_ju                     NUMBER  NOT NULL 
+     Jugador_id_ju                     NUMBER  NOT NULL , 
+     tiempo_ca_ju                      VARCHAR2 (8) 
     ) 
     LOGGING 
 ;
@@ -86,7 +87,7 @@ ALTER TABLE Evento_Partido
 CREATE TABLE Fase 
     ( 
      id_fa     NUMBER  NOT NULL , 
-     nombre_fa VARCHAR2 (12)  NOT NULL 
+     nombre_fa VARCHAR2 (20)  NOT NULL 
     ) 
     LOGGING 
 ;
@@ -223,6 +224,17 @@ CREATE TABLE Premio
 ALTER TABLE Premio 
     ADD CONSTRAINT Premio_PK PRIMARY KEY ( id_pre ) ;
 
+CREATE TABLE Premio_Tipo_Premio 
+    ( 
+     Premio_id_pre         NUMBER  NOT NULL , 
+     Tipo_Premio_id_ti_pre NUMBER  NOT NULL 
+    ) 
+    LOGGING 
+;
+
+ALTER TABLE Premio_Tipo_Premio 
+    ADD CONSTRAINT Premio_Tipo_Premio_PK PRIMARY KEY ( Premio_id_pre, Tipo_Premio_id_ti_pre ) ;
+
 CREATE TABLE Premios_Jugador 
     ( 
      Premio_id_pre NUMBER  NOT NULL , 
@@ -250,14 +262,7 @@ ALTER TABLE Red_social
 CREATE TABLE Tipo_Premio 
     ( 
      id_ti_pre     NUMBER  NOT NULL , 
-     nombre_ti_pre VARCHAR2 (40)  NOT NULL , 
-     Premio_id_pre NUMBER  NOT NULL 
-    ) 
-    LOGGING 
-;
-CREATE UNIQUE INDEX Tipo_Premio__IDX ON Tipo_Premio 
-    ( 
-     Premio_id_pre ASC 
+     nombre_ti_pre VARCHAR2 (90)  NOT NULL 
     ) 
     LOGGING 
 ;
@@ -518,6 +523,30 @@ ALTER TABLE Premio
     NOT DEFERRABLE 
 ;
 
+ALTER TABLE Premio_Tipo_Premio 
+    ADD CONSTRAINT Premio_Tipo_Premio_Premio_FK FOREIGN KEY 
+    ( 
+     Premio_id_pre
+    ) 
+    REFERENCES Premio 
+    ( 
+     id_pre
+    ) 
+    NOT DEFERRABLE 
+;
+
+ALTER TABLE Premio_Tipo_Premio 
+    ADD CONSTRAINT Premio_Tipo_Premio_Tipo_Premio_FK FOREIGN KEY 
+    ( 
+     Tipo_Premio_id_ti_pre
+    ) 
+    REFERENCES Tipo_Premio 
+    ( 
+     id_ti_pre
+    ) 
+    NOT DEFERRABLE 
+;
+
 ALTER TABLE Premios_Jugador 
     ADD CONSTRAINT Premios_Jugador_Jugador_FK FOREIGN KEY 
     ( 
@@ -554,59 +583,47 @@ ALTER TABLE Red_social
     NOT DEFERRABLE 
 ;
 
-ALTER TABLE Tipo_Premio 
-    ADD CONSTRAINT Tipo_Premio_Premio_FK FOREIGN KEY 
-    ( 
-     Premio_id_pre
-    ) 
-    REFERENCES Premio 
-    ( 
-     id_pre
-    ) 
-    NOT DEFERRABLE 
-;
+-- Secuencia para Pais (ya tienes datos, inicia en 104)
+CREATE SEQUENCE seq_pais_id_pa START WITH 104 INCREMENT BY 1 NOCACHE NOCYCLE;
 
+-- Secuencia para Equipo (PK compuesta, para id_eq)
+CREATE SEQUENCE seq_equipo_id_eq START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
 
+-- Secuencia para Evento_Cambio_Jugador
+CREATE SEQUENCE seq_evento_cambio_jugador_id_ev_ca_ju START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Informe de Resumen de Oracle SQL Developer Data Modeler: 
--- 
--- CREATE TABLE                            21
--- CREATE INDEX                             2
--- ALTER TABLE                             45
--- CREATE VIEW                              0
--- ALTER VIEW                               0
--- CREATE PACKAGE                           0
--- CREATE PACKAGE BODY                      0
--- CREATE PROCEDURE                         0
--- CREATE FUNCTION                          0
--- CREATE TRIGGER                           0
--- ALTER TRIGGER                            0
--- CREATE COLLECTION TYPE                   0
--- CREATE STRUCTURED TYPE                   0
--- CREATE STRUCTURED TYPE BODY              0
--- CREATE CLUSTER                           0
--- CREATE CONTEXT                           0
--- CREATE DATABASE                          0
--- CREATE DIMENSION                         0
--- CREATE DIRECTORY                         0
--- CREATE DISK GROUP                        0
--- CREATE ROLE                              0
--- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                          0
--- CREATE MATERIALIZED VIEW                 0
--- CREATE MATERIALIZED VIEW LOG             0
--- CREATE SYNONYM                           0
--- CREATE TABLESPACE                        0
--- CREATE USER                              0
--- 
--- DROP TABLESPACE                          0
--- DROP DATABASE                            0
--- 
--- REDACTION POLICY                         0
--- 
--- ORDS DROP SCHEMA                         0
--- ORDS ENABLE SCHEMA                       0
--- ORDS ENABLE OBJECT                       0
--- 
--- ERRORS                                   0
--- WARNINGS                                 0
+-- Secuencia para Evento_Gol
+CREATE SEQUENCE seq_evento_gol_id_ev_go START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Evento_Partido
+CREATE SEQUENCE seq_evento_partido_id_ev_pa START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Fase (ya tienes datos, inicia en 5)
+CREATE SEQUENCE seq_fase_id_fa START WITH 5 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Grupo
+CREATE SEQUENCE seq_grupo_id_gr START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Jugador
+CREATE SEQUENCE seq_jugador_id_ju START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Llave_Mundial
+CREATE SEQUENCE seq_llave_mundial_id_lla_mu START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Mundial (ya tienes datos, inicia en 24)
+CREATE SEQUENCE seq_mundial_id_mu START WITH 24 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Plantilla
+CREATE SEQUENCE seq_plantilla_id_pla START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Premio
+CREATE SEQUENCE seq_premio_id_pre START WITH 2 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Red_social
+CREATE SEQUENCE seq_red_social_id_red_so START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Tipo_Premio (ya tienes datos, inicia en 15)
+CREATE SEQUENCE seq_tipo_premio_id_ti_pre START WITH 15 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Secuencia para Tipo_Tarjeta (ya tienes datos, inicia en 3)
+CREATE SEQUENCE seq_tipo_tarjeta_id_ti_ta START WITH 3 INCREMENT BY 1 NOCACHE NOCYCLE;

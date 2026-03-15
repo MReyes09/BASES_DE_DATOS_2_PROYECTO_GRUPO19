@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Llave_Mundial" directorySegmentName="seg_0" id="83BD7121-3E59-05E6-9ADE-417EE9BA5868">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Mundial_id_mu" id="0F1BC2C7-CE6E-2843-0591-8F05CFC0E50D">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_lla_mu" id="4DD808F8-81EA-E72A-AAE8-8E45D38AD969">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Fase_id_fa" id="E2FA31C4-2674-C4B2-B6D4-C19D0C0FF628">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Llave_Mundial__IDX" id="06B2A510-0143-F532-CE84-76992094C451">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Llave_Mundial_Fase_FK" id="862F98CD-20EB-AC99-314B-119BEF4878DD">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Llave_Mundial_Mundial_FK" id="F4E5BA5E-E4C0-BB9E-377A-39FDF870E7D9">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Llave_Mundial_PK" id="43DE4C0B-3F59-73E2-F110-DDC6CF471426">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

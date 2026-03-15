@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B72F4ADF-49E3-5C9D-63ED-A61DBFAA75BD" name="Plantilla">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>271DBEC9-6D04-D19B-14C0-087D634B7BF2</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>pla</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pla" id="5E86C409-57A3-8D8D-C407-86FDD493EA10">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>4AA44F7A-5A07-3B73-E788-DE9FF1B4BFFE</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipo_id_eq" id="9CF282A5-85CF-C788-BEAF-E873DF9E8DB6">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>09A6085B-C59A-CB66-77C6-8DDCB40A5841</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF1D46D8-2AD0-3CAD-B9E4-89D7A70BF238" referredColumn="9298D767-A940-D7E6-42B2-AD2120021C3F"/>
+</associations>
+</Column>
+<Column name="Equipo_id_pa" id="2F54B9D4-BA53-FB0B-E863-D543235464D5">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>847813D7-4467-40BA-2B9B-1DB470559CCF</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF1D46D8-2AD0-3CAD-B9E4-89D7A70BF238" referredColumn="09B5E4E0-5FFA-ACEF-F564-2E60AF58D183"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="166CD5BB-6656-8C8C-7FEC-7B15BBB350E3" name="Plantilla_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>0E99B625-7D27-2B2C-7BF6-C294749BEBEA</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E86C409-57A3-8D8D-C407-86FDD493EA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3352017-4A7B-6516-39F0-925DF0F2A2DF" name="Plantilla_Equipo_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>0EF12031-2EE1-6CCE-2E1D-05339284A01B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CF282A5-85CF-C788-BEAF-E873DF9E8DB6"/>
+<colUsage columnID="2F54B9D4-BA53-FB0B-E863-D543235464D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
