@@ -77,9 +77,8 @@ ALTER TABLE Fase
 
 CREATE TABLE Grupo 
 ( 
-  id_gr         NUMBER NOT NULL, 
-  nombre_gr     CHAR(3) NOT NULL, 
-  Mundial_id_mu NUMBER NOT NULL 
+  id_gr     NUMBER NOT NULL, 
+  nombre_gr CHAR(3) NOT NULL 
 ) 
 LOGGING;
 
@@ -103,15 +102,23 @@ ALTER TABLE Jugador
   ADD CONSTRAINT Jugador_PK 
   PRIMARY KEY (id_ju);
 
-CREATE TABLE Llave_Mundial 
+CREATE TABLE Llave_Fase_Mundial 
 ( 
-  id_lla_mu     NUMBER NOT NULL, 
-  Mundial_id_mu NUMBER NOT NULL, 
-  Fase_id_fa    NUMBER NOT NULL 
+  Llave_Mundial_id_lla_mu NUMBER NOT NULL, 
+  Fase_id_fa              NUMBER NOT NULL 
 ) 
 LOGGING;
 
-CREATE UNIQUE INDEX Llave_Mundial__IDX ON Llave_Mundial (Fase_id_fa ASC) LOGGING;
+ALTER TABLE Llave_Fase_Mundial 
+  ADD CONSTRAINT Llave_Fase_Mundial_PK 
+  PRIMARY KEY (Llave_Mundial_id_lla_mu, Fase_id_fa);
+
+CREATE TABLE Llave_Mundial 
+( 
+  id_lla_mu     NUMBER NOT NULL, 
+  Mundial_id_mu NUMBER NOT NULL 
+) 
+LOGGING;
 
 ALTER TABLE Llave_Mundial 
   ADD CONSTRAINT Llave_Mundial_PK 
@@ -140,16 +147,28 @@ ALTER TABLE Pais
   ADD CONSTRAINT Pais_PK 
   PRIMARY KEY (id_pa);
 
-CREATE TABLE Pais_Clasificado 
+CREATE TABLE Pais_Clasificado_Mundial 
 ( 
-  Pais_id_pa  NUMBER NOT NULL, 
-  Grupo_id_gr NUMBER NOT NULL 
+  Mundial_id_mu NUMBER NOT NULL, 
+  Pais_id_pa    NUMBER NOT NULL, 
+  Grupo_id_gr   NUMBER NOT NULL 
 ) 
 LOGGING;
 
-ALTER TABLE Pais_Clasificado 
-  ADD CONSTRAINT Pais_Clasificado_PK 
-  PRIMARY KEY (Pais_id_pa, Grupo_id_gr);
+ALTER TABLE Pais_Clasificado_Mundial 
+  ADD CONSTRAINT Pais_Clasificado_Mundial_PK 
+  PRIMARY KEY (Mundial_id_mu, Pais_id_pa, Grupo_id_gr);
+
+CREATE TABLE Partido_Plantilla 
+( 
+  Plantilla_id_pla        NUMBER NOT NULL, 
+  Evento_Partido_id_ev_pa NUMBER NOT NULL 
+) 
+LOGGING;
+
+ALTER TABLE Partido_Plantilla 
+  ADD CONSTRAINT Partido_Plantilla_PK 
+  PRIMARY KEY (Plantilla_id_pla, Evento_Partido_id_ev_pa);
 
 CREATE TABLE Plantilla 
 ( 
@@ -162,17 +181,6 @@ LOGGING;
 ALTER TABLE Plantilla 
   ADD CONSTRAINT Plantilla_PK 
   PRIMARY KEY (id_pla);
-
-CREATE TABLE Partido_Plantilla 
-( 
-  Plantilla_id_pla        NUMBER NOT NULL, 
-  Evento_Partido_id_ev_pa NUMBER NOT NULL 
-) 
-LOGGING;
-
-ALTER TABLE Partido_Plantilla 
-  ADD CONSTRAINT Partido_Plantilla_PK 
-  PRIMARY KEY (Plantilla_id_pla, Evento_Partido_id_ev_pa);
 
 CREATE TABLE Posicion_Jugador 
 ( 
@@ -309,16 +317,16 @@ ALTER TABLE Evento_Partido
   REFERENCES Llave_Mundial (id_lla_mu)
   NOT DEFERRABLE;
 
-ALTER TABLE Grupo 
-  ADD CONSTRAINT Grupo_Mundial_FK 
-  FOREIGN KEY (Mundial_id_mu)
-  REFERENCES Mundial (id_mu)
-  NOT DEFERRABLE;
-
-ALTER TABLE Llave_Mundial 
-  ADD CONSTRAINT Llave_Mundial_Fase_FK 
+ALTER TABLE Llave_Fase_Mundial 
+  ADD CONSTRAINT Llave_Fase_Mundial_Fase_FK 
   FOREIGN KEY (Fase_id_fa)
   REFERENCES Fase (id_fa)
+  NOT DEFERRABLE;
+
+ALTER TABLE Llave_Fase_Mundial 
+  ADD CONSTRAINT Llave_Fase_Mundial_Llave_Mundial_FK 
+  FOREIGN KEY (Llave_Mundial_id_lla_mu)
+  REFERENCES Llave_Mundial (id_lla_mu)
   NOT DEFERRABLE;
 
 ALTER TABLE Llave_Mundial 
@@ -327,14 +335,20 @@ ALTER TABLE Llave_Mundial
   REFERENCES Mundial (id_mu)
   NOT DEFERRABLE;
 
-ALTER TABLE Pais_Clasificado 
-  ADD CONSTRAINT Pais_Clasificado_Grupo_FK 
+ALTER TABLE Pais_Clasificado_Mundial 
+  ADD CONSTRAINT Pais_Clasificado_Mundial_Grupo_FK 
   FOREIGN KEY (Grupo_id_gr)
   REFERENCES Grupo (id_gr)
   NOT DEFERRABLE;
 
-ALTER TABLE Pais_Clasificado 
-  ADD CONSTRAINT Pais_Clasificado_Pais_FK 
+ALTER TABLE Pais_Clasificado_Mundial 
+  ADD CONSTRAINT Pais_Clasificado_Mundial_Mundial_FK 
+  FOREIGN KEY (Mundial_id_mu)
+  REFERENCES Mundial (id_mu)
+  NOT DEFERRABLE;
+
+ALTER TABLE Pais_Clasificado_Mundial 
+  ADD CONSTRAINT Pais_Clasificado_Mundial_Pais_FK 
   FOREIGN KEY (Pais_id_pa)
   REFERENCES Pais (id_pa)
   NOT DEFERRABLE;
@@ -405,44 +419,64 @@ ALTER TABLE Red_social
   REFERENCES Jugador (id_ju)
   NOT DEFERRABLE;
 
--- Secuencia para Pais (ya tienes datos, inicia en 104)
-CREATE SEQUENCE seq_pais_id_pa START WITH 104 INCREMENT BY 1 NOCACHE NOCYCLE;
+--------------------------------------------------------
+-- SECUENCIAS (auto-increment)
+--------------------------------------------------------
 
--- Secuencia para Evento_Cambio_Jugador
-CREATE SEQUENCE seq_evento_cambio_jugador_id_ev_ca_ju START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Ya tienes datos en algunas: ajusta START WITH según tu caso real
 
--- Secuencia para Evento_Gol
-CREATE SEQUENCE seq_evento_gol_id_ev_go START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Pais (ya tienes datos, inicia en 104)
+CREATE SEQUENCE seq_pais_id_pa 
+  START WITH 104 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Evento_Partido
-CREATE SEQUENCE seq_evento_partido_id_ev_pa START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Evento_Cambio_Jugador
+CREATE SEQUENCE seq_evento_cambio_jugador_id_ev_ca_ju 
+  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Fase (ya tienes datos, inicia en 5)
-CREATE SEQUENCE seq_fase_id_fa START WITH 5 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Evento_Gol
+CREATE SEQUENCE seq_evento_gol_id_ev_go 
+  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Grupo
-CREATE SEQUENCE seq_grupo_id_gr START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Evento_Partido
+CREATE SEQUENCE seq_evento_partido_id_ev_pa 
+  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Jugador
-CREATE SEQUENCE seq_jugador_id_ju START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Fase (ya tienes datos, inicia en 5)
+CREATE SEQUENCE seq_fase_id_fa 
+  START WITH 5 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Llave_Mundial
-CREATE SEQUENCE seq_llave_mundial_id_lla_mu START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Grupo (catálogo estático, si ya cargaste A..H y quieres seguir)
+CREATE SEQUENCE seq_grupo_id_gr 
+  START WITH 9 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Mundial (ya tienes datos, inicia en 24)
-CREATE SEQUENCE seq_mundial_id_mu START WITH 24 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Jugador
+CREATE SEQUENCE seq_jugador_id_ju 
+  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Plantilla
-CREATE SEQUENCE seq_plantilla_id_pla START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Llave_Mundial
+CREATE SEQUENCE seq_llave_mundial_id_lla_mu 
+  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Premio
-CREATE SEQUENCE seq_premio_id_pre START WITH 2 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Mundial (ya tienes datos, inicia en 24)
+CREATE SEQUENCE seq_mundial_id_mu 
+  START WITH 24 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Red_social
-CREATE SEQUENCE seq_red_social_id_red_so START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Plantilla
+CREATE SEQUENCE seq_plantilla_id_pla 
+  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Tipo_Premio (ya tienes datos, inicia en 15)
-CREATE SEQUENCE seq_tipo_premio_id_ti_pre START WITH 15 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Premio
+CREATE SEQUENCE seq_premio_id_pre 
+  START WITH 2 INCREMENT BY 1 NOCACHE NOCYCLE;
 
--- Secuencia para Tipo_Tarjeta (ya tienes datos, inicia en 3)
-CREATE SEQUENCE seq_tipo_tarjeta_id_ti_ta START WITH 3 INCREMENT BY 1 NOCACHE NOCYCLE;
+-- Red_social
+CREATE SEQUENCE seq_red_social_id_red_so 
+  START WITH 1 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Tipo_Premio (ya tienes datos, inicia en 15)
+CREATE SEQUENCE seq_tipo_premio_id_ti_pre 
+  START WITH 15 INCREMENT BY 1 NOCACHE NOCYCLE;
+
+-- Tipo_Tarjeta (ya tienes datos, inicia en 3)
+CREATE SEQUENCE seq_tipo_tarjeta_id_ti_ta 
+  START WITH 3 INCREMENT BY 1 NOCACHE NOCYCLE;
