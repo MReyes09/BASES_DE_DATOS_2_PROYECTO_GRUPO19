@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB32315D-E28B-CE74-906B-C94FF46F4627" name="Equipo">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>BB465F2F-FFD2-2197-0B5D-1A74B079954D</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<abbreviation>eq</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_eq" id="9298D767-A940-D7E6-42B2-AD2120021C3F">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>145A15CB-0CF7-A5E7-9918-5EC27A7E039B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="director_tecnico_eq" id="58F7BF18-9E6E-B6AE-0553-FFB6AECAB586">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>5B2DDC55-5457-DEBC-48A7-0B15299D5C50</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais_id_pa" id="09B5E4E0-5FFA-ACEF-F564-2E60AF58D183">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>623FD35B-B5DC-F49A-CC36-14CADFBB81B7</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCBCE0F5-DE6A-7E12-4AFA-0630809F7610" referredColumn="7B2C2C38-50E0-5638-DCA2-B31B43030DE6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BED11ACB-F305-D55D-8F2E-C65E42850D05" name="Equipo_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>3077723C-586D-FE04-0F17-D9CCEFEDAFCB</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9298D767-A940-D7E6-42B2-AD2120021C3F"/>
+<colUsage columnID="09B5E4E0-5FFA-ACEF-F564-2E60AF58D183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C1B2FA6-8753-FD6B-892A-D86168814D40" name="Equipo_Pais_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>73BEA2EC-02CA-C4B9-DAFE-BC124CD5A99A</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09B5E4E0-5FFA-ACEF-F564-2E60AF58D183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

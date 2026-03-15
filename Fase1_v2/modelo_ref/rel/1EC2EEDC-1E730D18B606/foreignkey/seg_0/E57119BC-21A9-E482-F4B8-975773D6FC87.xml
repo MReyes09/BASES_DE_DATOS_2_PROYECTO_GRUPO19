@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E57119BC-21A9-E482-F4B8-975773D6FC87" containerWithKeyObject="B5BB2F2A-F2D0-06CB-8CD4-E6684AC2375D" localFKIndex="FD0878AC-C384-4A9E-9C44-7A61D3B34762" name="Premio_Tipo_Premio_Premio_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>F3ED60F7-04CD-E885-253B-F9436BCDBCC0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<referredTableLongName>Premio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78287773-57C9-D3FE-941F-A6853FDDC16D</referredTableID>
+<keyObject>525FD776-BDDA-3BAB-9C37-8B8DA732B75A</keyObject>
+<referredKeyID>525FD776-BDDA-3BAB-9C37-8B8DA732B75A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

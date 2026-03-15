@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F7C84E5-50B7-F312-1A50-C756CD1CE9D9" name="Partido_Plantilla">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Plantilla_id_pla" id="3B425063-C7E7-A7A2-22A6-19E5BF23DA85">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4830395A-7024-CD3B-EB26-98D5A9CEB848" referredColumn="5E86C409-57A3-8D8D-C407-86FDD493EA10"/>
+</associations>
+</Column>
+<Column name="Evento_Partido_id_ev_pa" id="749997F9-745E-B2D8-DF94-0F5E4293D053">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B326FCBC-C987-9C56-1468-B155BCFA3091" referredColumn="5B39EC3C-88A2-B8B4-CA8F-B71255D09D60"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5648B386-C54A-16B8-7F98-BFD28A5E4719" name="Partido_Plantilla_PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B425063-C7E7-A7A2-22A6-19E5BF23DA85"/>
+<colUsage columnID="749997F9-745E-B2D8-DF94-0F5E4293D053"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="623E9B56-52D3-BDD6-FAB9-95E39D28AB90" name="Partido_Plantilla_Plantilla_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>60762905-ABDF-7F66-4552-C2C649C7CD62</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B425063-C7E7-A7A2-22A6-19E5BF23DA85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="975F874E-9D6D-D7E1-CA82-E7AF75A940C2" name="Partido_Plantilla_Evento_Partido_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-14 19:06:38 UTC</createdTime>
+<generatorID>60762905-ABDF-7F66-4552-C2C649C7CD62</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="749997F9-745E-B2D8-DF94-0F5E4293D053"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
