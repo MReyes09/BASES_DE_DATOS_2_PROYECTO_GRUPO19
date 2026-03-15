@@ -44,7 +44,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="lugar_cacimiento_ju" id="7FCCF703-4E49-7C2B-6430-9B54A3BF734D">
+<Column name="lugar_nacimiento_ju" id="7FCCF703-4E49-7C2B-6430-9B54A3BF734D">
 <createdBy>matth</createdBy>
 <createdTime>2026-03-14 19:06:38 UTC</createdTime>
 <generatorID>94432BBC-C1D0-AFCE-9912-3ECB781A12D0</generatorID>

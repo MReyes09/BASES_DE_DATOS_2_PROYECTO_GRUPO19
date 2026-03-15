@@ -112,7 +112,7 @@ CREATE TABLE Jugador
      id_ju               NUMBER  NOT NULL , 
      nombre_ju           VARCHAR2 (150)  NOT NULL , 
      fecha_nacimiento_ju DATE , 
-     lugar_cacimiento_ju VARCHAR2 (200) , 
+     lugar_nacimiento_ju VARCHAR2 (200) , 
      altura_ju           VARCHAR2 (5) , 
      apodo_ju            VARCHAR2 (75) , 
      pagina_web_ju       VARCHAR2 (50) 
