@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Jugador" directorySegmentName="seg_1" id="79A3BBCD-591E-3340-3FF4-36FA4BE4E378">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_ju" id="022F4183-6A69-BBCF-2CE8-77C8BA7DA8E3">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre_ju" id="11E5B44E-90A9-4335-393D-0A95957E7ED1">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="altura_ju" id="14673043-B0D2-F64E-7402-4987B3B2E1A6">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="apodo_ju" id="64122177-DD2A-B476-79D0-DAAF8FF0283F">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pagina_web_ju" id="75F4BAA3-4068-9F8E-9DBB-610C74B35F47">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fecha_nacimiento_ju" id="B2551D9B-9D0D-4D92-F2DB-2B50D0442A6A">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="lugar_nacimiento_ju" id="BA2DF0F0-7D53-E7A4-660A-CE678B49F31E">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Jugador_PK" id="81C28B6A-5D04-7742-57A9-C0D3EBFC6D7A">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

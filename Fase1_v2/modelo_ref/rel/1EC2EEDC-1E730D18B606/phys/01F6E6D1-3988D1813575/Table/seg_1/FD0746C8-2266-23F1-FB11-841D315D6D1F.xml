@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Grupo" directorySegmentName="seg_1" id="FD0746C8-2266-23F1-FB11-841D315D6D1F">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_gr" id="2CC01C98-04EE-EFC4-8361-D0E82DEEEBD7">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre_gr" id="F45BE3A8-C533-7792-6B52-3B9DF6A9B12D">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Grupo_PK" id="E83D9027-C940-435B-16FE-395937CFA282">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

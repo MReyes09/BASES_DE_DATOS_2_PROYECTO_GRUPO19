@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6766AD45-D2E5-6BCD-6E46-3416CBD3487A" name="Pais_Clasificado_Mundial">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:31:41 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>pa_cla_mu</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mu" id="E89398CA-8868-2AD6-3559-10F34360AB87">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:33:33 UTC</createdTime>
+<generatorID>173F1A98-7A03-E4CB-CB39-F91190D630AD</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>34A14ED4-3510-9E19-6271-A441A0444167</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pa" id="83C13F78-C90E-CF87-B60E-AF396AA5F580">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:34:11 UTC</createdTime>
+<generatorID>91794834-05A6-F0A6-DEAA-446CE4C3A241</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>2C3B8FF5-32C2-F068-9C94-F1F86D59CF0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_gr" id="33584306-0252-474B-87D6-B59830E780EC">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:34:55 UTC</createdTime>
+<generatorID>8734279C-95AA-1F56-9A99-AE9177D3B1D0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>AA51F4E4-96A4-D7D1-C9BE-8B5D7B98B039</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1BE93215-7100-C062-89F7-0071AADFFB5D" name="Pais_Clasificado_Mundial PK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:32:14 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E89398CA-8868-2AD6-3559-10F34360AB87</attributeRef>
+<attributeRef>83C13F78-C90E-CF87-B60E-AF396AA5F580</attributeRef>
+<attributeRef>33584306-0252-474B-87D6-B59830E780EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
