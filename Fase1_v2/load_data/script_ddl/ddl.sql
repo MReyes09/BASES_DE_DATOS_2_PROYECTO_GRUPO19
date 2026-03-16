@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
---   en:        2026-03-15 17:10:54 CST
+--   en:        2026-03-15 19:40:23 CST
 --   sitio:      Oracle Database 21c
 --   tipo:      Oracle Database 21c
 
@@ -199,6 +199,7 @@ CREATE TABLE Premio
     ( 
      id_pre                NUMBER  NOT NULL , 
      Mundial_id_mu         NUMBER  NOT NULL , 
+     pais                  VARCHAR2 (90) , 
      Tipo_Premio_id_ti_pre NUMBER  NOT NULL 
     ) 
     LOGGING 
