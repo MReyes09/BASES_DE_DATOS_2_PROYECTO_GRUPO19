@@ -5,7 +5,7 @@
 | **Nivel** | **Descripción** | **Cantidad Tablas** | **Estado** | **Total Acumulado** |
 |-----------|-----------------|---------------------|------------|---------------------|
 | **1** | Tablas SIN FK (independientes) | 7 tablas | ✅ **COMPLETO** | 7 |
-| **2** | Tablas con 1 FK | 4 tablas | 🟡 **1/4 (25%)** | 11 |
+| **2** | Tablas con 1 FK | 4 tablas | ✅ **COMPLETO** | 11 |
 | **3** | Tablas con 2 o más FK | 11 tablas | 🔴 **0/11 (0%)** | **22** |
 
 ## Nivel 1 - Tablas Independientes **(✅ YA CARGADO)**
@@ -20,11 +20,11 @@
 | 6 | `Tipo_Premio` | Tipos de premios **(NUEVO: 1:1 con Premio)** |
 | 7 | `Tipo_Tarjeta` | Amarilla/Roja |
 
-## Nivel 2 - Tablas con 1 Dependencia **(🟡 PARCIAL)**
+## Nivel 2 - Tablas con 1 Dependencia **(✅ YA CARGADO)**
 
 | **Orden** | **Tabla** | **Depende de** | **Estado** |
 |-----------|-----------|----------------|------------|
-| 8 | `Premio` | `Mundial` | 🔴 **PENDIENTE** |
+| 8 | `Premio` | `Mundial` | ✅ **CARGADO** |
 | 9 | `Red_social` | `Jugador` | ✅ **CARGADO** |
 | 10 | `Plantilla` | `Pais` | ✅ **CARGADO** |
 | 11 | `Llave_Mundial` | `Mundial` | ✅ **CARGADO** |
@@ -40,7 +40,7 @@
 | 16 | `Evento_Gol` | `Evento_Partido`, `Jugador` | ✅ **CARGADO** |
 | 17 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` | ✅ **CARGADO** |
 | 18 | `Posicion_Jugador` | `Plantilla`, `Jugador` | 🔴 **PENDIENTE** |
-| 19 | `Premios_Jugador` | `Premio`, `Jugador` | 🔴 **PENDIENTE** |
+| 19 | `Premios_Jugador` | `Premio`, `Jugador` | ✅ **CARGADO** |
 | 20 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` | 🔴 ✅ **CARGADO** |
 
 ## Secuencia Completa de Inserción **(ACTUALIZADA)**
