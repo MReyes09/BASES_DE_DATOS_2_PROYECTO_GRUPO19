@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99F27815-A5AF-DAA4-844F-0058BFA831F5" containerWithKeyObject="1CBB031E-011F-29B1-2A49-87524980A857" localFKIndex="191D44BD-6995-D723-FE55-6679F146F0D1" name="Pais_Clasificado_Mundial_Mundial_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>173F1A98-7A03-E4CB-CB39-F91190D630AD</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<referredTableLongName>Mundial</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>738A6BC4-0069-33C4-3ECB-976A174E80D1</referredTableID>
+<keyObject>57EAB5E2-0866-2F73-6A80-32BEFCB284D5</keyObject>
+<referredKeyID>57EAB5E2-0866-2F73-6A80-32BEFCB284D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_mu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

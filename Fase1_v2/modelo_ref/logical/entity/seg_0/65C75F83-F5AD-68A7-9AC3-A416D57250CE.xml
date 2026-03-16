@@ -40,15 +40,29 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_lla_mu" id="B4778FF0-821E-90F8-15C0-99D22019BE7A">
+<Attribute name="id_mu" id="FC647A01-1EFE-2A7B-1796-F34C689ABC19">
 <createdBy>matth</createdBy>
-<createdTime>2026-03-14 02:00:43 UTC</createdTime>
+<createdTime>2026-03-15 22:56:18 UTC</createdTime>
 <generatorID>793869EF-02F1-86E4-3264-2ABD6019A0B0</generatorID>
 <ownerDesignName>modelo_ref</ownerDesignName>
 <engineerTo>
 <item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
 </engineerTo>
-<referedAttribute>372A10DF-3172-1338-0855-C9FD71FEAA44</referedAttribute>
+<referedAttribute>59D3CC66-5A84-72E9-BF0F-96F263128FF9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fa" id="89D777EF-22C7-BC7C-78C6-C64311FC877B">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:19 UTC</createdTime>
+<generatorID>793869EF-02F1-86E4-3264-2ABD6019A0B0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>0E4376AB-B383-FA10-3E0C-841FEEB3FF7A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

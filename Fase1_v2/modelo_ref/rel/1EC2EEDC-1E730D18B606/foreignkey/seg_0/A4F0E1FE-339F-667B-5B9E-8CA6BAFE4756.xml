@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4F0E1FE-339F-667B-5B9E-8CA6BAFE4756" containerWithKeyObject="DB14BA88-DB61-2FE0-3875-937C433D07DD" localFKIndex="04C9EEDB-2D9B-6A7F-5B69-0671EF70B8EC" name="Llave_Mundial_Fase_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:56:47 UTC</createdTime>
+<generatorID>8C676F82-50EB-DB05-037C-4E7DB2AF4D3B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<referredTableLongName>Fase</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DAC4CCD7-9014-10C4-D11B-498338DF5B21</referredTableID>
+<keyObject>4371AAC5-4F11-6D3C-BF7F-47B5BB2D83B6</keyObject>
+<referredKeyID>4371AAC5-4F11-6D3C-BF7F-47B5BB2D83B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_fa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

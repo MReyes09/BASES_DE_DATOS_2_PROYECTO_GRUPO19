@@ -17,19 +17,6 @@
 <normalForm>Third</normalForm>
 <shortName>lla_mu</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_lla_mu" id="372A10DF-3172-1338-0855-C9FD71FEAA44">
-<createdBy>matth</createdBy>
-<createdTime>2026-03-13 21:50:59 UTC</createdTime>
-<generatorID>D1528AD1-6FD6-6905-1719-03F887F23BF3</generatorID>
-<ownerDesignName>modelo_ref</ownerDesignName>
-<engineerTo>
-<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_mu" id="59D3CC66-5A84-72E9-BF0F-96F263128FF9">
 <createdBy>matth</createdBy>
 <createdTime>2026-03-14 01:45:34 UTC</createdTime>
@@ -39,6 +26,20 @@
 <item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
 </engineerTo>
 <referedAttribute>34A14ED4-3510-9E19-6271-A441A0444167</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fa" id="0E4376AB-B383-FA10-3E0C-841FEEB3FF7A">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 22:55:57 UTC</createdTime>
+<generatorID>8C676F82-50EB-DB05-037C-4E7DB2AF4D3B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>B0BF295D-87A3-ABE7-75B7-A6D8F3CF7245</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -56,7 +57,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>372A10DF-3172-1338-0855-C9FD71FEAA44</attributeRef>
+<attributeRef>59D3CC66-5A84-72E9-BF0F-96F263128FF9</attributeRef>
+<attributeRef>0E4376AB-B383-FA10-3E0C-841FEEB3FF7A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

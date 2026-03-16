@@ -42,6 +42,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_ti_pre" id="28FED6CF-A133-B9E2-21EE-D16EF89FC904">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 21:19:08 UTC</createdTime>
+<generatorID>B9D05C37-F1BE-C1B1-A6AE-2BF4834C452B</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<engineerTo>
+<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
+</engineerTo>
+<referedAttribute>866D92B3-2140-0E8A-9C94-7DDB55BEAF8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A26FBD92-B84C-F2E4-3DA8-742C8EF6F190" name="Premio PK">
