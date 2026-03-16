@@ -24,7 +24,7 @@
 
 | **Orden** | **Tabla** | **Depende de** | **Estado** |
 |-----------|-----------|----------------|------------|
-| 8 | `Premio` | `Mundial` | ✅ **CARGADO** |
+| 8 | `Premio` | `Mundial` | 🟡 PARCIAL |
 | 9 | `Red_social` | `Jugador` | ✅ **CARGADO** |
 | 10 | `Plantilla` | `Pais` | ✅ **CARGADO** |
 | 11 | `Llave_Mundial` | `Mundial` | ✅ **CARGADO** |
@@ -40,8 +40,8 @@
 | 16 | `Evento_Gol` | `Evento_Partido`, `Jugador` | ✅ **CARGADO** |
 | 17 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` | ✅ **CARGADO** |
 | 18 | `Posicion_Jugador` | `Plantilla`, `Jugador` | 🔴 **PENDIENTE** |
-| 19 | `Premios_Jugador` | `Premio`, `Jugador` | ✅ **CARGADO** |
-| 20 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` | 🔴 ✅ **CARGADO** |
+| 19 | `Premios_Jugador` | `Premio`, `Jugador` | 🟡 PARCIAL |
+| 20 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` | ✅ **CARGADO** |
 
 ## Secuencia Completa de Inserción **(ACTUALIZADA)**
 
