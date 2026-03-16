@@ -34,14 +34,14 @@
 | **Orden** | **Tabla** | **Depende de** | **Estado** |
 |-----------|-----------|----------------|------------|
 | 12 | `Evento_Partido` | `Llave_Mundial` | ✅ **CARGADO** |
-| 13 | `Evento_Cambio_Jugador` | `Evento_Partido` | 🔴 **PENDIENTE** |
+| 13 | `Evento_Cambio_Jugador` | `Evento_Partido` | ✅ **CARGADO** |
 | 14 | `Pais_Clasificado_Mundial` | `Mundial`, `Pais`, `Grupo` | 🔴 **PENDIENTE** |
-| 15 | `Evento_Falta` | `Evento_Partido`, `Tipo_Tarjeta` | 🔴 **PENDIENTE** |
-| 16 | `Evento_Gol` | `Evento_Partido`, `Jugador` | 🔴 **PENDIENTE** |
+| 15 | `Evento_Falta` | `Evento_Partido`, `Tipo_Tarjeta` | 🟡 PARCIAL |
+| 16 | `Evento_Gol` | `Evento_Partido`, `Jugador` | ✅ **CARGADO** |
 | 17 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` | ✅ **CARGADO** |
 | 18 | `Posicion_Jugador` | `Plantilla`, `Jugador` | 🔴 **PENDIENTE** |
 | 19 | `Premios_Jugador` | `Premio`, `Jugador` | ✅ **CARGADO** |
-| 20 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` | 🔴 **PENDIENTE** |
+| 20 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` | 🔴 ✅ **CARGADO** |
 
 ## Secuencia Completa de Inserción **(ACTUALIZADA)**
 
