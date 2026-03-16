@@ -35,6 +35,18 @@
 <colAssociation fkAssociation="12FEFD6D-5612-AEBB-828F-54852462A6FD" referredColumn="59C36FF1-300B-F2EF-196F-7280AF6F8859"/>
 </associations>
 </Column>
+<Column name="pais" id="1021BA68-382E-FCC8-3C44-4218F1B96187">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 23:23:02 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Tipo_Premio_id_ti_pre" id="09537597-177E-ED24-188B-536718F12563">
 <createdBy>matth</createdBy>
 <createdTime>2026-03-15 22:56:47 UTC</createdTime>
