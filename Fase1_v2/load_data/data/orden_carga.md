@@ -26,19 +26,19 @@
 |-----------|-----------|----------------|------------|
 | 8 | `Premio` | `Mundial` | 🔴 **PENDIENTE** |
 | 9 | `Red_social` | `Jugador` | ✅ **CARGADO** |
-| 10 | `Plantilla` | `Pais` | 🔴 **PENDIENTE** |
-| 11 | `Llave_Mundial` | `Mundial` | 🔴 **PENDIENTE** |
+| 10 | `Plantilla` | `Pais` | ✅ **CARGADO** |
+| 11 | `Llave_Mundial` | `Mundial` | ✅ **CARGADO** |
 
 ## Nivel 3 - Tablas con 2 o más Dependencias **(🟡 PARCIAL)**
 
 | **Orden** | **Tabla** | **Depende de** | **Estado** |
 |-----------|-----------|----------------|------------|
-| 12 | `Evento_Partido` | `Llave_Mundial` | 🔴 **PENDIENTE** |
+| 12 | `Evento_Partido` | `Llave_Mundial` | ✅ **CARGADO** |
 | 13 | `Evento_Cambio_Jugador` | `Evento_Partido` | 🔴 **PENDIENTE** |
 | 14 | `Pais_Clasificado_Mundial` | `Mundial`, `Pais`, `Grupo` | 🔴 **PENDIENTE** |
 | 15 | `Evento_Falta` | `Evento_Partido`, `Tipo_Tarjeta` | 🔴 **PENDIENTE** |
 | 16 | `Evento_Gol` | `Evento_Partido`, `Jugador` | 🔴 **PENDIENTE** |
-| 17 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` | 🔴 **PENDIENTE** |
+| 17 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` | ✅ **CARGADO** |
 | 18 | `Posicion_Jugador` | `Plantilla`, `Jugador` | 🔴 **PENDIENTE** |
 | 19 | `Premios_Jugador` | `Premio`, `Jugador` | 🔴 **PENDIENTE** |
 | 20 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` | 🔴 **PENDIENTE** |
