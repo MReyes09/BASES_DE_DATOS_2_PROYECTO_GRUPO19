@@ -29,20 +29,19 @@
 | 10 | `Plantilla` | `Pais` | 🔴 **PENDIENTE** |
 | 11 | `Llave_Mundial` | `Mundial` | 🔴 **PENDIENTE** |
 
-## Nivel 3 - Tablas con 2 o más Dependencias **(🔴 SIN INICIAR)**
+## Nivel 3 - Tablas con 2 o más Dependencias **(🟡 PARCIAL)**
 
-| **Orden** | **Tabla** | **Depende de** |
-|-----------|-----------|----------------|
-| 12 | `Llave_Fase_Mundial` | `Llave_Mundial`, `Fase` |
-| 13 | `Evento_Partido` | `Llave_Mundial` |
-| 14 | `Evento_Cambio_Jugador` | `Evento_Partido` |
-| 15 | `Pais_Clasificado_Mundial` | `Mundial`, `Pais`, `Grupo` |
-| 16 | `Evento_Falta` | `Evento_Partido`, `Tipo_Tarjeta` |
-| 17 | `Evento_Gol` | `Evento_Partido`, `Jugador` |
-| 18 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` |
-| 19 | `Posicion_Jugador` | `Plantilla`, `Jugador` |
-| 20 | `Premios_Jugador` | `Premio`, `Jugador` |
-| 21 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` |
+| **Orden** | **Tabla** | **Depende de** | **Estado** |
+|-----------|-----------|----------------|------------|
+| 12 | `Evento_Partido` | `Llave_Mundial` | 🔴 **PENDIENTE** |
+| 13 | `Evento_Cambio_Jugador` | `Evento_Partido` | 🔴 **PENDIENTE** |
+| 14 | `Pais_Clasificado_Mundial` | `Mundial`, `Pais`, `Grupo` | 🔴 **PENDIENTE** |
+| 15 | `Evento_Falta` | `Evento_Partido`, `Tipo_Tarjeta` | 🔴 **PENDIENTE** |
+| 16 | `Evento_Gol` | `Evento_Partido`, `Jugador` | 🔴 **PENDIENTE** |
+| 17 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` | 🔴 **PENDIENTE** |
+| 18 | `Posicion_Jugador` | `Plantilla`, `Jugador` | 🔴 **PENDIENTE** |
+| 19 | `Premios_Jugador` | `Premio`, `Jugador` | 🔴 **PENDIENTE** |
+| 20 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` | 🔴 **PENDIENTE** |
 
 ## Secuencia Completa de Inserción **(ACTUALIZADA)**
 
@@ -67,12 +66,3 @@ INSERT INTO Posicion_Jugador (...);       -- Plantilla, Jugador ✓
 INSERT INTO Premios_Jugador (...);        -- Premio, Jugador ✓
 INSERT INTO Cambio_Jugador (...);         -- Evento_Cambio_Jugador, Jugador ✓
 ```
-
-## 📊 **PROGRESO ACTUAL: 36% (8/22 tablas)**
-
-**🎯 SIGUIENTES 3 PASOS (Nivel 2 restante):**
-1. `Premio` 
-2. `Plantilla`
-3. `Llave_Mundial`
-
-**¡Después de eso estarás al 50% (11/22)!** ⚽🚀
