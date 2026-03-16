@@ -30,33 +30,32 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_eq" id="09A6085B-C59A-CB66-77C6-8DDCB40A5841">
+<Attribute name="id_pa" id="04AB0F2A-6AEB-F435-BD71-C4CAA340FA87">
 <createdBy>matth</createdBy>
-<createdTime>2026-03-14 02:44:40 UTC</createdTime>
-<generatorID>0EF12031-2EE1-6CCE-2E1D-05339284A01B</generatorID>
+<createdTime>2026-03-15 05:01:18 UTC</createdTime>
+<generatorID>DBFE2409-569A-5FE0-E564-BD3BD7DD82DA</generatorID>
 <ownerDesignName>modelo_ref</ownerDesignName>
 <engineerTo>
 <item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
 </engineerTo>
-<referedAttribute>145A15CB-0CF7-A5E7-9918-5EC27A7E039B</referedAttribute>
+<referedAttribute>2C3B8FF5-32C2-F068-9C94-F1F86D59CF0C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_pa" id="847813D7-4467-40BA-2B9B-1DB470559CCF">
+<Attribute name="director_tecnico_pla" id="2705FAAA-0B2D-8A8A-49E8-082196B13AFF">
 <createdBy>matth</createdBy>
-<createdTime>2026-03-14 02:44:40 UTC</createdTime>
-<generatorID>0EF12031-2EE1-6CCE-2E1D-05339284A01B</generatorID>
+<createdTime>2026-03-15 05:01:39 UTC</createdTime>
 <ownerDesignName>modelo_ref</ownerDesignName>
 <engineerTo>
 <item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
 </engineerTo>
-<referedAttribute>623FD35B-B5DC-F49A-CC36-14CADFBB81B7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

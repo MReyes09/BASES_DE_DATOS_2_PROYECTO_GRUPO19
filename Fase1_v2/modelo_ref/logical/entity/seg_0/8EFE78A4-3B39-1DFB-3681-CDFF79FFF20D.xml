@@ -41,22 +41,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_pre" id="6984B670-F6B4-7546-8FBC-0EC36FFDF628">
-<createdBy>matth</createdBy>
-<createdTime>2026-03-14 03:55:48 UTC</createdTime>
-<generatorID>8F440005-BDDD-C4E2-C154-B06C60DA64F0</generatorID>
-<ownerDesignName>modelo_ref</ownerDesignName>
-<engineerTo>
-<item key="1EC2EEDC-62F1-9D14-594C-1E730D18B606" value="true"/>
-</engineerTo>
-<referedAttribute>4DE9E727-08D8-802A-595F-9864A5ACD6C8</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFC2D65B-8C5D-F2EE-B65A-57638C0071F2" containerWithKeyObject="F4A97E0A-67F6-0338-2BC2-105628FBD80D" localFKIndex="06A5161A-D37C-DC34-455F-AEE224F6101D" name="Pais_Clasificado_Mundial_Grupo_FK">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-15 05:46:16 UTC</createdTime>
+<generatorID>8734279C-95AA-1F56-9A99-AE9177D3B1D0</generatorID>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<referredTableLongName>Grupo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD0746C8-2266-23F1-FB11-841D315D6D1F</referredTableID>
+<keyObject>E83D9027-C940-435B-16FE-395937CFA282</keyObject>
+<referredKeyID>E83D9027-C940-435B-16FE-395937CFA282</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_gr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

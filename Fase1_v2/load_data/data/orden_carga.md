@@ -1,143 +1,90 @@
 
-<div align="center">
-
-**UNIVERSIDAD SAN CARLOS DE GUATEMALA**  
-**FACULTAD DE INGENIERÍA**  
-**LABORATORIO DE BASES DE DATOS 2**  
-**SECCIÓN "N"**
-
-**Documentación: Orden de Inserción DDL Mundial de Fútbol (V2 Actualizado)**
-
-**Estudiantes:**  
-**Daniel Andreé Hernandez Flores** - **202300512**  
-**Matthew Emmanuel Reyes Melgar** - **202202233**  
-**Dilan Conaher Suy Miranda** - **201801194**
-
-**Guatemala — Marzo 2026**
-
-</div>
-
----
-
-## Índice
-
-- [Índice](#índice)
-- [Niveles de Dependencia](#niveles-de-dependencia)
-- [Nivel 1 - Tablas Independientes (6 tablas)](#nivel-1---tablas-independientes-6-tablas)
-- [Nivel 2 - Tablas con 1 Dependencia (7 tablas)](#nivel-2---tablas-con-1-dependencia-7-tablas)
-- [Nivel 3 - Tablas con 2 Dependencias (5 tablas)](#nivel-3---tablas-con-2-dependencias-5-tablas)
-- [Nivel 4 - Tablas con Múltiples Dependencias (3 tablas)](#nivel-4---tablas-con-múltiples-dependencias-3-tablas)
-- [Secuencia Completa de Inserción](#secuencia-completa-de-inserción)
-
----
+***
 
 ## Niveles de Dependencia
 
-| **Nivel** | **Descripción** | **Cantidad Tablas** | **Total Acumulado** |
-|-----------|-----------------|--------------------|-------------------|
-| **1** | Tablas SIN FK (pueden insertarse primero) | 6 tablas | 6 |
-| **2** | Tablas con 1 FK (dependen de Nivel 1) | 7 tablas | 13 |
-| **3** | Tablas con 2 FK (dependen de Niveles 1-2) | 5 tablas | 18 |
-| **4** | Tablas con ≥3 FK (dependen de todos) | 3 tablas | **21** |
+| **Nivel** | **Descripción**                      | **Cantidad Tablas** | **Total Acumulado** |
+|-----------|--------------------------------------|---------------------|---------------------|
+| **1**     | Tablas SIN FK (independientes)      | 7 tablas            | 7                   |
+| **2**     | Tablas con 1 FK                     | 4 tablas            | 11                  |
+| **3**     | Tablas con 2 o más FK               | 11 tablas           | 22                  |
+| **4**     | No aplica (todas cubiertas)         | 0                   | **22**              |
 
----
+***
 
-## Nivel 1 - Tablas Independientes (6 tablas)
+## Nivel 1 - Tablas Independientes (7 tablas)
 
-**Estas tablas NO tienen claves foráneas entrantes:**
+| **Orden** | **Tabla**       | **Motivo**                      |
+|-----------|-----------------|---------------------------------|
+| 1         | `Fase`          | Catálogo de fases               |
+| 2         | `Grupo`         | Catálogo de grupos (A, B, C…)   |
+| 3         | `Jugador`       | Datos base de jugadores         |
+| 4         | `Mundial`       | Información de mundiales        |
+| 5         | `Pais`          | Países participantes            |
+| 6         | `Tipo_Premio`   | Tipos de premios                |
+| 7         | `Tipo_Tarjeta`  | Amarilla/Roja                   |
 
-| **Orden** | **Tabla** | **Motivo** |
-|-----------|-----------|------------|
-| 1 | `Pais` | Tabla base de países |
-| 2 | `Fase` | Catálogo de fases del torneo |
-| 3 | `Mundial` | Información de cada mundial |
-| 4 | `Jugador` | Datos de jugadores |
-| 5 | `Tipo_Tarjeta` | Amarilla/Roja |
-| 6 | `Tipo_Premio` | Balón de Oro, Bota de Oro, etc. *(Nota: depende de Premio pero se inserta primero)* |
+***
 
-**`INSERT INTO` estas tablas primero**
+## Nivel 2 - Tablas con 1 Dependencia (4 tablas)
 
----
+| **Orden** | **Tabla**         | **Depende de** |
+|-----------|-------------------|----------------|
+| 8         | `Premio`          | `Mundial`      |
+| 9         | `Red_social`      | `Jugador`      |
+| 10        | `Plantilla`       | `Pais`         |
+| 11        | `Llave_Mundial`   | `Mundial`      |
 
-## Nivel 2 - Tablas con 1 Dependencia (7 tablas)
+> Nota: `Llave_Fase_Mundial` usa `Llave_Mundial` y `Fase`, por eso va después (nivel 3).
 
-**Dependencia directa de Nivel 1:**
+***
 
-| **Orden** | **Tabla** | **Depende de** |
-|-----------|-----------|----------------|
-| 7 | `Equipo` | `Pais` |
-| 8 | `Grupo` | `Mundial` |
-| 9 | `Llave_Mundial` | `Mundial`, `Fase` |
-| 10 | `Pais_Clasificado` | `Pais`, `Grupo` |
-| 11 | `Red_social` | `Jugador` |
-| 12 | `Premio` | `Mundial` |
-| 13 | `Evento_Partido` | `Llave_Mundial` |
+## Nivel 3 - Tablas con 2 o más Dependencias (11 tablas)
 
-**`INSERT INTO` después del Nivel 1 completo**
+| **Orden** | **Tabla**                 | **Depende de**                                   |
+|-----------|--------------------------|--------------------------------------------------|
+| 12        | `Llave_Fase_Mundial`     | `Llave_Mundial`, `Fase`                          |
+| 13        | `Evento_Partido`         | `Llave_Mundial`                                  |
+| 14        | `Evento_Cambio_Jugador`  | `Evento_Partido`                                 |
+| 15        | `Pais_Clasificado_Mundial` | `Mundial`, `Pais`, `Grupo`                    |
+| 16        | `Evento_Falta`           | `Evento_Partido`, `Tipo_Tarjeta`                |
+| 17        | `Evento_Gol`             | `Evento_Partido`, `Jugador`                     |
+| 18        | `Partido_Plantilla`      | `Plantilla`, `Evento_Partido`                   |
+| 19        | `Posicion_Jugador`       | `Plantilla`, `Jugador`                          |
+| 20        | `Premio_Tipo_Premio`     | `Premio`, `Tipo_Premio`                         |
+| 21        | `Premios_Jugador`        | `Premio`, `Jugador`                             |
+| 22        | `Cambio_Jugador`         | `Evento_Cambio_Jugador`, `Jugador`              |
 
----
+***
 
-## Nivel 3 - Tablas con 2 Dependencias (5 tablas)
-
-**Requieren Nivel 1 + Nivel 2:**
-
-| **Orden** | **Tabla** | **Depende de** |
-|-----------|-----------|----------------|
-| 14 | `Plantilla` | `Equipo(id_eq, Pais_id_pa)` |
-| 15 | `Evento_Gol` | `Evento_Partido`, `Jugador` |
-| 16 | `Evento_Falta` | `Evento_Partido`, `Tipo_Tarjeta` |
-| 17 | `Evento_Cambio_Jugador` | `Evento_Partido` |
-| 18 | `Tipo_Premio` | `Premio` *(ahora sí)* |
-
-**`INSERT INTO` después de completar Nivel 1 y 2**
-
----
-
-## Nivel 4 - Tablas con Múltiples Dependencias (3 tablas)
-
-**Requieren TODOS los niveles previos:**
-
-| **Orden** | **Tabla** | **Depende de** |
-|-----------|-----------|----------------|
-| 19 | `Posicion_Jugador` | `Plantilla`, `Jugador` |
-| 20 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` |
-| 21 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` |
-| 22 | `Premios_Jugador` | `Premio`, `Jugador` |
-
-**`INSERT INTO` DESPUÉS de completar los 3 niveles anteriores**
-
----
-
-## Secuencia Completa de Inserción
+## Secuencia Completa de Inserción (resumen)
 
 ```sql
--- 🎯 NIVEL 1: Tablas base (SIN FK) - 6 tablas
-INSERT INTO Pais VALUES (...);
-INSERT INTO Fase VALUES (...);
-INSERT INTO Mundial VALUES (...);
-INSERT INTO Jugador VALUES (...);
-INSERT INTO Tipo_Tarjeta VALUES (...);
-INSERT INTO Tipo_Premio VALUES (...);  -- Orden 6
+-- NIVEL 1: Tablas sin FK
+INSERT INTO Fase (...);
+INSERT INTO Grupo (...);
+INSERT INTO Jugador (...);
+INSERT INTO Mundial (...);
+INSERT INTO Pais (...);
+INSERT INTO Tipo_Premio (...);
+INSERT INTO Tipo_Tarjeta (...);
 
--- 🎯 NIVEL 2: 1 dependencia - 7 tablas  
-INSERT INTO Equipo VALUES (...);
-INSERT INTO Grupo VALUES (...);
-INSERT INTO Llave_Mundial VALUES (...);
-INSERT INTO Pais_Clasificado VALUES (...);
-INSERT INTO Red_social VALUES (...);
-INSERT INTO Premio VALUES (...);
-INSERT INTO Evento_Partido VALUES (...);  -- Orden 13
+-- NIVEL 2: Tablas con 1 FK
+INSERT INTO Premio (...);          -- FK Mundial_id_mu
+INSERT INTO Red_social (...);      -- FK Jugador_id_ju
+INSERT INTO Plantilla (...);       -- FK Pais_id_pa
+INSERT INTO Llave_Mundial (...);   -- FK Mundial_id_mu
 
--- 🎯 NIVEL 3: 2 dependencias - 5 tablas
-INSERT INTO Plantilla VALUES (...);
-INSERT INTO Evento_Gol VALUES (...);
-INSERT INTO Evento_Falta VALUES (...);
-INSERT INTO Evento_Cambio_Jugador VALUES (...);
-INSERT INTO Tipo_Premio VALUES (...);  -- Orden 18 (segunda pasada)
-
--- 🎯 NIVEL 4: Múltiples dependencias - 4 tablas
-INSERT INTO Posicion_Jugador VALUES (...);
-INSERT INTO Partido_Plantilla VALUES (...);
-INSERT INTO Cambio_Jugador VALUES (...);
-INSERT INTO Premios_Jugador VALUES (...);
+-- NIVEL 3: Tablas con 2+ FKs
+INSERT INTO Llave_Fase_Mundial (...);        -- Llave_Mundial, Fase
+INSERT INTO Evento_Partido (...);            -- Llave_Mundial
+INSERT INTO Evento_Cambio_Jugador (...);     -- Evento_Partido
+INSERT INTO Pais_Clasificado_Mundial (...);  -- Mundial, Pais, Grupo
+INSERT INTO Evento_Falta (...);              -- Evento_Partido, Tipo_Tarjeta
+INSERT INTO Evento_Gol (...);                -- Evento_Partido, Jugador
+INSERT INTO Partido_Plantilla (...);         -- Plantilla, Evento_Partido
+INSERT INTO Posicion_Jugador (...);          -- Plantilla, Jugador
+INSERT INTO Premio_Tipo_Premio (...);        -- Premio, Tipo_Premio
+INSERT INTO Premios_Jugador (...);           -- Premio, Jugador
+INSERT INTO Cambio_Jugador (...);            -- Evento_Cambio_Jugador, Jugador
 ```
