@@ -3,6 +3,7 @@
 -- Generado automáticamente por scraper_evento_falta.py
 -- =====================================================
 -- Columnas:
+--   id_ev_fa                : ID autoincremental de la falta
 --   Evento_Partido_id_ev_pa : FK a Evento_Partido
 --   Tipo_Tarjeta_id_ti_ta   : FK a Tipo_Tarjeta (1=AMARILLA, 2=ROJA)
 --   minuto_falta            : Minuto de la falta (ej: '67', '90+2')
@@ -10,2674 +11,2669 @@
 -- =====================================================
 
 -- Mundial 1966
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (169, 2, '65', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (172, 2, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (173, 2, '49', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (184, 2, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1, 169, 2, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2, 172, 2, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (3, 173, 2, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (4, 173, 2, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (5, 184, 2, '35', 0);
 
 -- Mundial 1970
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (206, 1, '1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (207, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (208, 1, '1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (210, 1, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (215, 1, '62', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (220, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (224, 1, '38', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (229, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (6, 206, 1, '1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (7, 206, 1, '1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (8, 206, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (9, 207, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (10, 208, 1, '1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (11, 208, 1, '1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (12, 210, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (13, 210, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (14, 215, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (15, 215, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (16, 215, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (17, 220, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (18, 220, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (19, 224, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (20, 224, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (21, 224, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (22, 229, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (23, 229, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (24, 229, 1, '37', 0);
 
 -- Mundial 1974
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (233, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (233, 2, '67', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (234, 1, '45', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (235, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (238, 1, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (239, 1, '72', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (240, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (241, 1, '48', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (242, 1, '56', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (243, 1, '37', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (243, 2, '83', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (244, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (245, 1, '71', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (246, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (247, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (248, 1, '9', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (249, 1, '56', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (250, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (251, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (253, 1, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (254, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (255, 1, '29', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (255, 2, '84', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (256, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (260, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (263, 1, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (266, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (266, 2, '69', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (267, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (268, 2, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (269, 1, '77', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (270, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (25, 233, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (26, 233, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (27, 233, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (28, 233, 2, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (29, 234, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (30, 235, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (31, 235, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (32, 235, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (33, 238, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (34, 238, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (35, 239, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (36, 240, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (37, 240, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (38, 240, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (39, 241, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (40, 241, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (41, 242, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (42, 243, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (43, 243, 2, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (44, 244, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (45, 244, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (46, 244, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (47, 244, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (48, 244, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (49, 245, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (50, 245, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (51, 246, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (52, 246, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (53, 247, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (54, 247, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (55, 247, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (56, 247, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (57, 248, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (58, 248, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (59, 249, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (60, 249, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (61, 249, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (62, 250, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (63, 251, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (64, 251, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (65, 251, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (66, 251, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (67, 251, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (68, 253, 1, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (69, 253, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (70, 253, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (71, 253, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (72, 254, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (73, 254, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (74, 254, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (75, 255, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (76, 255, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (77, 255, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (78, 255, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (79, 255, 2, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (80, 256, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (81, 256, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (82, 256, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (83, 256, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (84, 256, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (85, 260, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (86, 260, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (87, 260, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (88, 263, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (89, 266, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (90, 266, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (91, 266, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (92, 266, 2, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (93, 267, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (94, 267, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (95, 267, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (96, 267, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (97, 268, 2, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (98, 269, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (99, 269, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (100, 270, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (101, 270, 1, '99', 1);
 
 -- Mundial 1978
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (271, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (271, 2, '88', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (276, 1, '45', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (277, 1, '88', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (278, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (279, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (279, 2, '88', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (280, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (281, 1, '75', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (287, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (288, 1, '75', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (289, 1, '50', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (292, 1, '37', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (296, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (297, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (298, 1, '60', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (300, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (301, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (302, 1, '19', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (303, 1, '60', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (305, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (102, 271, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (103, 271, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (104, 271, 2, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (105, 276, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (106, 276, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (107, 276, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (108, 276, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (109, 277, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (110, 278, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (111, 278, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (112, 278, 1, '93', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (113, 278, 1, '94', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (114, 278, 1, '96', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (115, 279, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (116, 279, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (117, 279, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (118, 279, 2, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (119, 279, 2, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (120, 280, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (121, 280, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (122, 281, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (123, 281, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (124, 287, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (125, 287, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (126, 287, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (127, 288, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (128, 288, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (129, 289, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (130, 289, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (131, 292, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (132, 296, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (133, 296, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (134, 296, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (135, 296, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (136, 296, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (137, 297, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (138, 298, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (139, 300, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (140, 300, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (141, 301, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (142, 301, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (143, 302, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (144, 303, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (145, 305, 1, '89', 1);
 
 -- Mundial 1982
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (309, 1, '57', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (310, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (311, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (312, 1, '9', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (313, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (314, 1, '68', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (315, 1, '67', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (317, 1, '50', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (318, 1, '33', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (318, 2, '85', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (319, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (321, 1, '60', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (322, 1, '86', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (323, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (324, 1, '65', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (330, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (333, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (334, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (335, 1, '47', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (335, 2, '87', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (336, 1, '57', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (337, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (339, 1, '81', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (339, 2, '89', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (340, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (341, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (342, 1, '34', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (343, 1, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (344, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (344, 2, '62', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (345, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (346, 1, '1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (346, 2, '84', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (347, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (348, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (349, 1, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (350, 1, '1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (351, 1, '80', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (352, 1, '48', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (353, 1, '34', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (354, 1, '62', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (355, 1, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (356, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (357, 1, '65', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (358, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (146, 309, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (147, 309, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (148, 310, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (149, 310, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (150, 311, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (151, 311, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (152, 312, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (153, 312, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (154, 312, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (155, 312, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (156, 313, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (157, 313, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (158, 313, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (159, 314, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (160, 315, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (161, 317, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (162, 317, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (163, 318, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (164, 318, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (165, 318, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (166, 318, 2, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (167, 319, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (168, 319, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (169, 319, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (170, 319, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (171, 319, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (172, 321, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (173, 322, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (174, 323, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (175, 323, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (176, 324, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (177, 324, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (178, 330, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (179, 330, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (180, 330, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (181, 333, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (182, 334, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (183, 334, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (184, 334, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (185, 334, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (186, 335, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (187, 335, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (188, 335, 2, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (189, 336, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (190, 336, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (191, 337, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (192, 337, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (193, 337, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (194, 339, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (195, 339, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (196, 339, 2, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (197, 340, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (198, 341, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (199, 342, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (200, 343, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (201, 343, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (202, 344, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (203, 344, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (204, 344, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (205, 344, 2, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (206, 345, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (207, 345, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (208, 345, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (209, 345, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (210, 345, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (211, 346, 1, '1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (212, 346, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (213, 346, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (214, 346, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (215, 346, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (216, 346, 2, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (217, 347, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (218, 347, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (219, 348, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (220, 348, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (221, 349, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (222, 349, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (223, 350, 1, '1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (224, 350, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (225, 350, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (226, 351, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (227, 352, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (228, 353, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (229, 353, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (230, 353, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (231, 354, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (232, 354, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (233, 354, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (234, 355, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (235, 355, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (236, 355, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (237, 355, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (238, 356, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (239, 357, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (240, 357, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (241, 357, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (242, 357, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (243, 358, 1, '5', 0);
 
 -- Mundial 1986
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (361, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (362, 1, '59', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (363, 1, '33', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (364, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (365, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (366, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (367, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (368, 1, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (369, 1, '9', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (370, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (371, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (372, 1, '63', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (373, 1, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (376, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (377, 1, '48', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (379, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (380, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (381, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (381, 2, '88', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (382, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (383, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (383, 2, '19', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (384, 1, '84', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (385, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (385, 2, '1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (386, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (387, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (388, 1, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (388, 2, '85', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (389, 1, '41', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (390, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (390, 2, '42', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (391, 1, '37', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (392, 1, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (393, 1, '1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (393, 2, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (394, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (395, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (396, 1, '50', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (397, 1, '54', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (398, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (399, 1, '29', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (400, 1, '33', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (401, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (401, 2, '65', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (402, 1, '58', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (403, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (404, 1, '55', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (405, 1, '29', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (406, 1, '46', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (407, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (408, 1, '64', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (409, 1, '65', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (412, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (244, 361, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (245, 361, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (246, 361, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (247, 362, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (248, 362, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (249, 363, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (250, 363, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (251, 364, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (252, 364, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (253, 364, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (254, 364, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (255, 365, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (256, 365, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (257, 365, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (258, 365, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (259, 365, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (260, 365, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (261, 366, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (262, 366, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (263, 367, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (264, 368, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (265, 368, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (266, 369, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (267, 369, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (268, 370, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (269, 370, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (270, 370, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (271, 370, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (272, 370, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (273, 370, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (274, 370, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (275, 371, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (276, 371, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (277, 371, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (278, 371, 1, '115', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (279, 372, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (280, 373, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (281, 373, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (282, 373, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (283, 376, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (284, 376, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (285, 376, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (286, 376, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (287, 376, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (288, 377, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (289, 377, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (290, 377, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (291, 379, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (292, 379, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (293, 379, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (294, 380, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (295, 380, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (296, 380, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (297, 380, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (298, 380, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (299, 380, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (300, 381, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (301, 381, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (302, 381, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (303, 381, 2, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (304, 382, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (305, 382, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (306, 382, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (307, 382, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (308, 383, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (309, 383, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (310, 383, 2, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (311, 383, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (312, 384, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (313, 385, 2, '1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (314, 385, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (315, 385, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (316, 385, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (317, 385, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (318, 385, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (319, 386, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (320, 386, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (321, 387, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (322, 387, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (323, 387, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (324, 387, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (325, 388, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (326, 388, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (327, 388, 2, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (328, 389, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (329, 389, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (330, 390, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (331, 390, 2, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (332, 390, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (333, 390, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (334, 390, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (335, 391, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (336, 391, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (337, 391, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (338, 392, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (339, 393, 1, '1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (340, 393, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (341, 393, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (342, 393, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (343, 393, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (344, 393, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (345, 393, 2, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (346, 393, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (347, 394, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (348, 394, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (349, 395, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (350, 396, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (351, 396, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (352, 397, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (353, 397, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (354, 397, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (355, 398, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (356, 398, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (357, 398, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (358, 399, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (359, 399, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (360, 400, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (361, 401, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (362, 401, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (363, 401, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (364, 401, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (365, 401, 2, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (366, 401, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (367, 401, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (368, 401, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (369, 401, 1, '94', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (370, 401, 2, '100', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (371, 402, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (372, 403, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (373, 403, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (374, 403, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (375, 403, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (376, 403, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (377, 404, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (378, 404, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (379, 405, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (380, 405, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (381, 406, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (382, 406, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (383, 407, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (384, 407, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (385, 407, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (386, 408, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (387, 409, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (388, 412, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (389, 412, 1, '62', 1);
 
 -- Mundial 1990
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (413, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (413, 2, '70', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (414, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (415, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (416, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (416, 2, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (417, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (418, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (418, 2, '65', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (419, 1, '9', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (419, 2, '61', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (420, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (421, 1, '51', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (421, 2, '48', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (422, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (422, 2, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (423, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (424, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (424, 2, '90', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (425, 1, '39', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (427, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (427, 2, '42', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (428, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (428, 2, '85', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (429, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (430, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (431, 1, '38', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (432, 1, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (433, 1, '28', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (434, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (435, 1, '61', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (436, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (437, 1, '28', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (438, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (438, 2, '70', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (440, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (441, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (442, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (442, 2, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (443, 1, '55', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (444, 1, '65', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (445, 1, '87', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (446, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (448, 1, '75', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (449, 1, '51', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (450, 1, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (451, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (452, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (452, 2, '103', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (453, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (454, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (455, 1, '62', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (457, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (458, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (459, 1, '18', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (460, 1, '59', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (461, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (462, 1, '10', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (463, 1, '85', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (464, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (464, 2, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (390, 413, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (391, 413, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (392, 413, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (393, 413, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (394, 413, 2, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (395, 413, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (396, 414, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (397, 414, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (398, 414, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (399, 414, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (400, 415, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (401, 415, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (402, 415, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (403, 416, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (404, 416, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (405, 416, 2, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (406, 416, 2, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (407, 416, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (408, 416, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (409, 416, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (410, 417, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (411, 418, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (412, 418, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (413, 418, 2, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (414, 418, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (415, 418, 2, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (416, 418, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (417, 419, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (418, 419, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (419, 419, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (420, 419, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (421, 419, 2, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (422, 419, 2, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (423, 420, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (424, 420, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (425, 420, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (426, 420, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (427, 420, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (428, 421, 2, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (429, 421, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (430, 421, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (431, 421, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (432, 421, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (433, 421, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (434, 421, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (435, 422, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (436, 422, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (437, 422, 2, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (438, 422, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (439, 422, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (440, 422, 1, '110', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (441, 423, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (442, 423, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (443, 423, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (444, 423, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (445, 423, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (446, 424, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (447, 424, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (448, 424, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (449, 424, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (450, 424, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (451, 424, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (452, 424, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (453, 424, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (454, 424, 2, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (455, 424, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (456, 425, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (457, 427, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (458, 427, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (459, 427, 2, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (460, 428, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (461, 428, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (462, 428, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (463, 428, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (464, 428, 2, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (465, 428, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (466, 429, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (467, 429, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (468, 429, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (469, 429, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (470, 430, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (471, 430, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (472, 431, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (473, 431, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (474, 431, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (475, 431, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (476, 432, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (477, 432, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (478, 432, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (479, 432, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (480, 432, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (481, 432, 1, '117', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (482, 433, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (483, 433, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (484, 433, 1, '105', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (485, 433, 1, '119', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (486, 434, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (487, 434, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (488, 434, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (489, 435, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (490, 435, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (491, 435, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (492, 436, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (493, 436, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (494, 436, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (495, 436, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (496, 436, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (497, 437, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (498, 437, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (499, 437, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (500, 438, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (501, 438, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (502, 438, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (503, 438, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (504, 438, 2, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (505, 440, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (506, 440, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (507, 440, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (508, 441, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (509, 441, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (510, 441, 1, '92', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (511, 441, 1, '98', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (512, 441, 1, '110', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (513, 442, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (514, 442, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (515, 442, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (516, 442, 2, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (517, 442, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (518, 443, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (519, 443, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (520, 444, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (521, 444, 1, '98', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (522, 444, 1, '110', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (523, 445, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (524, 446, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (525, 446, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (526, 446, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (527, 448, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (528, 449, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (529, 449, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (530, 450, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (531, 451, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (532, 451, 1, '107', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (533, 451, 1, '112', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (534, 451, 1, '116', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (535, 452, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (536, 452, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (537, 452, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (538, 452, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (539, 452, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (540, 452, 2, '103', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (541, 452, 1, '120', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (542, 453, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (543, 454, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (544, 454, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (545, 454, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (546, 454, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (547, 455, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (548, 455, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (549, 457, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (550, 457, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (551, 458, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (552, 458, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (553, 458, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (554, 458, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (555, 458, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (556, 459, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (557, 459, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (558, 459, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (559, 459, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (560, 460, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (561, 460, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (562, 461, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (563, 461, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (564, 462, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (565, 462, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (566, 462, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (567, 462, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (568, 463, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (569, 464, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (570, 464, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (571, 464, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (572, 464, 2, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (573, 464, 1, '76', 1);
 
 -- Mundial 1994
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (465, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (466, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (466, 2, '82', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (467, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (468, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (469, 1, '34', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (470, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (471, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (471, 2, '67', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (472, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (473, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (474, 1, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (475, 1, '19', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (476, 1, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (477, 1, '46', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (478, 1, '8', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (478, 2, '63', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (479, 1, '8', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (479, 2, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (480, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (481, 1, '61', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (482, 1, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (483, 1, '14', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (484, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (485, 1, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (486, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (487, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (488, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (488, 2, '82', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (489, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (489, 2, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (490, 1, '18', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (491, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (492, 1, '41', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (493, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (494, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (495, 1, '28', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (496, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (497, 1, '72', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (498, 1, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (499, 1, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (500, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (501, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (502, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (502, 2, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (503, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (504, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (504, 2, '50', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (505, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (506, 1, '54', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (507, 1, '2', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (507, 2, '75', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (508, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (509, 1, '33', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (510, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (510, 2, '101', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (511, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (511, 2, '73', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (512, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (513, 1, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (513, 2, '63', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (514, 1, '70', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (515, 1, '1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (515, 2, '49', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (516, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (574, 465, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (575, 465, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (576, 465, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (577, 466, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (578, 466, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (579, 466, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (580, 466, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (581, 466, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (582, 466, 2, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (583, 466, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (584, 467, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (585, 467, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (586, 467, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (587, 467, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (588, 468, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (589, 468, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (590, 468, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (591, 468, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (592, 469, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (593, 469, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (594, 469, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (595, 469, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (596, 469, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (597, 469, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (598, 470, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (599, 470, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (600, 470, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (601, 470, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (602, 471, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (603, 471, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (604, 471, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (605, 471, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (606, 471, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (607, 471, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (608, 471, 2, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (609, 471, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (610, 471, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (611, 472, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (612, 472, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (613, 472, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (614, 473, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (615, 473, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (616, 473, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (617, 474, 1, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (618, 474, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (619, 474, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (620, 474, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (621, 475, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (622, 475, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (623, 475, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (624, 475, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (625, 475, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (626, 475, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (627, 476, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (628, 476, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (629, 476, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (630, 476, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (631, 476, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (632, 477, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (633, 477, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (634, 478, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (635, 478, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (636, 478, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (637, 478, 2, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (638, 479, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (639, 479, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (640, 479, 2, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (641, 479, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (642, 479, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (643, 479, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (644, 479, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (645, 479, 2, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (646, 480, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (647, 480, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (648, 480, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (649, 480, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (650, 481, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (651, 481, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (652, 481, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (653, 482, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (654, 482, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (655, 483, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (656, 483, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (657, 483, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (658, 483, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (659, 483, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (660, 483, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (661, 483, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (662, 483, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (663, 484, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (664, 484, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (665, 484, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (666, 484, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (667, 484, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (668, 484, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (669, 484, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (670, 484, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (671, 485, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (672, 485, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (673, 485, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (674, 485, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (675, 485, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (676, 486, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (677, 486, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (678, 487, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (679, 487, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (680, 487, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (681, 487, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (682, 488, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (683, 488, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (684, 488, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (685, 488, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (686, 488, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (687, 488, 2, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (688, 488, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (689, 489, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (690, 489, 2, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (691, 489, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (692, 489, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (693, 489, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (694, 490, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (695, 490, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (696, 490, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (697, 490, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (698, 490, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (699, 490, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (700, 490, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (701, 490, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (702, 491, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (703, 491, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (704, 492, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (705, 492, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (706, 492, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (707, 492, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (708, 493, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (709, 493, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (710, 493, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (711, 494, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (712, 494, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (713, 494, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (714, 494, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (715, 495, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (716, 495, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (717, 495, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (718, 495, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (719, 495, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (720, 496, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (721, 496, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (722, 496, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (723, 497, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (724, 498, 1, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (725, 498, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (726, 498, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (727, 498, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (728, 498, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (729, 499, 1, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (730, 499, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (731, 500, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (732, 500, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (733, 500, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (734, 501, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (735, 501, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (736, 501, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (737, 501, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (738, 502, 2, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (739, 502, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (740, 502, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (741, 502, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (742, 503, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (743, 503, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (744, 503, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (745, 503, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (746, 503, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (747, 503, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (748, 503, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (749, 504, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (750, 504, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (751, 504, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (752, 504, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (753, 504, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (754, 504, 2, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (755, 504, 2, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (756, 504, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (757, 504, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (758, 504, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (759, 505, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (760, 505, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (761, 505, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (762, 505, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (763, 506, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (764, 506, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (765, 507, 1, '2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (766, 507, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (767, 507, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (768, 507, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (769, 507, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (770, 507, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (771, 507, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (772, 507, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (773, 507, 2, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (774, 507, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (775, 508, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (776, 508, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (777, 508, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (778, 509, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (779, 509, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (780, 509, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (781, 509, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (782, 509, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (783, 509, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (784, 509, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (785, 510, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (786, 510, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (787, 510, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (788, 510, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (789, 510, 2, '101', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (790, 510, 1, '108', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (791, 511, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (792, 511, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (793, 511, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (794, 511, 2, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (795, 512, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (796, 512, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (797, 512, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (798, 512, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (799, 512, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (800, 513, 1, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (801, 513, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (802, 513, 2, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (803, 513, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (804, 514, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (805, 514, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (806, 515, 1, '1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (807, 515, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (808, 515, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (809, 515, 2, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (810, 515, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (811, 515, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (812, 516, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (813, 516, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (814, 516, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (815, 516, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (816, 516, 1, '85', 1);
 
 -- Mundial 1998
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (517, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (517, 2, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (518, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (519, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (520, 1, '45+1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (521, 1, '75', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (522, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (523, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (524, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (524, 2, '47', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (525, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (525, 2, '45+1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (526, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (527, 1, '48', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (528, 1, '39', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (528, 2, '28', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (529, 1, '34', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (530, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (531, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (532, 1, '33', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (532, 2, '68', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (533, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (534, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (535, 1, '54', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (536, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (537, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (538, 1, '8', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (538, 2, '51', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (539, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (540, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (541, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (541, 2, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (542, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (542, 2, '53', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (543, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (544, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (545, 1, '56', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (546, 1, '8', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (547, 1, '8', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (548, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (549, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (549, 2, '19', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (550, 1, '45', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (550, 2, '76', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (551, 1, '53', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (552, 1, '19', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (553, 1, '28', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (554, 1, '10', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (554, 2, '76', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (555, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (555, 2, '82', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (556, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (557, 1, '34', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (558, 1, '18', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (558, 2, '89', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (559, 1, '38', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (560, 1, '48', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (561, 1, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (562, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (562, 2, '42', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (563, 1, '8', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (564, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (565, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (566, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (567, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (568, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (569, 1, '79', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (570, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (571, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (572, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (573, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (573, 2, '89', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (574, 1, '42', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (575, 1, '47', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (576, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (577, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (578, 1, '28', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (579, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (580, 1, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (580, 2, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (817, 517, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (818, 517, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (819, 517, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (820, 517, 2, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (821, 517, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (822, 518, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (823, 518, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (824, 518, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (825, 518, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (826, 518, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (827, 519, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (828, 519, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (829, 519, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (830, 520, 1, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (831, 520, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (832, 520, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (833, 520, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (834, 520, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (835, 520, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (836, 521, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (837, 522, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (838, 522, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (839, 522, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (840, 522, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (841, 523, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (842, 523, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (843, 523, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (844, 523, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (845, 523, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (846, 523, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (847, 523, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (848, 524, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (849, 524, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (850, 524, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (851, 524, 2, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (852, 524, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (853, 524, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (854, 524, 1, '110', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (855, 525, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (856, 525, 2, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (857, 525, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (858, 525, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (859, 526, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (860, 526, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (861, 526, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (862, 527, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (863, 527, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (864, 527, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (865, 527, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (866, 527, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (867, 528, 2, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (868, 528, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (869, 528, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (870, 528, 2, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (871, 528, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (872, 529, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (873, 529, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (874, 529, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (875, 529, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (876, 530, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (877, 530, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (878, 530, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (879, 530, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (880, 530, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (881, 530, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (882, 531, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (883, 531, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (884, 531, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (885, 532, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (886, 532, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (887, 532, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (888, 532, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (889, 532, 2, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (890, 533, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (891, 533, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (892, 533, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (893, 533, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (894, 533, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (895, 533, 1, '119', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (896, 534, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (897, 534, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (898, 534, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (899, 534, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (900, 535, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (901, 535, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (902, 536, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (903, 536, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (904, 537, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (905, 537, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (906, 537, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (907, 537, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (908, 537, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (909, 538, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (910, 538, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (911, 538, 2, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (912, 538, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (913, 538, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (914, 538, 2, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (915, 538, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (916, 539, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (917, 539, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (918, 539, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (919, 539, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (920, 539, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (921, 540, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (922, 540, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (923, 540, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (924, 541, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (925, 541, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (926, 541, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (927, 541, 2, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (928, 542, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (929, 542, 2, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (930, 542, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (931, 543, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (932, 543, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (933, 543, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (934, 543, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (935, 544, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (936, 544, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (937, 544, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (938, 544, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (939, 545, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (940, 545, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (941, 545, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (942, 545, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (943, 546, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (944, 546, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (945, 546, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (946, 546, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (947, 547, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (948, 547, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (949, 547, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (950, 548, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (951, 548, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (952, 548, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (953, 549, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (954, 549, 2, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (955, 549, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (956, 549, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (957, 549, 2, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (958, 549, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (959, 550, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (960, 550, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (961, 550, 2, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (962, 550, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (963, 551, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (964, 551, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (965, 551, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (966, 551, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (967, 552, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (968, 552, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (969, 552, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (970, 552, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (971, 552, 1, '99', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (972, 553, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (973, 553, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (974, 553, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (975, 553, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (976, 554, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (977, 554, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (978, 554, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (979, 554, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (980, 554, 2, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (981, 554, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (982, 554, 2, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (983, 555, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (984, 555, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (985, 555, 2, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (986, 556, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (987, 556, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (988, 557, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (989, 557, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (990, 557, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (991, 557, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (992, 557, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (993, 557, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (994, 558, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (995, 558, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (996, 558, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (997, 558, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (998, 558, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (999, 558, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1000, 558, 2, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1001, 559, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1002, 559, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1003, 559, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1004, 560, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1005, 560, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1006, 560, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1007, 560, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1008, 561, 1, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1009, 561, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1010, 561, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1011, 561, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1012, 561, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1013, 562, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1014, 562, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1015, 562, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1016, 562, 2, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1017, 562, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1018, 562, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1019, 562, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1020, 563, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1021, 563, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1022, 563, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1023, 563, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1024, 563, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1025, 564, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1026, 564, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1027, 564, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1028, 564, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1029, 564, 1, '113', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1030, 565, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1031, 565, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1032, 565, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1033, 565, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1034, 565, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1035, 565, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1036, 566, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1037, 566, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1038, 566, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1039, 567, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1040, 567, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1041, 567, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1042, 567, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1043, 567, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1044, 568, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1045, 568, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1046, 568, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1047, 569, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1048, 570, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1049, 570, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1050, 570, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1051, 570, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1052, 570, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1053, 570, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1054, 571, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1055, 571, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1056, 572, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1057, 572, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1058, 573, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1059, 573, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1060, 573, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1061, 573, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1062, 573, 2, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1063, 574, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1064, 574, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1065, 575, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1066, 575, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1067, 575, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1068, 575, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1069, 576, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1070, 576, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1071, 576, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1072, 576, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1073, 576, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1074, 577, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1075, 577, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1076, 577, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1077, 577, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1078, 578, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1079, 578, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1080, 579, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1081, 579, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1082, 579, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1083, 580, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1084, 580, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1085, 580, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1086, 580, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1087, 580, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1088, 580, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1089, 580, 2, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1090, 580, 2, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1091, 580, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1092, 580, 2, '85', 1);
 
 -- Mundial 2002
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (581, 1, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (582, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (583, 1, '71', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (584, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (586, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (586, 2, '90+2', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (587, 1, '61', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (588, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (589, 1, '51', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (590, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (591, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (592, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (593, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (593, 2, '86', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (594, 1, '41', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (595, 1, '8', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (595, 2, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (596, 1, '10', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (597, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (598, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (599, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (599, 2, '103', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (600, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (601, 1, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (602, 1, '90+3', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (603, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (604, 1, '59', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (605, 1, '8', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (606, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (607, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (607, 2, '80', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (608, 1, '72', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (609, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (609, 2, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (610, 1, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (611, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (612, 1, '62', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (613, 1, '9', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (614, 1, '34', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (615, 1, '45+2', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (616, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (616, 2, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (617, 1, '75', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (617, 2, '57', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (618, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (619, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (620, 1, '39', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (621, 1, '14', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (622, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (623, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (624, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (625, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (626, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (626, 2, '88', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (627, 1, '2', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (629, 1, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (630, 1, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (631, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (631, 2, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (632, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (633, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (634, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (635, 1, '2', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (636, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (637, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (638, 1, '55', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (638, 2, '45+2', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (639, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (640, 1, '73', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (641, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (642, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (643, 1, '19', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (643, 2, '58', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (644, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1093, 581, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1094, 581, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1095, 581, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1096, 582, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1097, 582, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1098, 583, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1099, 583, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1100, 583, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1101, 584, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1102, 584, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1103, 584, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1104, 584, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1105, 584, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1106, 584, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1107, 584, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1108, 586, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1109, 586, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1110, 586, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1111, 586, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1112, 586, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1113, 586, 2, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1114, 587, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1115, 587, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1116, 588, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1117, 588, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1118, 588, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1119, 589, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1120, 589, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1121, 589, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1122, 590, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1123, 590, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1124, 590, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1125, 590, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1126, 590, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1127, 591, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1128, 591, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1129, 592, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1130, 592, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1131, 593, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1132, 593, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1133, 593, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1134, 593, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1135, 593, 2, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1136, 593, 2, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1137, 594, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1138, 594, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1139, 594, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1140, 595, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1141, 595, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1142, 595, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1143, 595, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1144, 595, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1145, 595, 2, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1146, 595, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1147, 595, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1148, 595, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1149, 595, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1150, 595, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1151, 595, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1152, 595, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1153, 595, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1154, 595, 2, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1155, 595, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1156, 596, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1157, 596, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1158, 597, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1159, 597, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1160, 597, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1161, 597, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1162, 597, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1163, 597, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1164, 597, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1165, 598, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1166, 598, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1167, 598, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1168, 599, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1169, 599, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1170, 599, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1171, 599, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1172, 599, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1173, 599, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1174, 599, 1, '99', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1175, 599, 2, '103', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1176, 599, 1, '115', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1177, 600, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1178, 600, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1179, 600, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1180, 600, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1181, 600, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1182, 601, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1183, 601, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1184, 601, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1185, 602, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1186, 603, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1187, 603, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1188, 603, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1189, 603, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1190, 603, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1191, 604, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1192, 605, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1193, 605, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1194, 605, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1195, 606, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1196, 606, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1197, 607, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1198, 607, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1199, 607, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1200, 607, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1201, 607, 2, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1202, 607, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1203, 607, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1204, 608, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1205, 608, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1206, 608, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1207, 609, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1208, 609, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1209, 609, 2, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1210, 609, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1211, 609, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1212, 609, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1213, 609, 2, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1214, 610, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1215, 610, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1216, 610, 1, '111', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1217, 611, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1218, 611, 1, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1219, 611, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1220, 612, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1221, 612, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1222, 612, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1223, 613, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1224, 613, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1225, 613, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1226, 613, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1227, 614, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1228, 614, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1229, 614, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1230, 615, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1231, 615, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1232, 616, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1233, 616, 2, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1234, 616, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1235, 616, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1236, 616, 1, '45+3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1237, 616, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1238, 617, 2, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1239, 617, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1240, 617, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1241, 618, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1242, 618, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1243, 618, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1244, 619, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1245, 619, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1246, 619, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1247, 619, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1248, 620, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1249, 620, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1250, 621, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1251, 621, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1252, 621, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1253, 621, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1254, 622, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1255, 622, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1256, 622, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1257, 622, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1258, 622, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1259, 623, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1260, 623, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1261, 623, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1262, 623, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1263, 623, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1264, 623, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1265, 624, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1266, 624, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1267, 624, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1268, 624, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1269, 625, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1270, 625, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1271, 625, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1272, 625, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1273, 625, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1274, 625, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1275, 626, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1276, 626, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1277, 626, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1278, 626, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1279, 626, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1280, 626, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1281, 626, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1282, 626, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1283, 626, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1284, 626, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1285, 626, 2, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1286, 627, 1, '2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1287, 627, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1288, 627, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1289, 627, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1290, 627, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1291, 627, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1292, 627, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1293, 629, 1, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1294, 629, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1295, 629, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1296, 629, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1297, 629, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1298, 629, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1299, 629, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1300, 629, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1301, 630, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1302, 630, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1303, 630, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1304, 630, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1305, 630, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1306, 631, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1307, 631, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1308, 631, 2, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1309, 631, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1310, 631, 2, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1311, 631, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1312, 631, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1313, 631, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1314, 632, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1315, 632, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1316, 632, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1317, 632, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1318, 632, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1319, 633, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1320, 633, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1321, 633, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1322, 633, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1323, 634, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1324, 634, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1325, 634, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1326, 634, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1327, 635, 1, '2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1328, 635, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1329, 635, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1330, 635, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1331, 635, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1332, 635, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1333, 635, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1334, 635, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1335, 635, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1336, 635, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1337, 635, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1338, 635, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1339, 636, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1340, 636, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1341, 636, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1342, 636, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1343, 636, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1344, 636, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1345, 637, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1346, 637, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1347, 637, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1348, 637, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1349, 638, 2, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1350, 638, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1351, 638, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1352, 638, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1353, 638, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1354, 638, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1355, 639, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1356, 639, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1357, 639, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1358, 640, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1359, 640, 1, '94', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1360, 641, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1361, 641, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1362, 641, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1363, 641, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1364, 641, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1365, 642, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1366, 642, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1367, 643, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1368, 643, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1369, 643, 1, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1370, 643, 2, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1371, 643, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1372, 643, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1373, 644, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1374, 644, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1375, 644, 1, '51', 1);
 
 -- Mundial 2006
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (645, 1, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (645, 2, '120', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (646, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (647, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (648, 1, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (648, 2, '75', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (649, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (650, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (650, 2, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (651, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (652, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (653, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (654, 1, '41', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (655, 1, '45+1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (656, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (656, 2, '65', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (657, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (658, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (659, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (660, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (661, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (661, 2, '81', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (662, 1, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (662, 2, '53', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (663, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (663, 2, '45+1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (664, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (665, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (665, 2, '85', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (666, 1, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (667, 1, '10', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (668, 1, '68', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (669, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (670, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (670, 2, '47', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (671, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (672, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (673, 1, '42', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (674, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (675, 1, '28', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (676, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (677, 1, '18', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (678, 1, '19', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (679, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (679, 2, '62', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (680, 1, '18', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (681, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (682, 1, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (682, 2, '50', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (683, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (683, 2, '28', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (684, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (684, 2, '110', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (685, 1, '10', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (687, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (688, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (689, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (689, 2, '79', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (690, 1, '18', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (691, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (692, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (693, 1, '83', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (694, 1, '2', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (694, 2, '45+1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (695, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (696, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (696, 2, '61', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (697, 1, '18', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (697, 2, '65', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (698, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (698, 2, '45+2', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (699, 1, '34', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (700, 1, '76', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (701, 1, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (702, 1, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (703, 1, '59', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (704, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (705, 1, '45', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (706, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (706, 2, '46', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (707, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (708, 1, '9', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (708, 2, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1376, 645, 1, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1377, 645, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1378, 645, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1379, 645, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1380, 645, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1381, 645, 1, '95', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1382, 645, 1, '114', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1383, 645, 2, '120', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1384, 646, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1385, 647, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1386, 647, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1387, 647, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1388, 648, 1, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1389, 648, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1390, 648, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1391, 648, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1392, 648, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1393, 648, 2, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1394, 648, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1395, 649, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1396, 649, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1397, 649, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1398, 649, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1399, 649, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1400, 650, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1401, 650, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1402, 650, 2, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1403, 650, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1404, 650, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1405, 651, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1406, 651, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1407, 651, 1, '45+3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1408, 651, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1409, 651, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1410, 652, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1411, 652, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1412, 652, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1413, 652, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1414, 652, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1415, 653, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1416, 653, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1417, 653, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1418, 653, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1419, 653, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1420, 653, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1421, 654, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1422, 654, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1423, 654, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1424, 654, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1425, 654, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1426, 655, 1, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1427, 655, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1428, 655, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1429, 655, 1, '112', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1430, 655, 1, '118', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1431, 655, 1, '119', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1432, 656, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1433, 656, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1434, 656, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1435, 656, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1436, 656, 2, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1437, 657, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1438, 657, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1439, 657, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1440, 657, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1441, 657, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1442, 657, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1443, 657, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1444, 658, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1445, 658, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1446, 658, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1447, 658, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1448, 658, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1449, 659, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1450, 659, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1451, 659, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1452, 659, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1453, 660, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1454, 660, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1455, 660, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1456, 660, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1457, 660, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1458, 660, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1459, 660, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1460, 661, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1461, 661, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1462, 661, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1463, 661, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1464, 661, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1465, 661, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1466, 661, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1467, 661, 2, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1468, 662, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1469, 662, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1470, 662, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1471, 662, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1472, 662, 2, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1473, 662, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1474, 663, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1475, 663, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1476, 663, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1477, 663, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1478, 663, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1479, 663, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1480, 663, 2, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1481, 663, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1482, 663, 2, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1483, 664, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1484, 664, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1485, 664, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1486, 664, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1487, 664, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1488, 664, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1489, 664, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1490, 664, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1491, 664, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1492, 664, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1493, 665, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1494, 665, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1495, 665, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1496, 665, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1497, 665, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1498, 665, 2, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1499, 665, 2, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1500, 665, 2, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1501, 666, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1502, 666, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1503, 667, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1504, 667, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1505, 667, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1506, 667, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1507, 667, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1508, 668, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1509, 668, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1510, 668, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1511, 668, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1512, 669, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1513, 669, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1514, 669, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1515, 669, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1516, 669, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1517, 669, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1518, 669, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1519, 669, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1520, 670, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1521, 670, 2, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1522, 670, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1523, 671, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1524, 671, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1525, 671, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1526, 671, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1527, 671, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1528, 671, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1529, 672, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1530, 672, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1531, 672, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1532, 672, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1533, 673, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1534, 673, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1535, 673, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1536, 673, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1537, 673, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1538, 673, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1539, 673, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1540, 673, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1541, 674, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1542, 674, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1543, 674, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1544, 674, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1545, 674, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1546, 675, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1547, 675, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1548, 675, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1549, 675, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1550, 675, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1551, 676, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1552, 676, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1553, 676, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1554, 676, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1555, 676, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1556, 676, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1557, 676, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1558, 677, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1559, 677, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1560, 677, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1561, 677, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1562, 677, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1563, 677, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1564, 678, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1565, 678, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1566, 678, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1567, 679, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1568, 679, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1569, 679, 2, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1570, 679, 1, '107', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1571, 679, 1, '111', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1572, 680, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1573, 680, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1574, 680, 1, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1575, 680, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1576, 680, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1577, 680, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1578, 681, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1579, 681, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1580, 681, 1, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1581, 681, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1582, 681, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1583, 681, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1584, 682, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1585, 682, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1586, 682, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1587, 682, 2, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1588, 682, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1589, 682, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1590, 682, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1591, 683, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1592, 683, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1593, 683, 2, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1594, 683, 2, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1595, 683, 2, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1596, 683, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1597, 684, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1598, 684, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1599, 684, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1600, 684, 2, '110', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1601, 684, 1, '111', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1602, 685, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1603, 685, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1604, 685, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1605, 685, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1606, 685, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1607, 687, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1608, 687, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1609, 688, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1610, 688, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1611, 688, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1612, 688, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1613, 688, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1614, 689, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1615, 689, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1616, 689, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1617, 689, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1618, 689, 2, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1619, 689, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1620, 690, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1621, 690, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1622, 690, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1623, 691, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1624, 691, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1625, 691, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1626, 691, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1627, 692, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1628, 692, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1629, 692, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1630, 693, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1631, 693, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1632, 694, 1, '2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1633, 694, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1634, 694, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1635, 694, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1636, 694, 2, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1637, 694, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1638, 694, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1639, 694, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1640, 694, 2, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1641, 694, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1642, 694, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1643, 694, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1644, 694, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1645, 694, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1646, 694, 2, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1647, 694, 2, '90+5', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1648, 695, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1649, 695, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1650, 695, 1, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1651, 695, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1652, 695, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1653, 695, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1654, 695, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1655, 696, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1656, 696, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1657, 696, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1658, 696, 2, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1659, 696, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1660, 696, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1661, 696, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1662, 696, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1663, 696, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1664, 697, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1665, 697, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1666, 697, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1667, 697, 2, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1668, 697, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1669, 697, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1670, 697, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1671, 697, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1672, 698, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1673, 698, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1674, 698, 2, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1675, 699, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1676, 699, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1677, 699, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1678, 699, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1679, 699, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1680, 699, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1681, 700, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1682, 700, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1683, 700, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1684, 701, 1, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1685, 701, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1686, 701, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1687, 701, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1688, 701, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1689, 701, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1690, 701, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1691, 701, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1692, 702, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1693, 702, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1694, 702, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1695, 702, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1696, 702, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1697, 702, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1698, 702, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1699, 702, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1700, 702, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1701, 702, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1702, 703, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1703, 704, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1704, 704, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1705, 704, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1706, 704, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1707, 705, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1708, 705, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1709, 705, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1710, 705, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1711, 706, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1712, 706, 2, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1713, 706, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1714, 706, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1715, 707, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1716, 707, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1717, 707, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1718, 707, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1719, 708, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1720, 708, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1721, 708, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1722, 708, 2, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1723, 708, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1724, 708, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1725, 708, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1726, 708, 1, '90', 1);
 
 -- Mundial 2010
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (709, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (709, 2, '56', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (711, 1, '47', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (712, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (712, 2, '37', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (713, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (713, 2, '73', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (714, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (715, 1, '10', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (716, 1, '28', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (717, 1, '41', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (718, 1, '18', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (719, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (720, 1, '88', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (721, 2, '88', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (722, 1, '49', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (723, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (724, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (724, 2, '37', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (725, 1, '2', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (725, 2, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (727, 1, '56', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (728, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (729, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (730, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (731, 1, '42', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (732, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (733, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (734, 1, '8', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (735, 1, '74', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (735, 2, '89', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (736, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (737, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (737, 2, '90+3', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (738, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (739, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (740, 1, '71', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (740, 2, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (741, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (742, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (742, 2, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (743, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (744, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (744, 2, '33', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (745, 1, '14', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (746, 1, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (747, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (748, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (748, 2, '109', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (749, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (750, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (751, 1, '58', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (752, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (753, 1, '14', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (754, 1, '62', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (755, 1, '72', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (756, 1, '68', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (757, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (758, 1, '42', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (759, 1, '57', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (760, 1, '58', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (761, 1, '10', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (762, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (763, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (764, 1, '19', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (764, 2, '74', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (765, 1, '18', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (766, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (766, 2, '76', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (767, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (768, 1, '5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (769, 1, '38', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (770, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (770, 2, '81', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (771, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (771, 2, '120+1', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (772, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1727, 709, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1728, 709, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1729, 709, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1730, 709, 2, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1731, 709, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1732, 709, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1733, 711, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1734, 711, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1735, 712, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1736, 712, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1737, 712, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1738, 712, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1739, 712, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1740, 712, 2, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1741, 712, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1742, 712, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1743, 712, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1744, 713, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1745, 713, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1746, 713, 2, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1747, 713, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1748, 713, 1, '90+5', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1749, 714, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1750, 714, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1751, 714, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1752, 715, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1753, 715, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1754, 715, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1755, 715, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1756, 715, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1757, 716, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1758, 717, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1759, 717, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1760, 718, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1761, 718, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1762, 718, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1763, 718, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1764, 718, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1765, 719, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1766, 719, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1767, 719, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1768, 719, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1769, 719, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1770, 720, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1771, 721, 2, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1772, 722, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1773, 722, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1774, 722, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1775, 722, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1776, 723, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1777, 723, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1778, 723, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1779, 723, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1780, 723, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1781, 724, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1782, 724, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1783, 724, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1784, 724, 2, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1785, 725, 1, '2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1786, 725, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1787, 725, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1788, 725, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1789, 725, 2, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1790, 725, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1791, 725, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1792, 725, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1793, 725, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1794, 725, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1795, 727, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1796, 728, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1797, 728, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1798, 728, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1799, 729, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1800, 729, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1801, 729, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1802, 729, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1803, 729, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1804, 730, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1805, 730, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1806, 730, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1807, 730, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1808, 730, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1809, 730, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1810, 730, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1811, 730, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1812, 731, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1813, 731, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1814, 731, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1815, 731, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1816, 732, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1817, 732, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1818, 732, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1819, 732, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1820, 732, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1821, 733, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1822, 733, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1823, 733, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1824, 733, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1825, 734, 1, '8', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1826, 734, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1827, 735, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1828, 735, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1829, 735, 2, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1830, 736, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1831, 736, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1832, 736, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1833, 736, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1834, 737, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1835, 737, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1836, 737, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1837, 737, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1838, 737, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1839, 737, 2, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1840, 738, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1841, 738, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1842, 738, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1843, 738, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1844, 738, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1845, 739, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1846, 739, 1, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1847, 739, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1848, 739, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1849, 739, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1850, 739, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1851, 740, 2, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1852, 740, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1853, 741, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1854, 741, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1855, 742, 2, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1856, 742, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1857, 742, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1858, 742, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1859, 742, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1860, 743, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1861, 743, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1862, 744, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1863, 744, 2, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1864, 744, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1865, 744, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1866, 744, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1867, 745, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1868, 745, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1869, 745, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1870, 745, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1871, 745, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1872, 746, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1873, 746, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1874, 746, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1875, 747, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1876, 747, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1877, 747, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1878, 747, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1879, 747, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1880, 748, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1881, 748, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1882, 748, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1883, 748, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1884, 748, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1885, 748, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1886, 748, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1887, 748, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1888, 748, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1889, 748, 2, '109', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1890, 748, 1, '111', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1891, 748, 1, '117', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1892, 748, 1, '118', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1893, 748, 1, '120+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1894, 749, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1895, 750, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1896, 750, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1897, 750, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1898, 751, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1899, 751, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1900, 752, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1901, 752, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1902, 752, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1903, 752, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1904, 752, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1905, 752, 1, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1906, 753, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1907, 753, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1908, 753, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1909, 754, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1910, 754, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1911, 755, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1912, 755, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1913, 756, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1914, 756, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1915, 756, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1916, 757, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1917, 757, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1918, 757, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1919, 757, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1920, 758, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1921, 758, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1922, 758, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1923, 759, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1924, 759, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1925, 759, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1926, 759, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1927, 759, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1928, 759, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1929, 760, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1930, 760, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1931, 760, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1932, 760, 1, '113', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1933, 760, 1, '118', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1934, 761, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1935, 761, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1936, 761, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1937, 762, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1938, 762, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1939, 762, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1940, 762, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1941, 762, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1942, 762, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1943, 762, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1944, 763, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1945, 763, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1946, 763, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1947, 763, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1948, 764, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1949, 764, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1950, 764, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1951, 764, 2, '74', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1952, 764, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1953, 764, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1954, 765, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1955, 765, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1956, 765, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1957, 765, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1958, 766, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1959, 766, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1960, 766, 2, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1961, 767, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1962, 767, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1963, 767, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1964, 767, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1965, 767, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1966, 768, 1, '5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1967, 768, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1968, 768, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1969, 768, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1970, 769, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1971, 769, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1972, 769, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1973, 770, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1974, 770, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1975, 770, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1976, 770, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1977, 770, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1978, 770, 2, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1979, 770, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1980, 771, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1981, 771, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1982, 771, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1983, 771, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1984, 771, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1985, 771, 1, '93', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1986, 771, 2, '120+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1987, 772, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1988, 772, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1989, 772, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1990, 772, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1991, 772, 1, '90+5', 1);
 
 -- Mundial 2014
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (773, 1, '42', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (774, 1, '29', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (775, 1, '90+4', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (776, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (776, 2, '37', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (777, 1, '39', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (778, 1, '53', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (779, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (780, 1, '53', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (781, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (782, 1, '62', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (783, 1, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (784, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (785, 1, '18', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (786, 1, '38', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (787, 1, '77', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (788, 1, '68', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (789, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (790, 1, '64', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (791, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (792, 1, '2', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (793, 1, '45', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (794, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (795, 1, '89', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (795, 2, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (796, 1, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (797, 1, '55', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (798, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (799, 1, '55', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (800, 1, '54', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (801, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (801, 2, '45', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (802, 1, '23', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (803, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (803, 2, '66', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (804, 1, '53', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (805, 1, '9', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (805, 2, '69', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (806, 1, '83', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (806, 2, '50', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (807, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (808, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (809, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (810, 1, '75', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (811, 1, '54', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (812, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (812, 2, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (813, 1, '54', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (814, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (815, 1, '37', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (816, 1, '45', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (817, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (818, 1, '37', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (819, 1, '69', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (820, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (821, 1, '66', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (822, 1, '90+2', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (823, 1, '75', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (824, 1, '69', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (825, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (825, 2, '59', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (826, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (827, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (827, 2, '38', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (828, 1, '57', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (829, 1, '49', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (830, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (831, 1, '39', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (832, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (833, 1, '53', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (834, 1, '88', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (835, 1, '50', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (835, 2, '90+4', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (836, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1992, 773, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1993, 773, 1, '107', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1994, 774, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1995, 774, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1996, 774, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1997, 774, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1998, 775, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (1999, 776, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2000, 776, 2, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2001, 777, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2002, 777, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2003, 777, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2004, 777, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2005, 777, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2006, 778, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2007, 778, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2008, 778, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2009, 779, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2010, 779, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2011, 780, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2012, 780, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2013, 781, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2014, 781, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2015, 781, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2016, 781, 1, '120', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2017, 781, 1, '120+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2018, 782, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2019, 782, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2020, 782, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2021, 783, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2022, 783, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2023, 784, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2024, 784, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2025, 785, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2026, 785, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2027, 786, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2028, 786, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2029, 786, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2030, 787, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2031, 787, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2032, 788, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2033, 789, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2034, 789, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2035, 789, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2036, 789, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2037, 789, 1, '93', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2038, 789, 1, '102', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2039, 789, 1, '105+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2040, 790, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2041, 790, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2042, 790, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2043, 790, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2044, 791, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2045, 791, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2046, 791, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2047, 791, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2048, 792, 1, '2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2049, 792, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2050, 792, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2051, 792, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2052, 792, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2053, 793, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2054, 793, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2055, 793, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2056, 793, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2057, 794, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2058, 794, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2059, 794, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2060, 795, 2, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2061, 795, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2062, 796, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2063, 796, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2064, 796, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2065, 796, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2066, 797, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2067, 797, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2068, 798, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2069, 798, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2070, 798, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2071, 799, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2072, 799, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2073, 799, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2074, 800, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2075, 800, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2076, 800, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2077, 801, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2078, 801, 2, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2079, 801, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2080, 802, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2081, 802, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2082, 802, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2083, 802, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2084, 803, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2085, 803, 1, '42', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2086, 803, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2087, 803, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2088, 803, 2, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2089, 803, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2090, 803, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2091, 803, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2092, 804, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2093, 804, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2094, 804, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2095, 805, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2096, 805, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2097, 805, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2098, 805, 2, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2099, 806, 2, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2100, 806, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2101, 807, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2102, 807, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2103, 807, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2104, 808, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2105, 808, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2106, 808, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2107, 808, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2108, 809, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2109, 809, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2110, 809, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2111, 810, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2112, 811, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2113, 811, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2114, 812, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2115, 812, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2116, 812, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2117, 812, 2, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2118, 812, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2119, 812, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2120, 812, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2121, 813, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2122, 814, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2123, 814, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2124, 815, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2125, 815, 1, '62', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2126, 815, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2127, 816, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2128, 816, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2129, 816, 1, '105', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2130, 817, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2131, 817, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2132, 818, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2133, 818, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2134, 818, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2135, 818, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2136, 818, 1, '107', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2137, 818, 1, '111', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2138, 819, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2139, 819, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2140, 819, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2141, 820, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2142, 820, 1, '45+3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2143, 820, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2144, 820, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2145, 820, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2146, 821, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2147, 822, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2148, 823, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2149, 824, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2150, 824, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2151, 825, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2152, 825, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2153, 825, 2, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2154, 825, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2155, 825, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2156, 826, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2157, 826, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2158, 827, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2159, 827, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2160, 827, 2, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2161, 827, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2162, 827, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2163, 828, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2164, 828, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2165, 829, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2166, 829, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2167, 830, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2168, 830, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2169, 831, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2170, 831, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2171, 831, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2172, 831, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2173, 832, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2174, 832, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2175, 832, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2176, 832, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2177, 833, 1, '53', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2178, 833, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2179, 834, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2180, 835, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2181, 835, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2182, 835, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2183, 835, 2, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2184, 836, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2185, 836, 1, '68', 1);
 
 -- Mundial 2018
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (837, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (838, 1, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (838, 2, '82', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (839, 1, '45+5', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (840, 1, '39', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (842, 1, '10', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (843, 1, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (844, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (845, 1, '14', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (846, 1, '14', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (847, 1, '47', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (848, 1, '81', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (849, 1, '38', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (850, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (851, 1, '41', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (852, 1, '64', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (852, 2, '3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (853, 1, '9', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (854, 1, '58', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (855, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (856, 1, '115', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (857, 1, '48', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (858, 1, '30', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (859, 1, '37', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (860, 1, '45+3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (861, 1, '90+4', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (862, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (863, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (864, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (865, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (866, 1, '63', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (867, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (868, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (869, 1, '19', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (870, 1, '10', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (871, 1, '79', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (872, 1, '33', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (873, 1, '14', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (874, 1, '66', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (875, 1, '59', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (876, 1, '10', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (877, 1, '1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (878, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (879, 1, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (880, 1, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (881, 1, '38', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (882, 1, '61', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (883, 1, '12', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (884, 1, '17', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (885, 1, '40', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (886, 1, '88', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (887, 1, '35', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (888, 1, '57', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (889, 1, '45', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (890, 1, '33', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (891, 1, '34', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (892, 1, '13', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (893, 1, '87', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (894, 1, '31', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (894, 2, '90+4', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (895, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (896, 1, '33', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (898, 1, '33', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (899, 1, '90+3', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (900, 1, '9', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (900, 2, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2186, 837, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2187, 837, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2188, 837, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2189, 837, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2190, 838, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2191, 838, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2192, 838, 2, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2193, 838, 1, '90+7', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2194, 839, 1, '45+5', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2195, 839, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2196, 840, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2197, 840, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2198, 840, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2199, 840, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2200, 840, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2201, 840, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2202, 840, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2203, 842, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2204, 842, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2205, 842, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2206, 842, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2207, 842, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2208, 842, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2209, 843, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2210, 843, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2211, 843, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2212, 844, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2213, 845, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2214, 845, 1, '18', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2215, 845, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2216, 845, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2217, 845, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2218, 845, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2219, 845, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2220, 845, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2221, 846, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2222, 847, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2223, 847, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2224, 847, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2225, 847, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2226, 848, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2227, 848, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2228, 848, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2229, 849, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2230, 849, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2231, 849, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2232, 849, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2233, 849, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2234, 849, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2235, 850, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2236, 850, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2237, 850, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2238, 850, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2239, 851, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2240, 851, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2241, 851, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2242, 851, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2243, 851, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2244, 851, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2245, 851, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2246, 851, 1, '118', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2247, 852, 2, '3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2248, 852, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2249, 852, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2250, 852, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2251, 853, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2252, 853, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2253, 853, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2254, 853, 1, '65', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2255, 854, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2256, 854, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2257, 854, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2258, 854, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2259, 855, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2260, 855, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2261, 855, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2262, 855, 1, '90+8', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2263, 856, 1, '115', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2264, 857, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2265, 857, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2266, 857, 1, '96', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2267, 858, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2268, 858, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2269, 858, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2270, 859, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2271, 859, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2272, 860, 1, '45+3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2273, 861, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2274, 861, 1, '90+6', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2275, 862, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2276, 862, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2277, 862, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2278, 862, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2279, 862, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2280, 862, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2281, 863, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2282, 863, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2283, 863, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2284, 864, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2285, 864, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2286, 864, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2287, 864, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2288, 864, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2289, 864, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2290, 864, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2291, 864, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2292, 865, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2293, 865, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2294, 865, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2295, 865, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2296, 866, 1, '63', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2297, 866, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2298, 866, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2299, 866, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2300, 866, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2301, 867, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2302, 867, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2303, 867, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2304, 868, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2305, 868, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2306, 868, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2307, 868, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2308, 869, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2309, 869, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2310, 870, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2311, 870, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2312, 870, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2313, 870, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2314, 871, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2315, 871, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2316, 872, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2317, 872, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2318, 872, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2319, 872, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2320, 872, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2321, 872, 1, '90+8', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2322, 873, 1, '14', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2323, 873, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2324, 873, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2325, 873, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2326, 873, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2327, 874, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2328, 875, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2329, 875, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2330, 875, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2331, 875, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2332, 875, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2333, 876, 1, '10', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2334, 876, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2335, 876, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2336, 876, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2337, 877, 1, '1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2338, 877, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2339, 877, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2340, 877, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2341, 877, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2342, 878, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2343, 878, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2344, 878, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2345, 878, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2346, 878, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2347, 879, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2348, 880, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2349, 880, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2350, 880, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2351, 880, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2352, 880, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2353, 880, 1, '90+6', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2354, 881, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2355, 881, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2356, 881, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2357, 882, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2358, 882, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2359, 883, 1, '12', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2360, 883, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2361, 883, 1, '72', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2362, 884, 1, '17', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2363, 884, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2364, 885, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2365, 885, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2366, 886, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2367, 886, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2368, 887, 1, '35', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2369, 887, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2370, 887, 1, '101', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2371, 887, 1, '109', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2372, 887, 1, '114', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2373, 888, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2374, 888, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2375, 889, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2376, 889, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2377, 890, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2378, 890, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2379, 890, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2380, 891, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2381, 891, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2382, 891, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2383, 891, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2384, 891, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2385, 892, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2386, 892, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2387, 892, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2388, 893, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2389, 893, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2390, 893, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2391, 894, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2392, 894, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2393, 894, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2394, 894, 2, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2395, 895, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2396, 895, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2397, 895, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2398, 895, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2399, 895, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2400, 895, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2401, 896, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2402, 898, 1, '33', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2403, 898, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2404, 898, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2405, 898, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2406, 899, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2407, 900, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2408, 900, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2409, 900, 2, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2410, 900, 1, '59', 1);
 
 -- Mundial 2022
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (902, 1, '16', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (903, 1, '67', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (904, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (905, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (906, 1, '45+7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (907, 1, '22', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (908, 1, '4', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (909, 1, '9', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (910, 1, '29', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (911, 1, '44', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (912, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (913, 1, '50', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (914, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (914, 2, '90+3', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (915, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (916, 1, '7', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (917, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (918, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (919, 1, '21', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (920, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (921, 1, '77', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (922, 1, '67', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (923, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (924, 1, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (925, 1, '69', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (926, 1, '24', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (927, 1, '66', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (928, 1, '37', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (929, 1, '68', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (930, 1, '11', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (931, 1, '55', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (932, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (933, 1, '27', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (934, 1, '32', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (935, 1, '29', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (936, 1, '45+3', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (936, 2, '86', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (937, 1, '20', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (938, 1, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (938, 2, '129', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (939, 1, '52', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (940, 1, '57', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (941, 1, '60', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (943, 1, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (944, 1, '25', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (945, 1, '76', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (946, 1, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (947, 1, '41', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (948, 1, '90', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (949, 1, '39', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (950, 1, '78', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (951, 1, '77', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (952, 1, '70', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (952, 2, '90+3', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (953, 1, '29', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (954, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (955, 1, '49', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (956, 1, '45+1', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (957, 1, '43', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (958, 1, '6', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (959, 1, '56', 1);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (960, 1, '15', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (961, 1, '36', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (962, 1, '26', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (963, 1, '28', 0);
-INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (964, 1, '57', 1);
-
-
--- =====================================================
--- INCONSISTENCIAS / MISMATCHING ENCONTRADOS
--- =====================================================
--- TARJETA EXTRA (omitida por PK) en 1966_alemania_occidental_uruguay.html (ev_pa=173): Tipo_Tarjeta=2 jugador=Hector Silva, minuto=54
--- TARJETA EXTRA (omitida por PK) en 1970_brasil_checoslovaquia.html (ev_pa=206): Tipo_Tarjeta=1 jugador=Tostao, minuto=1
--- TARJETA EXTRA (omitida por PK) en 1970_brasil_checoslovaquia.html (ev_pa=206): Tipo_Tarjeta=1 jugador=Gerson, minuto=31
--- TARJETA EXTRA (omitida por PK) en 1970_brasil_italia.html (ev_pa=208): Tipo_Tarjeta=1 jugador=Rivelino, minuto=1
--- TARJETA EXTRA (omitida por PK) en 1970_brasil_rumania.html (ev_pa=210): Tipo_Tarjeta=1 jugador=Mihai Mocanu, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1970_italia_israel.html (ev_pa=215): Tipo_Tarjeta=1 jugador=Menachem Bello, minuto=67
--- TARJETA EXTRA (omitida por PK) en 1970_italia_israel.html (ev_pa=215): Tipo_Tarjeta=1 jugador=Roberto Boninsegna, minuto=90
--- TARJETA EXTRA (omitida por PK) en 1970_mexico_urss.html (ev_pa=220): Tipo_Tarjeta=1 jugador=Evgeni Lovchev, minuto=34
--- TARJETA EXTRA (omitida por PK) en 1970_suecia_israel.html (ev_pa=224): Tipo_Tarjeta=1 jugador=Orjan Persson, minuto=72
--- TARJETA EXTRA (omitida por PK) en 1970_suecia_israel.html (ev_pa=224): Tipo_Tarjeta=1 jugador=David Primo, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1970_uruguay_brasil.html (ev_pa=229): Tipo_Tarjeta=1 jugador=Dagoberto Fontes, minuto=18
--- TARJETA EXTRA (omitida por PK) en 1970_uruguay_brasil.html (ev_pa=229): Tipo_Tarjeta=1 jugador=Ildo Maneiro, minuto=37
--- TARJETA EXTRA (omitida por PK) en 1974_alemania_occidental_chile.html (ev_pa=233): Tipo_Tarjeta=1 jugador=Carlos Caszely, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1974_alemania_occidental_chile.html (ev_pa=233): Tipo_Tarjeta=1 jugador=Carlos Reinoso, minuto=59
--- TARJETA EXTRA (omitida por PK) en 1974_alemania_oriental_alemania_occidental.html (ev_pa=235): Tipo_Tarjeta=1 jugador=Juergen Croy, minuto=81
--- TARJETA EXTRA (omitida por PK) en 1974_alemania_oriental_alemania_occidental.html (ev_pa=235): Tipo_Tarjeta=1 jugador=Hans-Juergen Kreische, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1974_argentina_alemania_oriental.html (ev_pa=238): Tipo_Tarjeta=1 jugador=Angel Bargas, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1974_argentina_haiti.html (ev_pa=240): Tipo_Tarjeta=1 jugador=Ramon Heredia, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1974_argentina_haiti.html (ev_pa=240): Tipo_Tarjeta=1 jugador=Fritz Leandre, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1974_argentina_italia.html (ev_pa=241): Tipo_Tarjeta=1 jugador=Carlos Babington, minuto=54
--- TARJETA EXTRA (omitida por PK) en 1974_brasil_alemania_oriental.html (ev_pa=244): Tipo_Tarjeta=1 jugador=Jairzinho, minuto=27
--- TARJETA EXTRA (omitida por PK) en 1974_brasil_alemania_oriental.html (ev_pa=244): Tipo_Tarjeta=1 jugador=Carpegiani, minuto=28
--- TARJETA EXTRA (omitida por PK) en 1974_brasil_alemania_oriental.html (ev_pa=244): Tipo_Tarjeta=1 jugador=Dirceu, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1974_brasil_alemania_oriental.html (ev_pa=244): Tipo_Tarjeta=1 jugador=Joachim Streich, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1974_brasil_polonia.html (ev_pa=245): Tipo_Tarjeta=1 jugador=Jairzinho, minuto=76
--- TARJETA EXTRA (omitida por PK) en 1974_brasil_yugoslavia.html (ev_pa=246): Tipo_Tarjeta=1 jugador=Jovan Acimovic, minuto=49
--- TARJETA EXTRA (omitida por PK) en 1974_bulgaria_holanda.html (ev_pa=247): Tipo_Tarjeta=1 jugador=Wim Van Hanegem, minuto=22
--- TARJETA EXTRA (omitida por PK) en 1974_bulgaria_holanda.html (ev_pa=247): Tipo_Tarjeta=1 jugador=Johan Cruyff, minuto=29
--- TARJETA EXTRA (omitida por PK) en 1974_bulgaria_holanda.html (ev_pa=247): Tipo_Tarjeta=1 jugador=Georgi Denev, minuto=67
--- TARJETA EXTRA (omitida por PK) en 1974_bulgaria_uruguay.html (ev_pa=248): Tipo_Tarjeta=1 jugador=Victor Esparrago, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1974_chile_alemania_oriental.html (ev_pa=249): Tipo_Tarjeta=1 jugador=Guillermo Paez, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1974_chile_alemania_oriental.html (ev_pa=249): Tipo_Tarjeta=1 jugador=Gerd Kische, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1974_escocia_yugoslavia.html (ev_pa=251): Tipo_Tarjeta=1 jugador=Josip Katalinski, minuto=55
--- TARJETA EXTRA (omitida por PK) en 1974_escocia_yugoslavia.html (ev_pa=251): Tipo_Tarjeta=1 jugador=Joe Jordan, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1974_escocia_yugoslavia.html (ev_pa=251): Tipo_Tarjeta=1 jugador=Davie Hay, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1974_escocia_yugoslavia.html (ev_pa=251): Tipo_Tarjeta=1 jugador=Dusan Bajevic, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_alemania_occidental.html (ev_pa=253): Tipo_Tarjeta=1 jugador=Wim Van Hanegem, minuto=22
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_alemania_occidental.html (ev_pa=253): Tipo_Tarjeta=1 jugador=Johan Neeskens, minuto=39
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_alemania_occidental.html (ev_pa=253): Tipo_Tarjeta=1 jugador=Johan Cruyff, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_argentina.html (ev_pa=254): Tipo_Tarjeta=1 jugador=Roberto Perfumo, minuto=35
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_argentina.html (ev_pa=254): Tipo_Tarjeta=1 jugador=Wim Suurbier, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_brasil.html (ev_pa=255): Tipo_Tarjeta=1 jugador=Ze Maria, minuto=37
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_brasil.html (ev_pa=255): Tipo_Tarjeta=1 jugador=Marinho Peres, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_brasil.html (ev_pa=255): Tipo_Tarjeta=1 jugador=Johnny Rep, minuto=69
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_suecia.html (ev_pa=256): Tipo_Tarjeta=1 jugador=Bjorn Nordqvist, minuto=36
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_suecia.html (ev_pa=256): Tipo_Tarjeta=1 jugador=Orjan Persson, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_suecia.html (ev_pa=256): Tipo_Tarjeta=1 jugador=Bjorn Andersson, minuto=74
--- TARJETA EXTRA (omitida por PK) en 1974_holanda_suecia.html (ev_pa=256): Tipo_Tarjeta=1 jugador=Ove Grahn, minuto=86
--- TARJETA EXTRA (omitida por PK) en 1974_polonia_italia.html (ev_pa=260): Tipo_Tarjeta=1 jugador=Roberto Boninsegna, minuto=71
--- TARJETA EXTRA (omitida por PK) en 1974_polonia_italia.html (ev_pa=260): Tipo_Tarjeta=1 jugador=Adam Musial, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1974_uruguay_holanda.html (ev_pa=266): Tipo_Tarjeta=1 jugador=Pablo Forlan, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1974_uruguay_holanda.html (ev_pa=266): Tipo_Tarjeta=1 jugador=Juan Masnik, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1974_yugoslavia_alemania_occidental.html (ev_pa=267): Tipo_Tarjeta=1 jugador=Berti Vogts, minuto=35
--- TARJETA EXTRA (omitida por PK) en 1974_yugoslavia_alemania_occidental.html (ev_pa=267): Tipo_Tarjeta=1 jugador=Ivan Buljan, minuto=36
--- TARJETA EXTRA (omitida por PK) en 1974_yugoslavia_alemania_occidental.html (ev_pa=267): Tipo_Tarjeta=1 jugador=Enver Hadziabdic, minuto=61
--- TARJETA EXTRA (omitida por PK) en 1974_zaire_brasil.html (ev_pa=269): Tipo_Tarjeta=1 jugador=Muepu Ilunga, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1974_zaire_escocia.html (ev_pa=270): Tipo_Tarjeta=1 jugador=James Holton, minuto=99
--- TARJETA EXTRA (omitida por PK) en 1978_alemania_occidental_holanda.html (ev_pa=271): Tipo_Tarjeta=1 jugador=Dick Nanninga, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_brasil.html (ev_pa=276): Tipo_Tarjeta=1 jugador=Ricardo Villa, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_brasil.html (ev_pa=276): Tipo_Tarjeta=1 jugador=Edinho, minuto=67
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_brasil.html (ev_pa=276): Tipo_Tarjeta=1 jugador=Zico, minuto=74
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_holanda.html (ev_pa=278): Tipo_Tarjeta=1 jugador=Osvaldo Ardiles, minuto=40
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_holanda.html (ev_pa=278): Tipo_Tarjeta=1 jugador=Omar Larrosa, minuto=93
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_holanda.html (ev_pa=278): Tipo_Tarjeta=1 jugador=Wim Suurbier, minuto=94
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_holanda.html (ev_pa=278): Tipo_Tarjeta=1 jugador=Johan Neeskens, minuto=96
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_hungria.html (ev_pa=279): Tipo_Tarjeta=1 jugador=Andras Torocsik, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_hungria.html (ev_pa=279): Tipo_Tarjeta=1 jugador=Daniel Passarella, minuto=77
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_hungria.html (ev_pa=279): Tipo_Tarjeta=2 jugador=Tibor Nyilasi, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_peru.html (ev_pa=280): Tipo_Tarjeta=1 jugador=Jose Velasquez, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1978_argentina_polonia.html (ev_pa=281): Tipo_Tarjeta=1 jugador=Americo Gallego, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1978_brasil_italia.html (ev_pa=287): Tipo_Tarjeta=1 jugador=Batista, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1978_brasil_italia.html (ev_pa=287): Tipo_Tarjeta=1 jugador=Claudio Gentile, minuto=72
--- TARJETA EXTRA (omitida por PK) en 1978_brasil_peru.html (ev_pa=288): Tipo_Tarjeta=1 jugador=Roberto Dinamite, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1978_brasil_polonia.html (ev_pa=289): Tipo_Tarjeta=1 jugador=Toninho Cerezo, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1978_holanda_italia.html (ev_pa=296): Tipo_Tarjeta=1 jugador=Romeo Benetti, minuto=40
--- TARJETA EXTRA (omitida por PK) en 1978_holanda_italia.html (ev_pa=296): Tipo_Tarjeta=1 jugador=Arie Haan, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1978_holanda_italia.html (ev_pa=296): Tipo_Tarjeta=1 jugador=Antonio Cabrini, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1978_holanda_italia.html (ev_pa=296): Tipo_Tarjeta=1 jugador=Marco Tardelli, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1978_italia_francia.html (ev_pa=300): Tipo_Tarjeta=1 jugador=Michel Platini, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1978_italia_hungria.html (ev_pa=301): Tipo_Tarjeta=1 jugador=Gyozo Martos, minuto=64
--- TARJETA EXTRA (omitida por PK) en 1982_alemania_occidental_argelia.html (ev_pa=309): Tipo_Tarjeta=1 jugador=Rabah Madjer, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1982_alemania_occidental_austria.html (ev_pa=310): Tipo_Tarjeta=1 jugador=Reinhold Hintermaier, minuto=32
--- TARJETA EXTRA (omitida por PK) en 1982_alemania_occidental_chile.html (ev_pa=311): Tipo_Tarjeta=1 jugador=Miguel Gamboa, minuto=29
--- TARJETA EXTRA (omitida por PK) en 1982_alemania_occidental_espana.html (ev_pa=312): Tipo_Tarjeta=1 jugador=Jose Antonio Camacho, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1982_alemania_occidental_espana.html (ev_pa=312): Tipo_Tarjeta=1 jugador=Jose Sanchez, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1982_alemania_occidental_espana.html (ev_pa=312): Tipo_Tarjeta=1 jugador=Hans-Peter Briegel, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1982_alemania_occidental_francia.html (ev_pa=313): Tipo_Tarjeta=1 jugador=Bernard Genghini, minuto=40
--- TARJETA EXTRA (omitida por PK) en 1982_alemania_occidental_francia.html (ev_pa=313): Tipo_Tarjeta=1 jugador=Bernd Foerster, minuto=46
--- TARJETA EXTRA (omitida por PK) en 1982_argentina_belgica.html (ev_pa=317): Tipo_Tarjeta=1 jugador=Daniel Bertoni, minuto=55
--- TARJETA EXTRA (omitida por PK) en 1982_argentina_brasil.html (ev_pa=318): Tipo_Tarjeta=1 jugador=Waldir Peres, minuto=77
--- TARJETA EXTRA (omitida por PK) en 1982_argentina_brasil.html (ev_pa=318): Tipo_Tarjeta=1 jugador=Falcao, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1982_argentina_el_salvador.html (ev_pa=319): Tipo_Tarjeta=1 jugador=Luis Ramirez, minuto=26
--- TARJETA EXTRA (omitida por PK) en 1982_argentina_el_salvador.html (ev_pa=319): Tipo_Tarjeta=1 jugador=Jorge Olguin, minuto=31
--- TARJETA EXTRA (omitida por PK) en 1982_argentina_el_salvador.html (ev_pa=319): Tipo_Tarjeta=1 jugador=Americo Gallego, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1982_argentina_el_salvador.html (ev_pa=319): Tipo_Tarjeta=1 jugador=Carlos Recinos, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1982_belgica_el_salvador.html (ev_pa=323): Tipo_Tarjeta=1 jugador=Ramon Fagoaga, minuto=74
--- TARJETA EXTRA (omitida por PK) en 1982_belgica_hungria.html (ev_pa=324): Tipo_Tarjeta=1 jugador=Walter Meeuws, minuto=79
--- TARJETA EXTRA (omitida por PK) en 1982_chile_austria.html (ev_pa=330): Tipo_Tarjeta=1 jugador=Lizardo Garrido, minuto=29
--- TARJETA EXTRA (omitida por PK) en 1982_chile_austria.html (ev_pa=330): Tipo_Tarjeta=1 jugador=Roland Hattenberger, minuto=66
--- TARJETA EXTRA (omitida por PK) en 1982_espana_yugoslavia.html (ev_pa=334): Tipo_Tarjeta=1 jugador=Edhem Sljivo, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1982_espana_yugoslavia.html (ev_pa=334): Tipo_Tarjeta=1 jugador=Jesus Zamora, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1982_espana_yugoslavia.html (ev_pa=334): Tipo_Tarjeta=1 jugador=Rafael Gordillo, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1982_francia_checoslovaquia.html (ev_pa=335): Tipo_Tarjeta=1 jugador=Antonin Panenka, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1982_francia_irlanda_del_norte.html (ev_pa=336): Tipo_Tarjeta=1 jugador=Billy Hamilton, minuto=59
--- TARJETA EXTRA (omitida por PK) en 1982_francia_kuwait.html (ev_pa=337): Tipo_Tarjeta=1 jugador=Manuel Amoros, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1982_francia_kuwait.html (ev_pa=337): Tipo_Tarjeta=1 jugador=Fathi Matar, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1982_honduras_yugoslavia.html (ev_pa=339): Tipo_Tarjeta=1 jugador=Ramon Maradiaga, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1982_inglaterra_kuwait.html (ev_pa=343): Tipo_Tarjeta=1 jugador=Naim Fajah, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1982_irlanda_del_norte_espana.html (ev_pa=344): Tipo_Tarjeta=1 jugador=Billy Hamilton, minuto=41
--- TARJETA EXTRA (omitida por PK) en 1982_irlanda_del_norte_espana.html (ev_pa=344): Tipo_Tarjeta=1 jugador=Sam Mcilroy, minuto=42
--- TARJETA EXTRA (omitida por PK) en 1982_italia_alemania_occidental.html (ev_pa=345): Tipo_Tarjeta=1 jugador=Wolfgang Dremmler, minuto=61
--- TARJETA EXTRA (omitida por PK) en 1982_italia_alemania_occidental.html (ev_pa=345): Tipo_Tarjeta=1 jugador=Gabriele Oriali, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1982_italia_alemania_occidental.html (ev_pa=345): Tipo_Tarjeta=1 jugador=Uli Stielike, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1982_italia_alemania_occidental.html (ev_pa=345): Tipo_Tarjeta=1 jugador=Pierre Littbarski, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1982_italia_argentina.html (ev_pa=346): Tipo_Tarjeta=1 jugador=Paolo Rossi, minuto=15
--- TARJETA EXTRA (omitida por PK) en 1982_italia_argentina.html (ev_pa=346): Tipo_Tarjeta=1 jugador=Mario Kempes, minuto=32
--- TARJETA EXTRA (omitida por PK) en 1982_italia_argentina.html (ev_pa=346): Tipo_Tarjeta=1 jugador=Diego Maradona, minuto=35
--- TARJETA EXTRA (omitida por PK) en 1982_italia_argentina.html (ev_pa=346): Tipo_Tarjeta=1 jugador=Osvaldo Ardiles, minuto=39
--- TARJETA EXTRA (omitida por PK) en 1982_italia_brasil.html (ev_pa=347): Tipo_Tarjeta=1 jugador=Gabriele Oriali, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1982_italia_camerun.html (ev_pa=348): Tipo_Tarjeta=1 jugador=Giancarlo Antognoni, minuto=36
--- TARJETA EXTRA (omitida por PK) en 1982_italia_peru.html (ev_pa=349): Tipo_Tarjeta=1 jugador=Jaime Duarte, minuto=76
--- TARJETA EXTRA (omitida por PK) en 1982_italia_polonia.html (ev_pa=350): Tipo_Tarjeta=1 jugador=Zbigniew Boniek, minuto=10
--- TARJETA EXTRA (omitida por PK) en 1982_italia_polonia.html (ev_pa=350): Tipo_Tarjeta=1 jugador=Gaetano Scirea, minuto=47
--- TARJETA EXTRA (omitida por PK) en 1982_polonia_camerun.html (ev_pa=353): Tipo_Tarjeta=1 jugador=Ibrahim Aoudou, minuto=40
--- TARJETA EXTRA (omitida por PK) en 1982_polonia_camerun.html (ev_pa=353): Tipo_Tarjeta=1 jugador=Roger Milla, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1982_polonia_francia.html (ev_pa=354): Tipo_Tarjeta=1 jugador=Roman Wojcicki, minuto=71
--- TARJETA EXTRA (omitida por PK) en 1982_polonia_francia.html (ev_pa=354): Tipo_Tarjeta=1 jugador=Gerard Soler, minuto=79
--- TARJETA EXTRA (omitida por PK) en 1982_polonia_italia.html (ev_pa=355): Tipo_Tarjeta=1 jugador=Wladyslaw Zmuda, minuto=51
--- TARJETA EXTRA (omitida por PK) en 1982_polonia_italia.html (ev_pa=355): Tipo_Tarjeta=1 jugador=Fulvio Collovati, minuto=57
--- TARJETA EXTRA (omitida por PK) en 1982_polonia_italia.html (ev_pa=355): Tipo_Tarjeta=1 jugador=Wlodimierz Smolarek, minuto=57
--- TARJETA EXTRA (omitida por PK) en 1982_polonia_urss.html (ev_pa=357): Tipo_Tarjeta=1 jugador=Sergei Borovski, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1982_polonia_urss.html (ev_pa=357): Tipo_Tarjeta=1 jugador=Zbigniew Boniek, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1982_polonia_urss.html (ev_pa=357): Tipo_Tarjeta=1 jugador=Sergei Baltacha, minuto=90
--- TARJETA EXTRA (omitida por PK) en 1986_alemania_occidental_escocia.html (ev_pa=361): Tipo_Tarjeta=1 jugador=Eamonn Bannon, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1986_alemania_occidental_escocia.html (ev_pa=361): Tipo_Tarjeta=1 jugador=Maurice Malpas, minuto=74
--- TARJETA EXTRA (omitida por PK) en 1986_alemania_occidental_francia.html (ev_pa=362): Tipo_Tarjeta=1 jugador=Luis Fernandez, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1986_argelia_espana.html (ev_pa=363): Tipo_Tarjeta=1 jugador=Goikoetxea, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1986_argelia_irlanda_del_norte.html (ev_pa=364): Tipo_Tarjeta=1 jugador=Nigel Worthington, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1986_argelia_irlanda_del_norte.html (ev_pa=364): Tipo_Tarjeta=1 jugador=Sam Mcilroy, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1986_argelia_irlanda_del_norte.html (ev_pa=364): Tipo_Tarjeta=1 jugador=Norman Whiteside, minuto=79
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_alemania_occidental.html (ev_pa=365): Tipo_Tarjeta=1 jugador=Lothar Matthaeus, minuto=21
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_alemania_occidental.html (ev_pa=365): Tipo_Tarjeta=1 jugador=Hans-Peter Briegel, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_alemania_occidental.html (ev_pa=365): Tipo_Tarjeta=1 jugador=Julio Olarticoechea, minuto=77
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_alemania_occidental.html (ev_pa=365): Tipo_Tarjeta=1 jugador=Hector Enrique, minuto=81
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_alemania_occidental.html (ev_pa=365): Tipo_Tarjeta=1 jugador=Nery Pumpido, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_belgica.html (ev_pa=366): Tipo_Tarjeta=1 jugador=Jorge Valdano, minuto=33
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_corea_del_sur.html (ev_pa=368): Tipo_Tarjeta=1 jugador=Chang Sun Park, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_inglaterra.html (ev_pa=369): Tipo_Tarjeta=1 jugador=Sergio Batista, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_uruguay.html (ev_pa=370): Tipo_Tarjeta=1 jugador=Enzo Francescoli, minuto=35
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_uruguay.html (ev_pa=370): Tipo_Tarjeta=1 jugador=Jose Brown, minuto=49
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_uruguay.html (ev_pa=370): Tipo_Tarjeta=1 jugador=Eduardo Acevedo, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_uruguay.html (ev_pa=370): Tipo_Tarjeta=1 jugador=Sergio Santin, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_uruguay.html (ev_pa=370): Tipo_Tarjeta=1 jugador=Nery Pumpido, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1986_argentina_uruguay.html (ev_pa=370): Tipo_Tarjeta=1 jugador=Jorge Da Silva, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1986_belgica_espana.html (ev_pa=371): Tipo_Tarjeta=1 jugador=Tomas, minuto=39
--- TARJETA EXTRA (omitida por PK) en 1986_belgica_espana.html (ev_pa=371): Tipo_Tarjeta=1 jugador=Ramon Maria Caldere, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1986_belgica_espana.html (ev_pa=371): Tipo_Tarjeta=1 jugador=Georges Grun, minuto=115
--- TARJETA EXTRA (omitida por PK) en 1986_belgica_mexico.html (ev_pa=373): Tipo_Tarjeta=1 jugador=Franky Van Der Elst, minuto=56
--- TARJETA EXTRA (omitida por PK) en 1986_belgica_mexico.html (ev_pa=373): Tipo_Tarjeta=1 jugador=Carlos Munoz, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1986_brasil_polonia.html (ev_pa=376): Tipo_Tarjeta=1 jugador=Zbigniew Boniek, minuto=30
--- TARJETA EXTRA (omitida por PK) en 1986_brasil_polonia.html (ev_pa=376): Tipo_Tarjeta=1 jugador=Wlodimierz Smolarek, minuto=32
--- TARJETA EXTRA (omitida por PK) en 1986_brasil_polonia.html (ev_pa=376): Tipo_Tarjeta=1 jugador=Careca, minuto=36
--- TARJETA EXTRA (omitida por PK) en 1986_brasil_polonia.html (ev_pa=376): Tipo_Tarjeta=1 jugador=Edinho, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1986_bulgaria_italia.html (ev_pa=377): Tipo_Tarjeta=1 jugador=Aleksandar Markov, minuto=51
--- TARJETA EXTRA (omitida por PK) en 1986_bulgaria_italia.html (ev_pa=377): Tipo_Tarjeta=1 jugador=Antonio Cabrini, minuto=64
--- TARJETA EXTRA (omitida por PK) en 1986_corea_del_sur_bulgaria.html (ev_pa=379): Tipo_Tarjeta=1 jugador=Zhivko Gospodinov, minuto=49
--- TARJETA EXTRA (omitida por PK) en 1986_corea_del_sur_bulgaria.html (ev_pa=379): Tipo_Tarjeta=1 jugador=Young Jeung Cho, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1986_corea_del_sur_italia.html (ev_pa=380): Tipo_Tarjeta=1 jugador=Salvatore Bagni, minuto=31
--- TARJETA EXTRA (omitida por PK) en 1986_corea_del_sur_italia.html (ev_pa=380): Tipo_Tarjeta=1 jugador=Kyung Hoon Park, minuto=35
--- TARJETA EXTRA (omitida por PK) en 1986_corea_del_sur_italia.html (ev_pa=380): Tipo_Tarjeta=1 jugador=Gaetano Scirea, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1986_corea_del_sur_italia.html (ev_pa=380): Tipo_Tarjeta=1 jugador=Pietro Vierchowod, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1986_corea_del_sur_italia.html (ev_pa=380): Tipo_Tarjeta=1 jugador=Young Jeung Cho, minuto=71
--- TARJETA EXTRA (omitida por PK) en 1986_dinamarca_alemania_occidental.html (ev_pa=381): Tipo_Tarjeta=1 jugador=Norbert Eder, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1986_dinamarca_alemania_occidental.html (ev_pa=381): Tipo_Tarjeta=1 jugador=Ditmar Jakobs, minuto=51
--- TARJETA EXTRA (omitida por PK) en 1986_dinamarca_espana.html (ev_pa=382): Tipo_Tarjeta=1 jugador=Goikoetxea, minuto=27
--- TARJETA EXTRA (omitida por PK) en 1986_dinamarca_espana.html (ev_pa=382): Tipo_Tarjeta=1 jugador=Jose Antonio Camacho, minuto=32
--- TARJETA EXTRA (omitida por PK) en 1986_dinamarca_espana.html (ev_pa=382): Tipo_Tarjeta=1 jugador=Michel, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1986_dinamarca_uruguay.html (ev_pa=383): Tipo_Tarjeta=1 jugador=Miguel Bossio, minuto=13
--- TARJETA EXTRA (omitida por PK) en 1986_dinamarca_uruguay.html (ev_pa=383): Tipo_Tarjeta=1 jugador=Jorge Da Silva, minuto=35
--- TARJETA EXTRA (omitida por PK) en 1986_escocia_uruguay.html (ev_pa=385): Tipo_Tarjeta=1 jugador=David Narey, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1986_escocia_uruguay.html (ev_pa=385): Tipo_Tarjeta=1 jugador=Stephen Nicol, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1986_escocia_uruguay.html (ev_pa=385): Tipo_Tarjeta=1 jugador=Victor Diogo, minuto=72
--- TARJETA EXTRA (omitida por PK) en 1986_escocia_uruguay.html (ev_pa=385): Tipo_Tarjeta=1 jugador=Fernando Alvez, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1986_espana_brasil.html (ev_pa=386): Tipo_Tarjeta=1 jugador=Branco, minuto=82
--- TARJETA EXTRA (omitida por PK) en 1986_francia_urss.html (ev_pa=387): Tipo_Tarjeta=1 jugador=Igor Belanov, minuto=33
--- TARJETA EXTRA (omitida por PK) en 1986_francia_urss.html (ev_pa=387): Tipo_Tarjeta=1 jugador=Luis Fernandez, minuto=40
--- TARJETA EXTRA (omitida por PK) en 1986_francia_urss.html (ev_pa=387): Tipo_Tarjeta=1 jugador=Manuel Amoros, minuto=43
--- TARJETA EXTRA (omitida por PK) en 1986_hungria_canada.html (ev_pa=388): Tipo_Tarjeta=1 jugador=Bob Lenarduzzi, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1986_hungria_francia.html (ev_pa=389): Tipo_Tarjeta=1 jugador=Dominique Rocheteau, minuto=69
--- TARJETA EXTRA (omitida por PK) en 1986_inglaterra_marruecos.html (ev_pa=390): Tipo_Tarjeta=1 jugador=Labid Khalifa, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1986_inglaterra_marruecos.html (ev_pa=390): Tipo_Tarjeta=1 jugador=Mark Hateley, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1986_inglaterra_marruecos.html (ev_pa=390): Tipo_Tarjeta=1 jugador=Abdelrazzak Khairi, minuto=76
--- TARJETA EXTRA (omitida por PK) en 1986_inglaterra_paraguay.html (ev_pa=391): Tipo_Tarjeta=1 jugador=Jorge Núñez, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1986_inglaterra_paraguay.html (ev_pa=391): Tipo_Tarjeta=1 jugador=Steve Hodge, minuto=67
--- TARJETA EXTRA (omitida por PK) en 1986_iraq_belgica.html (ev_pa=393): Tipo_Tarjeta=1 jugador=Nico Claesen, minuto=16
--- TARJETA EXTRA (omitida por PK) en 1986_iraq_belgica.html (ev_pa=393): Tipo_Tarjeta=1 jugador=Hammoudi Raad, minuto=20
--- TARJETA EXTRA (omitida por PK) en 1986_iraq_belgica.html (ev_pa=393): Tipo_Tarjeta=1 jugador=Shaker Nadhum, minuto=29
--- TARJETA EXTRA (omitida por PK) en 1986_iraq_belgica.html (ev_pa=393): Tipo_Tarjeta=1 jugador=Mohamed Haris, minuto=42
--- TARJETA EXTRA (omitida por PK) en 1986_iraq_belgica.html (ev_pa=393): Tipo_Tarjeta=1 jugador=Shaker Samir, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1986_iraq_belgica.html (ev_pa=393): Tipo_Tarjeta=1 jugador=Hashem Natik, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1986_iraq_mexico.html (ev_pa=394): Tipo_Tarjeta=1 jugador=Khalil Mohamed, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1986_irlanda_del_norte_espana.html (ev_pa=396): Tipo_Tarjeta=1 jugador=Billy Hamilton, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1986_italia_argentina.html (ev_pa=397): Tipo_Tarjeta=1 jugador=Ricardo Giusti, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1986_italia_argentina.html (ev_pa=397): Tipo_Tarjeta=1 jugador=Oscar Garre, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1986_italia_francia.html (ev_pa=398): Tipo_Tarjeta=1 jugador=William Ayache, minuto=40
--- TARJETA EXTRA (omitida por PK) en 1986_italia_francia.html (ev_pa=398): Tipo_Tarjeta=1 jugador=Antonio Di Gennaro, minuto=67
--- TARJETA EXTRA (omitida por PK) en 1986_marruecos_alemania_occidental.html (ev_pa=399): Tipo_Tarjeta=1 jugador=Labid Khalifa, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_alemania_occidental.html (ev_pa=401): Tipo_Tarjeta=1 jugador=Fernando Quirarte, minuto=27
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_alemania_occidental.html (ev_pa=401): Tipo_Tarjeta=1 jugador=Klaus Allofs, minuto=27
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_alemania_occidental.html (ev_pa=401): Tipo_Tarjeta=1 jugador=Karl-Heinz Foerster, minuto=56
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_alemania_occidental.html (ev_pa=401): Tipo_Tarjeta=1 jugador=Carlos De Los Cobos, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_alemania_occidental.html (ev_pa=401): Tipo_Tarjeta=1 jugador=Raul Servin, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_alemania_occidental.html (ev_pa=401): Tipo_Tarjeta=1 jugador=Lothar Matthaeus, minuto=86
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_alemania_occidental.html (ev_pa=401): Tipo_Tarjeta=1 jugador=Hugo Sánchez, minuto=94
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_alemania_occidental.html (ev_pa=401): Tipo_Tarjeta=2 jugador=Javier Aguirre, minuto=100
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_paraguay.html (ev_pa=403): Tipo_Tarjeta=1 jugador=Manuel Negrete, minuto=26
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_paraguay.html (ev_pa=403): Tipo_Tarjeta=1 jugador=Vladimiro Schettina, minuto=30
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_paraguay.html (ev_pa=403): Tipo_Tarjeta=1 jugador=Hugo Sánchez, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1986_mexico_paraguay.html (ev_pa=403): Tipo_Tarjeta=1 jugador=Mario Trejo, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1986_paraguay_belgica.html (ev_pa=404): Tipo_Tarjeta=1 jugador=Jan Ceulemans, minuto=55
--- TARJETA EXTRA (omitida por PK) en 1986_paraguay_iraq.html (ev_pa=405): Tipo_Tarjeta=1 jugador=Vladimiro Schettina, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1986_polonia_portugal.html (ev_pa=406): Tipo_Tarjeta=1 jugador=Dariusz Dziekanowski, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1986_portugal_inglaterra.html (ev_pa=407): Tipo_Tarjeta=1 jugador=Terry Butcher, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1986_portugal_inglaterra.html (ev_pa=407): Tipo_Tarjeta=1 jugador=Pacheco, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1986_uruguay_alemania_occidental.html (ev_pa=412): Tipo_Tarjeta=1 jugador=Mario Saralegui, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_checoslovaquia.html (ev_pa=413): Tipo_Tarjeta=1 jugador=Michal Bilek, minuto=14
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_checoslovaquia.html (ev_pa=413): Tipo_Tarjeta=1 jugador=Juergen Klinsmann, minuto=28
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_checoslovaquia.html (ev_pa=413): Tipo_Tarjeta=1 jugador=Frantisek Straka, minuto=38
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_checoslovaquia.html (ev_pa=413): Tipo_Tarjeta=1 jugador=Ivo Knoflicek, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_colombia.html (ev_pa=414): Tipo_Tarjeta=1 jugador=Gabriel Gomez, minuto=30
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_colombia.html (ev_pa=414): Tipo_Tarjeta=1 jugador=Leonel Alvarez, minuto=38
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_colombia.html (ev_pa=414): Tipo_Tarjeta=1 jugador=Thomas Berthold, minuto=63
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_emiratos_arabes.html (ev_pa=415): Tipo_Tarjeta=1 jugador=Andreas Brehme, minuto=30
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_emiratos_arabes.html (ev_pa=415): Tipo_Tarjeta=1 jugador=Hussain Ghuloum, minuto=30
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_holanda.html (ev_pa=416): Tipo_Tarjeta=1 jugador=Rudi Voeller, minuto=21
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_holanda.html (ev_pa=416): Tipo_Tarjeta=2 jugador=Rudi Voeller, minuto=22
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_holanda.html (ev_pa=416): Tipo_Tarjeta=1 jugador=Jan Wouters, minuto=32
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_holanda.html (ev_pa=416): Tipo_Tarjeta=1 jugador=Marco Van Basten, minuto=72
--- TARJETA EXTRA (omitida por PK) en 1990_alemania_occidental_holanda.html (ev_pa=416): Tipo_Tarjeta=1 jugador=Lothar Matthaeus, minuto=77
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_alemania_occidental.html (ev_pa=418): Tipo_Tarjeta=1 jugador=Rudi Voeller, minuto=52
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_alemania_occidental.html (ev_pa=418): Tipo_Tarjeta=1 jugador=Pedro Troglio, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_alemania_occidental.html (ev_pa=418): Tipo_Tarjeta=2 jugador=Gustavo Dezotti, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_alemania_occidental.html (ev_pa=418): Tipo_Tarjeta=1 jugador=Diego Maradona, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_camerun.html (ev_pa=419): Tipo_Tarjeta=1 jugador=Victor Ndip, minuto=23
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_camerun.html (ev_pa=419): Tipo_Tarjeta=1 jugador=Roberto Sensini, minuto=27
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_camerun.html (ev_pa=419): Tipo_Tarjeta=1 jugador=Emile Mbouh, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_camerun.html (ev_pa=419): Tipo_Tarjeta=2 jugador=Benjamin Massing, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_rumania.html (ev_pa=420): Tipo_Tarjeta=1 jugador=Gheorghe Hagi, minuto=8
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_rumania.html (ev_pa=420): Tipo_Tarjeta=1 jugador=Ioan Lupescu, minuto=32
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_rumania.html (ev_pa=420): Tipo_Tarjeta=1 jugador=Jose Serrizuela, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_rumania.html (ev_pa=420): Tipo_Tarjeta=1 jugador=Sergio Batista, minuto=86
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_urss.html (ev_pa=421): Tipo_Tarjeta=1 jugador=Jose Serrizuela, minuto=55
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_urss.html (ev_pa=421): Tipo_Tarjeta=1 jugador=Claudio Caniggia, minuto=57
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_urss.html (ev_pa=421): Tipo_Tarjeta=1 jugador=Diego Maradona, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_urss.html (ev_pa=421): Tipo_Tarjeta=1 jugador=Jorge Burruchaga, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_urss.html (ev_pa=421): Tipo_Tarjeta=1 jugador=Pedro Monzon, minuto=77
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_yugoslavia.html (ev_pa=422): Tipo_Tarjeta=1 jugador=Refik Sabanadzovic, minuto=24
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_yugoslavia.html (ev_pa=422): Tipo_Tarjeta=1 jugador=Julio Olarticoechea, minuto=42
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_yugoslavia.html (ev_pa=422): Tipo_Tarjeta=1 jugador=Pedro Troglio, minuto=61
--- TARJETA EXTRA (omitida por PK) en 1990_argentina_yugoslavia.html (ev_pa=422): Tipo_Tarjeta=1 jugador=Juan Simon, minuto=110
--- TARJETA EXTRA (omitida por PK) en 1990_austria_checoslovaquia.html (ev_pa=423): Tipo_Tarjeta=1 jugador=Lubomir Moravcik, minuto=52
--- TARJETA EXTRA (omitida por PK) en 1990_austria_checoslovaquia.html (ev_pa=423): Tipo_Tarjeta=1 jugador=Lubos Kubik, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1990_austria_checoslovaquia.html (ev_pa=423): Tipo_Tarjeta=1 jugador=Manfred Zsak, minuto=71
--- TARJETA EXTRA (omitida por PK) en 1990_austria_checoslovaquia.html (ev_pa=423): Tipo_Tarjeta=1 jugador=Anton Pfeffer, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1990_austria_estados_unidos.html (ev_pa=424): Tipo_Tarjeta=1 jugador=Paul Caligiuri, minuto=26
--- TARJETA EXTRA (omitida por PK) en 1990_austria_estados_unidos.html (ev_pa=424): Tipo_Tarjeta=1 jugador=Jimmy Banks, minuto=28
--- TARJETA EXTRA (omitida por PK) en 1990_austria_estados_unidos.html (ev_pa=424): Tipo_Tarjeta=1 jugador=Robert Pecl, minuto=31
--- TARJETA EXTRA (omitida por PK) en 1990_austria_estados_unidos.html (ev_pa=424): Tipo_Tarjeta=1 jugador=Bruce Murray, minuto=42
--- TARJETA EXTRA (omitida por PK) en 1990_austria_estados_unidos.html (ev_pa=424): Tipo_Tarjeta=1 jugador=Andreas Reisinger, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1990_austria_estados_unidos.html (ev_pa=424): Tipo_Tarjeta=1 jugador=Michael Windischmann, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1990_austria_estados_unidos.html (ev_pa=424): Tipo_Tarjeta=1 jugador=Klaus Lindenberger, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1990_austria_estados_unidos.html (ev_pa=424): Tipo_Tarjeta=1 jugador=Gerald Glatzmayer, minuto=90
--- TARJETA EXTRA (omitida por PK) en 1990_belgica_uruguay.html (ev_pa=427): Tipo_Tarjeta=1 jugador=Ruben Sosa, minuto=40
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_argentina.html (ev_pa=428): Tipo_Tarjeta=1 jugador=Ricardo Giusti, minuto=28
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_argentina.html (ev_pa=428): Tipo_Tarjeta=1 jugador=Ricardo Rocha, minuto=40
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_argentina.html (ev_pa=428): Tipo_Tarjeta=1 jugador=Mauro Galvao, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_argentina.html (ev_pa=428): Tipo_Tarjeta=1 jugador=Sergio Goycochea, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_costa_rica.html (ev_pa=429): Tipo_Tarjeta=1 jugador=Roger Gomez, minuto=59
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_costa_rica.html (ev_pa=429): Tipo_Tarjeta=1 jugador=Jorginho, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_costa_rica.html (ev_pa=429): Tipo_Tarjeta=1 jugador=Mozer, minuto=90
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_escocia.html (ev_pa=430): Tipo_Tarjeta=1 jugador=Murdo Mcleod, minuto=8
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_suecia.html (ev_pa=431): Tipo_Tarjeta=1 jugador=Branco, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_suecia.html (ev_pa=431): Tipo_Tarjeta=1 jugador=Joakim Nilsson, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1990_brasil_suecia.html (ev_pa=431): Tipo_Tarjeta=1 jugador=Dunga, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_colombia.html (ev_pa=432): Tipo_Tarjeta=1 jugador=Victor Ndip, minuto=46
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_colombia.html (ev_pa=432): Tipo_Tarjeta=1 jugador=Emile Mbouh, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_colombia.html (ev_pa=432): Tipo_Tarjeta=1 jugador=Luis Carlos Perea, minuto=72
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_colombia.html (ev_pa=432): Tipo_Tarjeta=1 jugador=Gabriel Gomez, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_colombia.html (ev_pa=432): Tipo_Tarjeta=1 jugador=Jules Denis Onana, minuto=117
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_inglaterra.html (ev_pa=433): Tipo_Tarjeta=1 jugador=Stuart Pearce, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_inglaterra.html (ev_pa=433): Tipo_Tarjeta=1 jugador=Thomas Nkono, minuto=105
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_inglaterra.html (ev_pa=433): Tipo_Tarjeta=1 jugador=Roger Milla, minuto=119
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_rumania.html (ev_pa=434): Tipo_Tarjeta=1 jugador=Michael Klein, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_rumania.html (ev_pa=434): Tipo_Tarjeta=1 jugador=Thomas Nkono, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_urss.html (ev_pa=435): Tipo_Tarjeta=1 jugador=Roger Milla, minuto=66
--- TARJETA EXTRA (omitida por PK) en 1990_camerun_urss.html (ev_pa=435): Tipo_Tarjeta=1 jugador=Oleg Protasov, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1990_checoslovaquia_costa_rica.html (ev_pa=436): Tipo_Tarjeta=1 jugador=Ivan Hasek, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1990_checoslovaquia_costa_rica.html (ev_pa=436): Tipo_Tarjeta=1 jugador=Jan Kocian, minuto=56
--- TARJETA EXTRA (omitida por PK) en 1990_checoslovaquia_costa_rica.html (ev_pa=436): Tipo_Tarjeta=1 jugador=Frantisek Straka, minuto=67
--- TARJETA EXTRA (omitida por PK) en 1990_checoslovaquia_costa_rica.html (ev_pa=436): Tipo_Tarjeta=1 jugador=Hector Marchena, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1990_corea_del_sur_espana.html (ev_pa=437): Tipo_Tarjeta=1 jugador=Deok Yeo Yoon, minuto=51
--- TARJETA EXTRA (omitida por PK) en 1990_corea_del_sur_espana.html (ev_pa=437): Tipo_Tarjeta=1 jugador=Bo Kwan Hwang, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1990_corea_del_sur_uruguay.html (ev_pa=438): Tipo_Tarjeta=1 jugador=Santiago Ostolaza, minuto=23
--- TARJETA EXTRA (omitida por PK) en 1990_corea_del_sur_uruguay.html (ev_pa=438): Tipo_Tarjeta=1 jugador=Jose Herrera, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1990_corea_del_sur_uruguay.html (ev_pa=438): Tipo_Tarjeta=1 jugador=Kang Hee Choi, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1990_emiratos_arabes_colombia.html (ev_pa=440): Tipo_Tarjeta=1 jugador=Yousuf Hussain, minuto=55
--- TARJETA EXTRA (omitida por PK) en 1990_emiratos_arabes_colombia.html (ev_pa=440): Tipo_Tarjeta=1 jugador=Ibrahim Meer, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1990_espana_yugoslavia.html (ev_pa=441): Tipo_Tarjeta=1 jugador=Zlatko Vujovic, minuto=59
--- TARJETA EXTRA (omitida por PK) en 1990_espana_yugoslavia.html (ev_pa=441): Tipo_Tarjeta=1 jugador=Roberto, minuto=92
--- TARJETA EXTRA (omitida por PK) en 1990_espana_yugoslavia.html (ev_pa=441): Tipo_Tarjeta=1 jugador=Zoran Vulic, minuto=98
--- TARJETA EXTRA (omitida por PK) en 1990_espana_yugoslavia.html (ev_pa=441): Tipo_Tarjeta=1 jugador=Chendo, minuto=110
--- TARJETA EXTRA (omitida por PK) en 1990_estados_unidos_checoslovaquia.html (ev_pa=442): Tipo_Tarjeta=1 jugador=Tony Meola, minuto=39
--- TARJETA EXTRA (omitida por PK) en 1990_estados_unidos_checoslovaquia.html (ev_pa=442): Tipo_Tarjeta=1 jugador=Steve Trittschuh, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1990_estados_unidos_checoslovaquia.html (ev_pa=442): Tipo_Tarjeta=1 jugador=Miroslav Kadlec, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1990_holanda_egipto.html (ev_pa=443): Tipo_Tarjeta=1 jugador=Wim Kieft, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1990_inglaterra_alemania_occidental.html (ev_pa=444): Tipo_Tarjeta=1 jugador=Paul Gascoigne, minuto=98
--- TARJETA EXTRA (omitida por PK) en 1990_inglaterra_alemania_occidental.html (ev_pa=444): Tipo_Tarjeta=1 jugador=Andreas Brehme, minuto=110
--- TARJETA EXTRA (omitida por PK) en 1990_inglaterra_egipto.html (ev_pa=446): Tipo_Tarjeta=1 jugador=Ibrahim Hassan, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1990_inglaterra_egipto.html (ev_pa=446): Tipo_Tarjeta=1 jugador=Peter Beardsley, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1990_irlanda_egipto.html (ev_pa=449): Tipo_Tarjeta=1 jugador=Ahmed Shoubeir, minuto=72
--- TARJETA EXTRA (omitida por PK) en 1990_irlanda_rumania.html (ev_pa=451): Tipo_Tarjeta=1 jugador=Paul Mcgrath, minuto=107
--- TARJETA EXTRA (omitida por PK) en 1990_irlanda_rumania.html (ev_pa=451): Tipo_Tarjeta=1 jugador=Gheorghe Hagi, minuto=112
--- TARJETA EXTRA (omitida por PK) en 1990_irlanda_rumania.html (ev_pa=451): Tipo_Tarjeta=1 jugador=Danut Lupu, minuto=116
--- TARJETA EXTRA (omitida por PK) en 1990_italia_argentina.html (ev_pa=452): Tipo_Tarjeta=1 jugador=Ricardo Giusti, minuto=30
--- TARJETA EXTRA (omitida por PK) en 1990_italia_argentina.html (ev_pa=452): Tipo_Tarjeta=1 jugador=Oscar Ruggeri, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1990_italia_argentina.html (ev_pa=452): Tipo_Tarjeta=1 jugador=Julio Olarticoechea, minuto=76
--- TARJETA EXTRA (omitida por PK) en 1990_italia_argentina.html (ev_pa=452): Tipo_Tarjeta=1 jugador=Claudio Caniggia, minuto=82
--- TARJETA EXTRA (omitida por PK) en 1990_italia_argentina.html (ev_pa=452): Tipo_Tarjeta=1 jugador=Sergio Batista, minuto=120
--- TARJETA EXTRA (omitida por PK) en 1990_italia_checoslovaquia.html (ev_pa=454): Tipo_Tarjeta=1 jugador=Tomas Skuhravy, minuto=29
--- TARJETA EXTRA (omitida por PK) en 1990_italia_checoslovaquia.html (ev_pa=454): Tipo_Tarjeta=1 jugador=Roberto Baggio, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1990_italia_checoslovaquia.html (ev_pa=454): Tipo_Tarjeta=1 jugador=Nicola Berti, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1990_italia_estados_unidos.html (ev_pa=455): Tipo_Tarjeta=1 jugador=Riccardo Ferri, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1990_italia_irlanda.html (ev_pa=457): Tipo_Tarjeta=1 jugador=Kevin Moran, minuto=42
--- TARJETA EXTRA (omitida por PK) en 1990_italia_uruguay.html (ev_pa=458): Tipo_Tarjeta=1 jugador=Fernando Alvez, minuto=25
--- TARJETA EXTRA (omitida por PK) en 1990_italia_uruguay.html (ev_pa=458): Tipo_Tarjeta=1 jugador=Jose Perdomo, minuto=34
--- TARJETA EXTRA (omitida por PK) en 1990_italia_uruguay.html (ev_pa=458): Tipo_Tarjeta=1 jugador=Nicola Berti, minuto=36
--- TARJETA EXTRA (omitida por PK) en 1990_italia_uruguay.html (ev_pa=458): Tipo_Tarjeta=1 jugador=Nelson Gutierrez, minuto=61
--- TARJETA EXTRA (omitida por PK) en 1990_suecia_costa_rica.html (ev_pa=459): Tipo_Tarjeta=1 jugador=Roger Gomez, minuto=28
--- TARJETA EXTRA (omitida por PK) en 1990_suecia_costa_rica.html (ev_pa=459): Tipo_Tarjeta=1 jugador=Hector Marchena, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1990_suecia_costa_rica.html (ev_pa=459): Tipo_Tarjeta=1 jugador=Stefan Schwarz, minuto=74
--- TARJETA EXTRA (omitida por PK) en 1990_suecia_escocia.html (ev_pa=460): Tipo_Tarjeta=1 jugador=David Mcpherson, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1990_urss_rumania.html (ev_pa=461): Tipo_Tarjeta=1 jugador=Marius Lacatus, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1990_uruguay_espana.html (ev_pa=462): Tipo_Tarjeta=1 jugador=Manuel Jimenez, minuto=24
--- TARJETA EXTRA (omitida por PK) en 1990_uruguay_espana.html (ev_pa=462): Tipo_Tarjeta=1 jugador=Francisco Villaroya, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1990_uruguay_espana.html (ev_pa=462): Tipo_Tarjeta=1 jugador=Enzo Francescoli, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1990_yugoslavia_emiratos_arabes.html (ev_pa=464): Tipo_Tarjeta=1 jugador=Khaleel Ghanim, minuto=36
--- TARJETA EXTRA (omitida por PK) en 1990_yugoslavia_emiratos_arabes.html (ev_pa=464): Tipo_Tarjeta=1 jugador=Refik Sabanadzovic, minuto=66
--- TARJETA EXTRA (omitida por PK) en 1990_yugoslavia_emiratos_arabes.html (ev_pa=464): Tipo_Tarjeta=1 jugador=Darko Pancev, minuto=76
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_belgica.html (ev_pa=465): Tipo_Tarjeta=1 jugador=Martin Wagner, minuto=37
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_belgica.html (ev_pa=465): Tipo_Tarjeta=1 jugador=Philippe Albert, minuto=38
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_bolivia.html (ev_pa=466): Tipo_Tarjeta=1 jugador=Vladimir Soria, minuto=37
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_bolivia.html (ev_pa=466): Tipo_Tarjeta=1 jugador=Julio Baldivieso, minuto=39
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_bolivia.html (ev_pa=466): Tipo_Tarjeta=1 jugador=Andreas Moeller, minuto=54
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_bolivia.html (ev_pa=466): Tipo_Tarjeta=1 jugador=Carlos Borja, minuto=66
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_bolivia.html (ev_pa=466): Tipo_Tarjeta=1 jugador=Gustavo Quinteros, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_corea_del_sur.html (ev_pa=467): Tipo_Tarjeta=1 jugador=Juergen Klinsmann, minuto=28
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_corea_del_sur.html (ev_pa=467): Tipo_Tarjeta=1 jugador=Stefan Effenberg, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_corea_del_sur.html (ev_pa=467): Tipo_Tarjeta=1 jugador=Young Il Choi, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_espana.html (ev_pa=468): Tipo_Tarjeta=1 jugador=Abelardo, minuto=38
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_espana.html (ev_pa=468): Tipo_Tarjeta=1 jugador=Fernando Hierro, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1994_alemania_espana.html (ev_pa=468): Tipo_Tarjeta=1 jugador=Stefan Effenberg, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1994_arabia_saudita_marruecos.html (ev_pa=469): Tipo_Tarjeta=1 jugador=Talal Jebrin, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1994_arabia_saudita_marruecos.html (ev_pa=469): Tipo_Tarjeta=1 jugador=Fuad Amin, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1994_arabia_saudita_marruecos.html (ev_pa=469): Tipo_Tarjeta=1 jugador=Khaled Al Muwallid, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1994_arabia_saudita_marruecos.html (ev_pa=469): Tipo_Tarjeta=1 jugador=Noureddine Naybet, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1994_arabia_saudita_marruecos.html (ev_pa=469): Tipo_Tarjeta=1 jugador=Mohammed Al Deayea, minuto=90
--- TARJETA EXTRA (omitida por PK) en 1994_arabia_saudita_suecia.html (ev_pa=470): Tipo_Tarjeta=1 jugador=Jonas Thern, minuto=67
--- TARJETA EXTRA (omitida por PK) en 1994_arabia_saudita_suecia.html (ev_pa=470): Tipo_Tarjeta=1 jugador=Khaled Al Muwallid, minuto=71
--- TARJETA EXTRA (omitida por PK) en 1994_arabia_saudita_suecia.html (ev_pa=470): Tipo_Tarjeta=1 jugador=Roland Nilsson, minuto=74
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_bulgaria.html (ev_pa=471): Tipo_Tarjeta=1 jugador=Zlatko Yankov, minuto=24
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_bulgaria.html (ev_pa=471): Tipo_Tarjeta=1 jugador=Oscar Ruggeri, minuto=34
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_bulgaria.html (ev_pa=471): Tipo_Tarjeta=1 jugador=Leonardo Rodriguez, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_bulgaria.html (ev_pa=471): Tipo_Tarjeta=1 jugador=Tsanko Tsvetanov, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_bulgaria.html (ev_pa=471): Tipo_Tarjeta=1 jugador=Trifon Ivanov, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_bulgaria.html (ev_pa=471): Tipo_Tarjeta=1 jugador=Krassimir Balakov, minuto=74
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_bulgaria.html (ev_pa=471): Tipo_Tarjeta=1 jugador=Gabriel Batistuta, minuto=81
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_grecia.html (ev_pa=472): Tipo_Tarjeta=1 jugador=Fernando Caceres, minuto=40
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_grecia.html (ev_pa=472): Tipo_Tarjeta=1 jugador=Stelios Manolas, minuto=55
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_nigeria.html (ev_pa=473): Tipo_Tarjeta=1 jugador=Michael Emenalo, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1994_argentina_nigeria.html (ev_pa=473): Tipo_Tarjeta=1 jugador=Claudio Caniggia, minuto=54
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_arabia_saudita.html (ev_pa=474): Tipo_Tarjeta=1 jugador=Enzo Scifo, minuto=61
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_arabia_saudita.html (ev_pa=474): Tipo_Tarjeta=1 jugador=Hamza Falatah, minuto=77
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_arabia_saudita.html (ev_pa=474): Tipo_Tarjeta=1 jugador=Rudi Smidts, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_holanda.html (ev_pa=475): Tipo_Tarjeta=1 jugador=Vital Borkelmans, minuto=20
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_holanda.html (ev_pa=475): Tipo_Tarjeta=1 jugador=Wim Jonk, minuto=39
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_holanda.html (ev_pa=475): Tipo_Tarjeta=1 jugador=Rob Witschge, minuto=49
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_holanda.html (ev_pa=475): Tipo_Tarjeta=1 jugador=Frank Rijkaard, minuto=81
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_holanda.html (ev_pa=475): Tipo_Tarjeta=1 jugador=Dennis Bergkamp, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_marruecos.html (ev_pa=476): Tipo_Tarjeta=1 jugador=Rachid Daoudi, minuto=26
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_marruecos.html (ev_pa=476): Tipo_Tarjeta=1 jugador=Georges Grun, minuto=81
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_marruecos.html (ev_pa=476): Tipo_Tarjeta=1 jugador=Josip Weber, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1994_belgica_marruecos.html (ev_pa=476): Tipo_Tarjeta=1 jugador=Rachid Azzouzi, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1994_bolivia_espana.html (ev_pa=477): Tipo_Tarjeta=1 jugador=Jose Luis Caminero, minuto=90
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_camerun.html (ev_pa=478): Tipo_Tarjeta=1 jugador=Raymond Kalla, minuto=37
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_camerun.html (ev_pa=478): Tipo_Tarjeta=1 jugador=Mauro Silva, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_estados_unidos.html (ev_pa=479): Tipo_Tarjeta=1 jugador=Jorginho, minuto=16
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_estados_unidos.html (ev_pa=479): Tipo_Tarjeta=1 jugador=Tab Ramos, minuto=43
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_estados_unidos.html (ev_pa=479): Tipo_Tarjeta=1 jugador=Paul Caligiuri, minuto=49
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_estados_unidos.html (ev_pa=479): Tipo_Tarjeta=1 jugador=Fernando Clavijo, minuto=64
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_estados_unidos.html (ev_pa=479): Tipo_Tarjeta=1 jugador=Thomas Dooley, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_estados_unidos.html (ev_pa=479): Tipo_Tarjeta=2 jugador=Fernando Clavijo, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_italia.html (ev_pa=480): Tipo_Tarjeta=1 jugador=Luigi Apolloni, minuto=41
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_italia.html (ev_pa=480): Tipo_Tarjeta=1 jugador=Demetrio Albertini, minuto=42
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_italia.html (ev_pa=480): Tipo_Tarjeta=1 jugador=Cafu, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_rusia.html (ev_pa=481): Tipo_Tarjeta=1 jugador=Dmitri Khlestov, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_rusia.html (ev_pa=481): Tipo_Tarjeta=1 jugador=Dmitri Kuznetsov, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1994_brasil_suecia.html (ev_pa=482): Tipo_Tarjeta=1 jugador=Hakan Mild, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_alemania.html (ev_pa=483): Tipo_Tarjeta=1 jugador=Martin Wagner, minuto=15
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_alemania.html (ev_pa=483): Tipo_Tarjeta=1 jugador=Trifon Ivanov, minuto=22
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_alemania.html (ev_pa=483): Tipo_Tarjeta=1 jugador=Thomas Haessler, minuto=49
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_alemania.html (ev_pa=483): Tipo_Tarjeta=1 jugador=Juergen Klinsmann, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_alemania.html (ev_pa=483): Tipo_Tarjeta=1 jugador=Hristo Stoichkov, minuto=82
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_alemania.html (ev_pa=483): Tipo_Tarjeta=1 jugador=Borislav Mikhailov, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_alemania.html (ev_pa=483): Tipo_Tarjeta=1 jugador=Rudi Voeller, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_grecia.html (ev_pa=484): Tipo_Tarjeta=1 jugador=Petar Houbchev, minuto=17
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_grecia.html (ev_pa=484): Tipo_Tarjeta=1 jugador=Trifon Ivanov, minuto=26
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_grecia.html (ev_pa=484): Tipo_Tarjeta=1 jugador=Zlatko Yankov, minuto=33
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_grecia.html (ev_pa=484): Tipo_Tarjeta=1 jugador=Minas Hantzidis, minuto=42
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_grecia.html (ev_pa=484): Tipo_Tarjeta=1 jugador=Tassos Mitropoulos, minuto=59
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_grecia.html (ev_pa=484): Tipo_Tarjeta=1 jugador=Vaios Karagiannis, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_grecia.html (ev_pa=484): Tipo_Tarjeta=1 jugador=Daniel Borimirov, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_italia.html (ev_pa=485): Tipo_Tarjeta=1 jugador=Alessandro Costacurta, minuto=61
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_italia.html (ev_pa=485): Tipo_Tarjeta=1 jugador=Iordan Letchkov, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_italia.html (ev_pa=485): Tipo_Tarjeta=1 jugador=Demetrio Albertini, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1994_bulgaria_italia.html (ev_pa=485): Tipo_Tarjeta=1 jugador=Zlatko Yankov, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1994_camerun_suecia.html (ev_pa=486): Tipo_Tarjeta=1 jugador=Martin Dahlin, minuto=72
--- TARJETA EXTRA (omitida por PK) en 1994_colombia_rumania.html (ev_pa=487): Tipo_Tarjeta=1 jugador=Florin Raducioiu, minuto=39
--- TARJETA EXTRA (omitida por PK) en 1994_colombia_rumania.html (ev_pa=487): Tipo_Tarjeta=1 jugador=Carlos Valderrama, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1994_colombia_rumania.html (ev_pa=487): Tipo_Tarjeta=1 jugador=Leonel Alvarez, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1994_corea_del_sur_bolivia.html (ev_pa=488): Tipo_Tarjeta=1 jugador=Miguel Angel Rimba, minuto=22
--- TARJETA EXTRA (omitida por PK) en 1994_corea_del_sur_bolivia.html (ev_pa=488): Tipo_Tarjeta=1 jugador=Julio Baldivieso, minuto=32
--- TARJETA EXTRA (omitida por PK) en 1994_corea_del_sur_bolivia.html (ev_pa=488): Tipo_Tarjeta=1 jugador=Jeong Woon Ko, minuto=38
--- TARJETA EXTRA (omitida por PK) en 1994_corea_del_sur_bolivia.html (ev_pa=488): Tipo_Tarjeta=1 jugador=Hong Gi Shin, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1994_corea_del_sur_bolivia.html (ev_pa=488): Tipo_Tarjeta=1 jugador=Jung Bae Park, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1994_espana_corea_del_sur.html (ev_pa=489): Tipo_Tarjeta=1 jugador=Joo Sung Kim, minuto=37
--- TARJETA EXTRA (omitida por PK) en 1994_espana_corea_del_sur.html (ev_pa=489): Tipo_Tarjeta=1 jugador=Young Il Choi, minuto=61
--- TARJETA EXTRA (omitida por PK) en 1994_espana_corea_del_sur.html (ev_pa=489): Tipo_Tarjeta=1 jugador=Jose Luis Caminero, minuto=71
--- TARJETA EXTRA (omitida por PK) en 1994_espana_suiza.html (ev_pa=490): Tipo_Tarjeta=1 jugador=Albert Ferrer, minuto=19
--- TARJETA EXTRA (omitida por PK) en 1994_espana_suiza.html (ev_pa=490): Tipo_Tarjeta=1 jugador=Jose Camarasa, minuto=22
--- TARJETA EXTRA (omitida por PK) en 1994_espana_suiza.html (ev_pa=490): Tipo_Tarjeta=1 jugador=Marc Hottiger, minuto=23
--- TARJETA EXTRA (omitida por PK) en 1994_espana_suiza.html (ev_pa=490): Tipo_Tarjeta=1 jugador=Juerg Studer, minuto=69
--- TARJETA EXTRA (omitida por PK) en 1994_espana_suiza.html (ev_pa=490): Tipo_Tarjeta=1 jugador=Nestor Subiat, minuto=77
--- TARJETA EXTRA (omitida por PK) en 1994_espana_suiza.html (ev_pa=490): Tipo_Tarjeta=1 jugador=Marco Pascolo, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1994_espana_suiza.html (ev_pa=490): Tipo_Tarjeta=1 jugador=Jorge Otero, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1994_estados_unidos_colombia.html (ev_pa=491): Tipo_Tarjeta=1 jugador=Alexi Lalas, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1994_estados_unidos_rumania.html (ev_pa=492): Tipo_Tarjeta=1 jugador=Fernando Clavijo, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1994_estados_unidos_rumania.html (ev_pa=492): Tipo_Tarjeta=1 jugador=Florin Raducioiu, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1994_estados_unidos_rumania.html (ev_pa=492): Tipo_Tarjeta=1 jugador=Dan Petrescu, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1994_estados_unidos_suiza.html (ev_pa=493): Tipo_Tarjeta=1 jugador=Nestor Subiat, minuto=82
--- TARJETA EXTRA (omitida por PK) en 1994_estados_unidos_suiza.html (ev_pa=493): Tipo_Tarjeta=1 jugador=John Harkes, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1994_grecia_nigeria.html (ev_pa=494): Tipo_Tarjeta=1 jugador=Giannis Kalitzakis, minuto=41
--- TARJETA EXTRA (omitida por PK) en 1994_grecia_nigeria.html (ev_pa=494): Tipo_Tarjeta=1 jugador=Sunday Oliseh, minuto=66
--- TARJETA EXTRA (omitida por PK) en 1994_grecia_nigeria.html (ev_pa=494): Tipo_Tarjeta=1 jugador=Stephen Keshi, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1994_holanda_arabia_saudita.html (ev_pa=495): Tipo_Tarjeta=1 jugador=Mohamed Abdeljawad, minuto=31
--- TARJETA EXTRA (omitida por PK) en 1994_holanda_arabia_saudita.html (ev_pa=495): Tipo_Tarjeta=1 jugador=Ulrich Van Gobbel, minuto=36
--- TARJETA EXTRA (omitida por PK) en 1994_holanda_arabia_saudita.html (ev_pa=495): Tipo_Tarjeta=1 jugador=Fuad Amin, minuto=61
--- TARJETA EXTRA (omitida por PK) en 1994_holanda_arabia_saudita.html (ev_pa=495): Tipo_Tarjeta=1 jugador=Frank De Boer, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1994_holanda_brasil.html (ev_pa=496): Tipo_Tarjeta=1 jugador=Dunga, minuto=74
--- TARJETA EXTRA (omitida por PK) en 1994_holanda_brasil.html (ev_pa=496): Tipo_Tarjeta=1 jugador=Jan Wouters, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1994_irlanda_noruega.html (ev_pa=498): Tipo_Tarjeta=1 jugador=Ray Houghton, minuto=29
--- TARJETA EXTRA (omitida por PK) en 1994_irlanda_noruega.html (ev_pa=498): Tipo_Tarjeta=1 jugador=Goran Sorloth, minuto=36
--- TARJETA EXTRA (omitida por PK) en 1994_irlanda_noruega.html (ev_pa=498): Tipo_Tarjeta=1 jugador=Erland Johnsen, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1994_irlanda_noruega.html (ev_pa=498): Tipo_Tarjeta=1 jugador=Gary Kelly, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1994_italia_espana.html (ev_pa=499): Tipo_Tarjeta=1 jugador=Jose Luis Caminero, minuto=19
--- TARJETA EXTRA (omitida por PK) en 1994_italia_irlanda.html (ev_pa=500): Tipo_Tarjeta=1 jugador=Tommy Coyne, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1994_italia_irlanda.html (ev_pa=500): Tipo_Tarjeta=1 jugador=Denis Irwin, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1994_italia_mexico.html (ev_pa=501): Tipo_Tarjeta=1 jugador=Demetrio Albertini, minuto=33
--- TARJETA EXTRA (omitida por PK) en 1994_italia_mexico.html (ev_pa=501): Tipo_Tarjeta=1 jugador=Luis Garcia, minuto=63
--- TARJETA EXTRA (omitida por PK) en 1994_italia_mexico.html (ev_pa=501): Tipo_Tarjeta=1 jugador=Alberto Garcia Aspe, minuto=66
--- TARJETA EXTRA (omitida por PK) en 1994_italia_noruega.html (ev_pa=502): Tipo_Tarjeta=1 jugador=Pierluigi Casiraghi, minuto=34
--- TARJETA EXTRA (omitida por PK) en 1994_italia_noruega.html (ev_pa=502): Tipo_Tarjeta=1 jugador=Alf Haland, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1994_marruecos_holanda.html (ev_pa=503): Tipo_Tarjeta=1 jugador=Taher El Khalej, minuto=14
--- TARJETA EXTRA (omitida por PK) en 1994_marruecos_holanda.html (ev_pa=503): Tipo_Tarjeta=1 jugador=Abdelmajid Bouyboud, minuto=25
--- TARJETA EXTRA (omitida por PK) en 1994_marruecos_holanda.html (ev_pa=503): Tipo_Tarjeta=1 jugador=Hababi El Arbi, minuto=28
--- TARJETA EXTRA (omitida por PK) en 1994_marruecos_holanda.html (ev_pa=503): Tipo_Tarjeta=1 jugador=Mohamed Samadi, minuto=41
--- TARJETA EXTRA (omitida por PK) en 1994_marruecos_holanda.html (ev_pa=503): Tipo_Tarjeta=1 jugador=Jan Wouters, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1994_marruecos_holanda.html (ev_pa=503): Tipo_Tarjeta=1 jugador=Stan Valckx, minuto=79
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_bulgaria.html (ev_pa=504): Tipo_Tarjeta=1 jugador=Claudio Suarez, minuto=14
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_bulgaria.html (ev_pa=504): Tipo_Tarjeta=1 jugador=Nasko Sirakov, minuto=17
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_bulgaria.html (ev_pa=504): Tipo_Tarjeta=1 jugador=Luis Garcia, minuto=28
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_bulgaria.html (ev_pa=504): Tipo_Tarjeta=1 jugador=Ilian Kiryakov, minuto=34
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_bulgaria.html (ev_pa=504): Tipo_Tarjeta=2 jugador=Luis Garcia, minuto=57
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_bulgaria.html (ev_pa=504): Tipo_Tarjeta=1 jugador=Ivaylo Yordanov, minuto=67
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_bulgaria.html (ev_pa=504): Tipo_Tarjeta=1 jugador=Ramon Ramirez, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_bulgaria.html (ev_pa=504): Tipo_Tarjeta=1 jugador=Alberto Garcia Aspe, minuto=76
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_irlanda.html (ev_pa=505): Tipo_Tarjeta=1 jugador=Joaquin Del Olmo, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_irlanda.html (ev_pa=505): Tipo_Tarjeta=1 jugador=Jorge Campos, minuto=57
--- TARJETA EXTRA (omitida por PK) en 1994_mexico_irlanda.html (ev_pa=505): Tipo_Tarjeta=1 jugador=Terry Phelan, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1994_nigeria_bulgaria.html (ev_pa=506): Tipo_Tarjeta=1 jugador=Emmanuel Amunike, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1994_nigeria_italia.html (ev_pa=507): Tipo_Tarjeta=1 jugador=Daniele Massaro, minuto=6
--- TARJETA EXTRA (omitida por PK) en 1994_nigeria_italia.html (ev_pa=507): Tipo_Tarjeta=1 jugador=Alessandro Costacurta, minuto=29
--- TARJETA EXTRA (omitida por PK) en 1994_nigeria_italia.html (ev_pa=507): Tipo_Tarjeta=1 jugador=Mutiu Adepoju, minuto=41
--- TARJETA EXTRA (omitida por PK) en 1994_nigeria_italia.html (ev_pa=507): Tipo_Tarjeta=1 jugador=Sunday Oliseh, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1994_nigeria_italia.html (ev_pa=507): Tipo_Tarjeta=1 jugador=Chidi Nwanu, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1994_nigeria_italia.html (ev_pa=507): Tipo_Tarjeta=1 jugador=Giuseppe Signori, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1994_nigeria_italia.html (ev_pa=507): Tipo_Tarjeta=1 jugador=Dino Baggio, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1994_nigeria_italia.html (ev_pa=507): Tipo_Tarjeta=1 jugador=Paolo Maldini, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1994_noruega_mexico.html (ev_pa=508): Tipo_Tarjeta=1 jugador=Oyvind Leonhardsen, minuto=26
--- TARJETA EXTRA (omitida por PK) en 1994_noruega_mexico.html (ev_pa=508): Tipo_Tarjeta=1 jugador=Claudio Suarez, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_argentina.html (ev_pa=509): Tipo_Tarjeta=1 jugador=Gheorghe Popescu, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_argentina.html (ev_pa=509): Tipo_Tarjeta=1 jugador=Fernando Redondo, minuto=55
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_argentina.html (ev_pa=509): Tipo_Tarjeta=1 jugador=Jose Chamot, minuto=56
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_argentina.html (ev_pa=509): Tipo_Tarjeta=1 jugador=Tibor Selymes, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_argentina.html (ev_pa=509): Tipo_Tarjeta=1 jugador=Fernando Caceres, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_argentina.html (ev_pa=509): Tipo_Tarjeta=1 jugador=Ilie Dumitrescu, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_suecia.html (ev_pa=510): Tipo_Tarjeta=1 jugador=Gheorghe Popescu, minuto=21
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_suecia.html (ev_pa=510): Tipo_Tarjeta=1 jugador=Tibor Selymes, minuto=34
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_suecia.html (ev_pa=510): Tipo_Tarjeta=1 jugador=Stefan Schwarz, minuto=43
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_suecia.html (ev_pa=510): Tipo_Tarjeta=1 jugador=Nica Panduru, minuto=108
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_suiza.html (ev_pa=511): Tipo_Tarjeta=1 jugador=Ioan Lupescu, minuto=40
--- TARJETA EXTRA (omitida por PK) en 1994_rumania_suiza.html (ev_pa=511): Tipo_Tarjeta=1 jugador=Miodrag Belodedici, minuto=47
--- TARJETA EXTRA (omitida por PK) en 1994_rusia_camerun.html (ev_pa=512): Tipo_Tarjeta=1 jugador=Jacques Songoo, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1994_rusia_camerun.html (ev_pa=512): Tipo_Tarjeta=1 jugador=Valeri Karpin, minuto=57
--- TARJETA EXTRA (omitida por PK) en 1994_rusia_camerun.html (ev_pa=512): Tipo_Tarjeta=1 jugador=Dmitri Khlestov, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1994_rusia_camerun.html (ev_pa=512): Tipo_Tarjeta=1 jugador=Yuri Nikiforov, minuto=90
--- TARJETA EXTRA (omitida por PK) en 1994_suecia_brasil.html (ev_pa=513): Tipo_Tarjeta=1 jugador=Roger Ljung, minuto=29
--- TARJETA EXTRA (omitida por PK) en 1994_suecia_brasil.html (ev_pa=513): Tipo_Tarjeta=1 jugador=Tomas Brolin, minuto=86
--- TARJETA EXTRA (omitida por PK) en 1994_suecia_bulgaria.html (ev_pa=514): Tipo_Tarjeta=1 jugador=Kennet Andersson, minuto=82
--- TARJETA EXTRA (omitida por PK) en 1994_suecia_rusia.html (ev_pa=515): Tipo_Tarjeta=1 jugador=Dmitri Kharin, minuto=34
--- TARJETA EXTRA (omitida por PK) en 1994_suecia_rusia.html (ev_pa=515): Tipo_Tarjeta=1 jugador=Kennet Andersson, minuto=41
--- TARJETA EXTRA (omitida por PK) en 1994_suecia_rusia.html (ev_pa=515): Tipo_Tarjeta=1 jugador=Stefan Schwarz, minuto=51
--- TARJETA EXTRA (omitida por PK) en 1994_suecia_rusia.html (ev_pa=515): Tipo_Tarjeta=1 jugador=Martin Dahlin, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1994_suiza_colombia.html (ev_pa=516): Tipo_Tarjeta=1 jugador=Herman Gaviria, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1994_suiza_colombia.html (ev_pa=516): Tipo_Tarjeta=1 jugador=Carlos Valderrama, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1994_suiza_colombia.html (ev_pa=516): Tipo_Tarjeta=1 jugador=Leonel Alvarez, minuto=80
--- TARJETA EXTRA (omitida por PK) en 1994_suiza_colombia.html (ev_pa=516): Tipo_Tarjeta=1 jugador=Georges Bregy, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_croacia.html (ev_pa=517): Tipo_Tarjeta=1 jugador=Joerg Heinrich, minuto=18
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_croacia.html (ev_pa=517): Tipo_Tarjeta=1 jugador=Michael Tarnat, minuto=37
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_croacia.html (ev_pa=517): Tipo_Tarjeta=1 jugador=Davor Suker, minuto=57
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_estados_unidos.html (ev_pa=518): Tipo_Tarjeta=1 jugador=Frankie Hejduk, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_estados_unidos.html (ev_pa=518): Tipo_Tarjeta=1 jugador=Didi Hamann, minuto=77
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_estados_unidos.html (ev_pa=518): Tipo_Tarjeta=1 jugador=Joerg Heinrich, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_estados_unidos.html (ev_pa=518): Tipo_Tarjeta=1 jugador=Eddie Pope, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_iran.html (ev_pa=519): Tipo_Tarjeta=1 jugador=Thomas Haessler, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_iran.html (ev_pa=519): Tipo_Tarjeta=1 jugador=Ali Daei, minuto=47
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_mexico.html (ev_pa=520): Tipo_Tarjeta=1 jugador=Lothar Matthaeus, minuto=56
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_mexico.html (ev_pa=520): Tipo_Tarjeta=1 jugador=Duilio Davino, minuto=57
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_mexico.html (ev_pa=520): Tipo_Tarjeta=1 jugador=Michael Tarnat, minuto=77
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_mexico.html (ev_pa=520): Tipo_Tarjeta=1 jugador=Cuauhtemoc Blanco, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1998_alemania_mexico.html (ev_pa=520): Tipo_Tarjeta=1 jugador=Didi Hamann, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1998_arabia_saudita_dinamarca.html (ev_pa=522): Tipo_Tarjeta=1 jugador=Morten Wieghorst, minuto=12
--- TARJETA EXTRA (omitida por PK) en 1998_arabia_saudita_dinamarca.html (ev_pa=522): Tipo_Tarjeta=1 jugador=Marc Rieper, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1998_arabia_saudita_dinamarca.html (ev_pa=522): Tipo_Tarjeta=1 jugador=Allan Nielsen, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_croacia.html (ev_pa=523): Tipo_Tarjeta=1 jugador=Ariel Ortega, minuto=23
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_croacia.html (ev_pa=523): Tipo_Tarjeta=1 jugador=Roberto Ayala, minuto=35
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_croacia.html (ev_pa=523): Tipo_Tarjeta=1 jugador=Zvonimir Soldo, minuto=43
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_croacia.html (ev_pa=523): Tipo_Tarjeta=1 jugador=Zvonimir Boban, minuto=47
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_croacia.html (ev_pa=523): Tipo_Tarjeta=1 jugador=Robert Jarni, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_croacia.html (ev_pa=523): Tipo_Tarjeta=1 jugador=Nelson Vivas, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_inglaterra.html (ev_pa=524): Tipo_Tarjeta=1 jugador=Paul Ince, minuto=10
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_inglaterra.html (ev_pa=524): Tipo_Tarjeta=1 jugador=Juan Veron, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_inglaterra.html (ev_pa=524): Tipo_Tarjeta=1 jugador=Diego Simeone, minuto=47
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_inglaterra.html (ev_pa=524): Tipo_Tarjeta=1 jugador=Matias Almeyda, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_inglaterra.html (ev_pa=524): Tipo_Tarjeta=1 jugador=Carlos Roa, minuto=110
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_jamaica.html (ev_pa=525): Tipo_Tarjeta=1 jugador=Jose Chamot, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_jamaica.html (ev_pa=525): Tipo_Tarjeta=1 jugador=Peter Cargill, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_japon.html (ev_pa=526): Tipo_Tarjeta=1 jugador=Eisuke Nakanishi, minuto=67
--- TARJETA EXTRA (omitida por PK) en 1998_argentina_japon.html (ev_pa=526): Tipo_Tarjeta=1 jugador=Takashi Hirano, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 1998_belgica_corea_del_sur.html (ev_pa=527): Tipo_Tarjeta=1 jugador=Vital Borkelmans, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1998_belgica_corea_del_sur.html (ev_pa=527): Tipo_Tarjeta=1 jugador=Lim Saeng Lee, minuto=67
--- TARJETA EXTRA (omitida por PK) en 1998_belgica_corea_del_sur.html (ev_pa=527): Tipo_Tarjeta=1 jugador=Min Sung Lee, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1998_belgica_corea_del_sur.html (ev_pa=527): Tipo_Tarjeta=1 jugador=Byung Ji Kim, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1998_belgica_mexico.html (ev_pa=528): Tipo_Tarjeta=1 jugador=Cuauhtemoc Blanco, minuto=47
--- TARJETA EXTRA (omitida por PK) en 1998_belgica_mexico.html (ev_pa=528): Tipo_Tarjeta=2 jugador=Gert Verheyen, minuto=54
--- TARJETA EXTRA (omitida por PK) en 1998_belgica_mexico.html (ev_pa=528): Tipo_Tarjeta=1 jugador=Gordan Vidovic, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_chile.html (ev_pa=529): Tipo_Tarjeta=1 jugador=Nelson Tapia, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_chile.html (ev_pa=529): Tipo_Tarjeta=1 jugador=Leonardo, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_chile.html (ev_pa=529): Tipo_Tarjeta=1 jugador=Cafu, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_dinamarca.html (ev_pa=530): Tipo_Tarjeta=1 jugador=Thomas Helveg, minuto=19
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_dinamarca.html (ev_pa=530): Tipo_Tarjeta=1 jugador=Aldair, minuto=37
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_dinamarca.html (ev_pa=530): Tipo_Tarjeta=1 jugador=Soren Colding, minuto=39
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_dinamarca.html (ev_pa=530): Tipo_Tarjeta=1 jugador=Stig Tofting, minuto=72
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_dinamarca.html (ev_pa=530): Tipo_Tarjeta=1 jugador=Cafu, minuto=81
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_escocia.html (ev_pa=531): Tipo_Tarjeta=1 jugador=Cesar Sampaio, minuto=37
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_escocia.html (ev_pa=531): Tipo_Tarjeta=1 jugador=Aldair, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_francia.html (ev_pa=532): Tipo_Tarjeta=1 jugador=Didier Deschamps, minuto=39
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_francia.html (ev_pa=532): Tipo_Tarjeta=1 jugador=Marcel Desailly, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_francia.html (ev_pa=532): Tipo_Tarjeta=1 jugador=Christian Karembeu, minuto=56
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_holanda.html (ev_pa=533): Tipo_Tarjeta=1 jugador=Cesar Sampaio, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_holanda.html (ev_pa=533): Tipo_Tarjeta=1 jugador=Michael Reiziger, minuto=48
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_holanda.html (ev_pa=533): Tipo_Tarjeta=1 jugador=Edgar Davids, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_holanda.html (ev_pa=533): Tipo_Tarjeta=1 jugador=Pierre Van Hooijdonk, minuto=90
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_holanda.html (ev_pa=533): Tipo_Tarjeta=1 jugador=Clarence Seedorf, minuto=119
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_marruecos.html (ev_pa=534): Tipo_Tarjeta=1 jugador=Cesar Sampaio, minuto=36
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_marruecos.html (ev_pa=534): Tipo_Tarjeta=1 jugador=Said Chiba, minuto=64
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_marruecos.html (ev_pa=534): Tipo_Tarjeta=1 jugador=Junior Baiano, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1998_brasil_noruega.html (ev_pa=535): Tipo_Tarjeta=1 jugador=Tore Andre Flo, minuto=61
--- TARJETA EXTRA (omitida por PK) en 1998_camerun_austria.html (ev_pa=536): Tipo_Tarjeta=1 jugador=Samuel Ipoua, minuto=30
--- TARJETA EXTRA (omitida por PK) en 1998_chile_austria.html (ev_pa=537): Tipo_Tarjeta=1 jugador=Peter Schoettel, minuto=26
--- TARJETA EXTRA (omitida por PK) en 1998_chile_austria.html (ev_pa=537): Tipo_Tarjeta=1 jugador=Fabian Estay, minuto=47
--- TARJETA EXTRA (omitida por PK) en 1998_chile_austria.html (ev_pa=537): Tipo_Tarjeta=1 jugador=Marcelo Salas, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1998_chile_austria.html (ev_pa=537): Tipo_Tarjeta=1 jugador=Ivan Zamorano, minuto=74
--- TARJETA EXTRA (omitida por PK) en 1998_chile_camerun.html (ev_pa=538): Tipo_Tarjeta=1 jugador=Nelson Parraguez, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1998_chile_camerun.html (ev_pa=538): Tipo_Tarjeta=1 jugador=Francisco Rojas, minuto=55
--- TARJETA EXTRA (omitida por PK) en 1998_chile_camerun.html (ev_pa=538): Tipo_Tarjeta=1 jugador=Moises Villarroel, minuto=66
--- TARJETA EXTRA (omitida por PK) en 1998_chile_camerun.html (ev_pa=538): Tipo_Tarjeta=2 jugador=Lauren, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1998_chile_camerun.html (ev_pa=538): Tipo_Tarjeta=1 jugador=Miguel Ramirez, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1998_colombia_inglaterra.html (ev_pa=539): Tipo_Tarjeta=1 jugador=Paul Scholes, minuto=22
--- TARJETA EXTRA (omitida por PK) en 1998_colombia_inglaterra.html (ev_pa=539): Tipo_Tarjeta=1 jugador=Victor Aristizabal, minuto=86
--- TARJETA EXTRA (omitida por PK) en 1998_colombia_inglaterra.html (ev_pa=539): Tipo_Tarjeta=1 jugador=Jorge Bermudez, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1998_colombia_inglaterra.html (ev_pa=539): Tipo_Tarjeta=1 jugador=Alan Shearer, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1998_colombia_tunez.html (ev_pa=540): Tipo_Tarjeta=1 jugador=Jose Santa, minuto=18
--- TARJETA EXTRA (omitida por PK) en 1998_colombia_tunez.html (ev_pa=540): Tipo_Tarjeta=1 jugador=Clayton, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1998_corea_del_sur_mexico.html (ev_pa=541): Tipo_Tarjeta=1 jugador=Jaime Ordiales, minuto=26
--- TARJETA EXTRA (omitida por PK) en 1998_corea_del_sur_mexico.html (ev_pa=541): Tipo_Tarjeta=1 jugador=Alberto Garcia Aspe, minuto=27
--- TARJETA EXTRA (omitida por PK) en 1998_escocia_marruecos.html (ev_pa=542): Tipo_Tarjeta=1 jugador=Youssef Chippo, minuto=81
--- TARJETA EXTRA (omitida por PK) en 1998_escocia_noruega.html (ev_pa=543): Tipo_Tarjeta=1 jugador=Kjetil Rekdal, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1998_escocia_noruega.html (ev_pa=543): Tipo_Tarjeta=1 jugador=Darren Jackson, minuto=56
--- TARJETA EXTRA (omitida por PK) en 1998_escocia_noruega.html (ev_pa=543): Tipo_Tarjeta=1 jugador=Henning Berg, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1998_espana_bulgaria.html (ev_pa=544): Tipo_Tarjeta=1 jugador=Luboslav Penev, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1998_espana_bulgaria.html (ev_pa=544): Tipo_Tarjeta=1 jugador=Julen Guerrero, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1998_espana_bulgaria.html (ev_pa=544): Tipo_Tarjeta=1 jugador=Georgi Bachev, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1998_espana_nigeria.html (ev_pa=545): Tipo_Tarjeta=1 jugador=Miguel Angel Nadal, minuto=59
--- TARJETA EXTRA (omitida por PK) en 1998_espana_nigeria.html (ev_pa=545): Tipo_Tarjeta=1 jugador=Uche Okechukwu, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1998_espana_nigeria.html (ev_pa=545): Tipo_Tarjeta=1 jugador=Ivan Campo, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1998_espana_paraguay.html (ev_pa=546): Tipo_Tarjeta=1 jugador=Celso Ayala, minuto=30
--- TARJETA EXTRA (omitida por PK) en 1998_espana_paraguay.html (ev_pa=546): Tipo_Tarjeta=1 jugador=Francisco Arce, minuto=76
--- TARJETA EXTRA (omitida por PK) en 1998_espana_paraguay.html (ev_pa=546): Tipo_Tarjeta=1 jugador=Kiko, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1998_estados_unidos_iran.html (ev_pa=547): Tipo_Tarjeta=1 jugador=David Regis, minuto=18
--- TARJETA EXTRA (omitida por PK) en 1998_estados_unidos_iran.html (ev_pa=547): Tipo_Tarjeta=1 jugador=Javad Zarincheh, minuto=77
--- TARJETA EXTRA (omitida por PK) en 1998_estados_unidos_rf_de_yugoslavia.html (ev_pa=548): Tipo_Tarjeta=1 jugador=Dejan Stankovic, minuto=41
--- TARJETA EXTRA (omitida por PK) en 1998_estados_unidos_rf_de_yugoslavia.html (ev_pa=548): Tipo_Tarjeta=1 jugador=Perica Ognjenovic, minuto=61
--- TARJETA EXTRA (omitida por PK) en 1998_francia_arabia_saudita.html (ev_pa=549): Tipo_Tarjeta=1 jugador=Laurent Blanc, minuto=36
--- TARJETA EXTRA (omitida por PK) en 1998_francia_arabia_saudita.html (ev_pa=549): Tipo_Tarjeta=1 jugador=Bixente Lizarazu, minuto=50
--- TARJETA EXTRA (omitida por PK) en 1998_francia_arabia_saudita.html (ev_pa=549): Tipo_Tarjeta=2 jugador=Zinedine Zidane, minuto=71
--- TARJETA EXTRA (omitida por PK) en 1998_francia_arabia_saudita.html (ev_pa=549): Tipo_Tarjeta=1 jugador=Sami Al Jaber, minuto=82
--- TARJETA EXTRA (omitida por PK) en 1998_francia_croacia.html (ev_pa=550): Tipo_Tarjeta=1 jugador=Mario Stanic, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1998_francia_croacia.html (ev_pa=550): Tipo_Tarjeta=1 jugador=Dario Simic, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1998_francia_dinamarca.html (ev_pa=551): Tipo_Tarjeta=1 jugador=Patrick Vieira, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1998_francia_dinamarca.html (ev_pa=551): Tipo_Tarjeta=1 jugador=Soren Colding, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1998_francia_dinamarca.html (ev_pa=551): Tipo_Tarjeta=1 jugador=Stig Tofting, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1998_francia_paraguay.html (ev_pa=552): Tipo_Tarjeta=1 jugador=Miguel Benitez, minuto=23
--- TARJETA EXTRA (omitida por PK) en 1998_francia_paraguay.html (ev_pa=552): Tipo_Tarjeta=1 jugador=Julio Cesar Enciso, minuto=32
--- TARJETA EXTRA (omitida por PK) en 1998_francia_paraguay.html (ev_pa=552): Tipo_Tarjeta=1 jugador=Francisco Arce, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1998_francia_paraguay.html (ev_pa=552): Tipo_Tarjeta=1 jugador=Aristides Rojas, minuto=99
--- TARJETA EXTRA (omitida por PK) en 1998_francia_sudafrica.html (ev_pa=553): Tipo_Tarjeta=1 jugador=Willem Jackson, minuto=39
--- TARJETA EXTRA (omitida por PK) en 1998_francia_sudafrica.html (ev_pa=553): Tipo_Tarjeta=1 jugador=Didier Deschamps, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1998_francia_sudafrica.html (ev_pa=553): Tipo_Tarjeta=1 jugador=Zinedine Zidane, minuto=75
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_argentina.html (ev_pa=554): Tipo_Tarjeta=1 jugador=Arthur Numan, minuto=17
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_argentina.html (ev_pa=554): Tipo_Tarjeta=1 jugador=Jose Chamot, minuto=22
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_argentina.html (ev_pa=554): Tipo_Tarjeta=1 jugador=Roberto Sensini, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_argentina.html (ev_pa=554): Tipo_Tarjeta=1 jugador=Ariel Ortega, minuto=86
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_argentina.html (ev_pa=554): Tipo_Tarjeta=2 jugador=Ariel Ortega, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_belgica.html (ev_pa=555): Tipo_Tarjeta=1 jugador=Eric Deflandre, minuto=30
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_corea_del_sur.html (ev_pa=556): Tipo_Tarjeta=1 jugador=Jong Soo Ko, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_croacia.html (ev_pa=557): Tipo_Tarjeta=1 jugador=Igor Stimac, minuto=52
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_croacia.html (ev_pa=557): Tipo_Tarjeta=1 jugador=Aljosa Asanovic, minuto=69
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_croacia.html (ev_pa=557): Tipo_Tarjeta=1 jugador=Mario Stanic, minuto=74
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_croacia.html (ev_pa=557): Tipo_Tarjeta=1 jugador=Edgar Davids, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_croacia.html (ev_pa=557): Tipo_Tarjeta=1 jugador=Wim Jonk, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_mexico.html (ev_pa=558): Tipo_Tarjeta=1 jugador=Jaap Stam, minuto=21
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_mexico.html (ev_pa=558): Tipo_Tarjeta=1 jugador=Luis Hernandez, minuto=46
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_mexico.html (ev_pa=558): Tipo_Tarjeta=1 jugador=Arthur Numan, minuto=46
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_mexico.html (ev_pa=558): Tipo_Tarjeta=1 jugador=Salvador Carmona, minuto=58
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_mexico.html (ev_pa=558): Tipo_Tarjeta=1 jugador=Ricardo Pelaez Linares, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_rf_de_yugoslavia.html (ev_pa=559): Tipo_Tarjeta=1 jugador=Zoran Mirkovic, minuto=52
--- TARJETA EXTRA (omitida por PK) en 1998_holanda_rf_de_yugoslavia.html (ev_pa=559): Tipo_Tarjeta=1 jugador=Goran Djorovic, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1998_inglaterra_tunez.html (ev_pa=560): Tipo_Tarjeta=1 jugador=Imed Ben Younes, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1998_inglaterra_tunez.html (ev_pa=560): Tipo_Tarjeta=1 jugador=Kais Ghodhbane, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1998_inglaterra_tunez.html (ev_pa=560): Tipo_Tarjeta=1 jugador=Sol Campbell, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1998_italia_austria.html (ev_pa=561): Tipo_Tarjeta=1 jugador=Ivica Vastic, minuto=35
--- TARJETA EXTRA (omitida por PK) en 1998_italia_austria.html (ev_pa=561): Tipo_Tarjeta=1 jugador=Peter Schoettel, minuto=43
--- TARJETA EXTRA (omitida por PK) en 1998_italia_austria.html (ev_pa=561): Tipo_Tarjeta=1 jugador=Paolo Maldini, minuto=87
--- TARJETA EXTRA (omitida por PK) en 1998_italia_austria.html (ev_pa=561): Tipo_Tarjeta=1 jugador=Hannes Reinmayr, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1998_italia_camerun.html (ev_pa=562): Tipo_Tarjeta=1 jugador=Pierre Njanka, minuto=16
--- TARJETA EXTRA (omitida por PK) en 1998_italia_camerun.html (ev_pa=562): Tipo_Tarjeta=1 jugador=Alessandro Costacurta, minuto=26
--- TARJETA EXTRA (omitida por PK) en 1998_italia_camerun.html (ev_pa=562): Tipo_Tarjeta=1 jugador=Luigi Di Biagio, minuto=63
--- TARJETA EXTRA (omitida por PK) en 1998_italia_camerun.html (ev_pa=562): Tipo_Tarjeta=1 jugador=Didier Angibeaud, minuto=79
--- TARJETA EXTRA (omitida por PK) en 1998_italia_camerun.html (ev_pa=562): Tipo_Tarjeta=1 jugador=Rigobert Song, minuto=85
--- TARJETA EXTRA (omitida por PK) en 1998_italia_chile.html (ev_pa=563): Tipo_Tarjeta=1 jugador=Fabio Cannavaro, minuto=31
--- TARJETA EXTRA (omitida por PK) en 1998_italia_chile.html (ev_pa=563): Tipo_Tarjeta=1 jugador=Nelson Parraguez, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1998_italia_chile.html (ev_pa=563): Tipo_Tarjeta=1 jugador=Clarence Acuña, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1998_italia_chile.html (ev_pa=563): Tipo_Tarjeta=1 jugador=Francisco Rojas, minuto=66
--- TARJETA EXTRA (omitida por PK) en 1998_italia_francia.html (ev_pa=564): Tipo_Tarjeta=1 jugador=Giuseppe Bergomi, minuto=28
--- TARJETA EXTRA (omitida por PK) en 1998_italia_francia.html (ev_pa=564): Tipo_Tarjeta=1 jugador=Stephane Guivarch, minuto=53
--- TARJETA EXTRA (omitida por PK) en 1998_italia_francia.html (ev_pa=564): Tipo_Tarjeta=1 jugador=Didier Deschamps, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1998_italia_francia.html (ev_pa=564): Tipo_Tarjeta=1 jugador=Alessandro Costacurta, minuto=113
--- TARJETA EXTRA (omitida por PK) en 1998_italia_noruega.html (ev_pa=565): Tipo_Tarjeta=1 jugador=Francesco Moriero, minuto=38
--- TARJETA EXTRA (omitida por PK) en 1998_italia_noruega.html (ev_pa=565): Tipo_Tarjeta=1 jugador=Erik Mykland, minuto=54
--- TARJETA EXTRA (omitida por PK) en 1998_italia_noruega.html (ev_pa=565): Tipo_Tarjeta=1 jugador=Kjetil Rekdal, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1998_italia_noruega.html (ev_pa=565): Tipo_Tarjeta=1 jugador=Luigi Di Biagio, minuto=84
--- TARJETA EXTRA (omitida por PK) en 1998_italia_noruega.html (ev_pa=565): Tipo_Tarjeta=1 jugador=Paolo Maldini, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1998_jamaica_croacia.html (ev_pa=566): Tipo_Tarjeta=1 jugador=Dario Simic, minuto=59
--- TARJETA EXTRA (omitida por PK) en 1998_jamaica_croacia.html (ev_pa=566): Tipo_Tarjeta=1 jugador=Deon Burton, minuto=62
--- TARJETA EXTRA (omitida por PK) en 1998_japon_croacia.html (ev_pa=567): Tipo_Tarjeta=1 jugador=Hiroshi Nanami, minuto=41
--- TARJETA EXTRA (omitida por PK) en 1998_japon_croacia.html (ev_pa=567): Tipo_Tarjeta=1 jugador=Eisuke Nakanishi, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1998_japon_croacia.html (ev_pa=567): Tipo_Tarjeta=1 jugador=Mario Stanic, minuto=83
--- TARJETA EXTRA (omitida por PK) en 1998_japon_croacia.html (ev_pa=567): Tipo_Tarjeta=1 jugador=Yutaka Akita, minuto=89
--- TARJETA EXTRA (omitida por PK) en 1998_japon_jamaica.html (ev_pa=568): Tipo_Tarjeta=1 jugador=Stephen Malcolm, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1998_japon_jamaica.html (ev_pa=568): Tipo_Tarjeta=1 jugador=Christopher Dawes, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1998_nigeria_bulgaria.html (ev_pa=570): Tipo_Tarjeta=1 jugador=Uche Okechukwu, minuto=44
--- TARJETA EXTRA (omitida por PK) en 1998_nigeria_bulgaria.html (ev_pa=570): Tipo_Tarjeta=1 jugador=Victor Ikpeba, minuto=49
--- TARJETA EXTRA (omitida por PK) en 1998_nigeria_bulgaria.html (ev_pa=570): Tipo_Tarjeta=1 jugador=Ilian Iliev, minuto=66
--- TARJETA EXTRA (omitida por PK) en 1998_nigeria_bulgaria.html (ev_pa=570): Tipo_Tarjeta=1 jugador=Jay Jay Okocha, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1998_nigeria_bulgaria.html (ev_pa=570): Tipo_Tarjeta=1 jugador=Radostin Kishishev, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1998_nigeria_dinamarca.html (ev_pa=571): Tipo_Tarjeta=1 jugador=Jay Jay Okocha, minuto=49
--- TARJETA EXTRA (omitida por PK) en 1998_nigeria_paraguay.html (ev_pa=572): Tipo_Tarjeta=1 jugador=Ben Iroha, minuto=38
--- TARJETA EXTRA (omitida por PK) en 1998_paraguay_bulgaria.html (ev_pa=573): Tipo_Tarjeta=1 jugador=Miguel Benitez, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1998_paraguay_bulgaria.html (ev_pa=573): Tipo_Tarjeta=1 jugador=Hristo Stoichkov, minuto=45
--- TARJETA EXTRA (omitida por PK) en 1998_paraguay_bulgaria.html (ev_pa=573): Tipo_Tarjeta=1 jugador=Trifon Ivanov, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1998_rf_de_yugoslavia_iran.html (ev_pa=574): Tipo_Tarjeta=1 jugador=Dragan Stojkovic, minuto=60
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_colombia.html (ev_pa=575): Tipo_Tarjeta=1 jugador=Iulian Filipescu, minuto=54
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_colombia.html (ev_pa=575): Tipo_Tarjeta=1 jugador=Dorinel Munteanu, minuto=69
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_colombia.html (ev_pa=575): Tipo_Tarjeta=1 jugador=Dan Petrescu, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_croacia.html (ev_pa=576): Tipo_Tarjeta=1 jugador=Gheorghe Popescu, minuto=43
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_croacia.html (ev_pa=576): Tipo_Tarjeta=1 jugador=Slaven Bilic, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_croacia.html (ev_pa=576): Tipo_Tarjeta=1 jugador=Dan Petrescu, minuto=70
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_croacia.html (ev_pa=576): Tipo_Tarjeta=1 jugador=Adrian Ilie, minuto=81
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_inglaterra.html (ev_pa=577): Tipo_Tarjeta=1 jugador=Gheorghe Popescu, minuto=46
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_inglaterra.html (ev_pa=577): Tipo_Tarjeta=1 jugador=Liviu Ciobotariu, minuto=78
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_inglaterra.html (ev_pa=577): Tipo_Tarjeta=1 jugador=Iulian Filipescu, minuto=88
--- TARJETA EXTRA (omitida por PK) en 1998_rumania_tunez.html (ev_pa=578): Tipo_Tarjeta=1 jugador=Skander Souayah, minuto=57
--- TARJETA EXTRA (omitida por PK) en 1998_sudafrica_arabia_saudita.html (ev_pa=579): Tipo_Tarjeta=1 jugador=Quinton Fortune, minuto=38
--- TARJETA EXTRA (omitida por PK) en 1998_sudafrica_arabia_saudita.html (ev_pa=579): Tipo_Tarjeta=1 jugador=Lucas Radebe, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1998_sudafrica_dinamarca.html (ev_pa=580): Tipo_Tarjeta=1 jugador=David Nyathi, minuto=28
--- TARJETA EXTRA (omitida por PK) en 1998_sudafrica_dinamarca.html (ev_pa=580): Tipo_Tarjeta=1 jugador=Jes Hogh, minuto=56
--- TARJETA EXTRA (omitida por PK) en 1998_sudafrica_dinamarca.html (ev_pa=580): Tipo_Tarjeta=1 jugador=Peter Schmeichel, minuto=57
--- TARJETA EXTRA (omitida por PK) en 1998_sudafrica_dinamarca.html (ev_pa=580): Tipo_Tarjeta=1 jugador=Pierre Issa, minuto=63
--- TARJETA EXTRA (omitida por PK) en 1998_sudafrica_dinamarca.html (ev_pa=580): Tipo_Tarjeta=1 jugador=Alfred Phiri, minuto=65
--- TARJETA EXTRA (omitida por PK) en 1998_sudafrica_dinamarca.html (ev_pa=580): Tipo_Tarjeta=2 jugador=Alfred Phiri, minuto=68
--- TARJETA EXTRA (omitida por PK) en 1998_sudafrica_dinamarca.html (ev_pa=580): Tipo_Tarjeta=1 jugador=Lucas Radebe, minuto=73
--- TARJETA EXTRA (omitida por PK) en 1998_sudafrica_dinamarca.html (ev_pa=580): Tipo_Tarjeta=2 jugador=Morten Wieghorst, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_arabia_saudita.html (ev_pa=581): Tipo_Tarjeta=1 jugador=Didi Hamann, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_arabia_saudita.html (ev_pa=581): Tipo_Tarjeta=1 jugador=Mohammed Noor, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_brasil.html (ev_pa=582): Tipo_Tarjeta=1 jugador=Miroslav Klose, minuto=9
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_corea_del_sur.html (ev_pa=583): Tipo_Tarjeta=1 jugador=Oliver Neuville, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_corea_del_sur.html (ev_pa=583): Tipo_Tarjeta=1 jugador=Min Sung Lee, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_estados_unidos.html (ev_pa=584): Tipo_Tarjeta=1 jugador=Eddie Pope, minuto=41
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_estados_unidos.html (ev_pa=584): Tipo_Tarjeta=1 jugador=Sebastian Kehl, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_estados_unidos.html (ev_pa=584): Tipo_Tarjeta=1 jugador=Claudio Reyna, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_estados_unidos.html (ev_pa=584): Tipo_Tarjeta=1 jugador=Jens Jeremies, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_estados_unidos.html (ev_pa=584): Tipo_Tarjeta=1 jugador=Pablo Mastroeni, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_estados_unidos.html (ev_pa=584): Tipo_Tarjeta=1 jugador=Gregg Berhalter, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_paraguay.html (ev_pa=586): Tipo_Tarjeta=1 jugador=Bernd Schneider, minuto=35
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_paraguay.html (ev_pa=586): Tipo_Tarjeta=1 jugador=Jose Cardozo, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_paraguay.html (ev_pa=586): Tipo_Tarjeta=1 jugador=Frank Baumann, minuto=71
--- TARJETA EXTRA (omitida por PK) en 2002_alemania_paraguay.html (ev_pa=586): Tipo_Tarjeta=1 jugador=Michael Ballack, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2002_arabia_saudita_irlanda.html (ev_pa=587): Tipo_Tarjeta=1 jugador=Steve Staunton, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2002_argentina_inglaterra.html (ev_pa=588): Tipo_Tarjeta=1 jugador=Ashley Cole, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2002_argentina_inglaterra.html (ev_pa=588): Tipo_Tarjeta=1 jugador=Emile Heskey, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2002_argentina_nigeria.html (ev_pa=589): Tipo_Tarjeta=1 jugador=Efetobore Sodje, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2002_argentina_nigeria.html (ev_pa=589): Tipo_Tarjeta=1 jugador=Diego Simeone, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2002_belgica_rusia.html (ev_pa=590): Tipo_Tarjeta=1 jugador=Alexei Smertin, minuto=14
--- TARJETA EXTRA (omitida por PK) en 2002_belgica_rusia.html (ev_pa=590): Tipo_Tarjeta=1 jugador=Yves Vanderhaeghe, minuto=39
--- TARJETA EXTRA (omitida por PK) en 2002_belgica_rusia.html (ev_pa=590): Tipo_Tarjeta=1 jugador=Dmitry Alenichev, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2002_belgica_rusia.html (ev_pa=590): Tipo_Tarjeta=1 jugador=Dmitri Sennikov, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2002_brasil_belgica.html (ev_pa=591): Tipo_Tarjeta=1 jugador=Roberto Carlos, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2002_brasil_china.html (ev_pa=592): Tipo_Tarjeta=1 jugador=Roque Junior, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2002_brasil_turquia.html (ev_pa=593): Tipo_Tarjeta=1 jugador=Hakan Unsal, minuto=24
--- TARJETA EXTRA (omitida por PK) en 2002_brasil_turquia.html (ev_pa=593): Tipo_Tarjeta=1 jugador=Alpay Ozalan, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2002_brasil_turquia.html (ev_pa=593): Tipo_Tarjeta=1 jugador=Denilson, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2002_brasil_turquia.html (ev_pa=593): Tipo_Tarjeta=2 jugador=Hakan Unsal, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2002_brasil_turquia_2.html (ev_pa=594): Tipo_Tarjeta=1 jugador=Tugay Kerimoglu, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2002_brasil_turquia_2.html (ev_pa=594): Tipo_Tarjeta=1 jugador=Hasan Sas, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Carsten Jancker, minuto=9
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Didi Hamann, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Michael Ballack, minuto=31
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Carsten Ramelow, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Rigobert Song, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Oliver Kahn, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Bill Tchato, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Geremi, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Salomon Olembe, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Patrick Suffo, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Christian Ziege, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Torsten Frings, minuto=74
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=2 jugador=Patrick Suffo, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_alemania.html (ev_pa=595): Tipo_Tarjeta=1 jugador=Lauren, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2002_camerun_arabia_saudita.html (ev_pa=596): Tipo_Tarjeta=1 jugador=Al Hasan Al Yami, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2002_china_costa_rica.html (ev_pa=597): Tipo_Tarjeta=1 jugador=Mauricio Solis, minuto=17
--- TARJETA EXTRA (omitida por PK) en 2002_china_costa_rica.html (ev_pa=597): Tipo_Tarjeta=1 jugador=Tie Li, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2002_china_costa_rica.html (ev_pa=597): Tipo_Tarjeta=1 jugador=Yunlong Xu, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2002_china_costa_rica.html (ev_pa=597): Tipo_Tarjeta=1 jugador=Xiaopeng Li, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2002_china_costa_rica.html (ev_pa=597): Tipo_Tarjeta=1 jugador=Ronald Gomez, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2002_china_costa_rica.html (ev_pa=597): Tipo_Tarjeta=1 jugador=Walter Centeno, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_estados_unidos.html (ev_pa=598): Tipo_Tarjeta=1 jugador=Jeff Agoos, minuto=39
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_estados_unidos.html (ev_pa=598): Tipo_Tarjeta=1 jugador=Myung Bo Hong, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_italia.html (ev_pa=599): Tipo_Tarjeta=1 jugador=Tae Young Kim, minuto=17
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_italia.html (ev_pa=599): Tipo_Tarjeta=1 jugador=Francesco Totti, minuto=22
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_italia.html (ev_pa=599): Tipo_Tarjeta=1 jugador=Damiano Tommasi, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_italia.html (ev_pa=599): Tipo_Tarjeta=1 jugador=Cristiano Zanetti, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_italia.html (ev_pa=599): Tipo_Tarjeta=1 jugador=Chong Gug Song, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_italia.html (ev_pa=599): Tipo_Tarjeta=1 jugador=Chun Soo Lee, minuto=99
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_italia.html (ev_pa=599): Tipo_Tarjeta=1 jugador=Jin Cheul Choi, minuto=115
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_polonia.html (ev_pa=600): Tipo_Tarjeta=1 jugador=Ji Sung Park, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_polonia.html (ev_pa=600): Tipo_Tarjeta=1 jugador=Tomasz Hajto, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_polonia.html (ev_pa=600): Tipo_Tarjeta=1 jugador=Piotr Swierczewski, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_polonia.html (ev_pa=600): Tipo_Tarjeta=1 jugador=Du Ri Cha, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_turquia.html (ev_pa=601): Tipo_Tarjeta=1 jugador=Tugay Kerimoglu, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2002_corea_del_sur_turquia.html (ev_pa=601): Tipo_Tarjeta=1 jugador=Rustu Recber, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2002_costa_rica_turquia.html (ev_pa=603): Tipo_Tarjeta=1 jugador=Gilberto Martinez, minuto=24
--- TARJETA EXTRA (omitida por PK) en 2002_costa_rica_turquia.html (ev_pa=603): Tipo_Tarjeta=1 jugador=Carlos Castro, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2002_costa_rica_turquia.html (ev_pa=603): Tipo_Tarjeta=1 jugador=Tugay Kerimoglu, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2002_costa_rica_turquia.html (ev_pa=603): Tipo_Tarjeta=1 jugador=Emre Belozoglu, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2002_dinamarca_francia.html (ev_pa=605): Tipo_Tarjeta=1 jugador=Christian Poulsen, minuto=27
--- TARJETA EXTRA (omitida por PK) en 2002_dinamarca_francia.html (ev_pa=605): Tipo_Tarjeta=1 jugador=Niclas Jensen, minuto=71
--- TARJETA EXTRA (omitida por PK) en 2002_dinamarca_inglaterra.html (ev_pa=606): Tipo_Tarjeta=1 jugador=Danny Mills, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2002_dinamarca_senegal.html (ev_pa=607): Tipo_Tarjeta=1 jugador=Khalilou Fadiga, minuto=10
--- TARJETA EXTRA (omitida por PK) en 2002_dinamarca_senegal.html (ev_pa=607): Tipo_Tarjeta=1 jugador=Jon Dahl Tomasson, minuto=20
--- TARJETA EXTRA (omitida por PK) en 2002_dinamarca_senegal.html (ev_pa=607): Tipo_Tarjeta=1 jugador=Salif Diao, minuto=62
--- TARJETA EXTRA (omitida por PK) en 2002_dinamarca_senegal.html (ev_pa=607): Tipo_Tarjeta=1 jugador=Thomas Helveg, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2002_dinamarca_senegal.html (ev_pa=607): Tipo_Tarjeta=1 jugador=Christian Poulsen, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2002_ecuador_croacia.html (ev_pa=608): Tipo_Tarjeta=1 jugador=Clever Chala, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2002_ecuador_croacia.html (ev_pa=608): Tipo_Tarjeta=1 jugador=Josip Simunic, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2002_eslovenia_paraguay.html (ev_pa=609): Tipo_Tarjeta=1 jugador=Miran Pavlin, minuto=15
--- TARJETA EXTRA (omitida por PK) en 2002_eslovenia_paraguay.html (ev_pa=609): Tipo_Tarjeta=1 jugador=Amir Karic, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2002_eslovenia_paraguay.html (ev_pa=609): Tipo_Tarjeta=1 jugador=Mladen Rudonja, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2002_eslovenia_paraguay.html (ev_pa=609): Tipo_Tarjeta=1 jugador=Zeljko Milinovic, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2002_eslovenia_paraguay.html (ev_pa=609): Tipo_Tarjeta=2 jugador=Nastja Ceh, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2002_espana_corea_del_sur.html (ev_pa=610): Tipo_Tarjeta=1 jugador=De Pedro, minuto=53
--- TARJETA EXTRA (omitida por PK) en 2002_espana_corea_del_sur.html (ev_pa=610): Tipo_Tarjeta=1 jugador=Fernando Morientes, minuto=111
--- TARJETA EXTRA (omitida por PK) en 2002_espana_eslovenia.html (ev_pa=611): Tipo_Tarjeta=1 jugador=Amir Karic, minuto=45+1
--- TARJETA EXTRA (omitida por PK) en 2002_espana_eslovenia.html (ev_pa=611): Tipo_Tarjeta=1 jugador=Sebastijan Cimirotic, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2002_espana_irlanda.html (ev_pa=612): Tipo_Tarjeta=1 jugador=Ruben Baraja, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2002_espana_irlanda.html (ev_pa=612): Tipo_Tarjeta=1 jugador=Fernando Hierro, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2002_espana_paraguay.html (ev_pa=613): Tipo_Tarjeta=1 jugador=Francisco Arce, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2002_espana_paraguay.html (ev_pa=613): Tipo_Tarjeta=1 jugador=Diego Gavilan, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2002_espana_paraguay.html (ev_pa=613): Tipo_Tarjeta=1 jugador=Roque Santa Cruz, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2002_estados_unidos_portugal.html (ev_pa=614): Tipo_Tarjeta=1 jugador=Petit, minuto=52
--- TARJETA EXTRA (omitida por PK) en 2002_estados_unidos_portugal.html (ev_pa=614): Tipo_Tarjeta=1 jugador=DaMarcus Beasley, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2002_francia_senegal.html (ev_pa=615): Tipo_Tarjeta=1 jugador=Aliou Cisse, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2002_francia_uruguay.html (ev_pa=616): Tipo_Tarjeta=1 jugador=Sebastian Abreu, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2002_francia_uruguay.html (ev_pa=616): Tipo_Tarjeta=1 jugador=Emmanuel Petit, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2002_francia_uruguay.html (ev_pa=616): Tipo_Tarjeta=1 jugador=Marcelo Romero, minuto=45+3
--- TARJETA EXTRA (omitida por PK) en 2002_francia_uruguay.html (ev_pa=616): Tipo_Tarjeta=1 jugador=Dario Silva, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2002_inglaterra_brasil.html (ev_pa=617): Tipo_Tarjeta=1 jugador=Rio Ferdinand, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2002_inglaterra_suecia.html (ev_pa=618): Tipo_Tarjeta=1 jugador=Marcus Allback, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2002_inglaterra_suecia.html (ev_pa=618): Tipo_Tarjeta=1 jugador=Andreas Jakobsson, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2002_irlanda_camerun.html (ev_pa=619): Tipo_Tarjeta=1 jugador=Steve Finnan, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2002_irlanda_camerun.html (ev_pa=619): Tipo_Tarjeta=1 jugador=Steven Reid, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2002_irlanda_camerun.html (ev_pa=619): Tipo_Tarjeta=1 jugador=Raymond Kalla, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2002_italia_croacia.html (ev_pa=620): Tipo_Tarjeta=1 jugador=Christian Vieri, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2002_italia_ecuador.html (ev_pa=621): Tipo_Tarjeta=1 jugador=Ulises De La Cruz, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2002_italia_ecuador.html (ev_pa=621): Tipo_Tarjeta=1 jugador=Clever Chala, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2002_italia_ecuador.html (ev_pa=621): Tipo_Tarjeta=1 jugador=Fabio Cannavaro, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2002_japon_belgica.html (ev_pa=622): Tipo_Tarjeta=1 jugador=Kazuyuki Toda, minuto=31
--- TARJETA EXTRA (omitida por PK) en 2002_japon_belgica.html (ev_pa=622): Tipo_Tarjeta=1 jugador=Junichi Inamoto, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2002_japon_belgica.html (ev_pa=622): Tipo_Tarjeta=1 jugador=Gert Verheyen, minuto=62
--- TARJETA EXTRA (omitida por PK) en 2002_japon_belgica.html (ev_pa=622): Tipo_Tarjeta=1 jugador=Eric Van Meir, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2002_japon_rusia.html (ev_pa=623): Tipo_Tarjeta=1 jugador=Tsuneyasu Miyamoto, minuto=15
--- TARJETA EXTRA (omitida por PK) en 2002_japon_rusia.html (ev_pa=623): Tipo_Tarjeta=1 jugador=Andrei Solomatin, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2002_japon_rusia.html (ev_pa=623): Tipo_Tarjeta=1 jugador=Koji Nakata, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2002_japon_rusia.html (ev_pa=623): Tipo_Tarjeta=1 jugador=Dmitry Khokhlov, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2002_japon_rusia.html (ev_pa=623): Tipo_Tarjeta=1 jugador=Masashi Nakayama, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2002_japon_turquia.html (ev_pa=624): Tipo_Tarjeta=1 jugador=Ergun Penbe, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2002_japon_turquia.html (ev_pa=624): Tipo_Tarjeta=1 jugador=Kazuyuki Toda, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2002_japon_turquia.html (ev_pa=624): Tipo_Tarjeta=1 jugador=Hakan Sukur, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_ecuador.html (ev_pa=625): Tipo_Tarjeta=1 jugador=Jose Cevallos, minuto=27
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_ecuador.html (ev_pa=625): Tipo_Tarjeta=1 jugador=Raul Guerron, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_ecuador.html (ev_pa=625): Tipo_Tarjeta=1 jugador=Carlos Tenorio, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_ecuador.html (ev_pa=625): Tipo_Tarjeta=1 jugador=Gerardo Torrado, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_ecuador.html (ev_pa=625): Tipo_Tarjeta=1 jugador=Agustin Delgado, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_estados_unidos.html (ev_pa=626): Tipo_Tarjeta=1 jugador=Manuel Vidrio, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_estados_unidos.html (ev_pa=626): Tipo_Tarjeta=1 jugador=Pablo Mastroeni, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_estados_unidos.html (ev_pa=626): Tipo_Tarjeta=1 jugador=Josh Wolff, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_estados_unidos.html (ev_pa=626): Tipo_Tarjeta=1 jugador=Gregg Berhalter, minuto=53
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_estados_unidos.html (ev_pa=626): Tipo_Tarjeta=1 jugador=Luis Hernandez, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_estados_unidos.html (ev_pa=626): Tipo_Tarjeta=1 jugador=Cuauhtemoc Blanco, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_estados_unidos.html (ev_pa=626): Tipo_Tarjeta=1 jugador=Alberto Garcia Aspe, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_estados_unidos.html (ev_pa=626): Tipo_Tarjeta=1 jugador=Brad Friedel, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_estados_unidos.html (ev_pa=626): Tipo_Tarjeta=1 jugador=Salvador Carmona, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_italia.html (ev_pa=627): Tipo_Tarjeta=1 jugador=Fabio Cannavaro, minuto=5
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_italia.html (ev_pa=627): Tipo_Tarjeta=1 jugador=Christian Panucci, minuto=10
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_italia.html (ev_pa=627): Tipo_Tarjeta=1 jugador=Francesco Totti, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_italia.html (ev_pa=627): Tipo_Tarjeta=1 jugador=Gianluca Zambrotta, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_italia.html (ev_pa=627): Tipo_Tarjeta=1 jugador=Vincenzo Montella, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2002_mexico_italia.html (ev_pa=627): Tipo_Tarjeta=1 jugador=Oscar Perez, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2002_paraguay_sudafrica.html (ev_pa=629): Tipo_Tarjeta=1 jugador=Pierre Issa, minuto=9
--- TARJETA EXTRA (omitida por PK) en 2002_paraguay_sudafrica.html (ev_pa=629): Tipo_Tarjeta=1 jugador=Julio Cesar Caceres, minuto=35
--- TARJETA EXTRA (omitida por PK) en 2002_paraguay_sudafrica.html (ev_pa=629): Tipo_Tarjeta=1 jugador=Benni Mccarthy, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2002_paraguay_sudafrica.html (ev_pa=629): Tipo_Tarjeta=1 jugador=Sibusiso Zuma, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2002_paraguay_sudafrica.html (ev_pa=629): Tipo_Tarjeta=1 jugador=Denis Caniza, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2002_paraguay_sudafrica.html (ev_pa=629): Tipo_Tarjeta=1 jugador=Ricardo Tavarelli, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2002_paraguay_sudafrica.html (ev_pa=629): Tipo_Tarjeta=1 jugador=Juan Carlos Franco, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2002_polonia_estados_unidos.html (ev_pa=630): Tipo_Tarjeta=1 jugador=Marek Kozminski, minuto=46
--- TARJETA EXTRA (omitida por PK) en 2002_polonia_estados_unidos.html (ev_pa=630): Tipo_Tarjeta=1 jugador=Cezary Kucharski, minuto=63
--- TARJETA EXTRA (omitida por PK) en 2002_polonia_estados_unidos.html (ev_pa=630): Tipo_Tarjeta=1 jugador=Frankie Hejduk, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2002_polonia_estados_unidos.html (ev_pa=630): Tipo_Tarjeta=1 jugador=Emmanuel Olisadebe, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2002_portugal_corea_del_sur.html (ev_pa=631): Tipo_Tarjeta=1 jugador=Tae Young Kim, minuto=24
--- TARJETA EXTRA (omitida por PK) en 2002_portugal_corea_del_sur.html (ev_pa=631): Tipo_Tarjeta=1 jugador=Ki Hyeon Seol, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2002_portugal_corea_del_sur.html (ev_pa=631): Tipo_Tarjeta=2 jugador=Beto, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2002_portugal_corea_del_sur.html (ev_pa=631): Tipo_Tarjeta=1 jugador=Nam Il Kim, minuto=74
--- TARJETA EXTRA (omitida por PK) en 2002_portugal_corea_del_sur.html (ev_pa=631): Tipo_Tarjeta=1 jugador=Jorge Costa, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2002_portugal_corea_del_sur.html (ev_pa=631): Tipo_Tarjeta=1 jugador=Jung Hwan Ahn, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2002_portugal_polonia.html (ev_pa=632): Tipo_Tarjeta=1 jugador=Frechaut, minuto=25
--- TARJETA EXTRA (omitida por PK) en 2002_portugal_polonia.html (ev_pa=632): Tipo_Tarjeta=1 jugador=Jorge Costa, minuto=27
--- TARJETA EXTRA (omitida por PK) en 2002_portugal_polonia.html (ev_pa=632): Tipo_Tarjeta=1 jugador=Rui Costa, minuto=31
--- TARJETA EXTRA (omitida por PK) en 2002_portugal_polonia.html (ev_pa=632): Tipo_Tarjeta=1 jugador=Arkadiusz Bak, minuto=39
--- TARJETA EXTRA (omitida por PK) en 2002_rusia_tunez.html (ev_pa=633): Tipo_Tarjeta=1 jugador=Hassan Gabsi, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2002_rusia_tunez.html (ev_pa=633): Tipo_Tarjeta=1 jugador=Zied Jaziri, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2002_rusia_tunez.html (ev_pa=633): Tipo_Tarjeta=1 jugador=Dmitry Alenichev, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_turquia.html (ev_pa=634): Tipo_Tarjeta=1 jugador=Emre Belozoglu, minuto=22
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_turquia.html (ev_pa=634): Tipo_Tarjeta=1 jugador=Aliou Cisse, minuto=63
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_turquia.html (ev_pa=634): Tipo_Tarjeta=1 jugador=Ilhan Mansiz, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=Omar Daf, minuto=4
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=Marcelo Romero, minuto=8
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=Fabian Carini, minuto=19
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=Pablo Garcia, minuto=35
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=Ferdinand Coly, minuto=39
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=Dario Rodriguez, minuto=40
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=Bouba Diop, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=El Hadji Diouf, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=Paolo Montero, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=Habib Beye, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2002_senegal_uruguay.html (ev_pa=635): Tipo_Tarjeta=1 jugador=Khalilou Fadiga, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2002_sudafrica_eslovenia.html (ev_pa=636): Tipo_Tarjeta=1 jugador=Muamer Vugdalic, minuto=35
--- TARJETA EXTRA (omitida por PK) en 2002_sudafrica_eslovenia.html (ev_pa=636): Tipo_Tarjeta=1 jugador=Zeljko Milinovic, minuto=52
--- TARJETA EXTRA (omitida por PK) en 2002_sudafrica_eslovenia.html (ev_pa=636): Tipo_Tarjeta=1 jugador=Teboho Mokoena, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2002_sudafrica_eslovenia.html (ev_pa=636): Tipo_Tarjeta=1 jugador=Ales Ceh, minuto=62
--- TARJETA EXTRA (omitida por PK) en 2002_sudafrica_eslovenia.html (ev_pa=636): Tipo_Tarjeta=1 jugador=Miran Pavlin, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2002_sudafrica_espana.html (ev_pa=637): Tipo_Tarjeta=1 jugador=Bradley Carnell, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2002_sudafrica_espana.html (ev_pa=637): Tipo_Tarjeta=1 jugador=Siyabonga Nomvethe, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2002_sudafrica_espana.html (ev_pa=637): Tipo_Tarjeta=1 jugador=Aaron Mokoena, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2002_suecia_argentina.html (ev_pa=638): Tipo_Tarjeta=1 jugador=Matias Almeyda, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2002_suecia_argentina.html (ev_pa=638): Tipo_Tarjeta=1 jugador=Magnus Svensson, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2002_suecia_argentina.html (ev_pa=638): Tipo_Tarjeta=1 jugador=Cristian Gonzalez, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2002_suecia_argentina.html (ev_pa=638): Tipo_Tarjeta=1 jugador=Henrik Larsson, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2002_suecia_nigeria.html (ev_pa=639): Tipo_Tarjeta=1 jugador=Niclas Alexandersson, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2002_suecia_nigeria.html (ev_pa=639): Tipo_Tarjeta=1 jugador=Taribo West, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2002_suecia_senegal.html (ev_pa=640): Tipo_Tarjeta=1 jugador=Pape Thiaw, minuto=94
--- TARJETA EXTRA (omitida por PK) en 2002_tunez_belgica.html (ev_pa=641): Tipo_Tarjeta=1 jugador=Daniel van Buyten, minuto=40
--- TARJETA EXTRA (omitida por PK) en 2002_tunez_belgica.html (ev_pa=641): Tipo_Tarjeta=1 jugador=Kais Ghodhbane, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2002_tunez_belgica.html (ev_pa=641): Tipo_Tarjeta=1 jugador=Hatem Trabelsi, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2002_tunez_belgica.html (ev_pa=641): Tipo_Tarjeta=1 jugador=Mourad Melki, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2002_tunez_japon.html (ev_pa=642): Tipo_Tarjeta=1 jugador=Khaled Badra, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2002_turquia_china.html (ev_pa=643): Tipo_Tarjeta=1 jugador=Emre Belozoglu, minuto=30
--- TARJETA EXTRA (omitida por PK) en 2002_turquia_china.html (ev_pa=643): Tipo_Tarjeta=1 jugador=Pu Yang, minuto=45+1
--- TARJETA EXTRA (omitida por PK) en 2002_turquia_china.html (ev_pa=643): Tipo_Tarjeta=1 jugador=Weifeng Li, minuto=62
--- TARJETA EXTRA (omitida por PK) en 2002_turquia_china.html (ev_pa=643): Tipo_Tarjeta=1 jugador=Hasan Sas, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2002_uruguay_dinamarca.html (ev_pa=644): Tipo_Tarjeta=1 jugador=Jan Heintze, minuto=34
--- TARJETA EXTRA (omitida por PK) en 2002_uruguay_dinamarca.html (ev_pa=644): Tipo_Tarjeta=1 jugador=Martin Laursen, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_argentina.html (ev_pa=645): Tipo_Tarjeta=1 jugador=Juan Sorin, minuto=46
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_argentina.html (ev_pa=645): Tipo_Tarjeta=1 jugador=Javier Mascherano, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_argentina.html (ev_pa=645): Tipo_Tarjeta=1 jugador=Maxi Rodriguez, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_argentina.html (ev_pa=645): Tipo_Tarjeta=1 jugador=David Odonkor, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_argentina.html (ev_pa=645): Tipo_Tarjeta=1 jugador=Julio Cruz, minuto=95
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_argentina.html (ev_pa=645): Tipo_Tarjeta=1 jugador=Arne Friedrich, minuto=114
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_italia.html (ev_pa=647): Tipo_Tarjeta=1 jugador=Christoph Metzelder, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_italia.html (ev_pa=647): Tipo_Tarjeta=1 jugador=Mauro Camoranesi, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_polonia.html (ev_pa=648): Tipo_Tarjeta=1 jugador=Radoslaw Sobolewski, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_polonia.html (ev_pa=648): Tipo_Tarjeta=1 jugador=Michael Ballack, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_polonia.html (ev_pa=648): Tipo_Tarjeta=1 jugador=David Odonkor, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_polonia.html (ev_pa=648): Tipo_Tarjeta=1 jugador=Christoph Metzelder, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_polonia.html (ev_pa=648): Tipo_Tarjeta=1 jugador=Artur Boruc, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_portugal.html (ev_pa=649): Tipo_Tarjeta=1 jugador=Ricardo Costa, minuto=24
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_portugal.html (ev_pa=649): Tipo_Tarjeta=1 jugador=Costinha, minuto=33
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_portugal.html (ev_pa=649): Tipo_Tarjeta=1 jugador=Paulo Ferreira, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_portugal.html (ev_pa=649): Tipo_Tarjeta=1 jugador=Bastian Schweinsteiger, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_suecia.html (ev_pa=650): Tipo_Tarjeta=1 jugador=Teddy Lucic, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_suecia.html (ev_pa=650): Tipo_Tarjeta=1 jugador=Mattias Jonson, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2006_alemania_suecia.html (ev_pa=650): Tipo_Tarjeta=1 jugador=Marcus Allback, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2006_angola_portugal.html (ev_pa=651): Tipo_Tarjeta=1 jugador=Jamba, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2006_angola_portugal.html (ev_pa=651): Tipo_Tarjeta=1 jugador=Loco, minuto=45+3
--- TARJETA EXTRA (omitida por PK) en 2006_angola_portugal.html (ev_pa=651): Tipo_Tarjeta=1 jugador=Andre, minuto=52
--- TARJETA EXTRA (omitida por PK) en 2006_angola_portugal.html (ev_pa=651): Tipo_Tarjeta=1 jugador=Nuno Valente, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2006_arabia_saudita_espana.html (ev_pa=652): Tipo_Tarjeta=1 jugador=David Albelda, minuto=30
--- TARJETA EXTRA (omitida por PK) en 2006_arabia_saudita_espana.html (ev_pa=652): Tipo_Tarjeta=1 jugador=Jose Antonio Reyes, minuto=35
--- TARJETA EXTRA (omitida por PK) en 2006_arabia_saudita_espana.html (ev_pa=652): Tipo_Tarjeta=1 jugador=Carlos Marchena, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2006_arabia_saudita_espana.html (ev_pa=652): Tipo_Tarjeta=1 jugador=Nawaf Al Temiyat, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2006_arabia_saudita_ucrania.html (ev_pa=653): Tipo_Tarjeta=1 jugador=Ahmed Al Dosari, minuto=41
--- TARJETA EXTRA (omitida por PK) en 2006_arabia_saudita_ucrania.html (ev_pa=653): Tipo_Tarjeta=1 jugador=Omar Al Ghamdi, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2006_arabia_saudita_ucrania.html (ev_pa=653): Tipo_Tarjeta=1 jugador=Saud Kariri, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2006_arabia_saudita_ucrania.html (ev_pa=653): Tipo_Tarjeta=1 jugador=Maksym Kalinichenko, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2006_arabia_saudita_ucrania.html (ev_pa=653): Tipo_Tarjeta=1 jugador=Vyacheslav Sviderskyi, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_costa_de_marfil.html (ev_pa=654): Tipo_Tarjeta=1 jugador=Gabriel Heinze, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_costa_de_marfil.html (ev_pa=654): Tipo_Tarjeta=1 jugador=Emmanuel Eboue, minuto=62
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_costa_de_marfil.html (ev_pa=654): Tipo_Tarjeta=1 jugador=Luis Gonzalez, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_costa_de_marfil.html (ev_pa=654): Tipo_Tarjeta=1 jugador=Didier Drogba, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_mexico.html (ev_pa=655): Tipo_Tarjeta=1 jugador=Rafael Marquez, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_mexico.html (ev_pa=655): Tipo_Tarjeta=1 jugador=Jose Castro, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_mexico.html (ev_pa=655): Tipo_Tarjeta=1 jugador=Juan Sorin, minuto=112
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_mexico.html (ev_pa=655): Tipo_Tarjeta=1 jugador=Gerardo Torrado, minuto=118
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_mexico.html (ev_pa=655): Tipo_Tarjeta=1 jugador=Jose Fonseca, minuto=119
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_serbia_y_montenegro.html (ev_pa=656): Tipo_Tarjeta=1 jugador=Albert Nadj, minuto=27
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_serbia_y_montenegro.html (ev_pa=656): Tipo_Tarjeta=1 jugador=Hernan Crespo, minuto=36
--- TARJETA EXTRA (omitida por PK) en 2006_argentina_serbia_y_montenegro.html (ev_pa=656): Tipo_Tarjeta=1 jugador=Mladen Krstajic, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2006_australia_japon.html (ev_pa=657): Tipo_Tarjeta=1 jugador=Vince Grella, minuto=33
--- TARJETA EXTRA (omitida por PK) en 2006_australia_japon.html (ev_pa=657): Tipo_Tarjeta=1 jugador=Naohiro Takahara, minuto=40
--- TARJETA EXTRA (omitida por PK) en 2006_australia_japon.html (ev_pa=657): Tipo_Tarjeta=1 jugador=Craig Moore, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2006_australia_japon.html (ev_pa=657): Tipo_Tarjeta=1 jugador=Teruyuki Moniwa, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2006_australia_japon.html (ev_pa=657): Tipo_Tarjeta=1 jugador=Tim Cahill, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2006_australia_japon.html (ev_pa=657): Tipo_Tarjeta=1 jugador=John Aloisi, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_australia.html (ev_pa=658): Tipo_Tarjeta=1 jugador=Cafu, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_australia.html (ev_pa=658): Tipo_Tarjeta=1 jugador=Ronaldo, minuto=31
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_australia.html (ev_pa=658): Tipo_Tarjeta=1 jugador=Jason Culina, minuto=39
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_australia.html (ev_pa=658): Tipo_Tarjeta=1 jugador=Robinho, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_croacia.html (ev_pa=659): Tipo_Tarjeta=1 jugador=Emerson, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_croacia.html (ev_pa=659): Tipo_Tarjeta=1 jugador=Robert Kovac, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_croacia.html (ev_pa=659): Tipo_Tarjeta=1 jugador=Igor Tudor, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_francia.html (ev_pa=660): Tipo_Tarjeta=1 jugador=Juan, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_francia.html (ev_pa=660): Tipo_Tarjeta=1 jugador=Ronaldo, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_francia.html (ev_pa=660): Tipo_Tarjeta=1 jugador=Willy Sagnol, minuto=74
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_francia.html (ev_pa=660): Tipo_Tarjeta=1 jugador=Lucio, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_francia.html (ev_pa=660): Tipo_Tarjeta=1 jugador=Louis Saha, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_francia.html (ev_pa=660): Tipo_Tarjeta=1 jugador=Lilian Thuram, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_ghana.html (ev_pa=661): Tipo_Tarjeta=1 jugador=Sulley Muntari, minuto=11
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_ghana.html (ev_pa=661): Tipo_Tarjeta=1 jugador=Adriano, minuto=13
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_ghana.html (ev_pa=661): Tipo_Tarjeta=1 jugador=John Pantsil, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_ghana.html (ev_pa=661): Tipo_Tarjeta=1 jugador=Eric Addo, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_ghana.html (ev_pa=661): Tipo_Tarjeta=1 jugador=Juan, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2006_brasil_ghana.html (ev_pa=661): Tipo_Tarjeta=1 jugador=Asamoah Gyan, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2006_corea_del_sur_togo.html (ev_pa=662): Tipo_Tarjeta=1 jugador=Alaixys Romao, minuto=24
--- TARJETA EXTRA (omitida por PK) en 2006_corea_del_sur_togo.html (ev_pa=662): Tipo_Tarjeta=1 jugador=Young Chul Kim, minuto=41
--- TARJETA EXTRA (omitida por PK) en 2006_corea_del_sur_togo.html (ev_pa=662): Tipo_Tarjeta=1 jugador=Chun Soo Lee, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2006_corea_del_sur_togo.html (ev_pa=662): Tipo_Tarjeta=1 jugador=Massamasso Tchangai, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2006_costa_de_marfil_serbia_y_montenegro.html (ev_pa=663): Tipo_Tarjeta=1 jugador=Kader Keita, minuto=33
--- TARJETA EXTRA (omitida por PK) en 2006_costa_de_marfil_serbia_y_montenegro.html (ev_pa=663): Tipo_Tarjeta=1 jugador=Milan Dudic, minuto=35
--- TARJETA EXTRA (omitida por PK) en 2006_costa_de_marfil_serbia_y_montenegro.html (ev_pa=663): Tipo_Tarjeta=1 jugador=Igor Duljaj, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2006_costa_de_marfil_serbia_y_montenegro.html (ev_pa=663): Tipo_Tarjeta=1 jugador=Cyrille Domoraud, minuto=41
--- TARJETA EXTRA (omitida por PK) en 2006_costa_de_marfil_serbia_y_montenegro.html (ev_pa=663): Tipo_Tarjeta=1 jugador=Aruna Dindane, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2006_costa_de_marfil_serbia_y_montenegro.html (ev_pa=663): Tipo_Tarjeta=1 jugador=Goran Gavrancic, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2006_costa_de_marfil_serbia_y_montenegro.html (ev_pa=663): Tipo_Tarjeta=2 jugador=Cyrille Domoraud, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2006_costa_rica_polonia.html (ev_pa=664): Tipo_Tarjeta=1 jugador=Arkadiusz Radomski, minuto=18
--- TARJETA EXTRA (omitida por PK) en 2006_costa_rica_polonia.html (ev_pa=664): Tipo_Tarjeta=1 jugador=Jacek Bak, minuto=24
--- TARJETA EXTRA (omitida por PK) en 2006_costa_rica_polonia.html (ev_pa=664): Tipo_Tarjeta=1 jugador=Michal Zewlakow, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2006_costa_rica_polonia.html (ev_pa=664): Tipo_Tarjeta=1 jugador=Luis Marin, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2006_costa_rica_polonia.html (ev_pa=664): Tipo_Tarjeta=1 jugador=Ronald Gomez, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2006_costa_rica_polonia.html (ev_pa=664): Tipo_Tarjeta=1 jugador=Gabriel Badilla, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2006_costa_rica_polonia.html (ev_pa=664): Tipo_Tarjeta=1 jugador=Marcin Baszczynski, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2006_costa_rica_polonia.html (ev_pa=664): Tipo_Tarjeta=1 jugador=Leonardo Gonzalez, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2006_costa_rica_polonia.html (ev_pa=664): Tipo_Tarjeta=1 jugador=Artur Boruc, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2006_croacia_australia.html (ev_pa=665): Tipo_Tarjeta=1 jugador=Igor Tudor, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2006_croacia_australia.html (ev_pa=665): Tipo_Tarjeta=1 jugador=Josip Simunic, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2006_croacia_australia.html (ev_pa=665): Tipo_Tarjeta=1 jugador=Stipe Pletikosa, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2006_croacia_australia.html (ev_pa=665): Tipo_Tarjeta=1 jugador=Brett Emerton, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2006_croacia_australia.html (ev_pa=665): Tipo_Tarjeta=2 jugador=Brett Emerton, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2006_croacia_australia.html (ev_pa=665): Tipo_Tarjeta=2 jugador=Josip Simunic, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2006_ecuador_alemania.html (ev_pa=666): Tipo_Tarjeta=1 jugador=Tim Borowski, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2006_ecuador_costa_rica.html (ev_pa=667): Tipo_Tarjeta=1 jugador=Mauricio Solis, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2006_ecuador_costa_rica.html (ev_pa=667): Tipo_Tarjeta=1 jugador=Segundo Castillo, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2006_ecuador_costa_rica.html (ev_pa=667): Tipo_Tarjeta=1 jugador=Ulises De La Cruz, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2006_ecuador_costa_rica.html (ev_pa=667): Tipo_Tarjeta=1 jugador=Cristian Mora, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2006_espana_francia.html (ev_pa=668): Tipo_Tarjeta=1 jugador=Carles Puyol, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2006_espana_francia.html (ev_pa=668): Tipo_Tarjeta=1 jugador=Franck Ribery, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2006_espana_francia.html (ev_pa=668): Tipo_Tarjeta=1 jugador=Zinedine Zidane, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2006_espana_tunez.html (ev_pa=669): Tipo_Tarjeta=1 jugador=Anis Ayari, minuto=32
--- TARJETA EXTRA (omitida por PK) en 2006_espana_tunez.html (ev_pa=669): Tipo_Tarjeta=1 jugador=Hatem Trabelsi, minuto=40
--- TARJETA EXTRA (omitida por PK) en 2006_espana_tunez.html (ev_pa=669): Tipo_Tarjeta=1 jugador=Radhi Jaidi, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2006_espana_tunez.html (ev_pa=669): Tipo_Tarjeta=1 jugador=Haykel Guemamdia, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2006_espana_tunez.html (ev_pa=669): Tipo_Tarjeta=1 jugador=Zied Jaziri, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2006_espana_tunez.html (ev_pa=669): Tipo_Tarjeta=1 jugador=Cesc Fabregas, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2006_espana_tunez.html (ev_pa=669): Tipo_Tarjeta=1 jugador=Jaouhar Mnari, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2006_espana_ucrania.html (ev_pa=670): Tipo_Tarjeta=1 jugador=Vladimir Yezerskyi, minuto=53
--- TARJETA EXTRA (omitida por PK) en 2006_estados_unidos_republica_checa.html (ev_pa=671): Tipo_Tarjeta=1 jugador=David Rozehnal, minuto=16
--- TARJETA EXTRA (omitida por PK) en 2006_estados_unidos_republica_checa.html (ev_pa=671): Tipo_Tarjeta=1 jugador=Vratislav Lokvenc, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2006_estados_unidos_republica_checa.html (ev_pa=671): Tipo_Tarjeta=1 jugador=Claudio Reyna, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2006_estados_unidos_republica_checa.html (ev_pa=671): Tipo_Tarjeta=1 jugador=Tomas Rosicky, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2006_estados_unidos_republica_checa.html (ev_pa=671): Tipo_Tarjeta=1 jugador=Zdenek Grygera, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2006_francia_corea_del_sur.html (ev_pa=672): Tipo_Tarjeta=1 jugador=Dong Jin Kim, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2006_francia_corea_del_sur.html (ev_pa=672): Tipo_Tarjeta=1 jugador=Eric Abidal, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2006_francia_corea_del_sur.html (ev_pa=672): Tipo_Tarjeta=1 jugador=Zinedine Zidane, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2006_francia_suiza.html (ev_pa=673): Tipo_Tarjeta=1 jugador=Marco Streller, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2006_francia_suiza.html (ev_pa=673): Tipo_Tarjeta=1 jugador=Philipp Degen, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2006_francia_suiza.html (ev_pa=673): Tipo_Tarjeta=1 jugador=Eric Abidal, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2006_francia_suiza.html (ev_pa=673): Tipo_Tarjeta=1 jugador=Ricardo Cabanas, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2006_francia_suiza.html (ev_pa=673): Tipo_Tarjeta=1 jugador=Zinedine Zidane, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2006_francia_suiza.html (ev_pa=673): Tipo_Tarjeta=1 jugador=Alexander Frei, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2006_francia_suiza.html (ev_pa=673): Tipo_Tarjeta=1 jugador=Willy Sagnol, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2006_ghana_estados_unidos.html (ev_pa=674): Tipo_Tarjeta=1 jugador=Eddie Lewis, minuto=7
--- TARJETA EXTRA (omitida por PK) en 2006_ghana_estados_unidos.html (ev_pa=674): Tipo_Tarjeta=1 jugador=Illiasu Shilla, minuto=32
--- TARJETA EXTRA (omitida por PK) en 2006_ghana_estados_unidos.html (ev_pa=674): Tipo_Tarjeta=1 jugador=John Mensah, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2006_ghana_estados_unidos.html (ev_pa=674): Tipo_Tarjeta=1 jugador=Stephen Appiah, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2006_holanda_argentina.html (ev_pa=675): Tipo_Tarjeta=1 jugador=Andre Ooijer, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2006_holanda_argentina.html (ev_pa=675): Tipo_Tarjeta=1 jugador=Tim De Cler, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2006_holanda_argentina.html (ev_pa=675): Tipo_Tarjeta=1 jugador=Esteban Cambiasso, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2006_holanda_argentina.html (ev_pa=675): Tipo_Tarjeta=1 jugador=Javier Mascherano, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2006_holanda_costa_de_marfil.html (ev_pa=676): Tipo_Tarjeta=1 jugador=Arjen Robben, minuto=34
--- TARJETA EXTRA (omitida por PK) en 2006_holanda_costa_de_marfil.html (ev_pa=676): Tipo_Tarjeta=1 jugador=Joris Mathijsen, minuto=35
--- TARJETA EXTRA (omitida por PK) en 2006_holanda_costa_de_marfil.html (ev_pa=676): Tipo_Tarjeta=1 jugador=Didier Drogba, minuto=41
--- TARJETA EXTRA (omitida por PK) en 2006_holanda_costa_de_marfil.html (ev_pa=676): Tipo_Tarjeta=1 jugador=Mark Van Bommel, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2006_holanda_costa_de_marfil.html (ev_pa=676): Tipo_Tarjeta=1 jugador=Arthur Boka, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2006_holanda_costa_de_marfil.html (ev_pa=676): Tipo_Tarjeta=1 jugador=Khalid Boulahrouz, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_ecuador.html (ev_pa=677): Tipo_Tarjeta=1 jugador=Antonio Valencia, minuto=24
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_ecuador.html (ev_pa=677): Tipo_Tarjeta=1 jugador=Carlos Tenorio, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_ecuador.html (ev_pa=677): Tipo_Tarjeta=1 jugador=Ulises De La Cruz, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_ecuador.html (ev_pa=677): Tipo_Tarjeta=1 jugador=Paul Robinson, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_ecuador.html (ev_pa=677): Tipo_Tarjeta=1 jugador=Jamie Carragher, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_paraguay.html (ev_pa=678): Tipo_Tarjeta=1 jugador=Nelson Valdez, minuto=22
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_paraguay.html (ev_pa=678): Tipo_Tarjeta=1 jugador=Peter Crouch, minuto=63
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_portugal.html (ev_pa=679): Tipo_Tarjeta=1 jugador=Petit, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_portugal.html (ev_pa=679): Tipo_Tarjeta=1 jugador=Owen Hargreaves, minuto=107
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_portugal.html (ev_pa=679): Tipo_Tarjeta=1 jugador=Ricardo Carvalho, minuto=111
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_trinidad_y_tobago.html (ev_pa=680): Tipo_Tarjeta=1 jugador=Aurtis Whitley, minuto=19
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_trinidad_y_tobago.html (ev_pa=680): Tipo_Tarjeta=1 jugador=Kenwyne Jones, minuto=45+1
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_trinidad_y_tobago.html (ev_pa=680): Tipo_Tarjeta=1 jugador=Shaka Hislop, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_trinidad_y_tobago.html (ev_pa=680): Tipo_Tarjeta=1 jugador=Cyd Gray, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2006_inglaterra_trinidad_y_tobago.html (ev_pa=680): Tipo_Tarjeta=1 jugador=Frank Lampard, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2006_iran_angola.html (ev_pa=681): Tipo_Tarjeta=1 jugador=Mehrzad Madanchi, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2006_iran_angola.html (ev_pa=681): Tipo_Tarjeta=1 jugador=Mendonca, minuto=45+1
--- TARJETA EXTRA (omitida por PK) en 2006_iran_angola.html (ev_pa=681): Tipo_Tarjeta=1 jugador=Andranik Teymourian, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2006_iran_angola.html (ev_pa=681): Tipo_Tarjeta=1 jugador=Ze Kalanga, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2006_iran_angola.html (ev_pa=681): Tipo_Tarjeta=1 jugador=Ferydoon Zandi, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2006_italia_australia.html (ev_pa=682): Tipo_Tarjeta=1 jugador=Fabio Grosso, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2006_italia_australia.html (ev_pa=682): Tipo_Tarjeta=1 jugador=Tim Cahill, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2006_italia_australia.html (ev_pa=682): Tipo_Tarjeta=1 jugador=Luke Wilkshire, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2006_italia_australia.html (ev_pa=682): Tipo_Tarjeta=1 jugador=Gennaro Gattuso, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2006_italia_australia.html (ev_pa=682): Tipo_Tarjeta=1 jugador=Gianluca Zambrotta, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2006_italia_estados_unidos.html (ev_pa=683): Tipo_Tarjeta=1 jugador=Eddie Pope, minuto=21
--- TARJETA EXTRA (omitida por PK) en 2006_italia_estados_unidos.html (ev_pa=683): Tipo_Tarjeta=2 jugador=Pablo Mastroeni, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2006_italia_estados_unidos.html (ev_pa=683): Tipo_Tarjeta=2 jugador=Eddie Pope, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2006_italia_estados_unidos.html (ev_pa=683): Tipo_Tarjeta=1 jugador=Gianluca Zambrotta, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2006_italia_francia.html (ev_pa=684): Tipo_Tarjeta=1 jugador=Willy Sagnol, minuto=12
--- TARJETA EXTRA (omitida por PK) en 2006_italia_francia.html (ev_pa=684): Tipo_Tarjeta=1 jugador=Claude Makelele, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2006_italia_francia.html (ev_pa=684): Tipo_Tarjeta=1 jugador=Florent Malouda, minuto=111
--- TARJETA EXTRA (omitida por PK) en 2006_italia_ghana.html (ev_pa=685): Tipo_Tarjeta=1 jugador=Sulley Muntari, minuto=41
--- TARJETA EXTRA (omitida por PK) en 2006_italia_ghana.html (ev_pa=685): Tipo_Tarjeta=1 jugador=Mauro Camoranesi, minuto=62
--- TARJETA EXTRA (omitida por PK) en 2006_italia_ghana.html (ev_pa=685): Tipo_Tarjeta=1 jugador=Asamoah Gyan, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2006_italia_ghana.html (ev_pa=685): Tipo_Tarjeta=1 jugador=Vincenzo Iaquinta, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2006_japon_brasil.html (ev_pa=687): Tipo_Tarjeta=1 jugador=Gilberto Melo, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2006_japon_croacia.html (ev_pa=688): Tipo_Tarjeta=1 jugador=Robert Kovac, minuto=32
--- TARJETA EXTRA (omitida por PK) en 2006_japon_croacia.html (ev_pa=688): Tipo_Tarjeta=1 jugador=Yoshikatsu Kawaguchi, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2006_japon_croacia.html (ev_pa=688): Tipo_Tarjeta=1 jugador=Darijo Srna, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2006_japon_croacia.html (ev_pa=688): Tipo_Tarjeta=1 jugador=Alessandro Santos, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2006_mexico_angola.html (ev_pa=689): Tipo_Tarjeta=1 jugador=Andre, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2006_mexico_angola.html (ev_pa=689): Tipo_Tarjeta=1 jugador=Ze Kalanga, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2006_mexico_angola.html (ev_pa=689): Tipo_Tarjeta=1 jugador=Gonzalo Pineda, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2006_mexico_angola.html (ev_pa=689): Tipo_Tarjeta=1 jugador=Joao Ricardo, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2006_mexico_iran.html (ev_pa=690): Tipo_Tarjeta=1 jugador=Javad Nekounam, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2006_mexico_iran.html (ev_pa=690): Tipo_Tarjeta=1 jugador=Carlos Salcido, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2006_paraguay_trinidad_y_tobago.html (ev_pa=691): Tipo_Tarjeta=1 jugador=Brent Sancho, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2006_paraguay_trinidad_y_tobago.html (ev_pa=691): Tipo_Tarjeta=1 jugador=Aurtis Whitley, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2006_paraguay_trinidad_y_tobago.html (ev_pa=691): Tipo_Tarjeta=1 jugador=Julio Dos Santos, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2006_polonia_ecuador.html (ev_pa=692): Tipo_Tarjeta=1 jugador=Ebi Smolarek, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2006_polonia_ecuador.html (ev_pa=692): Tipo_Tarjeta=1 jugador=Edison Mendez, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_francia.html (ev_pa=693): Tipo_Tarjeta=1 jugador=Louis Saha, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Khalid Boulahrouz, minuto=7
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Maniche, minuto=20
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Costinha, minuto=31
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Petit, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Giovanni Van Bronckhorst, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Luis Figo, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=2 jugador=Khalid Boulahrouz, minuto=63
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Wesley Sneijder, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Deco, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Rafael Van Der Vaart, minuto=74
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Nuno Valente, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=1 jugador=Ricardo, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=2 jugador=Deco, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_holanda.html (ev_pa=694): Tipo_Tarjeta=2 jugador=Giovanni Van Bronckhorst, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_iran.html (ev_pa=695): Tipo_Tarjeta=1 jugador=Mehrzad Madanchi, minuto=32
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_iran.html (ev_pa=695): Tipo_Tarjeta=1 jugador=Pauleta, minuto=45+1
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_iran.html (ev_pa=695): Tipo_Tarjeta=1 jugador=Deco, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_iran.html (ev_pa=695): Tipo_Tarjeta=1 jugador=Costinha, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_iran.html (ev_pa=695): Tipo_Tarjeta=1 jugador=Hossein Kaabi, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_iran.html (ev_pa=695): Tipo_Tarjeta=1 jugador=Yahya Golmohammadi, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_mexico.html (ev_pa=696): Tipo_Tarjeta=1 jugador=Miguel, minuto=26
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_mexico.html (ev_pa=696): Tipo_Tarjeta=1 jugador=Luis Perez, minuto=27
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_mexico.html (ev_pa=696): Tipo_Tarjeta=1 jugador=Rafael Marquez, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_mexico.html (ev_pa=696): Tipo_Tarjeta=1 jugador=Maniche, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_mexico.html (ev_pa=696): Tipo_Tarjeta=1 jugador=Zinha, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_mexico.html (ev_pa=696): Tipo_Tarjeta=1 jugador=Boa Morte, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2006_portugal_mexico.html (ev_pa=696): Tipo_Tarjeta=1 jugador=Nuno Gomes, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2006_republica_checa_ghana.html (ev_pa=697): Tipo_Tarjeta=1 jugador=Michael Essien, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2006_republica_checa_ghana.html (ev_pa=697): Tipo_Tarjeta=1 jugador=Vratislav Lokvenc, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2006_republica_checa_ghana.html (ev_pa=697): Tipo_Tarjeta=1 jugador=Asamoah Gyan, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2006_republica_checa_ghana.html (ev_pa=697): Tipo_Tarjeta=1 jugador=Derek Boateng, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2006_republica_checa_ghana.html (ev_pa=697): Tipo_Tarjeta=1 jugador=Sulley Muntari, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2006_republica_checa_ghana.html (ev_pa=697): Tipo_Tarjeta=1 jugador=Habib Mohamed, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2006_republica_checa_italia.html (ev_pa=698): Tipo_Tarjeta=1 jugador=Jan Polak, minuto=35
--- TARJETA EXTRA (omitida por PK) en 2006_serbia_y_montenegro_holanda.html (ev_pa=699): Tipo_Tarjeta=1 jugador=Giovanni Van Bronckhorst, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2006_serbia_y_montenegro_holanda.html (ev_pa=699): Tipo_Tarjeta=1 jugador=Ognjen Koroman, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2006_serbia_y_montenegro_holanda.html (ev_pa=699): Tipo_Tarjeta=1 jugador=Ivica Dragutinovic, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2006_serbia_y_montenegro_holanda.html (ev_pa=699): Tipo_Tarjeta=1 jugador=John Heitinga, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2006_serbia_y_montenegro_holanda.html (ev_pa=699): Tipo_Tarjeta=1 jugador=Goran Gavrancic, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2006_suecia_inglaterra.html (ev_pa=700): Tipo_Tarjeta=1 jugador=Niclas Alexandersson, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2006_suecia_inglaterra.html (ev_pa=700): Tipo_Tarjeta=1 jugador=Fredrik Ljungberg, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2006_suecia_paraguay.html (ev_pa=701): Tipo_Tarjeta=1 jugador=Tobias Linderoth, minuto=14
--- TARJETA EXTRA (omitida por PK) en 2006_suecia_paraguay.html (ev_pa=701): Tipo_Tarjeta=1 jugador=Teddy Lucic, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2006_suecia_paraguay.html (ev_pa=701): Tipo_Tarjeta=1 jugador=Roberto Acuña, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2006_suecia_paraguay.html (ev_pa=701): Tipo_Tarjeta=1 jugador=Jorge Núñez, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2006_suecia_paraguay.html (ev_pa=701): Tipo_Tarjeta=1 jugador=Marcus Allback, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2006_suecia_paraguay.html (ev_pa=701): Tipo_Tarjeta=1 jugador=Carlos Paredes, minuto=74
--- TARJETA EXTRA (omitida por PK) en 2006_suecia_paraguay.html (ev_pa=701): Tipo_Tarjeta=1 jugador=Edgar Barreto, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2006_suiza_corea_del_sur.html (ev_pa=702): Tipo_Tarjeta=1 jugador=Jin Kyu Kim, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2006_suiza_corea_del_sur.html (ev_pa=702): Tipo_Tarjeta=1 jugador=Philippe Senderos, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2006_suiza_corea_del_sur.html (ev_pa=702): Tipo_Tarjeta=1 jugador=Hakan Yakin, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2006_suiza_corea_del_sur.html (ev_pa=702): Tipo_Tarjeta=1 jugador=Raphael Wicky, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2006_suiza_corea_del_sur.html (ev_pa=702): Tipo_Tarjeta=1 jugador=Jung Hwan Ahn, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2006_suiza_corea_del_sur.html (ev_pa=702): Tipo_Tarjeta=1 jugador=Jin Cheul Choi, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2006_suiza_corea_del_sur.html (ev_pa=702): Tipo_Tarjeta=1 jugador=Chun Soo Lee, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2006_suiza_corea_del_sur.html (ev_pa=702): Tipo_Tarjeta=1 jugador=Christoph Spycher, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2006_suiza_corea_del_sur.html (ev_pa=702): Tipo_Tarjeta=1 jugador=Johan Djourou, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2006_togo_francia.html (ev_pa=704): Tipo_Tarjeta=1 jugador=Yao Aziawonou, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2006_togo_francia.html (ev_pa=704): Tipo_Tarjeta=1 jugador=Cherif Toure Mamam, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2006_togo_francia.html (ev_pa=704): Tipo_Tarjeta=1 jugador=Moustapha Salifou, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2006_togo_suiza.html (ev_pa=705): Tipo_Tarjeta=1 jugador=Emmanuel Adebayor, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2006_togo_suiza.html (ev_pa=705): Tipo_Tarjeta=1 jugador=Alaixys Romao, minuto=53
--- TARJETA EXTRA (omitida por PK) en 2006_togo_suiza.html (ev_pa=705): Tipo_Tarjeta=1 jugador=Johann Vogel, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2006_trinidad_y_tobago_suecia.html (ev_pa=706): Tipo_Tarjeta=1 jugador=Dwight Yorke, minuto=74
--- TARJETA EXTRA (omitida por PK) en 2006_trinidad_y_tobago_suecia.html (ev_pa=706): Tipo_Tarjeta=1 jugador=Henrik Larsson, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2006_tunez_arabia_saudita.html (ev_pa=707): Tipo_Tarjeta=1 jugador=Riadh Bouazizi, minuto=36
--- TARJETA EXTRA (omitida por PK) en 2006_tunez_arabia_saudita.html (ev_pa=707): Tipo_Tarjeta=1 jugador=Adel Chedli, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2006_tunez_arabia_saudita.html (ev_pa=707): Tipo_Tarjeta=1 jugador=Yassine Chikhaoui, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2006_ucrania_tunez.html (ev_pa=708): Tipo_Tarjeta=1 jugador=Vyacheslav Sviderskyi, minuto=18
--- TARJETA EXTRA (omitida por PK) en 2006_ucrania_tunez.html (ev_pa=708): Tipo_Tarjeta=1 jugador=Riadh Bouazizi, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2006_ucrania_tunez.html (ev_pa=708): Tipo_Tarjeta=1 jugador=Oleg Shelayev, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2006_ucrania_tunez.html (ev_pa=708): Tipo_Tarjeta=1 jugador=Anatoliy Tymoschuk, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2006_ucrania_tunez.html (ev_pa=708): Tipo_Tarjeta=1 jugador=Andriy Rusol, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2006_ucrania_tunez.html (ev_pa=708): Tipo_Tarjeta=1 jugador=Radhi Jaidi, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_australia.html (ev_pa=709): Tipo_Tarjeta=1 jugador=Craig Moore, minuto=24
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_australia.html (ev_pa=709): Tipo_Tarjeta=1 jugador=Lucas Neill, minuto=46
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_australia.html (ev_pa=709): Tipo_Tarjeta=1 jugador=Carl Valeri, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_australia.html (ev_pa=709): Tipo_Tarjeta=1 jugador=Cacau, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_inglaterra.html (ev_pa=711): Tipo_Tarjeta=1 jugador=Glen Johnson, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_serbia.html (ev_pa=712): Tipo_Tarjeta=1 jugador=Branislav Ivanovic, minuto=18
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_serbia.html (ev_pa=712): Tipo_Tarjeta=1 jugador=Aleksandar Kolarov, minuto=19
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_serbia.html (ev_pa=712): Tipo_Tarjeta=1 jugador=Sami Khedira, minuto=22
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_serbia.html (ev_pa=712): Tipo_Tarjeta=1 jugador=Philipp Lahm, minuto=32
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_serbia.html (ev_pa=712): Tipo_Tarjeta=1 jugador=Neven Subotic, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_serbia.html (ev_pa=712): Tipo_Tarjeta=1 jugador=Nemanja Vidic, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2010_alemania_serbia.html (ev_pa=712): Tipo_Tarjeta=1 jugador=Bastian Schweinsteiger, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2010_argelia_eslovenia.html (ev_pa=713): Tipo_Tarjeta=1 jugador=Abdelkader Ghezzal, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2010_argelia_eslovenia.html (ev_pa=713): Tipo_Tarjeta=1 jugador=Andrej Komac, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2010_argelia_eslovenia.html (ev_pa=713): Tipo_Tarjeta=1 jugador=Hassan Yebda, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2010_argentina_alemania.html (ev_pa=714): Tipo_Tarjeta=1 jugador=Thomas Müller, minuto=35
--- TARJETA EXTRA (omitida por PK) en 2010_argentina_alemania.html (ev_pa=714): Tipo_Tarjeta=1 jugador=Javier Mascherano, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2010_argentina_corea_del_sur.html (ev_pa=715): Tipo_Tarjeta=1 jugador=Chung-yong Lee, minuto=34
--- TARJETA EXTRA (omitida por PK) en 2010_argentina_corea_del_sur.html (ev_pa=715): Tipo_Tarjeta=1 jugador=Jonas Gutierrez, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2010_argentina_corea_del_sur.html (ev_pa=715): Tipo_Tarjeta=1 jugador=Javier Mascherano, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2010_argentina_corea_del_sur.html (ev_pa=715): Tipo_Tarjeta=1 jugador=Gabriel Heinze, minuto=74
--- TARJETA EXTRA (omitida por PK) en 2010_argentina_nigeria.html (ev_pa=717): Tipo_Tarjeta=1 jugador=Lukman Haruna, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2010_australia_serbia.html (ev_pa=718): Tipo_Tarjeta=1 jugador=Michael Beauchamp, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2010_australia_serbia.html (ev_pa=718): Tipo_Tarjeta=1 jugador=Luke Wilkshire, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2010_australia_serbia.html (ev_pa=718): Tipo_Tarjeta=1 jugador=Milos Ninkovic, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2010_australia_serbia.html (ev_pa=718): Tipo_Tarjeta=1 jugador=Brett Emerton, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2010_brasil_chile.html (ev_pa=719): Tipo_Tarjeta=1 jugador=Arturo Vidal, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2010_brasil_chile.html (ev_pa=719): Tipo_Tarjeta=1 jugador=Ismael Fuentes, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2010_brasil_chile.html (ev_pa=719): Tipo_Tarjeta=1 jugador=Ramires, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2010_brasil_chile.html (ev_pa=719): Tipo_Tarjeta=1 jugador=Rodrigo Millar, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2010_camerun_dinamarca.html (ev_pa=722): Tipo_Tarjeta=1 jugador=Stephane Mbia, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2010_camerun_dinamarca.html (ev_pa=722): Tipo_Tarjeta=1 jugador=Thomas Sorensen, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2010_camerun_dinamarca.html (ev_pa=722): Tipo_Tarjeta=1 jugador=Simon Kjaer, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2010_camerun_holanda.html (ev_pa=723): Tipo_Tarjeta=1 jugador=Nicolas Nkoulou, minuto=25
--- TARJETA EXTRA (omitida por PK) en 2010_camerun_holanda.html (ev_pa=723): Tipo_Tarjeta=1 jugador=Rafael Van Der Vaart, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2010_camerun_holanda.html (ev_pa=723): Tipo_Tarjeta=1 jugador=Giovanni Van Bronckhorst, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2010_camerun_holanda.html (ev_pa=723): Tipo_Tarjeta=1 jugador=Stephane Mbia, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2010_chile_espana.html (ev_pa=724): Tipo_Tarjeta=1 jugador=Waldo Ponce, minuto=19
--- TARJETA EXTRA (omitida por PK) en 2010_chile_espana.html (ev_pa=724): Tipo_Tarjeta=1 jugador=Marco Estrada, minuto=21
--- TARJETA EXTRA (omitida por PK) en 2010_chile_suiza.html (ev_pa=725): Tipo_Tarjeta=1 jugador=Blaise Nkufo, minuto=18
--- TARJETA EXTRA (omitida por PK) en 2010_chile_suiza.html (ev_pa=725): Tipo_Tarjeta=1 jugador=Carlos Carmona, minuto=22
--- TARJETA EXTRA (omitida por PK) en 2010_chile_suiza.html (ev_pa=725): Tipo_Tarjeta=1 jugador=Waldo Ponce, minuto=25
--- TARJETA EXTRA (omitida por PK) en 2010_chile_suiza.html (ev_pa=725): Tipo_Tarjeta=1 jugador=Tranquillo Barnetta, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2010_chile_suiza.html (ev_pa=725): Tipo_Tarjeta=1 jugador=Gokhan Inler, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2010_chile_suiza.html (ev_pa=725): Tipo_Tarjeta=1 jugador=Matias Fernandez, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2010_chile_suiza.html (ev_pa=725): Tipo_Tarjeta=1 jugador=Gary Medel, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2010_chile_suiza.html (ev_pa=725): Tipo_Tarjeta=1 jugador=Jorge Valdivia, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2010_costa_de_marfil_portugal.html (ev_pa=728): Tipo_Tarjeta=1 jugador=Guy Demel, minuto=21
--- TARJETA EXTRA (omitida por PK) en 2010_costa_de_marfil_portugal.html (ev_pa=728): Tipo_Tarjeta=1 jugador=Cristiano Ronaldo, minuto=21
--- TARJETA EXTRA (omitida por PK) en 2010_dinamarca_japon.html (ev_pa=729): Tipo_Tarjeta=1 jugador=Yuto Nagatomo, minuto=26
--- TARJETA EXTRA (omitida por PK) en 2010_dinamarca_japon.html (ev_pa=729): Tipo_Tarjeta=1 jugador=Per Kroldrup, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2010_dinamarca_japon.html (ev_pa=729): Tipo_Tarjeta=1 jugador=Christian Poulsen, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2010_dinamarca_japon.html (ev_pa=729): Tipo_Tarjeta=1 jugador=Nicklas Bendtner, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2010_eslovaquia_italia.html (ev_pa=730): Tipo_Tarjeta=1 jugador=Fabio Cannavaro, minuto=31
--- TARJETA EXTRA (omitida por PK) en 2010_eslovaquia_italia.html (ev_pa=730): Tipo_Tarjeta=1 jugador=Robert Vittek, minuto=40
--- TARJETA EXTRA (omitida por PK) en 2010_eslovaquia_italia.html (ev_pa=730): Tipo_Tarjeta=1 jugador=Peter Pekarik, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2010_eslovaquia_italia.html (ev_pa=730): Tipo_Tarjeta=1 jugador=Giorgio Chiellini, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2010_eslovaquia_italia.html (ev_pa=730): Tipo_Tarjeta=1 jugador=Simone Pepe, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2010_eslovaquia_italia.html (ev_pa=730): Tipo_Tarjeta=1 jugador=Jan Mucha, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2010_eslovaquia_italia.html (ev_pa=730): Tipo_Tarjeta=1 jugador=Fabio Quagliarella, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2010_eslovaquia_paraguay.html (ev_pa=731): Tipo_Tarjeta=1 jugador=Enrique Vera, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2010_eslovaquia_paraguay.html (ev_pa=731): Tipo_Tarjeta=1 jugador=Stanislav Sestak, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2010_eslovaquia_paraguay.html (ev_pa=731): Tipo_Tarjeta=1 jugador=Vladimir Weiss, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2010_eslovenia_estados_unidos.html (ev_pa=732): Tipo_Tarjeta=1 jugador=Robbie Findley, minuto=40
--- TARJETA EXTRA (omitida por PK) en 2010_eslovenia_estados_unidos.html (ev_pa=732): Tipo_Tarjeta=1 jugador=Marko Suler, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2010_eslovenia_estados_unidos.html (ev_pa=732): Tipo_Tarjeta=1 jugador=Andraz Kirm, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2010_eslovenia_estados_unidos.html (ev_pa=732): Tipo_Tarjeta=1 jugador=Bojan Jokic, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2010_eslovenia_inglaterra.html (ev_pa=733): Tipo_Tarjeta=1 jugador=Glen Johnson, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2010_eslovenia_inglaterra.html (ev_pa=733): Tipo_Tarjeta=1 jugador=Valter Birsa, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2010_eslovenia_inglaterra.html (ev_pa=733): Tipo_Tarjeta=1 jugador=Zlatko Dedic, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2010_espana_honduras.html (ev_pa=734): Tipo_Tarjeta=1 jugador=Emilio Izaguirre, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2010_espana_portugal.html (ev_pa=735): Tipo_Tarjeta=1 jugador=Tiago, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2010_espana_suiza.html (ev_pa=736): Tipo_Tarjeta=1 jugador=Reto Ziegler, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2010_espana_suiza.html (ev_pa=736): Tipo_Tarjeta=1 jugador=Diego Benaglio, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2010_espana_suiza.html (ev_pa=736): Tipo_Tarjeta=1 jugador=Hakan Yakin, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2010_estados_unidos_argelia.html (ev_pa=737): Tipo_Tarjeta=1 jugador=Jozy Altidore, minuto=62
--- TARJETA EXTRA (omitida por PK) en 2010_estados_unidos_argelia.html (ev_pa=737): Tipo_Tarjeta=1 jugador=Anther Yahia, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2010_estados_unidos_argelia.html (ev_pa=737): Tipo_Tarjeta=1 jugador=Medhi Lacen, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2010_estados_unidos_argelia.html (ev_pa=737): Tipo_Tarjeta=1 jugador=DaMarcus Beasley, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2010_estados_unidos_ghana.html (ev_pa=738): Tipo_Tarjeta=1 jugador=Steve Cherundolo, minuto=18
--- TARJETA EXTRA (omitida por PK) en 2010_estados_unidos_ghana.html (ev_pa=738): Tipo_Tarjeta=1 jugador=John Mensah, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2010_estados_unidos_ghana.html (ev_pa=738): Tipo_Tarjeta=1 jugador=Carlos Bocanegra, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2010_estados_unidos_ghana.html (ev_pa=738): Tipo_Tarjeta=1 jugador=Andre Ayew, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2010_francia_mexico.html (ev_pa=739): Tipo_Tarjeta=1 jugador=Jeremy Toulalan, minuto=45+1
--- TARJETA EXTRA (omitida por PK) en 2010_francia_mexico.html (ev_pa=739): Tipo_Tarjeta=1 jugador=Efrain Juarez, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2010_francia_mexico.html (ev_pa=739): Tipo_Tarjeta=1 jugador=Hector Moreno, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2010_francia_mexico.html (ev_pa=739): Tipo_Tarjeta=1 jugador=Eric Abidal, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2010_francia_mexico.html (ev_pa=739): Tipo_Tarjeta=1 jugador=Francisco Rodriguez, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2010_ghana_alemania.html (ev_pa=741): Tipo_Tarjeta=1 jugador=Thomas Müller, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2010_ghana_australia.html (ev_pa=742): Tipo_Tarjeta=1 jugador=Jonathan Mensah, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2010_ghana_australia.html (ev_pa=742): Tipo_Tarjeta=1 jugador=Anthony Annan, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2010_ghana_australia.html (ev_pa=742): Tipo_Tarjeta=1 jugador=Craig Moore, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2010_grecia_argentina.html (ev_pa=743): Tipo_Tarjeta=1 jugador=Mario Bolatti, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2010_grecia_nigeria.html (ev_pa=744): Tipo_Tarjeta=1 jugador=Alexandros Tziolis, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2010_grecia_nigeria.html (ev_pa=744): Tipo_Tarjeta=1 jugador=Georgios Samaras, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2010_grecia_nigeria.html (ev_pa=744): Tipo_Tarjeta=1 jugador=Chinedu Ogbuke Obasi, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_brasil.html (ev_pa=745): Tipo_Tarjeta=1 jugador=Michel Bastos, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_brasil.html (ev_pa=745): Tipo_Tarjeta=1 jugador=Gregory Van Der Wiel, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_brasil.html (ev_pa=745): Tipo_Tarjeta=1 jugador=Nigel De Jong, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_brasil.html (ev_pa=745): Tipo_Tarjeta=1 jugador=Andre Ooijer, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_dinamarca.html (ev_pa=746): Tipo_Tarjeta=1 jugador=Robin Van Persie, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_dinamarca.html (ev_pa=746): Tipo_Tarjeta=1 jugador=Simon Kjaer, minuto=63
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_eslovaquia.html (ev_pa=747): Tipo_Tarjeta=1 jugador=Juraj Kucka, minuto=40
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_eslovaquia.html (ev_pa=747): Tipo_Tarjeta=1 jugador=Kamil Kopunek, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_eslovaquia.html (ev_pa=747): Tipo_Tarjeta=1 jugador=Martin Skrtel, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_eslovaquia.html (ev_pa=747): Tipo_Tarjeta=1 jugador=Maarten Stekelenburg, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Carles Puyol, minuto=16
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Mark Van Bommel, minuto=22
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Sergio Ramos, minuto=23
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Nigel De Jong, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Giovanni Van Bronckhorst, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=John Heitinga, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Joan Capdevila, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Arjen Robben, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Gregory Van Der Wiel, minuto=111
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Joris Mathijsen, minuto=117
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Andrés Iniesta, minuto=118
--- TARJETA EXTRA (omitida por PK) en 2010_holanda_espana.html (ev_pa=748): Tipo_Tarjeta=1 jugador=Xavi, minuto=120+1
--- TARJETA EXTRA (omitida por PK) en 2010_honduras_chile.html (ev_pa=750): Tipo_Tarjeta=1 jugador=Matias Fernandez, minuto=19
--- TARJETA EXTRA (omitida por PK) en 2010_honduras_chile.html (ev_pa=750): Tipo_Tarjeta=1 jugador=Wilson Palacios, minuto=33
--- TARJETA EXTRA (omitida por PK) en 2010_inglaterra_argelia.html (ev_pa=751): Tipo_Tarjeta=1 jugador=Medhi Lacen, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2010_inglaterra_estados_unidos.html (ev_pa=752): Tipo_Tarjeta=1 jugador=Steve Cherundolo, minuto=39
--- TARJETA EXTRA (omitida por PK) en 2010_inglaterra_estados_unidos.html (ev_pa=752): Tipo_Tarjeta=1 jugador=Jay Demerit, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2010_inglaterra_estados_unidos.html (ev_pa=752): Tipo_Tarjeta=1 jugador=Jamie Carragher, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2010_inglaterra_estados_unidos.html (ev_pa=752): Tipo_Tarjeta=1 jugador=Steven Gerrard, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2010_inglaterra_estados_unidos.html (ev_pa=752): Tipo_Tarjeta=1 jugador=Robbie Findley, minuto=74
--- TARJETA EXTRA (omitida por PK) en 2010_italia_nueva_zelanda.html (ev_pa=753): Tipo_Tarjeta=1 jugador=Tommy Smith, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2010_italia_nueva_zelanda.html (ev_pa=753): Tipo_Tarjeta=1 jugador=Ryan Nelsen, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2010_italia_paraguay.html (ev_pa=754): Tipo_Tarjeta=1 jugador=Mauro Camoranesi, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2010_japon_camerun.html (ev_pa=755): Tipo_Tarjeta=1 jugador=Yuki Abe, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2010_mexico_uruguay.html (ev_pa=756): Tipo_Tarjeta=1 jugador=Javier Hernandez, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2010_mexico_uruguay.html (ev_pa=756): Tipo_Tarjeta=1 jugador=Israel Castro, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2010_nigeria_corea_del_sur.html (ev_pa=757): Tipo_Tarjeta=1 jugador=Chinedu Ogbuke Obasi, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2010_nigeria_corea_del_sur.html (ev_pa=757): Tipo_Tarjeta=1 jugador=Yussuf Ayila, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2010_nigeria_corea_del_sur.html (ev_pa=757): Tipo_Tarjeta=1 jugador=Nam Il Kim, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2010_nueva_zelanda_eslovaquia.html (ev_pa=758): Tipo_Tarjeta=1 jugador=Zdenko Strba, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2010_nueva_zelanda_eslovaquia.html (ev_pa=758): Tipo_Tarjeta=1 jugador=Winston Reid, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_espana.html (ev_pa=759): Tipo_Tarjeta=1 jugador=Victor Caceres, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_espana.html (ev_pa=759): Tipo_Tarjeta=1 jugador=Antolin Alcaraz, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_espana.html (ev_pa=759): Tipo_Tarjeta=1 jugador=Sergio Busquets, minuto=63
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_espana.html (ev_pa=759): Tipo_Tarjeta=1 jugador=Claudio Morel, minuto=71
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_espana.html (ev_pa=759): Tipo_Tarjeta=1 jugador=Jonathan Santana, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_japon.html (ev_pa=760): Tipo_Tarjeta=1 jugador=Yuto Nagatomo, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_japon.html (ev_pa=760): Tipo_Tarjeta=1 jugador=Keisuke Honda, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_japon.html (ev_pa=760): Tipo_Tarjeta=1 jugador=Yasuhito Endo, minuto=113
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_japon.html (ev_pa=760): Tipo_Tarjeta=1 jugador=Cristian Riveros, minuto=118
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_nueva_zelanda.html (ev_pa=761): Tipo_Tarjeta=1 jugador=Roque Santa Cruz, minuto=41
--- TARJETA EXTRA (omitida por PK) en 2010_paraguay_nueva_zelanda.html (ev_pa=761): Tipo_Tarjeta=1 jugador=Ryan Nelsen, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2010_portugal_brasil.html (ev_pa=762): Tipo_Tarjeta=1 jugador=Juan, minuto=25
--- TARJETA EXTRA (omitida por PK) en 2010_portugal_brasil.html (ev_pa=762): Tipo_Tarjeta=1 jugador=Duda, minuto=25
--- TARJETA EXTRA (omitida por PK) en 2010_portugal_brasil.html (ev_pa=762): Tipo_Tarjeta=1 jugador=Tiago, minuto=31
--- TARJETA EXTRA (omitida por PK) en 2010_portugal_brasil.html (ev_pa=762): Tipo_Tarjeta=1 jugador=Pepe, minuto=40
--- TARJETA EXTRA (omitida por PK) en 2010_portugal_brasil.html (ev_pa=762): Tipo_Tarjeta=1 jugador=Felipe Melo, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2010_portugal_brasil.html (ev_pa=762): Tipo_Tarjeta=1 jugador=Fabio Coentrao, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2010_portugal_corea_del_norte.html (ev_pa=763): Tipo_Tarjeta=1 jugador=Pedro Mendes, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2010_portugal_corea_del_norte.html (ev_pa=763): Tipo_Tarjeta=1 jugador=Yong Jo Hong, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2010_portugal_corea_del_norte.html (ev_pa=763): Tipo_Tarjeta=1 jugador=Hugo Almeida, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2010_serbia_ghana.html (ev_pa=764): Tipo_Tarjeta=1 jugador=Isaac Vorsah, minuto=26
--- TARJETA EXTRA (omitida por PK) en 2010_serbia_ghana.html (ev_pa=764): Tipo_Tarjeta=1 jugador=Aleksandar Lukovic, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2010_serbia_ghana.html (ev_pa=764): Tipo_Tarjeta=1 jugador=Zdravko Kuzmanovic, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2010_serbia_ghana.html (ev_pa=764): Tipo_Tarjeta=1 jugador=Prince Tagoe, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2010_sudafrica_mexico.html (ev_pa=765): Tipo_Tarjeta=1 jugador=Kagisho Dikgacoi, minuto=27
--- TARJETA EXTRA (omitida por PK) en 2010_sudafrica_mexico.html (ev_pa=765): Tipo_Tarjeta=1 jugador=Gerardo Torrado, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2010_sudafrica_mexico.html (ev_pa=765): Tipo_Tarjeta=1 jugador=Tsepo Masilela, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2010_sudafrica_uruguay.html (ev_pa=766): Tipo_Tarjeta=1 jugador=Kagisho Dikgacoi, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2010_suiza_honduras.html (ev_pa=767): Tipo_Tarjeta=1 jugador=Gelson Fernandes, minuto=34
--- TARJETA EXTRA (omitida por PK) en 2010_suiza_honduras.html (ev_pa=767): Tipo_Tarjeta=1 jugador=David Suazo, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2010_suiza_honduras.html (ev_pa=767): Tipo_Tarjeta=1 jugador=Osman Chavez, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2010_suiza_honduras.html (ev_pa=767): Tipo_Tarjeta=1 jugador=Wilson Palacios, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_alemania.html (ev_pa=768): Tipo_Tarjeta=1 jugador=Cacau, minuto=7
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_alemania.html (ev_pa=768): Tipo_Tarjeta=1 jugador=Diego Perez, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_alemania.html (ev_pa=768): Tipo_Tarjeta=1 jugador=Arne Friedrich, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_corea_del_sur.html (ev_pa=769): Tipo_Tarjeta=1 jugador=Du Ri Cha, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_corea_del_sur.html (ev_pa=769): Tipo_Tarjeta=1 jugador=Yong Hyung Cho, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_francia.html (ev_pa=770): Tipo_Tarjeta=1 jugador=Franck Ribery, minuto=19
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_francia.html (ev_pa=770): Tipo_Tarjeta=1 jugador=Mauricio Victorino, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_francia.html (ev_pa=770): Tipo_Tarjeta=1 jugador=Nicolas Lodeiro, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_francia.html (ev_pa=770): Tipo_Tarjeta=1 jugador=Jeremy Toulalan, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_francia.html (ev_pa=770): Tipo_Tarjeta=1 jugador=Diego Lugano, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_ghana.html (ev_pa=771): Tipo_Tarjeta=1 jugador=Egidio Arevalo, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_ghana.html (ev_pa=771): Tipo_Tarjeta=1 jugador=John Pantsil, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_ghana.html (ev_pa=771): Tipo_Tarjeta=1 jugador=Diego Perez, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_ghana.html (ev_pa=771): Tipo_Tarjeta=1 jugador=Hans Sarpei, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_ghana.html (ev_pa=771): Tipo_Tarjeta=1 jugador=John Mensah, minuto=93
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_holanda.html (ev_pa=772): Tipo_Tarjeta=1 jugador=Martin Caceres, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_holanda.html (ev_pa=772): Tipo_Tarjeta=1 jugador=Wesley Sneijder, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_holanda.html (ev_pa=772): Tipo_Tarjeta=1 jugador=Khalid Boulahrouz, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2010_uruguay_holanda.html (ev_pa=772): Tipo_Tarjeta=1 jugador=Mark Van Bommel, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2014_alemania_argelia.html (ev_pa=773): Tipo_Tarjeta=1 jugador=Philipp Lahm, minuto=107
--- TARJETA EXTRA (omitida por PK) en 2014_alemania_argentina.html (ev_pa=774): Tipo_Tarjeta=1 jugador=Benedikt Höwedes, minuto=34
--- TARJETA EXTRA (omitida por PK) en 2014_alemania_argentina.html (ev_pa=774): Tipo_Tarjeta=1 jugador=Javier Mascherano, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2014_alemania_argentina.html (ev_pa=774): Tipo_Tarjeta=1 jugador=Sergio Agüero, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2014_argelia_rusia.html (ev_pa=777): Tipo_Tarjeta=1 jugador=Dmitri Kombarov, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2014_argelia_rusia.html (ev_pa=777): Tipo_Tarjeta=1 jugador=Aleksei Kozlov, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2014_argelia_rusia.html (ev_pa=777): Tipo_Tarjeta=1 jugador=Nabil Ghilas, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2014_argelia_rusia.html (ev_pa=777): Tipo_Tarjeta=1 jugador=Liassine Cadamuro, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2014_argentina_belgica.html (ev_pa=778): Tipo_Tarjeta=1 jugador=Toby Alderweireld, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2014_argentina_belgica.html (ev_pa=778): Tipo_Tarjeta=1 jugador=Lucas Biglia, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2014_argentina_bosnia_herzegovina.html (ev_pa=779): Tipo_Tarjeta=1 jugador=Emir Spahic, minuto=63
--- TARJETA EXTRA (omitida por PK) en 2014_argentina_iran.html (ev_pa=780): Tipo_Tarjeta=1 jugador=Masoud Shojaei, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2014_argentina_suiza.html (ev_pa=781): Tipo_Tarjeta=1 jugador=Gelson Fernandes, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2014_argentina_suiza.html (ev_pa=781): Tipo_Tarjeta=1 jugador=Marcos Rojo, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2014_argentina_suiza.html (ev_pa=781): Tipo_Tarjeta=1 jugador=Angel Di Maria, minuto=120
--- TARJETA EXTRA (omitida por PK) en 2014_argentina_suiza.html (ev_pa=781): Tipo_Tarjeta=1 jugador=Ezequiel Garay, minuto=120+4
--- TARJETA EXTRA (omitida por PK) en 2014_australia_espana.html (ev_pa=782): Tipo_Tarjeta=1 jugador=Matthew Spiranovic, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2014_australia_espana.html (ev_pa=782): Tipo_Tarjeta=1 jugador=Mile Jedinak, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2014_australia_holanda.html (ev_pa=783): Tipo_Tarjeta=1 jugador=Robin Van Persie, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2014_belgica_argelia.html (ev_pa=784): Tipo_Tarjeta=1 jugador=Nabil Bentaleb, minuto=34
--- TARJETA EXTRA (omitida por PK) en 2014_belgica_estados_unidos.html (ev_pa=785): Tipo_Tarjeta=1 jugador=Vincent Kompany, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2014_belgica_rusia.html (ev_pa=786): Tipo_Tarjeta=1 jugador=Axel Witsel, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2014_belgica_rusia.html (ev_pa=786): Tipo_Tarjeta=1 jugador=Toby Alderweireld, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2014_bosnia_herzegovina_iran.html (ev_pa=787): Tipo_Tarjeta=1 jugador=Karim Ansarifard, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_chile.html (ev_pa=789): Tipo_Tarjeta=1 jugador=Francisco Silva, minuto=40
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_chile.html (ev_pa=789): Tipo_Tarjeta=1 jugador=Hulk, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_chile.html (ev_pa=789): Tipo_Tarjeta=1 jugador=Luiz Gustavo, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_chile.html (ev_pa=789): Tipo_Tarjeta=1 jugador=Jo, minuto=93
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_chile.html (ev_pa=789): Tipo_Tarjeta=1 jugador=Mauricio Pinilla, minuto=102
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_chile.html (ev_pa=789): Tipo_Tarjeta=1 jugador=Dani Alves, minuto=105+1
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_colombia.html (ev_pa=790): Tipo_Tarjeta=1 jugador=James Rodríguez, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_colombia.html (ev_pa=790): Tipo_Tarjeta=1 jugador=Mario Yepes, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_colombia.html (ev_pa=790): Tipo_Tarjeta=1 jugador=Julio Cesar, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_croacia.html (ev_pa=791): Tipo_Tarjeta=1 jugador=Vedran Corluka, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_croacia.html (ev_pa=791): Tipo_Tarjeta=1 jugador=Dejan Lovren, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_croacia.html (ev_pa=791): Tipo_Tarjeta=1 jugador=Luiz Gustavo, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_holanda.html (ev_pa=792): Tipo_Tarjeta=1 jugador=Arjen Robben, minuto=9
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_holanda.html (ev_pa=792): Tipo_Tarjeta=1 jugador=Jonathan de Guzmán, minuto=36
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_holanda.html (ev_pa=792): Tipo_Tarjeta=1 jugador=Fernandinho, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_holanda.html (ev_pa=792): Tipo_Tarjeta=1 jugador=Oscar, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_mexico.html (ev_pa=793): Tipo_Tarjeta=1 jugador=Paul Aguilar, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_mexico.html (ev_pa=793): Tipo_Tarjeta=1 jugador=José Juan Vázquez, minuto=62
--- TARJETA EXTRA (omitida por PK) en 2014_brasil_mexico.html (ev_pa=793): Tipo_Tarjeta=1 jugador=Thiago Silva, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2014_camerun_brasil.html (ev_pa=794): Tipo_Tarjeta=1 jugador=Edgar Salli, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2014_camerun_brasil.html (ev_pa=794): Tipo_Tarjeta=1 jugador=Stephane Mbia, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2014_chile_australia.html (ev_pa=796): Tipo_Tarjeta=1 jugador=Mile Jedinak, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2014_chile_australia.html (ev_pa=796): Tipo_Tarjeta=1 jugador=Mark Milligan, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2014_chile_australia.html (ev_pa=796): Tipo_Tarjeta=1 jugador=Charles Aránguiz, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2014_colombia_costa_de_marfil.html (ev_pa=797): Tipo_Tarjeta=1 jugador=Ismael Tiote, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2014_colombia_grecia.html (ev_pa=798): Tipo_Tarjeta=1 jugador=Sokratis Papastathopoulos, minuto=52
--- TARJETA EXTRA (omitida por PK) en 2014_colombia_grecia.html (ev_pa=798): Tipo_Tarjeta=1 jugador=Dimitrios Salpingidis, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2014_colombia_uruguay.html (ev_pa=799): Tipo_Tarjeta=1 jugador=Diego Lugano, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2014_colombia_uruguay.html (ev_pa=799): Tipo_Tarjeta=1 jugador=Pablo Armero, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2014_corea_del_sur_argelia.html (ev_pa=800): Tipo_Tarjeta=1 jugador=Madjid Bougherra, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2014_corea_del_sur_argelia.html (ev_pa=800): Tipo_Tarjeta=1 jugador=Kook-Young Han, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2014_corea_del_sur_belgica.html (ev_pa=801): Tipo_Tarjeta=1 jugador=Mousa Dembélé, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2014_costa_de_marfil_japon.html (ev_pa=802): Tipo_Tarjeta=1 jugador=Souleymane Bamba, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2014_costa_de_marfil_japon.html (ev_pa=802): Tipo_Tarjeta=1 jugador=Didier Zokora, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2014_costa_de_marfil_japon.html (ev_pa=802): Tipo_Tarjeta=1 jugador=Masato Morishige, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2014_costa_rica_grecia.html (ev_pa=803): Tipo_Tarjeta=1 jugador=Óscar Duarte, minuto=42
--- TARJETA EXTRA (omitida por PK) en 2014_costa_rica_grecia.html (ev_pa=803): Tipo_Tarjeta=1 jugador=Yeltsin Tejeda, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2014_costa_rica_grecia.html (ev_pa=803): Tipo_Tarjeta=1 jugador=Esteban Granados, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2014_costa_rica_grecia.html (ev_pa=803): Tipo_Tarjeta=1 jugador=Bryan Ruiz, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2014_costa_rica_grecia.html (ev_pa=803): Tipo_Tarjeta=1 jugador=Kostas Manolas, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2014_costa_rica_grecia.html (ev_pa=803): Tipo_Tarjeta=1 jugador=Keylor Navas, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2014_costa_rica_inglaterra.html (ev_pa=804): Tipo_Tarjeta=1 jugador=Adam Lallana, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2014_costa_rica_inglaterra.html (ev_pa=804): Tipo_Tarjeta=1 jugador=Giancarlo Gonzalez, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2014_croacia_mexico.html (ev_pa=805): Tipo_Tarjeta=1 jugador=Rafael Marquez, minuto=39
--- TARJETA EXTRA (omitida por PK) en 2014_croacia_mexico.html (ev_pa=805): Tipo_Tarjeta=1 jugador=José Juan Vázquez, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2014_espana_chile.html (ev_pa=807): Tipo_Tarjeta=1 jugador=Xabi Alonso, minuto=41
--- TARJETA EXTRA (omitida por PK) en 2014_espana_chile.html (ev_pa=807): Tipo_Tarjeta=1 jugador=Eugenio Mena, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2014_espana_holanda.html (ev_pa=808): Tipo_Tarjeta=1 jugador=Stefan de Vrij, minuto=41
--- TARJETA EXTRA (omitida por PK) en 2014_espana_holanda.html (ev_pa=808): Tipo_Tarjeta=1 jugador=Iker Casillas, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2014_espana_holanda.html (ev_pa=808): Tipo_Tarjeta=1 jugador=Robin Van Persie, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2014_estados_unidos_alemania.html (ev_pa=809): Tipo_Tarjeta=1 jugador=Omar González, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2014_estados_unidos_alemania.html (ev_pa=809): Tipo_Tarjeta=1 jugador=Kyle Beckerman, minuto=62
--- TARJETA EXTRA (omitida por PK) en 2014_francia_alemania.html (ev_pa=811): Tipo_Tarjeta=1 jugador=Bastian Schweinsteiger, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2014_francia_honduras.html (ev_pa=812): Tipo_Tarjeta=1 jugador=Wilson Palacios, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2014_francia_honduras.html (ev_pa=812): Tipo_Tarjeta=1 jugador=Paul Pogba, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2014_francia_honduras.html (ev_pa=812): Tipo_Tarjeta=1 jugador=Yohan Cabaye, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2014_francia_honduras.html (ev_pa=812): Tipo_Tarjeta=1 jugador=Oscar Boniek Garcia, minuto=53
--- TARJETA EXTRA (omitida por PK) en 2014_francia_honduras.html (ev_pa=812): Tipo_Tarjeta=1 jugador=Luis Garrido, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2014_ghana_estados_unidos.html (ev_pa=814): Tipo_Tarjeta=1 jugador=Sulley Muntari, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2014_grecia_costa_de_marfil.html (ev_pa=815): Tipo_Tarjeta=1 jugador=Salomon Kalou, minuto=62
--- TARJETA EXTRA (omitida por PK) en 2014_grecia_costa_de_marfil.html (ev_pa=815): Tipo_Tarjeta=1 jugador=Serey Die, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2014_holanda_argentina.html (ev_pa=816): Tipo_Tarjeta=1 jugador=Martin Demichelis, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2014_holanda_argentina.html (ev_pa=816): Tipo_Tarjeta=1 jugador=Klaas Jan Huntelaar, minuto=105
--- TARJETA EXTRA (omitida por PK) en 2014_holanda_chile.html (ev_pa=817): Tipo_Tarjeta=1 jugador=Daley Blind, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2014_holanda_costa_rica.html (ev_pa=818): Tipo_Tarjeta=1 jugador=Michael Umaña, minuto=52
--- TARJETA EXTRA (omitida por PK) en 2014_holanda_costa_rica.html (ev_pa=818): Tipo_Tarjeta=1 jugador=Bruno Martins Indi, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2014_holanda_costa_rica.html (ev_pa=818): Tipo_Tarjeta=1 jugador=Giancarlo Gonzalez, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2014_holanda_costa_rica.html (ev_pa=818): Tipo_Tarjeta=1 jugador=Johnny Acosta, minuto=107
--- TARJETA EXTRA (omitida por PK) en 2014_holanda_costa_rica.html (ev_pa=818): Tipo_Tarjeta=1 jugador=Klaas Jan Huntelaar, minuto=111
--- TARJETA EXTRA (omitida por PK) en 2014_holanda_mexico.html (ev_pa=819): Tipo_Tarjeta=1 jugador=Rafael Marquez, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2014_holanda_mexico.html (ev_pa=819): Tipo_Tarjeta=1 jugador=Andres Guardado, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2014_honduras_ecuador.html (ev_pa=820): Tipo_Tarjeta=1 jugador=Jerry Bengtson, minuto=45+3
--- TARJETA EXTRA (omitida por PK) en 2014_honduras_ecuador.html (ev_pa=820): Tipo_Tarjeta=1 jugador=Antonio Valencia, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2014_honduras_ecuador.html (ev_pa=820): Tipo_Tarjeta=1 jugador=Enner Valencia, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2014_honduras_ecuador.html (ev_pa=820): Tipo_Tarjeta=1 jugador=Jefferson Montero, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2014_italia_costa_rica.html (ev_pa=824): Tipo_Tarjeta=1 jugador=José Cubero, minuto=71
--- TARJETA EXTRA (omitida por PK) en 2014_italia_uruguay.html (ev_pa=825): Tipo_Tarjeta=1 jugador=Egidio Arevalo, minuto=46
--- TARJETA EXTRA (omitida por PK) en 2014_italia_uruguay.html (ev_pa=825): Tipo_Tarjeta=1 jugador=Mattia De Sciglio, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2014_italia_uruguay.html (ev_pa=825): Tipo_Tarjeta=1 jugador=Fernando Muslera, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2014_japon_colombia.html (ev_pa=826): Tipo_Tarjeta=1 jugador=Fredy Guarín, minuto=63
--- TARJETA EXTRA (omitida por PK) en 2014_japon_grecia.html (ev_pa=827): Tipo_Tarjeta=1 jugador=Konstantinos Katsouranis, minuto=27
--- TARJETA EXTRA (omitida por PK) en 2014_japon_grecia.html (ev_pa=827): Tipo_Tarjeta=1 jugador=Georgios Samaras, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2014_japon_grecia.html (ev_pa=827): Tipo_Tarjeta=1 jugador=Vasileios Torosidis, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2014_mexico_camerun.html (ev_pa=828): Tipo_Tarjeta=1 jugador=Dany Nounkeu, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2014_nigeria_argentina.html (ev_pa=829): Tipo_Tarjeta=1 jugador=Juwon Oshaniwa, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2014_nigeria_bosnia_herzegovina.html (ev_pa=830): Tipo_Tarjeta=1 jugador=John Obi Mikel, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2014_portugal_ghana.html (ev_pa=831): Tipo_Tarjeta=1 jugador=Majeed Waris, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2014_portugal_ghana.html (ev_pa=831): Tipo_Tarjeta=1 jugador=Jordan Ayew, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2014_portugal_ghana.html (ev_pa=831): Tipo_Tarjeta=1 jugador=João Moutinho, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2014_rusia_corea_del_sur.html (ev_pa=832): Tipo_Tarjeta=1 jugador=Sung-yueng Ki, minuto=30
--- TARJETA EXTRA (omitida por PK) en 2014_rusia_corea_del_sur.html (ev_pa=832): Tipo_Tarjeta=1 jugador=Oleg Shatov, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2014_rusia_corea_del_sur.html (ev_pa=832): Tipo_Tarjeta=1 jugador=Ja-Cheol Koo, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2014_suiza_ecuador.html (ev_pa=833): Tipo_Tarjeta=1 jugador=Johan Djourou, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2014_uruguay_costa_rica.html (ev_pa=835): Tipo_Tarjeta=1 jugador=Walter Gargano, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2014_uruguay_costa_rica.html (ev_pa=835): Tipo_Tarjeta=1 jugador=Martin Caceres, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2014_uruguay_inglaterra.html (ev_pa=836): Tipo_Tarjeta=1 jugador=Steven Gerrard, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2018_alemania_mexico.html (ev_pa=837): Tipo_Tarjeta=1 jugador=Thomas Müller, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2018_alemania_mexico.html (ev_pa=837): Tipo_Tarjeta=1 jugador=Mats Hummels, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2018_alemania_mexico.html (ev_pa=837): Tipo_Tarjeta=1 jugador=Héctor Herrera, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2018_alemania_suecia.html (ev_pa=838): Tipo_Tarjeta=1 jugador=Jérôme Boateng, minuto=71
--- TARJETA EXTRA (omitida por PK) en 2018_alemania_suecia.html (ev_pa=838): Tipo_Tarjeta=1 jugador=Sebastian Larsson, minuto=90+7
--- TARJETA EXTRA (omitida por PK) en 2018_arabia_saudita_egipto.html (ev_pa=839): Tipo_Tarjeta=1 jugador=Ahmed Fathy, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2018_argentina_croacia.html (ev_pa=840): Tipo_Tarjeta=1 jugador=Gabriel Mercado, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2018_argentina_croacia.html (ev_pa=840): Tipo_Tarjeta=1 jugador=Mario Mandzukic, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2018_argentina_croacia.html (ev_pa=840): Tipo_Tarjeta=1 jugador=Sime Vrsaljko, minuto=67
--- TARJETA EXTRA (omitida por PK) en 2018_argentina_croacia.html (ev_pa=840): Tipo_Tarjeta=1 jugador=Nicolas Otamendi, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2018_argentina_croacia.html (ev_pa=840): Tipo_Tarjeta=1 jugador=Marcos Acuña, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2018_argentina_croacia.html (ev_pa=840): Tipo_Tarjeta=1 jugador=Vedran Corluka, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2018_australia_peru.html (ev_pa=842): Tipo_Tarjeta=1 jugador=Yoshimar Yotún, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2018_australia_peru.html (ev_pa=842): Tipo_Tarjeta=1 jugador=Daniel Arzani, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2018_australia_peru.html (ev_pa=842): Tipo_Tarjeta=1 jugador=Tom Rogic, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2018_australia_peru.html (ev_pa=842): Tipo_Tarjeta=1 jugador=Paolo Hurtado, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2018_australia_peru.html (ev_pa=842): Tipo_Tarjeta=1 jugador=Mark Milligan, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2018_belgica_inglaterra.html (ev_pa=843): Tipo_Tarjeta=1 jugador=Harry Maguire, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2018_belgica_inglaterra.html (ev_pa=843): Tipo_Tarjeta=1 jugador=Axel Witsel, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2018_belgica_panama.html (ev_pa=845): Tipo_Tarjeta=1 jugador=Erick Davis, minuto=18
--- TARJETA EXTRA (omitida por PK) en 2018_belgica_panama.html (ev_pa=845): Tipo_Tarjeta=1 jugador=Édgar Joel  Bárcenas, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2018_belgica_panama.html (ev_pa=845): Tipo_Tarjeta=1 jugador=Armando Cooper, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2018_belgica_panama.html (ev_pa=845): Tipo_Tarjeta=1 jugador=Michael Amir Murillo, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2018_belgica_panama.html (ev_pa=845): Tipo_Tarjeta=1 jugador=Aníbal Godoy, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2018_belgica_panama.html (ev_pa=845): Tipo_Tarjeta=1 jugador=Jan Vertonghen, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2018_belgica_panama.html (ev_pa=845): Tipo_Tarjeta=1 jugador=Kevin De Bruyne, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_belgica.html (ev_pa=847): Tipo_Tarjeta=1 jugador=Thomas Meunier, minuto=71
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_belgica.html (ev_pa=847): Tipo_Tarjeta=1 jugador=Fernandinho, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_belgica.html (ev_pa=847): Tipo_Tarjeta=1 jugador=Fagner, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_costa_rica.html (ev_pa=848): Tipo_Tarjeta=1 jugador=Neymar Jr., minuto=81
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_costa_rica.html (ev_pa=848): Tipo_Tarjeta=1 jugador=Johnny Acosta, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_mexico.html (ev_pa=849): Tipo_Tarjeta=1 jugador=Filipe Luís, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_mexico.html (ev_pa=849): Tipo_Tarjeta=1 jugador=Héctor Herrera, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_mexico.html (ev_pa=849): Tipo_Tarjeta=1 jugador=Casemiro, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_mexico.html (ev_pa=849): Tipo_Tarjeta=1 jugador=Carlos Salcedo, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_mexico.html (ev_pa=849): Tipo_Tarjeta=1 jugador=Andres Guardado, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_suiza.html (ev_pa=850): Tipo_Tarjeta=1 jugador=Casemiro, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_suiza.html (ev_pa=850): Tipo_Tarjeta=1 jugador=Fabian Schär, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2018_brasil_suiza.html (ev_pa=850): Tipo_Tarjeta=1 jugador=Valon Behrami, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2018_colombia_inglaterra.html (ev_pa=851): Tipo_Tarjeta=1 jugador=Santiago Arias, minuto=52
--- TARJETA EXTRA (omitida por PK) en 2018_colombia_inglaterra.html (ev_pa=851): Tipo_Tarjeta=1 jugador=Carlos Sánchez, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2018_colombia_inglaterra.html (ev_pa=851): Tipo_Tarjeta=1 jugador=Jordan Henderson, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2018_colombia_inglaterra.html (ev_pa=851): Tipo_Tarjeta=1 jugador=Radamel Falcao, minuto=63
--- TARJETA EXTRA (omitida por PK) en 2018_colombia_inglaterra.html (ev_pa=851): Tipo_Tarjeta=1 jugador=Carlos Bacca, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2018_colombia_inglaterra.html (ev_pa=851): Tipo_Tarjeta=1 jugador=Jesse Lingard, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2018_colombia_inglaterra.html (ev_pa=851): Tipo_Tarjeta=1 jugador=Juan Guillermo Cuadrado, minuto=118
--- TARJETA EXTRA (omitida por PK) en 2018_colombia_japon.html (ev_pa=852): Tipo_Tarjeta=1 jugador=James Rodríguez, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2018_colombia_japon.html (ev_pa=852): Tipo_Tarjeta=1 jugador=Eiji Kawashima, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2018_corea_del_sur_alemania.html (ev_pa=853): Tipo_Tarjeta=1 jugador=Jae-sung Lee, minuto=23
--- TARJETA EXTRA (omitida por PK) en 2018_corea_del_sur_alemania.html (ev_pa=853): Tipo_Tarjeta=1 jugador=Seon-min Moon, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2018_corea_del_sur_alemania.html (ev_pa=853): Tipo_Tarjeta=1 jugador=Heung-Min Son, minuto=65
--- TARJETA EXTRA (omitida por PK) en 2018_corea_del_sur_mexico.html (ev_pa=854): Tipo_Tarjeta=1 jugador=Yong Lee, minuto=63
--- TARJETA EXTRA (omitida por PK) en 2018_corea_del_sur_mexico.html (ev_pa=854): Tipo_Tarjeta=1 jugador=Seung-woo Lee, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2018_corea_del_sur_mexico.html (ev_pa=854): Tipo_Tarjeta=1 jugador=Woo-young Jung, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2018_costa_rica_serbia.html (ev_pa=855): Tipo_Tarjeta=1 jugador=David Guzmán, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2018_costa_rica_serbia.html (ev_pa=855): Tipo_Tarjeta=1 jugador=Branislav Ivanovic, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2018_costa_rica_serbia.html (ev_pa=855): Tipo_Tarjeta=1 jugador=Aleksandar Prijović, minuto=90+8
--- TARJETA EXTRA (omitida por PK) en 2018_croacia_inglaterra.html (ev_pa=857): Tipo_Tarjeta=1 jugador=Kyle Walker, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2018_croacia_inglaterra.html (ev_pa=857): Tipo_Tarjeta=1 jugador=Ante Rebic, minuto=96
--- TARJETA EXTRA (omitida por PK) en 2018_croacia_nigeria.html (ev_pa=858): Tipo_Tarjeta=1 jugador=William Troost-Ekong, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2018_croacia_nigeria.html (ev_pa=858): Tipo_Tarjeta=1 jugador=Marcelo Brozovic, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2018_dinamarca_australia.html (ev_pa=859): Tipo_Tarjeta=1 jugador=Pione Sisto, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2018_egipto_uruguay.html (ev_pa=861): Tipo_Tarjeta=1 jugador=Ahmed Hegazi, minuto=90+6
--- TARJETA EXTRA (omitida por PK) en 2018_espana_marruecos.html (ev_pa=862): Tipo_Tarjeta=1 jugador=Nordin Amrabat, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2018_espana_marruecos.html (ev_pa=862): Tipo_Tarjeta=1 jugador=Mbark Boussoufa, minuto=31
--- TARJETA EXTRA (omitida por PK) en 2018_espana_marruecos.html (ev_pa=862): Tipo_Tarjeta=1 jugador=Manuel da Costa, minuto=31
--- TARJETA EXTRA (omitida por PK) en 2018_espana_marruecos.html (ev_pa=862): Tipo_Tarjeta=1 jugador=Munir El Kajoui, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2018_espana_marruecos.html (ev_pa=862): Tipo_Tarjeta=1 jugador=Achraf Hakimi, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2018_espana_rusia.html (ev_pa=863): Tipo_Tarjeta=1 jugador=Ilya Kutepov, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2018_espana_rusia.html (ev_pa=863): Tipo_Tarjeta=1 jugador=Roman Zobnin, minuto=71
--- TARJETA EXTRA (omitida por PK) en 2018_francia_argentina.html (ev_pa=864): Tipo_Tarjeta=1 jugador=Nicolas Tagliafico, minuto=19
--- TARJETA EXTRA (omitida por PK) en 2018_francia_argentina.html (ev_pa=864): Tipo_Tarjeta=1 jugador=Javier Mascherano, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2018_francia_argentina.html (ev_pa=864): Tipo_Tarjeta=1 jugador=Ever Banega, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2018_francia_argentina.html (ev_pa=864): Tipo_Tarjeta=1 jugador=Blaise Matuidi, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2018_francia_argentina.html (ev_pa=864): Tipo_Tarjeta=1 jugador=Benjamin Pavard, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2018_francia_argentina.html (ev_pa=864): Tipo_Tarjeta=1 jugador=Nicolas Otamendi, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2018_francia_argentina.html (ev_pa=864): Tipo_Tarjeta=1 jugador=Olivier Giroud, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2018_francia_australia.html (ev_pa=865): Tipo_Tarjeta=1 jugador=Josh Risdon, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2018_francia_australia.html (ev_pa=865): Tipo_Tarjeta=1 jugador=Corentin Tolisso, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2018_francia_australia.html (ev_pa=865): Tipo_Tarjeta=1 jugador=Aziz Behich, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2018_francia_belgica.html (ev_pa=866): Tipo_Tarjeta=1 jugador=Toby Alderweireld, minuto=71
--- TARJETA EXTRA (omitida por PK) en 2018_francia_belgica.html (ev_pa=866): Tipo_Tarjeta=1 jugador=N'Golo Kanté, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2018_francia_belgica.html (ev_pa=866): Tipo_Tarjeta=1 jugador=Kylian Mbappé, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2018_francia_belgica.html (ev_pa=866): Tipo_Tarjeta=1 jugador=Jan Vertonghen, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2018_francia_croacia.html (ev_pa=867): Tipo_Tarjeta=1 jugador=Lucas Hernandez, minuto=41
--- TARJETA EXTRA (omitida por PK) en 2018_francia_croacia.html (ev_pa=867): Tipo_Tarjeta=1 jugador=Sime Vrsaljko, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2018_francia_peru.html (ev_pa=868): Tipo_Tarjeta=1 jugador=Paolo Guerrero, minuto=23
--- TARJETA EXTRA (omitida por PK) en 2018_francia_peru.html (ev_pa=868): Tipo_Tarjeta=1 jugador=Pedro Aquino, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2018_francia_peru.html (ev_pa=868): Tipo_Tarjeta=1 jugador=Paul Pogba, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2018_inglaterra_belgica.html (ev_pa=869): Tipo_Tarjeta=1 jugador=Leander Dendoncker, minuto=33
--- TARJETA EXTRA (omitida por PK) en 2018_inglaterra_panama.html (ev_pa=870): Tipo_Tarjeta=1 jugador=Ruben Loftus-Cheek, minuto=24
--- TARJETA EXTRA (omitida por PK) en 2018_inglaterra_panama.html (ev_pa=870): Tipo_Tarjeta=1 jugador=Fidel Escobar, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2018_inglaterra_panama.html (ev_pa=870): Tipo_Tarjeta=1 jugador=Michael Amir Murillo, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2018_iran_espana.html (ev_pa=871): Tipo_Tarjeta=1 jugador=Omid Ebrahimi, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2018_iran_portugal.html (ev_pa=872): Tipo_Tarjeta=1 jugador=Ehsan Hajsafi, minuto=52
--- TARJETA EXTRA (omitida por PK) en 2018_iran_portugal.html (ev_pa=872): Tipo_Tarjeta=1 jugador=Sardar Azmoun, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2018_iran_portugal.html (ev_pa=872): Tipo_Tarjeta=1 jugador=Ricardo Quaresma, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2018_iran_portugal.html (ev_pa=872): Tipo_Tarjeta=1 jugador=Cristiano Ronaldo, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2018_iran_portugal.html (ev_pa=872): Tipo_Tarjeta=1 jugador=Cédric Soares, minuto=90+8
--- TARJETA EXTRA (omitida por PK) en 2018_islandia_croacia.html (ev_pa=873): Tipo_Tarjeta=1 jugador=Emil Hallfredsson, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2018_islandia_croacia.html (ev_pa=873): Tipo_Tarjeta=1 jugador=Alfred Finnbogason, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2018_islandia_croacia.html (ev_pa=873): Tipo_Tarjeta=1 jugador=Tin Jedvaj, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2018_islandia_croacia.html (ev_pa=873): Tipo_Tarjeta=1 jugador=Birkir Már Saevarsson, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2018_japon_senegal.html (ev_pa=875): Tipo_Tarjeta=1 jugador=Takashi Inui, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2018_japon_senegal.html (ev_pa=875): Tipo_Tarjeta=1 jugador=Youssouf Sabaly, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2018_japon_senegal.html (ev_pa=875): Tipo_Tarjeta=1 jugador=Cheikh N'Doye, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2018_japon_senegal.html (ev_pa=875): Tipo_Tarjeta=1 jugador=Makoto Hasebe, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2018_marruecos_iran.html (ev_pa=876): Tipo_Tarjeta=1 jugador=Karim El Ahmadi, minuto=34
--- TARJETA EXTRA (omitida por PK) en 2018_marruecos_iran.html (ev_pa=876): Tipo_Tarjeta=1 jugador=Alireza Jahanbakhsh, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2018_marruecos_iran.html (ev_pa=876): Tipo_Tarjeta=1 jugador=Karim Ansarifard, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2018_mexico_suecia.html (ev_pa=877): Tipo_Tarjeta=1 jugador=Sebastian Larsson, minuto=26
--- TARJETA EXTRA (omitida por PK) en 2018_mexico_suecia.html (ev_pa=877): Tipo_Tarjeta=1 jugador=Hector Moreno, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2018_mexico_suecia.html (ev_pa=877): Tipo_Tarjeta=1 jugador=Miguel Layún, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2018_mexico_suecia.html (ev_pa=877): Tipo_Tarjeta=1 jugador=Mikael Lustig, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2018_nigeria_argentina.html (ev_pa=878): Tipo_Tarjeta=1 jugador=Javier Mascherano, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2018_nigeria_argentina.html (ev_pa=878): Tipo_Tarjeta=1 jugador=Ever Banega, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2018_nigeria_argentina.html (ev_pa=878): Tipo_Tarjeta=1 jugador=John Obi Mikel, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2018_nigeria_argentina.html (ev_pa=878): Tipo_Tarjeta=1 jugador=Lionel Messi, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2018_panama_tunez.html (ev_pa=880): Tipo_Tarjeta=1 jugador=Anice Badri, minuto=71
--- TARJETA EXTRA (omitida por PK) en 2018_panama_tunez.html (ev_pa=880): Tipo_Tarjeta=1 jugador=Ricardo Ávila, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2018_panama_tunez.html (ev_pa=880): Tipo_Tarjeta=1 jugador=Gabriel Enrique  Gómez, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2018_panama_tunez.html (ev_pa=880): Tipo_Tarjeta=1 jugador=Ghailene Chaalali, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2018_panama_tunez.html (ev_pa=880): Tipo_Tarjeta=1 jugador=Luis Tejada, minuto=90+6
--- TARJETA EXTRA (omitida por PK) en 2018_peru_dinamarca.html (ev_pa=881): Tipo_Tarjeta=1 jugador=Thomas Delaney, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2018_peru_dinamarca.html (ev_pa=881): Tipo_Tarjeta=1 jugador=Yussuf Yurary Poulsen, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2018_polonia_colombia.html (ev_pa=882): Tipo_Tarjeta=1 jugador=Jacek Góralski, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2018_polonia_senegal.html (ev_pa=883): Tipo_Tarjeta=1 jugador=Salif Sané, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2018_polonia_senegal.html (ev_pa=883): Tipo_Tarjeta=1 jugador=Idrissa Gana Gueye, minuto=72
--- TARJETA EXTRA (omitida por PK) en 2018_portugal_espana.html (ev_pa=884): Tipo_Tarjeta=1 jugador=Bruno Fernandes, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2018_portugal_marruecos.html (ev_pa=885): Tipo_Tarjeta=1 jugador=Adrien Silva, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2018_rusia_arabia_saudita.html (ev_pa=886): Tipo_Tarjeta=1 jugador=Taisir Al-Jassim, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2018_rusia_croacia.html (ev_pa=887): Tipo_Tarjeta=1 jugador=Ivan Strinić, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2018_rusia_croacia.html (ev_pa=887): Tipo_Tarjeta=1 jugador=Domagoj Vida, minuto=101
--- TARJETA EXTRA (omitida por PK) en 2018_rusia_croacia.html (ev_pa=887): Tipo_Tarjeta=1 jugador=Yury Gazinsky, minuto=109
--- TARJETA EXTRA (omitida por PK) en 2018_rusia_croacia.html (ev_pa=887): Tipo_Tarjeta=1 jugador=Josip Pivarić, minuto=114
--- TARJETA EXTRA (omitida por PK) en 2018_rusia_egipto.html (ev_pa=888): Tipo_Tarjeta=1 jugador=Fyodor Smolov, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2018_senegal_colombia.html (ev_pa=889): Tipo_Tarjeta=1 jugador=M'Baye Niang, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2018_serbia_brasil.html (ev_pa=890): Tipo_Tarjeta=1 jugador=Nemanja Matić, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2018_serbia_brasil.html (ev_pa=890): Tipo_Tarjeta=1 jugador=Aleksandar Mitrović, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2018_serbia_suiza.html (ev_pa=891): Tipo_Tarjeta=1 jugador=Luka Milivojević, minuto=39
--- TARJETA EXTRA (omitida por PK) en 2018_serbia_suiza.html (ev_pa=891): Tipo_Tarjeta=1 jugador=Nemanja Matić, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2018_serbia_suiza.html (ev_pa=891): Tipo_Tarjeta=1 jugador=Aleksandar Mitrović, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2018_serbia_suiza.html (ev_pa=891): Tipo_Tarjeta=1 jugador=Xherdan Shaqiri, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2018_suecia_corea_del_sur.html (ev_pa=892): Tipo_Tarjeta=1 jugador=Hee-chan Hwang, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2018_suecia_corea_del_sur.html (ev_pa=892): Tipo_Tarjeta=1 jugador=Viktor Claesson, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2018_suecia_inglaterra.html (ev_pa=893): Tipo_Tarjeta=1 jugador=John Guidetti, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2018_suecia_inglaterra.html (ev_pa=893): Tipo_Tarjeta=1 jugador=Sebastian Larsson, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2018_suecia_suiza.html (ev_pa=894): Tipo_Tarjeta=1 jugador=Valon Behrami, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2018_suecia_suiza.html (ev_pa=894): Tipo_Tarjeta=1 jugador=Granit Xhaka, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2018_suiza_costa_rica.html (ev_pa=895): Tipo_Tarjeta=1 jugador=Joel Campbell, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2018_suiza_costa_rica.html (ev_pa=895): Tipo_Tarjeta=1 jugador=Stephan Lichtsteiner, minuto=37
--- TARJETA EXTRA (omitida por PK) en 2018_suiza_costa_rica.html (ev_pa=895): Tipo_Tarjeta=1 jugador=Denis Zakaria, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2018_suiza_costa_rica.html (ev_pa=895): Tipo_Tarjeta=1 jugador=Fabian Schär, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2018_suiza_costa_rica.html (ev_pa=895): Tipo_Tarjeta=1 jugador=Kendall Waston, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2018_uruguay_francia.html (ev_pa=898): Tipo_Tarjeta=1 jugador=Rodrigo Bentancur, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2018_uruguay_francia.html (ev_pa=898): Tipo_Tarjeta=1 jugador=Cristian Rodríguez, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2018_uruguay_francia.html (ev_pa=898): Tipo_Tarjeta=1 jugador=Kylian Mbappé, minuto=69
--- TARJETA EXTRA (omitida por PK) en 2018_uruguay_rusia.html (ev_pa=900): Tipo_Tarjeta=1 jugador=Igor Smolnikov, minuto=27
--- TARJETA EXTRA (omitida por PK) en 2018_uruguay_rusia.html (ev_pa=900): Tipo_Tarjeta=1 jugador=Rodrigo Bentancur, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2022_arabia_saudita_mexico.html (ev_pa=902): Tipo_Tarjeta=1 jugador=Saleh Al-Shehri, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2022_arabia_saudita_mexico.html (ev_pa=902): Tipo_Tarjeta=1 jugador=Ali Al-Hassan, minuto=34
--- TARJETA EXTRA (omitida por PK) en 2022_arabia_saudita_mexico.html (ev_pa=902): Tipo_Tarjeta=1 jugador=Hassan Tambakti, minuto=52
--- TARJETA EXTRA (omitida por PK) en 2022_arabia_saudita_mexico.html (ev_pa=902): Tipo_Tarjeta=1 jugador=Abdullah Madu, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2022_arabia_saudita_mexico.html (ev_pa=902): Tipo_Tarjeta=1 jugador=Abdulelah Al-Amri, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2022_arabia_saudita_mexico.html (ev_pa=902): Tipo_Tarjeta=1 jugador=Hattan Bahebri, minuto=90+7
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_arabia_saudita.html (ev_pa=903): Tipo_Tarjeta=1 jugador=Ali Al-Bulaihi, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_arabia_saudita.html (ev_pa=903): Tipo_Tarjeta=1 jugador=Salem Al-Dawsari, minuto=79
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_arabia_saudita.html (ev_pa=903): Tipo_Tarjeta=1 jugador=Saud Abdulhamid, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_arabia_saudita.html (ev_pa=903): Tipo_Tarjeta=1 jugador=Nawaf Al-Abed, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_arabia_saudita.html (ev_pa=903): Tipo_Tarjeta=1 jugador=Mohammed Al-Owais, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_australia.html (ev_pa=904): Tipo_Tarjeta=1 jugador=Milos Degenek, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_croacia.html (ev_pa=905): Tipo_Tarjeta=1 jugador=Mateo Kovacic, minuto=32
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_croacia.html (ev_pa=905): Tipo_Tarjeta=1 jugador=Cristian Romero, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_croacia.html (ev_pa=905): Tipo_Tarjeta=1 jugador=Nicolas Otamendi, minuto=71
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_francia.html (ev_pa=906): Tipo_Tarjeta=1 jugador=Adrien Rabiot, minuto=55
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_francia.html (ev_pa=906): Tipo_Tarjeta=1 jugador=Marcus Thuram, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_francia.html (ev_pa=906): Tipo_Tarjeta=1 jugador=Olivier Giroud, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_francia.html (ev_pa=906): Tipo_Tarjeta=1 jugador=Marcos Acuña, minuto=90+8
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_francia.html (ev_pa=906): Tipo_Tarjeta=1 jugador=Leandro Paredes, minuto=114
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_francia.html (ev_pa=906): Tipo_Tarjeta=1 jugador=Gonzalo Montiel, minuto=116
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_francia.html (ev_pa=906): Tipo_Tarjeta=1 jugador=Emiliano Martinez, minuto=125
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_mexico.html (ev_pa=907): Tipo_Tarjeta=1 jugador=Gonzalo Montiel, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_mexico.html (ev_pa=907): Tipo_Tarjeta=1 jugador=Érick Gutiérrez, minuto=50
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_mexico.html (ev_pa=907): Tipo_Tarjeta=1 jugador=Héctor Herrera, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2022_argentina_mexico.html (ev_pa=907): Tipo_Tarjeta=1 jugador=Roberto Alvarado, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2022_australia_dinamarca.html (ev_pa=908): Tipo_Tarjeta=1 jugador=Milos Degenek, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2022_australia_dinamarca.html (ev_pa=908): Tipo_Tarjeta=1 jugador=Robert Skov, minuto=75
--- TARJETA EXTRA (omitida por PK) en 2022_belgica_canada.html (ev_pa=909): Tipo_Tarjeta=1 jugador=Thomas Meunier, minuto=54
--- TARJETA EXTRA (omitida por PK) en 2022_belgica_canada.html (ev_pa=909): Tipo_Tarjeta=1 jugador=Amadou Onana, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2022_belgica_canada.html (ev_pa=909): Tipo_Tarjeta=1 jugador=Alphonso Davies, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2022_belgica_canada.html (ev_pa=909): Tipo_Tarjeta=1 jugador=Alistair Johnston, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2022_belgica_marruecos.html (ev_pa=910): Tipo_Tarjeta=1 jugador=Abdelhamid Sabiri, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2022_brasil_serbia.html (ev_pa=912): Tipo_Tarjeta=1 jugador=Nemanja Gudelj, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2022_brasil_serbia.html (ev_pa=912): Tipo_Tarjeta=1 jugador=Sasa Lukic, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2022_brasil_suiza.html (ev_pa=913): Tipo_Tarjeta=1 jugador=Fred, minuto=52
--- TARJETA EXTRA (omitida por PK) en 2022_camerun_brasil.html (ev_pa=914): Tipo_Tarjeta=1 jugador=Eder Militao, minuto=7
--- TARJETA EXTRA (omitida por PK) en 2022_camerun_brasil.html (ev_pa=914): Tipo_Tarjeta=1 jugador=Pierre Kunde, minuto=28
--- TARJETA EXTRA (omitida por PK) en 2022_camerun_brasil.html (ev_pa=914): Tipo_Tarjeta=1 jugador=Collins Faï, minuto=32
--- TARJETA EXTRA (omitida por PK) en 2022_camerun_brasil.html (ev_pa=914): Tipo_Tarjeta=1 jugador=Vincent Aboubakar, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2022_camerun_brasil.html (ev_pa=914): Tipo_Tarjeta=1 jugador=Bruno Guimaraes, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2022_camerun_serbia.html (ev_pa=915): Tipo_Tarjeta=1 jugador=Christian Bassogog, minuto=30
--- TARJETA EXTRA (omitida por PK) en 2022_camerun_serbia.html (ev_pa=915): Tipo_Tarjeta=1 jugador=Luka Jović, minuto=45+4
--- TARJETA EXTRA (omitida por PK) en 2022_camerun_serbia.html (ev_pa=915): Tipo_Tarjeta=1 jugador=Nikola Milenković, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2022_canada_marruecos.html (ev_pa=916): Tipo_Tarjeta=1 jugador=Jonathan Osorio, minuto=26
--- TARJETA EXTRA (omitida por PK) en 2022_canada_marruecos.html (ev_pa=916): Tipo_Tarjeta=1 jugador=Sam Adekugbe, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2022_canada_marruecos.html (ev_pa=916): Tipo_Tarjeta=1 jugador=Steven Vitoria, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2022_catar_ecuador.html (ev_pa=917): Tipo_Tarjeta=1 jugador=Almoez Ali, minuto=22
--- TARJETA EXTRA (omitida por PK) en 2022_catar_ecuador.html (ev_pa=917): Tipo_Tarjeta=1 jugador=Moisés Caicedo, minuto=29
--- TARJETA EXTRA (omitida por PK) en 2022_catar_ecuador.html (ev_pa=917): Tipo_Tarjeta=1 jugador=Karim Boudiaf, minuto=36
--- TARJETA EXTRA (omitida por PK) en 2022_catar_ecuador.html (ev_pa=917): Tipo_Tarjeta=1 jugador=Jhegson Méndez, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2022_catar_ecuador.html (ev_pa=917): Tipo_Tarjeta=1 jugador=Akram Afif, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2022_catar_senegal.html (ev_pa=918): Tipo_Tarjeta=1 jugador=Boulaye Dia, minuto=30
--- TARJETA EXTRA (omitida por PK) en 2022_catar_senegal.html (ev_pa=918): Tipo_Tarjeta=1 jugador=Homam Ahmed, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2022_catar_senegal.html (ev_pa=918): Tipo_Tarjeta=1 jugador=Ismail Jakobs, minuto=52
--- TARJETA EXTRA (omitida por PK) en 2022_catar_senegal.html (ev_pa=918): Tipo_Tarjeta=1 jugador=Pathé Ciss, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2022_catar_senegal.html (ev_pa=918): Tipo_Tarjeta=1 jugador=Assim Madibo, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2022_corea_del_sur_ghana.html (ev_pa=919): Tipo_Tarjeta=1 jugador=Woo-young Jung, minuto=27
--- TARJETA EXTRA (omitida por PK) en 2022_corea_del_sur_ghana.html (ev_pa=919): Tipo_Tarjeta=1 jugador=Tariq Lamptey, minuto=73
--- TARJETA EXTRA (omitida por PK) en 2022_corea_del_sur_ghana.html (ev_pa=919): Tipo_Tarjeta=1 jugador=Young-Gwon Kim, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2022_corea_del_sur_portugal.html (ev_pa=920): Tipo_Tarjeta=1 jugador=Hee-chan Hwang, minuto=90+2
--- TARJETA EXTRA (omitida por PK) en 2022_croacia_brasil.html (ev_pa=923): Tipo_Tarjeta=1 jugador=Marcelo Brozovic, minuto=31
--- TARJETA EXTRA (omitida por PK) en 2022_croacia_brasil.html (ev_pa=923): Tipo_Tarjeta=1 jugador=Casemiro, minuto=68
--- TARJETA EXTRA (omitida por PK) en 2022_croacia_brasil.html (ev_pa=923): Tipo_Tarjeta=1 jugador=Marquinhos, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2022_croacia_brasil.html (ev_pa=923): Tipo_Tarjeta=1 jugador=Bruno Petkovic, minuto=117
--- TARJETA EXTRA (omitida por PK) en 2022_croacia_canada.html (ev_pa=924): Tipo_Tarjeta=1 jugador=Dejan Lovren, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2022_croacia_canada.html (ev_pa=924): Tipo_Tarjeta=1 jugador=Luka Modric, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2022_croacia_canada.html (ev_pa=924): Tipo_Tarjeta=1 jugador=Kamal Miller, minuto=85
--- TARJETA EXTRA (omitida por PK) en 2022_croacia_marruecos.html (ev_pa=925): Tipo_Tarjeta=1 jugador=Selim Amallah, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2022_dinamarca_tunez.html (ev_pa=926): Tipo_Tarjeta=1 jugador=Mathias Jensen, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2022_dinamarca_tunez.html (ev_pa=926): Tipo_Tarjeta=1 jugador=Taha Yassine Khenissi, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2022_espana_alemania.html (ev_pa=928): Tipo_Tarjeta=1 jugador=Sergio Busquets, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2022_espana_alemania.html (ev_pa=928): Tipo_Tarjeta=1 jugador=Leon Goretzka, minuto=58
--- TARJETA EXTRA (omitida por PK) en 2022_espana_alemania.html (ev_pa=928): Tipo_Tarjeta=1 jugador=Joshua Kimmich, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2022_espana_costa_rica.html (ev_pa=929): Tipo_Tarjeta=1 jugador=Joel Campbell, minuto=90+7
--- TARJETA EXTRA (omitida por PK) en 2022_estados_unidos_gales.html (ev_pa=930): Tipo_Tarjeta=1 jugador=Weston McKennie, minuto=13
--- TARJETA EXTRA (omitida por PK) en 2022_estados_unidos_gales.html (ev_pa=930): Tipo_Tarjeta=1 jugador=Gareth Bale, minuto=40
--- TARJETA EXTRA (omitida por PK) en 2022_estados_unidos_gales.html (ev_pa=930): Tipo_Tarjeta=1 jugador=Chris Mepham, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2022_estados_unidos_gales.html (ev_pa=930): Tipo_Tarjeta=1 jugador=Tim Ream, minuto=51
--- TARJETA EXTRA (omitida por PK) en 2022_estados_unidos_gales.html (ev_pa=930): Tipo_Tarjeta=1 jugador=Kellyn Acosta, minuto=90+10
--- TARJETA EXTRA (omitida por PK) en 2022_francia_australia.html (ev_pa=931): Tipo_Tarjeta=1 jugador=Jackson Irvine, minuto=80
--- TARJETA EXTRA (omitida por PK) en 2022_francia_australia.html (ev_pa=931): Tipo_Tarjeta=1 jugador=Aaron Mooy, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2022_francia_dinamarca.html (ev_pa=932): Tipo_Tarjeta=1 jugador=Andreas Cornelius, minuto=23
--- TARJETA EXTRA (omitida por PK) en 2022_francia_dinamarca.html (ev_pa=932): Tipo_Tarjeta=1 jugador=Jules Koundé, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2022_francia_polonia.html (ev_pa=934): Tipo_Tarjeta=1 jugador=Bartosz Bereszyński, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2022_francia_polonia.html (ev_pa=934): Tipo_Tarjeta=1 jugador=Matty Cash, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2022_gales_inglaterra.html (ev_pa=935): Tipo_Tarjeta=1 jugador=Aaron Ramsey, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2022_gales_iran.html (ev_pa=936): Tipo_Tarjeta=1 jugador=Alireza Jahanbakhsh, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2022_gales_iran.html (ev_pa=936): Tipo_Tarjeta=1 jugador=Ramin Rezaeian, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2022_ghana_uruguay.html (ev_pa=937): Tipo_Tarjeta=1 jugador=Luis Suarez, minuto=60
--- TARJETA EXTRA (omitida por PK) en 2022_ghana_uruguay.html (ev_pa=937): Tipo_Tarjeta=1 jugador=Kamaldeen Sulemana, minuto=86
--- TARJETA EXTRA (omitida por PK) en 2022_ghana_uruguay.html (ev_pa=937): Tipo_Tarjeta=1 jugador=Sebastián Coates, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2022_ghana_uruguay.html (ev_pa=937): Tipo_Tarjeta=1 jugador=Alidu Seidu, minuto=90+9
--- TARJETA EXTRA (omitida por PK) en 2022_ghana_uruguay.html (ev_pa=937): Tipo_Tarjeta=1 jugador=Edinson Cavani, minuto=90+10
--- TARJETA EXTRA (omitida por PK) en 2022_ghana_uruguay.html (ev_pa=937): Tipo_Tarjeta=1 jugador=José María Giménez, minuto=90+10
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Marcos Acuña, minuto=43
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Cristian Romero, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Wout Weghorst, minuto=45+2
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Memphis Depay, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Lisandro Martinez, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Steven Berghuis, minuto=88
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Leandro Paredes, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Lionel Messi, minuto=90+10
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Nicolas Otamendi, minuto=90+12
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Steven Bergwijn, minuto=91
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Gonzalo Montiel, minuto=109
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=German Pezzella, minuto=112
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Denzel Dumfries, minuto=128
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_argentina.html (ev_pa=938): Tipo_Tarjeta=1 jugador=Noa Lang, minuto=129
--- TARJETA EXTRA (omitida por PK) en 2022_holanda_estados_unidos.html (ev_pa=941): Tipo_Tarjeta=1 jugador=Frenkie de Jong, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2022_inglaterra_francia.html (ev_pa=943): Tipo_Tarjeta=1 jugador=Ousmane Dembélé, minuto=46
--- TARJETA EXTRA (omitida por PK) en 2022_inglaterra_francia.html (ev_pa=943): Tipo_Tarjeta=1 jugador=Théo Hernandez, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2022_inglaterra_francia.html (ev_pa=943): Tipo_Tarjeta=1 jugador=Harry Maguire, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2022_inglaterra_iran.html (ev_pa=944): Tipo_Tarjeta=1 jugador=Morteza Pouraliganji, minuto=48
--- TARJETA EXTRA (omitida por PK) en 2022_iran_estados_unidos.html (ev_pa=946): Tipo_Tarjeta=1 jugador=Majid Hosseini, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2022_iran_estados_unidos.html (ev_pa=946): Tipo_Tarjeta=1 jugador=Hossein Kanaani, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2022_iran_estados_unidos.html (ev_pa=946): Tipo_Tarjeta=1 jugador=Abolfazl Jalali, minuto=90+6
--- TARJETA EXTRA (omitida por PK) en 2022_japon_costa_rica.html (ev_pa=947): Tipo_Tarjeta=1 jugador=Miki Yamane, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2022_japon_costa_rica.html (ev_pa=947): Tipo_Tarjeta=1 jugador=Celso Borges, minuto=61
--- TARJETA EXTRA (omitida por PK) en 2022_japon_costa_rica.html (ev_pa=947): Tipo_Tarjeta=1 jugador=Francisco Calvo, minuto=70
--- TARJETA EXTRA (omitida por PK) en 2022_japon_costa_rica.html (ev_pa=947): Tipo_Tarjeta=1 jugador=Ko Itakura, minuto=84
--- TARJETA EXTRA (omitida por PK) en 2022_japon_costa_rica.html (ev_pa=947): Tipo_Tarjeta=1 jugador=Wataru Endo, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2022_japon_croacia.html (ev_pa=948): Tipo_Tarjeta=1 jugador=Borna Barisic, minuto=116
--- TARJETA EXTRA (omitida por PK) en 2022_japon_espana.html (ev_pa=949): Tipo_Tarjeta=1 jugador=Shogo Taniguchi, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2022_japon_espana.html (ev_pa=949): Tipo_Tarjeta=1 jugador=Maya Yoshida, minuto=45
--- TARJETA EXTRA (omitida por PK) en 2022_marruecos_espana.html (ev_pa=951): Tipo_Tarjeta=1 jugador=Romain Saïss, minuto=90
--- TARJETA EXTRA (omitida por PK) en 2022_marruecos_portugal.html (ev_pa=952): Tipo_Tarjeta=1 jugador=Vitinha, minuto=87
--- TARJETA EXTRA (omitida por PK) en 2022_marruecos_portugal.html (ev_pa=952): Tipo_Tarjeta=1 jugador=Walid Cheddira, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2022_mexico_polonia.html (ev_pa=953): Tipo_Tarjeta=1 jugador=Hector Moreno, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2022_mexico_polonia.html (ev_pa=953): Tipo_Tarjeta=1 jugador=Przemyslaw Frankowski, minuto=76
--- TARJETA EXTRA (omitida por PK) en 2022_polonia_arabia_saudita.html (ev_pa=954): Tipo_Tarjeta=1 jugador=Matty Cash, minuto=16
--- TARJETA EXTRA (omitida por PK) en 2022_polonia_arabia_saudita.html (ev_pa=954): Tipo_Tarjeta=1 jugador=Arkadiusz Milik, minuto=19
--- TARJETA EXTRA (omitida por PK) en 2022_polonia_arabia_saudita.html (ev_pa=954): Tipo_Tarjeta=1 jugador=Abdulelah Al-Malki, minuto=20
--- TARJETA EXTRA (omitida por PK) en 2022_polonia_arabia_saudita.html (ev_pa=954): Tipo_Tarjeta=1 jugador=Abdulelah Al-Amri, minuto=45+4
--- TARJETA EXTRA (omitida por PK) en 2022_polonia_argentina.html (ev_pa=955): Tipo_Tarjeta=1 jugador=Grzegorz Krychowiak, minuto=78
--- TARJETA EXTRA (omitida por PK) en 2022_portugal_ghana.html (ev_pa=956): Tipo_Tarjeta=1 jugador=Andre Ayew, minuto=49
--- TARJETA EXTRA (omitida por PK) en 2022_portugal_ghana.html (ev_pa=956): Tipo_Tarjeta=1 jugador=Alidu Seidu, minuto=57
--- TARJETA EXTRA (omitida por PK) en 2022_portugal_ghana.html (ev_pa=956): Tipo_Tarjeta=1 jugador=Danilo Pereira, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2022_portugal_ghana.html (ev_pa=956): Tipo_Tarjeta=1 jugador=Inaki Williams, minuto=90+1
--- TARJETA EXTRA (omitida por PK) en 2022_portugal_ghana.html (ev_pa=956): Tipo_Tarjeta=1 jugador=Bruno Fernandes, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2022_portugal_suiza.html (ev_pa=957): Tipo_Tarjeta=1 jugador=Eray Cömert, minuto=59
--- TARJETA EXTRA (omitida por PK) en 2022_portugal_uruguay.html (ev_pa=958): Tipo_Tarjeta=1 jugador=Rúben Neves, minuto=38
--- TARJETA EXTRA (omitida por PK) en 2022_portugal_uruguay.html (ev_pa=958): Tipo_Tarjeta=1 jugador=Mathías Olivera, minuto=44
--- TARJETA EXTRA (omitida por PK) en 2022_portugal_uruguay.html (ev_pa=958): Tipo_Tarjeta=1 jugador=João Félix, minuto=77
--- TARJETA EXTRA (omitida por PK) en 2022_portugal_uruguay.html (ev_pa=958): Tipo_Tarjeta=1 jugador=Rúben Dias, minuto=89
--- TARJETA EXTRA (omitida por PK) en 2022_senegal_holanda.html (ev_pa=959): Tipo_Tarjeta=1 jugador=Nampalys Mendy, minuto=90+4
--- TARJETA EXTRA (omitida por PK) en 2022_senegal_holanda.html (ev_pa=959): Tipo_Tarjeta=1 jugador=Idrissa Gana Gueye, minuto=90+6
--- TARJETA EXTRA (omitida por PK) en 2022_serbia_suiza.html (ev_pa=960): Tipo_Tarjeta=1 jugador=Rubén Vargas, minuto=34
--- TARJETA EXTRA (omitida por PK) en 2022_serbia_suiza.html (ev_pa=960): Tipo_Tarjeta=1 jugador=Sergej Milinković-Savić, minuto=47
--- TARJETA EXTRA (omitida por PK) en 2022_serbia_suiza.html (ev_pa=960): Tipo_Tarjeta=1 jugador=Strahinja Pavlovic, minuto=56
--- TARJETA EXTRA (omitida por PK) en 2022_serbia_suiza.html (ev_pa=960): Tipo_Tarjeta=1 jugador=Predrag Rajković, minuto=66
--- TARJETA EXTRA (omitida por PK) en 2022_serbia_suiza.html (ev_pa=960): Tipo_Tarjeta=1 jugador=Nemanja Gudelj, minuto=81
--- TARJETA EXTRA (omitida por PK) en 2022_serbia_suiza.html (ev_pa=960): Tipo_Tarjeta=1 jugador=Aleksandar Mitrović, minuto=82
--- TARJETA EXTRA (omitida por PK) en 2022_serbia_suiza.html (ev_pa=960): Tipo_Tarjeta=1 jugador=Nikola Milenković, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2022_serbia_suiza.html (ev_pa=960): Tipo_Tarjeta=1 jugador=Granit Xhaka, minuto=90+5
--- TARJETA EXTRA (omitida por PK) en 2022_serbia_suiza.html (ev_pa=960): Tipo_Tarjeta=1 jugador=Fabian Schär, minuto=90+9
--- TARJETA EXTRA (omitida por PK) en 2022_serbia_suiza.html (ev_pa=960): Tipo_Tarjeta=1 jugador=Sasa Lukic, minuto=90+10
--- TARJETA EXTRA (omitida por PK) en 2022_suiza_camerun.html (ev_pa=961): Tipo_Tarjeta=1 jugador=Nico Elvedi, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2022_suiza_camerun.html (ev_pa=961): Tipo_Tarjeta=1 jugador=Manuel Akanji, minuto=83
--- TARJETA EXTRA (omitida por PK) en 2022_tunez_australia.html (ev_pa=962): Tipo_Tarjeta=1 jugador=Ali Abdi, minuto=64
--- TARJETA EXTRA (omitida por PK) en 2022_tunez_australia.html (ev_pa=962): Tipo_Tarjeta=1 jugador=Ferjani Sassi, minuto=90+3
--- TARJETA EXTRA (omitida por PK) en 2022_uruguay_corea_del_sur.html (ev_pa=964): Tipo_Tarjeta=1 jugador=Gue-sung Cho, minuto=88
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2411, 902, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2412, 902, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2413, 902, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2414, 902, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2415, 902, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2416, 902, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2417, 902, 1, '90+7', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2418, 903, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2419, 903, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2420, 903, 1, '79', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2421, 903, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2422, 903, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2423, 903, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2424, 904, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2425, 904, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2426, 905, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2427, 905, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2428, 905, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2429, 905, 1, '71', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2430, 906, 1, '45+7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2431, 906, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2432, 906, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2433, 906, 1, '90+5', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2434, 906, 1, '90+8', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2435, 906, 1, '114', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2436, 906, 1, '116', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2437, 906, 1, '125', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2438, 907, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2439, 907, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2440, 907, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2441, 907, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2442, 907, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2443, 908, 1, '4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2444, 908, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2445, 908, 1, '75', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2446, 909, 1, '9', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2447, 909, 1, '54', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2448, 909, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2449, 909, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2450, 909, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2451, 910, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2452, 910, 1, '90+5', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2453, 911, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2454, 912, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2455, 912, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2456, 912, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2457, 913, 1, '50', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2458, 913, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2459, 914, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2460, 914, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2461, 914, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2462, 914, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2463, 914, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2464, 914, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2465, 914, 2, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2466, 915, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2467, 915, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2468, 915, 1, '45+4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2469, 915, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2470, 916, 1, '7', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2471, 916, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2472, 916, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2473, 916, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2474, 917, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2475, 917, 1, '22', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2476, 917, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2477, 917, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2478, 917, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2479, 917, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2480, 918, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2481, 918, 1, '30', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2482, 918, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2483, 918, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2484, 918, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2485, 918, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2486, 919, 1, '21', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2487, 919, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2488, 919, 1, '73', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2489, 919, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2490, 920, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2491, 920, 1, '90+2', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2492, 921, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2493, 922, 1, '67', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2494, 923, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2495, 923, 1, '31', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2496, 923, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2497, 923, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2498, 923, 1, '117', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2499, 924, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2500, 924, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2501, 924, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2502, 924, 1, '85', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2503, 925, 1, '69', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2504, 925, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2505, 926, 1, '24', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2506, 926, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2507, 926, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2508, 927, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2509, 928, 1, '37', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2510, 928, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2511, 928, 1, '58', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2512, 928, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2513, 929, 1, '68', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2514, 929, 1, '90+7', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2515, 930, 1, '11', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2516, 930, 1, '13', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2517, 930, 1, '40', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2518, 930, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2519, 930, 1, '51', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2520, 930, 1, '90+10', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2521, 931, 1, '55', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2522, 931, 1, '80', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2523, 931, 1, '90+5', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2524, 932, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2525, 932, 1, '23', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2526, 932, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2527, 933, 1, '27', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2528, 934, 1, '32', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2529, 934, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2530, 934, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2531, 935, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2532, 935, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2533, 936, 1, '45+3', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2534, 936, 2, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2535, 936, 1, '90+5', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2536, 936, 1, '90+5', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2537, 937, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2538, 937, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2539, 937, 1, '86', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2540, 937, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2541, 937, 1, '90+9', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2542, 937, 1, '90+10', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2543, 937, 1, '90+10', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2544, 938, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2545, 938, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2546, 938, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2547, 938, 1, '45+2', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2548, 938, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2549, 938, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2550, 938, 1, '88', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2551, 938, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2552, 938, 1, '90+10', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2553, 938, 1, '90+12', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2554, 938, 1, '91', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2555, 938, 1, '109', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2556, 938, 1, '112', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2557, 938, 1, '128', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2558, 938, 1, '129', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2559, 938, 2, '129', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2560, 939, 1, '52', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2561, 940, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2562, 941, 1, '60', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2563, 941, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2564, 943, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2565, 943, 1, '46', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2566, 943, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2567, 943, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2568, 944, 1, '25', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2569, 944, 1, '48', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2570, 945, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2571, 946, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2572, 946, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2573, 946, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2574, 946, 1, '90+6', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2575, 947, 1, '41', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2576, 947, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2577, 947, 1, '61', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2578, 947, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2579, 947, 1, '84', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2580, 947, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2581, 948, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2582, 948, 1, '116', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2583, 949, 1, '39', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2584, 949, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2585, 949, 1, '45', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2586, 950, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2587, 951, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2588, 951, 1, '90', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2589, 952, 1, '70', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2590, 952, 1, '87', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2591, 952, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2592, 952, 2, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2593, 953, 1, '29', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2594, 953, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2595, 953, 1, '76', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2596, 954, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2597, 954, 1, '16', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2598, 954, 1, '19', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2599, 954, 1, '20', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2600, 954, 1, '45+4', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2601, 955, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2602, 955, 1, '78', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2603, 956, 1, '45+1', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2604, 956, 1, '49', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2605, 956, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2606, 956, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2607, 956, 1, '90+1', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2608, 956, 1, '90+5', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2609, 957, 1, '43', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2610, 957, 1, '59', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2611, 958, 1, '6', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2612, 958, 1, '38', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2613, 958, 1, '44', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2614, 958, 1, '77', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2615, 958, 1, '89', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2616, 959, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2617, 959, 1, '90+4', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2618, 959, 1, '90+6', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2619, 960, 1, '15', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2620, 960, 1, '34', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2621, 960, 1, '47', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2622, 960, 1, '56', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2623, 960, 1, '66', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2624, 960, 1, '81', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2625, 960, 1, '82', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2626, 960, 1, '90+5', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2627, 960, 1, '90+5', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2628, 960, 1, '90+9', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2629, 960, 1, '90+10', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2630, 961, 1, '36', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2631, 961, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2632, 961, 1, '83', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2633, 962, 1, '26', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2634, 962, 1, '64', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2635, 962, 1, '90+3', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2636, 963, 1, '28', 0);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2637, 964, 1, '57', 1);
+INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2638, 964, 1, '88', 1);

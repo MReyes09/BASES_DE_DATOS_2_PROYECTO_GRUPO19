@@ -6,7 +6,7 @@
 |-----------|-----------------|---------------------|------------|---------------------|
 | **1** | Tablas SIN FK (independientes) | 7 tablas | ✅ **COMPLETO** | 7 |
 | **2** | Tablas con 1 FK | 4 tablas | ✅ **COMPLETO** | 11 |
-| **3** | Tablas con 2 o más FK | 11 tablas | 🔴 **0/11 (0%)** | **22** |
+| **3** | Tablas con 2 o más FK | 11 tablas |  🟡 **9/11 (81.82%)** | **22** |
 
 ## Nivel 1 - Tablas Independientes **(✅ YA CARGADO)**
 
@@ -34,35 +34,11 @@
 | **Orden** | **Tabla** | **Depende de** | **Estado** |
 |-----------|-----------|----------------|------------|
 | 12 | `Evento_Partido` | `Llave_Mundial` | ✅ **CARGADO** |
-| 13 | `Evento_Cambio_Jugador` | `Evento_Partido` | 🔴 **PENDIENTE** |
+| 13 | `Evento_Cambio_Jugador` | `Evento_Partido` | ✅ **CARGADO** |
 | 14 | `Pais_Clasificado_Mundial` | `Mundial`, `Pais`, `Grupo` | 🔴 **PENDIENTE** |
-| 15 | `Evento_Falta` | `Evento_Partido`, `Tipo_Tarjeta` | 🔴 **PENDIENTE** |
-| 16 | `Evento_Gol` | `Evento_Partido`, `Jugador` | 🔴 **PENDIENTE** |
+| 15 | `Evento_Falta` | `Evento_Partido`, `Tipo_Tarjeta` | ✅ **CARGADO** |
+| 16 | `Evento_Gol` | `Evento_Partido`, `Jugador` | ✅ **CARGADO** |
 | 17 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` | ✅ **CARGADO** |
 | 18 | `Posicion_Jugador` | `Plantilla`, `Jugador` | 🔴 **PENDIENTE** |
 | 19 | `Premios_Jugador` | `Premio`, `Jugador` | ✅ **CARGADO** |
-| 20 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` | 🔴 **PENDIENTE** |
-
-## Secuencia Completa de Inserción **(ACTUALIZADA)**
-
-```sql
--- ✅ NIVEL 1: COMPLETO (7/7)
--- Fase ✓, Grupo ✓, Jugador ✓, Mundial ✓, Pais ✓, Tipo_Premio ✓, Tipo_Tarjeta ✓
-
--- 🟡 NIVEL 2: PARCIAL (1/4) - SIGUIENTES 3 INSERTS 👇
-INSERT INTO Premio (...);           -- FK Mundial_id_mu ✓ + Tipo_Premio_id_ti_pre ✓
-INSERT INTO Plantilla (...);        -- FK Pais_id_pa ✓
-INSERT INTO Llave_Mundial (...);    -- FK Mundial_id_mu ✓
-
--- 🔴 NIVEL 3: SIN INICIAR (0/11)
-INSERT INTO Llave_Fase_Mundial (...);     -- Llave_Mundial, Fase ✓
-INSERT INTO Evento_Partido (...);         -- Llave_Mundial
-INSERT INTO Evento_Cambio_Jugador (...);  -- Evento_Partido
-INSERT INTO Pais_Clasificado_Mundial (...); -- Mundial ✓, Pais ✓, Grupo ✓
-INSERT INTO Evento_Falta (...);           -- Evento_Partido, Tipo_Tarjeta ✓
-INSERT INTO Evento_Gol (...);             -- Evento_Partido, Jugador ✓
-INSERT INTO Partido_Plantilla (...);      -- Plantilla, Evento_Partido
-INSERT INTO Posicion_Jugador (...);       -- Plantilla, Jugador ✓
-INSERT INTO Premios_Jugador (...);        -- Premio, Jugador ✓
-INSERT INTO Cambio_Jugador (...);         -- Evento_Cambio_Jugador, Jugador ✓
-```
+| 20 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` | ✅ **CARGADO** |
