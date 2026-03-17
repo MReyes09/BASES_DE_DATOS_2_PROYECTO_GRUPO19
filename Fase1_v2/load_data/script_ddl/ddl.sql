@@ -199,7 +199,7 @@ CREATE TABLE Premio
     ( 
      id_pre                NUMBER  NOT NULL , 
      Mundial_id_mu         NUMBER  NOT NULL , 
-     pais                  VARCHAR2 (90) , 
+     pais_pre                  VARCHAR2 (90) , 
      Tipo_Premio_id_ti_pre NUMBER  NOT NULL 
     ) 
     LOGGING 
