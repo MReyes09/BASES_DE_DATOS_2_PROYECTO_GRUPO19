@@ -35,7 +35,7 @@
 <colAssociation fkAssociation="12FEFD6D-5612-AEBB-828F-54852462A6FD" referredColumn="59C36FF1-300B-F2EF-196F-7280AF6F8859"/>
 </associations>
 </Column>
-<Column name="pais" id="1021BA68-382E-FCC8-3C44-4218F1B96187">
+<Column name="pais_pre" id="1021BA68-382E-FCC8-3C44-4218F1B96187">
 <createdBy>matth</createdBy>
 <createdTime>2026-03-15 23:23:02 UTC</createdTime>
 <ownerDesignName>modelo_ref</ownerDesignName>
@@ -61,6 +61,18 @@
 <associations>
 <colAssociation fkAssociation="19AAA076-9278-2EF6-FA39-04F140B0EA91" referredColumn="7B77856E-11B8-4DDA-EF43-30849607888E"/>
 </associations>
+</Column>
+<Column name="entrenador_pre" id="19C6FDB0-59F9-8513-8CB9-0EDAAB8E779E">
+<createdBy>matth</createdBy>
+<createdTime>2026-03-17 06:08:31 UTC</createdTime>
+<ownerDesignName>modelo_ref</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
