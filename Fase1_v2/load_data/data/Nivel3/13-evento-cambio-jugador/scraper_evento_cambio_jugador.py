@@ -324,6 +324,7 @@ def main():
     inserts_cambio = []   # (year, insert_sql)
     id_ev_pa = 1          # Mismo contador que scraper_evento_partido.py
     id_ev_ca_ju = 1       # ID autoincremental para Evento_Cambio_Jugador
+    id_ca_ju = 1          # ID autoincremental para Cambio_Jugador
     total_cambios = 0
     sin_match = 0
     errores_detalle = []
@@ -380,17 +381,19 @@ def main():
 
                 # INSERT Cambio_Jugador - jugador que ingresa
                 inserts_cambio.append((year, (
-                    f"INSERT INTO Cambio_Jugador (Evento_Cambio_Jugador_id_ev_ca_ju, "
+                    f"INSERT INTO Cambio_Jugador (id_ca_ju, Evento_Cambio_Jugador_id_ev_ca_ju, "
                     f"Jugador_id_ju, tiempo_ca_ju) VALUES "
-                    f"({id_ev_ca_ju}, {jugador_in_id}, '{minuto}');"
+                    f"({id_ca_ju}, {id_ev_ca_ju}, {jugador_in_id}, '{minuto}');"
                 )))
+                id_ca_ju += 1
 
                 # INSERT Cambio_Jugador - jugador que sale
                 inserts_cambio.append((year, (
-                    f"INSERT INTO Cambio_Jugador (Evento_Cambio_Jugador_id_ev_ca_ju, "
+                    f"INSERT INTO Cambio_Jugador (id_ca_ju, Evento_Cambio_Jugador_id_ev_ca_ju, "
                     f"Jugador_id_ju, tiempo_ca_ju) VALUES "
-                    f"({id_ev_ca_ju}, {jugador_out_id}, '{minuto}');"
+                    f"({id_ca_ju}, {id_ev_ca_ju}, {jugador_out_id}, '{minuto}');"
                 )))
+                id_ca_ju += 1
 
                 id_ev_ca_ju += 1
                 year_cambios += 1

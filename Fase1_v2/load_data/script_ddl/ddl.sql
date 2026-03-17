@@ -9,17 +9,18 @@
 
 -- predefined type, no DDL - XMLTYPE
 
-CREATE TABLE Cambio_Jugador 
-    ( 
-     Evento_Cambio_Jugador_id_ev_ca_ju NUMBER  NOT NULL , 
-     Jugador_id_ju                     NUMBER  NOT NULL , 
-     tiempo_ca_ju                      VARCHAR2 (8) 
-    ) 
-    LOGGING 
+CREATE TABLE Cambio_Jugador
+    (
+     id_ca_ju                          NUMBER  NOT NULL ,
+     Evento_Cambio_Jugador_id_ev_ca_ju NUMBER  NOT NULL ,
+     Jugador_id_ju                     NUMBER  NOT NULL ,
+     tiempo_ca_ju                      VARCHAR2 (8)
+    )
+    LOGGING
 ;
 
-ALTER TABLE Cambio_Jugador 
-    ADD CONSTRAINT Cambio_Jugador_PK PRIMARY KEY ( Evento_Cambio_Jugador_id_ev_ca_ju, Jugador_id_ju ) ;
+ALTER TABLE Cambio_Jugador
+    ADD CONSTRAINT Cambio_Jugador_PK PRIMARY KEY ( id_ca_ju ) ;
 
 CREATE TABLE Evento_Cambio_Jugador 
     ( 
@@ -32,18 +33,19 @@ CREATE TABLE Evento_Cambio_Jugador
 ALTER TABLE Evento_Cambio_Jugador 
     ADD CONSTRAINT Evento_Cambio_Jugador_PK PRIMARY KEY ( id_ev_ca_ju ) ;
 
-CREATE TABLE Evento_Falta 
-    ( 
-     Evento_Partido_id_ev_pa NUMBER  NOT NULL , 
-     Tipo_Tarjeta_id_ti_ta   NUMBER  NOT NULL , 
-     minuto_falta            VARCHAR2 (8)  NOT NULL , 
-     entre_tiempo            NUMBER  NOT NULL 
-    ) 
-    LOGGING 
+CREATE TABLE Evento_Falta
+    (
+     id_ev_fa                NUMBER  NOT NULL ,
+     Evento_Partido_id_ev_pa NUMBER  NOT NULL ,
+     Tipo_Tarjeta_id_ti_ta   NUMBER  NOT NULL ,
+     minuto_falta            VARCHAR2 (8)  NOT NULL ,
+     entre_tiempo            NUMBER  NOT NULL
+    )
+    LOGGING
 ;
 
-ALTER TABLE Evento_Falta 
-    ADD CONSTRAINT Evento_Falta_PK PRIMARY KEY ( Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta ) ;
+ALTER TABLE Evento_Falta
+    ADD CONSTRAINT Evento_Falta_PK PRIMARY KEY ( id_ev_fa ) ;
 
 CREATE TABLE Evento_Gol 
     ( 
@@ -200,7 +202,8 @@ CREATE TABLE Premio
      id_pre                NUMBER  NOT NULL , 
      Mundial_id_mu         NUMBER  NOT NULL , 
      pais_pre                  VARCHAR2 (90) , 
-     Tipo_Premio_id_ti_pre NUMBER  NOT NULL 
+     Tipo_Premio_id_ti_pre NUMBER  NOT NULL ,
+     entrenador_pre         VARCHAR2 (90);
     ) 
     LOGGING 
 ;

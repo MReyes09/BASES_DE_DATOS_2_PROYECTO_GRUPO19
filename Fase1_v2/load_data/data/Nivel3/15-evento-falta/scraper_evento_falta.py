@@ -3,7 +3,7 @@ Scraper para generar INSERTs de Evento_Falta.
 Lee los HTMLs de partidos y extrae tarjetas (amarillas y rojas) para cada partido.
 
 Tabla destino:
-    Evento_Falta(Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo)
+    Evento_Falta(id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo)
 
     - Tipo_Tarjeta: 1=AMARILLA, 2=ROJA
     - entre_tiempo: 1 si el minuto > 45 (segunda parte), 0 si <= 45
@@ -146,8 +146,8 @@ def main():
     print(f"Mundiales encontrados: {len(year_dirs)}")
 
     inserts = []
-    inconsistencias = []
     ev_pa_counter = 0  # Contador correlativo del evento_partido (mismo orden que scraper_evento_partido.py)
+    id_ev_fa = 1       # ID autoincremental para Evento_Falta
     total_tarjetas = 0
     partidos_sin_tarjetas = 0
 
@@ -167,35 +167,16 @@ def main():
                 partidos_sin_tarjetas += 1
                 continue
 
-            # PK = (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta)
-            # Solo se puede insertar UNA amarilla y UNA roja por partido.
-            # Se toma la primera aparición de cada tipo; las extra se reportan.
-            insertados = {}  # tipo_tarjeta_id -> primera tarjeta
-            extras = []
-
             for t in tarjetas:
-                tid = t["tipo_tarjeta_id"]
-                if tid not in insertados:
-                    insertados[tid] = t
-                else:
-                    extras.append(t)
-
-            for tid, t in sorted(insertados.items()):
                 insert = (
-                    f"INSERT INTO Evento_Falta (Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, "
+                    f"INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, "
                     f"minuto_falta, entre_tiempo) VALUES "
-                    f"({ev_pa_counter}, {t['tipo_tarjeta_id']}, "
+                    f"({id_ev_fa}, {ev_pa_counter}, {t['tipo_tarjeta_id']}, "
                     f"'{t['minuto']}', {t['entre_tiempo']});"
                 )
                 inserts.append((int(year_str), filename, insert))
+                id_ev_fa += 1
                 total_tarjetas += 1
-
-            for t in extras:
-                inconsistencias.append(
-                    f"TARJETA EXTRA (omitida por PK) en {filename} (ev_pa={ev_pa_counter}): "
-                    f"Tipo_Tarjeta={t['tipo_tarjeta_id']} jugador={t['jugador']}, "
-                    f"minuto={t['minuto']}"
-                )
 
     # Escribir archivo SQL
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -204,6 +185,7 @@ def main():
         f.write("-- Generado automáticamente por scraper_evento_falta.py\n")
         f.write("-- =====================================================\n")
         f.write("-- Columnas:\n")
+        f.write("--   id_ev_fa                : ID autoincremental de la falta\n")
         f.write("--   Evento_Partido_id_ev_pa : FK a Evento_Partido\n")
         f.write("--   Tipo_Tarjeta_id_ti_ta   : FK a Tipo_Tarjeta (1=AMARILLA, 2=ROJA)\n")
         f.write("--   minuto_falta            : Minuto de la falta (ej: '67', '90+2')\n")
@@ -219,22 +201,11 @@ def main():
                 current_year = year
             f.write(f"{insert}\n")
 
-        # Escribir inconsistencias al final del archivo
-        if inconsistencias:
-            f.write("\n\n-- =====================================================\n")
-            f.write("-- INCONSISTENCIAS / MISMATCHING ENCONTRADOS\n")
-            f.write("-- =====================================================\n")
-            for inc in inconsistencias:
-                f.write(f"-- {inc}\n")
+        # Escribir inconsistencias al final del archivo (si las hubiera en el futuro)
 
     print(f"\n============================")
     print(f"Total tarjetas procesadas: {total_tarjetas}")
     print(f"Partidos sin tarjetas: {partidos_sin_tarjetas}")
-    print(f"Inconsistencias: {len(inconsistencias)}")
-    if inconsistencias:
-        print("\nDetalle de inconsistencias:")
-        for inc in inconsistencias:
-            print(f"  - {inc.encode('ascii', 'replace').decode('ascii')}")
     print(f"Archivo generado: {OUTPUT_FILE}")
 
 
