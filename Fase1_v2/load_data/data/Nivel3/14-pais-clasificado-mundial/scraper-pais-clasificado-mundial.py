@@ -20,7 +20,7 @@ OUT_SQL = Path("./pais_clasificado_mundial.sql")
 
 
 # ─────────────────────────────────────────────
-#  ALIAS DE PAISES (nombre HTML -> nombre en 5pais.sql)
+#  ALIAS DE PAISES (nombre en HTML -> nombre exacto en 5pais.sql)
 # ─────────────────────────────────────────────
 ALIAS_PAISES = {
     "checoslovaquia"                  : "Checoslovaquia",
@@ -47,6 +47,10 @@ ALIAS_PAISES = {
     "tunez"                           : "Túnez",
     "belgica"                         : "Bélgica",
     "japon"                           : "Japón",
+    # ── FIXES de advertencias reportadas ──────
+    "iraq"                            : "Irak",                   # [1986] HTML='Iraq'            -> id=51
+    "emiratos arabes"                 : "Emiratos Árabes Unidos", # [1990] HTML='Emiratos Arabes'  -> id=41
+    "serbia y montenegro"             : "Serbia",                 # [2006] HTML='Serbia y Montenegro' -> id=85
 }
 
 # Grupos especiales que NO son fases clasificatorias (ronda final 1950, etc.)
@@ -105,7 +109,7 @@ def cargar_paises():
 def cargar_grupos():
     """
     Retorna {nombre_grupo_norm: id_gr}
-    Ejemplos:  'a' -> 1,  'b' -> 2,  '1' -> 9,  '2' -> 10 ...
+    Ejemplos: 'a'->1, 'b'->2, ..., 'h'->8, '1'->9, '2'->10, '3'->11, '4'->12
     """
     grupos = {}
     patron = re.compile(r"VALUES\s*\((\d+),\s*'([^']*)'")
@@ -113,8 +117,8 @@ def cargar_grupos():
         for linea in f:
             m = patron.search(linea)
             if m:
-                id_gr   = int(m.group(1))
-                nombre  = m.group(2).strip()
+                id_gr  = int(m.group(1))
+                nombre = m.group(2).strip()
                 grupos[normalizar(nombre)] = id_gr
     log(f"[DEBUG] Grupos cargados: {grupos}")
     return grupos
@@ -152,10 +156,10 @@ def resolver_pais(nombre_html, paises, umbral=0.82):
 
 def resolver_grupo(num_grupo_raw, grupos):
     """
-    Recibe el texto del HTML ('1','2','A','B'...) y devuelve id_gr.
-    Busca en el dict cargado desde 2grupo.sql.
+    Recibe el texto del HTML ('1','A','B'...) y devuelve id_gr
+    desde el dict cargado de 2grupo.sql.
     """
-    key = normalizar(str(num_grupo_raw))
+    key   = normalizar(str(num_grupo_raw))
     id_gr = grupos.get(key)
     if id_gr:
         log(f"[GRUPO] '{num_grupo_raw}' -> id_gr={id_gr}")
@@ -180,7 +184,6 @@ def parsear_grupos(path_html):
               <img alt="NombrePais"><br> NombrePais
             </a>
           </div>
-          ...
         </td>
       </tr>
     """
@@ -215,7 +218,7 @@ def parsear_grupos(path_html):
             if img and img.get("alt"):
                 nombre_pais = img["alt"].strip()
 
-            # Fallback: texto del link
+            # Fallback: último texto del link <a>
             if not nombre_pais:
                 a = div.find("a")
                 if a:
