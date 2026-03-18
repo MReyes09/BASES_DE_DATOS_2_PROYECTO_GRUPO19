@@ -35,7 +35,7 @@
 |-----------|-----------|----------------|------------|
 | 12 | `Evento_Partido` | `Llave_Mundial` | ✅ **CARGADO** |
 | 13 | `Evento_Cambio_Jugador` | `Evento_Partido` | ✅ **CARGADO** |
-| 14 | `Pais_Clasificado_Mundial` | `Mundial`, `Pais`, `Grupo` | 🔴 **PENDIENTE** |
+| 14 | `Pais_Clasificado_Mundial` | `Mundial`, `Pais`, `Grupo` | ✅ **CARGADO** |
 | 15 | `Evento_Falta` | `Evento_Partido`, `Tipo_Tarjeta` | ✅ **CARGADO** |
 | 16 | `Evento_Gol` | `Evento_Partido`, `Jugador` | ✅ **CARGADO** |
 | 17 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` | ✅ **CARGADO** |
