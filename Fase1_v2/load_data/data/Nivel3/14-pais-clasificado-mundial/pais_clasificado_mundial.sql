@@ -1,11 +1,6 @@
 -- pais_clasificado_mundial.sql  -  generado automaticamente
--- Fecha: 2026-03-17 21:18:27
--- Total inserts: 439
-
--- ── ADVERTENCIAS ──
--- ADVERTENCIA [1986] Grupo 'B': Pais no resuelto 'Iraq'
--- ADVERTENCIA [1990] Grupo 'D': Pais no resuelto 'Emiratos Arabes'
--- ADVERTENCIA [2006] Grupo 'C': Pais no resuelto 'Serbia y Montenegro'
+-- Fecha: 2026-03-17 21:58:03
+-- Total inserts: 442
 
 -- Argentina | Grupo 1 | Mundial 1930
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (23, 7, 9);
@@ -389,6 +384,8 @@ INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VA
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (11, 57, 1);
 -- Bélgica | Grupo B | Mundial 1986
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (11, 15, 2);
+-- Iraq | Grupo B | Mundial 1986
+INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (11, 51, 2);
 -- México | Grupo B | Mundial 1986
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (11, 64, 2);
 -- Paraguay | Grupo B | Mundial 1986
@@ -445,6 +442,8 @@ INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VA
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (10, 3, 4);
 -- Colombia | Grupo D | Mundial 1990
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (10, 23, 4);
+-- Emiratos Arabes | Grupo D | Mundial 1990
+INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (10, 41, 4);
 -- Yugoslavia | Grupo D | Mundial 1990
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (10, 103, 4);
 -- Bélgica | Grupo E | Mundial 1990
@@ -629,6 +628,8 @@ INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VA
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (6, 27, 3);
 -- Paises Bajos | Grupo C | Mundial 2006
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (6, 10, 3);
+-- Serbia y Montenegro | Grupo C | Mundial 2006
+INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (6, 85, 3);
 -- Angola | Grupo D | Mundial 2006
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (6, 4, 4);
 -- Irán | Grupo D | Mundial 2006
