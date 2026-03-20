@@ -219,6 +219,10 @@ BEGIN
         FROM (
             SELECT
                 ep.id_ev_pa,
+                (SELECT MIN(pp.Plantilla_id_pla) FROM Partido_Plantilla pp
+                 WHERE pp.Evento_Partido_id_ev_pa = ep.id_ev_pa) AS plantilla1_id,
+                (SELECT MAX(pp.Plantilla_id_pla) FROM Partido_Plantilla pp
+                 WHERE pp.Evento_Partido_id_ev_pa = ep.id_ev_pa) AS plantilla2_id,
                 (SELECT p.name_pa FROM Partido_Plantilla pp
                  INNER JOIN Plantilla pl ON pp.Plantilla_id_pla = pl.id_pla
                  INNER JOIN Pais p ON pl.Pais_id_pa = p.id_pa
@@ -230,21 +234,29 @@ BEGIN
                  WHERE pp.Evento_Partido_id_ev_pa = ep.id_ev_pa
                  ORDER BY pl.id_pla DESC FETCH FIRST 1 ROW ONLY) AS equipo2,
                 (SELECT COUNT(*) FROM Evento_Gol eg
-                 INNER JOIN Posicion_Jugador pj ON eg.Jugador_id_ju = pj.Jugador_id_ju
                  WHERE eg.Evento_Partido_id_ev_pa = ep.id_ev_pa
-                   AND pj.Plantilla_id_pla = (SELECT MIN(pp2.Plantilla_id_pla) FROM Partido_Plantilla pp2
-                                              WHERE pp2.Evento_Partido_id_ev_pa = ep.id_ev_pa)) AS goles_eq1,
+                   AND eg.Jugador_id_ju IN (
+                       SELECT pj.Jugador_id_ju FROM Posicion_Jugador pj
+                       INNER JOIN Partido_Plantilla pp3 ON pj.Plantilla_id_pla = pp3.Plantilla_id_pla
+                       WHERE pp3.Evento_Partido_id_ev_pa = ep.id_ev_pa
+                         AND pj.Plantilla_id_pla = (SELECT MIN(pp2.Plantilla_id_pla) FROM Partido_Plantilla pp2
+                                                    WHERE pp2.Evento_Partido_id_ev_pa = ep.id_ev_pa)
+                   )) AS goles_eq1,
                 (SELECT COUNT(*) FROM Evento_Gol eg
-                 INNER JOIN Posicion_Jugador pj ON eg.Jugador_id_ju = pj.Jugador_id_ju
                  WHERE eg.Evento_Partido_id_ev_pa = ep.id_ev_pa
-                   AND pj.Plantilla_id_pla = (SELECT MAX(pp2.Plantilla_id_pla) FROM Partido_Plantilla pp2
-                                              WHERE pp2.Evento_Partido_id_ev_pa = ep.id_ev_pa)) AS goles_eq2
+                   AND eg.Jugador_id_ju IN (
+                       SELECT pj.Jugador_id_ju FROM Posicion_Jugador pj
+                       INNER JOIN Partido_Plantilla pp3 ON pj.Plantilla_id_pla = pp3.Plantilla_id_pla
+                       WHERE pp3.Evento_Partido_id_ev_pa = ep.id_ev_pa
+                         AND pj.Plantilla_id_pla = (SELECT MAX(pp2.Plantilla_id_pla) FROM Partido_Plantilla pp2
+                                                    WHERE pp2.Evento_Partido_id_ev_pa = ep.id_ev_pa)
+                   )) AS goles_eq2
             FROM Evento_Partido ep
             INNER JOIN Llave_Mundial lm ON ep.Llave_Mundial_id_mu = lm.Mundial_id_mu
                                         AND ep.Llave_Mundial_id_fa = lm.Fase_id_fa
             INNER JOIN Fase f ON lm.Fase_id_fa = f.id_fa
             WHERE lm.Mundial_id_mu = v_mundial_id
-              AND UPPER(f.nombre_fa) = 'FINAL'
+              AND UPPER(TRIM(f.nombre_fa)) = 'FINAL'
             ORDER BY ep.fecha_ev_pa DESC
             FETCH FIRST 1 ROW ONLY
         );
@@ -279,21 +291,29 @@ BEGIN
                      WHERE pp.Evento_Partido_id_ev_pa = ep.id_ev_pa
                      ORDER BY pl.id_pla DESC FETCH FIRST 1 ROW ONLY) AS equipo2,
                     (SELECT COUNT(*) FROM Evento_Gol eg
-                     INNER JOIN Posicion_Jugador pj ON eg.Jugador_id_ju = pj.Jugador_id_ju
                      WHERE eg.Evento_Partido_id_ev_pa = ep.id_ev_pa
-                       AND pj.Plantilla_id_pla = (SELECT MIN(pp2.Plantilla_id_pla) FROM Partido_Plantilla pp2
-                                                  WHERE pp2.Evento_Partido_id_ev_pa = ep.id_ev_pa)) AS goles_eq1,
+                       AND eg.Jugador_id_ju IN (
+                           SELECT pj.Jugador_id_ju FROM Posicion_Jugador pj
+                           INNER JOIN Partido_Plantilla pp3 ON pj.Plantilla_id_pla = pp3.Plantilla_id_pla
+                           WHERE pp3.Evento_Partido_id_ev_pa = ep.id_ev_pa
+                             AND pj.Plantilla_id_pla = (SELECT MIN(pp2.Plantilla_id_pla) FROM Partido_Plantilla pp2
+                                                        WHERE pp2.Evento_Partido_id_ev_pa = ep.id_ev_pa)
+                       )) AS goles_eq1,
                     (SELECT COUNT(*) FROM Evento_Gol eg
-                     INNER JOIN Posicion_Jugador pj ON eg.Jugador_id_ju = pj.Jugador_id_ju
                      WHERE eg.Evento_Partido_id_ev_pa = ep.id_ev_pa
-                       AND pj.Plantilla_id_pla = (SELECT MAX(pp2.Plantilla_id_pla) FROM Partido_Plantilla pp2
-                                                  WHERE pp2.Evento_Partido_id_ev_pa = ep.id_ev_pa)) AS goles_eq2
+                       AND eg.Jugador_id_ju IN (
+                           SELECT pj.Jugador_id_ju FROM Posicion_Jugador pj
+                           INNER JOIN Partido_Plantilla pp3 ON pj.Plantilla_id_pla = pp3.Plantilla_id_pla
+                           WHERE pp3.Evento_Partido_id_ev_pa = ep.id_ev_pa
+                             AND pj.Plantilla_id_pla = (SELECT MAX(pp2.Plantilla_id_pla) FROM Partido_Plantilla pp2
+                                                        WHERE pp2.Evento_Partido_id_ev_pa = ep.id_ev_pa)
+                       )) AS goles_eq2
                 FROM Evento_Partido ep
                 INNER JOIN Llave_Mundial lm ON ep.Llave_Mundial_id_mu = lm.Mundial_id_mu
                                             AND ep.Llave_Mundial_id_fa = lm.Fase_id_fa
                 INNER JOIN Fase f ON lm.Fase_id_fa = f.id_fa
                 WHERE lm.Mundial_id_mu = v_mundial_id
-                  AND UPPER(f.nombre_fa) = 'SEMIFINALES'
+                  AND UPPER(TRIM(f.nombre_fa)) = 'SEMIFINALES'
             ) partidos_semi
         ) resultados
         WHERE perdedor IS NOT NULL;
@@ -390,18 +410,22 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('================================================================');
 
     FOR r_partido IN c_partidos LOOP
-        -- Calcular goles de cada equipo
+        -- Calcular goles de cada equipo (asegurando que solo contamos jugadores de la plantilla del partido)
         SELECT COUNT(*) INTO v_goles_eq1
         FROM Evento_Gol eg
-        INNER JOIN Posicion_Jugador pj ON eg.Jugador_id_ju = pj.Jugador_id_ju
         WHERE eg.Evento_Partido_id_ev_pa = r_partido.id_partido
-          AND pj.Plantilla_id_pla = r_partido.plantilla1_id;
+          AND eg.Jugador_id_ju IN (
+              SELECT pj.Jugador_id_ju FROM Posicion_Jugador pj
+              WHERE pj.Plantilla_id_pla = r_partido.plantilla1_id
+          );
 
         SELECT COUNT(*) INTO v_goles_eq2
         FROM Evento_Gol eg
-        INNER JOIN Posicion_Jugador pj ON eg.Jugador_id_ju = pj.Jugador_id_ju
         WHERE eg.Evento_Partido_id_ev_pa = r_partido.id_partido
-          AND pj.Plantilla_id_pla = r_partido.plantilla2_id;
+          AND eg.Jugador_id_ju IN (
+              SELECT pj.Jugador_id_ju FROM Posicion_Jugador pj
+              WHERE pj.Plantilla_id_pla = r_partido.plantilla2_id
+          );
 
         DBMS_OUTPUT.PUT_LINE('');
         DBMS_OUTPUT.PUT_LINE('----------------------------------------------------------------');
