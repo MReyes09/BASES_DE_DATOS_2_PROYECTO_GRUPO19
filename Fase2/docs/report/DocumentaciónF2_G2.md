@@ -87,3 +87,43 @@ ORDER BY
 ```
 
 ![Backup ejecutado](./img/04_Verify_Status.png)
+
+## Día 2 - 24/03/2026
+
+Se crearon datos simulados para verificar el funcionamiento de las triggers y backups.
+
+Primero vamos a demostrar la cantidad de datos que originalmente teníamos en las tablas:
+
+![Count All](./img/05_Initial_Data.png)
+
+Ahora vamos a insertar datos simulados para verificar el funcionamiento de las triggers y el cambio en la base de datos.
+
+Luego de la carga ejecutamos nuevamente el script de verificación de cantidad de datos:
+
+![Count All-Day1](./img/06_Day1_Data.png)
+
+Como podemos notar se aumentaron 15 partidos con varias de sus tablas simuladas en este caso para el Mundial 2026.
+
+Por lo que vamos a proceder a realizar el segundo backup para verificar que el proceso de backup y restore funciona correctamente.
+
+![Backup ejecutado](./img/07_Day1_Full_Backup.png)
+
+## Día - 3 25/03/2026
+
+Se crearon otros 15 partidos con sus respectivas tablas simuladas para verificar el funcionamiento de las triggers y el cambio en la base de datos.
+
+![Count All-Day2](./img/08_Day2_Data.png)
+
+También se realizó su proceso de Full Backup para verificar que el proceso de backup y restore funciona correctamente.
+
+![Backup ejecutado](./img/09_Day2_Full_Backup.png)
+
+## Día - 4 26/03/2026
+
+Se realizó el cambio a UPPER CASE en los nombres de los países para verificar el funcionamiento de las triggers y el cambio en la base de datos.
+
+![Count All-Day3](./img/10_Day3_Data.png)
+
+También se realizó su proceso de Full Backup para verificar que el proceso de backup y restore funciona correctamente.
+
+![Backup ejecutado](./img/11_Day3_Full_Backup.png)
