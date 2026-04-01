@@ -203,7 +203,7 @@ CREATE TABLE Premio
      Mundial_id_mu         NUMBER  NOT NULL , 
      pais_pre                  VARCHAR2 (90) , 
      Tipo_Premio_id_ti_pre NUMBER  NOT NULL ,
-     entrenador_pre         VARCHAR2 (90);
+     entrenador_pre         VARCHAR2 (90)
     ) 
     LOGGING 
 ;
