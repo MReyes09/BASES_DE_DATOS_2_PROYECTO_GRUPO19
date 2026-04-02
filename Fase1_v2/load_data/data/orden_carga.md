@@ -6,7 +6,7 @@
 |-----------|-----------------|---------------------|------------|---------------------|
 | **1** | Tablas SIN FK (independientes) | 7 tablas | ✅ **COMPLETO** | 7 |
 | **2** | Tablas con 1 FK | 4 tablas | ✅ **COMPLETO** | 11 |
-| **3** | Tablas con 2 o más FK | 11 tablas |  🟡 **9/11 (81.82%)** | **22** |
+| **3** | Tablas con 2 o más FK | 11 tablas |  ✅ **COMPLETO** | **22** |
 
 ## Nivel 1 - Tablas Independientes **(✅ YA CARGADO)**
 
@@ -17,7 +17,7 @@
 | 3 | `Jugador` | Datos base de jugadores |
 | 4 | `Mundial` | Información de mundiales |
 | 5 | `Pais` | Países participantes |
-| 6 | `Tipo_Premio` | Tipos de premios **(NUEVO: 1:1 con Premio)** |
+| 6 | `Tipo_Premio` | Tipos de premios |
 | 7 | `Tipo_Tarjeta` | Amarilla/Roja |
 
 ## Nivel 2 - Tablas con 1 Dependencia **(✅ YA CARGADO)**
@@ -29,7 +29,7 @@
 | 10 | `Plantilla` | `Pais` | ✅ **CARGADO** |
 | 11 | `Llave_Mundial` | `Mundial` | ✅ **CARGADO** |
 
-## Nivel 3 - Tablas con 2 o más Dependencias **(🟡 PARCIAL)**
+## Nivel 3 - Tablas con 2 o más Dependencias **(✅ YA CARGADO)**
 
 | **Orden** | **Tabla** | **Depende de** | **Estado** |
 |-----------|-----------|----------------|------------|
@@ -39,6 +39,6 @@
 | 15 | `Evento_Falta` | `Evento_Partido`, `Tipo_Tarjeta` | ✅ **CARGADO** |
 | 16 | `Evento_Gol` | `Evento_Partido`, `Jugador` | ✅ **CARGADO** |
 | 17 | `Partido_Plantilla` | `Plantilla`, `Evento_Partido` | ✅ **CARGADO** |
-| 18 | `Posicion_Jugador` | `Plantilla`, `Jugador` | 🔴 **PENDIENTE** |
+| 18 | `Posicion_Jugador` | `Plantilla`, `Jugador` | ✅ **CARGADO** |
 | 19 | `Premios_Jugador` | `Premio`, `Jugador` | ✅ **CARGADO** |
 | 20 | `Cambio_Jugador` | `Evento_Cambio_Jugador`, `Jugador` | ✅ **CARGADO** |
