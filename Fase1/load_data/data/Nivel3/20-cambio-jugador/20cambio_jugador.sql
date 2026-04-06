@@ -7670,3 +7670,5 @@ INSERT INTO Cambio_Jugador (id_ca_ju, Evento_Cambio_Jugador_id_ev_ca_ju, Jugador
 INSERT INTO Cambio_Jugador (id_ca_ju, Evento_Cambio_Jugador_id_ev_ca_ju, Jugador_id_ju, tiempo_ca_ju) VALUES (7632, 3816, 5440, '74');
 INSERT INTO Cambio_Jugador (id_ca_ju, Evento_Cambio_Jugador_id_ev_ca_ju, Jugador_id_ju, tiempo_ca_ju) VALUES (7633, 3817, 1588, '74');
 INSERT INTO Cambio_Jugador (id_ca_ju, Evento_Cambio_Jugador_id_ev_ca_ju, Jugador_id_ju, tiempo_ca_ju) VALUES (7634, 3817, 3484, '74');
+
+COMMIT;

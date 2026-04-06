@@ -352,3 +352,5 @@ INSERT INTO Premios_Jugador (Premio_id_pre, Jugador_id_ju) VALUES (185, 5103);
 INSERT INTO Premios_Jugador (Premio_id_pre, Jugador_id_ju) VALUES (186, 2898);
 INSERT INTO Premios_Jugador (Premio_id_pre, Jugador_id_ju) VALUES (187, 4868);
 INSERT INTO Premios_Jugador (Premio_id_pre, Jugador_id_ju) VALUES (188, 2549);
+
+COMMIT;

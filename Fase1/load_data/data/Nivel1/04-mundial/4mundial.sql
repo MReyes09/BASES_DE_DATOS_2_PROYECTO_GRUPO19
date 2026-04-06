@@ -21,3 +21,5 @@ INSERT INTO Mundial (id_mu, anio_mu, organizador_mu) VALUES (20, 1950, 'Brasil')
 INSERT INTO Mundial (id_mu, anio_mu, organizador_mu) VALUES (21, 1938, 'Francia');
 INSERT INTO Mundial (id_mu, anio_mu, organizador_mu) VALUES (22, 1934, 'Italia');
 INSERT INTO Mundial (id_mu, anio_mu, organizador_mu) VALUES (23, 1930, 'Uruguay');
+
+COMMIT;

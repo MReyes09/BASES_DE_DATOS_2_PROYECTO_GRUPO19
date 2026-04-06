@@ -184,3 +184,5 @@ INSERT INTO Red_social VALUES (179, '@ibra_official', 'Twitter', 3498);
 INSERT INTO Red_social VALUES (180, '@iamzlatanibrahimovic', 'Instagram', 3498);
 INSERT INTO Red_social VALUES (181, '@zlatanibrahimovic', 'Facebook', 3498);
 INSERT INTO Red_social VALUES (182, '@@zlatanibrahimovic', 'TikTok', 3498);
+
+COMMIT;

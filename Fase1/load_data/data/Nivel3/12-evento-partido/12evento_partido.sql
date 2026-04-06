@@ -1016,3 +1016,5 @@ INSERT INTO Evento_Partido (id_ev_pa, fecha_ev_pa, Llave_Mundial_id_mu, Llave_Mu
 INSERT INTO Evento_Partido (id_ev_pa, fecha_ev_pa, Llave_Mundial_id_mu, Llave_Mundial_id_fa) VALUES (962, TO_DATE('26/11/2022', 'DD/MM/YYYY'), 2, 1);
 INSERT INTO Evento_Partido (id_ev_pa, fecha_ev_pa, Llave_Mundial_id_mu, Llave_Mundial_id_fa) VALUES (963, TO_DATE('30/11/2022', 'DD/MM/YYYY'), 2, 1);
 INSERT INTO Evento_Partido (id_ev_pa, fecha_ev_pa, Llave_Mundial_id_mu, Llave_Mundial_id_fa) VALUES (964, TO_DATE('24/11/2022', 'DD/MM/YYYY'), 2, 1);
+
+COMMIT;

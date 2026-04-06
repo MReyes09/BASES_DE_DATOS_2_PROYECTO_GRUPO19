@@ -1979,3 +1979,5 @@ INSERT INTO Partido_Plantilla (Plantilla_id_pla, Evento_Partido_id_ev_pa) VALUES
 INSERT INTO Partido_Plantilla (Plantilla_id_pla, Evento_Partido_id_ev_pa) VALUES (199, 963);
 INSERT INTO Partido_Plantilla (Plantilla_id_pla, Evento_Partido_id_ev_pa) VALUES (390, 964);
 INSERT INTO Partido_Plantilla (Plantilla_id_pla, Evento_Partido_id_ev_pa) VALUES (130, 964);
+
+COMMIT;

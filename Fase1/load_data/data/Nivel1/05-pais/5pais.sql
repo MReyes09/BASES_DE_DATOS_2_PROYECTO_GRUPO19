@@ -103,3 +103,5 @@ INSERT INTO Pais (id_pa, name_pa) VALUES (101, 'Cabo Verde');
 INSERT INTO Pais (id_pa, name_pa) VALUES (102, 'Nueva Zelanda');
 INSERT INTO Pais (id_pa, name_pa) VALUES (103, 'Yugoslavia');
 INSERT INTO Pais (id_pa, name_pa) VALUES (104, 'Venezuela');
+
+COMMIT;

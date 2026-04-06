@@ -379,3 +379,5 @@ INSERT INTO Premio (id_pre, Mundial_id_mu, pais_pre, Tipo_Premio_id_ti_pre, entr
 INSERT INTO Premio (id_pre, Mundial_id_mu, pais_pre, Tipo_Premio_id_ti_pre, entrenador_pre) VALUES (188, 2, NULL, 8, NULL);
 -- FIFA Fair Play: Inglaterra (Mundial 2022)
 INSERT INTO Premio (id_pre, Mundial_id_mu, pais_pre, Tipo_Premio_id_ti_pre, entrenador_pre) VALUES (189, 2, 'Inglaterra', 9, NULL);
+
+COMMIT;

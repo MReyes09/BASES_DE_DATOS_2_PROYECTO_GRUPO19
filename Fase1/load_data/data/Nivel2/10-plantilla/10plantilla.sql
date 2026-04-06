@@ -406,3 +406,5 @@ INSERT INTO Plantilla (id_pla, Pais_id_pa, director_tecnico_pla) VALUES (402, 10
 INSERT INTO Plantilla (id_pla, Pais_id_pa, director_tecnico_pla) VALUES (403, 103, 'Milorad Arsenijevic');
 INSERT INTO Plantilla (id_pla, Pais_id_pa, director_tecnico_pla) VALUES (404, 103, 'Prvoslav Mihajlovic');
 INSERT INTO Plantilla (id_pla, Pais_id_pa, director_tecnico_pla) VALUES (405, 103, 'Slobodan Santrac');
+
+COMMIT;

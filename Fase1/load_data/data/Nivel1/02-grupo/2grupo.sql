@@ -10,3 +10,5 @@ INSERT INTO Grupo (id_gr, nombre_gr) VALUES (9,  '1');
 INSERT INTO Grupo (id_gr, nombre_gr) VALUES (10, '2');
 INSERT INTO Grupo (id_gr, nombre_gr) VALUES (11, '3');
 INSERT INTO Grupo (id_gr, nombre_gr) VALUES (12, '4');
+
+COMMIT;

@@ -10283,3 +10283,5 @@ INSERT INTO Posicion_Jugador (Plantilla_id_pla, Jugador_id_ju, nombre_po_ju, cap
 INSERT INTO Posicion_Jugador (Plantilla_id_pla, Jugador_id_ju, nombre_po_ju, capitan, no_camiseta, titular) VALUES (56, 7548, 'MC', 0, NULL, 0);
 INSERT INTO Posicion_Jugador (Plantilla_id_pla, Jugador_id_ju, nombre_po_ju, capitan, no_camiseta, titular) VALUES (56, 7158, 'MC', 0, NULL, 0);
 INSERT INTO Posicion_Jugador (Plantilla_id_pla, Jugador_id_ju, nombre_po_ju, capitan, no_camiseta, titular) VALUES (56, 3658, 'DL', 0, NULL, 0);
+
+COMMIT;

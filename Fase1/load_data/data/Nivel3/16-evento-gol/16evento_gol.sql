@@ -2774,3 +2774,5 @@ INSERT INTO Evento_Gol (id_ev_go, Evento_Partido_id_ev_pa, Jugador_id_ju, tiempo
 INSERT INTO Evento_Gol (id_ev_go, Evento_Partido_id_ev_pa, Jugador_id_ju, tiempo_gol, entre_tiempo_ev_go, penal) VALUES (2718, 961, 2370, '48', '1', 0);
 INSERT INTO Evento_Gol (id_ev_go, Evento_Partido_id_ev_pa, Jugador_id_ju, tiempo_gol, entre_tiempo_ev_go, penal) VALUES (2719, 962, 2227, '23', '0', 0);
 INSERT INTO Evento_Gol (id_ev_go, Evento_Partido_id_ev_pa, Jugador_id_ju, tiempo_gol, entre_tiempo_ev_go, penal) VALUES (2720, 963, 4004, '58', '1', 0);
+
+COMMIT;

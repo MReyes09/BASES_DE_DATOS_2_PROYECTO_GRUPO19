@@ -2677,3 +2677,5 @@ INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_
 INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2636, 963, 1, '28', 0);
 INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2637, 964, 1, '57', 1);
 INSERT INTO Evento_Falta (id_ev_fa, Evento_Partido_id_ev_pa, Tipo_Tarjeta_id_ti_ta, minuto_falta, entre_tiempo) VALUES (2638, 964, 1, '88', 1);
+
+COMMIT;

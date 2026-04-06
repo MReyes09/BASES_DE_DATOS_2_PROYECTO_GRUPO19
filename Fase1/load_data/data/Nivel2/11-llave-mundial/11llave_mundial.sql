@@ -170,3 +170,5 @@ INSERT INTO Llave_Mundial (Mundial_id_mu, Fase_id_fa) VALUES (23, 2);
 INSERT INTO Llave_Mundial (Mundial_id_mu, Fase_id_fa) VALUES (23, 3);
 INSERT INTO Llave_Mundial (Mundial_id_mu, Fase_id_fa) VALUES (23, 4);
 INSERT INTO Llave_Mundial (Mundial_id_mu, Fase_id_fa) VALUES (23, 5);
+
+COMMIT;

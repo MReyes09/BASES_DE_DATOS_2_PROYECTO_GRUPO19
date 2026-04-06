@@ -3852,3 +3852,5 @@ INSERT INTO Evento_Cambio_Jugador (id_ev_ca_ju, Evento_Partido_id_ev_pa) VALUES 
 INSERT INTO Evento_Cambio_Jugador (id_ev_ca_ju, Evento_Partido_id_ev_pa) VALUES (3815, 964);
 INSERT INTO Evento_Cambio_Jugador (id_ev_ca_ju, Evento_Partido_id_ev_pa) VALUES (3816, 964);
 INSERT INTO Evento_Cambio_Jugador (id_ev_ca_ju, Evento_Partido_id_ev_pa) VALUES (3817, 964);
+
+COMMIT;

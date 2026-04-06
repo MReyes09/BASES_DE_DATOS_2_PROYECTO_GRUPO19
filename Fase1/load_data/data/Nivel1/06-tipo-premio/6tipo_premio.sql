@@ -12,3 +12,5 @@ INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (11, 'Equipo Ideal (De
 INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (12, 'Equipo Ideal (Mediocampistas)');
 INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (13, 'Equipo Ideal (Delanteros)');
 INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (14, 'Equipo Ideal (Entrenador)');
+
+COMMIT;

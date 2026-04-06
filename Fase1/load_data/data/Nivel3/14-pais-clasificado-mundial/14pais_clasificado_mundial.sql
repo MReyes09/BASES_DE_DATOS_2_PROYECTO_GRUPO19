@@ -886,3 +886,5 @@ INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VA
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (2, 75, 8);
 -- Uruguay | Grupo H | Mundial 2022
 INSERT INTO Pais_Clasificado_Mundial (Mundial_id_mu, Pais_id_pa, Grupo_id_gr) VALUES (2, 99, 8);
+
+COMMIT;

@@ -8477,3 +8477,5 @@ INSERT INTO Jugador (id_ju, nombre_ju, fecha_nacimiento_ju, lugar_nacimiento_ju,
 INSERT INTO Jugador (id_ju, nombre_ju, fecha_nacimiento_ju, lugar_nacimiento_ju, altura_ju, apodo_ju, pagina_web_ju) VALUES (8473, 'Ali Asad', NULL, NULL, NULL, NULL, NULL);
 INSERT INTO Jugador (id_ju, nombre_ju, fecha_nacimiento_ju, lugar_nacimiento_ju, altura_ju, apodo_ju, pagina_web_ju) VALUES (8474, 'Ahmed Alaaeldin', NULL, NULL, NULL, NULL, NULL);
 INSERT INTO Jugador (id_ju, nombre_ju, fecha_nacimiento_ju, lugar_nacimiento_ju, altura_ju, apodo_ju, pagina_web_ju) VALUES (8475, 'Phil Foden', NULL, NULL, NULL, NULL, NULL);
+
+COMMIT;
