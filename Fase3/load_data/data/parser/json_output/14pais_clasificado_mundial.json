@@ -1,0 +1,2212 @@
+[
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 21,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 11,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 103,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 73,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 79,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 39,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 23,
+    "Pais_id_pa": 72,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 88,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 103,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 21,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 39,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 72,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 87,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 11,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 20,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 103,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 26,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 48,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 96,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 9,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 71,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 35,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 19,
+    "Pais_id_pa": 88,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 71,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 53,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 35,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 72,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 103,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 43,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 48,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 87,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 9,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 18,
+    "Pais_id_pa": 93,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 23,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 93,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 103,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 21,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 88,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 71,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 14,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 48,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 17,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 88,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 14,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 48,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 75,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 21,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 25,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 16,
+    "Pais_id_pa": 93,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 40,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 93,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 56,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 87,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 71,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 79,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 14,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 63,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 15,
+    "Pais_id_pa": 73,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 2,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 8,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 21,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 35,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 103,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 95,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 14,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 10,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 87,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 46,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 74,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 2,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 10,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 74,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 87,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 14,
+    "Pais_id_pa": 103,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 48,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 74,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 97,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 9,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 87,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 35,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 54,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 10,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 73,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 9,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 10,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 73,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 13,
+    "Pais_id_pa": 74,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 16,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 73,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 74,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 6,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 9,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 21,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 40,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 48,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 71,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 61,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 47,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 53,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 103,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 74,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 93,
+    "Grupo_id_gr": 9
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 10
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 11
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 9,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 12,
+    "Pais_id_pa": 53,
+    "Grupo_id_gr": 12
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 14,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 26,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 51,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 72,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 17,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 48,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 93,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 6,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 53,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 32,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 35,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 11,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 9,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 71,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 39,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 16,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 79,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 93,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 28,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 35,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 87,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 3,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 23,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 41,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 103,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 26,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 10,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 23,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 39,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 79,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 88,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 16,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 81,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 87,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 1,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 11,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 26,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 14,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 45,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 66,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 52,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 9,
+    "Pais_id_pa": 68,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 35,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 63,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 68,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 9,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 16,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 21,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 5,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 32,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 86,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 14,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 66,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 72,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 26,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 10,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 23,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 79,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 97,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 29,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 58,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 8,
+    "Pais_id_pa": 59,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 32,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 84,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 37,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 72,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 86,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 22,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 28,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 96,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 26,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 39,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 74,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 75,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 1,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 5,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 16,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 52,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 29,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 33,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 59,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 81,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 7,
+    "Pais_id_pa": 97,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 1,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 28,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 33,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 74,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 72,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 87,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 91,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 27,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 10,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 85,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 4,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 54,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 75,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 39,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 44,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 20,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 26,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 88,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 94,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 5,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 97,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 6,
+    "Pais_id_pa": 98,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 86,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 26,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 45,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 66,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 6,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 37,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 39,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 1,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 8,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 44,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 85,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 16,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 32,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 59,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 10,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 25,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 27,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 75,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 21,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 47,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 5,
+    "Pais_id_pa": 88,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 16,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 29,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 8,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 21,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 10,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 23,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 27,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 45,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 59,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 28,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 57,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 33,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 47,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 88,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 1,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 39,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 44,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 75,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 6,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 26,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 4,
+    "Pais_id_pa": 81,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 5,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 34,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 81,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 54,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 63,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 75,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 8,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 32,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 73,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 29,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 55,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 66,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 28,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 85,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 88,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 15,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 70,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 97,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 23,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 59,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 74,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 3,
+    "Pais_id_pa": 84,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 18,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 33,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 10,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 84,
+    "Grupo_id_gr": 1
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 39,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 43,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 50,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 54,
+    "Grupo_id_gr": 2
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 5,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 7,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 64,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 74,
+    "Grupo_id_gr": 3
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 8,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 32,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 42,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 97,
+    "Grupo_id_gr": 4
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 1,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 28,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 38,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 59,
+    "Grupo_id_gr": 5
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 13,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 16,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 85,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 88,
+    "Grupo_id_gr": 7
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 26,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 44,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 75,
+    "Grupo_id_gr": 8
+  },
+  {
+    "Mundial_id_mu": 2,
+    "Pais_id_pa": 99,
+    "Grupo_id_gr": 8
+  }
+]

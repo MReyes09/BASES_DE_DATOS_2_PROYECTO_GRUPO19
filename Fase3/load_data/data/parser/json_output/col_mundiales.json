@@ -1,0 +1,4661 @@
+[
+  {
+    "_id": 1,
+    "anio": 2026,
+    "organizador": "Canadá / Estados Unidos / México",
+    "grupos": [],
+    "partidos": [],
+    "premios": []
+  },
+  {
+    "_id": 2,
+    "anio": 2022,
+    "organizador": "Catar",
+    "grupos": [
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 18,
+            "pais": "Catar",
+            "director_tecnico": "Félix Sánches"
+          },
+          {
+            "pais_id": 33,
+            "pais": "Ecuador",
+            "director_tecnico": "Gustavo Alfaro"
+          },
+          {
+            "pais_id": 10,
+            "pais": "Países Bajos",
+            "director_tecnico": "Bert Van Marwijk"
+          },
+          {
+            "pais_id": 84,
+            "pais": "Senegal",
+            "director_tecnico": "Aliou Cisse"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 39,
+            "pais": "Estados Unidos",
+            "director_tecnico": "Bill Jeffrey"
+          },
+          {
+            "pais_id": 43,
+            "pais": "Gales",
+            "director_tecnico": "Jimmy Murphy"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          },
+          {
+            "pais_id": 54,
+            "pais": "Irán",
+            "director_tecnico": "Branko Ivankovic"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 5,
+            "pais": "Arabia Saudita",
+            "director_tecnico": "Herve Renard"
+          },
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 74,
+            "pais": "Polonia",
+            "director_tecnico": "Adam Nawalka"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 8,
+            "pais": "Australia",
+            "director_tecnico": "Ange Postecoglou"
+          },
+          {
+            "pais_id": 32,
+            "pais": "Dinamarca",
+            "director_tecnico": "Age Hareide"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 97,
+            "pais": "Túnez",
+            "director_tecnico": "Abdelmajid Chetali"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 1,
+            "pais": "Alemania",
+            "director_tecnico": "Berti Vogts"
+          },
+          {
+            "pais_id": 28,
+            "pais": "Costa Rica",
+            "director_tecnico": "Alexandre Guimaraes"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 59,
+            "pais": "Japón",
+            "director_tecnico": "Akira Nishino"
+          }
+        ]
+      },
+      {
+        "nombre": "G",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 16,
+            "pais": "Camerún",
+            "director_tecnico": "Claude Le Roy"
+          },
+          {
+            "pais_id": 85,
+            "pais": "Serbia",
+            "director_tecnico": "Dragan Stojković"
+          },
+          {
+            "pais_id": 88,
+            "pais": "Suiza",
+            "director_tecnico": "Alfredo Foni"
+          }
+        ]
+      },
+      {
+        "nombre": "H",
+        "selecciones": [
+          {
+            "pais_id": 26,
+            "pais": "Corea del Sur",
+            "director_tecnico": "Dick Advocaat"
+          },
+          {
+            "pais_id": 44,
+            "pais": "Ghana",
+            "director_tecnico": "Kwesi Appiah"
+          },
+          {
+            "pais_id": 75,
+            "pais": "Portugal",
+            "director_tecnico": "Antonio Oliveira"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Lionel Andrés Messi"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Kylian Mbappé Lottin"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Luka Modrić"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Kylian Mbappé Lottin"
+        ]
+      },
+      {
+        "tipo": "Botín de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Lionel Andrés Messi"
+        ]
+      },
+      {
+        "tipo": "Botín de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Olivier Giroud"
+        ]
+      },
+      {
+        "tipo": "Guante de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Damián Emiliano Martínez"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Lorenzo Fernandez"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Inglaterra",
+        "entrenador": null,
+        "jugadores": []
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "anio": 2018,
+    "organizador": "Rusia",
+    "grupos": [
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 5,
+            "pais": "Arabia Saudita",
+            "director_tecnico": "Herve Renard"
+          },
+          {
+            "pais_id": 34,
+            "pais": "Egipto",
+            "director_tecnico": "Héctor Cúper"
+          },
+          {
+            "pais_id": 81,
+            "pais": "Rusia",
+            "director_tecnico": "Fabio Capello"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 54,
+            "pais": "Irán",
+            "director_tecnico": "Branko Ivankovic"
+          },
+          {
+            "pais_id": 63,
+            "pais": "Marruecos",
+            "director_tecnico": "Abdellah Blinda"
+          },
+          {
+            "pais_id": 75,
+            "pais": "Portugal",
+            "director_tecnico": "Antonio Oliveira"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 8,
+            "pais": "Australia",
+            "director_tecnico": "Ange Postecoglou"
+          },
+          {
+            "pais_id": 32,
+            "pais": "Dinamarca",
+            "director_tecnico": "Age Hareide"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 73,
+            "pais": "Perú",
+            "director_tecnico": "Didi"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 29,
+            "pais": "Croacia",
+            "director_tecnico": "Mirko Jozic"
+          },
+          {
+            "pais_id": 55,
+            "pais": "Islandia",
+            "director_tecnico": "Heimir Hallgrimsson"
+          },
+          {
+            "pais_id": 66,
+            "pais": "Nigeria",
+            "director_tecnico": "Adegboye Onigbinde"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 28,
+            "pais": "Costa Rica",
+            "director_tecnico": "Alexandre Guimaraes"
+          },
+          {
+            "pais_id": 85,
+            "pais": "Serbia",
+            "director_tecnico": "Dragan Stojković"
+          },
+          {
+            "pais_id": 88,
+            "pais": "Suiza",
+            "director_tecnico": "Alfredo Foni"
+          }
+        ]
+      },
+      {
+        "nombre": "G",
+        "selecciones": [
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          },
+          {
+            "pais_id": 70,
+            "pais": "Panamá",
+            "director_tecnico": "Hernan Gomez"
+          },
+          {
+            "pais_id": 97,
+            "pais": "Túnez",
+            "director_tecnico": "Abdelmajid Chetali"
+          }
+        ]
+      },
+      {
+        "nombre": "H",
+        "selecciones": [
+          {
+            "pais_id": 23,
+            "pais": "Colombia",
+            "director_tecnico": "Adolfo Pedernera"
+          },
+          {
+            "pais_id": 59,
+            "pais": "Japón",
+            "director_tecnico": "Akira Nishino"
+          },
+          {
+            "pais_id": 74,
+            "pais": "Polonia",
+            "director_tecnico": "Adam Nawalka"
+          },
+          {
+            "pais_id": 84,
+            "pais": "Senegal",
+            "director_tecnico": "Aliou Cisse"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Luka Modrić"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Eden Michael Hazard"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Antoine Griezmann"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Harry Edward Kane"
+        ]
+      },
+      {
+        "tipo": "Botín de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Antoine Griezmann"
+        ]
+      },
+      {
+        "tipo": "Botín de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Romelu Menama Lukaku Bolingoli"
+        ]
+      },
+      {
+        "tipo": "Guante de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Thibaut Nicolas Marc Courtois"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Kylian Mbappé Lottin"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "España",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Thibaut Nicolas Marc Courtois"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Diego Roberto Godín Leal",
+          "Marcelo Vieira da Silva Júnior",
+          "Thiago Emiliano da Silva",
+          "Raphaël Xavier Varane"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Kevin De Bruyne",
+          "Luka Modrić",
+          "Philippe Coutinho Correia"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Harry Edward Kane",
+          "Kylian Mbappé Lottin",
+          "Cristiano Ronaldo dos Santos Aveiro"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "anio": 2014,
+    "organizador": "Brasil",
+    "grupos": [
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 16,
+            "pais": "Camerún",
+            "director_tecnico": "Claude Le Roy"
+          },
+          {
+            "pais_id": 29,
+            "pais": "Croacia",
+            "director_tecnico": "Mirko Jozic"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 8,
+            "pais": "Australia",
+            "director_tecnico": "Ange Postecoglou"
+          },
+          {
+            "pais_id": 21,
+            "pais": "Chile",
+            "director_tecnico": "Arturo Bucciardi"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 10,
+            "pais": "Países Bajos",
+            "director_tecnico": "Bert Van Marwijk"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 23,
+            "pais": "Colombia",
+            "director_tecnico": "Adolfo Pedernera"
+          },
+          {
+            "pais_id": 27,
+            "pais": "Costa de Marfil",
+            "director_tecnico": "Henri Michel"
+          },
+          {
+            "pais_id": 45,
+            "pais": "Grecia",
+            "director_tecnico": "Alkis Panagoulias"
+          },
+          {
+            "pais_id": 59,
+            "pais": "Japón",
+            "director_tecnico": "Akira Nishino"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 28,
+            "pais": "Costa Rica",
+            "director_tecnico": "Alexandre Guimaraes"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 33,
+            "pais": "Ecuador",
+            "director_tecnico": "Gustavo Alfaro"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 47,
+            "pais": "Honduras",
+            "director_tecnico": "Jose De La Paz"
+          },
+          {
+            "pais_id": 88,
+            "pais": "Suiza",
+            "director_tecnico": "Alfredo Foni"
+          }
+        ]
+      },
+      {
+        "nombre": "G",
+        "selecciones": [
+          {
+            "pais_id": 1,
+            "pais": "Alemania",
+            "director_tecnico": "Berti Vogts"
+          },
+          {
+            "pais_id": 39,
+            "pais": "Estados Unidos",
+            "director_tecnico": "Bill Jeffrey"
+          },
+          {
+            "pais_id": 44,
+            "pais": "Ghana",
+            "director_tecnico": "Kwesi Appiah"
+          },
+          {
+            "pais_id": 75,
+            "pais": "Portugal",
+            "director_tecnico": "Antonio Oliveira"
+          }
+        ]
+      },
+      {
+        "nombre": "H",
+        "selecciones": [
+          {
+            "pais_id": 6,
+            "pais": "Argelia",
+            "director_tecnico": "Rabah Saadane"
+          },
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 26,
+            "pais": "Corea del Sur",
+            "director_tecnico": "Dick Advocaat"
+          },
+          {
+            "pais_id": 81,
+            "pais": "Rusia",
+            "director_tecnico": "Fabio Capello"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Lionel Andrés Messi"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Thomas Müller"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Arjen Robben"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Jaime Rodriguez"
+        ]
+      },
+      {
+        "tipo": "Botín de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Thomas Müller"
+        ]
+      },
+      {
+        "tipo": "Botín de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Neymar da Silva Santos Júnior"
+        ]
+      },
+      {
+        "tipo": "Guante de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Manuel Peter Neuer"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Paul Labile Pogba"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Colombia",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Entrenador)",
+        "pais": null,
+        "entrenador": "Joachim Löw",
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Manuel Peter Neuer"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "David Luiz Moreira Marinho3",
+          "Mats Julian Hummels",
+          "Marcelo Vieira da Silva Júnior",
+          "Thiago Emiliano da Silva"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ángel Fabián Di María Hernández",
+          "Toni Kroos",
+          "Jaime Rodriguez"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Lionel Andrés Messi",
+          "Thomas Müller",
+          "Neymar da Silva Santos Júnior"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "anio": 2010,
+    "organizador": "Sudáfrica",
+    "grupos": [
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 86,
+            "pais": "Sudáfrica",
+            "director_tecnico": "Carlos Alberto Parreira"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 26,
+            "pais": "Corea del Sur",
+            "director_tecnico": "Dick Advocaat"
+          },
+          {
+            "pais_id": 45,
+            "pais": "Grecia",
+            "director_tecnico": "Alkis Panagoulias"
+          },
+          {
+            "pais_id": 66,
+            "pais": "Nigeria",
+            "director_tecnico": "Adegboye Onigbinde"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 6,
+            "pais": "Argelia",
+            "director_tecnico": "Rabah Saadane"
+          },
+          {
+            "pais_id": 37,
+            "pais": "Eslovenia",
+            "director_tecnico": "Danilo Popivoda"
+          },
+          {
+            "pais_id": 39,
+            "pais": "Estados Unidos",
+            "director_tecnico": "Bill Jeffrey"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 1,
+            "pais": "Alemania",
+            "director_tecnico": "Berti Vogts"
+          },
+          {
+            "pais_id": 8,
+            "pais": "Australia",
+            "director_tecnico": "Ange Postecoglou"
+          },
+          {
+            "pais_id": 44,
+            "pais": "Ghana",
+            "director_tecnico": "Kwesi Appiah"
+          },
+          {
+            "pais_id": 85,
+            "pais": "Serbia",
+            "director_tecnico": "Dragan Stojković"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 16,
+            "pais": "Camerún",
+            "director_tecnico": "Claude Le Roy"
+          },
+          {
+            "pais_id": 32,
+            "pais": "Dinamarca",
+            "director_tecnico": "Age Hareide"
+          },
+          {
+            "pais_id": 59,
+            "pais": "Japón",
+            "director_tecnico": "Akira Nishino"
+          },
+          {
+            "pais_id": 10,
+            "pais": "Países Bajos",
+            "director_tecnico": "Bert Van Marwijk"
+          }
+        ]
+      },
+      {
+        "nombre": "G",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 25,
+            "pais": "Corea del Norte",
+            "director_tecnico": "Jong Hun Kim"
+          },
+          {
+            "pais_id": 27,
+            "pais": "Costa de Marfil",
+            "director_tecnico": "Henri Michel"
+          },
+          {
+            "pais_id": 75,
+            "pais": "Portugal",
+            "director_tecnico": "Antonio Oliveira"
+          }
+        ]
+      },
+      {
+        "nombre": "H",
+        "selecciones": [
+          {
+            "pais_id": 21,
+            "pais": "Chile",
+            "director_tecnico": "Arturo Bucciardi"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 47,
+            "pais": "Honduras",
+            "director_tecnico": "Jose De La Paz"
+          },
+          {
+            "pais_id": 88,
+            "pais": "Suiza",
+            "director_tecnico": "Alfredo Foni"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Diego Forlan"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Wesley Sneijder"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "David Villa"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Thomas Müller"
+        ]
+      },
+      {
+        "tipo": "Botín de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "David Villa"
+        ]
+      },
+      {
+        "tipo": "Botín de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Wesley Sneijder"
+        ]
+      },
+      {
+        "tipo": "Guante de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Iker Casillas"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Thomas Müller"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "España",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Entrenador)",
+        "pais": null,
+        "entrenador": "Vicente Del Bosque",
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Iker Casillas"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Philipp Lahm",
+          "Maicon Douglas Sisenando",
+          "Carles Puyol",
+          "Sergio Ramos García"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Andrés Iniesta Luján",
+          "Bastian Schweinsteiger",
+          "Wesley Sneijder",
+          "Xavi Simons"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Diego Forlan",
+          "David Villa"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 6,
+    "anio": 2006,
+    "organizador": "Alemania",
+    "grupos": [
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 1,
+            "pais": "Alemania",
+            "director_tecnico": "Berti Vogts"
+          },
+          {
+            "pais_id": 28,
+            "pais": "Costa Rica",
+            "director_tecnico": "Alexandre Guimaraes"
+          },
+          {
+            "pais_id": 33,
+            "pais": "Ecuador",
+            "director_tecnico": "Gustavo Alfaro"
+          },
+          {
+            "pais_id": 74,
+            "pais": "Polonia",
+            "director_tecnico": "Adam Nawalka"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          },
+          {
+            "pais_id": 72,
+            "pais": "Paraguay",
+            "director_tecnico": "Anibal Ruiz Leites"
+          },
+          {
+            "pais_id": 87,
+            "pais": "Suecia",
+            "director_tecnico": "Georg Ericson"
+          },
+          {
+            "pais_id": 91,
+            "pais": "Trinidad y Tobago",
+            "director_tecnico": "Leo Beenhakker"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 27,
+            "pais": "Costa de Marfil",
+            "director_tecnico": "Henri Michel"
+          },
+          {
+            "pais_id": 10,
+            "pais": "Países Bajos",
+            "director_tecnico": "Bert Van Marwijk"
+          },
+          {
+            "pais_id": 85,
+            "pais": "Serbia",
+            "director_tecnico": "Dragan Stojković"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 4,
+            "pais": "Angola",
+            "director_tecnico": "Luis Goncalves"
+          },
+          {
+            "pais_id": 54,
+            "pais": "Irán",
+            "director_tecnico": "Branko Ivankovic"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 75,
+            "pais": "Portugal",
+            "director_tecnico": "Antonio Oliveira"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 39,
+            "pais": "Estados Unidos",
+            "director_tecnico": "Bill Jeffrey"
+          },
+          {
+            "pais_id": 44,
+            "pais": "Ghana",
+            "director_tecnico": "Kwesi Appiah"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 20,
+            "pais": "República Checa",
+            "director_tecnico": "Karel Bruckner"
+          }
+        ]
+      },
+      {
+        "nombre": "G",
+        "selecciones": [
+          {
+            "pais_id": 26,
+            "pais": "Corea del Sur",
+            "director_tecnico": "Dick Advocaat"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 88,
+            "pais": "Suiza",
+            "director_tecnico": "Alfredo Foni"
+          },
+          {
+            "pais_id": 94,
+            "pais": "Togo",
+            "director_tecnico": "Otto Pfister"
+          }
+        ]
+      },
+      {
+        "nombre": "H",
+        "selecciones": [
+          {
+            "pais_id": 5,
+            "pais": "Arabia Saudita",
+            "director_tecnico": "Herve Renard"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 97,
+            "pais": "Túnez",
+            "director_tecnico": "Abdelmajid Chetali"
+          },
+          {
+            "pais_id": 98,
+            "pais": "Ucrania",
+            "director_tecnico": "Oleg Blokhin"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Zinedine Zidane"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Fabio Cannavaro"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Andrea Pirlo"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Miroslav Klose"
+        ]
+      },
+      {
+        "tipo": "Botín de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Hernan Crespo"
+        ]
+      },
+      {
+        "tipo": "Botín de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ronaldao"
+        ]
+      },
+      {
+        "tipo": "Guante de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Gianluigi Buffon"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Lukas Podolski"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Brasil",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Gianluigi Buffon",
+          "Jens Lehmann",
+          "Ricardo"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Roberto Ayala",
+          "Fabio Cannavaro",
+          "Philipp Lahm",
+          "Ricardo Carvalho",
+          "John Terry",
+          "Lilian Thuram",
+          "Gianluca Zambrotta"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Michael Ballack",
+          "Gennaro Gattuso",
+          "Maniche",
+          "Andrea Pirlo",
+          "Francesco Totti",
+          "Patrick Vieira",
+          "Ze Roberto",
+          "Zinedine Zidane"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Hernan Crespo",
+          "Luis Figo",
+          "Thierry Daniel Henry",
+          "Miroslav Klose",
+          "Luca Toni"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 7,
+    "anio": 2002,
+    "organizador": "Corea / Japón",
+    "grupos": [
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 32,
+            "pais": "Dinamarca",
+            "director_tecnico": "Age Hareide"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 84,
+            "pais": "Senegal",
+            "director_tecnico": "Aliou Cisse"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 37,
+            "pais": "Eslovenia",
+            "director_tecnico": "Danilo Popivoda"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 72,
+            "pais": "Paraguay",
+            "director_tecnico": "Anibal Ruiz Leites"
+          },
+          {
+            "pais_id": 86,
+            "pais": "Sudáfrica",
+            "director_tecnico": "Carlos Alberto Parreira"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 22,
+            "pais": "China",
+            "director_tecnico": "Bora Milutinovic"
+          },
+          {
+            "pais_id": 28,
+            "pais": "Costa Rica",
+            "director_tecnico": "Alexandre Guimaraes"
+          },
+          {
+            "pais_id": 96,
+            "pais": "Turquía",
+            "director_tecnico": "Alessandro Puppo"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 26,
+            "pais": "Corea del Sur",
+            "director_tecnico": "Dick Advocaat"
+          },
+          {
+            "pais_id": 39,
+            "pais": "Estados Unidos",
+            "director_tecnico": "Bill Jeffrey"
+          },
+          {
+            "pais_id": 74,
+            "pais": "Polonia",
+            "director_tecnico": "Adam Nawalka"
+          },
+          {
+            "pais_id": 75,
+            "pais": "Portugal",
+            "director_tecnico": "Antonio Oliveira"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 1,
+            "pais": "Alemania",
+            "director_tecnico": "Berti Vogts"
+          },
+          {
+            "pais_id": 5,
+            "pais": "Arabia Saudita",
+            "director_tecnico": "Herve Renard"
+          },
+          {
+            "pais_id": 16,
+            "pais": "Camerún",
+            "director_tecnico": "Claude Le Roy"
+          },
+          {
+            "pais_id": 52,
+            "pais": "Irlanda",
+            "director_tecnico": "Jack Charlton"
+          }
+        ]
+      },
+      {
+        "nombre": "G",
+        "selecciones": [
+          {
+            "pais_id": 29,
+            "pais": "Croacia",
+            "director_tecnico": "Mirko Jozic"
+          },
+          {
+            "pais_id": 33,
+            "pais": "Ecuador",
+            "director_tecnico": "Gustavo Alfaro"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          }
+        ]
+      },
+      {
+        "nombre": "H",
+        "selecciones": [
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 59,
+            "pais": "Japón",
+            "director_tecnico": "Akira Nishino"
+          },
+          {
+            "pais_id": 81,
+            "pais": "Rusia",
+            "director_tecnico": "Fabio Capello"
+          },
+          {
+            "pais_id": 97,
+            "pais": "Túnez",
+            "director_tecnico": "Abdelmajid Chetali"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Oliver Kahn"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ronaldao"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Myung Bo Hong"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ronaldao"
+        ]
+      },
+      {
+        "tipo": "Guante de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Oliver Kahn"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Landon Donovan"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Bélgica",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Oliver Kahn",
+          "Rustu Recber"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Sol Campbell",
+          "Fernando Hierro",
+          "Myung Bo Hong",
+          "Alpay Ozalan",
+          "Roberto Carlos da Silva Rocha"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Michael Ballack",
+          "Claudio Reyna",
+          "Rivaldo",
+          "Ronaldo de Assis Moreira",
+          "Sang Chul Yoo"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "El Hadji Diouf",
+          "Miroslav Klose",
+          "Ronaldao",
+          "Hasan Sas"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 8,
+    "anio": 1998,
+    "organizador": "Francia",
+    "grupos": [
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 35,
+            "pais": "Escocia",
+            "director_tecnico": "Alex Ferguson"
+          },
+          {
+            "pais_id": 63,
+            "pais": "Marruecos",
+            "director_tecnico": "Abdellah Blinda"
+          },
+          {
+            "pais_id": 68,
+            "pais": "Noruega",
+            "director_tecnico": "Asbjorn Halvorsen"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 9,
+            "pais": "Austria",
+            "director_tecnico": "Georg Schmidt"
+          },
+          {
+            "pais_id": 16,
+            "pais": "Camerún",
+            "director_tecnico": "Claude Le Roy"
+          },
+          {
+            "pais_id": 21,
+            "pais": "Chile",
+            "director_tecnico": "Arturo Bucciardi"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 5,
+            "pais": "Arabia Saudita",
+            "director_tecnico": "Herve Renard"
+          },
+          {
+            "pais_id": 32,
+            "pais": "Dinamarca",
+            "director_tecnico": "Age Hareide"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 86,
+            "pais": "Sudáfrica",
+            "director_tecnico": "Carlos Alberto Parreira"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 14,
+            "pais": "Bulgaria",
+            "director_tecnico": "Dimitar Penev"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 66,
+            "pais": "Nigeria",
+            "director_tecnico": "Adegboye Onigbinde"
+          },
+          {
+            "pais_id": 72,
+            "pais": "Paraguay",
+            "director_tecnico": "Anibal Ruiz Leites"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 26,
+            "pais": "Corea del Sur",
+            "director_tecnico": "Dick Advocaat"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 10,
+            "pais": "Países Bajos",
+            "director_tecnico": "Bert Van Marwijk"
+          }
+        ]
+      },
+      {
+        "nombre": "G",
+        "selecciones": [
+          {
+            "pais_id": 23,
+            "pais": "Colombia",
+            "director_tecnico": "Adolfo Pedernera"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          },
+          {
+            "pais_id": 79,
+            "pais": "Rumania",
+            "director_tecnico": "Alexandru Savulescu"
+          },
+          {
+            "pais_id": 97,
+            "pais": "Túnez",
+            "director_tecnico": "Abdelmajid Chetali"
+          }
+        ]
+      },
+      {
+        "nombre": "H",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 29,
+            "pais": "Croacia",
+            "director_tecnico": "Mirko Jozic"
+          },
+          {
+            "pais_id": 58,
+            "pais": "Jamaica",
+            "director_tecnico": "René Simoes"
+          },
+          {
+            "pais_id": 59,
+            "pais": "Japón",
+            "director_tecnico": "Akira Nishino"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ronaldao"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Davor Suker"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Lilian Thuram"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Davor Suker"
+        ]
+      },
+      {
+        "tipo": "Guante de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Fabien Barthez"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Michael Owen"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Inglaterra",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Fabien Barthez",
+          "Jose Luis Chilavert"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Frank De Boer",
+          "Marcel Desailly",
+          "Carlos Gamarra",
+          "Roberto Carlos da Silva Rocha",
+          "Lilian Thuram"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Edgar Davids",
+          "Dunga",
+          "Michael Laudrup",
+          "Rivaldo",
+          "Zinedine Zidane"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Dennis Bergkamp",
+          "Brian Laudrup",
+          "Ronaldao",
+          "Davor Suker"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 9,
+    "anio": 1994,
+    "organizador": "Estados Unidos",
+    "grupos": [
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 23,
+            "pais": "Colombia",
+            "director_tecnico": "Adolfo Pedernera"
+          },
+          {
+            "pais_id": 39,
+            "pais": "Estados Unidos",
+            "director_tecnico": "Bill Jeffrey"
+          },
+          {
+            "pais_id": 79,
+            "pais": "Rumania",
+            "director_tecnico": "Alexandru Savulescu"
+          },
+          {
+            "pais_id": 88,
+            "pais": "Suiza",
+            "director_tecnico": "Alfredo Foni"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 16,
+            "pais": "Camerún",
+            "director_tecnico": "Claude Le Roy"
+          },
+          {
+            "pais_id": 81,
+            "pais": "Rusia",
+            "director_tecnico": "Fabio Capello"
+          },
+          {
+            "pais_id": 87,
+            "pais": "Suecia",
+            "director_tecnico": "Georg Ericson"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 1,
+            "pais": "Alemania",
+            "director_tecnico": "Berti Vogts"
+          },
+          {
+            "pais_id": 11,
+            "pais": "Bolivia",
+            "director_tecnico": "Mario Pretto"
+          },
+          {
+            "pais_id": 26,
+            "pais": "Corea del Sur",
+            "director_tecnico": "Dick Advocaat"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 14,
+            "pais": "Bulgaria",
+            "director_tecnico": "Dimitar Penev"
+          },
+          {
+            "pais_id": 45,
+            "pais": "Grecia",
+            "director_tecnico": "Alkis Panagoulias"
+          },
+          {
+            "pais_id": 66,
+            "pais": "Nigeria",
+            "director_tecnico": "Adegboye Onigbinde"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 52,
+            "pais": "Irlanda",
+            "director_tecnico": "Jack Charlton"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 68,
+            "pais": "Noruega",
+            "director_tecnico": "Asbjorn Halvorsen"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Romario"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Roberto Baggio"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Hristo Stoichkov"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Oleg Salenko",
+          "Hristo Stoichkov"
+        ]
+      },
+      {
+        "tipo": "Guante de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Michel Preudhomme"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Marc Overmars"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Brasil",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Michel Preudhomme"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Jorginho",
+          "Paolo Cesare Maldini",
+          "Marcio Santos"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Krassimir Balakov",
+          "Tomas Brolin",
+          "Dunga",
+          "Gheorghe Hagi"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Roberto Baggio",
+          "Romario",
+          "Hristo Stoichkov"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 10,
+    "anio": 1990,
+    "organizador": "Italia",
+    "grupos": [
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 9,
+            "pais": "Austria",
+            "director_tecnico": "Georg Schmidt"
+          },
+          {
+            "pais_id": 71,
+            "pais": "Checoslovaquia",
+            "director_tecnico": "Josef Cejp"
+          },
+          {
+            "pais_id": 39,
+            "pais": "Estados Unidos",
+            "director_tecnico": "Bill Jeffrey"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 16,
+            "pais": "Camerún",
+            "director_tecnico": "Claude Le Roy"
+          },
+          {
+            "pais_id": 79,
+            "pais": "Rumania",
+            "director_tecnico": "Alexandru Savulescu"
+          },
+          {
+            "pais_id": 93,
+            "pais": "URSS",
+            "director_tecnico": "Gavril Kachalin"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 28,
+            "pais": "Costa Rica",
+            "director_tecnico": "Alexandre Guimaraes"
+          },
+          {
+            "pais_id": 35,
+            "pais": "Escocia",
+            "director_tecnico": "Alex Ferguson"
+          },
+          {
+            "pais_id": 87,
+            "pais": "Suecia",
+            "director_tecnico": "Georg Ericson"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 23,
+            "pais": "Colombia",
+            "director_tecnico": "Adolfo Pedernera"
+          },
+          {
+            "pais_id": 41,
+            "pais": "Emiratos Árabes Unidos",
+            "director_tecnico": "Carlos Alberto Parreira"
+          },
+          {
+            "pais_id": 103,
+            "pais": "Yugoslavia",
+            "director_tecnico": "Aleksandar Tirnanic"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 26,
+            "pais": "Corea del Sur",
+            "director_tecnico": "Dick Advocaat"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Salvatore Schillaci"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Lothar Matthaeus"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Diego Armando Maradona"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Salvatore Schillaci"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Robert Prosinecki"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Inglaterra",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Gabelo Conejo",
+          "Sergio Goycochea"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Franco Baresi",
+          "Andreas Brehme",
+          "Paolo Cesare Maldini"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Paul Gascoigne",
+          "Diego Armando Maradona",
+          "Lothar Matthaeus",
+          "Dragan Stojkovic"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Juergen Klinsmann",
+          "Roger Milla",
+          "Salvatore Schillaci"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 11,
+    "anio": 1986,
+    "organizador": "México",
+    "grupos": [
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 14,
+            "pais": "Bulgaria",
+            "director_tecnico": "Dimitar Penev"
+          },
+          {
+            "pais_id": 26,
+            "pais": "Corea del Sur",
+            "director_tecnico": "Dick Advocaat"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 51,
+            "pais": "Irak",
+            "director_tecnico": "Evaristo"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 72,
+            "pais": "Paraguay",
+            "director_tecnico": "Anibal Ruiz Leites"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 17,
+            "pais": "Canadá",
+            "director_tecnico": "John Herdman"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 48,
+            "pais": "Hungría",
+            "director_tecnico": "Alfred Schaffer"
+          },
+          {
+            "pais_id": 93,
+            "pais": "URSS",
+            "director_tecnico": "Gavril Kachalin"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 6,
+            "pais": "Argelia",
+            "director_tecnico": "Rabah Saadane"
+          },
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 53,
+            "pais": "Irlanda del Norte",
+            "director_tecnico": "Billy Bingham"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 32,
+            "pais": "Dinamarca",
+            "director_tecnico": "Age Hareide"
+          },
+          {
+            "pais_id": 35,
+            "pais": "Escocia",
+            "director_tecnico": "Alex Ferguson"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Diego Armando Maradona"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Harald Schumacher"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Preben Elkjaer Larsen"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Gary Lineker"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Enzo Scifo"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Brasil",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Jean-Marie Pfaff"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Manuel Amoros",
+          "Josimar",
+          "Julio Cesar"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Jan Ceulemans",
+          "Diego Armando Maradona",
+          "Michel François Platini",
+          "Jean Tigana"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Emilio Butragueño Santos",
+          "Preben Elkjaer Larsen",
+          "Gary Lineker"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 12,
+    "anio": 1982,
+    "organizador": "España",
+    "grupos": [
+      {
+        "nombre": "1",
+        "selecciones": [
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 74,
+            "pais": "Polonia",
+            "director_tecnico": "Adam Nawalka"
+          },
+          {
+            "pais_id": 93,
+            "pais": "URSS",
+            "director_tecnico": "Gavril Kachalin"
+          }
+        ]
+      },
+      {
+        "nombre": "2",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          }
+        ]
+      },
+      {
+        "nombre": "3",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          }
+        ]
+      },
+      {
+        "nombre": "4",
+        "selecciones": [
+          {
+            "pais_id": 9,
+            "pais": "Austria",
+            "director_tecnico": "Georg Schmidt"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 53,
+            "pais": "Irlanda del Norte",
+            "director_tecnico": "Billy Bingham"
+          }
+        ]
+      },
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 16,
+            "pais": "Camerún",
+            "director_tecnico": "Claude Le Roy"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 73,
+            "pais": "Perú",
+            "director_tecnico": "Didi"
+          },
+          {
+            "pais_id": 74,
+            "pais": "Polonia",
+            "director_tecnico": "Adam Nawalka"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 6,
+            "pais": "Argelia",
+            "director_tecnico": "Rabah Saadane"
+          },
+          {
+            "pais_id": 9,
+            "pais": "Austria",
+            "director_tecnico": "Georg Schmidt"
+          },
+          {
+            "pais_id": 21,
+            "pais": "Chile",
+            "director_tecnico": "Arturo Bucciardi"
+          }
+        ]
+      },
+      {
+        "nombre": "C",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 40,
+            "pais": "El Salvador",
+            "director_tecnico": "Hernan Carrasco"
+          },
+          {
+            "pais_id": 48,
+            "pais": "Hungría",
+            "director_tecnico": "Alfred Schaffer"
+          }
+        ]
+      },
+      {
+        "nombre": "D",
+        "selecciones": [
+          {
+            "pais_id": 71,
+            "pais": "Checoslovaquia",
+            "director_tecnico": "Josef Cejp"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          },
+          {
+            "pais_id": 61,
+            "pais": "Kuwait",
+            "director_tecnico": "Carlos Alberto Parreira"
+          }
+        ]
+      },
+      {
+        "nombre": "E",
+        "selecciones": [
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 47,
+            "pais": "Honduras",
+            "director_tecnico": "Jose De La Paz"
+          },
+          {
+            "pais_id": 53,
+            "pais": "Irlanda del Norte",
+            "director_tecnico": "Billy Bingham"
+          },
+          {
+            "pais_id": 103,
+            "pais": "Yugoslavia",
+            "director_tecnico": "Aleksandar Tirnanic"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Balón de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Paolo Rossi"
+        ]
+      },
+      {
+        "tipo": "Balón de Plata",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Falcao"
+        ]
+      },
+      {
+        "tipo": "Balón de Bronce",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Karl-Heinz Rummenigge"
+        ]
+      },
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Paolo Rossi"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Manuel Amoros"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Brasil",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Dino Zoff"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Fulvio Collovati",
+          "Claudio Gentile",
+          "Junior",
+          "Luizinho"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Zbigniew Boniek",
+          "Falcao",
+          "Michel François Platini",
+          "Zico"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Paolo Rossi",
+          "Karl-Heinz Rummenigge"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 13,
+    "anio": 1978,
+    "organizador": "Argentina",
+    "grupos": [
+      {
+        "nombre": "1",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 48,
+            "pais": "Hungría",
+            "director_tecnico": "Alfred Schaffer"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          }
+        ]
+      },
+      {
+        "nombre": "2",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 74,
+            "pais": "Polonia",
+            "director_tecnico": "Adam Nawalka"
+          },
+          {
+            "pais_id": 97,
+            "pais": "Túnez",
+            "director_tecnico": "Abdelmajid Chetali"
+          }
+        ]
+      },
+      {
+        "nombre": "3",
+        "selecciones": [
+          {
+            "pais_id": 9,
+            "pais": "Austria",
+            "director_tecnico": "Georg Schmidt"
+          },
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 87,
+            "pais": "Suecia",
+            "director_tecnico": "Georg Ericson"
+          }
+        ]
+      },
+      {
+        "nombre": "4",
+        "selecciones": [
+          {
+            "pais_id": 35,
+            "pais": "Escocia",
+            "director_tecnico": "Alex Ferguson"
+          },
+          {
+            "pais_id": 54,
+            "pais": "Irán",
+            "director_tecnico": "Branko Ivankovic"
+          },
+          {
+            "pais_id": 10,
+            "pais": "Países Bajos",
+            "director_tecnico": "Bert Van Marwijk"
+          },
+          {
+            "pais_id": 73,
+            "pais": "Perú",
+            "director_tecnico": "Didi"
+          }
+        ]
+      },
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 9,
+            "pais": "Austria",
+            "director_tecnico": "Georg Schmidt"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 10,
+            "pais": "Países Bajos",
+            "director_tecnico": "Bert Van Marwijk"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 73,
+            "pais": "Perú",
+            "director_tecnico": "Didi"
+          },
+          {
+            "pais_id": 74,
+            "pais": "Polonia",
+            "director_tecnico": "Adam Nawalka"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Mario Kempes"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Antonio Cabrini"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Argentina",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ubaldo Fillol"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ruud Krol",
+          "Daniel Passarella",
+          "Alberto Tarantini",
+          "Berti Vogts"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Dirceu",
+          "Rob Rensenbrink"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Roberto Bettega",
+          "Teofilo Cubillas",
+          "Mario Kempes",
+          "Paolo Rossi"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 14,
+    "anio": 1974,
+    "organizador": "Alemania Occidental",
+    "grupos": [
+      {
+        "nombre": "1",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 2,
+            "pais": "Alemania Oriental",
+            "director_tecnico": "Georg Buschner"
+          },
+          {
+            "pais_id": 8,
+            "pais": "Australia",
+            "director_tecnico": "Ange Postecoglou"
+          },
+          {
+            "pais_id": 21,
+            "pais": "Chile",
+            "director_tecnico": "Arturo Bucciardi"
+          }
+        ]
+      },
+      {
+        "nombre": "2",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 35,
+            "pais": "Escocia",
+            "director_tecnico": "Alex Ferguson"
+          },
+          {
+            "pais_id": 103,
+            "pais": "Yugoslavia",
+            "director_tecnico": "Aleksandar Tirnanic"
+          },
+          {
+            "pais_id": 95,
+            "pais": "Zaire",
+            "director_tecnico": "Blagoje Vidinic"
+          }
+        ]
+      },
+      {
+        "nombre": "3",
+        "selecciones": [
+          {
+            "pais_id": 14,
+            "pais": "Bulgaria",
+            "director_tecnico": "Dimitar Penev"
+          },
+          {
+            "pais_id": 10,
+            "pais": "Países Bajos",
+            "director_tecnico": "Bert Van Marwijk"
+          },
+          {
+            "pais_id": 87,
+            "pais": "Suecia",
+            "director_tecnico": "Georg Ericson"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      },
+      {
+        "nombre": "4",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 46,
+            "pais": "Haití",
+            "director_tecnico": "Antoine Tassy"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 74,
+            "pais": "Polonia",
+            "director_tecnico": "Adam Nawalka"
+          }
+        ]
+      },
+      {
+        "nombre": "A",
+        "selecciones": [
+          {
+            "pais_id": 2,
+            "pais": "Alemania Oriental",
+            "director_tecnico": "Georg Buschner"
+          },
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 10,
+            "pais": "Países Bajos",
+            "director_tecnico": "Bert Van Marwijk"
+          }
+        ]
+      },
+      {
+        "nombre": "B",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 74,
+            "pais": "Polonia",
+            "director_tecnico": "Adam Nawalka"
+          },
+          {
+            "pais_id": 87,
+            "pais": "Suecia",
+            "director_tecnico": "Georg Ericson"
+          },
+          {
+            "pais_id": 103,
+            "pais": "Yugoslavia",
+            "director_tecnico": "Aleksandar Tirnanic"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Grzegorz Lato"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Wladyslaw Zmuda"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Sepp Maier"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Franz Anton Beckenbauer",
+          "Paul Breitner",
+          "Ruud Krol",
+          "Berti Vogts"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Kazimierz Deyna",
+          "Johan Neeskens",
+          "Wolfgang Overath"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Hendrik Johannes Cruijff",
+          "Grzegorz Lato",
+          "Rob Rensenbrink"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 15,
+    "anio": 1970,
+    "organizador": "México",
+    "grupos": [
+      {
+        "nombre": "1",
+        "selecciones": [
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 40,
+            "pais": "El Salvador",
+            "director_tecnico": "Hernan Carrasco"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 93,
+            "pais": "URSS",
+            "director_tecnico": "Gavril Kachalin"
+          }
+        ]
+      },
+      {
+        "nombre": "2",
+        "selecciones": [
+          {
+            "pais_id": 56,
+            "pais": "Israel",
+            "director_tecnico": "Emmanuel Sheffer"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 87,
+            "pais": "Suecia",
+            "director_tecnico": "Georg Ericson"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      },
+      {
+        "nombre": "3",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 71,
+            "pais": "Checoslovaquia",
+            "director_tecnico": "Josef Cejp"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          },
+          {
+            "pais_id": 79,
+            "pais": "Rumania",
+            "director_tecnico": "Alexandru Savulescu"
+          }
+        ]
+      },
+      {
+        "nombre": "4",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 14,
+            "pais": "Bulgaria",
+            "director_tecnico": "Dimitar Penev"
+          },
+          {
+            "pais_id": 63,
+            "pais": "Marruecos",
+            "director_tecnico": "Abdellah Blinda"
+          },
+          {
+            "pais_id": 73,
+            "pais": "Perú",
+            "director_tecnico": "Didi"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Gerd Mueller"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Teofilo Cubillas"
+        ]
+      },
+      {
+        "tipo": "FIFA Fair Play",
+        "pais": "Perú",
+        "entrenador": null,
+        "jugadores": []
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ladislao Mazurkiewicz"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Atilio Ancheta",
+          "Franz Anton Beckenbauer",
+          "Carlos Alberto",
+          "Giacinto Facchetti"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Sir Robert Charlton",
+          "Gerson",
+          "Rivelino"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Jairzinho",
+          "Gerd Mueller",
+          "Edson Arantes do Nascimento"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 16,
+    "anio": 1966,
+    "organizador": "Inglaterra",
+    "grupos": [
+      {
+        "nombre": "1",
+        "selecciones": [
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      },
+      {
+        "nombre": "2",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 88,
+            "pais": "Suiza",
+            "director_tecnico": "Alfredo Foni"
+          }
+        ]
+      },
+      {
+        "nombre": "3",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 14,
+            "pais": "Bulgaria",
+            "director_tecnico": "Dimitar Penev"
+          },
+          {
+            "pais_id": 48,
+            "pais": "Hungría",
+            "director_tecnico": "Alfred Schaffer"
+          },
+          {
+            "pais_id": 75,
+            "pais": "Portugal",
+            "director_tecnico": "Antonio Oliveira"
+          }
+        ]
+      },
+      {
+        "nombre": "4",
+        "selecciones": [
+          {
+            "pais_id": 21,
+            "pais": "Chile",
+            "director_tecnico": "Arturo Bucciardi"
+          },
+          {
+            "pais_id": 25,
+            "pais": "Corea del Norte",
+            "director_tecnico": "Jong Hun Kim"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 93,
+            "pais": "URSS",
+            "director_tecnico": "Gavril Kachalin"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Eusebio"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Franz Anton Beckenbauer"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Gordon Banks"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "George Cohen",
+          "Silvio Marzolini",
+          "Bobby Moore",
+          "Vicente"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Franz Anton Beckenbauer",
+          "Sir Robert Charlton",
+          "Coluna"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Florian Albert",
+          "Eusebio",
+          "Uwe Seeler"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 17,
+    "anio": 1962,
+    "organizador": "Chile",
+    "grupos": [
+      {
+        "nombre": "1",
+        "selecciones": [
+          {
+            "pais_id": 23,
+            "pais": "Colombia",
+            "director_tecnico": "Adolfo Pedernera"
+          },
+          {
+            "pais_id": 93,
+            "pais": "URSS",
+            "director_tecnico": "Gavril Kachalin"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          },
+          {
+            "pais_id": 103,
+            "pais": "Yugoslavia",
+            "director_tecnico": "Aleksandar Tirnanic"
+          }
+        ]
+      },
+      {
+        "nombre": "2",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 21,
+            "pais": "Chile",
+            "director_tecnico": "Arturo Bucciardi"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 88,
+            "pais": "Suiza",
+            "director_tecnico": "Alfredo Foni"
+          }
+        ]
+      },
+      {
+        "nombre": "3",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 71,
+            "pais": "Checoslovaquia",
+            "director_tecnico": "Josef Cejp"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          }
+        ]
+      },
+      {
+        "nombre": "4",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 14,
+            "pais": "Bulgaria",
+            "director_tecnico": "Dimitar Penev"
+          },
+          {
+            "pais_id": 48,
+            "pais": "Hungría",
+            "director_tecnico": "Alfred Schaffer"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Florian Albert",
+          "Manuel Francisco dos Santos",
+          "Valentin Ivanov",
+          "Drazen Jerkovic",
+          "Leonel Sanchez",
+          "Vava"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Florian Albert"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Viliam Schrojf"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Djalma Santos",
+          "Cesare Maldini",
+          "Karl-Heinz Schnellinger",
+          "Valeri Voronin"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Josef Masopust",
+          "Zagallo",
+          "Zito"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Manuel Francisco dos Santos",
+          "Leonel Sanchez",
+          "Vava"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 18,
+    "anio": 1958,
+    "organizador": "Suecia",
+    "grupos": [
+      {
+        "nombre": "1",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 71,
+            "pais": "Checoslovaquia",
+            "director_tecnico": "Josef Cejp"
+          },
+          {
+            "pais_id": 53,
+            "pais": "Irlanda del Norte",
+            "director_tecnico": "Billy Bingham"
+          }
+        ]
+      },
+      {
+        "nombre": "2",
+        "selecciones": [
+          {
+            "pais_id": 35,
+            "pais": "Escocia",
+            "director_tecnico": "Alex Ferguson"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 72,
+            "pais": "Paraguay",
+            "director_tecnico": "Anibal Ruiz Leites"
+          },
+          {
+            "pais_id": 103,
+            "pais": "Yugoslavia",
+            "director_tecnico": "Aleksandar Tirnanic"
+          }
+        ]
+      },
+      {
+        "nombre": "3",
+        "selecciones": [
+          {
+            "pais_id": 43,
+            "pais": "Gales",
+            "director_tecnico": "Jimmy Murphy"
+          },
+          {
+            "pais_id": 48,
+            "pais": "Hungría",
+            "director_tecnico": "Alfred Schaffer"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 87,
+            "pais": "Suecia",
+            "director_tecnico": "Georg Ericson"
+          }
+        ]
+      },
+      {
+        "nombre": "4",
+        "selecciones": [
+          {
+            "pais_id": 9,
+            "pais": "Austria",
+            "director_tecnico": "Georg Schmidt"
+          },
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          },
+          {
+            "pais_id": 93,
+            "pais": "URSS",
+            "director_tecnico": "Gavril Kachalin"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Just Fontaine"
+        ]
+      },
+      {
+        "tipo": "Mejor Jugador Joven",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Edson Arantes do Nascimento"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Harry Gregg"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Bellini",
+          "Djalma Santos",
+          "Nilton Santos"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Danny Blanchflower",
+          "Didi",
+          "Gunnar Gren",
+          "Raymond Kopa"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Just Fontaine",
+          "Manuel Francisco dos Santos",
+          "Edson Arantes do Nascimento"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 19,
+    "anio": 1954,
+    "organizador": "Suiza",
+    "grupos": [
+      {
+        "nombre": "1",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 103,
+            "pais": "Yugoslavia",
+            "director_tecnico": "Aleksandar Tirnanic"
+          }
+        ]
+      },
+      {
+        "nombre": "2",
+        "selecciones": [
+          {
+            "pais_id": 3,
+            "pais": "Alemania Occidental",
+            "director_tecnico": "Franz Beckenbauer"
+          },
+          {
+            "pais_id": 26,
+            "pais": "Corea del Sur",
+            "director_tecnico": "Dick Advocaat"
+          },
+          {
+            "pais_id": 48,
+            "pais": "Hungría",
+            "director_tecnico": "Alfred Schaffer"
+          },
+          {
+            "pais_id": 96,
+            "pais": "Turquía",
+            "director_tecnico": "Alessandro Puppo"
+          }
+        ]
+      },
+      {
+        "nombre": "3",
+        "selecciones": [
+          {
+            "pais_id": 9,
+            "pais": "Austria",
+            "director_tecnico": "Georg Schmidt"
+          },
+          {
+            "pais_id": 71,
+            "pais": "Checoslovaquia",
+            "director_tecnico": "Josef Cejp"
+          },
+          {
+            "pais_id": 35,
+            "pais": "Escocia",
+            "director_tecnico": "Alex Ferguson"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      },
+      {
+        "nombre": "4",
+        "selecciones": [
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          },
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 88,
+            "pais": "Suiza",
+            "director_tecnico": "Alfredo Foni"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Sandor Kocsis"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Gyula Grosics"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Djalma Santos",
+          "Ernst Ocwirk",
+          "Jose Santamaria"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Jozsef Bozsik",
+          "Zoltan Czibor",
+          "Nandor Hidegkuti",
+          "Fritz Walter"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Sandor Kocsis",
+          "Ferenc Puskas",
+          "Helmut Rahn"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 20,
+    "anio": 1950,
+    "organizador": "Brasil",
+    "grupos": [
+      {
+        "nombre": "1",
+        "selecciones": [
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          },
+          {
+            "pais_id": 88,
+            "pais": "Suiza",
+            "director_tecnico": "Alfredo Foni"
+          },
+          {
+            "pais_id": 103,
+            "pais": "Yugoslavia",
+            "director_tecnico": "Aleksandar Tirnanic"
+          }
+        ]
+      },
+      {
+        "nombre": "2",
+        "selecciones": [
+          {
+            "pais_id": 21,
+            "pais": "Chile",
+            "director_tecnico": "Arturo Bucciardi"
+          },
+          {
+            "pais_id": 38,
+            "pais": "España",
+            "director_tecnico": "Amadeo Garcia Salazar"
+          },
+          {
+            "pais_id": 39,
+            "pais": "Estados Unidos",
+            "director_tecnico": "Bill Jeffrey"
+          },
+          {
+            "pais_id": 50,
+            "pais": "Inglaterra",
+            "director_tecnico": "Alf Ramsey"
+          }
+        ]
+      },
+      {
+        "nombre": "3",
+        "selecciones": [
+          {
+            "pais_id": 57,
+            "pais": "Italia",
+            "director_tecnico": "Arrigo Sacchi"
+          },
+          {
+            "pais_id": 72,
+            "pais": "Paraguay",
+            "director_tecnico": "Anibal Ruiz Leites"
+          },
+          {
+            "pais_id": 87,
+            "pais": "Suecia",
+            "director_tecnico": "Georg Ericson"
+          }
+        ]
+      },
+      {
+        "nombre": "4",
+        "selecciones": [
+          {
+            "pais_id": 11,
+            "pais": "Bolivia",
+            "director_tecnico": "Mario Pretto"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ademir"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Roque Maspoli"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Erik Nilsson",
+          "Jose Parra",
+          "Victor Rodriguez Andrade"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Bauer",
+          "Alcides Ghiggia",
+          "Jair",
+          "Obdulio Varela"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ademir",
+          "Juan Schiaffino",
+          "Zizinho"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 21,
+    "anio": 1938,
+    "organizador": "Francia",
+    "grupos": [],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Leonidas"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Frantisek Planicka"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Domingos Da Guia",
+          "Alfredo Foni",
+          "Pietro Rava"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Miguel Andreolo Frodella",
+          "Ugo Locatelli"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Gino Colaussi",
+          "Leonidas",
+          "Silvio Piola",
+          "Gyorgy Sarosi",
+          "Gyula Zsengeller"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 22,
+    "anio": 1934,
+    "organizador": "Italia",
+    "grupos": [],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Oldrich Nejedly"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Ricardo Zamora"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Eraldo Monzeglio",
+          "Quincoces I"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Cilaurren",
+          "Attilio Ferraris",
+          "Luis Monti"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Enrique Guaita",
+          "Giuseppe Meazza",
+          "Oldrich Nejedly",
+          "Raimundo Orsi",
+          "Matthias Sindelar"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 23,
+    "anio": 1930,
+    "organizador": "Uruguay",
+    "grupos": [
+      {
+        "nombre": "1",
+        "selecciones": [
+          {
+            "pais_id": 7,
+            "pais": "Argentina",
+            "director_tecnico": "Alejandro Sabella"
+          },
+          {
+            "pais_id": 21,
+            "pais": "Chile",
+            "director_tecnico": "Arturo Bucciardi"
+          },
+          {
+            "pais_id": 42,
+            "pais": "Francia",
+            "director_tecnico": "Aime Jacquet"
+          },
+          {
+            "pais_id": 64,
+            "pais": "México",
+            "director_tecnico": "Antonio Lopez Herranz"
+          }
+        ]
+      },
+      {
+        "nombre": "2",
+        "selecciones": [
+          {
+            "pais_id": 11,
+            "pais": "Bolivia",
+            "director_tecnico": "Mario Pretto"
+          },
+          {
+            "pais_id": 13,
+            "pais": "Brasil",
+            "director_tecnico": "Ademar Pimenta"
+          },
+          {
+            "pais_id": 103,
+            "pais": "Yugoslavia",
+            "director_tecnico": "Aleksandar Tirnanic"
+          }
+        ]
+      },
+      {
+        "nombre": "3",
+        "selecciones": [
+          {
+            "pais_id": 73,
+            "pais": "Perú",
+            "director_tecnico": "Didi"
+          },
+          {
+            "pais_id": 79,
+            "pais": "Rumania",
+            "director_tecnico": "Alexandru Savulescu"
+          },
+          {
+            "pais_id": 99,
+            "pais": "Uruguay",
+            "director_tecnico": "Alberto Suppici"
+          }
+        ]
+      },
+      {
+        "nombre": "4",
+        "selecciones": [
+          {
+            "pais_id": 15,
+            "pais": "Bélgica",
+            "director_tecnico": "Doug Livingstone"
+          },
+          {
+            "pais_id": 39,
+            "pais": "Estados Unidos",
+            "director_tecnico": "Bill Jeffrey"
+          },
+          {
+            "pais_id": 72,
+            "pais": "Paraguay",
+            "director_tecnico": "Anibal Ruiz Leites"
+          }
+        ]
+      }
+    ],
+    "partidos": [],
+    "premios": [
+      {
+        "tipo": "Botín de Oro",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Guillermo Stabile"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Arquero)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Enrique Ballestrero"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Defensores)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Milutin Ivkovic",
+          "Jose Nasazzi"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Mediocampistas)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Jose Andrade",
+          "Alvaro Gestido",
+          "Luis Monti"
+        ]
+      },
+      {
+        "tipo": "Equipo Ideal (Delanteros)",
+        "pais": null,
+        "entrenador": null,
+        "jugadores": [
+          "Hector Castro",
+          "Pedro Cea",
+          "Bert Patenaude",
+          "Hector Scarone",
+          "Guillermo Stabile"
+        ]
+      }
+    ]
+  }
+]

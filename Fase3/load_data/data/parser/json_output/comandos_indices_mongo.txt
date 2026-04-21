@@ -1,0 +1,16 @@
+// setup_indices.js  — ejecutar con: mongosh mundiales_db setup_indices.js
+
+// Colección mundiales: búsqueda por año (consulta obligatoria)
+db.mundiales.createIndex({ anio: 1 }, { unique: true, name: "idx_mundial_anio" });
+// Para filtros por fase dentro de partidos
+db.mundiales.createIndex({ "partidos.fase": 1 }, { name: "idx_partido_fase" });
+// Para filtros por país dentro de grupos
+db.mundiales.createIndex({ "grupos.selecciones.pais": 1 }, { name: "idx_grupo_pais" });
+
+// Colección jugadores
+db.jugadores.createIndex({ nombre: 1 }, { name: "idx_jugador_nombre" });
+
+// Colección paises: búsqueda por nombre (consulta obligatoria)
+db.paises.createIndex({ nombre: 1 }, { unique: true, name: "idx_pais_nombre" });
+// Para filtrar por año de participación
+db.paises.createIndex({ "participaciones.anio": 1 }, { name: "idx_part_anio" });

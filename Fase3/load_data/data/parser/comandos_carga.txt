@@ -1,0 +1,13 @@
+Comandos para copiar carpeta json_output a contenedor de docker y importar los 3 esquemas
+desde CMD (con la ruta de ustedes)
+docker run -d --name mongodb-mundiales -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=202202233 -v mongodb_mundiales_data:/data/db mongo:latest
+docker cp "C:\Users\matth\OneDrive\Escritorio\SEMESTRE\LAB_BASES_2\Proyectos\BASES_DE_DATOS_2_PROYECTO_GRUPO19\Fase3\load_data\data\parser\json_output" mongoDB-mundiales:/json_output
+
+docker exec -it mongoDB-mundiales mongoimport --username admin --password 202202233 --authenticationDatabase admin --db mundiales_db --collection mundiales --file /json_output/col_mundiales.json --jsonArray
+
+docker exec -it mongoDB-mundiales mongoimport --username admin --password 202202233 --authenticationDatabase admin --db mundiales_db --collection jugadores --file /json_output/col_jugadores.json --jsonArray
+
+docker exec -it mongoDB-mundiales mongoimport --username admin --password 202202233 --authenticationDatabase admin --db mundiales_db --collection paises --file /json_output/col_paises.json --jsonArray
+
+conexion desde mongoDBCompass
+mongodb://admin:202202233@localhost:27017/

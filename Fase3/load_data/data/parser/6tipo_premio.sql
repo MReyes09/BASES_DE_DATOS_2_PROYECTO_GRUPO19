@@ -1,0 +1,16 @@
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (1, 'Balón de Oro');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (2, 'Balón de Plata');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (3, 'Balón de Bronce');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (4, 'Botín de Oro');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (5, 'Botín de Plata');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (6, 'Botín de Bronce');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (7, 'Guante de Oro');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (8, 'Mejor Jugador Joven');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (9, 'FIFA Fair Play');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (10, 'Equipo Ideal (Arquero)');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (11, 'Equipo Ideal (Defensores)');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (12, 'Equipo Ideal (Mediocampistas)');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (13, 'Equipo Ideal (Delanteros)');
+INSERT INTO Tipo_Premio (id_ti_pre, nombre_ti_pre) VALUES (14, 'Equipo Ideal (Entrenador)');
+
+COMMIT;

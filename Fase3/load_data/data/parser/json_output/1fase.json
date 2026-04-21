@@ -1,0 +1,22 @@
+[
+  {
+    "id_fa": 1,
+    "nombre_fa": "Dieciseisavos"
+  },
+  {
+    "id_fa": 2,
+    "nombre_fa": "Octavos"
+  },
+  {
+    "id_fa": 3,
+    "nombre_fa": "Cuartos"
+  },
+  {
+    "id_fa": 4,
+    "nombre_fa": "Semifinales"
+  },
+  {
+    "id_fa": 5,
+    "nombre_fa": "Final"
+  }
+]

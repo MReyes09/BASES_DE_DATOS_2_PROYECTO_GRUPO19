@@ -1,0 +1,1325 @@
+[
+  {
+    "id_pre": 1,
+    "Mundial_id_mu": 23,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 2,
+    "Mundial_id_mu": 23,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 3,
+    "Mundial_id_mu": 23,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 4,
+    "Mundial_id_mu": 23,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 5,
+    "Mundial_id_mu": 23,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 6,
+    "Mundial_id_mu": 22,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 7,
+    "Mundial_id_mu": 22,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 8,
+    "Mundial_id_mu": 22,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 9,
+    "Mundial_id_mu": 22,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 10,
+    "Mundial_id_mu": 22,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 11,
+    "Mundial_id_mu": 21,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 12,
+    "Mundial_id_mu": 21,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 13,
+    "Mundial_id_mu": 21,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 14,
+    "Mundial_id_mu": 21,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 15,
+    "Mundial_id_mu": 21,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 16,
+    "Mundial_id_mu": 20,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 17,
+    "Mundial_id_mu": 20,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 18,
+    "Mundial_id_mu": 20,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 19,
+    "Mundial_id_mu": 20,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 20,
+    "Mundial_id_mu": 20,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 21,
+    "Mundial_id_mu": 19,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 22,
+    "Mundial_id_mu": 19,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 23,
+    "Mundial_id_mu": 19,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 24,
+    "Mundial_id_mu": 19,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 25,
+    "Mundial_id_mu": 19,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 26,
+    "Mundial_id_mu": 18,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 27,
+    "Mundial_id_mu": 18,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 28,
+    "Mundial_id_mu": 18,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 29,
+    "Mundial_id_mu": 18,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 30,
+    "Mundial_id_mu": 18,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 31,
+    "Mundial_id_mu": 18,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 32,
+    "Mundial_id_mu": 17,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 33,
+    "Mundial_id_mu": 17,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 34,
+    "Mundial_id_mu": 17,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 35,
+    "Mundial_id_mu": 17,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 36,
+    "Mundial_id_mu": 17,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 37,
+    "Mundial_id_mu": 17,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 38,
+    "Mundial_id_mu": 16,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 39,
+    "Mundial_id_mu": 16,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 40,
+    "Mundial_id_mu": 16,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 41,
+    "Mundial_id_mu": 16,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 42,
+    "Mundial_id_mu": 16,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 43,
+    "Mundial_id_mu": 16,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 44,
+    "Mundial_id_mu": 15,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 45,
+    "Mundial_id_mu": 15,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 46,
+    "Mundial_id_mu": 15,
+    "pais_pre": "Perú",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 47,
+    "Mundial_id_mu": 15,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 48,
+    "Mundial_id_mu": 15,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 49,
+    "Mundial_id_mu": 15,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 50,
+    "Mundial_id_mu": 15,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 51,
+    "Mundial_id_mu": 14,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 52,
+    "Mundial_id_mu": 14,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 53,
+    "Mundial_id_mu": 14,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 54,
+    "Mundial_id_mu": 14,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 55,
+    "Mundial_id_mu": 14,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 56,
+    "Mundial_id_mu": 14,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 57,
+    "Mundial_id_mu": 13,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 58,
+    "Mundial_id_mu": 13,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 59,
+    "Mundial_id_mu": 13,
+    "pais_pre": "Argentina",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 60,
+    "Mundial_id_mu": 13,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 61,
+    "Mundial_id_mu": 13,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 62,
+    "Mundial_id_mu": 13,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 63,
+    "Mundial_id_mu": 13,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 64,
+    "Mundial_id_mu": 12,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 65,
+    "Mundial_id_mu": 12,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 66,
+    "Mundial_id_mu": 12,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 67,
+    "Mundial_id_mu": 12,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 68,
+    "Mundial_id_mu": 12,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 69,
+    "Mundial_id_mu": 12,
+    "pais_pre": "Brasil",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 70,
+    "Mundial_id_mu": 12,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 71,
+    "Mundial_id_mu": 12,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 72,
+    "Mundial_id_mu": 12,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 73,
+    "Mundial_id_mu": 12,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 74,
+    "Mundial_id_mu": 11,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 75,
+    "Mundial_id_mu": 11,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 76,
+    "Mundial_id_mu": 11,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 77,
+    "Mundial_id_mu": 11,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 78,
+    "Mundial_id_mu": 11,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 79,
+    "Mundial_id_mu": 11,
+    "pais_pre": "Brasil",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 80,
+    "Mundial_id_mu": 11,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 81,
+    "Mundial_id_mu": 11,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 82,
+    "Mundial_id_mu": 11,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 83,
+    "Mundial_id_mu": 11,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 84,
+    "Mundial_id_mu": 10,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 85,
+    "Mundial_id_mu": 10,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 86,
+    "Mundial_id_mu": 10,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 87,
+    "Mundial_id_mu": 10,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 88,
+    "Mundial_id_mu": 10,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 89,
+    "Mundial_id_mu": 10,
+    "pais_pre": "Inglaterra",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 90,
+    "Mundial_id_mu": 10,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 91,
+    "Mundial_id_mu": 10,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 92,
+    "Mundial_id_mu": 10,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 93,
+    "Mundial_id_mu": 10,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 94,
+    "Mundial_id_mu": 9,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 95,
+    "Mundial_id_mu": 9,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 96,
+    "Mundial_id_mu": 9,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 97,
+    "Mundial_id_mu": 9,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 98,
+    "Mundial_id_mu": 9,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 7,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 99,
+    "Mundial_id_mu": 9,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 100,
+    "Mundial_id_mu": 9,
+    "pais_pre": "Brasil",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 101,
+    "Mundial_id_mu": 9,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 102,
+    "Mundial_id_mu": 9,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 103,
+    "Mundial_id_mu": 9,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 104,
+    "Mundial_id_mu": 9,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 105,
+    "Mundial_id_mu": 8,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 106,
+    "Mundial_id_mu": 8,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 107,
+    "Mundial_id_mu": 8,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 108,
+    "Mundial_id_mu": 8,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 109,
+    "Mundial_id_mu": 8,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 7,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 110,
+    "Mundial_id_mu": 8,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 111,
+    "Mundial_id_mu": 8,
+    "pais_pre": "Inglaterra",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 112,
+    "Mundial_id_mu": 8,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 113,
+    "Mundial_id_mu": 8,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 114,
+    "Mundial_id_mu": 8,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 115,
+    "Mundial_id_mu": 8,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 116,
+    "Mundial_id_mu": 7,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 117,
+    "Mundial_id_mu": 7,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 118,
+    "Mundial_id_mu": 7,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 119,
+    "Mundial_id_mu": 7,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 120,
+    "Mundial_id_mu": 7,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 7,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 121,
+    "Mundial_id_mu": 7,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 122,
+    "Mundial_id_mu": 7,
+    "pais_pre": "Bélgica",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 123,
+    "Mundial_id_mu": 7,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 124,
+    "Mundial_id_mu": 7,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 125,
+    "Mundial_id_mu": 7,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 126,
+    "Mundial_id_mu": 7,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 127,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 128,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 129,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 130,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 131,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 5,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 132,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 6,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 133,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 7,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 134,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 135,
+    "Mundial_id_mu": 6,
+    "pais_pre": "Brasil",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 136,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 137,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 138,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 139,
+    "Mundial_id_mu": 6,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 140,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 141,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 142,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 143,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 144,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 5,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 145,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 6,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 146,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 7,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 147,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 148,
+    "Mundial_id_mu": 5,
+    "pais_pre": "España",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 149,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 14,
+    "entrenador_pre": "Vicente Del Bosque"
+  },
+  {
+    "id_pre": 150,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 151,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 152,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 153,
+    "Mundial_id_mu": 5,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 154,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 155,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 156,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 157,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 158,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 5,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 159,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 6,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 160,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 7,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 161,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 162,
+    "Mundial_id_mu": 4,
+    "pais_pre": "Colombia",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 163,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 14,
+    "entrenador_pre": "Joachim Löw"
+  },
+  {
+    "id_pre": 164,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 165,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 166,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 167,
+    "Mundial_id_mu": 4,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 168,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 169,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 170,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 171,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 172,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 5,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 173,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 6,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 174,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 7,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 175,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 176,
+    "Mundial_id_mu": 3,
+    "pais_pre": "España",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 177,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 10,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 178,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 11,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 179,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 12,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 180,
+    "Mundial_id_mu": 3,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 13,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 181,
+    "Mundial_id_mu": 2,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 1,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 182,
+    "Mundial_id_mu": 2,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 2,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 183,
+    "Mundial_id_mu": 2,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 3,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 184,
+    "Mundial_id_mu": 2,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 4,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 185,
+    "Mundial_id_mu": 2,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 5,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 186,
+    "Mundial_id_mu": 2,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 6,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 187,
+    "Mundial_id_mu": 2,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 7,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 188,
+    "Mundial_id_mu": 2,
+    "pais_pre": null,
+    "Tipo_Premio_id_ti_pre": 8,
+    "entrenador_pre": null
+  },
+  {
+    "id_pre": 189,
+    "Mundial_id_mu": 2,
+    "pais_pre": "Inglaterra",
+    "Tipo_Premio_id_ti_pre": 9,
+    "entrenador_pre": null
+  }
+]

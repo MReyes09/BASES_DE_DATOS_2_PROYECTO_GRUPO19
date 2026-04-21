@@ -1,0 +1,2027 @@
+[
+  {
+    "id_pla": 1,
+    "Pais_id_pa": 1,
+    "director_tecnico_pla": "Berti Vogts"
+  },
+  {
+    "id_pla": 2,
+    "Pais_id_pa": 1,
+    "director_tecnico_pla": "Hansi Flick"
+  },
+  {
+    "id_pla": 3,
+    "Pais_id_pa": 1,
+    "director_tecnico_pla": "Joachim Löw"
+  },
+  {
+    "id_pla": 4,
+    "Pais_id_pa": 1,
+    "director_tecnico_pla": "Juergen Klinsmann"
+  },
+  {
+    "id_pla": 5,
+    "Pais_id_pa": 1,
+    "director_tecnico_pla": "Otto Nerz"
+  },
+  {
+    "id_pla": 6,
+    "Pais_id_pa": 1,
+    "director_tecnico_pla": "Rudi Voeller"
+  },
+  {
+    "id_pla": 7,
+    "Pais_id_pa": 1,
+    "director_tecnico_pla": "Sepp Herberger"
+  },
+  {
+    "id_pla": 8,
+    "Pais_id_pa": 2,
+    "director_tecnico_pla": "Georg Buschner"
+  },
+  {
+    "id_pla": 9,
+    "Pais_id_pa": 3,
+    "director_tecnico_pla": "Franz Beckenbauer"
+  },
+  {
+    "id_pla": 10,
+    "Pais_id_pa": 3,
+    "director_tecnico_pla": "Helmut Schoen"
+  },
+  {
+    "id_pla": 11,
+    "Pais_id_pa": 3,
+    "director_tecnico_pla": "Jupp Derwall"
+  },
+  {
+    "id_pla": 12,
+    "Pais_id_pa": 3,
+    "director_tecnico_pla": "Sepp Herberger"
+  },
+  {
+    "id_pla": 13,
+    "Pais_id_pa": 4,
+    "director_tecnico_pla": "Luis Goncalves"
+  },
+  {
+    "id_pla": 14,
+    "Pais_id_pa": 5,
+    "director_tecnico_pla": "Herve Renard"
+  },
+  {
+    "id_pla": 15,
+    "Pais_id_pa": 5,
+    "director_tecnico_pla": "Jorge Solari"
+  },
+  {
+    "id_pla": 16,
+    "Pais_id_pa": 5,
+    "director_tecnico_pla": "Juan Antonio Pizzi"
+  },
+  {
+    "id_pla": 17,
+    "Pais_id_pa": 5,
+    "director_tecnico_pla": "Marcos Paqueta"
+  },
+  {
+    "id_pla": 18,
+    "Pais_id_pa": 5,
+    "director_tecnico_pla": "Mohammed Al Kharashy"
+  },
+  {
+    "id_pla": 19,
+    "Pais_id_pa": 5,
+    "director_tecnico_pla": "Nasser Al Johar"
+  },
+  {
+    "id_pla": 20,
+    "Pais_id_pa": 6,
+    "director_tecnico_pla": "Rabah Saadane"
+  },
+  {
+    "id_pla": 21,
+    "Pais_id_pa": 6,
+    "director_tecnico_pla": "Rachid Mekhloufi"
+  },
+  {
+    "id_pla": 22,
+    "Pais_id_pa": 6,
+    "director_tecnico_pla": "Vahid Halilhodzic"
+  },
+  {
+    "id_pla": 23,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Alejandro Sabella"
+  },
+  {
+    "id_pla": 24,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Alfio Basile"
+  },
+  {
+    "id_pla": 25,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Carlos Bilardo"
+  },
+  {
+    "id_pla": 26,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Cesar Luis Menotti"
+  },
+  {
+    "id_pla": 27,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Daniel Passarella"
+  },
+  {
+    "id_pla": 28,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Diego Maradona"
+  },
+  {
+    "id_pla": 29,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Felipe Pascucci"
+  },
+  {
+    "id_pla": 30,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Guillermo Stabile"
+  },
+  {
+    "id_pla": 31,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Jorge Sampaoli"
+  },
+  {
+    "id_pla": 32,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Jose Pekerman"
+  },
+  {
+    "id_pla": 33,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Juan Carlos Lorenzo"
+  },
+  {
+    "id_pla": 34,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Juan Tramutola"
+  },
+  {
+    "id_pla": 35,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Lionel Scaloni"
+  },
+  {
+    "id_pla": 36,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Marcelo Bielsa"
+  },
+  {
+    "id_pla": 37,
+    "Pais_id_pa": 7,
+    "director_tecnico_pla": "Vladislao Cap"
+  },
+  {
+    "id_pla": 38,
+    "Pais_id_pa": 8,
+    "director_tecnico_pla": "Ange Postecoglou"
+  },
+  {
+    "id_pla": 39,
+    "Pais_id_pa": 8,
+    "director_tecnico_pla": "Arnold Graham"
+  },
+  {
+    "id_pla": 40,
+    "Pais_id_pa": 8,
+    "director_tecnico_pla": "Bert Van Marwijk"
+  },
+  {
+    "id_pla": 41,
+    "Pais_id_pa": 8,
+    "director_tecnico_pla": "Guus Hiddink"
+  },
+  {
+    "id_pla": 42,
+    "Pais_id_pa": 8,
+    "director_tecnico_pla": "Pim Verbeek"
+  },
+  {
+    "id_pla": 43,
+    "Pais_id_pa": 8,
+    "director_tecnico_pla": "Rale Rasic"
+  },
+  {
+    "id_pla": 44,
+    "Pais_id_pa": 9,
+    "director_tecnico_pla": "Georg Schmidt"
+  },
+  {
+    "id_pla": 45,
+    "Pais_id_pa": 9,
+    "director_tecnico_pla": "Helmut Senekowitsch"
+  },
+  {
+    "id_pla": 46,
+    "Pais_id_pa": 9,
+    "director_tecnico_pla": "Herbert Prohaska"
+  },
+  {
+    "id_pla": 47,
+    "Pais_id_pa": 9,
+    "director_tecnico_pla": "Hugo Meisl"
+  },
+  {
+    "id_pla": 48,
+    "Pais_id_pa": 9,
+    "director_tecnico_pla": "Josef Argauer"
+  },
+  {
+    "id_pla": 49,
+    "Pais_id_pa": 9,
+    "director_tecnico_pla": "Josef Hickersberger"
+  },
+  {
+    "id_pla": 50,
+    "Pais_id_pa": 9,
+    "director_tecnico_pla": "Walter Nausch"
+  },
+  {
+    "id_pla": 51,
+    "Pais_id_pa": 10,
+    "director_tecnico_pla": "Bert Van Marwijk"
+  },
+  {
+    "id_pla": 52,
+    "Pais_id_pa": 10,
+    "director_tecnico_pla": "Dick Advocaat"
+  },
+  {
+    "id_pla": 53,
+    "Pais_id_pa": 10,
+    "director_tecnico_pla": "Ernst Happel"
+  },
+  {
+    "id_pla": 54,
+    "Pais_id_pa": 10,
+    "director_tecnico_pla": "Guus Hiddink"
+  },
+  {
+    "id_pla": 55,
+    "Pais_id_pa": 10,
+    "director_tecnico_pla": "Leo Beenhakker"
+  },
+  {
+    "id_pla": 56,
+    "Pais_id_pa": 10,
+    "director_tecnico_pla": "Louis Van Gaal"
+  },
+  {
+    "id_pla": 57,
+    "Pais_id_pa": 10,
+    "director_tecnico_pla": "Marco Van Basten"
+  },
+  {
+    "id_pla": 58,
+    "Pais_id_pa": 10,
+    "director_tecnico_pla": "Rinus Michels"
+  },
+  {
+    "id_pla": 59,
+    "Pais_id_pa": 10,
+    "director_tecnico_pla": "Robert Glendenning"
+  },
+  {
+    "id_pla": 60,
+    "Pais_id_pa": 11,
+    "director_tecnico_pla": "Mario Pretto"
+  },
+  {
+    "id_pla": 61,
+    "Pais_id_pa": 11,
+    "director_tecnico_pla": "Ulises Saucedo"
+  },
+  {
+    "id_pla": 62,
+    "Pais_id_pa": 11,
+    "director_tecnico_pla": "Xabier Azkargorta"
+  },
+  {
+    "id_pla": 63,
+    "Pais_id_pa": 12,
+    "director_tecnico_pla": "Safet Susic"
+  },
+  {
+    "id_pla": 64,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Ademar Pimenta"
+  },
+  {
+    "id_pla": 65,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Aymore Moreira"
+  },
+  {
+    "id_pla": 66,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Carlos Alberto Parreira"
+  },
+  {
+    "id_pla": 67,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Claudio Coutinho"
+  },
+  {
+    "id_pla": 68,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Dunga"
+  },
+  {
+    "id_pla": 69,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Flavio Costa"
+  },
+  {
+    "id_pla": 70,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Luiz Felipe Scolari"
+  },
+  {
+    "id_pla": 71,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Luiz Vinhaes"
+  },
+  {
+    "id_pla": 72,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Pindaro De Carvalho"
+  },
+  {
+    "id_pla": 73,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Sebastiao Lazaroni"
+  },
+  {
+    "id_pla": 74,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Tele Santana"
+  },
+  {
+    "id_pla": 75,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Tite"
+  },
+  {
+    "id_pla": 76,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Vicente Feola"
+  },
+  {
+    "id_pla": 77,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Zagallo"
+  },
+  {
+    "id_pla": 78,
+    "Pais_id_pa": 13,
+    "director_tecnico_pla": "Zeze Moreira"
+  },
+  {
+    "id_pla": 79,
+    "Pais_id_pa": 14,
+    "director_tecnico_pla": "Dimitar Penev"
+  },
+  {
+    "id_pla": 80,
+    "Pais_id_pa": 14,
+    "director_tecnico_pla": "Georgi Pachedzhiev"
+  },
+  {
+    "id_pla": 81,
+    "Pais_id_pa": 14,
+    "director_tecnico_pla": "Hristo Bonev"
+  },
+  {
+    "id_pla": 82,
+    "Pais_id_pa": 14,
+    "director_tecnico_pla": "Hristo Mladenov"
+  },
+  {
+    "id_pla": 83,
+    "Pais_id_pa": 14,
+    "director_tecnico_pla": "Ivan Vutsov"
+  },
+  {
+    "id_pla": 84,
+    "Pais_id_pa": 14,
+    "director_tecnico_pla": "Rudolf Vytlacil"
+  },
+  {
+    "id_pla": 85,
+    "Pais_id_pa": 14,
+    "director_tecnico_pla": "Stefan Bozhkov"
+  },
+  {
+    "id_pla": 86,
+    "Pais_id_pa": 15,
+    "director_tecnico_pla": "Doug Livingstone"
+  },
+  {
+    "id_pla": 87,
+    "Pais_id_pa": 15,
+    "director_tecnico_pla": "Georges Leekens"
+  },
+  {
+    "id_pla": 88,
+    "Pais_id_pa": 15,
+    "director_tecnico_pla": "Guy Thys"
+  },
+  {
+    "id_pla": 89,
+    "Pais_id_pa": 15,
+    "director_tecnico_pla": "Hector Goetinck"
+  },
+  {
+    "id_pla": 90,
+    "Pais_id_pa": 15,
+    "director_tecnico_pla": "Jack Butler"
+  },
+  {
+    "id_pla": 91,
+    "Pais_id_pa": 15,
+    "director_tecnico_pla": "Marc Wilmots"
+  },
+  {
+    "id_pla": 92,
+    "Pais_id_pa": 15,
+    "director_tecnico_pla": "Paul Van Himst"
+  },
+  {
+    "id_pla": 93,
+    "Pais_id_pa": 15,
+    "director_tecnico_pla": "Raymond Goethals"
+  },
+  {
+    "id_pla": 94,
+    "Pais_id_pa": 15,
+    "director_tecnico_pla": "Robert Waseige"
+  },
+  {
+    "id_pla": 95,
+    "Pais_id_pa": 15,
+    "director_tecnico_pla": "Roberto Martinez"
+  },
+  {
+    "id_pla": 96,
+    "Pais_id_pa": 16,
+    "director_tecnico_pla": "Claude Le Roy"
+  },
+  {
+    "id_pla": 97,
+    "Pais_id_pa": 16,
+    "director_tecnico_pla": "Henri Michel"
+  },
+  {
+    "id_pla": 98,
+    "Pais_id_pa": 16,
+    "director_tecnico_pla": "Jean Vincent"
+  },
+  {
+    "id_pla": 99,
+    "Pais_id_pa": 16,
+    "director_tecnico_pla": "Paul Le Guen"
+  },
+  {
+    "id_pla": 100,
+    "Pais_id_pa": 16,
+    "director_tecnico_pla": "Rigobert Song"
+  },
+  {
+    "id_pla": 101,
+    "Pais_id_pa": 16,
+    "director_tecnico_pla": "Valeri Nepomnyashchi"
+  },
+  {
+    "id_pla": 102,
+    "Pais_id_pa": 16,
+    "director_tecnico_pla": "Volker Finke"
+  },
+  {
+    "id_pla": 103,
+    "Pais_id_pa": 16,
+    "director_tecnico_pla": "Winnie Schaefer"
+  },
+  {
+    "id_pla": 104,
+    "Pais_id_pa": 17,
+    "director_tecnico_pla": "John Herdman"
+  },
+  {
+    "id_pla": 105,
+    "Pais_id_pa": 17,
+    "director_tecnico_pla": "Tony Waiters"
+  },
+  {
+    "id_pla": 106,
+    "Pais_id_pa": 18,
+    "director_tecnico_pla": "Félix Sánches"
+  },
+  {
+    "id_pla": 107,
+    "Pais_id_pa": 20,
+    "director_tecnico_pla": "Karel Bruckner"
+  },
+  {
+    "id_pla": 108,
+    "Pais_id_pa": 21,
+    "director_tecnico_pla": "Arturo Bucciardi"
+  },
+  {
+    "id_pla": 109,
+    "Pais_id_pa": 21,
+    "director_tecnico_pla": "Fernando Riera"
+  },
+  {
+    "id_pla": 110,
+    "Pais_id_pa": 21,
+    "director_tecnico_pla": "Gyorgi Orth"
+  },
+  {
+    "id_pla": 111,
+    "Pais_id_pa": 21,
+    "director_tecnico_pla": "Jorge Sampaoli"
+  },
+  {
+    "id_pla": 112,
+    "Pais_id_pa": 21,
+    "director_tecnico_pla": "Luis Alamos"
+  },
+  {
+    "id_pla": 113,
+    "Pais_id_pa": 21,
+    "director_tecnico_pla": "Luis Alberto Santibanez"
+  },
+  {
+    "id_pla": 114,
+    "Pais_id_pa": 21,
+    "director_tecnico_pla": "Marcelo Bielsa"
+  },
+  {
+    "id_pla": 115,
+    "Pais_id_pa": 21,
+    "director_tecnico_pla": "Nelson Acosta"
+  },
+  {
+    "id_pla": 116,
+    "Pais_id_pa": 22,
+    "director_tecnico_pla": "Bora Milutinovic"
+  },
+  {
+    "id_pla": 117,
+    "Pais_id_pa": 23,
+    "director_tecnico_pla": "Adolfo Pedernera"
+  },
+  {
+    "id_pla": 118,
+    "Pais_id_pa": 23,
+    "director_tecnico_pla": "Francisco Maturana"
+  },
+  {
+    "id_pla": 119,
+    "Pais_id_pa": 23,
+    "director_tecnico_pla": "Hernan Gomez"
+  },
+  {
+    "id_pla": 120,
+    "Pais_id_pa": 23,
+    "director_tecnico_pla": "Jose Pekerman"
+  },
+  {
+    "id_pla": 121,
+    "Pais_id_pa": 25,
+    "director_tecnico_pla": "Jong Hun Kim"
+  },
+  {
+    "id_pla": 122,
+    "Pais_id_pa": 25,
+    "director_tecnico_pla": "Rye Hyun Myung"
+  },
+  {
+    "id_pla": 123,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Dick Advocaat"
+  },
+  {
+    "id_pla": 124,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Guus Hiddink"
+  },
+  {
+    "id_pla": 125,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Ho Kon Kim"
+  },
+  {
+    "id_pla": 126,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Hoe Taik Lee"
+  },
+  {
+    "id_pla": 127,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Jung Moo Huh"
+  },
+  {
+    "id_pla": 128,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Jung Nam Kim"
+  },
+  {
+    "id_pla": 129,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Myung-Bo Hong"
+  },
+  {
+    "id_pla": 130,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Paulo Bento"
+  },
+  {
+    "id_pla": 131,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Pyung Seok Kim"
+  },
+  {
+    "id_pla": 132,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Tae-Yong Shin"
+  },
+  {
+    "id_pla": 133,
+    "Pais_id_pa": 26,
+    "director_tecnico_pla": "Yung Sik Kim"
+  },
+  {
+    "id_pla": 134,
+    "Pais_id_pa": 27,
+    "director_tecnico_pla": "Henri Michel"
+  },
+  {
+    "id_pla": 135,
+    "Pais_id_pa": 27,
+    "director_tecnico_pla": "Sabri Lamouchi"
+  },
+  {
+    "id_pla": 136,
+    "Pais_id_pa": 27,
+    "director_tecnico_pla": "Sven Göran Eriksson"
+  },
+  {
+    "id_pla": 137,
+    "Pais_id_pa": 28,
+    "director_tecnico_pla": "Alexandre Guimaraes"
+  },
+  {
+    "id_pla": 138,
+    "Pais_id_pa": 28,
+    "director_tecnico_pla": "Bora Milutinovic"
+  },
+  {
+    "id_pla": 139,
+    "Pais_id_pa": 28,
+    "director_tecnico_pla": "Jorge Luis Pinto"
+  },
+  {
+    "id_pla": 140,
+    "Pais_id_pa": 28,
+    "director_tecnico_pla": "Luis Fernando Suarez"
+  },
+  {
+    "id_pla": 141,
+    "Pais_id_pa": 28,
+    "director_tecnico_pla": "Oscar Ramírez"
+  },
+  {
+    "id_pla": 142,
+    "Pais_id_pa": 29,
+    "director_tecnico_pla": "Mirko Jozic"
+  },
+  {
+    "id_pla": 143,
+    "Pais_id_pa": 29,
+    "director_tecnico_pla": "Miroslav Blazevic"
+  },
+  {
+    "id_pla": 144,
+    "Pais_id_pa": 29,
+    "director_tecnico_pla": "Niko Kovac"
+  },
+  {
+    "id_pla": 145,
+    "Pais_id_pa": 29,
+    "director_tecnico_pla": "Zlatko Dalic"
+  },
+  {
+    "id_pla": 146,
+    "Pais_id_pa": 29,
+    "director_tecnico_pla": "Zlatko Kranjcar"
+  },
+  {
+    "id_pla": 147,
+    "Pais_id_pa": 30,
+    "director_tecnico_pla": "Jose Tapia"
+  },
+  {
+    "id_pla": 148,
+    "Pais_id_pa": 32,
+    "director_tecnico_pla": "Age Hareide"
+  },
+  {
+    "id_pla": 149,
+    "Pais_id_pa": 32,
+    "director_tecnico_pla": "Bo Johansson"
+  },
+  {
+    "id_pla": 150,
+    "Pais_id_pa": 32,
+    "director_tecnico_pla": "Kasper Hjulmand"
+  },
+  {
+    "id_pla": 151,
+    "Pais_id_pa": 32,
+    "director_tecnico_pla": "Morten Olsen"
+  },
+  {
+    "id_pla": 152,
+    "Pais_id_pa": 32,
+    "director_tecnico_pla": "Sepp Piontek"
+  },
+  {
+    "id_pla": 153,
+    "Pais_id_pa": 33,
+    "director_tecnico_pla": "Gustavo Alfaro"
+  },
+  {
+    "id_pla": 154,
+    "Pais_id_pa": 33,
+    "director_tecnico_pla": "Hernan Gomez"
+  },
+  {
+    "id_pla": 155,
+    "Pais_id_pa": 33,
+    "director_tecnico_pla": "Luis Fernando Suarez"
+  },
+  {
+    "id_pla": 156,
+    "Pais_id_pa": 33,
+    "director_tecnico_pla": "Reinaldo Rueda"
+  },
+  {
+    "id_pla": 157,
+    "Pais_id_pa": 34,
+    "director_tecnico_pla": "Héctor Cúper"
+  },
+  {
+    "id_pla": 158,
+    "Pais_id_pa": 34,
+    "director_tecnico_pla": "James Mcrea"
+  },
+  {
+    "id_pla": 159,
+    "Pais_id_pa": 34,
+    "director_tecnico_pla": "Mahmoud El Gohary"
+  },
+  {
+    "id_pla": 160,
+    "Pais_id_pa": 35,
+    "director_tecnico_pla": "Alex Ferguson"
+  },
+  {
+    "id_pla": 161,
+    "Pais_id_pa": 35,
+    "director_tecnico_pla": "Alistair Macleod"
+  },
+  {
+    "id_pla": 162,
+    "Pais_id_pa": 35,
+    "director_tecnico_pla": "Andy Roxburgh"
+  },
+  {
+    "id_pla": 163,
+    "Pais_id_pa": 35,
+    "director_tecnico_pla": "Craig Brown"
+  },
+  {
+    "id_pla": 164,
+    "Pais_id_pa": 35,
+    "director_tecnico_pla": "Dawson Walker"
+  },
+  {
+    "id_pla": 165,
+    "Pais_id_pa": 35,
+    "director_tecnico_pla": "Jock Stein"
+  },
+  {
+    "id_pla": 166,
+    "Pais_id_pa": 35,
+    "director_tecnico_pla": "Willie Ormond"
+  },
+  {
+    "id_pla": 167,
+    "Pais_id_pa": 36,
+    "director_tecnico_pla": "Vladimir Weiss"
+  },
+  {
+    "id_pla": 168,
+    "Pais_id_pa": 37,
+    "director_tecnico_pla": "Danilo Popivoda"
+  },
+  {
+    "id_pla": 169,
+    "Pais_id_pa": 37,
+    "director_tecnico_pla": "Matjaz Kek"
+  },
+  {
+    "id_pla": 170,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Amadeo Garcia Salazar"
+  },
+  {
+    "id_pla": 171,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Fernando Hierro"
+  },
+  {
+    "id_pla": 172,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Guillermo Eizaguirre"
+  },
+  {
+    "id_pla": 173,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Helenio Herrera"
+  },
+  {
+    "id_pla": 174,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Javier Clemente"
+  },
+  {
+    "id_pla": 175,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Jose Antonio Camacho"
+  },
+  {
+    "id_pla": 176,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Jose Santamaria"
+  },
+  {
+    "id_pla": 177,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Jose Villalonga"
+  },
+  {
+    "id_pla": 178,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Ladislao Kubala"
+  },
+  {
+    "id_pla": 179,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Luis Aragones"
+  },
+  {
+    "id_pla": 180,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Luis Enrique"
+  },
+  {
+    "id_pla": 181,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Luis Suarez"
+  },
+  {
+    "id_pla": 182,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Miguel Munoz"
+  },
+  {
+    "id_pla": 183,
+    "Pais_id_pa": 38,
+    "director_tecnico_pla": "Vicente Del Bosque"
+  },
+  {
+    "id_pla": 184,
+    "Pais_id_pa": 39,
+    "director_tecnico_pla": "Bill Jeffrey"
+  },
+  {
+    "id_pla": 185,
+    "Pais_id_pa": 39,
+    "director_tecnico_pla": "Bob Bradley"
+  },
+  {
+    "id_pla": 186,
+    "Pais_id_pa": 39,
+    "director_tecnico_pla": "Bob Gansler"
+  },
+  {
+    "id_pla": 187,
+    "Pais_id_pa": 39,
+    "director_tecnico_pla": "Bob Millar"
+  },
+  {
+    "id_pla": 188,
+    "Pais_id_pa": 39,
+    "director_tecnico_pla": "Bora Milutinovic"
+  },
+  {
+    "id_pla": 189,
+    "Pais_id_pa": 39,
+    "director_tecnico_pla": "Bruce Arena"
+  },
+  {
+    "id_pla": 190,
+    "Pais_id_pa": 39,
+    "director_tecnico_pla": "David Gould"
+  },
+  {
+    "id_pla": 191,
+    "Pais_id_pa": 39,
+    "director_tecnico_pla": "Gregg Berhalter"
+  },
+  {
+    "id_pla": 192,
+    "Pais_id_pa": 39,
+    "director_tecnico_pla": "Juergen Klinsmann"
+  },
+  {
+    "id_pla": 193,
+    "Pais_id_pa": 39,
+    "director_tecnico_pla": "Steve Sampson"
+  },
+  {
+    "id_pla": 194,
+    "Pais_id_pa": 40,
+    "director_tecnico_pla": "Hernan Carrasco"
+  },
+  {
+    "id_pla": 195,
+    "Pais_id_pa": 40,
+    "director_tecnico_pla": "Mauricio Rodriguez"
+  },
+  {
+    "id_pla": 196,
+    "Pais_id_pa": 41,
+    "director_tecnico_pla": "Carlos Alberto Parreira"
+  },
+  {
+    "id_pla": 197,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Aime Jacquet"
+  },
+  {
+    "id_pla": 198,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Albert Batteaux"
+  },
+  {
+    "id_pla": 199,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Didier Deschamps"
+  },
+  {
+    "id_pla": 200,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Gaston Barreau"
+  },
+  {
+    "id_pla": 201,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "George Kimpton"
+  },
+  {
+    "id_pla": 202,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Henri Guerin"
+  },
+  {
+    "id_pla": 203,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Henri Michel"
+  },
+  {
+    "id_pla": 204,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Michel Hidalgo"
+  },
+  {
+    "id_pla": 205,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Pierre Pibarot"
+  },
+  {
+    "id_pla": 206,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Raoul Caudron"
+  },
+  {
+    "id_pla": 207,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Raymond Domenech"
+  },
+  {
+    "id_pla": 208,
+    "Pais_id_pa": 42,
+    "director_tecnico_pla": "Roger Lemerre"
+  },
+  {
+    "id_pla": 209,
+    "Pais_id_pa": 43,
+    "director_tecnico_pla": "Jimmy Murphy"
+  },
+  {
+    "id_pla": 210,
+    "Pais_id_pa": 43,
+    "director_tecnico_pla": "Rob Page"
+  },
+  {
+    "id_pla": 211,
+    "Pais_id_pa": 44,
+    "director_tecnico_pla": "Kwesi Appiah"
+  },
+  {
+    "id_pla": 212,
+    "Pais_id_pa": 44,
+    "director_tecnico_pla": "Milovan Rajevac"
+  },
+  {
+    "id_pla": 213,
+    "Pais_id_pa": 44,
+    "director_tecnico_pla": "Otto Addo"
+  },
+  {
+    "id_pla": 214,
+    "Pais_id_pa": 44,
+    "director_tecnico_pla": "Ratomir Dujkovic"
+  },
+  {
+    "id_pla": 215,
+    "Pais_id_pa": 45,
+    "director_tecnico_pla": "Alkis Panagoulias"
+  },
+  {
+    "id_pla": 216,
+    "Pais_id_pa": 45,
+    "director_tecnico_pla": "Fernando Santos"
+  },
+  {
+    "id_pla": 217,
+    "Pais_id_pa": 45,
+    "director_tecnico_pla": "Otto Rehhagel"
+  },
+  {
+    "id_pla": 218,
+    "Pais_id_pa": 46,
+    "director_tecnico_pla": "Antoine Tassy"
+  },
+  {
+    "id_pla": 219,
+    "Pais_id_pa": 47,
+    "director_tecnico_pla": "Jose De La Paz"
+  },
+  {
+    "id_pla": 220,
+    "Pais_id_pa": 47,
+    "director_tecnico_pla": "Luis Fernando Suarez"
+  },
+  {
+    "id_pla": 221,
+    "Pais_id_pa": 47,
+    "director_tecnico_pla": "Reinaldo Rueda"
+  },
+  {
+    "id_pla": 222,
+    "Pais_id_pa": 48,
+    "director_tecnico_pla": "Alfred Schaffer"
+  },
+  {
+    "id_pla": 223,
+    "Pais_id_pa": 48,
+    "director_tecnico_pla": "Ferenc Nadas"
+  },
+  {
+    "id_pla": 224,
+    "Pais_id_pa": 48,
+    "director_tecnico_pla": "Gusztav Sebes"
+  },
+  {
+    "id_pla": 225,
+    "Pais_id_pa": 48,
+    "director_tecnico_pla": "Gyorgy Mezey"
+  },
+  {
+    "id_pla": 226,
+    "Pais_id_pa": 48,
+    "director_tecnico_pla": "Kalman Meszoly"
+  },
+  {
+    "id_pla": 227,
+    "Pais_id_pa": 48,
+    "director_tecnico_pla": "Lajos Baroti"
+  },
+  {
+    "id_pla": 228,
+    "Pais_id_pa": 49,
+    "director_tecnico_pla": "Johannes Van Mastenbroek"
+  },
+  {
+    "id_pla": 229,
+    "Pais_id_pa": 50,
+    "director_tecnico_pla": "Alf Ramsey"
+  },
+  {
+    "id_pla": 230,
+    "Pais_id_pa": 50,
+    "director_tecnico_pla": "Bobby Robson"
+  },
+  {
+    "id_pla": 231,
+    "Pais_id_pa": 50,
+    "director_tecnico_pla": "Fabio Capello"
+  },
+  {
+    "id_pla": 232,
+    "Pais_id_pa": 50,
+    "director_tecnico_pla": "Gareth Southgate"
+  },
+  {
+    "id_pla": 233,
+    "Pais_id_pa": 50,
+    "director_tecnico_pla": "Glenn Hoddle"
+  },
+  {
+    "id_pla": 234,
+    "Pais_id_pa": 50,
+    "director_tecnico_pla": "Ron Greenwood"
+  },
+  {
+    "id_pla": 235,
+    "Pais_id_pa": 50,
+    "director_tecnico_pla": "Roy Hodgson"
+  },
+  {
+    "id_pla": 236,
+    "Pais_id_pa": 50,
+    "director_tecnico_pla": "Sven Göran Eriksson"
+  },
+  {
+    "id_pla": 237,
+    "Pais_id_pa": 50,
+    "director_tecnico_pla": "Walter Winterbottom"
+  },
+  {
+    "id_pla": 238,
+    "Pais_id_pa": 51,
+    "director_tecnico_pla": "Evaristo"
+  },
+  {
+    "id_pla": 239,
+    "Pais_id_pa": 52,
+    "director_tecnico_pla": "Jack Charlton"
+  },
+  {
+    "id_pla": 240,
+    "Pais_id_pa": 52,
+    "director_tecnico_pla": "Mick Mc Carthy"
+  },
+  {
+    "id_pla": 241,
+    "Pais_id_pa": 53,
+    "director_tecnico_pla": "Billy Bingham"
+  },
+  {
+    "id_pla": 242,
+    "Pais_id_pa": 53,
+    "director_tecnico_pla": "Peter Doherty"
+  },
+  {
+    "id_pla": 243,
+    "Pais_id_pa": 54,
+    "director_tecnico_pla": "Branko Ivankovic"
+  },
+  {
+    "id_pla": 244,
+    "Pais_id_pa": 54,
+    "director_tecnico_pla": "Carlos Queiroz"
+  },
+  {
+    "id_pla": 245,
+    "Pais_id_pa": 54,
+    "director_tecnico_pla": "Heshmat Mohadjerani"
+  },
+  {
+    "id_pla": 246,
+    "Pais_id_pa": 54,
+    "director_tecnico_pla": "Jalal Talebi"
+  },
+  {
+    "id_pla": 247,
+    "Pais_id_pa": 55,
+    "director_tecnico_pla": "Heimir Hallgrimsson"
+  },
+  {
+    "id_pla": 248,
+    "Pais_id_pa": 56,
+    "director_tecnico_pla": "Emmanuel Sheffer"
+  },
+  {
+    "id_pla": 249,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Arrigo Sacchi"
+  },
+  {
+    "id_pla": 250,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Azeglio Vicini"
+  },
+  {
+    "id_pla": 251,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Cesare Maldini"
+  },
+  {
+    "id_pla": 252,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Cesare Prandelli"
+  },
+  {
+    "id_pla": 253,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Edmondo Fabbri"
+  },
+  {
+    "id_pla": 254,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Enzo Bearzot"
+  },
+  {
+    "id_pla": 255,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Ferruccio Novo"
+  },
+  {
+    "id_pla": 256,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Ferruccio Valcareggi"
+  },
+  {
+    "id_pla": 257,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Giovanni Trapattoni"
+  },
+  {
+    "id_pla": 258,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Lajos Czeizler"
+  },
+  {
+    "id_pla": 259,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Marcello Lippi"
+  },
+  {
+    "id_pla": 260,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Paolo Mazza"
+  },
+  {
+    "id_pla": 261,
+    "Pais_id_pa": 57,
+    "director_tecnico_pla": "Vittorio Pozzo"
+  },
+  {
+    "id_pla": 262,
+    "Pais_id_pa": 58,
+    "director_tecnico_pla": "René Simoes"
+  },
+  {
+    "id_pla": 263,
+    "Pais_id_pa": 59,
+    "director_tecnico_pla": "Akira Nishino"
+  },
+  {
+    "id_pla": 264,
+    "Pais_id_pa": 59,
+    "director_tecnico_pla": "Alberto Zaccheroni"
+  },
+  {
+    "id_pla": 265,
+    "Pais_id_pa": 59,
+    "director_tecnico_pla": "Hajime Moriyasu"
+  },
+  {
+    "id_pla": 266,
+    "Pais_id_pa": 59,
+    "director_tecnico_pla": "Philippe Troussier"
+  },
+  {
+    "id_pla": 267,
+    "Pais_id_pa": 59,
+    "director_tecnico_pla": "Takeshi Okada"
+  },
+  {
+    "id_pla": 268,
+    "Pais_id_pa": 59,
+    "director_tecnico_pla": "Zico"
+  },
+  {
+    "id_pla": 269,
+    "Pais_id_pa": 61,
+    "director_tecnico_pla": "Carlos Alberto Parreira"
+  },
+  {
+    "id_pla": 270,
+    "Pais_id_pa": 63,
+    "director_tecnico_pla": "Abdellah Blinda"
+  },
+  {
+    "id_pla": 271,
+    "Pais_id_pa": 63,
+    "director_tecnico_pla": "Blagoje Vidinic"
+  },
+  {
+    "id_pla": 272,
+    "Pais_id_pa": 63,
+    "director_tecnico_pla": "Henri Michel"
+  },
+  {
+    "id_pla": 273,
+    "Pais_id_pa": 63,
+    "director_tecnico_pla": "Herve Renard"
+  },
+  {
+    "id_pla": 274,
+    "Pais_id_pa": 63,
+    "director_tecnico_pla": "Jose Faria"
+  },
+  {
+    "id_pla": 275,
+    "Pais_id_pa": 63,
+    "director_tecnico_pla": "Walid Regragui"
+  },
+  {
+    "id_pla": 276,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Antonio Lopez Herranz"
+  },
+  {
+    "id_pla": 277,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Bora Milutinovic"
+  },
+  {
+    "id_pla": 278,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Gerardo Martino"
+  },
+  {
+    "id_pla": 279,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Ignacio Trellez"
+  },
+  {
+    "id_pla": 280,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Javier Aguirre"
+  },
+  {
+    "id_pla": 281,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Jose Roca"
+  },
+  {
+    "id_pla": 282,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Juan Carlos Osorio"
+  },
+  {
+    "id_pla": 283,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Juan Luque"
+  },
+  {
+    "id_pla": 284,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Manuel Lapuente"
+  },
+  {
+    "id_pla": 285,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Miguel Herrera"
+  },
+  {
+    "id_pla": 286,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Miguel Mejia Baron"
+  },
+  {
+    "id_pla": 287,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Octavio Vial"
+  },
+  {
+    "id_pla": 288,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Raul Cardenas"
+  },
+  {
+    "id_pla": 289,
+    "Pais_id_pa": 64,
+    "director_tecnico_pla": "Ricardo La Volpe"
+  },
+  {
+    "id_pla": 290,
+    "Pais_id_pa": 66,
+    "director_tecnico_pla": "Adegboye Onigbinde"
+  },
+  {
+    "id_pla": 291,
+    "Pais_id_pa": 66,
+    "director_tecnico_pla": "Bora Milutinovic"
+  },
+  {
+    "id_pla": 292,
+    "Pais_id_pa": 66,
+    "director_tecnico_pla": "Clemens Westerhof"
+  },
+  {
+    "id_pla": 293,
+    "Pais_id_pa": 66,
+    "director_tecnico_pla": "Gernot Rohr"
+  },
+  {
+    "id_pla": 294,
+    "Pais_id_pa": 66,
+    "director_tecnico_pla": "Lars Lagerback"
+  },
+  {
+    "id_pla": 295,
+    "Pais_id_pa": 66,
+    "director_tecnico_pla": "Stephen Keshi"
+  },
+  {
+    "id_pla": 296,
+    "Pais_id_pa": 68,
+    "director_tecnico_pla": "Asbjorn Halvorsen"
+  },
+  {
+    "id_pla": 297,
+    "Pais_id_pa": 68,
+    "director_tecnico_pla": "Egil Olsen"
+  },
+  {
+    "id_pla": 298,
+    "Pais_id_pa": 70,
+    "director_tecnico_pla": "Hernan Gomez"
+  },
+  {
+    "id_pla": 299,
+    "Pais_id_pa": 71,
+    "director_tecnico_pla": "Josef Cejp"
+  },
+  {
+    "id_pla": 300,
+    "Pais_id_pa": 71,
+    "director_tecnico_pla": "Josef Meissner"
+  },
+  {
+    "id_pla": 301,
+    "Pais_id_pa": 71,
+    "director_tecnico_pla": "Jozef Marko"
+  },
+  {
+    "id_pla": 302,
+    "Pais_id_pa": 71,
+    "director_tecnico_pla": "Jozef Venglos"
+  },
+  {
+    "id_pla": 303,
+    "Pais_id_pa": 71,
+    "director_tecnico_pla": "Karel Kolsky"
+  },
+  {
+    "id_pla": 304,
+    "Pais_id_pa": 71,
+    "director_tecnico_pla": "Karel Petru"
+  },
+  {
+    "id_pla": 305,
+    "Pais_id_pa": 71,
+    "director_tecnico_pla": "Rudolf Vytlacil"
+  },
+  {
+    "id_pla": 306,
+    "Pais_id_pa": 72,
+    "director_tecnico_pla": "Anibal Ruiz Leites"
+  },
+  {
+    "id_pla": 307,
+    "Pais_id_pa": 72,
+    "director_tecnico_pla": "Aurelio Gonzales"
+  },
+  {
+    "id_pla": 308,
+    "Pais_id_pa": 72,
+    "director_tecnico_pla": "Carpegiani"
+  },
+  {
+    "id_pla": 309,
+    "Pais_id_pa": 72,
+    "director_tecnico_pla": "Cayetano Re"
+  },
+  {
+    "id_pla": 310,
+    "Pais_id_pa": 72,
+    "director_tecnico_pla": "Cesare Maldini"
+  },
+  {
+    "id_pla": 311,
+    "Pais_id_pa": 72,
+    "director_tecnico_pla": "Gerardo Martino"
+  },
+  {
+    "id_pla": 312,
+    "Pais_id_pa": 72,
+    "director_tecnico_pla": "Jose Durand Laguna"
+  },
+  {
+    "id_pla": 313,
+    "Pais_id_pa": 72,
+    "director_tecnico_pla": "Manuel Fleitas Solich"
+  },
+  {
+    "id_pla": 314,
+    "Pais_id_pa": 73,
+    "director_tecnico_pla": "Didi"
+  },
+  {
+    "id_pla": 315,
+    "Pais_id_pa": 73,
+    "director_tecnico_pla": "Francisco Bru"
+  },
+  {
+    "id_pla": 316,
+    "Pais_id_pa": 73,
+    "director_tecnico_pla": "Marcos Calderon"
+  },
+  {
+    "id_pla": 317,
+    "Pais_id_pa": 73,
+    "director_tecnico_pla": "Ricardo Gareca"
+  },
+  {
+    "id_pla": 318,
+    "Pais_id_pa": 73,
+    "director_tecnico_pla": "Tim"
+  },
+  {
+    "id_pla": 319,
+    "Pais_id_pa": 74,
+    "director_tecnico_pla": "Adam Nawalka"
+  },
+  {
+    "id_pla": 320,
+    "Pais_id_pa": 74,
+    "director_tecnico_pla": "Antoni Piechniczek"
+  },
+  {
+    "id_pla": 321,
+    "Pais_id_pa": 74,
+    "director_tecnico_pla": "Czeslaw Michniewicz"
+  },
+  {
+    "id_pla": 322,
+    "Pais_id_pa": 74,
+    "director_tecnico_pla": "Jacek Gmoch"
+  },
+  {
+    "id_pla": 323,
+    "Pais_id_pa": 74,
+    "director_tecnico_pla": "Jerzy Engel"
+  },
+  {
+    "id_pla": 324,
+    "Pais_id_pa": 74,
+    "director_tecnico_pla": "Jozef Kaluza"
+  },
+  {
+    "id_pla": 325,
+    "Pais_id_pa": 74,
+    "director_tecnico_pla": "Kazimierz Gorski"
+  },
+  {
+    "id_pla": 326,
+    "Pais_id_pa": 74,
+    "director_tecnico_pla": "Pawel Janas"
+  },
+  {
+    "id_pla": 327,
+    "Pais_id_pa": 75,
+    "director_tecnico_pla": "Antonio Oliveira"
+  },
+  {
+    "id_pla": 328,
+    "Pais_id_pa": 75,
+    "director_tecnico_pla": "Carlos Queiroz"
+  },
+  {
+    "id_pla": 329,
+    "Pais_id_pa": 75,
+    "director_tecnico_pla": "Fernando Santos"
+  },
+  {
+    "id_pla": 330,
+    "Pais_id_pa": 75,
+    "director_tecnico_pla": "Jose Torres"
+  },
+  {
+    "id_pla": 331,
+    "Pais_id_pa": 75,
+    "director_tecnico_pla": "Luiz Felipe Scolari"
+  },
+  {
+    "id_pla": 332,
+    "Pais_id_pa": 75,
+    "director_tecnico_pla": "Otto Gloria"
+  },
+  {
+    "id_pla": 333,
+    "Pais_id_pa": 75,
+    "director_tecnico_pla": "Paulo Bento"
+  },
+  {
+    "id_pla": 334,
+    "Pais_id_pa": 79,
+    "director_tecnico_pla": "Alexandru Savulescu"
+  },
+  {
+    "id_pla": 335,
+    "Pais_id_pa": 79,
+    "director_tecnico_pla": "Angelo Niculescu"
+  },
+  {
+    "id_pla": 336,
+    "Pais_id_pa": 79,
+    "director_tecnico_pla": "Anghel Iordanescu"
+  },
+  {
+    "id_pla": 337,
+    "Pais_id_pa": 79,
+    "director_tecnico_pla": "Constantin Radulescu"
+  },
+  {
+    "id_pla": 338,
+    "Pais_id_pa": 79,
+    "director_tecnico_pla": "Emerich Jenei"
+  },
+  {
+    "id_pla": 339,
+    "Pais_id_pa": 79,
+    "director_tecnico_pla": "Josef Uridil"
+  },
+  {
+    "id_pla": 340,
+    "Pais_id_pa": 81,
+    "director_tecnico_pla": "Fabio Capello"
+  },
+  {
+    "id_pla": 341,
+    "Pais_id_pa": 81,
+    "director_tecnico_pla": "Oleg Romantsev"
+  },
+  {
+    "id_pla": 342,
+    "Pais_id_pa": 81,
+    "director_tecnico_pla": "Pavel Sadyrin"
+  },
+  {
+    "id_pla": 343,
+    "Pais_id_pa": 81,
+    "director_tecnico_pla": "Stanislav Cherchesov"
+  },
+  {
+    "id_pla": 344,
+    "Pais_id_pa": 84,
+    "director_tecnico_pla": "Aliou Cisse"
+  },
+  {
+    "id_pla": 345,
+    "Pais_id_pa": 84,
+    "director_tecnico_pla": "Bruno Metsu"
+  },
+  {
+    "id_pla": 346,
+    "Pais_id_pa": 85,
+    "director_tecnico_pla": "Dragan Stojković"
+  },
+  {
+    "id_pla": 347,
+    "Pais_id_pa": 85,
+    "director_tecnico_pla": "Ilija Petkovic"
+  },
+  {
+    "id_pla": 348,
+    "Pais_id_pa": 85,
+    "director_tecnico_pla": "Mladen Krstajic"
+  },
+  {
+    "id_pla": 349,
+    "Pais_id_pa": 85,
+    "director_tecnico_pla": "Radomir Antic"
+  },
+  {
+    "id_pla": 350,
+    "Pais_id_pa": 86,
+    "director_tecnico_pla": "Carlos Alberto Parreira"
+  },
+  {
+    "id_pla": 351,
+    "Pais_id_pa": 86,
+    "director_tecnico_pla": "Jomo Sono"
+  },
+  {
+    "id_pla": 352,
+    "Pais_id_pa": 86,
+    "director_tecnico_pla": "Philippe Troussier"
+  },
+  {
+    "id_pla": 353,
+    "Pais_id_pa": 87,
+    "director_tecnico_pla": "Georg Ericson"
+  },
+  {
+    "id_pla": 354,
+    "Pais_id_pa": 87,
+    "director_tecnico_pla": "George Raynor"
+  },
+  {
+    "id_pla": 355,
+    "Pais_id_pa": 87,
+    "director_tecnico_pla": "Janne Andersson"
+  },
+  {
+    "id_pla": 356,
+    "Pais_id_pa": 87,
+    "director_tecnico_pla": "Joszef Nagy"
+  },
+  {
+    "id_pla": 357,
+    "Pais_id_pa": 87,
+    "director_tecnico_pla": "Lars Lagerback"
+  },
+  {
+    "id_pla": 358,
+    "Pais_id_pa": 87,
+    "director_tecnico_pla": "Olle Nordin"
+  },
+  {
+    "id_pla": 359,
+    "Pais_id_pa": 87,
+    "director_tecnico_pla": "Orvar Bergmark"
+  },
+  {
+    "id_pla": 360,
+    "Pais_id_pa": 87,
+    "director_tecnico_pla": "Tommy Soderberg"
+  },
+  {
+    "id_pla": 361,
+    "Pais_id_pa": 87,
+    "director_tecnico_pla": "Tommy Svensson"
+  },
+  {
+    "id_pla": 362,
+    "Pais_id_pa": 88,
+    "director_tecnico_pla": "Alfredo Foni"
+  },
+  {
+    "id_pla": 363,
+    "Pais_id_pa": 88,
+    "director_tecnico_pla": "Franco Andreoli"
+  },
+  {
+    "id_pla": 364,
+    "Pais_id_pa": 88,
+    "director_tecnico_pla": "Heini Mueller"
+  },
+  {
+    "id_pla": 365,
+    "Pais_id_pa": 88,
+    "director_tecnico_pla": "Karl Rappan"
+  },
+  {
+    "id_pla": 366,
+    "Pais_id_pa": 88,
+    "director_tecnico_pla": "Koebi Kuhn"
+  },
+  {
+    "id_pla": 367,
+    "Pais_id_pa": 88,
+    "director_tecnico_pla": "Murat Yakin"
+  },
+  {
+    "id_pla": 368,
+    "Pais_id_pa": 88,
+    "director_tecnico_pla": "Ottmar Hitzfeld"
+  },
+  {
+    "id_pla": 369,
+    "Pais_id_pa": 88,
+    "director_tecnico_pla": "Roy Hodgson"
+  },
+  {
+    "id_pla": 370,
+    "Pais_id_pa": 88,
+    "director_tecnico_pla": "Vladimir Petkovic"
+  },
+  {
+    "id_pla": 371,
+    "Pais_id_pa": 90,
+    "director_tecnico_pla": "John Adshead"
+  },
+  {
+    "id_pla": 372,
+    "Pais_id_pa": 90,
+    "director_tecnico_pla": "Ricki Herbert"
+  },
+  {
+    "id_pla": 373,
+    "Pais_id_pa": 91,
+    "director_tecnico_pla": "Leo Beenhakker"
+  },
+  {
+    "id_pla": 374,
+    "Pais_id_pa": 93,
+    "director_tecnico_pla": "Gavril Kachalin"
+  },
+  {
+    "id_pla": 375,
+    "Pais_id_pa": 93,
+    "director_tecnico_pla": "Kostantin Beskov"
+  },
+  {
+    "id_pla": 376,
+    "Pais_id_pa": 93,
+    "director_tecnico_pla": "Nikolai Morozov"
+  },
+  {
+    "id_pla": 377,
+    "Pais_id_pa": 93,
+    "director_tecnico_pla": "Valeriy Lobanovskyi"
+  },
+  {
+    "id_pla": 378,
+    "Pais_id_pa": 94,
+    "director_tecnico_pla": "Otto Pfister"
+  },
+  {
+    "id_pla": 379,
+    "Pais_id_pa": 95,
+    "director_tecnico_pla": "Blagoje Vidinic"
+  },
+  {
+    "id_pla": 380,
+    "Pais_id_pa": 96,
+    "director_tecnico_pla": "Alessandro Puppo"
+  },
+  {
+    "id_pla": 381,
+    "Pais_id_pa": 96,
+    "director_tecnico_pla": "Senol Gunes"
+  },
+  {
+    "id_pla": 382,
+    "Pais_id_pa": 97,
+    "director_tecnico_pla": "Abdelmajid Chetali"
+  },
+  {
+    "id_pla": 383,
+    "Pais_id_pa": 97,
+    "director_tecnico_pla": "Ammar Souayah"
+  },
+  {
+    "id_pla": 384,
+    "Pais_id_pa": 97,
+    "director_tecnico_pla": "Henryk Kasperczak"
+  },
+  {
+    "id_pla": 385,
+    "Pais_id_pa": 97,
+    "director_tecnico_pla": "Jalel Kadri"
+  },
+  {
+    "id_pla": 386,
+    "Pais_id_pa": 97,
+    "director_tecnico_pla": "Nabil Maaloul"
+  },
+  {
+    "id_pla": 387,
+    "Pais_id_pa": 97,
+    "director_tecnico_pla": "Roger Lemerre"
+  },
+  {
+    "id_pla": 388,
+    "Pais_id_pa": 98,
+    "director_tecnico_pla": "Oleg Blokhin"
+  },
+  {
+    "id_pla": 389,
+    "Pais_id_pa": 99,
+    "director_tecnico_pla": "Alberto Suppici"
+  },
+  {
+    "id_pla": 390,
+    "Pais_id_pa": 99,
+    "director_tecnico_pla": "Diego Alonso"
+  },
+  {
+    "id_pla": 391,
+    "Pais_id_pa": 99,
+    "director_tecnico_pla": "Juan Carlos Corazzo"
+  },
+  {
+    "id_pla": 392,
+    "Pais_id_pa": 99,
+    "director_tecnico_pla": "Juan Hohberg"
+  },
+  {
+    "id_pla": 393,
+    "Pais_id_pa": 99,
+    "director_tecnico_pla": "Juan Lopez"
+  },
+  {
+    "id_pla": 394,
+    "Pais_id_pa": 99,
+    "director_tecnico_pla": "Omar Borras"
+  },
+  {
+    "id_pla": 395,
+    "Pais_id_pa": 99,
+    "director_tecnico_pla": "Ondino Viera"
+  },
+  {
+    "id_pla": 396,
+    "Pais_id_pa": 99,
+    "director_tecnico_pla": "Roberto Porta"
+  },
+  {
+    "id_pla": 397,
+    "Pais_id_pa": 99,
+    "director_tecnico_pla": "Victor Pua"
+  },
+  {
+    "id_pla": 398,
+    "Pais_id_pa": 99,
+    "director_tecnico_pla": "Óscar Tabárez"
+  },
+  {
+    "id_pla": 399,
+    "Pais_id_pa": 103,
+    "director_tecnico_pla": "Aleksandar Tirnanic"
+  },
+  {
+    "id_pla": 400,
+    "Pais_id_pa": 103,
+    "director_tecnico_pla": "Bosko Simonovic"
+  },
+  {
+    "id_pla": 401,
+    "Pais_id_pa": 103,
+    "director_tecnico_pla": "Ivica Osim"
+  },
+  {
+    "id_pla": 402,
+    "Pais_id_pa": 103,
+    "director_tecnico_pla": "Miljan Miljanic"
+  },
+  {
+    "id_pla": 403,
+    "Pais_id_pa": 103,
+    "director_tecnico_pla": "Milorad Arsenijevic"
+  },
+  {
+    "id_pla": 404,
+    "Pais_id_pa": 103,
+    "director_tecnico_pla": "Prvoslav Mihajlovic"
+  },
+  {
+    "id_pla": 405,
+    "Pais_id_pa": 103,
+    "director_tecnico_pla": "Slobodan Santrac"
+  }
+]

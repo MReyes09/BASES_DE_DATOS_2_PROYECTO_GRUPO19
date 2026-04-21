@@ -1,0 +1,58 @@
+[
+  {
+    "id_ti_pre": 1,
+    "nombre_ti_pre": "Balón de Oro"
+  },
+  {
+    "id_ti_pre": 2,
+    "nombre_ti_pre": "Balón de Plata"
+  },
+  {
+    "id_ti_pre": 3,
+    "nombre_ti_pre": "Balón de Bronce"
+  },
+  {
+    "id_ti_pre": 4,
+    "nombre_ti_pre": "Botín de Oro"
+  },
+  {
+    "id_ti_pre": 5,
+    "nombre_ti_pre": "Botín de Plata"
+  },
+  {
+    "id_ti_pre": 6,
+    "nombre_ti_pre": "Botín de Bronce"
+  },
+  {
+    "id_ti_pre": 7,
+    "nombre_ti_pre": "Guante de Oro"
+  },
+  {
+    "id_ti_pre": 8,
+    "nombre_ti_pre": "Mejor Jugador Joven"
+  },
+  {
+    "id_ti_pre": 9,
+    "nombre_ti_pre": "FIFA Fair Play"
+  },
+  {
+    "id_ti_pre": 10,
+    "nombre_ti_pre": "Equipo Ideal (Arquero)"
+  },
+  {
+    "id_ti_pre": 11,
+    "nombre_ti_pre": "Equipo Ideal (Defensores)"
+  },
+  {
+    "id_ti_pre": 12,
+    "nombre_ti_pre": "Equipo Ideal (Mediocampistas)"
+  },
+  {
+    "id_ti_pre": 13,
+    "nombre_ti_pre": "Equipo Ideal (Delanteros)"
+  },
+  {
+    "id_ti_pre": 14,
+    "nombre_ti_pre": "Equipo Ideal (Entrenador)"
+  }
+]

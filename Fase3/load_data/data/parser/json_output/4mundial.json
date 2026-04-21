@@ -1,0 +1,117 @@
+[
+  {
+    "id_mu": 1,
+    "anio_mu": 2026,
+    "organizador_mu": "Canadá / Estados Unidos / México"
+  },
+  {
+    "id_mu": 2,
+    "anio_mu": 2022,
+    "organizador_mu": "Catar"
+  },
+  {
+    "id_mu": 3,
+    "anio_mu": 2018,
+    "organizador_mu": "Rusia"
+  },
+  {
+    "id_mu": 4,
+    "anio_mu": 2014,
+    "organizador_mu": "Brasil"
+  },
+  {
+    "id_mu": 5,
+    "anio_mu": 2010,
+    "organizador_mu": "Sudáfrica"
+  },
+  {
+    "id_mu": 6,
+    "anio_mu": 2006,
+    "organizador_mu": "Alemania"
+  },
+  {
+    "id_mu": 7,
+    "anio_mu": 2002,
+    "organizador_mu": "Corea / Japón"
+  },
+  {
+    "id_mu": 8,
+    "anio_mu": 1998,
+    "organizador_mu": "Francia"
+  },
+  {
+    "id_mu": 9,
+    "anio_mu": 1994,
+    "organizador_mu": "Estados Unidos"
+  },
+  {
+    "id_mu": 10,
+    "anio_mu": 1990,
+    "organizador_mu": "Italia"
+  },
+  {
+    "id_mu": 11,
+    "anio_mu": 1986,
+    "organizador_mu": "México"
+  },
+  {
+    "id_mu": 12,
+    "anio_mu": 1982,
+    "organizador_mu": "España"
+  },
+  {
+    "id_mu": 13,
+    "anio_mu": 1978,
+    "organizador_mu": "Argentina"
+  },
+  {
+    "id_mu": 14,
+    "anio_mu": 1974,
+    "organizador_mu": "Alemania Occidental"
+  },
+  {
+    "id_mu": 15,
+    "anio_mu": 1970,
+    "organizador_mu": "México"
+  },
+  {
+    "id_mu": 16,
+    "anio_mu": 1966,
+    "organizador_mu": "Inglaterra"
+  },
+  {
+    "id_mu": 17,
+    "anio_mu": 1962,
+    "organizador_mu": "Chile"
+  },
+  {
+    "id_mu": 18,
+    "anio_mu": 1958,
+    "organizador_mu": "Suecia"
+  },
+  {
+    "id_mu": 19,
+    "anio_mu": 1954,
+    "organizador_mu": "Suiza"
+  },
+  {
+    "id_mu": 20,
+    "anio_mu": 1950,
+    "organizador_mu": "Brasil"
+  },
+  {
+    "id_mu": 21,
+    "anio_mu": 1938,
+    "organizador_mu": "Francia"
+  },
+  {
+    "id_mu": 22,
+    "anio_mu": 1934,
+    "organizador_mu": "Italia"
+  },
+  {
+    "id_mu": 23,
+    "anio_mu": 1930,
+    "organizador_mu": "Uruguay"
+  }
+]

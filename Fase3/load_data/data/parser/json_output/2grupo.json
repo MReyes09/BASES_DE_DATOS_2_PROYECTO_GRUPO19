@@ -1,0 +1,50 @@
+[
+  {
+    "id_gr": 1,
+    "nombre_gr": "A"
+  },
+  {
+    "id_gr": 2,
+    "nombre_gr": "B"
+  },
+  {
+    "id_gr": 3,
+    "nombre_gr": "C"
+  },
+  {
+    "id_gr": 4,
+    "nombre_gr": "D"
+  },
+  {
+    "id_gr": 5,
+    "nombre_gr": "E"
+  },
+  {
+    "id_gr": 6,
+    "nombre_gr": "F"
+  },
+  {
+    "id_gr": 7,
+    "nombre_gr": "G"
+  },
+  {
+    "id_gr": 8,
+    "nombre_gr": "H"
+  },
+  {
+    "id_gr": 9,
+    "nombre_gr": "1"
+  },
+  {
+    "id_gr": 10,
+    "nombre_gr": "2"
+  },
+  {
+    "id_gr": 11,
+    "nombre_gr": "3"
+  },
+  {
+    "id_gr": 12,
+    "nombre_gr": "4"
+  }
+]

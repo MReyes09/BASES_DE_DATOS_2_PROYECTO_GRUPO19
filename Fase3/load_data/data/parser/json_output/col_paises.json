@@ -1,0 +1,4641 @@
+[
+  {
+    "_id": 1,
+    "nombre": "Alemania",
+    "participaciones": [
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "C",
+        "director_tecnico": "Berti Vogts",
+        "fue_sede": true,
+        "anios_sede": [
+          2006,
+          1974
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "E",
+        "director_tecnico": "Berti Vogts",
+        "fue_sede": true,
+        "anios_sede": [
+          2006,
+          1974
+        ]
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "A",
+        "director_tecnico": "Berti Vogts",
+        "fue_sede": true,
+        "anios_sede": [
+          2006,
+          1974
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "D",
+        "director_tecnico": "Berti Vogts",
+        "fue_sede": true,
+        "anios_sede": [
+          2006,
+          1974
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "G",
+        "director_tecnico": "Berti Vogts",
+        "fue_sede": true,
+        "anios_sede": [
+          2006,
+          1974
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "E",
+        "director_tecnico": "Berti Vogts",
+        "fue_sede": true,
+        "anios_sede": [
+          2006,
+          1974
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "nombre": "Alemania Oriental",
+    "participaciones": [
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "1",
+        "director_tecnico": "Georg Buschner",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "A",
+        "director_tecnico": "Georg Buschner",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "nombre": "Alemania Occidental",
+    "participaciones": [
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "2",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "1",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "2",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "2",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "4",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "1",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "B",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "2",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "A",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "B",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "2",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "E",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "D",
+        "director_tecnico": "Franz Beckenbauer",
+        "fue_sede": true,
+        "anios_sede": [
+          1974
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "nombre": "Angola",
+    "participaciones": [
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "D",
+        "director_tecnico": "Luis Goncalves",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "nombre": "Arabia Saudita",
+    "participaciones": [
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "C",
+        "director_tecnico": "Herve Renard",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "E",
+        "director_tecnico": "Herve Renard",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "H",
+        "director_tecnico": "Herve Renard",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "A",
+        "director_tecnico": "Herve Renard",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "C",
+        "director_tecnico": "Herve Renard",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 6,
+    "nombre": "Argelia",
+    "participaciones": [
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "B",
+        "director_tecnico": "Rabah Saadane",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "D",
+        "director_tecnico": "Rabah Saadane",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "C",
+        "director_tecnico": "Rabah Saadane",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "H",
+        "director_tecnico": "Rabah Saadane",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 7,
+    "nombre": "Argentina",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "1",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "1",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "4",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "2",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "4",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "A",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "1",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "B",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "C",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "3",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "A",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "B",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "D",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "H",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "C",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "B",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "D",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "C",
+        "director_tecnico": "Alejandro Sabella",
+        "fue_sede": true,
+        "anios_sede": [
+          1978
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 8,
+    "nombre": "Australia",
+    "participaciones": [
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "1",
+        "director_tecnico": "Ange Postecoglou",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "D",
+        "director_tecnico": "Ange Postecoglou",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "B",
+        "director_tecnico": "Ange Postecoglou",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "C",
+        "director_tecnico": "Ange Postecoglou",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "D",
+        "director_tecnico": "Ange Postecoglou",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 9,
+    "nombre": "Austria",
+    "participaciones": [
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "3",
+        "director_tecnico": "Georg Schmidt",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "4",
+        "director_tecnico": "Georg Schmidt",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "3",
+        "director_tecnico": "Georg Schmidt",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "A",
+        "director_tecnico": "Georg Schmidt",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "B",
+        "director_tecnico": "Georg Schmidt",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "4",
+        "director_tecnico": "Georg Schmidt",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "A",
+        "director_tecnico": "Georg Schmidt",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "B",
+        "director_tecnico": "Georg Schmidt",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 10,
+    "nombre": "Países Bajos",
+    "participaciones": [
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "3",
+        "director_tecnico": "Bert Van Marwijk",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "A",
+        "director_tecnico": "Bert Van Marwijk",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "4",
+        "director_tecnico": "Bert Van Marwijk",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "A",
+        "director_tecnico": "Bert Van Marwijk",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "E",
+        "director_tecnico": "Bert Van Marwijk",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "C",
+        "director_tecnico": "Bert Van Marwijk",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "E",
+        "director_tecnico": "Bert Van Marwijk",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "B",
+        "director_tecnico": "Bert Van Marwijk",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "A",
+        "director_tecnico": "Bert Van Marwijk",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 11,
+    "nombre": "Bolivia",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "2",
+        "director_tecnico": "Mario Pretto",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "4",
+        "director_tecnico": "Mario Pretto",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "C",
+        "director_tecnico": "Mario Pretto",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 12,
+    "nombre": "Bosnia-Herzegovina",
+    "participaciones": []
+  },
+  {
+    "_id": 13,
+    "nombre": "Brasil",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "2",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "1",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "1",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "4",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "3",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "3",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "3",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "2",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "A",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "3",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "B",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "3",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "D",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "C",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "B",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "A",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "C",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "G",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "A",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "E",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "G",
+        "director_tecnico": "Ademar Pimenta",
+        "fue_sede": true,
+        "anios_sede": [
+          2014,
+          1950
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 14,
+    "nombre": "Bulgaria",
+    "participaciones": [
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "4",
+        "director_tecnico": "Dimitar Penev",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "3",
+        "director_tecnico": "Dimitar Penev",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "4",
+        "director_tecnico": "Dimitar Penev",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "3",
+        "director_tecnico": "Dimitar Penev",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "A",
+        "director_tecnico": "Dimitar Penev",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "D",
+        "director_tecnico": "Dimitar Penev",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "D",
+        "director_tecnico": "Dimitar Penev",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 15,
+    "nombre": "Bélgica",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "4",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "4",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "1",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "C",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "1",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "B",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "E",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "E",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "H",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "H",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "G",
+        "director_tecnico": "Doug Livingstone",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 16,
+    "nombre": "Camerún",
+    "participaciones": [
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "A",
+        "director_tecnico": "Claude Le Roy",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "B",
+        "director_tecnico": "Claude Le Roy",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "B",
+        "director_tecnico": "Claude Le Roy",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "B",
+        "director_tecnico": "Claude Le Roy",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "E",
+        "director_tecnico": "Claude Le Roy",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "E",
+        "director_tecnico": "Claude Le Roy",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "A",
+        "director_tecnico": "Claude Le Roy",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "G",
+        "director_tecnico": "Claude Le Roy",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 17,
+    "nombre": "Canadá",
+    "participaciones": [
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "C",
+        "director_tecnico": "John Herdman",
+        "fue_sede": true,
+        "anios_sede": [
+          2026
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 18,
+    "nombre": "Catar",
+    "participaciones": [
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "A",
+        "director_tecnico": "Félix Sánches",
+        "fue_sede": true,
+        "anios_sede": [
+          2022
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 19,
+    "nombre": "Cabo Verde",
+    "participaciones": []
+  },
+  {
+    "_id": 20,
+    "nombre": "República Checa",
+    "participaciones": [
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "E",
+        "director_tecnico": "Karel Bruckner",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 21,
+    "nombre": "Chile",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "1",
+        "director_tecnico": "Arturo Bucciardi",
+        "fue_sede": true,
+        "anios_sede": [
+          1962
+        ]
+      },
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "2",
+        "director_tecnico": "Arturo Bucciardi",
+        "fue_sede": true,
+        "anios_sede": [
+          1962
+        ]
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "2",
+        "director_tecnico": "Arturo Bucciardi",
+        "fue_sede": true,
+        "anios_sede": [
+          1962
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "4",
+        "director_tecnico": "Arturo Bucciardi",
+        "fue_sede": true,
+        "anios_sede": [
+          1962
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "1",
+        "director_tecnico": "Arturo Bucciardi",
+        "fue_sede": true,
+        "anios_sede": [
+          1962
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "B",
+        "director_tecnico": "Arturo Bucciardi",
+        "fue_sede": true,
+        "anios_sede": [
+          1962
+        ]
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "B",
+        "director_tecnico": "Arturo Bucciardi",
+        "fue_sede": true,
+        "anios_sede": [
+          1962
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "H",
+        "director_tecnico": "Arturo Bucciardi",
+        "fue_sede": true,
+        "anios_sede": [
+          1962
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "B",
+        "director_tecnico": "Arturo Bucciardi",
+        "fue_sede": true,
+        "anios_sede": [
+          1962
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 22,
+    "nombre": "China",
+    "participaciones": [
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "C",
+        "director_tecnico": "Bora Milutinovic",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 23,
+    "nombre": "Colombia",
+    "participaciones": [
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "1",
+        "director_tecnico": "Adolfo Pedernera",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "D",
+        "director_tecnico": "Adolfo Pedernera",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "A",
+        "director_tecnico": "Adolfo Pedernera",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "G",
+        "director_tecnico": "Adolfo Pedernera",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "C",
+        "director_tecnico": "Adolfo Pedernera",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "H",
+        "director_tecnico": "Adolfo Pedernera",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 24,
+    "nombre": "Congo",
+    "participaciones": []
+  },
+  {
+    "_id": 25,
+    "nombre": "Corea del Norte",
+    "participaciones": [
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "4",
+        "director_tecnico": "Jong Hun Kim",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "G",
+        "director_tecnico": "Jong Hun Kim",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 26,
+    "nombre": "Corea del Sur",
+    "participaciones": [
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "2",
+        "director_tecnico": "Dick Advocaat",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "A",
+        "director_tecnico": "Dick Advocaat",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "E",
+        "director_tecnico": "Dick Advocaat",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "C",
+        "director_tecnico": "Dick Advocaat",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "E",
+        "director_tecnico": "Dick Advocaat",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "D",
+        "director_tecnico": "Dick Advocaat",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "G",
+        "director_tecnico": "Dick Advocaat",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "B",
+        "director_tecnico": "Dick Advocaat",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "H",
+        "director_tecnico": "Dick Advocaat",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "H",
+        "director_tecnico": "Dick Advocaat",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 27,
+    "nombre": "Costa de Marfil",
+    "participaciones": [
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "C",
+        "director_tecnico": "Henri Michel",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "G",
+        "director_tecnico": "Henri Michel",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "C",
+        "director_tecnico": "Henri Michel",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 28,
+    "nombre": "Costa Rica",
+    "participaciones": [
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "C",
+        "director_tecnico": "Alexandre Guimaraes",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "C",
+        "director_tecnico": "Alexandre Guimaraes",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "A",
+        "director_tecnico": "Alexandre Guimaraes",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "D",
+        "director_tecnico": "Alexandre Guimaraes",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "E",
+        "director_tecnico": "Alexandre Guimaraes",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "E",
+        "director_tecnico": "Alexandre Guimaraes",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 29,
+    "nombre": "Croacia",
+    "participaciones": [
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "H",
+        "director_tecnico": "Mirko Jozic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "G",
+        "director_tecnico": "Mirko Jozic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "A",
+        "director_tecnico": "Mirko Jozic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "D",
+        "director_tecnico": "Mirko Jozic",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 30,
+    "nombre": "Cuba",
+    "participaciones": []
+  },
+  {
+    "_id": 31,
+    "nombre": "Curazao",
+    "participaciones": []
+  },
+  {
+    "_id": 32,
+    "nombre": "Dinamarca",
+    "participaciones": [
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "E",
+        "director_tecnico": "Age Hareide",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "C",
+        "director_tecnico": "Age Hareide",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "A",
+        "director_tecnico": "Age Hareide",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "E",
+        "director_tecnico": "Age Hareide",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "C",
+        "director_tecnico": "Age Hareide",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "D",
+        "director_tecnico": "Age Hareide",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 33,
+    "nombre": "Ecuador",
+    "participaciones": [
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "G",
+        "director_tecnico": "Gustavo Alfaro",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "A",
+        "director_tecnico": "Gustavo Alfaro",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "E",
+        "director_tecnico": "Gustavo Alfaro",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "A",
+        "director_tecnico": "Gustavo Alfaro",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 34,
+    "nombre": "Egipto",
+    "participaciones": [
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "A",
+        "director_tecnico": "Héctor Cúper",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 35,
+    "nombre": "Escocia",
+    "participaciones": [
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "3",
+        "director_tecnico": "Alex Ferguson",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "2",
+        "director_tecnico": "Alex Ferguson",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "2",
+        "director_tecnico": "Alex Ferguson",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "4",
+        "director_tecnico": "Alex Ferguson",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "E",
+        "director_tecnico": "Alex Ferguson",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "C",
+        "director_tecnico": "Alex Ferguson",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "A",
+        "director_tecnico": "Alex Ferguson",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 36,
+    "nombre": "Eslovaquia",
+    "participaciones": []
+  },
+  {
+    "_id": 37,
+    "nombre": "Eslovenia",
+    "participaciones": [
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "B",
+        "director_tecnico": "Danilo Popivoda",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "C",
+        "director_tecnico": "Danilo Popivoda",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 38,
+    "nombre": "España",
+    "participaciones": [
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "2",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "3",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "2",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "3",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "E",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "2",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "D",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "E",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "C",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "D",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "B",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "H",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "H",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "B",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "B",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "E",
+        "director_tecnico": "Amadeo Garcia Salazar",
+        "fue_sede": true,
+        "anios_sede": [
+          1982
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 39,
+    "nombre": "Estados Unidos",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "4",
+        "director_tecnico": "Bill Jeffrey",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1994
+        ]
+      },
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "2",
+        "director_tecnico": "Bill Jeffrey",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1994
+        ]
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "A",
+        "director_tecnico": "Bill Jeffrey",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1994
+        ]
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "A",
+        "director_tecnico": "Bill Jeffrey",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1994
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "D",
+        "director_tecnico": "Bill Jeffrey",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1994
+        ]
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "E",
+        "director_tecnico": "Bill Jeffrey",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1994
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "C",
+        "director_tecnico": "Bill Jeffrey",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1994
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "G",
+        "director_tecnico": "Bill Jeffrey",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1994
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "B",
+        "director_tecnico": "Bill Jeffrey",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1994
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 40,
+    "nombre": "El Salvador",
+    "participaciones": [
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "1",
+        "director_tecnico": "Hernan Carrasco",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "C",
+        "director_tecnico": "Hernan Carrasco",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 41,
+    "nombre": "Emiratos Árabes Unidos",
+    "participaciones": [
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "D",
+        "director_tecnico": "Carlos Alberto Parreira",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 42,
+    "nombre": "Francia",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "1",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "1",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "2",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "1",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "1",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "D",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "4",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "C",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "C",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "A",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "G",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "A",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "E",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "C",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "D",
+        "director_tecnico": "Aime Jacquet",
+        "fue_sede": true,
+        "anios_sede": [
+          1998,
+          1938
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 43,
+    "nombre": "Gales",
+    "participaciones": [
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "3",
+        "director_tecnico": "Jimmy Murphy",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "B",
+        "director_tecnico": "Jimmy Murphy",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 44,
+    "nombre": "Ghana",
+    "participaciones": [
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "E",
+        "director_tecnico": "Kwesi Appiah",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "D",
+        "director_tecnico": "Kwesi Appiah",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "G",
+        "director_tecnico": "Kwesi Appiah",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "H",
+        "director_tecnico": "Kwesi Appiah",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 45,
+    "nombre": "Grecia",
+    "participaciones": [
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "D",
+        "director_tecnico": "Alkis Panagoulias",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "B",
+        "director_tecnico": "Alkis Panagoulias",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "C",
+        "director_tecnico": "Alkis Panagoulias",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 46,
+    "nombre": "Haití",
+    "participaciones": [
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "4",
+        "director_tecnico": "Antoine Tassy",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 47,
+    "nombre": "Honduras",
+    "participaciones": [
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "E",
+        "director_tecnico": "Jose De La Paz",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "H",
+        "director_tecnico": "Jose De La Paz",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "E",
+        "director_tecnico": "Jose De La Paz",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 48,
+    "nombre": "Hungría",
+    "participaciones": [
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "2",
+        "director_tecnico": "Alfred Schaffer",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "3",
+        "director_tecnico": "Alfred Schaffer",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "4",
+        "director_tecnico": "Alfred Schaffer",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "3",
+        "director_tecnico": "Alfred Schaffer",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "1",
+        "director_tecnico": "Alfred Schaffer",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "C",
+        "director_tecnico": "Alfred Schaffer",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "C",
+        "director_tecnico": "Alfred Schaffer",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 49,
+    "nombre": "Indonesia",
+    "participaciones": []
+  },
+  {
+    "_id": 50,
+    "nombre": "Inglaterra",
+    "participaciones": [
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "2",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "4",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "4",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "4",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "1",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "3",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "D",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "2",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "G",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "B",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "C",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "D",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "G",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "B",
+        "director_tecnico": "Alf Ramsey",
+        "fue_sede": true,
+        "anios_sede": [
+          1966
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 51,
+    "nombre": "Irak",
+    "participaciones": [
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "B",
+        "director_tecnico": "Evaristo",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 52,
+    "nombre": "Irlanda",
+    "participaciones": [
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "E",
+        "director_tecnico": "Jack Charlton",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "E",
+        "director_tecnico": "Jack Charlton",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 53,
+    "nombre": "Irlanda del Norte",
+    "participaciones": [
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "1",
+        "director_tecnico": "Billy Bingham",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "E",
+        "director_tecnico": "Billy Bingham",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "4",
+        "director_tecnico": "Billy Bingham",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "D",
+        "director_tecnico": "Billy Bingham",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 54,
+    "nombre": "Irán",
+    "participaciones": [
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "4",
+        "director_tecnico": "Branko Ivankovic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "D",
+        "director_tecnico": "Branko Ivankovic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "B",
+        "director_tecnico": "Branko Ivankovic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "B",
+        "director_tecnico": "Branko Ivankovic",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 55,
+    "nombre": "Islandia",
+    "participaciones": [
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "D",
+        "director_tecnico": "Heimir Hallgrimsson",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 56,
+    "nombre": "Israel",
+    "participaciones": [
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "2",
+        "director_tecnico": "Emmanuel Sheffer",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 57,
+    "nombre": "Italia",
+    "participaciones": [
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "3",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "4",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "2",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "4",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "2",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "4",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "1",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "A",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "A",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "3",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "A",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "A",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "E",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "B",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "G",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "E",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "D",
+        "director_tecnico": "Arrigo Sacchi",
+        "fue_sede": true,
+        "anios_sede": [
+          1990,
+          1934
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 58,
+    "nombre": "Jamaica",
+    "participaciones": [
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "H",
+        "director_tecnico": "René Simoes",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 59,
+    "nombre": "Japón",
+    "participaciones": [
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "H",
+        "director_tecnico": "Akira Nishino",
+        "fue_sede": true,
+        "anios_sede": [
+          2002
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "H",
+        "director_tecnico": "Akira Nishino",
+        "fue_sede": true,
+        "anios_sede": [
+          2002
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "E",
+        "director_tecnico": "Akira Nishino",
+        "fue_sede": true,
+        "anios_sede": [
+          2002
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "C",
+        "director_tecnico": "Akira Nishino",
+        "fue_sede": true,
+        "anios_sede": [
+          2002
+        ]
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "H",
+        "director_tecnico": "Akira Nishino",
+        "fue_sede": true,
+        "anios_sede": [
+          2002
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "E",
+        "director_tecnico": "Akira Nishino",
+        "fue_sede": true,
+        "anios_sede": [
+          2002
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 60,
+    "nombre": "Jordania",
+    "participaciones": []
+  },
+  {
+    "_id": 61,
+    "nombre": "Kuwait",
+    "participaciones": [
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "D",
+        "director_tecnico": "Carlos Alberto Parreira",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 62,
+    "nombre": "Costa de Marfil",
+    "participaciones": []
+  },
+  {
+    "_id": 63,
+    "nombre": "Marruecos",
+    "participaciones": [
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "4",
+        "director_tecnico": "Abdellah Blinda",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "A",
+        "director_tecnico": "Abdellah Blinda",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "B",
+        "director_tecnico": "Abdellah Blinda",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 64,
+    "nombre": "México",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "1",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "1",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "1",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "3",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "3",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "1",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "1",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "2",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "B",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "E",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "E",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "G",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "D",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "A",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "A",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "C",
+        "director_tecnico": "Antonio Lopez Herranz",
+        "fue_sede": true,
+        "anios_sede": [
+          2026,
+          1986,
+          1970
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 65,
+    "nombre": "Montenegro",
+    "participaciones": []
+  },
+  {
+    "_id": 66,
+    "nombre": "Nigeria",
+    "participaciones": [
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "D",
+        "director_tecnico": "Adegboye Onigbinde",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "D",
+        "director_tecnico": "Adegboye Onigbinde",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "B",
+        "director_tecnico": "Adegboye Onigbinde",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "D",
+        "director_tecnico": "Adegboye Onigbinde",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 67,
+    "nombre": "Corea del Norte",
+    "participaciones": []
+  },
+  {
+    "_id": 68,
+    "nombre": "Noruega",
+    "participaciones": [
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "E",
+        "director_tecnico": "Asbjorn Halvorsen",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "A",
+        "director_tecnico": "Asbjorn Halvorsen",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 69,
+    "nombre": "Alemania Oriental",
+    "participaciones": []
+  },
+  {
+    "_id": 70,
+    "nombre": "Panamá",
+    "participaciones": [
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "G",
+        "director_tecnico": "Hernan Gomez",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 71,
+    "nombre": "Checoslovaquia",
+    "participaciones": [
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "3",
+        "director_tecnico": "Josef Cejp",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "1",
+        "director_tecnico": "Josef Cejp",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "3",
+        "director_tecnico": "Josef Cejp",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "3",
+        "director_tecnico": "Josef Cejp",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "D",
+        "director_tecnico": "Josef Cejp",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "A",
+        "director_tecnico": "Josef Cejp",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 72,
+    "nombre": "Paraguay",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "4",
+        "director_tecnico": "Anibal Ruiz Leites",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "3",
+        "director_tecnico": "Anibal Ruiz Leites",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "2",
+        "director_tecnico": "Anibal Ruiz Leites",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "B",
+        "director_tecnico": "Anibal Ruiz Leites",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "D",
+        "director_tecnico": "Anibal Ruiz Leites",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "B",
+        "director_tecnico": "Anibal Ruiz Leites",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "B",
+        "director_tecnico": "Anibal Ruiz Leites",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 73,
+    "nombre": "Perú",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "3",
+        "director_tecnico": "Didi",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "4",
+        "director_tecnico": "Didi",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "4",
+        "director_tecnico": "Didi",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "B",
+        "director_tecnico": "Didi",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "A",
+        "director_tecnico": "Didi",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "C",
+        "director_tecnico": "Didi",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 74,
+    "nombre": "Polonia",
+    "participaciones": [
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "4",
+        "director_tecnico": "Adam Nawalka",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "B",
+        "director_tecnico": "Adam Nawalka",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "2",
+        "director_tecnico": "Adam Nawalka",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "B",
+        "director_tecnico": "Adam Nawalka",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "A",
+        "director_tecnico": "Adam Nawalka",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "1",
+        "director_tecnico": "Adam Nawalka",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "D",
+        "director_tecnico": "Adam Nawalka",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "A",
+        "director_tecnico": "Adam Nawalka",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "H",
+        "director_tecnico": "Adam Nawalka",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "C",
+        "director_tecnico": "Adam Nawalka",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 75,
+    "nombre": "Portugal",
+    "participaciones": [
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "3",
+        "director_tecnico": "Antonio Oliveira",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "D",
+        "director_tecnico": "Antonio Oliveira",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "D",
+        "director_tecnico": "Antonio Oliveira",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "G",
+        "director_tecnico": "Antonio Oliveira",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "G",
+        "director_tecnico": "Antonio Oliveira",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "B",
+        "director_tecnico": "Antonio Oliveira",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "H",
+        "director_tecnico": "Antonio Oliveira",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 76,
+    "nombre": "Países Bajos",
+    "participaciones": []
+  },
+  {
+    "_id": 77,
+    "nombre": "Costa Rica",
+    "participaciones": []
+  },
+  {
+    "_id": 78,
+    "nombre": "República Democrática del Congo",
+    "participaciones": []
+  },
+  {
+    "_id": 79,
+    "nombre": "Rumania",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "3",
+        "director_tecnico": "Alexandru Savulescu",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "3",
+        "director_tecnico": "Alexandru Savulescu",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "B",
+        "director_tecnico": "Alexandru Savulescu",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "A",
+        "director_tecnico": "Alexandru Savulescu",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "G",
+        "director_tecnico": "Alexandru Savulescu",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 80,
+    "nombre": "República Checa",
+    "participaciones": []
+  },
+  {
+    "_id": 81,
+    "nombre": "Rusia",
+    "participaciones": [
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "B",
+        "director_tecnico": "Fabio Capello",
+        "fue_sede": true,
+        "anios_sede": [
+          2018
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "H",
+        "director_tecnico": "Fabio Capello",
+        "fue_sede": true,
+        "anios_sede": [
+          2018
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "H",
+        "director_tecnico": "Fabio Capello",
+        "fue_sede": true,
+        "anios_sede": [
+          2018
+        ]
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "A",
+        "director_tecnico": "Fabio Capello",
+        "fue_sede": true,
+        "anios_sede": [
+          2018
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 82,
+    "nombre": "El Salvador",
+    "participaciones": []
+  },
+  {
+    "_id": 83,
+    "nombre": "Arabia Saudita",
+    "participaciones": []
+  },
+  {
+    "_id": 84,
+    "nombre": "Senegal",
+    "participaciones": [
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "A",
+        "director_tecnico": "Aliou Cisse",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "H",
+        "director_tecnico": "Aliou Cisse",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "A",
+        "director_tecnico": "Aliou Cisse",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 85,
+    "nombre": "Serbia",
+    "participaciones": [
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "C",
+        "director_tecnico": "Dragan Stojković",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "D",
+        "director_tecnico": "Dragan Stojković",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "E",
+        "director_tecnico": "Dragan Stojković",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "G",
+        "director_tecnico": "Dragan Stojković",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 86,
+    "nombre": "Sudáfrica",
+    "participaciones": [
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "C",
+        "director_tecnico": "Carlos Alberto Parreira",
+        "fue_sede": true,
+        "anios_sede": [
+          2010
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "B",
+        "director_tecnico": "Carlos Alberto Parreira",
+        "fue_sede": true,
+        "anios_sede": [
+          2010
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "A",
+        "director_tecnico": "Carlos Alberto Parreira",
+        "fue_sede": true,
+        "anios_sede": [
+          2010
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 87,
+    "nombre": "Suecia",
+    "participaciones": [
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "3",
+        "director_tecnico": "Georg Ericson",
+        "fue_sede": true,
+        "anios_sede": [
+          1958
+        ]
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "3",
+        "director_tecnico": "Georg Ericson",
+        "fue_sede": true,
+        "anios_sede": [
+          1958
+        ]
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "2",
+        "director_tecnico": "Georg Ericson",
+        "fue_sede": true,
+        "anios_sede": [
+          1958
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "3",
+        "director_tecnico": "Georg Ericson",
+        "fue_sede": true,
+        "anios_sede": [
+          1958
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "B",
+        "director_tecnico": "Georg Ericson",
+        "fue_sede": true,
+        "anios_sede": [
+          1958
+        ]
+      },
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "3",
+        "director_tecnico": "Georg Ericson",
+        "fue_sede": true,
+        "anios_sede": [
+          1958
+        ]
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "C",
+        "director_tecnico": "Georg Ericson",
+        "fue_sede": true,
+        "anios_sede": [
+          1958
+        ]
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "B",
+        "director_tecnico": "Georg Ericson",
+        "fue_sede": true,
+        "anios_sede": [
+          1958
+        ]
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "B",
+        "director_tecnico": "Georg Ericson",
+        "fue_sede": true,
+        "anios_sede": [
+          1958
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 88,
+    "nombre": "Suiza",
+    "participaciones": [
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "1",
+        "director_tecnico": "Alfredo Foni",
+        "fue_sede": true,
+        "anios_sede": [
+          1954
+        ]
+      },
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "4",
+        "director_tecnico": "Alfredo Foni",
+        "fue_sede": true,
+        "anios_sede": [
+          1954
+        ]
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "2",
+        "director_tecnico": "Alfredo Foni",
+        "fue_sede": true,
+        "anios_sede": [
+          1954
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "2",
+        "director_tecnico": "Alfredo Foni",
+        "fue_sede": true,
+        "anios_sede": [
+          1954
+        ]
+      },
+      {
+        "mundial_id": 9,
+        "anio": 1994,
+        "grupo": "A",
+        "director_tecnico": "Alfredo Foni",
+        "fue_sede": true,
+        "anios_sede": [
+          1954
+        ]
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "G",
+        "director_tecnico": "Alfredo Foni",
+        "fue_sede": true,
+        "anios_sede": [
+          1954
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "H",
+        "director_tecnico": "Alfredo Foni",
+        "fue_sede": true,
+        "anios_sede": [
+          1954
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "E",
+        "director_tecnico": "Alfredo Foni",
+        "fue_sede": true,
+        "anios_sede": [
+          1954
+        ]
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "E",
+        "director_tecnico": "Alfredo Foni",
+        "fue_sede": true,
+        "anios_sede": [
+          1954
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "G",
+        "director_tecnico": "Alfredo Foni",
+        "fue_sede": true,
+        "anios_sede": [
+          1954
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 89,
+    "nombre": "Corea del Sur",
+    "participaciones": []
+  },
+  {
+    "_id": 90,
+    "nombre": "Nueva Zelanda",
+    "participaciones": []
+  },
+  {
+    "_id": 91,
+    "nombre": "Trinidad y Tobago",
+    "participaciones": [
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "B",
+        "director_tecnico": "Leo Beenhakker",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 92,
+    "nombre": "Tobago",
+    "participaciones": []
+  },
+  {
+    "_id": 93,
+    "nombre": "URSS",
+    "participaciones": [
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "4",
+        "director_tecnico": "Gavril Kachalin",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "1",
+        "director_tecnico": "Gavril Kachalin",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "4",
+        "director_tecnico": "Gavril Kachalin",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "1",
+        "director_tecnico": "Gavril Kachalin",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "1",
+        "director_tecnico": "Gavril Kachalin",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "C",
+        "director_tecnico": "Gavril Kachalin",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "B",
+        "director_tecnico": "Gavril Kachalin",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 94,
+    "nombre": "Togo",
+    "participaciones": [
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "G",
+        "director_tecnico": "Otto Pfister",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 95,
+    "nombre": "Zaire",
+    "participaciones": [
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "2",
+        "director_tecnico": "Blagoje Vidinic",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 96,
+    "nombre": "Turquía",
+    "participaciones": [
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "2",
+        "director_tecnico": "Alessandro Puppo",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "C",
+        "director_tecnico": "Alessandro Puppo",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 97,
+    "nombre": "Túnez",
+    "participaciones": [
+      {
+        "mundial_id": 13,
+        "anio": 1978,
+        "grupo": "2",
+        "director_tecnico": "Abdelmajid Chetali",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 8,
+        "anio": 1998,
+        "grupo": "G",
+        "director_tecnico": "Abdelmajid Chetali",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "H",
+        "director_tecnico": "Abdelmajid Chetali",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "H",
+        "director_tecnico": "Abdelmajid Chetali",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "G",
+        "director_tecnico": "Abdelmajid Chetali",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "D",
+        "director_tecnico": "Abdelmajid Chetali",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 98,
+    "nombre": "Ucrania",
+    "participaciones": [
+      {
+        "mundial_id": 6,
+        "anio": 2006,
+        "grupo": "H",
+        "director_tecnico": "Oleg Blokhin",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 99,
+    "nombre": "Uruguay",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "3",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "4",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "3",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "1",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 16,
+        "anio": 1966,
+        "grupo": "1",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 15,
+        "anio": 1970,
+        "grupo": "2",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "3",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 11,
+        "anio": 1986,
+        "grupo": "E",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "E",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 7,
+        "anio": 2002,
+        "grupo": "A",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 5,
+        "anio": 2010,
+        "grupo": "A",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 4,
+        "anio": 2014,
+        "grupo": "D",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 3,
+        "anio": 2018,
+        "grupo": "A",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      },
+      {
+        "mundial_id": 2,
+        "anio": 2022,
+        "grupo": "H",
+        "director_tecnico": "Alberto Suppici",
+        "fue_sede": true,
+        "anios_sede": [
+          1930
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 100,
+    "nombre": "Uzbekistán",
+    "participaciones": []
+  },
+  {
+    "_id": 101,
+    "nombre": "Cabo Verde",
+    "participaciones": []
+  },
+  {
+    "_id": 102,
+    "nombre": "Nueva Zelanda",
+    "participaciones": []
+  },
+  {
+    "_id": 103,
+    "nombre": "Yugoslavia",
+    "participaciones": [
+      {
+        "mundial_id": 23,
+        "anio": 1930,
+        "grupo": "2",
+        "director_tecnico": "Aleksandar Tirnanic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 20,
+        "anio": 1950,
+        "grupo": "1",
+        "director_tecnico": "Aleksandar Tirnanic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 19,
+        "anio": 1954,
+        "grupo": "1",
+        "director_tecnico": "Aleksandar Tirnanic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 18,
+        "anio": 1958,
+        "grupo": "2",
+        "director_tecnico": "Aleksandar Tirnanic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 17,
+        "anio": 1962,
+        "grupo": "1",
+        "director_tecnico": "Aleksandar Tirnanic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "2",
+        "director_tecnico": "Aleksandar Tirnanic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 14,
+        "anio": 1974,
+        "grupo": "B",
+        "director_tecnico": "Aleksandar Tirnanic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 12,
+        "anio": 1982,
+        "grupo": "E",
+        "director_tecnico": "Aleksandar Tirnanic",
+        "fue_sede": false,
+        "anios_sede": []
+      },
+      {
+        "mundial_id": 10,
+        "anio": 1990,
+        "grupo": "D",
+        "director_tecnico": "Aleksandar Tirnanic",
+        "fue_sede": false,
+        "anios_sede": []
+      }
+    ]
+  },
+  {
+    "_id": 104,
+    "nombre": "Venezuela",
+    "participaciones": []
+  }
+]
