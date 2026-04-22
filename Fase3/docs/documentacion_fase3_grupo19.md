@@ -1,12 +1,31 @@
 # Documentación Fase 3 - Grupo 19
 
+Migración a MongoDB
+
 ## Integrantes
 
-| Nombre Completo | Carnet |
-|-----------------|--------|
-| Daniel Andreé Hernandez Flores | 202300512 |
-| Matthew Emmanuel Reyes Melgar | 202202233 |
-| Dilan Conaher Suy Miranda | 201801194 |
+<table>
+  <thead>
+    <tr>
+      <th>Nombre Completo</th>
+      <th>Carnet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Daniel Andreé Hernandez Flores</td>
+      <td>202300512</td>
+    </tr>
+    <tr>
+      <td>Matthew Emmanuel Reyes Melgar</td>
+      <td>202202233</td>
+    </tr>
+    <tr>
+      <td>Dilan Conaher Suy Miranda</td>
+      <td>201801194</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -39,15 +58,52 @@ La migración no consiste en trasladar las 20 tablas relacionales una por una ha
 
 ## Tecnologías Utilizadas
 
-| Tecnología | Versión / Detalle | Uso |
-|---|---|---|
-| MongoDB | Latest (imagen oficial Docker) | Motor de base de datos NoSQL |
-| Docker Desktop | Windows | Contenedor del servidor MongoDB |
-| MongoDB Compass | Última versión estable | Interfaz visual para explorar la base de datos |
-| mongosh | Incluido con MongoDB | Shell para ejecutar scripts `.js` de consulta e índices |
-| mongoimport | MongoDB Database Tools | Carga masiva de datos en formato JSON |
-| Python 3 | 3.x | Extracción y transformación de datos desde archivos `.sql` |
-| Oracle SQL / SQL Developer | 21c | Base de datos fuente de la fase anterior |
+<table>
+  <thead>
+    <tr>
+      <th>Tecnología</th>
+      <th>Versión / Detalle</th>
+      <th>Uso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MongoDB</td>
+      <td>Latest (imagen oficial Docker)</td>
+      <td>Motor de base de datos NoSQL</td>
+    </tr>
+    <tr>
+      <td>Docker Desktop</td>
+      <td>Windows</td>
+      <td>Contenedor del servidor MongoDB</td>
+    </tr>
+    <tr>
+      <td>MongoDB Compass</td>
+      <td>Última versión estable</td>
+      <td>Interfaz visual para explorar la base de datos</td>
+    </tr>
+    <tr>
+      <td>mongosh</td>
+      <td>Incluido con MongoDB</td>
+      <td>Shell para ejecutar scripts <code>.js</code> de consulta e índices</td>
+    </tr>
+    <tr>
+      <td>mongoimport</td>
+      <td>MongoDB Database Tools</td>
+      <td>Carga masiva de datos en formato JSON</td>
+    </tr>
+    <tr>
+      <td>Python 3</td>
+      <td>3.x</td>
+      <td>Extracción y transformación de datos desde archivos <code>.sql</code></td>
+    </tr>
+    <tr>
+      <td>Oracle SQL / SQL Developer</td>
+      <td>21c</td>
+      <td>Base de datos fuente de la fase anterior</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -61,15 +117,40 @@ La base de datos en Oracle estaba compuesta por **20 tablas** organizadas en 3 n
 - **Nivel 2 – Tablas con 1 FK:** `Premio`, `Red_social`, `Plantilla`, `Llave_Mundial`
 - **Nivel 3 – Tablas con 2+ FK:** `Evento_Partido`, `Evento_Cambio_Jugador`, `Pais_Clasificado_Mundial`, `Evento_Falta`, `Evento_Gol`, `Partido_Plantilla`, `Posicion_Jugador`, `Premios_Jugador`, `Cambio_Jugador`
 
+Diagrama:
+![Diagrama](./img/01_modelo_relacional.jpg)
+
+
 ### Modelo Documental en MongoDB
 
 En lugar de replicar las 20 tablas como 20 colecciones, se consolidó toda la información en **3 colecciones principales**, diseñadas en función de las consultas requeridas:
 
-| Colección | Descripción | Consulta que sirve |
-|---|---|---|
-| `mundiales` | Un documento por cada Mundial, con grupos, partidos, goles, tarjetas, cambios y premios embebidos | Búsqueda por año |
-| `jugadores` | Un documento por jugador, con redes sociales embebidas | Catálogo de referencia |
-| `paises` | Un documento por país, con historial completo de participaciones | Búsqueda por nombre de país |
+<table>
+  <thead>
+    <tr>
+      <th>Colección</th>
+      <th>Descripción</th>
+      <th>Consulta que sirve</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>mundiales</code></td>
+      <td>Un documento por cada Mundial, con grupos, partidos, goles, tarjetas, cambios y premios embebidos</td>
+      <td>Búsqueda por año</td>
+    </tr>
+    <tr>
+      <td><code>jugadores</code></td>
+      <td>Un documento por jugador, con redes sociales embebidas</td>
+      <td>Catálogo de referencia</td>
+    </tr>
+    <tr>
+      <td><code>paises</code></td>
+      <td>Un documento por país, con historial completo de participaciones</td>
+      <td>Búsqueda por nombre de país</td>
+    </tr>
+  </tbody>
+</table>
 
 Las tablas de catálogo (`Fase`, `Grupo`, `Tipo_Premio`, `Tipo_Tarjeta`) **no se modelan como colecciones independientes**; sus valores se embeben directamente como strings en los documentos que los necesitan, eliminando la necesidad de lookups adicionales durante las consultas.
 
@@ -81,113 +162,19 @@ Las tablas de catálogo (`Fase`, `Grupo`, `Tipo_Premio`, `Tipo_Tarjeta`) **no se
 
 Cada documento representa un Mundial completo. Agrupa toda la información relacionada con ese torneo, permitiendo responder la consulta por año con un único documento.
 
-```json
-{
-  "_id": 1,
-  "anio": 2022,
-  "organizador": "Catar",
-  "grupos": [
-    {
-      "nombre": "A",
-      "selecciones": [
-        {
-          "pais_id": 7,
-          "pais": "Argentina",
-          "director_tecnico": "Lionel Scaloni"
-        }
-      ]
-    }
-  ],
-  "partidos": [
-    {
-      "id_partido": 501,
-      "fecha": "2022-11-20",
-      "fase": "Grupos",
-      "equipo1": { "pais_id": 7, "pais": "Argentina", "plantilla_id": 34 },
-      "equipo2": { "pais_id": 21, "pais": "Arabia Saudita", "plantilla_id": 35 },
-      "goles": [
-        {
-          "jugador_id": 1001,
-          "jugador": "Messi",
-          "minuto": "10",
-          "penal": false,
-          "entre_tiempo": false
-        }
-      ],
-      "tarjetas": [
-        {
-          "tipo": "AMARILLA",
-          "minuto": "55",
-          "entre_tiempo": false
-        }
-      ],
-      "cambios": [
-        {
-          "jugador_sale_id": 1003,
-          "jugador_sale": "Di María",
-          "minuto": "70"
-        }
-      ]
-    }
-  ],
-  "premios": [
-    {
-      "tipo": "Balón de Oro",
-      "pais": "Argentina",
-      "entrenador": null,
-      "jugadores": ["Messi"]
-    }
-  ]
-}
-```
+![Mundiales](./img/02_Mundiales.png)
 
 ### Colección `jugadores`
 
 Cada documento representa un jugador con sus datos personales y redes sociales embebidas. Este catálogo es referenciado por `jugador_id` dentro de los partidos.
 
-```json
-{
-  "_id": 1001,
-  "nombre": "Lionel Messi",
-  "fecha_nacimiento": "1987-06-24",
-  "lugar_nacimiento": "Rosario, Argentina",
-  "altura": "1.70",
-  "apodo": "La Pulga",
-  "pagina_web": null,
-  "redes_sociales": [
-    { "usuario": "@leomessi", "tipo": "Instagram" }
-  ]
-}
-```
+![Jugadores](./img/03_Jugadores.png)
 
 ### Colección `paises`
 
 Cada documento representa un país con su historial completo de participaciones en mundiales, incluyendo si fue sede y en qué años.
 
-```json
-{
-  "_id": 7,
-  "nombre": "Argentina",
-  "participaciones": [
-    {
-      "mundial_id": 23,
-      "anio": 1930,
-      "grupo": "1",
-      "director_tecnico": "Francisco Olazar",
-      "fue_sede": false,
-      "anios_sede": []
-    },
-    {
-      "mundial_id": 5,
-      "anio": 1978,
-      "grupo": "1",
-      "director_tecnico": "César Luis Menotti",
-      "fue_sede": true,
-      "anios_sede": [1978]
-    }
-  ]
-}
-```
+![Paises](./img/04_Paises.png)
 
 ---
 
@@ -208,16 +195,44 @@ docker run -d --name mongodb-mundiales `
   mongo:latest
 ```
 
+![Docker](./img/05_creacion_contenedor.png)
+
 **Parámetros utilizados:**
 
-| Parámetro | Descripción |
-|---|---|
-| `--name mongodb-mundiales` | Nombre del contenedor |
-| `-p 27017:27017` | Mapeo del puerto de MongoDB al host local |
-| `-e MONGO_INITDB_ROOT_USERNAME` | Usuario administrador inicial |
-| `-e MONGO_INITDB_ROOT_PASSWORD` | Contraseña del administrador |
-| `-v mongodb_mundiales_data:/data/db` | Volumen persistente para los datos |
-| `mongo:latest` | Imagen oficial de MongoDB |
+<table>
+  <thead>
+    <tr>
+      <th>Parámetro</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>--name mongodb-mundiales</code></td>
+      <td>Nombre del contenedor</td>
+    </tr>
+    <tr>
+      <td><code>-p 27017:27017</code></td>
+      <td>Mapeo del puerto de MongoDB al host local</td>
+    </tr>
+    <tr>
+      <td><code>-e MONGO_INITDB_ROOT_USERNAME</code></td>
+      <td>Usuario administrador inicial</td>
+    </tr>
+    <tr>
+      <td><code>-e MONGO_INITDB_ROOT_PASSWORD</code></td>
+      <td>Contraseña del administrador</td>
+    </tr>
+    <tr>
+      <td><code>-v mongodb_mundiales_data:/data/db</code></td>
+      <td>Volumen persistente para los datos</td>
+    </tr>
+    <tr>
+      <td><code>mongo:latest</code></td>
+      <td>Imagen oficial de MongoDB</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Conectar con MongoDB Compass
 
@@ -226,16 +241,14 @@ Una vez levantado el contenedor, conectarse desde MongoDB Compass usando la sigu
 ```
 mongodb://admin:admin123@localhost:27017
 ```
-
+![Conexión](./img/06_conexion_compas.png)
 ---
 
 ## Script de Extracción: `parse_inserts.py`
 
 Este script es el primer paso del proceso de migración. Su función es **leer los archivos `.sql` de inserts** generados en Oracle y convertirlos en archivos `.json` individuales, uno por cada tabla original. Estos archivos JSON actúan como los **archivos fuente de carga** requeridos por el enunciado.
 
-### Propósito
-
-Automatizar la transformación de la sintaxis SQL de Oracle (con tipos como `TO_DATE`, `NULL`, comillas simples escapadas con `''`) a objetos JSON válidos que Python y MongoDB puedan procesar.
+Tiene como propósito automatizar la transformación de la sintaxis SQL de Oracle (con tipos como `TO_DATE`, `NULL`, comillas simples escapadas con `''`) a objetos JSON válidos que Python y MongoDB puedan procesar.
 
 ### Funciones principales
 
@@ -253,6 +266,12 @@ Convierte cada valor string extraído al tipo Python correcto:
 - Strings entre comillas simples → `str` de Python (con el escape `''` resuelto a `'`)
 - `TO_DATE('...', '...')` → fecha formateada como `YYYY-MM-DD`
 - Valores numéricos → `int` o `float` según corresponda
+
+Visualización de las funciones:
+
+![Funciones](./img/07_script.png)
+
+Enlace al script: [parse_inserts.py](../load_data/data/parser/parse_inserts.py)
 
 ### Salida generada
 
@@ -296,9 +315,7 @@ python parse_inserts.py
 
 Este es el script central del proceso. Toma los 20 archivos JSON individuales generados por `parse_inserts.py` y los **ensambla en los 3 documentos de colección** del modelo MongoDB, aplicando toda la lógica de embebido, resolución de IDs y desnormalización.
 
-### Propósito
-
-Construir documentos MongoDB ricos y autosuficientes a partir de los datos relacionales originales, sin perder información y optimizando la estructura para las consultas requeridas.
+Tiene como proósito construir documentos MongoDB ricos y autosuficientes a partir de los datos relacionales originales, sin perder información y optimizando la estructura para las consultas requeridas.
 
 ### Función auxiliar: `load(name)`
 
@@ -314,16 +331,48 @@ Carga un archivo JSON desde la carpeta `json_output/` dado su nombre (sin extens
 
 Este proceso es el más complejo. Antes de iterar por cada mundial, se preparan **mapas auxiliares** (diccionarios Python indexados por ID) para permitir búsquedas en O(1) sin iterar listas completas cada vez:
 
-| Mapa auxiliar | Descripción |
-|---|---|
-| `pla_por_partido` | Diccionario: `id_partido` → lista de `plantilla_id` que participaron |
-| `goles_por_partido` | Diccionario: `id_partido` → lista de goles ocurridos |
-| `faltas_por_partido` | Diccionario: `id_partido` → lista de faltas/tarjetas |
-| `cambios_por_partido` | Diccionario: `id_partido` → lista de cambios de jugadores |
-| `prem_jug_por_premio` | Diccionario: `id_premio` → lista de `jugador_id` ganadores |
-| `pcm_por_mundial` | Diccionario: `id_mundial` → lista de países clasificados |
-| `premios_por_mundial` | Diccionario: `id_mundial` → lista de premios otorgados |
-| `partidos_por_mundial` | Diccionario: `id_mundial` → lista de partidos jugados |
+<table>
+  <thead>
+    <tr>
+      <th>Mapa auxiliar</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>pla_por_partido</code></td>
+      <td>Diccionario: <code>id_partido</code> → lista de <code>plantilla_id</code> que participaron</td>
+    </tr>
+    <tr>
+      <td><code>goles_por_partido</code></td>
+      <td>Diccionario: <code>id_partido</code> → lista de goles ocurridos</td>
+    </tr>
+    <tr>
+      <td><code>faltas_por_partido</code></td>
+      <td>Diccionario: <code>id_partido</code> → lista de faltas/tarjetas</td>
+    </tr>
+    <tr>
+      <td><code>cambios_por_partido</code></td>
+      <td>Diccionario: <code>id_partido</code> → lista de cambios de jugadores</td>
+    </tr>
+    <tr>
+      <td><code>prem_jug_por_premio</code></td>
+      <td>Diccionario: <code>id_premio</code> → lista de <code>jugador_id</code> ganadores</td>
+    </tr>
+    <tr>
+      <td><code>pcm_por_mundial</code></td>
+      <td>Diccionario: <code>id_mundial</code> → lista de países clasificados</td>
+    </tr>
+    <tr>
+      <td><code>premios_por_mundial</code></td>
+      <td>Diccionario: <code>id_mundial</code> → lista de premios otorgados</td>
+    </tr>
+    <tr>
+      <td><code>partidos_por_mundial</code></td>
+      <td>Diccionario: <code>id_mundial</code> → lista de partidos jugados</td>
+    </tr>
+  </tbody>
+</table>
 
 Para cada mundial se construye el documento final con:
 - Los **grupos** y sus selecciones, resolviendo el nombre del grupo y el director técnico de la plantilla correspondiente.
@@ -349,6 +398,14 @@ json_output/
 └── col_paises.json      ← Colección principal para consulta por país
 ```
 
+Visualización de las funciones:
+
+![Funciones](./img/08_build.png)
+
+Enlace al archivo:
+
+[build_mongo_collections.py](../load_data/data/parser/build_mongo_collections.py)
+
 ### Ejecución
 
 ```bash
@@ -373,6 +430,10 @@ mongoimport --uri "mongodb://admin:admin123@localhost:27017/mundiales_db?authSou
 mongoimport --uri "mongodb://admin:admin123@localhost:27017/mundiales_db?authSource=admin" ^
   --collection paises --file json_output/col_paises.json --jsonArray
 ```
+
+### Visualización de la carga:
+
+![Carga](./img/09_carga_esquemas.png)
 
 ### Opción B: desde dentro del contenedor Docker
 
@@ -411,6 +472,10 @@ Este script es el equivalente al DDL de Oracle para MongoDB. En lugar de definir
 ```bash
 mongosh "mongodb://admin:admin123@localhost:27017/mundiales_db" setup_indices.js
 ```
+
+### Visualización de la creación de índices:
+
+![Índices](./img/10_agregar_indices.png)
 
 ### Índices creados
 
@@ -452,17 +517,44 @@ Los métodos de consulta son funciones JavaScript ejecutables desde `mongosh`. S
 
 ### Método 1: Consulta por Año del Mundial (`getInfoMundial.js`)
 
+![getInfoMundial](./img/11_sp_mundial.png)
+
 #### Descripción
 
 Recibe como parámetro obligatorio el **año del mundial** y despliega toda la información relacionada: organizador, grupos con sus selecciones y directores técnicos, premios y listado de partidos con goles y resultados. Acepta parámetros opcionales para filtrar por grupo o por país.
 
 #### Parámetros
 
-| Parámetro | Tipo | Obligatorio | Descripción |
-|---|---|---|---|
-| `anio` | `Number` | ✅ Sí | Año del mundial a consultar (ej: `2022`) |
-| `filtroGrupo` | `String` | ❌ No | Filtrar solo un grupo específico (ej: `"A"`) |
-| `filtroPais` | `String` | ❌ No | Filtrar resultados que incluyan a un país (ej: `"Argentina"`) |
+<table>
+  <thead>
+    <tr>
+      <th>Parámetro</th>
+      <th>Tipo</th>
+      <th>Obligatorio</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>anio</code></td>
+      <td><code>Number</code></td>
+      <td>Sí</td>
+      <td>Año del mundial a consultar (ej: <code>2022</code>)</td>
+    </tr>
+    <tr>
+      <td><code>filtroGrupo</code></td>
+      <td><code>String</code></td>
+      <td>No</td>
+      <td>Filtrar solo un grupo específico (ej: <code>"A"</code>)</td>
+    </tr>
+    <tr>
+      <td><code>filtroPais</code></td>
+      <td><code>String</code></td>
+      <td>No</td>
+      <td>Filtrar resultados que incluyan a un país (ej: <code>"Argentina"</code>)</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Lógica interna
 
@@ -497,16 +589,38 @@ mongosh "mongodb://admin:admin123@localhost:27017/mundiales_db" getInfoMundial.j
 
 ### Método 2: Consulta por País (`getHistorialPais.js`)
 
+![getHistorialPais](./img/12_sp_pais.png)
+
 #### Descripción
 
 Recibe como parámetro el **nombre de un país** y despliega su historial completo en los Mundiales: si fue sede y en qué años, y por cada participación muestra el año, grupo, director técnico y los partidos disputados en ese torneo.
 
 #### Parámetros
 
-| Parámetro | Tipo | Obligatorio | Descripción |
-|---|---|---|---|
-| `nombrePais` | `String` | ✅ Sí | Nombre del país a consultar (ej: `"Brasil"`) |
-| `anioFiltro` | `Number` | ❌ No | Filtrar solo la participación de un año específico (ej: `2022`) |
+<table>
+  <thead>
+    <tr>
+      <th>Parámetro</th>
+      <th>Tipo</th>
+      <th>Obligatorio</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>nombrePais</code></td>
+      <td><code>String</code></td>
+      <td>Sí</td>
+      <td>Nombre del país a consultar (ej: <code>"Brasil"</code>)</td>
+    </tr>
+    <tr>
+      <td><code>anioFiltro</code></td>
+      <td><code>Number</code></td>
+      <td>No</td>
+      <td>Filtrar solo la participación de un año específico (ej: <code>2022</code>)</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Lógica interna
 
@@ -626,7 +740,7 @@ Colocar `parse_inserts.py` junto a todos los archivos `.sql` de inserts y ejecut
 python parse_inserts.py
 ```
 
-✅ Se crea la carpeta `json_output/` con 20 archivos JSON individuales.
+Se crea la carpeta `json_output/` con 20 archivos JSON individuales.
 
 ### Paso 3 — Ensamblar las colecciones MongoDB
 
@@ -634,7 +748,7 @@ python parse_inserts.py
 python build_mongo_collections.py
 ```
 
-✅ Se generan `col_mundiales.json`, `col_jugadores.json` y `col_paises.json` dentro de `json_output/`.
+Se generan `col_mundiales.json`, `col_jugadores.json` y `col_paises.json` dentro de `json_output/`.
 
 ### Paso 4 — Cargar las colecciones a MongoDB
 
@@ -648,7 +762,7 @@ docker exec -it mongodb-mundiales mongoimport --username admin --password admin1
 docker exec -it mongodb-mundiales mongoimport --username admin --password admin123 --authenticationDatabase admin --db mundiales_db --collection paises --file /json_output/col_paises.json --jsonArray
 ```
 
-✅ La base de datos `mundiales_db` queda poblada con las 3 colecciones.
+La base de datos `mundiales_db` queda poblada con las 3 colecciones.
 
 ### Paso 5 — Crear los índices
 
@@ -656,7 +770,7 @@ docker exec -it mongodb-mundiales mongoimport --username admin --password admin1
 mongosh "mongodb://admin:admin123@localhost:27017/mundiales_db" setup_indices.js
 ```
 
-✅ Los índices quedan creados, garantizando consultas rápidas en la defensa.
+Los índices quedan creados, garantizando consultas rápidas en la defensa.
 
 ### Paso 6 — Verificar con MongoDB Compass
 
@@ -671,5 +785,3 @@ Conectarse a `mongodb://admin:admin123@localhost:27017` desde MongoDB Compass y 
 mongosh "mongodb://admin:admin123@localhost:27017/mundiales_db" getInfoMundial.js
 mongosh "mongodb://admin:admin123@localhost:27017/mundiales_db" getHistorialPais.js
 ```
-
-✅ El proyecto está listo para la defensa del 25 de abril de 2026.
