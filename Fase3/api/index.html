@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>FIFA World Cup Explorer</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --gold: #C9A84C;
+    --gold-light: #E8C97A;
+    --dark: #0A0A0F;
+    --dark2: #111118;
+    --dark3: #1A1A24;
+    --dark4: #22222F;
+    --text: #E8E4DC;
+    --text-muted: #888899;
+    --green: #1A6B3C;
+    --green-light: #27AE60;
+    --red: #C0392B;
+    --border: rgba(201,168,76,0.15);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--dark);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* HERO */
+  .hero {
+    position: relative;
+    padding: 60px 0 40px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(201,168,76,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-badge {
+    display: inline-block;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  .hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(60px, 10vw, 110px);
+    line-height: 0.9;
+    letter-spacing: 2px;
+    background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, #8B6914 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero h1 span {
+    display: block;
+    font-size: clamp(40px, 6vw, 70px);
+    background: linear-gradient(135deg, var(--text) 0%, var(--text-muted) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero p {
+    margin-top: 16px;
+    color: var(--text-muted);
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  /* TABS */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin: 40px auto 0;
+    max-width: 600px;
+    border: 1px solid var(--border);
+  }
+  .tab-btn {
+    flex: 1;
+    padding: 14px 24px;
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+    border-right: 1px solid var(--border);
+  }
+  .tab-btn:last-child { border-right: none; }
+  .tab-btn.active {
+    background: var(--gold);
+    color: var(--dark);
+  }
+  .tab-btn:not(.active):hover {
+    background: var(--dark3);
+    color: var(--text);
+  }
+
+  /* MAIN CONTAINER */
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* PANELS */
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  /* SEARCH CARD */
+  .search-card {
+    background: var(--dark2);
+    border: 1px solid var(--border);
+    padding: 32px;
+    margin: 40px 0 32px;
+  }
+  .search-card h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    margin-bottom: 24px;
+  }
+  .form-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    min-width: 160px;
+  }
+  .form-group label {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+  .form-group input, .form-group select {
+    background: var(--dark4);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 12px 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .form-group input:focus, .form-group select:focus {
+    border-color: var(--gold);
+  }
+  .form-group select option { background: var(--dark4); }
+
+  .btn-search {
+    background: var(--gold);
+    color: var(--dark);
+    border: none;
+    padding: 12px 32px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.2s;
+    align-self: flex-end;
+    white-space: nowrap;
+  }
+  .btn-search:hover { background: var(--gold-light); transform: translateY(-1px); }
+  .btn-search:active { transform: translateY(0); }
+
+  /* LOADING */
+  .loading {
+    display: none;
+    text-align: center;
+    padding: 60px;
+    color: var(--text-muted);
+  }
+  .loading.show { display: block; }
+  .spinner {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--border);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 16px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ERROR */
+  .error-box {
+    display: none;
+    background: rgba(192,57,43,0.1);
+    border: 1px solid rgba(192,57,43,0.4);
+    padding: 16px 24px;
+    color: #E74C3C;
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .error-box.show { display: block; }
+
+  /* RESULT SECTIONS */
+  .result-header {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .result-header h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: var(--text);
+  }
+  .result-header .badge {
+    background: var(--gold);
+    color: var(--dark);
+    padding: 4px 12px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  /* STATS ROW */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    margin-bottom: 40px;
+  }
+  .stat-box {
+    background: var(--dark2);
+    padding: 24px;
+    text-align: center;
+  }
+  .stat-box .num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .stat-box .lbl {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-top: 8px;
+  }
+
+  /* SECTION TITLE */
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* PARTICIPACIONES TIMELINE */
+  .timeline { margin-bottom: 48px; }
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 0;
+    margin-bottom: 2px;
+  }
+  .timeline-year {
+    background: var(--dark3);
+    padding: 20px 16px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    color: var(--gold);
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 22px;
+  }
+  .timeline-content {
+    background: var(--dark2);
+    padding: 20px 24px;
+    border-left: 2px solid var(--border);
+  }
+  .timeline-meta {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+  .meta-chip {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .meta-chip strong {
+    color: var(--text);
+    font-weight: 500;
+  }
+  .meta-chip.sede {
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    padding: 2px 8px;
+  }
+
+  /* PARTIDOS */
+  .partidos-list { display: flex; flex-direction: column; gap: 6px; }
+  .partido-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px;
+    background: var(--dark3);
+    font-size: 13px;
+  }
+  .partido-fase {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    min-width: 80px;
+  }
+  .partido-teams {
+    flex: 1;
+    color: var(--text);
+  }
+  .partido-fecha {
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  /* GRUPOS GRID */
+  .grupos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 2px;
+    margin-bottom: 40px;
+  }
+  .grupo-card {
+    background: var(--dark2);
+    padding: 20px;
+  }
+  .grupo-card h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color: var(--gold);
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+  }
+  .grupo-pais {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-size: 13px;
+  }
+  .grupo-pais:last-child { border-bottom: none; }
+  .grupo-pais .dt { font-size: 11px; color: var(--text-muted); }
+
+  /* PREMIOS */
+  .premios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2px;
+    margin-bottom: 40px;
+  }
+  .premio-card {
+    background: var(--dark2);
+    padding: 20px;
+    border-top: 2px solid var(--gold);
+  }
+  .premio-tipo {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  .premio-valor {
+    font-size: 15px;
+    color: var(--text);
+    font-weight: 400;
+  }
+
+  /* TABLA PARTIDOS */
+  .partidos-tabla { margin-bottom: 40px; }
+  .partido-card {
+    background: var(--dark2);
+    padding: 16px 20px;
+    margin-bottom: 2px;
+    display: grid;
+    grid-template-columns: 100px 1fr auto;
+    gap: 16px;
+    align-items: center;
+  }
+  .partido-card .fase-tag {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+  .partido-card .fecha-tag {
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+  .partido-card .teams-display {
+    font-size: 14px;
+    color: var(--text);
+  }
+  .partido-card .goles-list {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+  .partido-card .goles-count {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    color: var(--gold);
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  /* EMPTY STATE */
+  .empty {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--text-muted);
+    display: none;
+  }
+  .empty.show { display: block; }
+  .empty-icon {
+    font-size: 60px;
+    margin-bottom: 16px;
+    opacity: 0.3;
+  }
+  .empty p { font-size: 14px; letter-spacing: 1px; }
+
+  /* SEDE BANNER */
+  .sede-banner {
+    background: linear-gradient(135deg, rgba(201,168,76,0.15) 0%, transparent 100%);
+    border: 1px solid rgba(201,168,76,0.3);
+    padding: 16px 24px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .sede-banner .icon { font-size: 24px; }
+  .sede-banner .info { font-size: 13px; color: var(--gold-light); }
+  .sede-banner .anios { font-family: 'Bebas Neue', sans-serif; font-size: 20px; color: var(--gold); }
+
+  @media (max-width: 600px) {
+    .partido-card { grid-template-columns: 1fr; }
+    .timeline-item { grid-template-columns: 60px 1fr; }
+    .tabs { flex-direction: column; }
+    .tab-btn { border-right: none; border-bottom: 1px solid var(--border); }
+    .tab-btn:last-child { border-bottom: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-badge">⚽ Base de Datos II · Grupo 19</div>
+  <h1>WORLD CUP<span>Explorer</span></h1>
+  <p>Consulta historial de países y datos de mundiales</p>
+</div>
+
+<div class="container">
+  <!-- TABS -->
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('historial')">🌍 Historial País</button>
+    <button class="tab-btn" onclick="switchTab('mundial')">🏆 Info Mundial</button>
+  </div>
+
+  <!-- PANEL 1: Historial País -->
+  <div class="panel active" id="panel-historial">
+    <div class="search-card">
+      <h2>Historial por País</h2>
+      <div class="form-row">
+        <div class="form-group">
+          <label>País *</label>
+          <input type="text" id="inp-pais" placeholder="Ej: Brasil, Argentina..." />
+        </div>
+        <div class="form-group">
+          <label>Año (opcional)</label>
+          <input type="number" id="inp-anio-pais" placeholder="Ej: 2022" min="1930" max="2026" />
+        </div>
+        <button class="btn-search" onclick="buscarHistorial()">BUSCAR</button>
+      </div>
+    </div>
+
+    <div class="error-box" id="err-historial"></div>
+    <div class="loading" id="load-historial"><div class="spinner"></div><p>Consultando base de datos...</p></div>
+    <div class="empty" id="empty-historial"><div class="empty-icon">🌍</div><p>Ingresá un país para ver su historial mundialista</p></div>
+    <div id="result-historial"></div>
+  </div>
+
+  <!-- PANEL 2: Info Mundial -->
+  <div class="panel" id="panel-mundial">
+    <div class="search-card">
+      <h2>Información por Mundial</h2>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Año *</label>
+          <input type="number" id="inp-anio-mundial" placeholder="Ej: 2022" min="1930" max="2026" />
+        </div>
+        <div class="form-group">
+          <label>Grupo (opcional)</label>
+          <input type="text" id="inp-grupo" placeholder="Ej: A, B, C..." maxlength="2" style="text-transform:uppercase"/>
+        </div>
+        <div class="form-group">
+          <label>País (opcional)</label>
+          <input type="text" id="inp-pais-mundial" placeholder="Filtrar por país..." />
+        </div>
+        <button class="btn-search" onclick="buscarMundial()">BUSCAR</button>
+      </div>
+    </div>
+
+    <div class="error-box" id="err-mundial"></div>
+    <div class="loading" id="load-mundial"><div class="spinner"></div><p>Consultando base de datos...</p></div>
+    <div class="empty" id="empty-mundial"><div class="empty-icon">🏆</div><p>Ingresá un año para consultar un mundial</p></div>
+    <div id="result-mundial"></div>
+  </div>
+</div>
+
+<script>
+const API = "http://localhost:5000";
+
+function switchTab(tab) {
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+  document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
+  event.target.classList.add("active");
+  document.getElementById("panel-" + tab).classList.add("active");
+}
+
+function showLoading(id, show) {
+  document.getElementById("load-" + id).classList.toggle("show", show);
+}
+function showError(id, msg) {
+  const el = document.getElementById("err-" + id);
+  el.textContent = msg;
+  el.classList.toggle("show", !!msg);
+}
+function showEmpty(id, show) {
+  document.getElementById("empty-" + id).classList.toggle("show", show);
+}
+
+// ── HISTORIAL PAÍS ────────────────────────────────────────────────────────────
+async function buscarHistorial() {
+  const pais = document.getElementById("inp-pais").value.trim();
+  const anio = document.getElementById("inp-anio-pais").value.trim();
+  const res = document.getElementById("result-historial");
+
+  if (!pais) { showError("historial", "Por favor ingresá el nombre de un país."); return; }
+
+  showError("historial", "");
+  showEmpty("historial", false);
+  showLoading("historial", true);
+  res.innerHTML = "";
+
+  try {
+    let url = `${API}/procedimiento1?pais=${encodeURIComponent(pais)}`;
+    if (anio) url += `&anio=${anio}`;
+    const r = await fetch(url);
+    const data = await r.json();
+    if (!r.ok) { showError("historial", data.error || "Error al consultar."); return; }
+    renderHistorial(data);
+  } catch(e) {
+    showError("historial", "No se pudo conectar con la API. ¿Está corriendo Flask en puerto 5000?");
+  } finally {
+    showLoading("historial", false);
+  }
+}
+
+function renderHistorial(d) {
+  const res = document.getElementById("result-historial");
+  const partsHTML = d.participaciones.map(p => {
+    const isSede = p.fue_sede;
+    const partidosHTML = p.partidos.length
+      ? p.partidos.map(pa => `
+          <div class="partido-row">
+            <span class="partido-fase">${pa.fase || "-"}</span>
+            <span class="partido-teams">${pa.equipo1} vs ${pa.equipo2}</span>
+            <span class="partido-fecha">${pa.fecha || ""}</span>
+          </div>`).join("")
+      : `<div style="font-size:12px;color:var(--text-muted);padding:8px 0">Sin partidos registrados</div>`;
+
+    return `
+      <div class="timeline-item">
+        <div class="timeline-year">${p.anio}</div>
+        <div class="timeline-content">
+          <div class="timeline-meta">
+            <span class="meta-chip">Grupo <strong>${p.grupo || "-"}</strong></span>
+            <span class="meta-chip">DT: <strong>${p.director_tecnico || "Desconocido"}</strong></span>
+            ${isSede ? `<span class="meta-chip sede">⭐ Sede</span>` : ""}
+          </div>
+          <div class="partidos-list">${partidosHTML}</div>
+        </div>
+      </div>`;
+  }).join("");
+
+  const sedeHTML = d.anios_sede.length
+    ? `<div class="sede-banner">
+        <span class="icon">🏟️</span>
+        <div>
+          <div class="info">País sede en</div>
+          <div class="anios">${d.anios_sede.join(" · ")}</div>
+        </div>
+      </div>` : "";
+
+  res.innerHTML = `
+    <div class="result-header">
+      <h3>${d.pais}</h3>
+      <span class="badge">${d.total_participaciones} Mundiales</span>
+    </div>
+    <div class="stats-row">
+      <div class="stat-box"><div class="num">${d.total_participaciones}</div><div class="lbl">Participaciones</div></div>
+      <div class="stat-box"><div class="num">${d.anios_sede.length}</div><div class="lbl">Veces Sede</div></div>
+      <div class="stat-box"><div class="num">${d.participaciones.reduce((a,p)=>a+p.partidos.length,0)}</div><div class="lbl">Partidos Reg.</div></div>
+    </div>
+    ${sedeHTML}
+    <div class="section-title">Participaciones</div>
+    <div class="timeline">${partsHTML || '<div style="color:var(--text-muted);padding:20px">Sin participaciones para este filtro.</div>'}</div>
+  `;
+}
+
+// ── INFO MUNDIAL ──────────────────────────────────────────────────────────────
+async function buscarMundial() {
+  const anio = document.getElementById("inp-anio-mundial").value.trim();
+  const grupo = document.getElementById("inp-grupo").value.trim().toUpperCase();
+  const pais = document.getElementById("inp-pais-mundial").value.trim();
+  const res = document.getElementById("result-mundial");
+
+  if (!anio) { showError("mundial", "Por favor ingresá el año del mundial."); return; }
+
+  showError("mundial", "");
+  showEmpty("mundial", false);
+  showLoading("mundial", true);
+  res.innerHTML = "";
+
+  try {
+    let url = `${API}/procedimiento2?anio=${anio}`;
+    if (grupo) url += `&grupo=${encodeURIComponent(grupo)}`;
+    if (pais) url += `&pais=${encodeURIComponent(pais)}`;
+    const r = await fetch(url);
+    const data = await r.json();
+    if (!r.ok) { showError("mundial", data.error || "Error al consultar."); return; }
+    renderMundial(data);
+  } catch(e) {
+    showError("mundial", "No se pudo conectar con la API. ¿Está corriendo Flask en puerto 5000?");
+  } finally {
+    showLoading("mundial", false);
+  }
+}
+
+function renderMundial(d) {
+  const res = document.getElementById("result-mundial");
+
+  const gruposHTML = d.grupos.length ? `
+    <div class="section-title">Grupos</div>
+    <div class="grupos-grid">
+      ${d.grupos.map(g => `
+        <div class="grupo-card">
+          <h4>Grupo ${g.nombre}</h4>
+          ${(g.selecciones||[]).map(s => `
+            <div class="grupo-pais">
+              <span>${s.pais}</span>
+              <span class="dt">${s.director_tecnico || "-"}</span>
+            </div>`).join("")}
+        </div>`).join("")}
+    </div>` : "";
+
+  const premiosHTML = d.premios.length ? `
+    <div class="section-title">Premios</div>
+    <div class="premios-grid">
+      ${d.premios.map(p => `
+        <div class="premio-card">
+          <div class="premio-tipo">${p.tipo}</div>
+          <div class="premio-valor">${Array.isArray(p.jugadores) && p.jugadores.length ? p.jugadores.join(", ") : (p.pais || "-")}</div>
+        </div>`).join("")}
+    </div>` : "";
+
+  const partidosHTML = d.partidos.length ? `
+    <div class="section-title">Partidos (${d.partidos.length})</div>
+    <div class="partidos-tabla">
+      ${d.partidos.map(p => {
+        const goles = (p.goles||[]);
+        const golesStr = goles.length ? goles.map(g => `${g.jugador || "?"} ${g.minuto}'${g.penal?" (P)":""}`).join(", ") : "";
+        return `
+        <div class="partido-card">
+          <div>
+            <div class="fase-tag">${p.fase || "-"}</div>
+            <div class="fecha-tag">${p.fecha || "-"}</div>
+          </div>
+          <div>
+            <div class="teams-display">${p.equipo1 || "?"} <span style="color:var(--gold)">vs</span> ${p.equipo2 || "?"}</div>
+            ${golesStr ? `<div class="goles-list">⚽ ${golesStr}</div>` : ""}
+          </div>
+          <div class="goles-count">${goles.length}</div>
+        </div>`;
+      }).join("")}
+    </div>` : "";
+
+  res.innerHTML = `
+    <div class="result-header">
+      <h3>Mundial ${d.anio}</h3>
+      <span class="badge">${d.organizador}</span>
+    </div>
+    <div class="stats-row">
+      <div class="stat-box"><div class="num">${d.anio}</div><div class="lbl">Edición</div></div>
+      <div class="stat-box"><div class="num">${d.grupos.length}</div><div class="lbl">Grupos</div></div>
+      <div class="stat-box"><div class="num">${d.partidos.length}</div><div class="lbl">Partidos</div></div>
+      <div class="stat-box"><div class="num">${d.premios.length}</div><div class="lbl">Premios</div></div>
+    </div>
+    ${gruposHTML}
+    ${premiosHTML}
+    ${partidosHTML}
+  `;
+}
+
+// Enter key support
+document.addEventListener("keydown", e => {
+  if (e.key !== "Enter") return;
+  if (document.getElementById("panel-historial").classList.contains("active")) buscarHistorial();
+  else buscarMundial();
+});
+
+// Show empty on load
+showEmpty("historial", true);
+showEmpty("mundial", true);
+</script>
+</body>
+</html>
