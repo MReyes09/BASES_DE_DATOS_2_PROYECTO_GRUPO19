@@ -6,8 +6,8 @@ import re
 app = Flask(__name__)
 CORS(app)
 
-client = MongoClient("mongodb://admin:admin123@localhost:27017/")
-db = client["mundial"]
+client = MongoClient("mongodb://admin:202202233@localhost:27017/")
+db = client["mundiales_db"]
 
 # ─── PROCEDIMIENTO 1: getHistorialPais ────────────────────────────────────────
 @app.route("/procedimiento1", methods=["GET"])
