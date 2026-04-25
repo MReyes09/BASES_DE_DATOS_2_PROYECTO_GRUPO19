@@ -23,10 +23,11 @@ def parse_sql_file(filepath):
     return rows
 
 def parse_values(raw):
-    """Parsea una fila de VALUES respetando strings entre comillas simples"""
+    """Parsea una fila de VALUES respetando strings entre comillas simples y funciones como TO_DATE(...)"""
     values = []
     current = ""
     in_string = False
+    paren_depth = 0
     i = 0
     while i < len(raw):
         c = raw[i]
@@ -41,7 +42,13 @@ def parse_values(raw):
                 continue
             in_string = False
             current += c
-        elif c == "," and not in_string:
+        elif c == "(" and not in_string:
+            paren_depth += 1
+            current += c
+        elif c == ")" and not in_string:
+            paren_depth -= 1
+            current += c
+        elif c == "," and not in_string and paren_depth == 0:
             values.append(clean_value(current.strip()))
             current = ""
         else:
@@ -60,7 +67,7 @@ def clean_value(v):
     m = re.match(r"TO_DATE\('(.+?)',\s*'(.+?)'\)", v, re.IGNORECASE)
     if m:
         try:
-            return datetime.strptime(m.group(1), m.group(2).replace("DD","d").replace("MM","m").replace("YYYY","Y")).strftime("%Y-%m-%d")
+            return datetime.strptime(m.group(1), m.group(2).replace("DD","%d").replace("MM","%m").replace("YYYY","%Y")).strftime("%Y-%m-%d")
         except:
             return m.group(1)
     try:

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; data=json.loads\\(open\\('json_output/12evento_partido.json',encoding='utf-8'\\).read\\(\\)\\); print\\(data[0]\\)\")",
+      "Bash(python build_mongo_collections.py)",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
