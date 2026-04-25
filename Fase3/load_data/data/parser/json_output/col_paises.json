@@ -18,7 +18,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "E",
-        "director_tecnico": "Berti Vogts",
+        "director_tecnico": "Rudi Voeller",
         "fue_sede": true,
         "anios_sede": [
           2006,
@@ -29,7 +29,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "A",
-        "director_tecnico": "Berti Vogts",
+        "director_tecnico": "Juergen Klinsmann",
         "fue_sede": true,
         "anios_sede": [
           2006,
@@ -40,7 +40,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "D",
-        "director_tecnico": "Berti Vogts",
+        "director_tecnico": "Joachim Löw",
         "fue_sede": true,
         "anios_sede": [
           2006,
@@ -51,7 +51,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "G",
-        "director_tecnico": "Berti Vogts",
+        "director_tecnico": "Joachim Löw",
         "fue_sede": true,
         "anios_sede": [
           2006,
@@ -62,7 +62,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "E",
-        "director_tecnico": "Berti Vogts",
+        "director_tecnico": "Hansi Flick",
         "fue_sede": true,
         "anios_sede": [
           2006,
@@ -101,7 +101,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "2",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Sepp Herberger",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -111,7 +111,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "1",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Sepp Herberger",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -121,7 +121,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "2",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Sepp Herberger",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -131,7 +131,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "2",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Helmut Schoen",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -141,7 +141,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "4",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Helmut Schoen",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -151,7 +151,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "1",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Helmut Schoen",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -161,7 +161,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "B",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Helmut Schoen",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -171,7 +171,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "2",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Helmut Schoen",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -181,7 +181,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "A",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Helmut Schoen",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -191,7 +191,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "B",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Jupp Derwall",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -201,7 +201,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "2",
-        "director_tecnico": "Franz Beckenbauer",
+        "director_tecnico": "Jupp Derwall",
         "fue_sede": true,
         "anios_sede": [
           1974
@@ -251,7 +251,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "C",
-        "director_tecnico": "Herve Renard",
+        "director_tecnico": "Mohammed Al Kharashy",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -259,7 +259,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "E",
-        "director_tecnico": "Herve Renard",
+        "director_tecnico": "Nasser Al Johar",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -267,7 +267,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "H",
-        "director_tecnico": "Herve Renard",
+        "director_tecnico": "Marcos Paqueta",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -275,7 +275,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "A",
-        "director_tecnico": "Herve Renard",
+        "director_tecnico": "Juan Antonio Pizzi",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -297,7 +297,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "B",
-        "director_tecnico": "Rabah Saadane",
+        "director_tecnico": "Rachid Mekhloufi",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -321,7 +321,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "H",
-        "director_tecnico": "Rabah Saadane",
+        "director_tecnico": "Vahid Halilhodzic",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -335,7 +335,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "1",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Juan Tramutola",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -345,7 +345,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "1",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Guillermo Stabile",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -355,7 +355,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "4",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Juan Carlos Lorenzo",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -365,7 +365,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "2",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Juan Carlos Lorenzo",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -375,7 +375,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "4",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Vladislao Cap",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -385,7 +385,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "A",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Vladislao Cap",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -395,7 +395,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "1",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Cesar Luis Menotti",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -405,7 +405,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "B",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Cesar Luis Menotti",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -415,7 +415,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "C",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Cesar Luis Menotti",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -425,7 +425,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "3",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Cesar Luis Menotti",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -435,7 +435,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "A",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Carlos Bilardo",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -445,7 +445,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "B",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Carlos Bilardo",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -455,7 +455,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "D",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Alfio Basile",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -465,7 +465,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "H",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Daniel Passarella",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -475,7 +475,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "C",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Jose Pekerman",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -485,7 +485,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "B",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Diego Maradona",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -495,7 +495,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "D",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Jorge Sampaoli",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -505,7 +505,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "C",
-        "director_tecnico": "Alejandro Sabella",
+        "director_tecnico": "Lionel Scaloni",
         "fue_sede": true,
         "anios_sede": [
           1978
@@ -521,7 +521,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "1",
-        "director_tecnico": "Ange Postecoglou",
+        "director_tecnico": "Rale Rasic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -529,7 +529,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "D",
-        "director_tecnico": "Ange Postecoglou",
+        "director_tecnico": "Pim Verbeek",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -545,7 +545,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "C",
-        "director_tecnico": "Ange Postecoglou",
+        "director_tecnico": "Bert Van Marwijk",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -553,7 +553,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "D",
-        "director_tecnico": "Ange Postecoglou",
+        "director_tecnico": "Arnold Graham",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -567,7 +567,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "3",
-        "director_tecnico": "Georg Schmidt",
+        "director_tecnico": "Walter Nausch",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -575,7 +575,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "4",
-        "director_tecnico": "Georg Schmidt",
+        "director_tecnico": "Josef Argauer",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -583,7 +583,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "3",
-        "director_tecnico": "Georg Schmidt",
+        "director_tecnico": "Helmut Senekowitsch",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -591,7 +591,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "A",
-        "director_tecnico": "Georg Schmidt",
+        "director_tecnico": "Helmut Senekowitsch",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -615,7 +615,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "A",
-        "director_tecnico": "Georg Schmidt",
+        "director_tecnico": "Josef Hickersberger",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -623,7 +623,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "B",
-        "director_tecnico": "Georg Schmidt",
+        "director_tecnico": "Herbert Prohaska",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -637,7 +637,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "3",
-        "director_tecnico": "Bert Van Marwijk",
+        "director_tecnico": "Rinus Michels",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -645,7 +645,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "A",
-        "director_tecnico": "Bert Van Marwijk",
+        "director_tecnico": "Rinus Michels",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -653,7 +653,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "4",
-        "director_tecnico": "Bert Van Marwijk",
+        "director_tecnico": "Ernst Happel",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -661,7 +661,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "A",
-        "director_tecnico": "Bert Van Marwijk",
+        "director_tecnico": "Ernst Happel",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -669,7 +669,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "E",
-        "director_tecnico": "Bert Van Marwijk",
+        "director_tecnico": "Guus Hiddink",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -677,7 +677,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "C",
-        "director_tecnico": "Bert Van Marwijk",
+        "director_tecnico": "Marco Van Basten",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -693,7 +693,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "B",
-        "director_tecnico": "Bert Van Marwijk",
+        "director_tecnico": "Louis Van Gaal",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -701,7 +701,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "A",
-        "director_tecnico": "Bert Van Marwijk",
+        "director_tecnico": "Louis Van Gaal",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -715,7 +715,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "2",
-        "director_tecnico": "Mario Pretto",
+        "director_tecnico": "Ulises Saucedo",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -731,7 +731,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "C",
-        "director_tecnico": "Mario Pretto",
+        "director_tecnico": "Xabier Azkargorta",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -750,7 +750,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "2",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Pindaro De Carvalho",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -761,7 +761,7 @@
         "mundial_id": 20,
         "anio": 1950,
         "grupo": "1",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Flavio Costa",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -772,7 +772,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "1",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Zeze Moreira",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -783,7 +783,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "4",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Vicente Feola",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -794,7 +794,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "3",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Aymore Moreira",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -805,7 +805,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "3",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Vicente Feola",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -816,7 +816,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "3",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Zagallo",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -827,7 +827,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "2",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Zagallo",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -838,7 +838,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "A",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Zagallo",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -849,7 +849,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "3",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Claudio Coutinho",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -860,7 +860,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "B",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Claudio Coutinho",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -871,7 +871,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "3",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Tele Santana",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -882,7 +882,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "D",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Tele Santana",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -893,7 +893,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "C",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Sebastiao Lazaroni",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -904,7 +904,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "B",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Carlos Alberto Parreira",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -915,7 +915,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "A",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Zagallo",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -926,7 +926,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "C",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Luiz Felipe Scolari",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -937,7 +937,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "G",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Dunga",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -948,7 +948,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "A",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Luiz Felipe Scolari",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -959,7 +959,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "E",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Tite",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -970,7 +970,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "G",
-        "director_tecnico": "Ademar Pimenta",
+        "director_tecnico": "Tite",
         "fue_sede": true,
         "anios_sede": [
           2014,
@@ -987,7 +987,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "4",
-        "director_tecnico": "Dimitar Penev",
+        "director_tecnico": "Georgi Pachedzhiev",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -995,7 +995,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "3",
-        "director_tecnico": "Dimitar Penev",
+        "director_tecnico": "Rudolf Vytlacil",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1003,7 +1003,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "4",
-        "director_tecnico": "Dimitar Penev",
+        "director_tecnico": "Stefan Bozhkov",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1011,7 +1011,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "3",
-        "director_tecnico": "Dimitar Penev",
+        "director_tecnico": "Hristo Mladenov",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1019,7 +1019,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "A",
-        "director_tecnico": "Dimitar Penev",
+        "director_tecnico": "Ivan Vutsov",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1035,7 +1035,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "D",
-        "director_tecnico": "Dimitar Penev",
+        "director_tecnico": "Hristo Bonev",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1049,7 +1049,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "4",
-        "director_tecnico": "Doug Livingstone",
+        "director_tecnico": "Hector Goetinck",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1065,7 +1065,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "1",
-        "director_tecnico": "Doug Livingstone",
+        "director_tecnico": "Raymond Goethals",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1073,7 +1073,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "C",
-        "director_tecnico": "Doug Livingstone",
+        "director_tecnico": "Guy Thys",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1081,7 +1081,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "1",
-        "director_tecnico": "Doug Livingstone",
+        "director_tecnico": "Guy Thys",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1089,7 +1089,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "B",
-        "director_tecnico": "Doug Livingstone",
+        "director_tecnico": "Guy Thys",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1097,7 +1097,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "E",
-        "director_tecnico": "Doug Livingstone",
+        "director_tecnico": "Guy Thys",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1105,7 +1105,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "E",
-        "director_tecnico": "Doug Livingstone",
+        "director_tecnico": "Georges Leekens",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1113,7 +1113,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "H",
-        "director_tecnico": "Doug Livingstone",
+        "director_tecnico": "Robert Waseige",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1121,7 +1121,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "H",
-        "director_tecnico": "Doug Livingstone",
+        "director_tecnico": "Marc Wilmots",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1129,7 +1129,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "G",
-        "director_tecnico": "Doug Livingstone",
+        "director_tecnico": "Roberto Martinez",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1143,7 +1143,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "A",
-        "director_tecnico": "Claude Le Roy",
+        "director_tecnico": "Jean Vincent",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1151,7 +1151,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "B",
-        "director_tecnico": "Claude Le Roy",
+        "director_tecnico": "Valeri Nepomnyashchi",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1159,7 +1159,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "B",
-        "director_tecnico": "Claude Le Roy",
+        "director_tecnico": "Henri Michel",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1175,7 +1175,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "E",
-        "director_tecnico": "Claude Le Roy",
+        "director_tecnico": "Winnie Schaefer",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1183,7 +1183,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "E",
-        "director_tecnico": "Claude Le Roy",
+        "director_tecnico": "Paul Le Guen",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1191,7 +1191,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "A",
-        "director_tecnico": "Claude Le Roy",
+        "director_tecnico": "Volker Finke",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1199,7 +1199,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "G",
-        "director_tecnico": "Claude Le Roy",
+        "director_tecnico": "Rigobert Song",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1213,7 +1213,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "C",
-        "director_tecnico": "John Herdman",
+        "director_tecnico": "Tony Waiters",
         "fue_sede": true,
         "anios_sede": [
           2026
@@ -1264,7 +1264,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "1",
-        "director_tecnico": "Arturo Bucciardi",
+        "director_tecnico": "Gyorgi Orth",
         "fue_sede": true,
         "anios_sede": [
           1962
@@ -1284,7 +1284,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "2",
-        "director_tecnico": "Arturo Bucciardi",
+        "director_tecnico": "Fernando Riera",
         "fue_sede": true,
         "anios_sede": [
           1962
@@ -1294,7 +1294,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "4",
-        "director_tecnico": "Arturo Bucciardi",
+        "director_tecnico": "Luis Alamos",
         "fue_sede": true,
         "anios_sede": [
           1962
@@ -1304,7 +1304,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "1",
-        "director_tecnico": "Arturo Bucciardi",
+        "director_tecnico": "Luis Alamos",
         "fue_sede": true,
         "anios_sede": [
           1962
@@ -1314,7 +1314,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "B",
-        "director_tecnico": "Arturo Bucciardi",
+        "director_tecnico": "Luis Alberto Santibanez",
         "fue_sede": true,
         "anios_sede": [
           1962
@@ -1324,7 +1324,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "B",
-        "director_tecnico": "Arturo Bucciardi",
+        "director_tecnico": "Nelson Acosta",
         "fue_sede": true,
         "anios_sede": [
           1962
@@ -1334,7 +1334,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "H",
-        "director_tecnico": "Arturo Bucciardi",
+        "director_tecnico": "Marcelo Bielsa",
         "fue_sede": true,
         "anios_sede": [
           1962
@@ -1344,7 +1344,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "B",
-        "director_tecnico": "Arturo Bucciardi",
+        "director_tecnico": "Jorge Sampaoli",
         "fue_sede": true,
         "anios_sede": [
           1962
@@ -1382,7 +1382,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "D",
-        "director_tecnico": "Adolfo Pedernera",
+        "director_tecnico": "Francisco Maturana",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1390,7 +1390,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "A",
-        "director_tecnico": "Adolfo Pedernera",
+        "director_tecnico": "Francisco Maturana",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1398,7 +1398,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "G",
-        "director_tecnico": "Adolfo Pedernera",
+        "director_tecnico": "Hernan Gomez",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1406,7 +1406,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "C",
-        "director_tecnico": "Adolfo Pedernera",
+        "director_tecnico": "Jose Pekerman",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1414,7 +1414,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "H",
-        "director_tecnico": "Adolfo Pedernera",
+        "director_tecnico": "Jose Pekerman",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1433,7 +1433,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "4",
-        "director_tecnico": "Jong Hun Kim",
+        "director_tecnico": "Rye Hyun Myung",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1455,7 +1455,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "2",
-        "director_tecnico": "Dick Advocaat",
+        "director_tecnico": "Yung Sik Kim",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1463,7 +1463,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "A",
-        "director_tecnico": "Dick Advocaat",
+        "director_tecnico": "Jung Nam Kim",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1471,7 +1471,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "E",
-        "director_tecnico": "Dick Advocaat",
+        "director_tecnico": "Hoe Taik Lee",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1479,7 +1479,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "C",
-        "director_tecnico": "Dick Advocaat",
+        "director_tecnico": "Ho Kon Kim",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1487,7 +1487,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "E",
-        "director_tecnico": "Dick Advocaat",
+        "director_tecnico": "Pyung Seok Kim",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1495,7 +1495,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "D",
-        "director_tecnico": "Dick Advocaat",
+        "director_tecnico": "Guus Hiddink",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1511,7 +1511,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "B",
-        "director_tecnico": "Dick Advocaat",
+        "director_tecnico": "Jung Moo Huh",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1519,7 +1519,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "H",
-        "director_tecnico": "Dick Advocaat",
+        "director_tecnico": "Myung-Bo Hong",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1527,7 +1527,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "H",
-        "director_tecnico": "Dick Advocaat",
+        "director_tecnico": "Paulo Bento",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1549,7 +1549,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "G",
-        "director_tecnico": "Henri Michel",
+        "director_tecnico": "Sven Göran Eriksson",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1557,7 +1557,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "C",
-        "director_tecnico": "Henri Michel",
+        "director_tecnico": "Sabri Lamouchi",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1571,7 +1571,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "C",
-        "director_tecnico": "Alexandre Guimaraes",
+        "director_tecnico": "Bora Milutinovic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1595,7 +1595,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "D",
-        "director_tecnico": "Alexandre Guimaraes",
+        "director_tecnico": "Jorge Luis Pinto",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1603,7 +1603,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "E",
-        "director_tecnico": "Alexandre Guimaraes",
+        "director_tecnico": "Oscar Ramírez",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1611,7 +1611,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "E",
-        "director_tecnico": "Alexandre Guimaraes",
+        "director_tecnico": "Luis Fernando Suarez",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1625,7 +1625,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "H",
-        "director_tecnico": "Mirko Jozic",
+        "director_tecnico": "Miroslav Blazevic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1641,7 +1641,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "A",
-        "director_tecnico": "Mirko Jozic",
+        "director_tecnico": "Niko Kovac",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1649,7 +1649,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "D",
-        "director_tecnico": "Mirko Jozic",
+        "director_tecnico": "Zlatko Dalic",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1673,7 +1673,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "E",
-        "director_tecnico": "Age Hareide",
+        "director_tecnico": "Sepp Piontek",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1681,7 +1681,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "C",
-        "director_tecnico": "Age Hareide",
+        "director_tecnico": "Bo Johansson",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1689,7 +1689,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "A",
-        "director_tecnico": "Age Hareide",
+        "director_tecnico": "Morten Olsen",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1697,7 +1697,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "E",
-        "director_tecnico": "Age Hareide",
+        "director_tecnico": "Morten Olsen",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1713,7 +1713,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "D",
-        "director_tecnico": "Age Hareide",
+        "director_tecnico": "Kasper Hjulmand",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1727,7 +1727,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "G",
-        "director_tecnico": "Gustavo Alfaro",
+        "director_tecnico": "Hernan Gomez",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1735,7 +1735,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "A",
-        "director_tecnico": "Gustavo Alfaro",
+        "director_tecnico": "Luis Fernando Suarez",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1743,7 +1743,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "E",
-        "director_tecnico": "Gustavo Alfaro",
+        "director_tecnico": "Reinaldo Rueda",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1779,7 +1779,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "3",
-        "director_tecnico": "Alex Ferguson",
+        "director_tecnico": "Dawson Walker",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1787,7 +1787,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "2",
-        "director_tecnico": "Alex Ferguson",
+        "director_tecnico": "Dawson Walker",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1795,7 +1795,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "2",
-        "director_tecnico": "Alex Ferguson",
+        "director_tecnico": "Willie Ormond",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1803,7 +1803,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "4",
-        "director_tecnico": "Alex Ferguson",
+        "director_tecnico": "Alistair Macleod",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1819,7 +1819,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "C",
-        "director_tecnico": "Alex Ferguson",
+        "director_tecnico": "Andy Roxburgh",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -1827,7 +1827,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "A",
-        "director_tecnico": "Alex Ferguson",
+        "director_tecnico": "Craig Brown",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1854,7 +1854,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "C",
-        "director_tecnico": "Danilo Popivoda",
+        "director_tecnico": "Matjaz Kek",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -1868,7 +1868,7 @@
         "mundial_id": 20,
         "anio": 1950,
         "grupo": "2",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Guillermo Eizaguirre",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1878,7 +1878,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "3",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Helenio Herrera",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1888,7 +1888,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "2",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Jose Villalonga",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1898,7 +1898,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "3",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Ladislao Kubala",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1908,7 +1908,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "E",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Jose Santamaria",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1918,7 +1918,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "2",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Jose Santamaria",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1928,7 +1928,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "D",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Miguel Munoz",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1938,7 +1938,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "E",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Luis Suarez",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1948,7 +1948,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "C",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Javier Clemente",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1958,7 +1958,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "D",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Javier Clemente",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1968,7 +1968,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "B",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Jose Antonio Camacho",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1978,7 +1978,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "H",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Luis Aragones",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1988,7 +1988,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "H",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Vicente Del Bosque",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -1998,7 +1998,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "B",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Vicente Del Bosque",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -2008,7 +2008,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "B",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Fernando Hierro",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -2018,7 +2018,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "E",
-        "director_tecnico": "Amadeo Garcia Salazar",
+        "director_tecnico": "Luis Enrique",
         "fue_sede": true,
         "anios_sede": [
           1982
@@ -2034,7 +2034,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "4",
-        "director_tecnico": "Bill Jeffrey",
+        "director_tecnico": "Bob Millar",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -2056,7 +2056,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "A",
-        "director_tecnico": "Bill Jeffrey",
+        "director_tecnico": "Bob Gansler",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -2067,7 +2067,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "A",
-        "director_tecnico": "Bill Jeffrey",
+        "director_tecnico": "Bora Milutinovic",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -2078,7 +2078,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "D",
-        "director_tecnico": "Bill Jeffrey",
+        "director_tecnico": "Bruce Arena",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -2089,7 +2089,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "E",
-        "director_tecnico": "Bill Jeffrey",
+        "director_tecnico": "Bruce Arena",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -2100,7 +2100,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "C",
-        "director_tecnico": "Bill Jeffrey",
+        "director_tecnico": "Bob Bradley",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -2111,7 +2111,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "G",
-        "director_tecnico": "Bill Jeffrey",
+        "director_tecnico": "Juergen Klinsmann",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -2122,7 +2122,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "B",
-        "director_tecnico": "Bill Jeffrey",
+        "director_tecnico": "Gregg Berhalter",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -2147,7 +2147,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "C",
-        "director_tecnico": "Hernan Carrasco",
+        "director_tecnico": "Mauricio Rodriguez",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -2175,7 +2175,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "1",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Raoul Caudron",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2186,7 +2186,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "1",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Pierre Pibarot",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2197,7 +2197,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "2",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Albert Batteaux",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2208,7 +2208,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "1",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Henri Guerin",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2219,7 +2219,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "1",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Michel Hidalgo",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2230,7 +2230,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "D",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Michel Hidalgo",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2241,7 +2241,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "4",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Michel Hidalgo",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2252,7 +2252,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "C",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Henri Michel",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2274,7 +2274,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "A",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Roger Lemerre",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2285,7 +2285,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "G",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Raymond Domenech",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2296,7 +2296,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "A",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Raymond Domenech",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2307,7 +2307,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "E",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Didier Deschamps",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2318,7 +2318,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "C",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Didier Deschamps",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2329,7 +2329,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "D",
-        "director_tecnico": "Aime Jacquet",
+        "director_tecnico": "Didier Deschamps",
         "fue_sede": true,
         "anios_sede": [
           1998,
@@ -2354,7 +2354,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "B",
-        "director_tecnico": "Jimmy Murphy",
+        "director_tecnico": "Rob Page",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -2368,7 +2368,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "E",
-        "director_tecnico": "Kwesi Appiah",
+        "director_tecnico": "Ratomir Dujkovic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2376,7 +2376,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "D",
-        "director_tecnico": "Kwesi Appiah",
+        "director_tecnico": "Milovan Rajevac",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2392,7 +2392,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "H",
-        "director_tecnico": "Kwesi Appiah",
+        "director_tecnico": "Otto Addo",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -2414,7 +2414,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "B",
-        "director_tecnico": "Alkis Panagoulias",
+        "director_tecnico": "Otto Rehhagel",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2422,7 +2422,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "C",
-        "director_tecnico": "Alkis Panagoulias",
+        "director_tecnico": "Fernando Santos",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -2458,7 +2458,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "H",
-        "director_tecnico": "Jose De La Paz",
+        "director_tecnico": "Reinaldo Rueda",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2466,7 +2466,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "E",
-        "director_tecnico": "Jose De La Paz",
+        "director_tecnico": "Luis Fernando Suarez",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -2480,7 +2480,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "2",
-        "director_tecnico": "Alfred Schaffer",
+        "director_tecnico": "Gusztav Sebes",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2488,7 +2488,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "3",
-        "director_tecnico": "Alfred Schaffer",
+        "director_tecnico": "Lajos Baroti",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2496,7 +2496,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "4",
-        "director_tecnico": "Alfred Schaffer",
+        "director_tecnico": "Lajos Baroti",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2504,7 +2504,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "3",
-        "director_tecnico": "Alfred Schaffer",
+        "director_tecnico": "Lajos Baroti",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2512,7 +2512,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "1",
-        "director_tecnico": "Alfred Schaffer",
+        "director_tecnico": "Lajos Baroti",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2520,7 +2520,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "C",
-        "director_tecnico": "Alfred Schaffer",
+        "director_tecnico": "Kalman Meszoly",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2528,7 +2528,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "C",
-        "director_tecnico": "Alfred Schaffer",
+        "director_tecnico": "Gyorgy Mezey",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -2547,7 +2547,7 @@
         "mundial_id": 20,
         "anio": 1950,
         "grupo": "2",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Walter Winterbottom",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2557,7 +2557,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "4",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Walter Winterbottom",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2567,7 +2567,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "4",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Walter Winterbottom",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2577,7 +2577,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "4",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Walter Winterbottom",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2607,7 +2607,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "D",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Ron Greenwood",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2617,7 +2617,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "2",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Ron Greenwood",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2627,7 +2627,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "G",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Glenn Hoddle",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2637,7 +2637,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "B",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Sven Göran Eriksson",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2647,7 +2647,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "C",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Fabio Capello",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2657,7 +2657,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "D",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Roy Hodgson",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2667,7 +2667,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "G",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Gareth Southgate",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2677,7 +2677,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "B",
-        "director_tecnico": "Alf Ramsey",
+        "director_tecnico": "Gareth Southgate",
         "fue_sede": true,
         "anios_sede": [
           1966
@@ -2715,7 +2715,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "E",
-        "director_tecnico": "Jack Charlton",
+        "director_tecnico": "Mick Mc Carthy",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -2729,7 +2729,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "1",
-        "director_tecnico": "Billy Bingham",
+        "director_tecnico": "Peter Doherty",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2767,7 +2767,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "4",
-        "director_tecnico": "Branko Ivankovic",
+        "director_tecnico": "Heshmat Mohadjerani",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2783,7 +2783,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "B",
-        "director_tecnico": "Branko Ivankovic",
+        "director_tecnico": "Carlos Queiroz",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -2791,7 +2791,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "B",
-        "director_tecnico": "Branko Ivankovic",
+        "director_tecnico": "Carlos Queiroz",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -2833,7 +2833,7 @@
         "mundial_id": 20,
         "anio": 1950,
         "grupo": "3",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Ferruccio Novo",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2844,7 +2844,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "4",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Lajos Czeizler",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2855,7 +2855,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "2",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Paolo Mazza",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2866,7 +2866,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "4",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Edmondo Fabbri",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2877,7 +2877,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "2",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Ferruccio Valcareggi",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2888,7 +2888,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "4",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Ferruccio Valcareggi",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2899,7 +2899,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "1",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Enzo Bearzot",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2910,7 +2910,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "A",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Enzo Bearzot",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2921,7 +2921,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "A",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Enzo Bearzot",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2932,7 +2932,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "3",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Enzo Bearzot",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2943,7 +2943,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "A",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Enzo Bearzot",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2954,7 +2954,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "A",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Azeglio Vicini",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2976,7 +2976,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "B",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Cesare Maldini",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2987,7 +2987,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "G",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Giovanni Trapattoni",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -2998,7 +2998,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "E",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Marcello Lippi",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -3009,7 +3009,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "D",
-        "director_tecnico": "Arrigo Sacchi",
+        "director_tecnico": "Cesare Prandelli",
         "fue_sede": true,
         "anios_sede": [
           1990,
@@ -3040,7 +3040,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "H",
-        "director_tecnico": "Akira Nishino",
+        "director_tecnico": "Takeshi Okada",
         "fue_sede": true,
         "anios_sede": [
           2002
@@ -3050,7 +3050,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "H",
-        "director_tecnico": "Akira Nishino",
+        "director_tecnico": "Philippe Troussier",
         "fue_sede": true,
         "anios_sede": [
           2002
@@ -3060,7 +3060,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "E",
-        "director_tecnico": "Akira Nishino",
+        "director_tecnico": "Takeshi Okada",
         "fue_sede": true,
         "anios_sede": [
           2002
@@ -3070,7 +3070,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "C",
-        "director_tecnico": "Akira Nishino",
+        "director_tecnico": "Alberto Zaccheroni",
         "fue_sede": true,
         "anios_sede": [
           2002
@@ -3090,7 +3090,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "E",
-        "director_tecnico": "Akira Nishino",
+        "director_tecnico": "Hajime Moriyasu",
         "fue_sede": true,
         "anios_sede": [
           2002
@@ -3130,7 +3130,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "4",
-        "director_tecnico": "Abdellah Blinda",
+        "director_tecnico": "Blagoje Vidinic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3138,7 +3138,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "A",
-        "director_tecnico": "Abdellah Blinda",
+        "director_tecnico": "Henri Michel",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3146,7 +3146,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "B",
-        "director_tecnico": "Abdellah Blinda",
+        "director_tecnico": "Herve Renard",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -3160,7 +3160,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "1",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Juan Luque",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3172,7 +3172,7 @@
         "mundial_id": 20,
         "anio": 1950,
         "grupo": "1",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Octavio Vial",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3184,7 +3184,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "1",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Ignacio Trellez",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3208,7 +3208,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "3",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Ignacio Trellez",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3220,7 +3220,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "1",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Ignacio Trellez",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3232,7 +3232,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "1",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Raul Cardenas",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3244,7 +3244,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "2",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Jose Roca",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3256,7 +3256,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "B",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Bora Milutinovic",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3268,7 +3268,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "E",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Miguel Mejia Baron",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3280,7 +3280,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "E",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Manuel Lapuente",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3292,7 +3292,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "G",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Javier Aguirre",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3304,7 +3304,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "D",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Ricardo La Volpe",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3316,7 +3316,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "A",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Javier Aguirre",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3328,7 +3328,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "A",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Miguel Herrera",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3340,7 +3340,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "C",
-        "director_tecnico": "Antonio Lopez Herranz",
+        "director_tecnico": "Gerardo Martino",
         "fue_sede": true,
         "anios_sede": [
           2026,
@@ -3363,7 +3363,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "D",
-        "director_tecnico": "Adegboye Onigbinde",
+        "director_tecnico": "Clemens Westerhof",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3371,7 +3371,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "D",
-        "director_tecnico": "Adegboye Onigbinde",
+        "director_tecnico": "Bora Milutinovic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3379,7 +3379,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "B",
-        "director_tecnico": "Adegboye Onigbinde",
+        "director_tecnico": "Lars Lagerback",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3387,7 +3387,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "D",
-        "director_tecnico": "Adegboye Onigbinde",
+        "director_tecnico": "Gernot Rohr",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -3406,7 +3406,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "E",
-        "director_tecnico": "Asbjorn Halvorsen",
+        "director_tecnico": "Egil Olsen",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3414,7 +3414,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "A",
-        "director_tecnico": "Asbjorn Halvorsen",
+        "director_tecnico": "Egil Olsen",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -3455,7 +3455,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "1",
-        "director_tecnico": "Josef Cejp",
+        "director_tecnico": "Karel Kolsky",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3463,7 +3463,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "3",
-        "director_tecnico": "Josef Cejp",
+        "director_tecnico": "Rudolf Vytlacil",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3471,7 +3471,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "3",
-        "director_tecnico": "Josef Cejp",
+        "director_tecnico": "Jozef Marko",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3479,7 +3479,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "D",
-        "director_tecnico": "Josef Cejp",
+        "director_tecnico": "Jozef Venglos",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3487,7 +3487,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "A",
-        "director_tecnico": "Josef Cejp",
+        "director_tecnico": "Jozef Venglos",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -3501,7 +3501,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "4",
-        "director_tecnico": "Anibal Ruiz Leites",
+        "director_tecnico": "Jose Durand Laguna",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3509,7 +3509,7 @@
         "mundial_id": 20,
         "anio": 1950,
         "grupo": "3",
-        "director_tecnico": "Anibal Ruiz Leites",
+        "director_tecnico": "Manuel Fleitas Solich",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3517,7 +3517,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "2",
-        "director_tecnico": "Anibal Ruiz Leites",
+        "director_tecnico": "Aurelio Gonzales",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3525,7 +3525,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "B",
-        "director_tecnico": "Anibal Ruiz Leites",
+        "director_tecnico": "Cayetano Re",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3533,7 +3533,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "D",
-        "director_tecnico": "Anibal Ruiz Leites",
+        "director_tecnico": "Carpegiani",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3541,7 +3541,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "B",
-        "director_tecnico": "Anibal Ruiz Leites",
+        "director_tecnico": "Cesare Maldini",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3563,7 +3563,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "3",
-        "director_tecnico": "Didi",
+        "director_tecnico": "Francisco Bru",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3579,7 +3579,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "4",
-        "director_tecnico": "Didi",
+        "director_tecnico": "Marcos Calderon",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3587,7 +3587,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "B",
-        "director_tecnico": "Didi",
+        "director_tecnico": "Marcos Calderon",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3595,7 +3595,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "A",
-        "director_tecnico": "Didi",
+        "director_tecnico": "Tim",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3603,7 +3603,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "C",
-        "director_tecnico": "Didi",
+        "director_tecnico": "Ricardo Gareca",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -3617,7 +3617,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "4",
-        "director_tecnico": "Adam Nawalka",
+        "director_tecnico": "Kazimierz Gorski",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3625,7 +3625,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "B",
-        "director_tecnico": "Adam Nawalka",
+        "director_tecnico": "Kazimierz Gorski",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3633,7 +3633,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "2",
-        "director_tecnico": "Adam Nawalka",
+        "director_tecnico": "Jacek Gmoch",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3641,7 +3641,7 @@
         "mundial_id": 13,
         "anio": 1978,
         "grupo": "B",
-        "director_tecnico": "Adam Nawalka",
+        "director_tecnico": "Jacek Gmoch",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3649,7 +3649,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "A",
-        "director_tecnico": "Adam Nawalka",
+        "director_tecnico": "Antoni Piechniczek",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3657,7 +3657,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "1",
-        "director_tecnico": "Adam Nawalka",
+        "director_tecnico": "Antoni Piechniczek",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3665,7 +3665,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "D",
-        "director_tecnico": "Adam Nawalka",
+        "director_tecnico": "Jerzy Engel",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3673,7 +3673,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "A",
-        "director_tecnico": "Adam Nawalka",
+        "director_tecnico": "Pawel Janas",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3689,7 +3689,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "C",
-        "director_tecnico": "Adam Nawalka",
+        "director_tecnico": "Czeslaw Michniewicz",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -3703,7 +3703,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "3",
-        "director_tecnico": "Antonio Oliveira",
+        "director_tecnico": "Otto Gloria",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3719,7 +3719,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "D",
-        "director_tecnico": "Antonio Oliveira",
+        "director_tecnico": "Luiz Felipe Scolari",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3727,7 +3727,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "G",
-        "director_tecnico": "Antonio Oliveira",
+        "director_tecnico": "Carlos Queiroz",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3735,7 +3735,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "G",
-        "director_tecnico": "Antonio Oliveira",
+        "director_tecnico": "Paulo Bento",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3743,7 +3743,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "B",
-        "director_tecnico": "Antonio Oliveira",
+        "director_tecnico": "Fernando Santos",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3751,7 +3751,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "H",
-        "director_tecnico": "Antonio Oliveira",
+        "director_tecnico": "Fernando Santos",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -3780,7 +3780,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "3",
-        "director_tecnico": "Alexandru Savulescu",
+        "director_tecnico": "Constantin Radulescu",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3788,7 +3788,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "3",
-        "director_tecnico": "Alexandru Savulescu",
+        "director_tecnico": "Angelo Niculescu",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3796,7 +3796,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "B",
-        "director_tecnico": "Alexandru Savulescu",
+        "director_tecnico": "Emerich Jenei",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3804,7 +3804,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "A",
-        "director_tecnico": "Alexandru Savulescu",
+        "director_tecnico": "Anghel Iordanescu",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3812,7 +3812,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "G",
-        "director_tecnico": "Alexandru Savulescu",
+        "director_tecnico": "Anghel Iordanescu",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -3831,7 +3831,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "B",
-        "director_tecnico": "Fabio Capello",
+        "director_tecnico": "Pavel Sadyrin",
         "fue_sede": true,
         "anios_sede": [
           2018
@@ -3841,7 +3841,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "H",
-        "director_tecnico": "Fabio Capello",
+        "director_tecnico": "Oleg Romantsev",
         "fue_sede": true,
         "anios_sede": [
           2018
@@ -3861,7 +3861,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "A",
-        "director_tecnico": "Fabio Capello",
+        "director_tecnico": "Stanislav Cherchesov",
         "fue_sede": true,
         "anios_sede": [
           2018
@@ -3887,7 +3887,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "A",
-        "director_tecnico": "Aliou Cisse",
+        "director_tecnico": "Bruno Metsu",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3917,7 +3917,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "C",
-        "director_tecnico": "Dragan Stojković",
+        "director_tecnico": "Ilija Petkovic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3925,7 +3925,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "D",
-        "director_tecnico": "Dragan Stojković",
+        "director_tecnico": "Radomir Antic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3933,7 +3933,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "E",
-        "director_tecnico": "Dragan Stojković",
+        "director_tecnico": "Mladen Krstajic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -3955,7 +3955,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "C",
-        "director_tecnico": "Carlos Alberto Parreira",
+        "director_tecnico": "Philippe Troussier",
         "fue_sede": true,
         "anios_sede": [
           2010
@@ -3965,7 +3965,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "B",
-        "director_tecnico": "Carlos Alberto Parreira",
+        "director_tecnico": "Jomo Sono",
         "fue_sede": true,
         "anios_sede": [
           2010
@@ -3991,7 +3991,7 @@
         "mundial_id": 20,
         "anio": 1950,
         "grupo": "3",
-        "director_tecnico": "Georg Ericson",
+        "director_tecnico": "George Raynor",
         "fue_sede": true,
         "anios_sede": [
           1958
@@ -4001,7 +4001,7 @@
         "mundial_id": 18,
         "anio": 1958,
         "grupo": "3",
-        "director_tecnico": "Georg Ericson",
+        "director_tecnico": "George Raynor",
         "fue_sede": true,
         "anios_sede": [
           1958
@@ -4011,7 +4011,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "2",
-        "director_tecnico": "Georg Ericson",
+        "director_tecnico": "Orvar Bergmark",
         "fue_sede": true,
         "anios_sede": [
           1958
@@ -4051,7 +4051,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "C",
-        "director_tecnico": "Georg Ericson",
+        "director_tecnico": "Olle Nordin",
         "fue_sede": true,
         "anios_sede": [
           1958
@@ -4061,7 +4061,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "B",
-        "director_tecnico": "Georg Ericson",
+        "director_tecnico": "Tommy Svensson",
         "fue_sede": true,
         "anios_sede": [
           1958
@@ -4071,7 +4071,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "B",
-        "director_tecnico": "Georg Ericson",
+        "director_tecnico": "Lars Lagerback",
         "fue_sede": true,
         "anios_sede": [
           1958
@@ -4087,7 +4087,7 @@
         "mundial_id": 20,
         "anio": 1950,
         "grupo": "1",
-        "director_tecnico": "Alfredo Foni",
+        "director_tecnico": "Franco Andreoli",
         "fue_sede": true,
         "anios_sede": [
           1954
@@ -4097,7 +4097,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "4",
-        "director_tecnico": "Alfredo Foni",
+        "director_tecnico": "Karl Rappan",
         "fue_sede": true,
         "anios_sede": [
           1954
@@ -4107,7 +4107,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "2",
-        "director_tecnico": "Alfredo Foni",
+        "director_tecnico": "Karl Rappan",
         "fue_sede": true,
         "anios_sede": [
           1954
@@ -4127,7 +4127,7 @@
         "mundial_id": 9,
         "anio": 1994,
         "grupo": "A",
-        "director_tecnico": "Alfredo Foni",
+        "director_tecnico": "Roy Hodgson",
         "fue_sede": true,
         "anios_sede": [
           1954
@@ -4137,7 +4137,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "G",
-        "director_tecnico": "Alfredo Foni",
+        "director_tecnico": "Koebi Kuhn",
         "fue_sede": true,
         "anios_sede": [
           1954
@@ -4147,7 +4147,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "H",
-        "director_tecnico": "Alfredo Foni",
+        "director_tecnico": "Ottmar Hitzfeld",
         "fue_sede": true,
         "anios_sede": [
           1954
@@ -4157,7 +4157,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "E",
-        "director_tecnico": "Alfredo Foni",
+        "director_tecnico": "Ottmar Hitzfeld",
         "fue_sede": true,
         "anios_sede": [
           1954
@@ -4167,7 +4167,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "E",
-        "director_tecnico": "Alfredo Foni",
+        "director_tecnico": "Vladimir Petkovic",
         "fue_sede": true,
         "anios_sede": [
           1954
@@ -4177,7 +4177,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "G",
-        "director_tecnico": "Alfredo Foni",
+        "director_tecnico": "Murat Yakin",
         "fue_sede": true,
         "anios_sede": [
           1954
@@ -4238,7 +4238,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "4",
-        "director_tecnico": "Gavril Kachalin",
+        "director_tecnico": "Nikolai Morozov",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4254,7 +4254,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "1",
-        "director_tecnico": "Gavril Kachalin",
+        "director_tecnico": "Kostantin Beskov",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4262,7 +4262,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "C",
-        "director_tecnico": "Gavril Kachalin",
+        "director_tecnico": "Valeriy Lobanovskyi",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4270,7 +4270,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "B",
-        "director_tecnico": "Gavril Kachalin",
+        "director_tecnico": "Valeriy Lobanovskyi",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -4320,7 +4320,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "C",
-        "director_tecnico": "Alessandro Puppo",
+        "director_tecnico": "Senol Gunes",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -4342,7 +4342,7 @@
         "mundial_id": 8,
         "anio": 1998,
         "grupo": "G",
-        "director_tecnico": "Abdelmajid Chetali",
+        "director_tecnico": "Henryk Kasperczak",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4350,7 +4350,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "H",
-        "director_tecnico": "Abdelmajid Chetali",
+        "director_tecnico": "Ammar Souayah",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4358,7 +4358,7 @@
         "mundial_id": 6,
         "anio": 2006,
         "grupo": "H",
-        "director_tecnico": "Abdelmajid Chetali",
+        "director_tecnico": "Roger Lemerre",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4366,7 +4366,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "G",
-        "director_tecnico": "Abdelmajid Chetali",
+        "director_tecnico": "Nabil Maaloul",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4374,7 +4374,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "D",
-        "director_tecnico": "Abdelmajid Chetali",
+        "director_tecnico": "Jalel Kadri",
         "fue_sede": false,
         "anios_sede": []
       }
@@ -4412,7 +4412,7 @@
         "mundial_id": 20,
         "anio": 1950,
         "grupo": "4",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Juan Lopez",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4422,7 +4422,7 @@
         "mundial_id": 19,
         "anio": 1954,
         "grupo": "3",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Juan Lopez",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4432,7 +4432,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "1",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Juan Carlos Corazzo",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4442,7 +4442,7 @@
         "mundial_id": 16,
         "anio": 1966,
         "grupo": "1",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Ondino Viera",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4452,7 +4452,7 @@
         "mundial_id": 15,
         "anio": 1970,
         "grupo": "2",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Juan Hohberg",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4462,7 +4462,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "3",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Roberto Porta",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4472,7 +4472,7 @@
         "mundial_id": 11,
         "anio": 1986,
         "grupo": "E",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Omar Borras",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4482,7 +4482,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "E",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Óscar Tabárez",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4492,7 +4492,7 @@
         "mundial_id": 7,
         "anio": 2002,
         "grupo": "A",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Victor Pua",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4502,7 +4502,7 @@
         "mundial_id": 5,
         "anio": 2010,
         "grupo": "A",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Óscar Tabárez",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4512,7 +4512,7 @@
         "mundial_id": 4,
         "anio": 2014,
         "grupo": "D",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Óscar Tabárez",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4522,7 +4522,7 @@
         "mundial_id": 3,
         "anio": 2018,
         "grupo": "A",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Óscar Tabárez",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4532,7 +4532,7 @@
         "mundial_id": 2,
         "anio": 2022,
         "grupo": "H",
-        "director_tecnico": "Alberto Suppici",
+        "director_tecnico": "Diego Alonso",
         "fue_sede": true,
         "anios_sede": [
           1930
@@ -4563,7 +4563,7 @@
         "mundial_id": 23,
         "anio": 1930,
         "grupo": "2",
-        "director_tecnico": "Aleksandar Tirnanic",
+        "director_tecnico": "Bosko Simonovic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4571,7 +4571,7 @@
         "mundial_id": 20,
         "anio": 1950,
         "grupo": "1",
-        "director_tecnico": "Aleksandar Tirnanic",
+        "director_tecnico": "Milorad Arsenijevic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4595,7 +4595,7 @@
         "mundial_id": 17,
         "anio": 1962,
         "grupo": "1",
-        "director_tecnico": "Aleksandar Tirnanic",
+        "director_tecnico": "Prvoslav Mihajlovic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4603,7 +4603,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "2",
-        "director_tecnico": "Aleksandar Tirnanic",
+        "director_tecnico": "Miljan Miljanic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4611,7 +4611,7 @@
         "mundial_id": 14,
         "anio": 1974,
         "grupo": "B",
-        "director_tecnico": "Aleksandar Tirnanic",
+        "director_tecnico": "Miljan Miljanic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4619,7 +4619,7 @@
         "mundial_id": 12,
         "anio": 1982,
         "grupo": "E",
-        "director_tecnico": "Aleksandar Tirnanic",
+        "director_tecnico": "Miljan Miljanic",
         "fue_sede": false,
         "anios_sede": []
       },
@@ -4627,7 +4627,7 @@
         "mundial_id": 10,
         "anio": 1990,
         "grupo": "D",
-        "director_tecnico": "Aleksandar Tirnanic",
+        "director_tecnico": "Ivica Osim",
         "fue_sede": false,
         "anios_sede": []
       }

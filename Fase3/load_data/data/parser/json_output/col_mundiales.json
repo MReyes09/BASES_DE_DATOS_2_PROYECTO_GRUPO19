@@ -28,7 +28,7 @@
           {
             "pais_id": 10,
             "pais": "Países Bajos",
-            "director_tecnico": "Bert Van Marwijk"
+            "director_tecnico": "Louis Van Gaal"
           },
           {
             "pais_id": 84,
@@ -43,22 +43,22 @@
           {
             "pais_id": 39,
             "pais": "Estados Unidos",
-            "director_tecnico": "Bill Jeffrey"
+            "director_tecnico": "Gregg Berhalter"
           },
           {
             "pais_id": 43,
             "pais": "Gales",
-            "director_tecnico": "Jimmy Murphy"
+            "director_tecnico": "Rob Page"
           },
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Gareth Southgate"
           },
           {
             "pais_id": 54,
             "pais": "Irán",
-            "director_tecnico": "Branko Ivankovic"
+            "director_tecnico": "Carlos Queiroz"
           }
         ]
       },
@@ -73,17 +73,17 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Lionel Scaloni"
           },
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Gerardo Martino"
           },
           {
             "pais_id": 74,
             "pais": "Polonia",
-            "director_tecnico": "Adam Nawalka"
+            "director_tecnico": "Czeslaw Michniewicz"
           }
         ]
       },
@@ -93,22 +93,22 @@
           {
             "pais_id": 8,
             "pais": "Australia",
-            "director_tecnico": "Ange Postecoglou"
+            "director_tecnico": "Arnold Graham"
           },
           {
             "pais_id": 32,
             "pais": "Dinamarca",
-            "director_tecnico": "Age Hareide"
+            "director_tecnico": "Kasper Hjulmand"
           },
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Didier Deschamps"
           },
           {
             "pais_id": 97,
             "pais": "Túnez",
-            "director_tecnico": "Abdelmajid Chetali"
+            "director_tecnico": "Jalel Kadri"
           }
         ]
       },
@@ -118,22 +118,22 @@
           {
             "pais_id": 1,
             "pais": "Alemania",
-            "director_tecnico": "Berti Vogts"
+            "director_tecnico": "Hansi Flick"
           },
           {
             "pais_id": 28,
             "pais": "Costa Rica",
-            "director_tecnico": "Alexandre Guimaraes"
+            "director_tecnico": "Luis Fernando Suarez"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Luis Enrique"
           },
           {
             "pais_id": 59,
             "pais": "Japón",
-            "director_tecnico": "Akira Nishino"
+            "director_tecnico": "Hajime Moriyasu"
           }
         ]
       },
@@ -143,12 +143,12 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Tite"
           },
           {
             "pais_id": 16,
             "pais": "Camerún",
-            "director_tecnico": "Claude Le Roy"
+            "director_tecnico": "Rigobert Song"
           },
           {
             "pais_id": 85,
@@ -158,7 +158,7 @@
           {
             "pais_id": 88,
             "pais": "Suiza",
-            "director_tecnico": "Alfredo Foni"
+            "director_tecnico": "Murat Yakin"
           }
         ]
       },
@@ -168,22 +168,22 @@
           {
             "pais_id": 26,
             "pais": "Corea del Sur",
-            "director_tecnico": "Dick Advocaat"
+            "director_tecnico": "Paulo Bento"
           },
           {
             "pais_id": 44,
             "pais": "Ghana",
-            "director_tecnico": "Kwesi Appiah"
+            "director_tecnico": "Otto Addo"
           },
           {
             "pais_id": 75,
             "pais": "Portugal",
-            "director_tecnico": "Antonio Oliveira"
+            "director_tecnico": "Fernando Santos"
           },
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Diego Alonso"
           }
         ]
       }
@@ -10051,7 +10051,7 @@
           {
             "pais_id": 5,
             "pais": "Arabia Saudita",
-            "director_tecnico": "Herve Renard"
+            "director_tecnico": "Juan Antonio Pizzi"
           },
           {
             "pais_id": 34,
@@ -10061,12 +10061,12 @@
           {
             "pais_id": 81,
             "pais": "Rusia",
-            "director_tecnico": "Fabio Capello"
+            "director_tecnico": "Stanislav Cherchesov"
           },
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Óscar Tabárez"
           }
         ]
       },
@@ -10076,22 +10076,22 @@
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Fernando Hierro"
           },
           {
             "pais_id": 54,
             "pais": "Irán",
-            "director_tecnico": "Branko Ivankovic"
+            "director_tecnico": "Carlos Queiroz"
           },
           {
             "pais_id": 63,
             "pais": "Marruecos",
-            "director_tecnico": "Abdellah Blinda"
+            "director_tecnico": "Herve Renard"
           },
           {
             "pais_id": 75,
             "pais": "Portugal",
-            "director_tecnico": "Antonio Oliveira"
+            "director_tecnico": "Fernando Santos"
           }
         ]
       },
@@ -10101,7 +10101,7 @@
           {
             "pais_id": 8,
             "pais": "Australia",
-            "director_tecnico": "Ange Postecoglou"
+            "director_tecnico": "Bert Van Marwijk"
           },
           {
             "pais_id": 32,
@@ -10111,12 +10111,12 @@
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Didier Deschamps"
           },
           {
             "pais_id": 73,
             "pais": "Perú",
-            "director_tecnico": "Didi"
+            "director_tecnico": "Ricardo Gareca"
           }
         ]
       },
@@ -10126,12 +10126,12 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Jorge Sampaoli"
           },
           {
             "pais_id": 29,
             "pais": "Croacia",
-            "director_tecnico": "Mirko Jozic"
+            "director_tecnico": "Zlatko Dalic"
           },
           {
             "pais_id": 55,
@@ -10141,7 +10141,7 @@
           {
             "pais_id": 66,
             "pais": "Nigeria",
-            "director_tecnico": "Adegboye Onigbinde"
+            "director_tecnico": "Gernot Rohr"
           }
         ]
       },
@@ -10151,22 +10151,22 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Tite"
           },
           {
             "pais_id": 28,
             "pais": "Costa Rica",
-            "director_tecnico": "Alexandre Guimaraes"
+            "director_tecnico": "Oscar Ramírez"
           },
           {
             "pais_id": 85,
             "pais": "Serbia",
-            "director_tecnico": "Dragan Stojković"
+            "director_tecnico": "Mladen Krstajic"
           },
           {
             "pais_id": 88,
             "pais": "Suiza",
-            "director_tecnico": "Alfredo Foni"
+            "director_tecnico": "Vladimir Petkovic"
           }
         ]
       },
@@ -10176,12 +10176,12 @@
           {
             "pais_id": 15,
             "pais": "Bélgica",
-            "director_tecnico": "Doug Livingstone"
+            "director_tecnico": "Roberto Martinez"
           },
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Gareth Southgate"
           },
           {
             "pais_id": 70,
@@ -10191,7 +10191,7 @@
           {
             "pais_id": 97,
             "pais": "Túnez",
-            "director_tecnico": "Abdelmajid Chetali"
+            "director_tecnico": "Nabil Maaloul"
           }
         ]
       },
@@ -10201,7 +10201,7 @@
           {
             "pais_id": 23,
             "pais": "Colombia",
-            "director_tecnico": "Adolfo Pedernera"
+            "director_tecnico": "Jose Pekerman"
           },
           {
             "pais_id": 59,
@@ -18040,22 +18040,22 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Luiz Felipe Scolari"
           },
           {
             "pais_id": 16,
             "pais": "Camerún",
-            "director_tecnico": "Claude Le Roy"
+            "director_tecnico": "Volker Finke"
           },
           {
             "pais_id": 29,
             "pais": "Croacia",
-            "director_tecnico": "Mirko Jozic"
+            "director_tecnico": "Niko Kovac"
           },
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Miguel Herrera"
           }
         ]
       },
@@ -18070,17 +18070,17 @@
           {
             "pais_id": 21,
             "pais": "Chile",
-            "director_tecnico": "Arturo Bucciardi"
+            "director_tecnico": "Jorge Sampaoli"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Vicente Del Bosque"
           },
           {
             "pais_id": 10,
             "pais": "Países Bajos",
-            "director_tecnico": "Bert Van Marwijk"
+            "director_tecnico": "Louis Van Gaal"
           }
         ]
       },
@@ -18090,22 +18090,22 @@
           {
             "pais_id": 23,
             "pais": "Colombia",
-            "director_tecnico": "Adolfo Pedernera"
+            "director_tecnico": "Jose Pekerman"
           },
           {
             "pais_id": 27,
             "pais": "Costa de Marfil",
-            "director_tecnico": "Henri Michel"
+            "director_tecnico": "Sabri Lamouchi"
           },
           {
             "pais_id": 45,
             "pais": "Grecia",
-            "director_tecnico": "Alkis Panagoulias"
+            "director_tecnico": "Fernando Santos"
           },
           {
             "pais_id": 59,
             "pais": "Japón",
-            "director_tecnico": "Akira Nishino"
+            "director_tecnico": "Alberto Zaccheroni"
           }
         ]
       },
@@ -18115,22 +18115,22 @@
           {
             "pais_id": 28,
             "pais": "Costa Rica",
-            "director_tecnico": "Alexandre Guimaraes"
+            "director_tecnico": "Jorge Luis Pinto"
           },
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Roy Hodgson"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Cesare Prandelli"
           },
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Óscar Tabárez"
           }
         ]
       },
@@ -18140,22 +18140,22 @@
           {
             "pais_id": 33,
             "pais": "Ecuador",
-            "director_tecnico": "Gustavo Alfaro"
+            "director_tecnico": "Reinaldo Rueda"
           },
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Didier Deschamps"
           },
           {
             "pais_id": 47,
             "pais": "Honduras",
-            "director_tecnico": "Jose De La Paz"
+            "director_tecnico": "Luis Fernando Suarez"
           },
           {
             "pais_id": 88,
             "pais": "Suiza",
-            "director_tecnico": "Alfredo Foni"
+            "director_tecnico": "Ottmar Hitzfeld"
           }
         ]
       },
@@ -18165,12 +18165,12 @@
           {
             "pais_id": 1,
             "pais": "Alemania",
-            "director_tecnico": "Berti Vogts"
+            "director_tecnico": "Joachim Löw"
           },
           {
             "pais_id": 39,
             "pais": "Estados Unidos",
-            "director_tecnico": "Bill Jeffrey"
+            "director_tecnico": "Juergen Klinsmann"
           },
           {
             "pais_id": 44,
@@ -18180,7 +18180,7 @@
           {
             "pais_id": 75,
             "pais": "Portugal",
-            "director_tecnico": "Antonio Oliveira"
+            "director_tecnico": "Paulo Bento"
           }
         ]
       },
@@ -18190,17 +18190,17 @@
           {
             "pais_id": 6,
             "pais": "Argelia",
-            "director_tecnico": "Rabah Saadane"
+            "director_tecnico": "Vahid Halilhodzic"
           },
           {
             "pais_id": 15,
             "pais": "Bélgica",
-            "director_tecnico": "Doug Livingstone"
+            "director_tecnico": "Marc Wilmots"
           },
           {
             "pais_id": 26,
             "pais": "Corea del Sur",
-            "director_tecnico": "Dick Advocaat"
+            "director_tecnico": "Myung-Bo Hong"
           },
           {
             "pais_id": 81,
@@ -25749,12 +25749,12 @@
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Raymond Domenech"
           },
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Javier Aguirre"
           },
           {
             "pais_id": 86,
@@ -25764,7 +25764,7 @@
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Óscar Tabárez"
           }
         ]
       },
@@ -25774,22 +25774,22 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Diego Maradona"
           },
           {
             "pais_id": 26,
             "pais": "Corea del Sur",
-            "director_tecnico": "Dick Advocaat"
+            "director_tecnico": "Jung Moo Huh"
           },
           {
             "pais_id": 45,
             "pais": "Grecia",
-            "director_tecnico": "Alkis Panagoulias"
+            "director_tecnico": "Otto Rehhagel"
           },
           {
             "pais_id": 66,
             "pais": "Nigeria",
-            "director_tecnico": "Adegboye Onigbinde"
+            "director_tecnico": "Lars Lagerback"
           }
         ]
       },
@@ -25804,17 +25804,17 @@
           {
             "pais_id": 37,
             "pais": "Eslovenia",
-            "director_tecnico": "Danilo Popivoda"
+            "director_tecnico": "Matjaz Kek"
           },
           {
             "pais_id": 39,
             "pais": "Estados Unidos",
-            "director_tecnico": "Bill Jeffrey"
+            "director_tecnico": "Bob Bradley"
           },
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Fabio Capello"
           }
         ]
       },
@@ -25824,22 +25824,22 @@
           {
             "pais_id": 1,
             "pais": "Alemania",
-            "director_tecnico": "Berti Vogts"
+            "director_tecnico": "Joachim Löw"
           },
           {
             "pais_id": 8,
             "pais": "Australia",
-            "director_tecnico": "Ange Postecoglou"
+            "director_tecnico": "Pim Verbeek"
           },
           {
             "pais_id": 44,
             "pais": "Ghana",
-            "director_tecnico": "Kwesi Appiah"
+            "director_tecnico": "Milovan Rajevac"
           },
           {
             "pais_id": 85,
             "pais": "Serbia",
-            "director_tecnico": "Dragan Stojković"
+            "director_tecnico": "Radomir Antic"
           }
         ]
       },
@@ -25849,17 +25849,17 @@
           {
             "pais_id": 16,
             "pais": "Camerún",
-            "director_tecnico": "Claude Le Roy"
+            "director_tecnico": "Paul Le Guen"
           },
           {
             "pais_id": 32,
             "pais": "Dinamarca",
-            "director_tecnico": "Age Hareide"
+            "director_tecnico": "Morten Olsen"
           },
           {
             "pais_id": 59,
             "pais": "Japón",
-            "director_tecnico": "Akira Nishino"
+            "director_tecnico": "Takeshi Okada"
           },
           {
             "pais_id": 10,
@@ -25874,7 +25874,7 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Dunga"
           },
           {
             "pais_id": 25,
@@ -25884,12 +25884,12 @@
           {
             "pais_id": 27,
             "pais": "Costa de Marfil",
-            "director_tecnico": "Henri Michel"
+            "director_tecnico": "Sven Göran Eriksson"
           },
           {
             "pais_id": 75,
             "pais": "Portugal",
-            "director_tecnico": "Antonio Oliveira"
+            "director_tecnico": "Carlos Queiroz"
           }
         ]
       },
@@ -25899,22 +25899,22 @@
           {
             "pais_id": 21,
             "pais": "Chile",
-            "director_tecnico": "Arturo Bucciardi"
+            "director_tecnico": "Marcelo Bielsa"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Vicente Del Bosque"
           },
           {
             "pais_id": 47,
             "pais": "Honduras",
-            "director_tecnico": "Jose De La Paz"
+            "director_tecnico": "Reinaldo Rueda"
           },
           {
             "pais_id": 88,
             "pais": "Suiza",
-            "director_tecnico": "Alfredo Foni"
+            "director_tecnico": "Ottmar Hitzfeld"
           }
         ]
       }
@@ -33540,7 +33540,7 @@
           {
             "pais_id": 1,
             "pais": "Alemania",
-            "director_tecnico": "Berti Vogts"
+            "director_tecnico": "Juergen Klinsmann"
           },
           {
             "pais_id": 28,
@@ -33550,12 +33550,12 @@
           {
             "pais_id": 33,
             "pais": "Ecuador",
-            "director_tecnico": "Gustavo Alfaro"
+            "director_tecnico": "Luis Fernando Suarez"
           },
           {
             "pais_id": 74,
             "pais": "Polonia",
-            "director_tecnico": "Adam Nawalka"
+            "director_tecnico": "Pawel Janas"
           }
         ]
       },
@@ -33565,7 +33565,7 @@
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Sven Göran Eriksson"
           },
           {
             "pais_id": 72,
@@ -33575,7 +33575,7 @@
           {
             "pais_id": 87,
             "pais": "Suecia",
-            "director_tecnico": "Georg Ericson"
+            "director_tecnico": "Lars Lagerback"
           },
           {
             "pais_id": 91,
@@ -33590,7 +33590,7 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Jose Pekerman"
           },
           {
             "pais_id": 27,
@@ -33600,12 +33600,12 @@
           {
             "pais_id": 10,
             "pais": "Países Bajos",
-            "director_tecnico": "Bert Van Marwijk"
+            "director_tecnico": "Marco Van Basten"
           },
           {
             "pais_id": 85,
             "pais": "Serbia",
-            "director_tecnico": "Dragan Stojković"
+            "director_tecnico": "Ilija Petkovic"
           }
         ]
       },
@@ -33625,12 +33625,12 @@
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Ricardo La Volpe"
           },
           {
             "pais_id": 75,
             "pais": "Portugal",
-            "director_tecnico": "Antonio Oliveira"
+            "director_tecnico": "Luiz Felipe Scolari"
           }
         ]
       },
@@ -33640,17 +33640,17 @@
           {
             "pais_id": 39,
             "pais": "Estados Unidos",
-            "director_tecnico": "Bill Jeffrey"
+            "director_tecnico": "Bruce Arena"
           },
           {
             "pais_id": 44,
             "pais": "Ghana",
-            "director_tecnico": "Kwesi Appiah"
+            "director_tecnico": "Ratomir Dujkovic"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Marcello Lippi"
           },
           {
             "pais_id": 20,
@@ -33670,12 +33670,12 @@
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Raymond Domenech"
           },
           {
             "pais_id": 88,
             "pais": "Suiza",
-            "director_tecnico": "Alfredo Foni"
+            "director_tecnico": "Koebi Kuhn"
           },
           {
             "pais_id": 94,
@@ -33690,17 +33690,17 @@
           {
             "pais_id": 5,
             "pais": "Arabia Saudita",
-            "director_tecnico": "Herve Renard"
+            "director_tecnico": "Marcos Paqueta"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Luis Aragones"
           },
           {
             "pais_id": 97,
             "pais": "Túnez",
-            "director_tecnico": "Abdelmajid Chetali"
+            "director_tecnico": "Roger Lemerre"
           },
           {
             "pais_id": 98,
@@ -41978,22 +41978,22 @@
           {
             "pais_id": 32,
             "pais": "Dinamarca",
-            "director_tecnico": "Age Hareide"
+            "director_tecnico": "Morten Olsen"
           },
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Roger Lemerre"
           },
           {
             "pais_id": 84,
             "pais": "Senegal",
-            "director_tecnico": "Aliou Cisse"
+            "director_tecnico": "Bruno Metsu"
           },
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Victor Pua"
           }
         ]
       },
@@ -42008,17 +42008,17 @@
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Jose Antonio Camacho"
           },
           {
             "pais_id": 72,
             "pais": "Paraguay",
-            "director_tecnico": "Anibal Ruiz Leites"
+            "director_tecnico": "Cesare Maldini"
           },
           {
             "pais_id": 86,
             "pais": "Sudáfrica",
-            "director_tecnico": "Carlos Alberto Parreira"
+            "director_tecnico": "Jomo Sono"
           }
         ]
       },
@@ -42028,7 +42028,7 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Luiz Felipe Scolari"
           },
           {
             "pais_id": 22,
@@ -42043,7 +42043,7 @@
           {
             "pais_id": 96,
             "pais": "Turquía",
-            "director_tecnico": "Alessandro Puppo"
+            "director_tecnico": "Senol Gunes"
           }
         ]
       },
@@ -42053,17 +42053,17 @@
           {
             "pais_id": 26,
             "pais": "Corea del Sur",
-            "director_tecnico": "Dick Advocaat"
+            "director_tecnico": "Guus Hiddink"
           },
           {
             "pais_id": 39,
             "pais": "Estados Unidos",
-            "director_tecnico": "Bill Jeffrey"
+            "director_tecnico": "Bruce Arena"
           },
           {
             "pais_id": 74,
             "pais": "Polonia",
-            "director_tecnico": "Adam Nawalka"
+            "director_tecnico": "Jerzy Engel"
           },
           {
             "pais_id": 75,
@@ -42078,22 +42078,22 @@
           {
             "pais_id": 1,
             "pais": "Alemania",
-            "director_tecnico": "Berti Vogts"
+            "director_tecnico": "Rudi Voeller"
           },
           {
             "pais_id": 5,
             "pais": "Arabia Saudita",
-            "director_tecnico": "Herve Renard"
+            "director_tecnico": "Nasser Al Johar"
           },
           {
             "pais_id": 16,
             "pais": "Camerún",
-            "director_tecnico": "Claude Le Roy"
+            "director_tecnico": "Winnie Schaefer"
           },
           {
             "pais_id": 52,
             "pais": "Irlanda",
-            "director_tecnico": "Jack Charlton"
+            "director_tecnico": "Mick Mc Carthy"
           }
         ]
       },
@@ -42108,17 +42108,17 @@
           {
             "pais_id": 33,
             "pais": "Ecuador",
-            "director_tecnico": "Gustavo Alfaro"
+            "director_tecnico": "Hernan Gomez"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Giovanni Trapattoni"
           },
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Javier Aguirre"
           }
         ]
       },
@@ -42128,22 +42128,22 @@
           {
             "pais_id": 15,
             "pais": "Bélgica",
-            "director_tecnico": "Doug Livingstone"
+            "director_tecnico": "Robert Waseige"
           },
           {
             "pais_id": 59,
             "pais": "Japón",
-            "director_tecnico": "Akira Nishino"
+            "director_tecnico": "Philippe Troussier"
           },
           {
             "pais_id": 81,
             "pais": "Rusia",
-            "director_tecnico": "Fabio Capello"
+            "director_tecnico": "Oleg Romantsev"
           },
           {
             "pais_id": 97,
             "pais": "Túnez",
-            "director_tecnico": "Abdelmajid Chetali"
+            "director_tecnico": "Ammar Souayah"
           }
         ]
       }
@@ -49906,22 +49906,22 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Zagallo"
           },
           {
             "pais_id": 35,
             "pais": "Escocia",
-            "director_tecnico": "Alex Ferguson"
+            "director_tecnico": "Craig Brown"
           },
           {
             "pais_id": 63,
             "pais": "Marruecos",
-            "director_tecnico": "Abdellah Blinda"
+            "director_tecnico": "Henri Michel"
           },
           {
             "pais_id": 68,
             "pais": "Noruega",
-            "director_tecnico": "Asbjorn Halvorsen"
+            "director_tecnico": "Egil Olsen"
           }
         ]
       },
@@ -49931,7 +49931,7 @@
           {
             "pais_id": 9,
             "pais": "Austria",
-            "director_tecnico": "Georg Schmidt"
+            "director_tecnico": "Herbert Prohaska"
           },
           {
             "pais_id": 16,
@@ -49941,12 +49941,12 @@
           {
             "pais_id": 21,
             "pais": "Chile",
-            "director_tecnico": "Arturo Bucciardi"
+            "director_tecnico": "Nelson Acosta"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Cesare Maldini"
           }
         ]
       },
@@ -49956,12 +49956,12 @@
           {
             "pais_id": 5,
             "pais": "Arabia Saudita",
-            "director_tecnico": "Herve Renard"
+            "director_tecnico": "Mohammed Al Kharashy"
           },
           {
             "pais_id": 32,
             "pais": "Dinamarca",
-            "director_tecnico": "Age Hareide"
+            "director_tecnico": "Bo Johansson"
           },
           {
             "pais_id": 42,
@@ -49971,7 +49971,7 @@
           {
             "pais_id": 86,
             "pais": "Sudáfrica",
-            "director_tecnico": "Carlos Alberto Parreira"
+            "director_tecnico": "Philippe Troussier"
           }
         ]
       },
@@ -49981,22 +49981,22 @@
           {
             "pais_id": 14,
             "pais": "Bulgaria",
-            "director_tecnico": "Dimitar Penev"
+            "director_tecnico": "Hristo Bonev"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Javier Clemente"
           },
           {
             "pais_id": 66,
             "pais": "Nigeria",
-            "director_tecnico": "Adegboye Onigbinde"
+            "director_tecnico": "Bora Milutinovic"
           },
           {
             "pais_id": 72,
             "pais": "Paraguay",
-            "director_tecnico": "Anibal Ruiz Leites"
+            "director_tecnico": "Carpegiani"
           }
         ]
       },
@@ -50006,22 +50006,22 @@
           {
             "pais_id": 15,
             "pais": "Bélgica",
-            "director_tecnico": "Doug Livingstone"
+            "director_tecnico": "Georges Leekens"
           },
           {
             "pais_id": 26,
             "pais": "Corea del Sur",
-            "director_tecnico": "Dick Advocaat"
+            "director_tecnico": "Pyung Seok Kim"
           },
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Manuel Lapuente"
           },
           {
             "pais_id": 10,
             "pais": "Países Bajos",
-            "director_tecnico": "Bert Van Marwijk"
+            "director_tecnico": "Guus Hiddink"
           }
         ]
       },
@@ -50031,22 +50031,22 @@
           {
             "pais_id": 23,
             "pais": "Colombia",
-            "director_tecnico": "Adolfo Pedernera"
+            "director_tecnico": "Hernan Gomez"
           },
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Glenn Hoddle"
           },
           {
             "pais_id": 79,
             "pais": "Rumania",
-            "director_tecnico": "Alexandru Savulescu"
+            "director_tecnico": "Anghel Iordanescu"
           },
           {
             "pais_id": 97,
             "pais": "Túnez",
-            "director_tecnico": "Abdelmajid Chetali"
+            "director_tecnico": "Henryk Kasperczak"
           }
         ]
       },
@@ -50056,12 +50056,12 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Daniel Passarella"
           },
           {
             "pais_id": 29,
             "pais": "Croacia",
-            "director_tecnico": "Mirko Jozic"
+            "director_tecnico": "Miroslav Blazevic"
           },
           {
             "pais_id": 58,
@@ -50071,7 +50071,7 @@
           {
             "pais_id": 59,
             "pais": "Japón",
-            "director_tecnico": "Akira Nishino"
+            "director_tecnico": "Takeshi Okada"
           }
         ]
       }
@@ -57753,22 +57753,22 @@
           {
             "pais_id": 23,
             "pais": "Colombia",
-            "director_tecnico": "Adolfo Pedernera"
+            "director_tecnico": "Francisco Maturana"
           },
           {
             "pais_id": 39,
             "pais": "Estados Unidos",
-            "director_tecnico": "Bill Jeffrey"
+            "director_tecnico": "Bora Milutinovic"
           },
           {
             "pais_id": 79,
             "pais": "Rumania",
-            "director_tecnico": "Alexandru Savulescu"
+            "director_tecnico": "Anghel Iordanescu"
           },
           {
             "pais_id": 88,
             "pais": "Suiza",
-            "director_tecnico": "Alfredo Foni"
+            "director_tecnico": "Roy Hodgson"
           }
         ]
       },
@@ -57778,22 +57778,22 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Carlos Alberto Parreira"
           },
           {
             "pais_id": 16,
             "pais": "Camerún",
-            "director_tecnico": "Claude Le Roy"
+            "director_tecnico": "Henri Michel"
           },
           {
             "pais_id": 81,
             "pais": "Rusia",
-            "director_tecnico": "Fabio Capello"
+            "director_tecnico": "Pavel Sadyrin"
           },
           {
             "pais_id": 87,
             "pais": "Suecia",
-            "director_tecnico": "Georg Ericson"
+            "director_tecnico": "Tommy Svensson"
           }
         ]
       },
@@ -57808,17 +57808,17 @@
           {
             "pais_id": 11,
             "pais": "Bolivia",
-            "director_tecnico": "Mario Pretto"
+            "director_tecnico": "Xabier Azkargorta"
           },
           {
             "pais_id": 26,
             "pais": "Corea del Sur",
-            "director_tecnico": "Dick Advocaat"
+            "director_tecnico": "Ho Kon Kim"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Javier Clemente"
           }
         ]
       },
@@ -57828,7 +57828,7 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Alfio Basile"
           },
           {
             "pais_id": 14,
@@ -57843,7 +57843,7 @@
           {
             "pais_id": 66,
             "pais": "Nigeria",
-            "director_tecnico": "Adegboye Onigbinde"
+            "director_tecnico": "Clemens Westerhof"
           }
         ]
       },
@@ -57863,12 +57863,12 @@
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Miguel Mejia Baron"
           },
           {
             "pais_id": 68,
             "pais": "Noruega",
-            "director_tecnico": "Asbjorn Halvorsen"
+            "director_tecnico": "Egil Olsen"
           }
         ]
       }
@@ -63507,22 +63507,22 @@
           {
             "pais_id": 9,
             "pais": "Austria",
-            "director_tecnico": "Georg Schmidt"
+            "director_tecnico": "Josef Hickersberger"
           },
           {
             "pais_id": 71,
             "pais": "Checoslovaquia",
-            "director_tecnico": "Josef Cejp"
+            "director_tecnico": "Jozef Venglos"
           },
           {
             "pais_id": 39,
             "pais": "Estados Unidos",
-            "director_tecnico": "Bill Jeffrey"
+            "director_tecnico": "Bob Gansler"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Azeglio Vicini"
           }
         ]
       },
@@ -63532,22 +63532,22 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Carlos Bilardo"
           },
           {
             "pais_id": 16,
             "pais": "Camerún",
-            "director_tecnico": "Claude Le Roy"
+            "director_tecnico": "Valeri Nepomnyashchi"
           },
           {
             "pais_id": 79,
             "pais": "Rumania",
-            "director_tecnico": "Alexandru Savulescu"
+            "director_tecnico": "Emerich Jenei"
           },
           {
             "pais_id": 93,
             "pais": "URSS",
-            "director_tecnico": "Gavril Kachalin"
+            "director_tecnico": "Valeriy Lobanovskyi"
           }
         ]
       },
@@ -63557,22 +63557,22 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Sebastiao Lazaroni"
           },
           {
             "pais_id": 28,
             "pais": "Costa Rica",
-            "director_tecnico": "Alexandre Guimaraes"
+            "director_tecnico": "Bora Milutinovic"
           },
           {
             "pais_id": 35,
             "pais": "Escocia",
-            "director_tecnico": "Alex Ferguson"
+            "director_tecnico": "Andy Roxburgh"
           },
           {
             "pais_id": 87,
             "pais": "Suecia",
-            "director_tecnico": "Georg Ericson"
+            "director_tecnico": "Olle Nordin"
           }
         ]
       },
@@ -63587,7 +63587,7 @@
           {
             "pais_id": 23,
             "pais": "Colombia",
-            "director_tecnico": "Adolfo Pedernera"
+            "director_tecnico": "Francisco Maturana"
           },
           {
             "pais_id": 41,
@@ -63597,7 +63597,7 @@
           {
             "pais_id": 103,
             "pais": "Yugoslavia",
-            "director_tecnico": "Aleksandar Tirnanic"
+            "director_tecnico": "Ivica Osim"
           }
         ]
       },
@@ -63607,22 +63607,22 @@
           {
             "pais_id": 15,
             "pais": "Bélgica",
-            "director_tecnico": "Doug Livingstone"
+            "director_tecnico": "Guy Thys"
           },
           {
             "pais_id": 26,
             "pais": "Corea del Sur",
-            "director_tecnico": "Dick Advocaat"
+            "director_tecnico": "Hoe Taik Lee"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Luis Suarez"
           },
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Óscar Tabárez"
           }
         ]
       }
@@ -68621,22 +68621,22 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Carlos Bilardo"
           },
           {
             "pais_id": 14,
             "pais": "Bulgaria",
-            "director_tecnico": "Dimitar Penev"
+            "director_tecnico": "Ivan Vutsov"
           },
           {
             "pais_id": 26,
             "pais": "Corea del Sur",
-            "director_tecnico": "Dick Advocaat"
+            "director_tecnico": "Jung Nam Kim"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Enzo Bearzot"
           }
         ]
       },
@@ -68646,7 +68646,7 @@
           {
             "pais_id": 15,
             "pais": "Bélgica",
-            "director_tecnico": "Doug Livingstone"
+            "director_tecnico": "Guy Thys"
           },
           {
             "pais_id": 51,
@@ -68656,12 +68656,12 @@
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Bora Milutinovic"
           },
           {
             "pais_id": 72,
             "pais": "Paraguay",
-            "director_tecnico": "Anibal Ruiz Leites"
+            "director_tecnico": "Cayetano Re"
           }
         ]
       },
@@ -68671,22 +68671,22 @@
           {
             "pais_id": 17,
             "pais": "Canadá",
-            "director_tecnico": "John Herdman"
+            "director_tecnico": "Tony Waiters"
           },
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Henri Michel"
           },
           {
             "pais_id": 48,
             "pais": "Hungría",
-            "director_tecnico": "Alfred Schaffer"
+            "director_tecnico": "Gyorgy Mezey"
           },
           {
             "pais_id": 93,
             "pais": "URSS",
-            "director_tecnico": "Gavril Kachalin"
+            "director_tecnico": "Valeriy Lobanovskyi"
           }
         ]
       },
@@ -68701,12 +68701,12 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Tele Santana"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Miguel Munoz"
           },
           {
             "pais_id": 53,
@@ -68726,7 +68726,7 @@
           {
             "pais_id": 32,
             "pais": "Dinamarca",
-            "director_tecnico": "Age Hareide"
+            "director_tecnico": "Sepp Piontek"
           },
           {
             "pais_id": 35,
@@ -68736,7 +68736,7 @@
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Omar Borras"
           }
         ]
       }
@@ -73615,17 +73615,17 @@
           {
             "pais_id": 15,
             "pais": "Bélgica",
-            "director_tecnico": "Doug Livingstone"
+            "director_tecnico": "Guy Thys"
           },
           {
             "pais_id": 74,
             "pais": "Polonia",
-            "director_tecnico": "Adam Nawalka"
+            "director_tecnico": "Antoni Piechniczek"
           },
           {
             "pais_id": 93,
             "pais": "URSS",
-            "director_tecnico": "Gavril Kachalin"
+            "director_tecnico": "Kostantin Beskov"
           }
         ]
       },
@@ -73635,17 +73635,17 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Jupp Derwall"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Jose Santamaria"
           },
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Ron Greenwood"
           }
         ]
       },
@@ -73655,17 +73655,17 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Cesar Luis Menotti"
           },
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Tele Santana"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Enzo Bearzot"
           }
         ]
       },
@@ -73680,7 +73680,7 @@
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Michel Hidalgo"
           },
           {
             "pais_id": 53,
@@ -73695,22 +73695,22 @@
           {
             "pais_id": 16,
             "pais": "Camerún",
-            "director_tecnico": "Claude Le Roy"
+            "director_tecnico": "Jean Vincent"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Enzo Bearzot"
           },
           {
             "pais_id": 73,
             "pais": "Perú",
-            "director_tecnico": "Didi"
+            "director_tecnico": "Tim"
           },
           {
             "pais_id": 74,
             "pais": "Polonia",
-            "director_tecnico": "Adam Nawalka"
+            "director_tecnico": "Antoni Piechniczek"
           }
         ]
       },
@@ -73720,12 +73720,12 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Jupp Derwall"
           },
           {
             "pais_id": 6,
             "pais": "Argelia",
-            "director_tecnico": "Rabah Saadane"
+            "director_tecnico": "Rachid Mekhloufi"
           },
           {
             "pais_id": 9,
@@ -73735,7 +73735,7 @@
           {
             "pais_id": 21,
             "pais": "Chile",
-            "director_tecnico": "Arturo Bucciardi"
+            "director_tecnico": "Luis Alberto Santibanez"
           }
         ]
       },
@@ -73745,22 +73745,22 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Cesar Luis Menotti"
           },
           {
             "pais_id": 15,
             "pais": "Bélgica",
-            "director_tecnico": "Doug Livingstone"
+            "director_tecnico": "Guy Thys"
           },
           {
             "pais_id": 40,
             "pais": "El Salvador",
-            "director_tecnico": "Hernan Carrasco"
+            "director_tecnico": "Mauricio Rodriguez"
           },
           {
             "pais_id": 48,
             "pais": "Hungría",
-            "director_tecnico": "Alfred Schaffer"
+            "director_tecnico": "Kalman Meszoly"
           }
         ]
       },
@@ -73770,17 +73770,17 @@
           {
             "pais_id": 71,
             "pais": "Checoslovaquia",
-            "director_tecnico": "Josef Cejp"
+            "director_tecnico": "Jozef Venglos"
           },
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Michel Hidalgo"
           },
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Ron Greenwood"
           },
           {
             "pais_id": 61,
@@ -73795,7 +73795,7 @@
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Jose Santamaria"
           },
           {
             "pais_id": 47,
@@ -73810,7 +73810,7 @@
           {
             "pais_id": 103,
             "pais": "Yugoslavia",
-            "director_tecnico": "Aleksandar Tirnanic"
+            "director_tecnico": "Miljan Miljanic"
           }
         ]
       }
@@ -78257,22 +78257,22 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Cesar Luis Menotti"
           },
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Michel Hidalgo"
           },
           {
             "pais_id": 48,
             "pais": "Hungría",
-            "director_tecnico": "Alfred Schaffer"
+            "director_tecnico": "Lajos Baroti"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Enzo Bearzot"
           }
         ]
       },
@@ -78282,17 +78282,17 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Helmut Schoen"
           },
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Jose Roca"
           },
           {
             "pais_id": 74,
             "pais": "Polonia",
-            "director_tecnico": "Adam Nawalka"
+            "director_tecnico": "Jacek Gmoch"
           },
           {
             "pais_id": 97,
@@ -78307,17 +78307,17 @@
           {
             "pais_id": 9,
             "pais": "Austria",
-            "director_tecnico": "Georg Schmidt"
+            "director_tecnico": "Helmut Senekowitsch"
           },
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Claudio Coutinho"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Ladislao Kubala"
           },
           {
             "pais_id": 87,
@@ -78332,22 +78332,22 @@
           {
             "pais_id": 35,
             "pais": "Escocia",
-            "director_tecnico": "Alex Ferguson"
+            "director_tecnico": "Alistair Macleod"
           },
           {
             "pais_id": 54,
             "pais": "Irán",
-            "director_tecnico": "Branko Ivankovic"
+            "director_tecnico": "Heshmat Mohadjerani"
           },
           {
             "pais_id": 10,
             "pais": "Países Bajos",
-            "director_tecnico": "Bert Van Marwijk"
+            "director_tecnico": "Ernst Happel"
           },
           {
             "pais_id": 73,
             "pais": "Perú",
-            "director_tecnico": "Didi"
+            "director_tecnico": "Marcos Calderon"
           }
         ]
       },
@@ -78357,22 +78357,22 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Helmut Schoen"
           },
           {
             "pais_id": 9,
             "pais": "Austria",
-            "director_tecnico": "Georg Schmidt"
+            "director_tecnico": "Helmut Senekowitsch"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Enzo Bearzot"
           },
           {
             "pais_id": 10,
             "pais": "Países Bajos",
-            "director_tecnico": "Bert Van Marwijk"
+            "director_tecnico": "Ernst Happel"
           }
         ]
       },
@@ -78382,22 +78382,22 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Cesar Luis Menotti"
           },
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Claudio Coutinho"
           },
           {
             "pais_id": 73,
             "pais": "Perú",
-            "director_tecnico": "Didi"
+            "director_tecnico": "Marcos Calderon"
           },
           {
             "pais_id": 74,
             "pais": "Polonia",
-            "director_tecnico": "Adam Nawalka"
+            "director_tecnico": "Jacek Gmoch"
           }
         ]
       }
@@ -81390,7 +81390,7 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Helmut Schoen"
           },
           {
             "pais_id": 2,
@@ -81400,12 +81400,12 @@
           {
             "pais_id": 8,
             "pais": "Australia",
-            "director_tecnico": "Ange Postecoglou"
+            "director_tecnico": "Rale Rasic"
           },
           {
             "pais_id": 21,
             "pais": "Chile",
-            "director_tecnico": "Arturo Bucciardi"
+            "director_tecnico": "Luis Alamos"
           }
         ]
       },
@@ -81415,17 +81415,17 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Zagallo"
           },
           {
             "pais_id": 35,
             "pais": "Escocia",
-            "director_tecnico": "Alex Ferguson"
+            "director_tecnico": "Willie Ormond"
           },
           {
             "pais_id": 103,
             "pais": "Yugoslavia",
-            "director_tecnico": "Aleksandar Tirnanic"
+            "director_tecnico": "Miljan Miljanic"
           },
           {
             "pais_id": 95,
@@ -81440,12 +81440,12 @@
           {
             "pais_id": 14,
             "pais": "Bulgaria",
-            "director_tecnico": "Dimitar Penev"
+            "director_tecnico": "Hristo Mladenov"
           },
           {
             "pais_id": 10,
             "pais": "Países Bajos",
-            "director_tecnico": "Bert Van Marwijk"
+            "director_tecnico": "Rinus Michels"
           },
           {
             "pais_id": 87,
@@ -81455,7 +81455,7 @@
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Roberto Porta"
           }
         ]
       },
@@ -81465,7 +81465,7 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Vladislao Cap"
           },
           {
             "pais_id": 46,
@@ -81475,12 +81475,12 @@
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Ferruccio Valcareggi"
           },
           {
             "pais_id": 74,
             "pais": "Polonia",
-            "director_tecnico": "Adam Nawalka"
+            "director_tecnico": "Kazimierz Gorski"
           }
         ]
       },
@@ -81495,17 +81495,17 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Vladislao Cap"
           },
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Zagallo"
           },
           {
             "pais_id": 10,
             "pais": "Países Bajos",
-            "director_tecnico": "Bert Van Marwijk"
+            "director_tecnico": "Rinus Michels"
           }
         ]
       },
@@ -81515,12 +81515,12 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Helmut Schoen"
           },
           {
             "pais_id": 74,
             "pais": "Polonia",
-            "director_tecnico": "Adam Nawalka"
+            "director_tecnico": "Kazimierz Gorski"
           },
           {
             "pais_id": 87,
@@ -81530,7 +81530,7 @@
           {
             "pais_id": 103,
             "pais": "Yugoslavia",
-            "director_tecnico": "Aleksandar Tirnanic"
+            "director_tecnico": "Miljan Miljanic"
           }
         ]
       }
@@ -84599,7 +84599,7 @@
           {
             "pais_id": 15,
             "pais": "Bélgica",
-            "director_tecnico": "Doug Livingstone"
+            "director_tecnico": "Raymond Goethals"
           },
           {
             "pais_id": 40,
@@ -84609,7 +84609,7 @@
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Raul Cardenas"
           },
           {
             "pais_id": 93,
@@ -84629,17 +84629,17 @@
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Ferruccio Valcareggi"
           },
           {
             "pais_id": 87,
             "pais": "Suecia",
-            "director_tecnico": "Georg Ericson"
+            "director_tecnico": "Orvar Bergmark"
           },
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Juan Hohberg"
           }
         ]
       },
@@ -84649,12 +84649,12 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Zagallo"
           },
           {
             "pais_id": 71,
             "pais": "Checoslovaquia",
-            "director_tecnico": "Josef Cejp"
+            "director_tecnico": "Jozef Marko"
           },
           {
             "pais_id": 50,
@@ -84664,7 +84664,7 @@
           {
             "pais_id": 79,
             "pais": "Rumania",
-            "director_tecnico": "Alexandru Savulescu"
+            "director_tecnico": "Angelo Niculescu"
           }
         ]
       },
@@ -84674,17 +84674,17 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Helmut Schoen"
           },
           {
             "pais_id": 14,
             "pais": "Bulgaria",
-            "director_tecnico": "Dimitar Penev"
+            "director_tecnico": "Stefan Bozhkov"
           },
           {
             "pais_id": 63,
             "pais": "Marruecos",
-            "director_tecnico": "Abdellah Blinda"
+            "director_tecnico": "Blagoje Vidinic"
           },
           {
             "pais_id": 73,
@@ -87235,7 +87235,7 @@
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Henri Guerin"
           },
           {
             "pais_id": 50,
@@ -87245,12 +87245,12 @@
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Ignacio Trellez"
           },
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Ondino Viera"
           }
         ]
       },
@@ -87260,17 +87260,17 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Helmut Schoen"
           },
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Juan Carlos Lorenzo"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Jose Villalonga"
           },
           {
             "pais_id": 88,
@@ -87285,22 +87285,22 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Vicente Feola"
           },
           {
             "pais_id": 14,
             "pais": "Bulgaria",
-            "director_tecnico": "Dimitar Penev"
+            "director_tecnico": "Rudolf Vytlacil"
           },
           {
             "pais_id": 48,
             "pais": "Hungría",
-            "director_tecnico": "Alfred Schaffer"
+            "director_tecnico": "Lajos Baroti"
           },
           {
             "pais_id": 75,
             "pais": "Portugal",
-            "director_tecnico": "Antonio Oliveira"
+            "director_tecnico": "Otto Gloria"
           }
         ]
       },
@@ -87310,22 +87310,22 @@
           {
             "pais_id": 21,
             "pais": "Chile",
-            "director_tecnico": "Arturo Bucciardi"
+            "director_tecnico": "Luis Alamos"
           },
           {
             "pais_id": 25,
             "pais": "Corea del Norte",
-            "director_tecnico": "Jong Hun Kim"
+            "director_tecnico": "Rye Hyun Myung"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Edmondo Fabbri"
           },
           {
             "pais_id": 93,
             "pais": "URSS",
-            "director_tecnico": "Gavril Kachalin"
+            "director_tecnico": "Nikolai Morozov"
           }
         ]
       }
@@ -88673,12 +88673,12 @@
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Juan Carlos Corazzo"
           },
           {
             "pais_id": 103,
             "pais": "Yugoslavia",
-            "director_tecnico": "Aleksandar Tirnanic"
+            "director_tecnico": "Prvoslav Mihajlovic"
           }
         ]
       },
@@ -88688,22 +88688,22 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Sepp Herberger"
           },
           {
             "pais_id": 21,
             "pais": "Chile",
-            "director_tecnico": "Arturo Bucciardi"
+            "director_tecnico": "Fernando Riera"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Paolo Mazza"
           },
           {
             "pais_id": 88,
             "pais": "Suiza",
-            "director_tecnico": "Alfredo Foni"
+            "director_tecnico": "Karl Rappan"
           }
         ]
       },
@@ -88713,22 +88713,22 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Aymore Moreira"
           },
           {
             "pais_id": 71,
             "pais": "Checoslovaquia",
-            "director_tecnico": "Josef Cejp"
+            "director_tecnico": "Rudolf Vytlacil"
           },
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Helenio Herrera"
           },
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Ignacio Trellez"
           }
         ]
       },
@@ -88738,22 +88738,22 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Juan Carlos Lorenzo"
           },
           {
             "pais_id": 14,
             "pais": "Bulgaria",
-            "director_tecnico": "Dimitar Penev"
+            "director_tecnico": "Georgi Pachedzhiev"
           },
           {
             "pais_id": 48,
             "pais": "Hungría",
-            "director_tecnico": "Alfred Schaffer"
+            "director_tecnico": "Lajos Baroti"
           },
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Walter Winterbottom"
           }
         ]
       }
@@ -90061,22 +90061,22 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Sepp Herberger"
           },
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Guillermo Stabile"
           },
           {
             "pais_id": 71,
             "pais": "Checoslovaquia",
-            "director_tecnico": "Josef Cejp"
+            "director_tecnico": "Karel Kolsky"
           },
           {
             "pais_id": 53,
             "pais": "Irlanda del Norte",
-            "director_tecnico": "Billy Bingham"
+            "director_tecnico": "Peter Doherty"
           }
         ]
       },
@@ -90086,17 +90086,17 @@
           {
             "pais_id": 35,
             "pais": "Escocia",
-            "director_tecnico": "Alex Ferguson"
+            "director_tecnico": "Dawson Walker"
           },
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Albert Batteaux"
           },
           {
             "pais_id": 72,
             "pais": "Paraguay",
-            "director_tecnico": "Anibal Ruiz Leites"
+            "director_tecnico": "Aurelio Gonzales"
           },
           {
             "pais_id": 103,
@@ -90116,7 +90116,7 @@
           {
             "pais_id": 48,
             "pais": "Hungría",
-            "director_tecnico": "Alfred Schaffer"
+            "director_tecnico": "Lajos Baroti"
           },
           {
             "pais_id": 64,
@@ -90126,7 +90126,7 @@
           {
             "pais_id": 87,
             "pais": "Suecia",
-            "director_tecnico": "Georg Ericson"
+            "director_tecnico": "George Raynor"
           }
         ]
       },
@@ -90136,17 +90136,17 @@
           {
             "pais_id": 9,
             "pais": "Austria",
-            "director_tecnico": "Georg Schmidt"
+            "director_tecnico": "Josef Argauer"
           },
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Vicente Feola"
           },
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Walter Winterbottom"
           },
           {
             "pais_id": 93,
@@ -91772,17 +91772,17 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Zeze Moreira"
           },
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Pierre Pibarot"
           },
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Ignacio Trellez"
           },
           {
             "pais_id": 103,
@@ -91797,17 +91797,17 @@
           {
             "pais_id": 3,
             "pais": "Alemania Occidental",
-            "director_tecnico": "Franz Beckenbauer"
+            "director_tecnico": "Sepp Herberger"
           },
           {
             "pais_id": 26,
             "pais": "Corea del Sur",
-            "director_tecnico": "Dick Advocaat"
+            "director_tecnico": "Yung Sik Kim"
           },
           {
             "pais_id": 48,
             "pais": "Hungría",
-            "director_tecnico": "Alfred Schaffer"
+            "director_tecnico": "Gusztav Sebes"
           },
           {
             "pais_id": 96,
@@ -91822,7 +91822,7 @@
           {
             "pais_id": 9,
             "pais": "Austria",
-            "director_tecnico": "Georg Schmidt"
+            "director_tecnico": "Walter Nausch"
           },
           {
             "pais_id": 71,
@@ -91832,12 +91832,12 @@
           {
             "pais_id": 35,
             "pais": "Escocia",
-            "director_tecnico": "Alex Ferguson"
+            "director_tecnico": "Dawson Walker"
           },
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Juan Lopez"
           }
         ]
       },
@@ -91852,17 +91852,17 @@
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Walter Winterbottom"
           },
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Lajos Czeizler"
           },
           {
             "pais_id": 88,
             "pais": "Suiza",
-            "director_tecnico": "Alfredo Foni"
+            "director_tecnico": "Karl Rappan"
           }
         ]
       }
@@ -93404,22 +93404,22 @@
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Flavio Costa"
           },
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Octavio Vial"
           },
           {
             "pais_id": 88,
             "pais": "Suiza",
-            "director_tecnico": "Alfredo Foni"
+            "director_tecnico": "Franco Andreoli"
           },
           {
             "pais_id": 103,
             "pais": "Yugoslavia",
-            "director_tecnico": "Aleksandar Tirnanic"
+            "director_tecnico": "Milorad Arsenijevic"
           }
         ]
       },
@@ -93434,7 +93434,7 @@
           {
             "pais_id": 38,
             "pais": "España",
-            "director_tecnico": "Amadeo Garcia Salazar"
+            "director_tecnico": "Guillermo Eizaguirre"
           },
           {
             "pais_id": 39,
@@ -93444,7 +93444,7 @@
           {
             "pais_id": 50,
             "pais": "Inglaterra",
-            "director_tecnico": "Alf Ramsey"
+            "director_tecnico": "Walter Winterbottom"
           }
         ]
       },
@@ -93454,17 +93454,17 @@
           {
             "pais_id": 57,
             "pais": "Italia",
-            "director_tecnico": "Arrigo Sacchi"
+            "director_tecnico": "Ferruccio Novo"
           },
           {
             "pais_id": 72,
             "pais": "Paraguay",
-            "director_tecnico": "Anibal Ruiz Leites"
+            "director_tecnico": "Manuel Fleitas Solich"
           },
           {
             "pais_id": 87,
             "pais": "Suecia",
-            "director_tecnico": "Georg Ericson"
+            "director_tecnico": "George Raynor"
           }
         ]
       },
@@ -93479,7 +93479,7 @@
           {
             "pais_id": 99,
             "pais": "Uruguay",
-            "director_tecnico": "Alberto Suppici"
+            "director_tecnico": "Juan Lopez"
           }
         ]
       }
@@ -96438,22 +96438,22 @@
           {
             "pais_id": 7,
             "pais": "Argentina",
-            "director_tecnico": "Alejandro Sabella"
+            "director_tecnico": "Juan Tramutola"
           },
           {
             "pais_id": 21,
             "pais": "Chile",
-            "director_tecnico": "Arturo Bucciardi"
+            "director_tecnico": "Gyorgi Orth"
           },
           {
             "pais_id": 42,
             "pais": "Francia",
-            "director_tecnico": "Aime Jacquet"
+            "director_tecnico": "Raoul Caudron"
           },
           {
             "pais_id": 64,
             "pais": "México",
-            "director_tecnico": "Antonio Lopez Herranz"
+            "director_tecnico": "Juan Luque"
           }
         ]
       },
@@ -96463,17 +96463,17 @@
           {
             "pais_id": 11,
             "pais": "Bolivia",
-            "director_tecnico": "Mario Pretto"
+            "director_tecnico": "Ulises Saucedo"
           },
           {
             "pais_id": 13,
             "pais": "Brasil",
-            "director_tecnico": "Ademar Pimenta"
+            "director_tecnico": "Pindaro De Carvalho"
           },
           {
             "pais_id": 103,
             "pais": "Yugoslavia",
-            "director_tecnico": "Aleksandar Tirnanic"
+            "director_tecnico": "Bosko Simonovic"
           }
         ]
       },
@@ -96483,12 +96483,12 @@
           {
             "pais_id": 73,
             "pais": "Perú",
-            "director_tecnico": "Didi"
+            "director_tecnico": "Francisco Bru"
           },
           {
             "pais_id": 79,
             "pais": "Rumania",
-            "director_tecnico": "Alexandru Savulescu"
+            "director_tecnico": "Constantin Radulescu"
           },
           {
             "pais_id": 99,
@@ -96503,17 +96503,17 @@
           {
             "pais_id": 15,
             "pais": "Bélgica",
-            "director_tecnico": "Doug Livingstone"
+            "director_tecnico": "Hector Goetinck"
           },
           {
             "pais_id": 39,
             "pais": "Estados Unidos",
-            "director_tecnico": "Bill Jeffrey"
+            "director_tecnico": "Bob Millar"
           },
           {
             "pais_id": 72,
             "pais": "Paraguay",
-            "director_tecnico": "Anibal Ruiz Leites"
+            "director_tecnico": "Jose Durand Laguna"
           }
         ]
       }

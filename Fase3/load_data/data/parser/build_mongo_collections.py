@@ -52,6 +52,20 @@ for j in jugadores_d.values():
 
 # ─── COLECCIÓN: mundiales ───────────────────────────────────────────────────
 # Mapas auxiliares
+
+# Mapa (pais_id, mundial_id) -> director_tecnico
+# Se construye pasando por partido_plantilla -> evento_partido -> mundial
+dt_por_pais_mundial = {}
+for pp_entry in pp:
+    pla_id = pp_entry["Plantilla_id_pla"]
+    partido_id = pp_entry["Evento_Partido_id_ev_pa"]
+    pla = plantillas.get(pla_id)
+    partido = partidos.get(partido_id)
+    if pla and partido:
+        key = (pla["Pais_id_pa"], partido["Llave_Mundial_id_mu"])
+        if key not in dt_por_pais_mundial:
+            dt_por_pais_mundial[key] = pla["director_tecnico_pla"]
+
 pla_por_partido = {}   # partido_id -> [plantilla_id, ...]
 for x in pp:
     pla_por_partido.setdefault(x["Evento_Partido_id_ev_pa"], []).append(x["Plantilla_id_pla"])
@@ -94,8 +108,7 @@ for mu_id, mu in mundiales.items():
     grupos_doc = {}
     for x in pcm_por_mundial.get(mu_id, []):
         g_nombre = grupos.get(x["Grupo_id_gr"], "?")
-        pla_dt = next((p["director_tecnico_pla"] for p in plantillas.values()
-                       if p["Pais_id_pa"] == x["Pais_id_pa"]), None)
+        pla_dt = dt_por_pais_mundial.get((x["Pais_id_pa"], mu_id))
         grupos_doc.setdefault(g_nombre, []).append({
             "pais_id": x["Pais_id_pa"],
             "pais": paises.get(x["Pais_id_pa"], {}).get("name_pa", "?"),
@@ -194,8 +207,7 @@ for pa_id, pa in paises.items():
     participaciones = []
     for x in part_por_pais.get(pa_id, []):
         mu = mundiales.get(x["Mundial_id_mu"], {})
-        pla_dt = next((p["director_tecnico_pla"] for p in plantillas.values()
-                       if p["Pais_id_pa"] == pa_id), None)
+        pla_dt = dt_por_pais_mundial.get((pa_id, x["Mundial_id_mu"]))
         participaciones.append({
             "mundial_id": x["Mundial_id_mu"],
             "anio": mu.get("anio_mu"),

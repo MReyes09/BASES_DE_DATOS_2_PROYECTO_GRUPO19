@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python build_mongo_collections.py)",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
